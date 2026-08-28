@@ -1,2 +1,4 @@
-﻿seleniumbase==4.51.12
+seleniumbase==4.51.12
 
+# dev / running the test suite (optional):
+# pytest>=8

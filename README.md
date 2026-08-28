@@ -48,7 +48,10 @@ Extra knobs (all scripts that open the browser accept them):
 
 ## Setup
 
-Windows, Python 3.11+, Chrome installed.
+Windows, macOS, or Linux — Python 3.11+ and Chrome installed. The code itself is fully cross-platform
+(pure `pathlib`, no OS-specific calls); only the commands below differ per OS.
+
+**Windows**
 
 ```
 py -3.11 -m venv .venv
@@ -57,6 +60,19 @@ py -3.11 -m venv .venv
 copy config\config.example.json config\config.json
 copy config\courses.example.json config\courses.json
 ```
+
+**macOS / Linux**
+
+```
+python3.11 -m venv .venv
+.venv/bin/python -m pip install -r requirements.txt
+
+cp config/config.example.json config/config.json
+cp config/courses.example.json config/courses.json
+```
+
+The examples in this README use the Windows form `.venv\Scripts\python.exe`; on macOS/Linux substitute
+`.venv/bin/python` (and forward slashes) everywhere.
 
 Then edit `config/courses.json` and add your course(s): a short `key`, a display `name`, and the course's
 launch `url` (open your course on netacad.com and copy the address — it looks like
