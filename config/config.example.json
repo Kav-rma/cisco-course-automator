@@ -1,0 +1,42 @@
+{
+  "browser": {
+    "headed": true,
+    "uc": true,
+    "incognito": false,
+    "user_data_dir": "profile",
+    "window_size": "1400,900",
+    "session_mode": "ephemeral"
+  },
+  "auth": {
+    "login_host": "auth.netacad.com",
+    "app_host": "www.netacad.com",
+    "manual_login_timeout_sec": 600
+  },
+  "timeouts": {
+    "page_load": 30,
+    "element": 15,
+    "app_render": 60,
+    "completion": 20
+  },
+  "video": {
+    "strategy": "seek_end",
+    "seek_margin_sec": 1.0,
+    "playback_rate": 2.0,
+    "fallback_strategy": "rate"
+  },
+  "paths": {
+    "data": "data",
+    "logs": "logs",
+    "screenshots": "logs/screenshots",
+    "recon": "data/recon"
+  },
+  "debug": true,
+  "screenshots_on_error": true,
+  "knowledge_check": {
+    "live_model_fallback": true
+  },
+  "run": {
+    "on_needs_user": "skip",
+    "max_consecutive_failures": 5
+  }
+}

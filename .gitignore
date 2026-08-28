@@ -1,0 +1,21 @@
+# --- NEVER COMMIT: live browser sessions (these folders ARE your NetAcad/Google login) ---
+profile/
+profile_*/
+
+# --- personal data: extracted course content, your answers, run reports, logs ---
+# Cisco's quiz/exam questions are copyrighted assessment content - do not publish extracted banks.
+data/
+logs/
+downloaded_files/
+scripts/downloaded_files/
+
+# --- your local configuration (ship the *.example.json templates instead) ---
+config/config.json
+config/courses.json
+
+# --- python ---
+.venv/
+__pycache__/
+*.pyc
+*.pyo
+.pytest_cache/

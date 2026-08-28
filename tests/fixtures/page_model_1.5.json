@@ -1,0 +1,790 @@
+{
+ "href": "https://www.netacad.com/authoring-resources/index.html?xAPILaunchKey=458b296e-d760-4f64-b698-50164342a797&xAPILaunchService=https://www.netacad.com/adl/content/&lang=en-US&moduleNumber=1#/courses/ff9e491c-49be-4734-803e-a79e6e83dab1/cb659016-84e7-5d77-9648-faabd7d9db8a/id/88a1cc23-4579-4b92-ab94-ed02695f56a2",
+ "location_id": "88a1cc23-4579-4b92-ab94-ed02695f56a2",
+ "title": "Module {{_globals._moduleNumber}}: Basic Device Configuration | 1.5. Verify Directly Connected Networks",
+ "page_modelid": "88a1cc23-4579-4b92-ab94-ed02695f56a2",
+ "page_heading": {
+  "title": "1.5. Verify Directly Connected Networks",
+  "complete": false,
+  "level": "1"
+ },
+ "progress_label": "Page completion 18%",
+ "articles": [
+  {
+   "modelid": "fb1f07a7-9d7c-4c26-9621-9da68320eee1",
+   "complete": true,
+   "heading": null,
+   "blocks": [
+    {
+     "modelid": "b404d492-020b-4467-9a69-88c9057810de",
+     "complete": true,
+     "heading": null,
+     "components": [
+      {
+       "tag": "text-view",
+       "modelid": "27379df8-eb4f-4e61-8958-a54259451492",
+       "complete": true,
+       "heading": null,
+       "classes": "is-left no-element-backgrounds",
+       "text_len": 38
+      }
+     ]
+    },
+    {
+     "modelid": "66bd34d7-c215-41b5-8948-e2f6dbcc5781",
+     "complete": true,
+     "heading": null,
+     "components": [
+      {
+       "tag": "text-view",
+       "modelid": "69ec7607-dcaa-4967-9de2-7bdd89ce0170",
+       "complete": true,
+       "heading": null,
+       "classes": "is-full remove-padding-bottom",
+       "text_len": 15
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "modelid": "40880492-3ca7-40a7-8bd0-3a21052d5c99",
+   "complete": true,
+   "heading": {
+    "title": "1.5.1 Interface Verification Commands",
+    "complete": true,
+    "level": "2"
+   },
+   "blocks": [
+    {
+     "modelid": "d935c164-2329-4cf6-9ee5-ebd67c3e3719",
+     "complete": true,
+     "heading": null,
+     "components": [
+      {
+       "tag": "text-view",
+       "modelid": "66724cb0-cffb-4e5a-9293-ca69ff35f30d",
+       "complete": true,
+       "heading": null,
+       "classes": "is-full",
+       "text_len": 433
+      }
+     ]
+    },
+    {
+     "modelid": "f5e4e52f-29e7-4d16-87ff-05bef9cf1533",
+     "complete": true,
+     "heading": null,
+     "components": [
+      {
+       "tag": "graphic-view",
+       "modelid": "5366c9d5-216e-44bb-a724-ac4e2458d3c1",
+       "complete": true,
+       "heading": null,
+       "classes": "is-full image-background-color",
+       "text_len": 0
+      }
+     ]
+    },
+    {
+     "modelid": "a2fe1d12-4995-4912-b1f8-f1e52c6a244b",
+     "complete": true,
+     "heading": null,
+     "components": [
+      {
+       "tag": "text-view",
+       "modelid": "5a9de58a-7d42-4657-8183-550f7fb36868",
+       "complete": true,
+       "heading": null,
+       "classes": "is-full",
+       "text_len": 728
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "modelid": "af2f45d5-3a1a-4f89-bfc7-51a396942f96",
+   "complete": true,
+   "heading": null,
+   "blocks": [
+    {
+     "modelid": "165bf4dc-0274-411f-a3e8-d1c9e609c519",
+     "complete": true,
+     "heading": null,
+     "components": [
+      {
+       "tag": "blank-view",
+       "modelid": "1d48c660-6dd4-48b3-93a2-e5fd963a9c83",
+       "complete": true,
+       "heading": null,
+       "classes": "is-full",
+       "text_len": 0
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "modelid": "3f2ffb55-d7d3-467c-b0c7-cf5bf01d6267",
+   "complete": false,
+   "heading": {
+    "title": "1.5.2 Verify Interface Status",
+    "complete": false,
+    "level": "2"
+   },
+   "blocks": [
+    {
+     "modelid": "bff21f8e-2fd5-462a-be17-5d7772b53aa3",
+     "complete": false,
+     "heading": null,
+     "components": [
+      {
+       "tag": "text-view",
+       "modelid": "64be78fe-6322-4fc7-9e60-c51181789fa0",
+       "complete": false,
+       "heading": null,
+       "classes": "is-full",
+       "text_len": 388
+      }
+     ]
+    },
+    {
+     "modelid": "0fad204d-7164-49ee-8dc4-28c550163e7a",
+     "complete": true,
+     "heading": null,
+     "components": [
+      {
+       "tag": "commandwindow-view",
+       "modelid": "031f5502-876c-494c-bead-3101b967a0f8",
+       "complete": true,
+       "heading": null,
+       "classes": "is-full animated-hide",
+       "text_len": 560
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "modelid": "df3a3a92-dced-4e4d-a73e-fc82ce46744d",
+   "complete": true,
+   "heading": null,
+   "blocks": [
+    {
+     "modelid": "b7957481-0254-4910-bccc-c9e91b6e6079",
+     "complete": true,
+     "heading": null,
+     "components": [
+      {
+       "tag": "blank-view",
+       "modelid": "3b98aafd-15cf-4bc1-839e-fa71823a004f",
+       "complete": true,
+       "heading": null,
+       "classes": "is-full",
+       "text_len": 0
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "modelid": "f8255ff7-f903-458e-89f2-8f161e893391",
+   "complete": false,
+   "heading": {
+    "title": "1.5.3 Verify IPv6 Link Local and Multicast Addresses",
+    "complete": false,
+    "level": "2"
+   },
+   "blocks": [
+    {
+     "modelid": "24e2d9cb-db49-44e0-8a7e-13ee99de73e0",
+     "complete": false,
+     "heading": null,
+     "components": [
+      {
+       "tag": "text-view",
+       "modelid": "a42a077d-ad43-4f55-b09c-bef2be235bf4",
+       "complete": false,
+       "heading": null,
+       "classes": "is-full",
+       "text_len": 825
+      }
+     ]
+    },
+    {
+     "modelid": "36eae004-6890-483a-bbc5-ea0a857d26a6",
+     "complete": false,
+     "heading": null,
+     "components": [
+      {
+       "tag": "commandwindow-view",
+       "modelid": "ebf8fe3c-f6a2-443b-ba0d-e1493a46312b",
+       "complete": false,
+       "heading": null,
+       "classes": "is-full animated-hide",
+       "text_len": 818
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "modelid": "0ada46ac-25c4-449d-a2ce-b20182c75e90",
+   "complete": true,
+   "heading": null,
+   "blocks": [
+    {
+     "modelid": "56922e62-e02f-4e36-a293-fcc390022fc5",
+     "complete": true,
+     "heading": null,
+     "components": [
+      {
+       "tag": "blank-view",
+       "modelid": "67ef5cfb-c2c3-49dd-bd46-592d720f5eba",
+       "complete": false,
+       "heading": null,
+       "classes": "is-full",
+       "text_len": 0
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "modelid": "2eb4b976-fd4b-4595-a4a9-b68bd80fa0bc",
+   "complete": false,
+   "heading": {
+    "title": "1.5.4 Verify Interface Configuration",
+    "complete": false,
+    "level": "2"
+   },
+   "blocks": [
+    {
+     "modelid": "996ab097-411b-4cd2-b6a3-d33a7660313b",
+     "complete": false,
+     "heading": null,
+     "components": [
+      {
+       "tag": "text-view",
+       "modelid": "53e3e721-160f-4e8c-963a-03301e831520",
+       "complete": false,
+       "heading": null,
+       "classes": "is-full",
+       "text_len": 130
+      }
+     ]
+    },
+    {
+     "modelid": "042eaa7f-f13b-4729-84a3-173be358268f",
+     "complete": true,
+     "heading": null,
+     "components": [
+      {
+       "tag": "commandwindow-view",
+       "modelid": "fefcf96f-3ba1-4de7-9c10-237d2a760397",
+       "complete": true,
+       "heading": null,
+       "classes": "is-full animated-hide",
+       "text_len": 271
+      }
+     ]
+    },
+    {
+     "modelid": "01d6805c-c611-48d8-b45a-42acf5bc8d6b",
+     "complete": true,
+     "heading": null,
+     "components": [
+      {
+       "tag": "text-view",
+       "modelid": "d632d1c3-859b-4dc5-8828-20cb4c7c131d",
+       "complete": true,
+       "heading": null,
+       "classes": "is-full",
+       "text_len": 310
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "modelid": "6086a972-bb05-45b8-9258-b92fd16ac83c",
+   "complete": true,
+   "heading": null,
+   "blocks": [
+    {
+     "modelid": "7cb094a6-b2fc-4fa1-a995-a3848ae9e357",
+     "complete": true,
+     "heading": null,
+     "components": [
+      {
+       "tag": "blank-view",
+       "modelid": "c30ca8f1-878e-489e-aa58-c814cf1df1e2",
+       "complete": true,
+       "heading": null,
+       "classes": "is-full",
+       "text_len": 0
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "modelid": "638eefa2-a055-4770-b299-2b318b3079ee",
+   "complete": false,
+   "heading": {
+    "title": "1.5.5 Verify Routes",
+    "complete": false,
+    "level": "2"
+   },
+   "blocks": [
+    {
+     "modelid": "122d135d-8e6a-43c4-b97c-9f4551d8a015",
+     "complete": false,
+     "heading": null,
+     "components": [
+      {
+       "tag": "text-view",
+       "modelid": "2b5ad770-ce39-46c0-9e88-c547c26d36a3",
+       "complete": false,
+       "heading": null,
+       "classes": "is-full",
+       "text_len": 450
+      }
+     ]
+    },
+    {
+     "modelid": "f1f2b40b-816b-44fd-9dd3-09c62d709c76",
+     "complete": false,
+     "heading": null,
+     "components": [
+      {
+       "tag": "commandwindow-view",
+       "modelid": "0eb47384-e4a2-430b-9d7b-1962fa9eb79c",
+       "complete": false,
+       "heading": null,
+       "classes": "is-full animated-hide",
+       "text_len": 1231
+      }
+     ]
+    },
+    {
+     "modelid": "4eb3c30d-75d9-469f-a0e5-4c1c9fcb8c7c",
+     "complete": false,
+     "heading": null,
+     "components": [
+      {
+       "tag": "text-view",
+       "modelid": "71cdf4e1-7cef-4a10-a4a7-bc66d3d42f09",
+       "complete": false,
+       "heading": null,
+       "classes": "is-full",
+       "text_len": 783
+      }
+     ]
+    },
+    {
+     "modelid": "5cfdacab-d0ce-4303-934b-f126af7fbede",
+     "complete": false,
+     "heading": null,
+     "components": [
+      {
+       "tag": "commandwindow-view",
+       "modelid": "18a0291d-d7fe-40d1-998f-007ce05fc91d",
+       "complete": false,
+       "heading": null,
+       "classes": "is-full animated-hide",
+       "text_len": 211
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "modelid": "4bebd1ab-99a5-4678-a99e-651bb84e029f",
+   "complete": true,
+   "heading": null,
+   "blocks": [
+    {
+     "modelid": "137edbb6-4386-4b96-974d-d6845ce20c37",
+     "complete": true,
+     "heading": null,
+     "components": [
+      {
+       "tag": "blank-view",
+       "modelid": "64be110e-5510-4549-896e-b5a106f53eb9",
+       "complete": false,
+       "heading": null,
+       "classes": "is-full",
+       "text_len": 0
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "modelid": "24835b7f-bfa3-4e29-9d7c-63a4ba9611a7",
+   "complete": false,
+   "heading": {
+    "title": "1.5.6 Filter Show Command Output",
+    "complete": false,
+    "level": "2"
+   },
+   "blocks": [
+    {
+     "modelid": "e3fdad98-2a51-44a1-9abf-90097bb96b9d",
+     "complete": true,
+     "heading": null,
+     "components": [
+      {
+       "tag": "text-view",
+       "modelid": "5d382b86-2cce-4c87-91ae-e2ff8da5a80a",
+       "complete": true,
+       "heading": null,
+       "classes": "is-full",
+       "text_len": 808
+      }
+     ]
+    },
+    {
+     "modelid": "9352ff9b-482c-4f2c-aa39-2ec17096f3c3",
+     "complete": false,
+     "heading": null,
+     "components": [
+      {
+       "tag": "text-view",
+       "modelid": "2598aeae-d816-4b55-808c-7efaecd47030",
+       "complete": true,
+       "heading": null,
+       "classes": "is-left no-element-backgrounds",
+       "text_len": 56
+      },
+      {
+       "tag": "tabs-view",
+       "modelid": "105b7b58-cca4-4d8d-98b3-fd0aa590856f",
+       "complete": false,
+       "heading": null,
+       "classes": "is-right tabs zoom-graphic-enabled",
+       "text_len": 236
+      }
+     ]
+    },
+    {
+     "modelid": "603f3cd3-af61-4bb8-b1cf-5de83c8e2a09",
+     "complete": true,
+     "heading": null,
+     "components": [
+      {
+       "tag": "text-view",
+       "modelid": "525124a4-6590-43df-897e-29e4c2aa1d0c",
+       "complete": true,
+       "heading": null,
+       "classes": "is-full",
+       "text_len": 70
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "modelid": "c9eee508-734f-40de-8146-ae7c16496486",
+   "complete": true,
+   "heading": null,
+   "blocks": [
+    {
+     "modelid": "cda4b53c-9afd-46f3-85b7-940cb007d44c",
+     "complete": true,
+     "heading": null,
+     "components": [
+      {
+       "tag": "blank-view",
+       "modelid": "f53f9cdb-85ae-41d4-90bc-5c0dd4739654",
+       "complete": false,
+       "heading": null,
+       "classes": "is-full",
+       "text_len": 0
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "modelid": "c92a89dd-b409-462d-8bc3-2cad21322983",
+   "complete": false,
+   "heading": {
+    "title": "1.5.7 Syntax Checker - Filter Show Command Output",
+    "complete": false,
+    "level": "2"
+   },
+   "blocks": [
+    {
+     "modelid": "414d257e-e5ec-4dbf-b845-ce47413b0856",
+     "complete": false,
+     "heading": null,
+     "components": [
+      {
+       "tag": "text-view",
+       "modelid": "e6f524ac-935b-405b-a11a-feac57126145",
+       "complete": false,
+       "heading": null,
+       "classes": "is-full",
+       "text_len": 74
+      }
+     ]
+    },
+    {
+     "modelid": "ad6f58d1-c887-4e67-ae04-ff47542b591f",
+     "complete": false,
+     "heading": null,
+     "components": []
+    }
+   ]
+  },
+  {
+   "modelid": "ccf84e0f-4b3a-4698-a655-38287ca0d690",
+   "complete": true,
+   "heading": null,
+   "blocks": [
+    {
+     "modelid": "7858f2ab-6959-4211-8623-b45cb9829e6d",
+     "complete": true,
+     "heading": null,
+     "components": [
+      {
+       "tag": "blank-view",
+       "modelid": "541f0e49-c9c9-453c-b8de-919341f66097",
+       "complete": true,
+       "heading": null,
+       "classes": "is-full",
+       "text_len": 0
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "modelid": "6ce42073-58dd-49ec-a6b7-76683b34c983",
+   "complete": false,
+   "heading": {
+    "title": "1.5.8 Command History Feature",
+    "complete": false,
+    "level": "2"
+   },
+   "blocks": [
+    {
+     "modelid": "7d0052f2-572d-44d1-be75-afbb4207fe3d",
+     "complete": true,
+     "heading": null,
+     "components": [
+      {
+       "tag": "text-view",
+       "modelid": "43813ca8-8d4d-4248-90d9-020cfa86c3f0",
+       "complete": true,
+       "heading": null,
+       "classes": "is-full",
+       "text_len": 991
+      }
+     ]
+    },
+    {
+     "modelid": "90bd07db-41af-46bf-8087-afd378b17179",
+     "complete": false,
+     "heading": null,
+     "components": [
+      {
+       "tag": "commandwindow-view",
+       "modelid": "e802f7d2-67bd-4160-aa89-104cd51096ca",
+       "complete": false,
+       "heading": null,
+       "classes": "is-full animated-hide",
+       "text_len": 159
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "modelid": "762014ce-6ee4-49a9-a767-a77a4ab25815",
+   "complete": true,
+   "heading": null,
+   "blocks": [
+    {
+     "modelid": "46cbc9a8-e878-49ad-87b0-36b6a01a48c5",
+     "complete": true,
+     "heading": null,
+     "components": [
+      {
+       "tag": "blank-view",
+       "modelid": "901aeef2-5725-4ad2-9227-06aa1f30bf54",
+       "complete": true,
+       "heading": null,
+       "classes": "is-full",
+       "text_len": 0
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "modelid": "d8b36894-4d81-423b-8099-36e5c71a7070",
+   "complete": true,
+   "heading": {
+    "title": "1.5.9 Syntax Checker - Command History Features",
+    "complete": true,
+    "level": "2"
+   },
+   "blocks": [
+    {
+     "modelid": "5e01989a-fe77-4fc5-983c-2eba95d28a16",
+     "complete": true,
+     "heading": null,
+     "components": [
+      {
+       "tag": "text-view",
+       "modelid": "b7ffd452-a30a-40e5-8d48-eebb16c63bfa",
+       "complete": true,
+       "heading": null,
+       "classes": "is-full",
+       "text_len": 72
+      }
+     ]
+    },
+    {
+     "modelid": "8b4bc415-9704-4050-a37b-2f9d4e7b204c",
+     "complete": true,
+     "heading": null,
+     "components": []
+    }
+   ]
+  },
+  {
+   "modelid": "7a693d48-26e1-4b69-9301-ba0c7e11c530",
+   "complete": true,
+   "heading": null,
+   "blocks": [
+    {
+     "modelid": "74bf7266-ccfa-4416-b8f4-86c48f2928b1",
+     "complete": true,
+     "heading": null,
+     "components": [
+      {
+       "tag": "blank-view",
+       "modelid": "fd75b3ee-d294-4590-bb0a-92a33ad07fd8",
+       "complete": true,
+       "heading": null,
+       "classes": "is-full",
+       "text_len": 0
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "modelid": "0070220d-6442-46b0-8cd3-c80d5ce9de4d",
+   "complete": false,
+   "heading": {
+    "title": "1.5.10 Packet Tracer - Verify Directly Connected Networks",
+    "complete": false,
+    "level": "2"
+   },
+   "blocks": [
+    {
+     "modelid": "af050bbd-5b6c-400d-b401-442e4c7483f0",
+     "complete": true,
+     "heading": null,
+     "components": [
+      {
+       "tag": "text-view",
+       "modelid": "c8b1d186-5542-4e38-ad7b-f0b5c3dbdae5",
+       "complete": true,
+       "heading": null,
+       "classes": "is-full",
+       "text_len": 164
+      }
+     ]
+    },
+    {
+     "modelid": "26658793-aa86-4348-a65d-a7f0f1113227",
+     "complete": false,
+     "heading": null,
+     "components": [
+      {
+       "tag": "packettracer-view",
+       "modelid": "78c8309f-4dbf-43ac-8416-2a25e4c882be",
+       "complete": false,
+       "heading": null,
+       "classes": "is-full background-colour1 remove-padding-top no-element-backgrounds",
+       "text_len": 95
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "modelid": "0d3f17e8-39c2-48c4-8b4f-23938cfcc793",
+   "complete": true,
+   "heading": null,
+   "blocks": [
+    {
+     "modelid": "941f0f44-61e4-419a-8ad6-11c39c7aec66",
+     "complete": true,
+     "heading": null,
+     "components": [
+      {
+       "tag": "blank-view",
+       "modelid": "81b92b82-87cf-470e-a444-9eeccdd237bd",
+       "complete": true,
+       "heading": null,
+       "classes": "is-full",
+       "text_len": 0
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "modelid": "0fc023ec-5ab0-4094-80b7-fb53880af665",
+   "complete": false,
+   "heading": null,
+   "blocks": [
+    {
+     "modelid": "eb6810c5-adca-4908-8767-fe77196ddd21",
+     "complete": false,
+     "heading": null,
+     "components": [
+      {
+       "tag": "adaptive-start-screen-view",
+       "modelid": "25b1de0b-4fb8-4733-a41c-c3b2289abd79",
+       "complete": true,
+       "heading": null,
+       "classes": "is-full assessment-start-screen",
+       "text_len": 372
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "modelid": "d610a71c-8257-44a3-80ed-33f96374f8da",
+   "complete": true,
+   "heading": null,
+   "blocks": [
+    {
+     "modelid": "cc70e4ed-5d99-4161-87c9-79b0dda219a6",
+     "complete": true,
+     "heading": null,
+     "components": [
+      {
+       "tag": "quicknav-view",
+       "modelid": "5f378fa3-2a1d-4c4c-8c16-3fdcae56c082",
+       "complete": null,
+       "heading": null,
+       "classes": "is-full",
+       "text_len": 0
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

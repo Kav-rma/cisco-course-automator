@@ -1,0 +1,284 @@
+{
+ "href": "https://www.netacad.com/authoring-resources/index.html?xAPILaunchKey=b5a36dd9-56c9-44e3-9c62-ac1776f3f44f&xAPILaunchService=https://www.netacad.com/adl/content/&lang=en-US&moduleNumber=2#/courses/ff9e491c-49be-4734-803e-a79e6e83dab1/8860b5b9-33df-5144-82d0-c948b082b5c2/id/c260bf81-3545-11ee-aeb3-11037ea234c3",
+ "location_id": "c260bf81-3545-11ee-aeb3-11037ea234c3",
+ "title": "Module {{_globals._moduleNumber}}: Switching Concepts | 2.2. Collision and Broadcast Domains",
+ "page_modelid": "c260bf81-3545-11ee-aeb3-11037ea234c3",
+ "page_heading": {
+  "title": "2.2. Collision and Broadcast Domains",
+  "complete": false,
+  "level": "1"
+ },
+ "progress_label": "Page completion 50%",
+ "articles": [
+  {
+   "modelid": "925839c3-1f34-11ee-8fba-c19a3123a561",
+   "complete": true,
+   "heading": null,
+   "blocks": [
+    {
+     "modelid": "925839c5-1f34-11ee-8fba-c19a3123a561",
+     "complete": true,
+     "heading": null,
+     "components": [
+      {
+       "tag": "text-view",
+       "modelid": "925860d1-1f34-11ee-8fba-c19a3123a561",
+       "complete": true,
+       "heading": null,
+       "classes": "is-left no-element-backgrounds",
+       "text_len": 35
+      }
+     ]
+    },
+    {
+     "modelid": "925860d3-1f34-11ee-8fba-c19a3123a561",
+     "complete": true,
+     "heading": null,
+     "components": [
+      {
+       "tag": "text-view",
+       "modelid": "925860d5-1f34-11ee-8fba-c19a3123a561",
+       "complete": true,
+       "heading": null,
+       "classes": "is-full remove-padding-bottom",
+       "text_len": 15
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "modelid": "9258d601-1f34-11ee-8fba-c19a3123a561",
+   "complete": true,
+   "heading": {
+    "title": "2.2.1 Collision Domains",
+    "complete": true,
+    "level": "2"
+   },
+   "blocks": [
+    {
+     "modelid": "9259c061-1f34-11ee-8fba-c19a3123a561",
+     "complete": true,
+     "heading": null,
+     "components": [
+      {
+       "tag": "text-view",
+       "modelid": "9259c063-1f34-11ee-8fba-c19a3123a561",
+       "complete": true,
+       "heading": null,
+       "classes": "is-full",
+       "text_len": 1370
+      }
+     ]
+    },
+    {
+     "modelid": "925db801-1f34-11ee-8fba-c19a3123a561",
+     "complete": true,
+     "heading": null,
+     "components": [
+      {
+       "tag": "dynamic-graphic-view",
+       "modelid": "925db803-1f34-11ee-8fba-c19a3123a561",
+       "complete": true,
+       "heading": null,
+       "classes": "is-full undefined",
+       "text_len": 259
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "modelid": "925db805-1f34-11ee-8fba-c19a3123a561",
+   "complete": true,
+   "heading": null,
+   "blocks": [
+    {
+     "modelid": "925db807-1f34-11ee-8fba-c19a3123a561",
+     "complete": true,
+     "heading": null,
+     "components": [
+      {
+       "tag": "blank-view",
+       "modelid": "925db809-1f34-11ee-8fba-c19a3123a561",
+       "complete": true,
+       "heading": null,
+       "classes": "is-full",
+       "text_len": 0
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "modelid": "925e0621-1f34-11ee-8fba-c19a3123a561",
+   "complete": false,
+   "heading": {
+    "title": "2.2.2 Broadcast Domains",
+    "complete": false,
+    "level": "2"
+   },
+   "blocks": [
+    {
+     "modelid": "925ef081-1f34-11ee-8fba-c19a3123a561",
+     "complete": true,
+     "heading": null,
+     "components": [
+      {
+       "tag": "text-view",
+       "modelid": "925ef083-1f34-11ee-8fba-c19a3123a561",
+       "complete": true,
+       "heading": null,
+       "classes": "is-full",
+       "text_len": 605
+      }
+     ]
+    },
+    {
+     "modelid": "925f65b1-1f34-11ee-8fba-c19a3123a561",
+     "complete": true,
+     "heading": null,
+     "components": [
+      {
+       "tag": "adobe-animate-view",
+       "modelid": "925f65b3-1f34-11ee-8fba-c19a3123a561",
+       "complete": true,
+       "heading": null,
+       "classes": "is-full undefined",
+       "text_len": 183
+      }
+     ]
+    },
+    {
+     "modelid": "92602901-1f34-11ee-8fba-c19a3123a561",
+     "complete": false,
+     "heading": null,
+     "components": [
+      {
+       "tag": "text-view",
+       "modelid": "92602903-1f34-11ee-8fba-c19a3123a561",
+       "complete": false,
+       "heading": null,
+       "classes": "is-full",
+       "text_len": 876
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "modelid": "92602905-1f34-11ee-8fba-c19a3123a561",
+   "complete": true,
+   "heading": null,
+   "blocks": [
+    {
+     "modelid": "92602907-1f34-11ee-8fba-c19a3123a561",
+     "complete": true,
+     "heading": null,
+     "components": [
+      {
+       "tag": "blank-view",
+       "modelid": "92602909-1f34-11ee-8fba-c19a3123a561",
+       "complete": true,
+       "heading": null,
+       "classes": "is-full",
+       "text_len": 0
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "modelid": "92609e31-1f34-11ee-8fba-c19a3123a561",
+   "complete": true,
+   "heading": {
+    "title": "2.2.3 Alleviate Network Congestion",
+    "complete": true,
+    "level": "2"
+   },
+   "blocks": [
+    {
+     "modelid": "92613a71-1f34-11ee-8fba-c19a3123a561",
+     "complete": true,
+     "heading": null,
+     "components": [
+      {
+       "tag": "text-view",
+       "modelid": "92613a73-1f34-11ee-8fba-c19a3123a561",
+       "complete": true,
+       "heading": null,
+       "classes": "is-full",
+       "text_len": 1819
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "modelid": "92616181-1f34-11ee-8fba-c19a3123a561",
+   "complete": true,
+   "heading": null,
+   "blocks": [
+    {
+     "modelid": "92616183-1f34-11ee-8fba-c19a3123a561",
+     "complete": true,
+     "heading": null,
+     "components": [
+      {
+       "tag": "blank-view",
+       "modelid": "92616185-1f34-11ee-8fba-c19a3123a561",
+       "complete": true,
+       "heading": null,
+       "classes": "is-full",
+       "text_len": 0
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "modelid": "9261afa1-1f34-11ee-8fba-c19a3123a561",
+   "complete": true,
+   "heading": null,
+   "blocks": [
+    {
+     "modelid": "f1cc32af21e5401f99b1f76ed25a230b",
+     "complete": true,
+     "heading": null,
+     "components": [
+      {
+       "tag": "adaptive-start-screen-view",
+       "modelid": "900c17cceaac4e0faa95531babe1b4fb",
+       "complete": true,
+       "heading": null,
+       "classes": "is-full assessment-start-screen",
+       "text_len": 354
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "modelid": "926706d9-1f34-11ee-8fba-c19a3123a561",
+   "complete": true,
+   "heading": null,
+   "blocks": [
+    {
+     "modelid": "926706db-1f34-11ee-8fba-c19a3123a561",
+     "complete": true,
+     "heading": null,
+     "components": [
+      {
+       "tag": "quicknav-view",
+       "modelid": "92672de1-1f34-11ee-8fba-c19a3123a561",
+       "complete": null,
+       "heading": null,
+       "classes": "is-full",
+       "text_len": 0
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,184 @@
+"""
+Quiz ASSIST - fully MANUAL, no automation.
+
+This script only:
+  1. opens the browser (your saved login) and the course
+  2. pins a small button in the TOP-LEFT of the page: "Fetch answers"
+  3. when YOU click that button, it reads whatever quiz question is on screen right now, figures out which
+     module quiz it is, and shows ALL your saved answers for that quiz in a panel.
+
+It never presses Start, never selects an option, never submits, never skips, never changes pages. You drive the
+whole quiz yourself; the button just reveals your own saved answers on demand. Leave it running and use the button
+on any graded quiz. Press Ctrl+C in the terminal (or close the browser) to stop.
+
+Run:  .venv\\Scripts\\python.exe scripts\\assist_quizzes.py [--course KEY]
+      [--profile NAME] [--fresh-login] [--keep-session]
+"""
+from __future__ import annotations
+
+import argparse
+import json
+import os
+import sys
+import time
+from pathlib import Path
+
+sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
+
+from core import content_frame as cf  # noqa: E402
+from core import question_extractor as qx  # noqa: E402
+from core.browser import launch, open_course  # noqa: E402
+from core.config import load_config, path as cfg_path  # noqa: E402
+from core.logger import get_logger  # noqa: E402
+from core.matcher import normalize  # noqa: E402
+
+# Pin the button (top-left) and return how many times it has been clicked. Re-runs safely (re-adds if missing).
+JS_BALL = r"""
+if (!document.getElementById('assist-ball')) {
+  var b = document.createElement('div'); b.id = 'assist-ball';
+  b.textContent = '📘 Fetch answers';
+  b.style.cssText = 'position:fixed;left:14px;top:14px;z-index:2147483647;cursor:pointer;'
+    + 'background:#66c430;color:#0d274d;font:700 13px system-ui,Arial;padding:10px 15px;border-radius:22px;'
+    + 'box-shadow:0 4px 14px rgba(0,0,0,.35);user-select:none;';
+  b.onclick = function(){ window.__assistClick = (window.__assistClick||0)+1; };
+  document.body.appendChild(b);
+}
+return window.__assistClick || 0;
+"""
+
+# Show the answers panel just under the button (has its own close button; no Python needed to dismiss).
+JS_PANEL = r"""
+var p = document.getElementById('assist-panel');
+if (!p) {
+  p = document.createElement('div'); p.id = 'assist-panel';
+  p.style.cssText = 'position:fixed;left:14px;top:58px;z-index:2147483647;width:360px;max-height:86vh;overflow:auto;'
+    + 'background:#0d274d;color:#fff;font:13px/1.5 system-ui,Arial;padding:12px 14px;border-radius:10px;'
+    + 'box-shadow:0 6px 24px rgba(0,0,0,.4);border:2px solid #66c430;';
+  document.body.appendChild(p);
+}
+p.style.display = 'block';
+p.innerHTML = '<div onclick="this.parentNode.style.display=\'none\'" '
+  + 'style="float:right;cursor:pointer;font-weight:700;opacity:.7">✕</div>' + arguments[0];
+return true;
+"""
+
+
+def run_js(sb, script, *args):
+    sb.driver.switch_to.default_content()
+    try:
+        return sb.execute_script(script, *args)
+    except Exception:
+        return None
+
+
+def answers_html(title_line, kq):
+    rows = []
+    for rec in sorted(kq.values(), key=lambda r: r["n"]):
+        if rec.get("answer_texts"):
+            ans = "; ".join(rec["answer_texts"])
+        elif rec.get("raw_answer"):
+            ans = rec["raw_answer"]
+        else:
+            ans = "<i>(answer this one yourself)</i>"
+        rows.append(f"<div style='margin:6px 0'><b>Q{rec['n']}.</b> {ans}</div>")
+    body = "".join(rows) or "<div>(no saved answers for this quiz)</div>"
+    return (f"<div style='font-size:15px;font-weight:700;margin-bottom:6px'>{title_line}</div>"
+            f"<div style='opacity:.75;margin-bottom:8px'>Match by the <b>Question number</b> on screen; pick the "
+            f"option by its <b>text</b> (letters shuffle each attempt).</div>"
+            f"<hr style='border-color:#284a7a'>{body}")
+
+
+def current_texts(sb):
+    """Read the question text(s) currently visible in the quiz (mcq / matching / object-matching)."""
+    cf.enter(sb)
+    texts = []
+    try:
+        st = qx.secure_state(sb)
+        ids = st.get("mcq_ids") or []
+        aid = st.get("active_id") or (ids[0] if ids else None)
+        if aid:
+            for q in qx.extract(sb, [aid]):
+                if q.get("question"):
+                    texts.append(q["question"])
+        for m in qx.extract_matching(sb):
+            if m.get("question"):
+                texts.append(m["question"])
+        for o in qx.extract_object_matching(sb):
+            if o.get("question"):
+                texts.append(o["question"])
+    except Exception:
+        pass
+    return texts
+
+
+def main() -> int:
+    ap = argparse.ArgumentParser()
+    ap.add_argument("--course", default=None, help="course key from config/courses.json (default: ask)")
+    ap.add_argument("--profile", default=None, help="account profile name -> Chrome profile dir profile_<name>")
+    ap.add_argument("--fresh-login", action="store_true", help="clear cookies in the profile first (sign in again)")
+    ap.add_argument("--keep-session", action="store_true", help="remember the login between runs")
+    args = ap.parse_args()
+    if args.keep_session:
+        os.environ["NETACAD_SESSION_MODE"] = "persistent"
+    if args.profile:
+        os.environ["NETACAD_PROFILE"] = args.profile
+    if args.fresh_login:
+        os.environ["NETACAD_FRESH_LOGIN"] = "1"
+
+    cfg = load_config(course=args.course)
+    log = get_logger("assist", cfg_path(cfg, "logs"), cfg.get("debug", True))
+
+    # index: normalized question text -> item id ; and item id -> (title, {n: rec})
+    # loads the module-quiz key, plus the checkpoint-exam key when it exists
+    norm_to_item, quizzes = {}, {}
+    for fname in ("quiz_answer_key.json", "exam_answer_key.json"):
+        f = cfg_path(cfg, "data") / fname
+        if not f.exists():
+            continue
+        key = json.loads(f.read_text(encoding="utf-8"))
+        for q in key["quizzes"]:
+            quizzes[q["item"]] = {"title": q["title"], "answers": {qq["n"]: qq for qq in q["questions"]}}
+            for qq in q["questions"]:
+                norm_to_item[normalize(qq["question"])] = q["item"]
+    log.info("Loaded answers for %d quizzes/exams", len(quizzes))
+
+    def which_quiz(sb):
+        for tx in current_texts(sb):
+            item = norm_to_item.get(normalize(tx))
+            if item:
+                return item
+        return None
+
+    with launch(cfg) as sb:
+        open_course(sb, cfg)
+        log.info("Ready. A green 'Fetch answers' button is pinned top-left. Open any quiz, then click it.")
+        log.info("This tool does NOT press Start / select / submit / skip. Ctrl+C here to stop.")
+        seen_clicks = run_js(sb, JS_BALL) or 0
+        try:
+            while True:
+                clicks = run_js(sb, JS_BALL)
+                if clicks is None:            # browser/tab gone
+                    time.sleep(1.0)
+                    continue
+                if clicks > seen_clicks:
+                    seen_clicks = clicks
+                    item = which_quiz(sb)
+                    if item:
+                        info = quizzes[item]
+                        log.info("Fetch: quiz %s (%s)", item, info["title"])
+                        label = info["title"] if item.startswith("exam-") else f"Quiz {item} — {info['title']}"
+                        run_js(sb, JS_PANEL, answers_html(label, info["answers"]))
+                    else:
+                        log.info("Fetch: no known quiz question detected on screen")
+                        run_js(sb, JS_PANEL,
+                               "<div style='font-size:15px;font-weight:700;margin-bottom:6px'>No quiz detected</div>"
+                               "<div>Open a graded quiz and get a <b>question</b> on screen (press Start yourself), "
+                               "then click <b>Fetch answers</b> again.</div>")
+                time.sleep(0.8)
+        except KeyboardInterrupt:
+            log.info("Stopping (Ctrl+C).")
+    return 0
+
+
+if __name__ == "__main__":
+    sys.exit(main())

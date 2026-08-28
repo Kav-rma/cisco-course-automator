@@ -1,0 +1,217 @@
+{
+ "href": "https://www.netacad.com/authoring-resources/index.html?xAPILaunchKey=c6763956-9a47-4dff-b26c-e8d5906c6906&xAPILaunchService=https://www.netacad.com/adl/content/&lang=en-US&moduleNumber=3#/courses/ff9e491c-49be-4734-803e-a79e6e83dab1/8bd51e4d-127e-5c87-96cc-be67cae544c9/id/3bd1358b97d8422793ecdfbe6bff806d",
+ "location_id": "3bd1358b97d8422793ecdfbe6bff806d",
+ "title": "Module {{_globals._moduleNumber}}: Wireless and Mobile Networks | 3.1. Wireless Networks",
+ "page_modelid": "3bd1358b97d8422793ecdfbe6bff806d",
+ "page_heading": {
+  "title": "3.1. Wireless Networks",
+  "complete": false,
+  "level": "1"
+ },
+ "progress_label": "Page completion 0%",
+ "articles": [
+  {
+   "modelid": "b444c61ef8d44edba004fc620a85705a",
+   "complete": true,
+   "heading": null,
+   "blocks": [
+    {
+     "modelid": "acc1396e50e44306a54ca574ea23296a",
+     "complete": true,
+     "heading": null,
+     "components": [
+      {
+       "tag": "text-view",
+       "modelid": "724dd3ba65034dbd97ac6b4eef3673b3",
+       "complete": true,
+       "heading": null,
+       "classes": "is-left no-element-backgrounds",
+       "text_len": 21
+      }
+     ]
+    },
+    {
+     "modelid": "2bc496919512428fb43bc15ae30257ae",
+     "complete": true,
+     "heading": null,
+     "components": [
+      {
+       "tag": "text-view",
+       "modelid": "c2d615451e19491fbdaa1c17785019a5",
+       "complete": true,
+       "heading": null,
+       "classes": "is-left background-colour1 remove-padding-top no-element-backgrounds",
+       "text_len": 15
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "modelid": "925abab214e540e3aa9282a87bd2803a",
+   "complete": false,
+   "heading": null,
+   "blocks": [
+    {
+     "modelid": "a8d211bfa32d4f5898e7e63aec22a778",
+     "complete": false,
+     "heading": {
+      "title": "3.1.1 Video - Types of Wireless Networks",
+      "complete": false,
+      "level": "3"
+     },
+     "components": [
+      {
+       "tag": "media-view",
+       "modelid": "08db32adb24a4048b25d20ad61825795",
+       "complete": false,
+       "heading": null,
+       "classes": "is-full",
+       "text_len": 3736
+      }
+     ]
+    },
+    {
+     "modelid": "96092afb42e34e42b1f31a52e9e4a38b",
+     "complete": false,
+     "heading": {
+      "title": "3.1.2 Video - Cell Phone Interactions with Different Networks",
+      "complete": false,
+      "level": "3"
+     },
+     "components": [
+      {
+       "tag": "media-view",
+       "modelid": "6519db81ef7944d0a7743a63e8ef8399",
+       "complete": false,
+       "heading": null,
+       "classes": "is-full",
+       "text_len": 3406
+      }
+     ]
+    },
+    {
+     "modelid": "c8b2c4ef24b8476195241a6ffeae425a",
+     "complete": false,
+     "heading": {
+      "title": "3.1.3 Other Wireless Networks",
+      "complete": false,
+      "level": "3"
+     },
+     "components": [
+      {
+       "tag": "accordion-view",
+       "modelid": "1b1c180580c34396a019a14859f09737",
+       "complete": false,
+       "heading": null,
+       "classes": "is-full zoom-graphic-enabled",
+       "text_len": 2208
+      }
+     ]
+    },
+    {
+     "modelid": "0384b849d10648e2b1ae4918bacf13c0",
+     "complete": true,
+     "heading": null,
+     "components": [
+      {
+       "tag": "blank-view",
+       "modelid": "f10c7d35243c422bb9508c965326ea1e",
+       "complete": true,
+       "heading": null,
+       "classes": "is-full",
+       "text_len": 0
+      }
+     ]
+    },
+    {
+     "modelid": "72cf91c0-7fa8-4033-8d80-e0191bd7bddb",
+     "complete": null,
+     "heading": null,
+     "components": []
+    },
+    {
+     "modelid": "6245eb27-1840-4f7c-ad61-ff8d7248bb8e",
+     "complete": null,
+     "heading": null,
+     "components": []
+    },
+    {
+     "modelid": "449a5c3d-95d5-4061-8241-a80b4580d1a5",
+     "complete": null,
+     "heading": null,
+     "components": []
+    },
+    {
+     "modelid": "64bc720d-500a-4c2c-8f8f-74a8aba8f817",
+     "complete": null,
+     "heading": null,
+     "components": []
+    }
+   ]
+  },
+  {
+   "modelid": "e8ee820db5d9474c84f6daf5a2d82147",
+   "complete": false,
+   "heading": {
+    "title": "3.1.4 Check Your Understanding - Wireless Networks",
+    "complete": false,
+    "level": "2"
+   },
+   "blocks": [
+    {
+     "modelid": "fd062e98cd824bb183115191f75e13cb",
+     "complete": false,
+     "heading": null,
+     "components": [
+      {
+       "tag": "mcq-view",
+       "modelid": "b123dea13cd8499bbdd61dff49ba00c1",
+       "complete": false,
+       "heading": "Question 1",
+       "classes": "is-full",
+       "text_len": 472
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "modelid": "f153ca74ae2d45ebbac832912274d4bc",
+   "complete": false,
+   "heading": null,
+   "blocks": [
+    {
+     "modelid": "c121dab8058c4387bc1bd39e152d9af7",
+     "complete": false,
+     "heading": null,
+     "components": [
+      {
+       "tag": "mcq-view",
+       "modelid": "787da42455fa44b3a9d5a25e7f6fcace",
+       "complete": false,
+       "heading": "Question 2",
+       "classes": "is-full",
+       "text_len": 463
+      }
+     ]
+    },
+    {
+     "modelid": "7b430b1981ae461d8bb4e47b2ae4e8df",
+     "complete": true,
+     "heading": null,
+     "components": [
+      {
+       "tag": "quicknav-view",
+       "modelid": "08d07160720645c8a17d015735e76842",
+       "complete": null,
+       "heading": null,
+       "classes": "is-full",
+       "text_len": 0
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

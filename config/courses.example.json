@@ -1,0 +1,9 @@
+{
+  "courses": [
+    {
+      "key": "my-course",
+      "name": "My NetAcad Course Name",
+      "url": "https://www.netacad.com/launch?id=YOUR-COURSE-ID&tab=curriculum&view=YOUR-VIEW-ID"
+    }
+  ]
+}

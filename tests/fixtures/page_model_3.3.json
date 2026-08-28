@@ -1,0 +1,147 @@
+{
+ "href": "https://www.netacad.com/authoring-resources/index.html?xAPILaunchKey=c6763956-9a47-4dff-b26c-e8d5906c6906&xAPILaunchService=https://www.netacad.com/adl/content/&lang=en-US&moduleNumber=3#/courses/ff9e491c-49be-4734-803e-a79e6e83dab1/8bd51e4d-127e-5c87-96cc-be67cae544c9/id/a26abdea62d14172b4b516bf2caa6e5e",
+ "location_id": "a26abdea62d14172b4b516bf2caa6e5e",
+ "title": "Module {{_globals._moduleNumber}}: Wireless and Mobile Networks | 3.3. Wireless and Mobile Networks Summary",
+ "page_modelid": "a26abdea62d14172b4b516bf2caa6e5e",
+ "page_heading": {
+  "title": "3.3. Wireless and Mobile Networks Summary",
+  "complete": false,
+  "level": "1"
+ },
+ "progress_label": "Page completion 33%",
+ "articles": [
+  {
+   "modelid": "fefbbf15711746a49aebfba1e614bbf0",
+   "complete": true,
+   "heading": null,
+   "blocks": [
+    {
+     "modelid": "76e73329a559457f8f4863f0e3e7f034",
+     "complete": true,
+     "heading": null,
+     "components": [
+      {
+       "tag": "text-view",
+       "modelid": "ee79b973839047548fed25c6c300adb8",
+       "complete": true,
+       "heading": null,
+       "classes": "is-left no-element-backgrounds",
+       "text_len": 40
+      }
+     ]
+    },
+    {
+     "modelid": "903391bce078415a809f0f24a0eedc94",
+     "complete": true,
+     "heading": null,
+     "components": [
+      {
+       "tag": "text-view",
+       "modelid": "d45ab8ca0dec4b9eabcdd0aa585cf004",
+       "complete": true,
+       "heading": null,
+       "classes": "is-left",
+       "text_len": 15
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "modelid": "2014433803e4406da1a29be3775c250d",
+   "complete": false,
+   "heading": null,
+   "blocks": [
+    {
+     "modelid": "65edce2ec0a94151b3cece04847419d1",
+     "complete": false,
+     "heading": {
+      "title": "3.3.1 What Did I Learn in this Module?",
+      "complete": false,
+      "level": "3"
+     },
+     "components": [
+      {
+       "tag": "accordion-view",
+       "modelid": "c58ceb3c44ad4ff3bbec71c921010f6d",
+       "complete": false,
+       "heading": null,
+       "classes": "is-full",
+       "text_len": 3380
+      }
+     ]
+    },
+    {
+     "modelid": "1753436f9fdf4b58a829169c5a74e314",
+     "complete": true,
+     "heading": {
+      "title": "3.3.2 Webster - Reflection Questions",
+      "complete": true,
+      "level": "3"
+     },
+     "components": [
+      {
+       "tag": "text-view",
+       "modelid": "2f92989dd5184b23ad66f04af093b19e",
+       "complete": true,
+       "heading": null,
+       "classes": "is-left no",
+       "text_len": 294
+      },
+      {
+       "tag": "graphic-view",
+       "modelid": "9a5043be05d841e19ff58dd4c2c13ba8",
+       "complete": true,
+       "heading": null,
+       "classes": "is-right",
+       "text_len": 0
+      }
+     ]
+    },
+    {
+     "modelid": "7cdad6e0040f4e94bcfbb4a515cb5a72",
+     "complete": true,
+     "heading": null,
+     "components": [
+      {
+       "tag": "blank-view",
+       "modelid": "c6dfd6edfd49477aafea3d1d061200b5",
+       "complete": true,
+       "heading": null,
+       "classes": "is-full",
+       "text_len": 0
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "modelid": "60d12f3babf341c4999ca9493307d09f",
+   "complete": false,
+   "heading": null,
+   "blocks": [
+    {
+     "modelid": "af018cc9644a47e58072cda13e609b36",
+     "complete": false,
+     "heading": null,
+     "components": [
+      {
+       "tag": "adaptive-start-screen-view",
+       "modelid": "0cc49fb386814619b07d0713c16e94c8",
+       "complete": true,
+       "heading": null,
+       "classes": "is-full assessment-start-screen",
+       "text_len": 338
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "modelid": "03b49cb142c54e8495e750f8c98e29bd",
+   "complete": null,
+   "heading": null,
+   "blocks": []
+  }
+ ]
+}

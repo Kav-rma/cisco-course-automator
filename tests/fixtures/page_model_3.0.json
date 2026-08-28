@@ -1,0 +1,119 @@
+{
+ "href": "https://www.netacad.com/authoring-resources/index.html?xAPILaunchKey=c6763956-9a47-4dff-b26c-e8d5906c6906&xAPILaunchService=https://www.netacad.com/adl/content/&lang=en-US&moduleNumber=3#/courses/ff9e491c-49be-4734-803e-a79e6e83dab1/8bd51e4d-127e-5c87-96cc-be67cae544c9/id/bb528f011878404b990936f490fff824",
+ "location_id": "bb528f011878404b990936f490fff824",
+ "title": "Module {{_globals._moduleNumber}}: Wireless and Mobile Networks | 3.0. Introduction",
+ "page_modelid": "bb528f011878404b990936f490fff824",
+ "page_heading": {
+  "title": "3.0. Introduction",
+  "complete": true,
+  "level": "1"
+ },
+ "progress_label": "Page completion 100%",
+ "articles": [
+  {
+   "modelid": "8e8277fa94554b019cd386e465758cda",
+   "complete": true,
+   "heading": null,
+   "blocks": [
+    {
+     "modelid": "bf0855b2b7a5421ba59513da7fafff42",
+     "complete": true,
+     "heading": null,
+     "components": [
+      {
+       "tag": "text-view",
+       "modelid": "ebc37d48e9ec49d6bcc0b271d3beb109",
+       "complete": true,
+       "heading": null,
+       "classes": "is-left no-element-backgrounds",
+       "text_len": 16
+      }
+     ]
+    },
+    {
+     "modelid": "cdc1130238654a67b91238a47d2aa7cc",
+     "complete": true,
+     "heading": null,
+     "components": [
+      {
+       "tag": "text-view",
+       "modelid": "c24168c681f74dc1aa6213091ee43732",
+       "complete": true,
+       "heading": null,
+       "classes": "is-left",
+       "text_len": 15
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "modelid": "b1e9a498369b4d5a947b8a29abd374f6",
+   "complete": true,
+   "heading": null,
+   "blocks": [
+    {
+     "modelid": "8abeafba3b9447b9bb76dac2641ed84d",
+     "complete": true,
+     "heading": {
+      "title": "3.0.1 Webster - Why Should I Take this Module?",
+      "complete": true,
+      "level": "3"
+     },
+     "components": [
+      {
+       "tag": "text-view",
+       "modelid": "bcbd0e8ffe0645a7808b0350043438fb",
+       "complete": true,
+       "heading": null,
+       "classes": "is-left background-colour1 remove-padding-top no-element-backgrounds",
+       "text_len": 1469
+      },
+      {
+       "tag": "graphic-view",
+       "modelid": "91f96f0abf9b4b89aa7d90ed963daccc",
+       "complete": true,
+       "heading": null,
+       "classes": "is-right animated-hide",
+       "text_len": 0
+      }
+     ]
+    },
+    {
+     "modelid": "c087e098038d42599b221109e4360fd8",
+     "complete": true,
+     "heading": {
+      "title": "3.0.2 What Will I Learn in this Module?",
+      "complete": true,
+      "level": "3"
+     },
+     "components": [
+      {
+       "tag": "table-view",
+       "modelid": "e7331b062d5346f8af7b828ef85728f0",
+       "complete": true,
+       "heading": null,
+       "classes": "is-full",
+       "text_len": 351
+      }
+     ]
+    },
+    {
+     "modelid": "53680b4565164d0fb04cd9772cf8be94",
+     "complete": true,
+     "heading": null,
+     "components": [
+      {
+       "tag": "quicknav-view",
+       "modelid": "f004487567964b17913c6be4656f4ccc",
+       "complete": null,
+       "heading": null,
+       "classes": "is-full",
+       "text_len": 0
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}
