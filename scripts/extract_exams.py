@@ -33,7 +33,7 @@ from core.browser import launch, open_course, save_diagnostics, wait_until  # no
 from core.config import load_config, path as cfg_path  # noqa: E402
 from core.logger import get_logger  # noqa: E402
 from core.matcher import normalize  # noqa: E402
-from extract_quizzes import JS_COOKIES, JS_SKIP, _read_current_question  # noqa: E402
+from extract_quizzes import JS_COOKIES, JS_GOTO_Q, JS_SKIP, _read_current_question  # noqa: E402
 
 LETTERS = "ABCDEFGHIJKLMNOP"
 
@@ -89,16 +89,43 @@ def press_start(sb, cfg):
                poll=0.4, what="exam started (cdp)")
 
 
-def extract_exam(sb, cfg, log, node, key) -> dict:
-    goto_exam(sb, cfg, node)
-    entry = {"item": key, "uuid": node["uuid"], "title": node["title"], "questions": []}
-    press_start(sb, cfg)
-    st = qx.secure_state(sb)
-    total = None
-    if st.get("counter"):
-        m = re.search(r"(\d+)\s+of\s+(\d+)", st["counter"])
-        total = int(m.group(2)) if m else None
-    sb.execute_script(JS_COOKIES)
+def read_here(sb):
+    """Read the current question, retrying once if the view is still swapping in."""
+    rec = _read_current_question(sb, qx.secure_state(sb))
+    if not rec or not rec.get("question"):
+        time.sleep(0.6)
+        rec = _read_current_question(sb, qx.secure_state(sb))
+    return rec
+
+
+def walk_by_strip(sb, log, total):
+    """Click each question in the numbered strip (Q1..Qtotal) and record it. Robust to the exam
+    reopening mid-way on a re-attempt (skip-walking would miss everything before the resume point).
+    Returns (seen, total) — or None if there is no question strip (caller falls back to skip-walking)."""
+    # The question strip (Q1..QN buttons) can render a beat after the first question, especially on the
+    # first exam of a run. Wait for it before deciding there is no strip.
+    if not wait_until(sb, lambda s: s.execute_script(JS_GOTO_Q, 1) == "strip", 10, poll=0.5, what="question strip"):
+        return None
+    if not total:  # counter often isn't rendered until a question is on screen; re-read it now
+        wait_until(sb, lambda s: bool(qx.secure_state(s).get("counter")), 4, poll=0.3, what="counter")
+        m = re.search(r"(\d+)\s+of\s+(\d+)", qx.secure_state(sb).get("counter") or "")
+        total = int(m.group(2)) if m else total
+    seen = {}
+    for n in range(1, (total or 40) + 1):
+        if sb.execute_script(JS_GOTO_Q, n) == "no-strip":
+            continue  # that number isn't in the strip; keep going
+        wait_until(sb, lambda s: qx.secure_state(s).get("active_q") == n, 4, poll=0.3, what=f"Q{n} active")
+        time.sleep(0.4)
+        rec = read_here(sb)
+        if rec and rec["question"] and rec["question"] not in seen:
+            rec["n"] = n
+            seen[rec["question"]] = rec
+            log.info("    Q%s [%s]: %s", n, rec["type"], rec["question"][:75])
+    return seen, total
+
+
+def walk_by_skip(sb, log, total):
+    """Fallback: page forward with Skip Question (only reaches questions from the current point on)."""
     seen, stalls = {}, 0
     for _ in range(1, (total or 40) + 5):
         st = qx.secure_state(sb)
@@ -111,13 +138,30 @@ def extract_exam(sb, cfg, log, node, key) -> dict:
             stalls = 0
         else:
             stalls += 1
-        if total and len(seen) >= total:
-            break
-        if stalls >= 3:
+        if (total and len(seen) >= total) or stalls >= 3:
             break
         if sb.execute_script(JS_SKIP) == "no-advance":
             break
         time.sleep(0.7)
+    return seen
+
+
+def extract_exam(sb, cfg, log, node, key) -> dict:
+    goto_exam(sb, cfg, node)
+    entry = {"item": key, "uuid": node["uuid"], "title": node["title"], "questions": []}
+    press_start(sb, cfg)
+    sb.execute_script(JS_COOKIES)
+    st = qx.secure_state(sb)
+    total = None
+    if st.get("counter"):
+        m = re.search(r"(\d+)\s+of\s+(\d+)", st["counter"])
+        total = int(m.group(2)) if m else None
+    result = walk_by_strip(sb, log, total)
+    if result is None:
+        log.info("    (no question strip; walking with Skip from the current question)")
+        seen = walk_by_skip(sb, log, total)
+    else:
+        seen, total = result
     entry["questions"] = sorted(seen.values(), key=lambda x: x["n"])
     entry["total_reported"] = total
     return entry
