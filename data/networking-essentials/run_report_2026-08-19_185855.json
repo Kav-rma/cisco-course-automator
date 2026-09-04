@@ -1,0 +1,316 @@
+{
+ "started_at": "2026-08-19T18:58:55",
+ "items": [
+  {
+   "item": "16.0.1",
+   "title": "Webster - Why Should I Take this Module?",
+   "module": 16,
+   "type": "INTRODUCTION",
+   "status": "completed",
+   "notes": [
+    "completed after scrolling into view"
+   ],
+   "seconds": 6.5,
+   "outline_after": "completed"
+  },
+  {
+   "item": "16.0.2",
+   "title": "What Will I Learn in this Module?",
+   "module": 16,
+   "type": "INTRODUCTION",
+   "status": "completed",
+   "notes": [
+    "completed after scrolling into view"
+   ],
+   "seconds": 6.0,
+   "outline_after": "completed"
+  },
+  {
+   "item": "16.1.1",
+   "title": "Client and Server Interaction",
+   "module": 16,
+   "type": "LESSON",
+   "status": "completed",
+   "notes": [
+    "completed after scrolling into view"
+   ],
+   "seconds": 7.3,
+   "outline_after": "completed"
+  },
+  {
+   "item": "16.1.2",
+   "title": "Video - Web Server and Client IP Interactions",
+   "module": 16,
+   "type": "VIDEO",
+   "status": "completed",
+   "notes": [],
+   "seconds": 6.1,
+   "outline_after": "completed"
+  },
+  {
+   "item": "16.1.3",
+   "title": "URI, URN, and URL",
+   "module": 16,
+   "type": "LESSON",
+   "status": "completed",
+   "notes": [
+    "completed after scrolling into view"
+   ],
+   "seconds": 4.8,
+   "outline_after": "completed"
+  },
+  {
+   "item": "16.1.4",
+   "title": "Video - Web Traffic in Packet Tracer",
+   "module": 16,
+   "type": "VIDEO",
+   "status": "completed",
+   "notes": [],
+   "seconds": 5.8,
+   "outline_after": "completed"
+  },
+  {
+   "item": "16.1.5",
+   "title": "Packet Tracer - The Client Interaction",
+   "module": 16,
+   "type": "LAB",
+   "status": "completed",
+   "notes": [],
+   "seconds": 3.8,
+   "outline_after": "completed"
+  },
+  {
+   "item": "16.2.1",
+   "title": "Common Network Application Services",
+   "module": 16,
+   "type": "LESSON",
+   "status": "already_complete",
+   "notes": [],
+   "seconds": 4.1,
+   "outline_after": "completed"
+  },
+  {
+   "item": "16.2.2",
+   "title": "Check Your Understanding - Common Network Applications",
+   "module": 16,
+   "type": "KNOWLEDGE_CHECK",
+   "status": "completed",
+   "notes": [],
+   "seconds": 3.7,
+   "outline_after": "completed"
+  },
+  {
+   "item": "16.3.1",
+   "title": "Video - DNS Servers",
+   "module": 16,
+   "type": "VIDEO",
+   "status": "completed",
+   "notes": [],
+   "seconds": 8.1,
+   "outline_after": "completed"
+  },
+  {
+   "item": "16.3.2",
+   "title": "A Note About Syntax Checker Activities",
+   "module": 16,
+   "type": "LESSON",
+   "status": "already_complete",
+   "notes": [],
+   "seconds": 3.3,
+   "outline_after": "completed"
+  },
+  {
+   "item": "16.3.3",
+   "title": "Syntax Checker - The nslookup Command",
+   "module": 16,
+   "type": "LESSON",
+   "status": "completed",
+   "notes": [
+    "completed after scrolling into view"
+   ],
+   "seconds": 3.6,
+   "outline_after": "completed"
+  },
+  {
+   "item": "16.4.1",
+   "title": "Video - HTTP and HTML",
+   "module": 16,
+   "type": "VIDEO",
+   "status": "completed",
+   "notes": [],
+   "seconds": 8.3,
+   "outline_after": "completed"
+  },
+  {
+   "item": "16.4.2",
+   "title": "HTTP and HTML",
+   "module": 16,
+   "type": "INTERACTIVE",
+   "status": "completed",
+   "notes": [
+    "unit complete"
+   ],
+   "seconds": 80.5,
+   "outline_after": "completed"
+  },
+  {
+   "item": "16.4.3",
+   "title": "Packet Tracer - Observe Web Requests",
+   "module": 16,
+   "type": "LAB",
+   "status": "completed",
+   "notes": [],
+   "seconds": 3.2,
+   "outline_after": "completed"
+  },
+  {
+   "item": "16.5.1",
+   "title": "File Transfer Protocol",
+   "module": 16,
+   "type": "LESSON",
+   "status": "completed",
+   "notes": [
+    "completed after scrolling into view"
+   ],
+   "seconds": 6.9,
+   "outline_after": "completed"
+  },
+  {
+   "item": "16.5.2",
+   "title": "Video - FTP Client Software",
+   "module": 16,
+   "type": "VIDEO",
+   "status": "completed",
+   "notes": [],
+   "seconds": 5.2,
+   "outline_after": "completed"
+  },
+  {
+   "item": "16.5.3",
+   "title": "Packet Tracer - Use FTP Services",
+   "module": 16,
+   "type": "LAB",
+   "status": "completed",
+   "notes": [],
+   "seconds": 3.4,
+   "outline_after": "completed"
+  },
+  {
+   "item": "16.6.1",
+   "title": "Video - Remote Access with Telnet or SSH",
+   "module": 16,
+   "type": "VIDEO",
+   "status": "completed",
+   "notes": [],
+   "seconds": 6.8,
+   "outline_after": "completed"
+  },
+  {
+   "item": "16.6.2",
+   "title": "Telnet",
+   "module": 16,
+   "type": "LESSON",
+   "status": "completed",
+   "notes": [
+    "completed after scrolling into view"
+   ],
+   "seconds": 4.7,
+   "outline_after": "completed"
+  },
+  {
+   "item": "16.6.3",
+   "title": "Security Issues with Telnet",
+   "module": 16,
+   "type": "LESSON",
+   "status": "completed",
+   "notes": [
+    "completed after scrolling into view"
+   ],
+   "seconds": 3.6,
+   "outline_after": "completed"
+  },
+  {
+   "item": "16.6.4",
+   "title": "Packet Tracer - Use Telnet and SSH",
+   "module": 16,
+   "type": "LAB",
+   "status": "completed",
+   "notes": [],
+   "seconds": 3.3,
+   "outline_after": "completed"
+  },
+  {
+   "item": "16.7.1",
+   "title": "Email Clients and Servers",
+   "module": 16,
+   "type": "LESSON",
+   "status": "already_complete",
+   "notes": [],
+   "seconds": 3.8,
+   "outline_after": "completed"
+  },
+  {
+   "item": "16.7.2",
+   "title": "Email Protocols",
+   "module": 16,
+   "type": "INTERACTIVE",
+   "status": "completed",
+   "notes": [
+    "unit complete"
+   ],
+   "seconds": 26.7,
+   "outline_after": "completed"
+  },
+  {
+   "item": "16.7.5",
+   "title": "Check Your Understanding - Email and Messaging",
+   "module": 16,
+   "type": "KNOWLEDGE_CHECK",
+   "status": "completed",
+   "notes": [],
+   "seconds": 4.0,
+   "outline_after": "completed"
+  },
+  {
+   "item": "16.8.1",
+   "title": "What Did I Learn in this Module?",
+   "module": 16,
+   "type": "INTERACTIVE",
+   "status": "completed",
+   "notes": [
+    "unit complete"
+   ],
+   "seconds": 9.8,
+   "outline_after": "completed"
+  },
+  {
+   "item": "16.8.2",
+   "title": "Webster - Reflection Questions",
+   "module": 16,
+   "type": "LESSON",
+   "status": "already_complete",
+   "notes": [],
+   "seconds": 3.5,
+   "outline_after": "completed"
+  },
+  {
+   "item": "16.8.3",
+   "title": "Application Layer Services Quiz",
+   "module": 16,
+   "type": "ASSESSMENT",
+   "status": "needs_user",
+   "notes": [
+    "graded assessment - never automated"
+   ],
+   "seconds": 33.5
+  }
+ ],
+ "needs_user": [
+  {
+   "item": "16.8.3",
+   "why": "graded assessment - never automated"
+  }
+ ],
+ "failed": [],
+ "finished_at": "2026-08-19T19:04:04"
+}

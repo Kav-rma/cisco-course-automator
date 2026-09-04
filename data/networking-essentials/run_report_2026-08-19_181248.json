@@ -1,0 +1,181 @@
+{
+ "started_at": "2026-08-19T18:12:48",
+ "items": [
+  {
+   "item": "1.0.1",
+   "title": "Webster - Why Should I Take this Module?",
+   "module": 1,
+   "type": "INTRODUCTION",
+   "status": "already_complete",
+   "notes": [],
+   "seconds": 11.9,
+   "outline_after": "completed"
+  },
+  {
+   "item": "1.1.1",
+   "title": "Video - Welcome to the World of Networking",
+   "module": 1,
+   "type": "VIDEO",
+   "status": "already_complete",
+   "notes": [],
+   "seconds": 7.0,
+   "outline_after": "completed"
+  },
+  {
+   "item": "1.2.1",
+   "title": "Video - Types of Personal Data",
+   "module": 1,
+   "type": "VIDEO",
+   "status": "already_complete",
+   "notes": [],
+   "seconds": 5.2,
+   "outline_after": "completed"
+  },
+  {
+   "item": "1.3.1",
+   "title": "Bandwidth",
+   "module": 1,
+   "type": "LESSON",
+   "status": "already_complete",
+   "notes": [],
+   "seconds": 5.1,
+   "outline_after": "completed"
+  },
+  {
+   "item": "1.4.1",
+   "title": "What Did I Learn in this Module?",
+   "module": 1,
+   "type": "INTERACTIVE",
+   "status": "completed",
+   "notes": [
+    "unit complete"
+   ],
+   "seconds": 7.2,
+   "outline_after": "completed"
+  },
+  {
+   "item": "1.4.3",
+   "title": "Communications in a Connected World Quiz",
+   "module": 1,
+   "type": "ASSESSMENT",
+   "status": "needs_user",
+   "notes": [
+    "graded assessment - never automated"
+   ],
+   "seconds": 33.5
+  },
+  {
+   "item": "2.0.1",
+   "title": "Webster - Why Should I Take this Module?",
+   "module": 2,
+   "type": "INTRODUCTION",
+   "status": "already_complete",
+   "notes": [],
+   "seconds": 7.4,
+   "outline_after": "completed"
+  },
+  {
+   "item": "2.1.1",
+   "title": "Video - Clients and Servers",
+   "module": 2,
+   "type": "VIDEO",
+   "status": "already_complete",
+   "notes": [],
+   "seconds": 4.8,
+   "outline_after": "completed"
+  },
+  {
+   "item": "2.2.1",
+   "title": "Video - Network Infrastructure Symbols",
+   "module": 2,
+   "type": "VIDEO",
+   "status": "already_complete",
+   "notes": [],
+   "seconds": 5.6,
+   "outline_after": "completed"
+  },
+  {
+   "item": "2.3.1",
+   "title": "ISP Services",
+   "module": 2,
+   "type": "LESSON",
+   "status": "already_complete",
+   "notes": [],
+   "seconds": 3.6,
+   "outline_after": "completed"
+  },
+  {
+   "item": "2.4.1",
+   "title": "What Did I Learn in this Module?",
+   "module": 2,
+   "type": "INTERACTIVE",
+   "status": "already_complete",
+   "notes": [],
+   "seconds": 3.8,
+   "outline_after": "completed"
+  },
+  {
+   "item": "2.4.3",
+   "title": "Network Components, Types, and Connections Quiz",
+   "module": 2,
+   "type": "ASSESSMENT",
+   "status": "needs_user",
+   "notes": [
+    "graded assessment - never automated"
+   ],
+   "seconds": 32.9
+  },
+  {
+   "item": "3.0.1",
+   "title": "Webster - Why Should I Take this Module?",
+   "module": 3,
+   "type": "INTRODUCTION",
+   "status": "already_complete",
+   "notes": [],
+   "seconds": 7.6,
+   "outline_after": "completed"
+  },
+  {
+   "item": "3.1.1",
+   "title": "Video - Types of Wireless Networks",
+   "module": 3,
+   "type": "VIDEO",
+   "status": "already_complete",
+   "notes": [],
+   "seconds": 5.3,
+   "outline_after": "completed"
+  },
+  {
+   "item": "3.2.1",
+   "title": "Mobile Devices and Wi-Fi",
+   "module": 3,
+   "type": "LESSON",
+   "status": "already_complete",
+   "notes": [],
+   "seconds": 4.7,
+   "outline_after": "completed"
+  },
+  {
+   "item": "3.3.1",
+   "title": "What Did I Learn in this Module?",
+   "module": 3,
+   "type": "INTERACTIVE",
+   "status": "already_complete",
+   "notes": [],
+   "seconds": 3.9,
+   "outline_after": "completed"
+  }
+ ],
+ "needs_user": [
+  {
+   "item": "1.4.3",
+   "why": "graded assessment - never automated"
+  },
+  {
+   "item": "2.4.3",
+   "why": "graded assessment - never automated"
+  }
+ ],
+ "failed": [],
+ "finished_at": "2026-08-19T18:17:40"
+}

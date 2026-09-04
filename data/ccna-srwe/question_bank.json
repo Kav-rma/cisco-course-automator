@@ -1,0 +1,98 @@
+{
+ "course": "SCSE2026_CCNA: Switching, Routing, and Wireless Essentials",
+ "collected_at": "2026-08-22T20:35:13",
+ "questions": [
+  {
+   "question_id": "4.1.5-q1",
+   "module_id": "4",
+   "module_title": "Module 4: Inter-VLAN Routing",
+   "section_id": "4.1",
+   "section_title": "Inter-VLAN Routing Operation",
+   "lesson_id": "4.1.5",
+   "lesson_title": "Check Your Understanding - Inter-VLAN Routing Operation",
+   "question_number": 1,
+   "heading": null,
+   "question": "Refer to each of the scenario topologies . Which statements best describe the different types of inter-VLAN routing solutions? (Choose all that apply.)",
+   "type": "multiple",
+   "options": [
+    {
+     "index": 0,
+     "text": "Scenario A is a legacy inter-VLAN solution."
+    },
+    {
+     "index": 1,
+     "text": "Scenario B is a Layer 3 inter-VLAN solution."
+    },
+    {
+     "index": 2,
+     "text": "Scenario B and C are both Router-on-a-stick inter-VLAN solutions."
+    },
+    {
+     "index": 3,
+     "text": "Scenario A is a Layer 3 inter-VLAN solution."
+    },
+    {
+     "index": 4,
+     "text": "Scenario B is a legacy inter-VLAN solution."
+    },
+    {
+     "index": 5,
+     "text": "Scenario C is a router-on-a-stick inter-VLAN solution."
+    }
+   ],
+   "correct_indices": [
+    3,
+    4,
+    5
+   ],
+   "correct_texts": [
+    "Scenario A is a Layer 3 inter-VLAN solution.",
+    "Scenario B is a legacy inter-VLAN solution.",
+    "Scenario C is a router-on-a-stick inter-VLAN solution."
+   ],
+   "mcq_modelid": "4a78fb92-84af-11ee-b324-7926e94d7cb3",
+   "scope_modelid": "93418851-1f34-11ee-8fba-c19a3123a561",
+   "page_location_id": null,
+   "feedback": [],
+   "complete_when_collected": false,
+   "collected_at": "2026-08-22T20:15:57"
+  }
+ ],
+ "visited_items": [
+  "1.5.11",
+  "10.1.6",
+  "10.2.7",
+  "10.3.4",
+  "10.4.4",
+  "10.5.11",
+  "12.1.7",
+  "12.2.7",
+  "12.3.8",
+  "12.4.6",
+  "12.5.4",
+  "12.6.6",
+  "12.7.9",
+  "14.1.7",
+  "14.2.4",
+  "14.4.13",
+  "14.5.6",
+  "15.1.8",
+  "16.1.2",
+  "2.2.4",
+  "3.1.5",
+  "3.2.9",
+  "3.5.6",
+  "4.1.5",
+  "4.4.7",
+  "5.1.10",
+  "5.3.6",
+  "6.1.10",
+  "7.1.5",
+  "8.1.5",
+  "8.2.7",
+  "8.3.6",
+  "8.4.9",
+  "9.1.5",
+  "9.2.4"
+ ]
+}

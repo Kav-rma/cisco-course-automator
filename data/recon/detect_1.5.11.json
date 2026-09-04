@@ -1,0 +1,35 @@
+{
+ "page_type": "ASSESSMENT",
+ "item_id": "1.5.11",
+ "scope_kind": "block",
+ "scope_modelid": "eb6810c5-adca-4908-8767-fe77196ddd21",
+ "heading": null,
+ "complete": false,
+ "components": [
+  {
+   "tag": "adaptive-start-screen-view",
+   "modelid": "25b1de0b-4fb8-4733-a41c-c3b2289abd79",
+   "complete": true,
+   "heading": null
+  },
+  {
+   "tag": "quicknav-view",
+   "modelid": "5f378fa3-2a1d-4c4c-8c16-3fdcae56c082",
+   "complete": null,
+   "heading": null
+  }
+ ],
+ "families": {
+  "assessment": 1,
+  "lab": 0,
+  "activity": 0,
+  "question": 0,
+  "media": 0,
+  "interactive": 0,
+  "static": 1,
+  "unknown": []
+ },
+ "reasons": [
+  "assessment start-screen / results component present"
+ ]
+}

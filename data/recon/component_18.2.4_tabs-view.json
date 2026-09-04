@@ -1,0 +1,185 @@
+[
+ {
+  "modelid": "982c8e0ca47b4f02a8f9c38b4d0ffd5c",
+  "model": {
+   "attributes": null,
+   "items": [
+    {
+     "body": "",
+     "title": "",
+     "_classes": "",
+     "tabTitle": "North America",
+     "component": {
+      "type": "dynamic-graphic",
+      "modelid": "8c1b4fc0-e625-11ea-bddd-5127370b77b7"
+     },
+     "_index": 0,
+     "_parentId": "982c8e0ca47b4f02a8f9c38b4d0ffd5c"
+    },
+    {
+     "body": "",
+     "title": "",
+     "_classes": "",
+     "tabTitle": "Canada",
+     "component": {
+      "type": "dynamic-graphic",
+      "modelid": "8c216a40-e625-11ea-bddd-5127370b77b7"
+     },
+     "_index": 1,
+     "_parentId": "982c8e0ca47b4f02a8f9c38b4d0ffd5c"
+    },
+    {
+     "body": "",
+     "title": "",
+     "_classes": "",
+     "tabTitle": "Nova Scotia",
+     "component": {
+      "type": "dynamic-graphic",
+      "modelid": "8c2736a0-e625-11ea-bddd-5127370b77b7"
+     },
+     "_index": 2,
+     "_parentId": "982c8e0ca47b4f02a8f9c38b4d0ffd5c"
+    },
+    {
+     "body": "",
+     "title": "",
+     "_classes": "",
+     "tabTitle": "Halifax",
+     "component": {
+      "type": "dynamic-graphic",
+      "modelid": "8c2b7c60-e625-11ea-bddd-5127370b77b7"
+     },
+     "_index": 3,
+     "_parentId": "982c8e0ca47b4f02a8f9c38b4d0ffd5c"
+    }
+   ]
+  },
+  "methods": [
+   "connectedCallback",
+   "firstUpdated",
+   "handleRequestUpdate",
+   "waitForHljsLoding",
+   "checkWebComponentMedia",
+   "updated",
+   "renderGraphic",
+   "renderWebComponentMedia",
+   "renderPrecodeSection",
+   "renderComponentSection",
+   "renderTabContent",
+   "render",
+   "scrollOnDescriptionOpen",
+   "removeEventHandlers",
+   "disconnectedCallback",
+   "preRender"
+  ],
+  "own": [
+   "isUpdatePending",
+   "hasUpdated",
+   "enableUpdating",
+   "renderOptions",
+   "applyDesignAttributesHandler",
+   "applyCustomCssHandler",
+   "__modelid",
+   "renderMethodRef",
+   "isLanguageChanged",
+   "renderMethodReplacement",
+   "renderedObserver",
+   "component",
+   "model",
+   "__nestedComponentStyles",
+   "requestUpdateHandler",
+   "controller",
+   "hljsLoaded",
+   "renderRoot"
+  ],
+  "html": "<tabs-view modelid=\"982c8e0ca47b4f02a8f9c38b4d0ffd5c\" class=\"is-full zoom-graphic-enabled\" sgpulse-type=\"component\"><template shadowroot=\"open\"><div class=\"component\"><div class=\"tab-inner component__inner\"><div data-socialgoodpulse-id=\"982c8e0ca47b4f02a8f9c38b4d0ffd5c\" class=\"component tabs 982c8e0ca47b4f02a8f9c38b4d0ffd5c  is-full is-complete  \"><div class=\"component__header-container\"><div data-socialgoodpulse-id=\"982c8e0ca47b4f02a8f9c38b4d0ffd5c\" class=\"tab \"><base-view type=\"component\" lowercase_component=\"tabs\" customclass=\"\"><template shadowroot=\"open\"><div class=\"component__header-wrapper  \"><div class=\"component__header tabs__header\"><div class=\"component__header-inner tabs__header-inner\"><div class=\"component__content\"><div tabindex=\"0\" class=\"component__body tabs__body\"><div class=\"component__body-inner tabs__body-inner\"><p>Imagine how difficult communication would be if the only way to send a message to someone was to use the person's name. If there were no street addresses, cities, towns, or country boundaries, delivering a message to a specific person across the world would be nearly impossible.</p><p><strong>Click each button below for an example of a hierarchical way to pinpoint a location.</strong></p></div></div></div></div></div></div></template></base-view></div></div><div class=\"component__widget tab__widget\"><div class=\"tabs__nav\"><div class=\"tabs__nav-inner\" role=\"tablist\"><button tabindex=\"0\" role=\"tab\" data-index=\"0\" aria-selected=\"true\" aria-controls=\"982c8e0ca47b4f02a8f9c38b4d0ffd5c-0-tabpanel\" aria-label=\"North America\" class=\"tabs__nav-item-btn js-tabs-nav-item-btn-click is-visited isSelected\"><div class=\"tabs__nav-item-btn-inner\" id=\"982c8e0ca47b4f02a8f9c38b4d0ffd5c-0-tabtitle\">North America</div></button><button tabindex=\"0\" role=\"tab\" data-index=\"1\" aria-selected=\"false\" aria-controls=\"982c8e0ca47b4f02a8f9c38b4d0ffd5c-1-tabpanel\" aria-label=\"Canada\" class=\"tabs__nav-item-btn js-tabs-nav-item-btn-click is-visited \"><div class=\"tabs__nav-item-btn-inner\" id=\"982c8e0ca47b4f02a8f9c38b4d0ffd5c-1-tabtitle\">Canada</div></button><button tabindex=\"0\" role=\"tab\" data-index=\"2\" aria-selected=\"false\" aria-controls=\"982c8e0ca47b4f02a8f9c38b4d0ffd5c-2-tabpanel\" aria-label=\"Nova Scotia\" class=\"tabs__nav-item-btn js-tabs-nav-item-btn-click is-visited \"><div class=\"tabs__nav-item-btn-inner\" id=\"982c8e0ca47b4f02a8f9c38b4d0ffd5c-2-tabtitle\">Nova Scotia</div></button><button tabindex=\"0\" role=\"tab\" data-index=\"3\" aria-selected=\"false\" aria-controls=\"982c8e0ca47b4f02a8f9c38b4d0ffd5c-3-tabpanel\" aria-label=\"Halifax\" class=\"tabs__nav-item-btn js-tabs-nav-item-btn-click is-visited \"><div class=\"tabs__nav-item-btn-inner\" id=\"982c8e0ca47b4f02a8f9c38b4d0ffd5c-3-tabtitle\">Halifax</div></button></div></div><div class=\"tabs__widget component__widget clearfix\" tabindex=\"0\"><div class=\"tabs__content\"><div class=\"tabs__content-inner delayed-transform\"><div role=\"tabpanel\" id=\"0-tabpanel\" aria-labelledby=\"0-tabtitle\" data-index=\"item-0\" class=\"tabs__content-item item-0\"><div class=\"tabs__content-item-inner \"><div class=\"tabs__content-item-title\"><div class=\"tabs__content-item-title-inner\"><strong tabindex=\"\"></strong></div></div><div class=\"tabs__content-item-body\"><div class=\"tabs__content-item-body-inner\"><p tabindex=\"0\"></p></div></div><div class=\"tabs__content-item-graphic\"></div><div class=\"tabs-item-image-container\"><component-selector><template shadowroot=\"open\"><dynamic-graphic-view modelid=\"8c1b4fc0-e625-11ea-bddd-5127370b77b7\" sgpulse-type=\"component\" fadeoutoverlay=\"\"><template shadowroot=\"open\"><link rel=\"stylesheet\" href=\"_assets/media/8c1b4fc0-e625-11ea-bddd-5127370b77b7/24e0fbd5-331e-406d-b085-72392a126a5a.css\"></link><div data-socialgoodpulse-id=\"8c1b4fc0-e625-11ea-bddd-5127370b77b7\" class=\"component dynamic-graphic 8c1b4fc0-e625-11ea-bddd-5127370b77b7 undefined is-undefined   \"><div class=\"component__header-container\"><base-view type=\"component\" lowercase_component=\"dynamic-graphic\" customclass=\"\"><template shadowroot=\"open\"><div class=\"component__header-wrapper undefined \"><div class=\"component__header dynamic-graphic__header\"><div class=\"component__header-inner dynamic-graphic__header-inner\"></div></div></div></template></base-view></div><div class=\"component__widget\"><div class=\"a11y_description screen-reader-hide\" aria-live=\"polite\" id=\"a11y_description-8c1b4fc0-e625-11ea-bddd-5127370b77b7\">The figure shows a map of North America from top to bottom are Greenland, Canada, United States of America, and Mexico.</div><div tabindex=\"0\" role=\"figure\" id=\"8c1b4fc0-e625-11ea-bddd-5127370b77b7\" class=\"dynamic-graphic-container 8c1b4fc0-e625-11ea-bddd-5127370b77b7\" aria-labelledby=\"a11y_description-8c1b4fc0-e625-11ea-bddd-5127370b77b7\"><div class=\"dynamic-graphic-display\"><div role=\"presentation\" aria-hidden=\"true\" class=\"overlay removed\"></div><div class=\"dynamic-graphic-content\"><div class=\"primary-image-wrapper\"><inline-svg-viewer src=\"./_assets/media/8c1b4fc0-e625-11ea-bddd-5127370b77b7/2784abc0-5193-42f5-b69c-86d509c0f62a.svg\" stylesheet=\"media/8c1b4fc0-e625-11ea-bddd-5127370b77b7/24e0fbd5-331e-406d-b085-72392a126a5a.css\"><template shadowroot=\"open\"><link rel=\"stylesheet\" href=\"_assets/media/8c1b4fc0-e625-11ea-bddd-5127370b77b7/24e0fbd5-331e-406d-b085-72392a126a5a.css\"></link><div></div></template></inline-svg-viewer></div><div class=\"dynamic-text\"><div id=\"text1\" class=\"dynamic-text-item text1\">Greenland</div><div id=\"text2\" class=\"dynamic-text-item text2\">Canada</div><div id=\"text3\" class=\"dynamic-text-item text3\">United States of America</div><div id=\"text4\" class=\"dynamic-text-item text4\">Mexico</div></div><div class=\"below-primary-image\"><img id=\"north-america-map--UUID\" class=\"north-america-map--UUID dynamic-image-item\" src=\"_assets/media/8c1b4fc0-e625-11ea-bddd-5127370b77b7/02572ff0-f2a7-11ea-86ec-01dcf970d4ae.png\"></img></div></div></div></div></div></div></template></dynamic-graphic-view></template></component-selector></div></div></div></div></div></div></div></div></div></div></template></tabs-view>",
+  "complete": true
+ },
+ {
+  "modelid": "6d80994f4a064c5e814bef7a30c91725",
+  "model": {
+   "attributes": null,
+   "items": [
+    {
+     "body": "<p><strong>Access Layer</strong></p><p>The access layer provides a connection point for end user devices to the network and allows multiple hosts to connect to other hosts through a network device, usually a switch, such as the Cisco 2960-XR shown in the figure, or a wireless access point. Typically, all devices within a single access layer will have the same network portion of the IP address.</p><p>If a message is destined for a local host, based on the network portion of the IP address, the message remains local. If it is destined for a different network, it is passed up to the distribution layer. Switches provide the connection to the distribution layer devices, usually a Layer 3 device such as a router or Layer 3 switch.</p><p><strong>Cisco 2960-XR</strong></p>",
+     "title": "",
+     "_classes": "",
+     "_graphic": {
+      "alt": "The access layer image shows a Cisco switch that has two rows of ports across the front.",
+      "src": "media/8c3f5280-e625-11ea-bddd-5127370b77b7/997e61f0-fc3e-11ea-8100-b54a256e2995.png",
+      "useGlobalAssetsDir": true
+     },
+     "tabTitle": "Access Layer",
+     "_index": 0,
+     "_parentId": "6d80994f4a064c5e814bef7a30c91725"
+    },
+    {
+     "body": "<p><strong>Distribution Layer</strong></p><p>The distribution layer provides a connection point for separate networks and controls the flow of information between the networks. It typically contains more powerful switches, such as the Cisco C9300 series shown in the figure, than the access layer as well as routers for routing between networks. Distribution layer devices control the type and amount of traffic that flows from the access layer to the core layer.</p><p><strong>Cisco C9300 Series</strong></p>",
+     "title": "",
+     "_classes": "",
+     "_graphic": {
+      "alt": "The distribution layer image shows four switches that include more gigabit Ethernet ports.",
+      "src": "media/8c47b6f0-e625-11ea-bddd-5127370b77b7/72c69ea0-fc3f-11ea-a910-49d39f46e1eb.jpg",
+      "useGlobalAssetsDir": true
+     },
+     "tabTitle": "Distribution Layer",
+     "_index": 1,
+     "_parentId": "6d80994f4a064c5e814bef7a30c91725"
+    },
+    {
+     "body": "<p><strong>Core Layer</strong></p><p>The core layer is a high-speed backbone layer with redundant (backup) connections. It is responsible for transporting large amounts of data between multiple end networks. Core layer devices typically include very powerful, high-speed switches and routers, such as the Cisco Catalyst 9600 shown in the figure. The main goal of the core layer is to transport data quickly.</p><p><strong>Cisco Catalyst 9600</strong></p>",
+     "title": "",
+     "_classes": "",
+     "_graphic": {
+      "alt": "The core layer switch has a large switch that has modules contained horizontally within it and one module along the left that is pulled slightly out.",
+      "src": "media/8c50deb0-e625-11ea-bddd-5127370b77b7/e535d0f0-fc3f-11ea-9c2e-ab88220a5e9f.png",
+      "useGlobalAssetsDir": true
+     },
+     "tabTitle": "Core Layer",
+     "_index": 2,
+     "_parentId": "6d80994f4a064c5e814bef7a30c91725"
+    }
+   ]
+  },
+  "methods": [
+   "connectedCallback",
+   "firstUpdated",
+   "handleRequestUpdate",
+   "waitForHljsLoding",
+   "checkWebComponentMedia",
+   "updated",
+   "renderGraphic",
+   "renderWebComponentMedia",
+   "renderPrecodeSection",
+   "renderComponentSection",
+   "renderTabContent",
+   "render",
+   "scrollOnDescriptionOpen",
+   "removeEventHandlers",
+   "disconnectedCallback",
+   "preRender"
+  ],
+  "own": [
+   "isUpdatePending",
+   "hasUpdated",
+   "enableUpdating",
+   "renderOptions",
+   "applyDesignAttributesHandler",
+   "applyCustomCssHandler",
+   "__modelid",
+   "renderMethodRef",
+   "isLanguageChanged",
+   "renderMethodReplacement",
+   "renderedObserver",
+   "component",
+   "model",
+   "__nestedComponentStyles",
+   "requestUpdateHandler",
+   "controller",
+   "hljsLoaded",
+   "renderRoot"
+  ],
+  "html": "<tabs-view modelid=\"6d80994f4a064c5e814bef7a30c91725\" class=\"is-full\" sgpulse-type=\"component\"><template shadowroot=\"open\"><div class=\"component\"><div class=\"tab-inner component__inner\"><div data-socialgoodpulse-id=\"6d80994f4a064c5e814bef7a30c91725\" class=\"component tabs 6d80994f4a064c5e814bef7a30c91725  is-full   \"><div class=\"component__header-container\"><div data-socialgoodpulse-id=\"6d80994f4a064c5e814bef7a30c91725\" class=\"tab \"><base-view type=\"component\" lowercase_component=\"tabs\" customclass=\"\"><template shadowroot=\"open\"><div class=\"component__header-wrapper  \"><div class=\"component__header tabs__header\"><div class=\"component__header-inner tabs__header-inner\"><div class=\"component__content\"><div tabindex=\"0\" class=\"component__body tabs__body\"><div class=\"component__body-inner tabs__body-inner\"><p>IP traffic is managed based on the characteristics and devices associated with each of the three layers of the hierarchical network design model: Access, Distribution and Core.</p><p><strong>Click below to for a description of each layer.</strong></p></div></div></div></div></div></div></template></base-view></div></div><div class=\"component__widget tab__widget\"><div class=\"tabs__nav\"><div class=\"tabs__nav-inner\" role=\"tablist\"><button tabindex=\"0\" role=\"tab\" data-index=\"0\" aria-selected=\"true\" aria-controls=\"6d80994f4a064c5e814bef7a30c91725-0-tabpanel\" aria-label=\"Access Layer\" class=\"tabs__nav-item-btn js-tabs-nav-item-btn-click is-visited isSelected\"><div class=\"tabs__nav-item-btn-inner\" id=\"6d80994f4a064c5e814bef7a30c91725-0-tabtitle\">Access Layer</div></button><button tabindex=\"0\" role=\"tab\" data-index=\"1\" aria-selected=\"false\" aria-controls=\"6d80994f4a064c5e814bef7a30c91725-1-tabpanel\" aria-label=\"Distribution Layer\" class=\"tabs__nav-item-btn js-tabs-nav-item-btn-click is-visited \"><div class=\"tabs__nav-item-btn-inner\" id=\"6d80994f4a064c5e814bef7a30c91725-1-tabtitle\">Distribution Layer</div></button><button tabindex=\"0\" role=\"tab\" data-index=\"2\" aria-selected=\"false\" aria-controls=\"6d80994f4a064c5e814bef7a30c91725-2-tabpanel\" aria-label=\"Core Layer\" class=\"tabs__nav-item-btn js-tabs-nav-item-btn-click is-visited \"><div class=\"tabs__nav-item-btn-inner\" id=\"6d80994f4a064c5e814bef7a30c91725-2-tabtitle\">Core Layer</div></button></div></div><div class=\"tabs__widget component__widget clearfix\" tabindex=\"0\"><div class=\"tabs__content\"><div class=\"tabs__content-inner delayed-transform\"><div role=\"tabpanel\" id=\"0-tabpanel\" aria-labelledby=\"0-tabtitle\" data-index=\"item-0\" class=\"tabs__content-item item-0\"><div class=\"tabs__content-item-inner \"><div class=\"tabs__content-item-title\"><div class=\"tabs__content-item-title-inner\"><strong tabindex=\"\"></strong></div></div><div class=\"tabs__content-item-body\"><div class=\"tabs__content-item-body-inner\"><p tabindex=\"0\"><p><strong>Access Layer</strong></p><p>The access layer provides a connection point for end user devices to the network and allows multiple hosts to connect to other hosts through a network device, usually a switch, such as the Cisco 2960-XR shown in the figure, or a wireless access point. Typically, all devices within a single access layer will have the same network portion of the IP address.</p><p>If a message is destined for a local host, based on the network portion of the IP address, the message remains local. If it is destined for a different network, it is passed up to the distribution layer. Switches provide the connection to the distribution layer devices, usually a Layer 3 device such as a router or Layer 3 switch.</p><p><strong>Cisco 2960-XR</strong></p></p></div></div><div class=\"tabs__content-item-graphic\"><img tabindex=\"0\" class=\"tabs__content-item-graphic-inner img0\" src=\"./_assets/media/8c3f5280-e625-11ea-bddd-5127370b77b7/997e61f0-fc3e-11ea-8100-b54a256e2995.png\" aria-label=\"The access layer image shows a Cisco switch that has two rows of ports across the front.\"></img></div></div></div></div></div></div></div></div></div></div></template></tabs-view>",
+  "complete": false
+ }
+]

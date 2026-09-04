@@ -1,0 +1,302 @@
+[
+ {
+  "modelid": "63abc869231f0402b0232a07",
+  "model": {
+   "attributes": null,
+   "items": []
+  },
+  "methods": [
+   "render",
+   "preRender"
+  ],
+  "own": [
+   "isUpdatePending",
+   "hasUpdated",
+   "enableUpdating",
+   "renderOptions",
+   "applyDesignAttributesHandler",
+   "applyCustomCssHandler",
+   "__modelid",
+   "renderMethodRef",
+   "isLanguageChanged",
+   "renderMethodReplacement",
+   "renderedObserver",
+   "component",
+   "controller",
+   "renderRoot",
+   "model"
+  ],
+  "html": "<text-view modelid=\"63abc869231f0402b0232a07\" class=\"is-left\" sgpulse-type=\"component\"><template shadowroot=\"open\"><div class=\"text-inner component__inner\"><div class=\"component__header-container\"><div data-socialgoodpulse-id=\"63abc869231f0402b0232a07\" class=\"component text 63abc869231f0402b0232a07  is-left is-complete  \"><base-view type=\"component\" lowercase_component=\"text\" customclass=\"\"><template shadowroot=\"open\"><div class=\"component__header-wrapper  \"><div class=\"component__header text__header\"><div class=\"component__header-inner text__header-inner\"><div class=\"component__content\"><div tabindex=\"0\" class=\"component__body text__body\"><div class=\"component__body-inner text__body-inner\"><h1>38.1 Common Threats</h1></div></div></div></div></div></div></template></base-view></div></div></div></template></text-view>",
+  "complete": true
+ },
+ {
+  "modelid": "63abc869231f0402b0232a08",
+  "model": {
+   "attributes": null,
+   "items": []
+  },
+  "methods": [
+   "render",
+   "preRender"
+  ],
+  "own": [
+   "isUpdatePending",
+   "hasUpdated",
+   "enableUpdating",
+   "renderOptions",
+   "applyDesignAttributesHandler",
+   "applyCustomCssHandler",
+   "__modelid",
+   "renderMethodRef",
+   "isLanguageChanged",
+   "renderMethodReplacement",
+   "renderedObserver",
+   "component",
+   "controller",
+   "renderRoot",
+   "model"
+  ],
+  "html": "<text-view modelid=\"63abc869231f0402b0232a08\" class=\"is-left remove-padding-top\" sgpulse-type=\"component\"><template shadowroot=\"open\"><div class=\"text-inner component__inner\"><div class=\"component__header-container\"><div data-socialgoodpulse-id=\"63abc869231f0402b0232a08\" class=\"component text 63abc869231f0402b0232a08 remove-padding-top is-left is-complete  animated pulse infinite\"><base-view type=\"component\" lowercase_component=\"text\" customclass=\"\"><template shadowroot=\"open\"><div class=\"component__header-wrapper remove-padding-top \"><div class=\"component__header text__header\"><div class=\"component__header-inner text__header-inner\"><div class=\"component__content\"><div tabindex=\"0\" class=\"component__body text__body\"><div class=\"component__body-inner text__body-inner\"><p>Scroll to begin<i class=\"fa fa-arrow-circle-down\"></i></p></div></div></div></div></div></div></template></base-view></div></div></div></template></text-view>",
+  "complete": true
+ },
+ {
+  "modelid": "63d13f045c981b05c0864dfd",
+  "model": {
+   "attributes": null,
+   "items": []
+  },
+  "methods": [
+   "render",
+   "preRender"
+  ],
+  "own": [
+   "isUpdatePending",
+   "hasUpdated",
+   "enableUpdating",
+   "renderOptions",
+   "applyDesignAttributesHandler",
+   "applyCustomCssHandler",
+   "__modelid",
+   "renderMethodRef",
+   "isLanguageChanged",
+   "renderMethodReplacement",
+   "renderedObserver",
+   "component",
+   "controller",
+   "renderRoot",
+   "model"
+  ],
+  "html": "<text-view modelid=\"63d13f045c981b05c0864dfd\" class=\"is-left\" sgpulse-type=\"component\"><template shadowroot=\"open\"><div class=\"text-inner component__inner\"><div class=\"component__header-container\"><div data-socialgoodpulse-id=\"63d13f045c981b05c0864dfd\" class=\"component text 63d13f045c981b05c0864dfd  is-left is-complete  \"><base-view type=\"component\" lowercase_component=\"text\" customclass=\"\"><template shadowroot=\"open\"><div class=\"component__header-wrapper  \"><div class=\"component__header text__header\"><div class=\"component__header-inner text__header-inner\"><div class=\"component__content\"><div tabindex=\"0\" class=\"component__body text__body\"><div class=\"component__body-inner text__body-inner\"><p>Threats can originate from both within and outside of an organization, with attackers seeking access to valuable sensitive information such as personnel records, intellectual property, and financial data.</p><p><strong>Internal threats</strong> are usually carried out by current or former employees and other contract partners who accidentally or intentionally mishandle confidential data or threaten the operations of servers or network infrastructure devices by connecting infected media or by accessing malicious emails or websites.</p><p>The source of an <strong>external threat</strong> typically stems from amateur or skilled attackers who can exploit vulnerabilities in networked devices or can use social engineering techniques, such as trickery, to gain access to an organization’s internal resources.</p></div></div></div></div></div></div></template></base-view></div></div></div></template></text-view>",
+  "complete": true
+ },
+ {
+  "modelid": "63ac09fca6548a08fc58f9d4",
+  "model": {
+   "attributes": null,
+   "items": []
+  },
+  "methods": [
+   "render",
+   "preRender"
+  ],
+  "own": [
+   "isUpdatePending",
+   "hasUpdated",
+   "enableUpdating",
+   "renderOptions",
+   "applyDesignAttributesHandler",
+   "applyCustomCssHandler",
+   "__modelid",
+   "renderMethodRef",
+   "isLanguageChanged",
+   "renderMethodReplacement",
+   "renderedObserver",
+   "component",
+   "controller",
+   "renderRoot",
+   "model"
+  ],
+  "html": "<text-view modelid=\"63ac09fca6548a08fc58f9d4\" class=\"is-full\" sgpulse-type=\"component\"><template shadowroot=\"open\"><div class=\"text-inner component__inner\"><div class=\"component__header-container\"><div data-socialgoodpulse-id=\"63ac09fca6548a08fc58f9d4\" class=\"component text 63ac09fca6548a08fc58f9d4  is-full is-complete  \"><base-view type=\"component\" lowercase_component=\"text\" customclass=\"\"><template shadowroot=\"open\"><div class=\"component__header-wrapper  \"><div class=\"component__header text__header\"><div class=\"component__header-inner text__header-inner\"><div class=\"component__content\"><div tabindex=\"0\" class=\"component__body text__body\"><div class=\"component__body-inner text__body-inner\"><p>Always keep in mind that there are no technical solutions, controls, or countermeasures that will make information systems any more secure than the behaviors and processes of the people who use these systems.</p></div></div></div></div></div></div></template></base-view></div></div></div></template></text-view>",
+  "complete": true
+ },
+ {
+  "modelid": "63ac0d3d5b32bd08d6d8484a",
+  "model": {
+   "attributes": null,
+   "items": []
+  },
+  "methods": [
+   "render",
+   "preRender"
+  ],
+  "own": [
+   "isUpdatePending",
+   "hasUpdated",
+   "enableUpdating",
+   "renderOptions",
+   "applyDesignAttributesHandler",
+   "applyCustomCssHandler",
+   "__modelid",
+   "renderMethodRef",
+   "isLanguageChanged",
+   "renderMethodReplacement",
+   "renderedObserver",
+   "component",
+   "controller",
+   "renderRoot",
+   "model"
+  ],
+  "html": "<text-view modelid=\"63ac0d3d5b32bd08d6d8484a\" class=\"is-right\" sgpulse-type=\"component\"><template shadowroot=\"open\"><div class=\"text-inner component__inner\"><div class=\"component__header-container\"><div data-socialgoodpulse-id=\"63ac0d3d5b32bd08d6d8484a\" class=\"component text 63ac0d3d5b32bd08d6d8484a  is-right is-complete  \"><base-view type=\"component\" lowercase_component=\"text\" customclass=\"\"><template shadowroot=\"open\"><div class=\"component__header-wrapper  \"><div class=\"component__header text__header\"><div class=\"component__header-inner text__header-inner\"><div class=\"component__content\"><div tabindex=\"0\" class=\"component__body text__body\"><div class=\"component__body-inner text__body-inner\"><ul><li>Any devices left powered on and unattended<strong></strong>pose the risk of someone gaining unauthorized access to network resources.</li><li>Downloading files, photos, music, or videos from unreliable sources could lead to the execution of malicious code on devices.</li><li>Cybercriminals often exploit security vulnerabilities within software installed on an organization’s devices to launch an attack.</li><li>An organization’s information security teams must try to keep up to date with the daily discovery of new viruses, worms, and other malware that pose a threat to their devices.</li></ul></div></div></div></div></div></div></template></base-view></div></div></div></template></text-view>",
+  "complete": true
+ },
+ {
+  "modelid": "63ac0ca1185ad308b0ee2cd4",
+  "model": {
+   "attributes": null,
+   "items": []
+  },
+  "methods": [
+   "render",
+   "preRender"
+  ],
+  "own": [
+   "isUpdatePending",
+   "hasUpdated",
+   "enableUpdating",
+   "renderOptions",
+   "applyDesignAttributesHandler",
+   "applyCustomCssHandler",
+   "__modelid",
+   "renderMethodRef",
+   "isLanguageChanged",
+   "renderMethodReplacement",
+   "renderedObserver",
+   "component",
+   "controller",
+   "renderRoot",
+   "model"
+  ],
+  "html": "<text-view modelid=\"63ac0ca1185ad308b0ee2cd4\" class=\"is-left\" sgpulse-type=\"component\"><template shadowroot=\"open\"><div class=\"text-inner component__inner\"><div class=\"component__header-container\"><div data-socialgoodpulse-id=\"63ac0ca1185ad308b0ee2cd4\" class=\"component text 63ac0ca1185ad308b0ee2cd4  is-left is-complete  \"><base-view type=\"component\" lowercase_component=\"text\" customclass=\"\"><template shadowroot=\"open\"><div class=\"component__header-wrapper  \"><div class=\"component__header text__header\"><div class=\"component__header-inner text__header-inner\"><div class=\"component__content\"><div tabindex=\"0\" class=\"component__body text__body\"><div class=\"component__body-inner text__body-inner\"><ul><li>Users who insert unauthorized USB drives, CDs, or DVDs run the risk of introducing malware, or compromising data stored on their device.</li><li>Policies are in place to protect an organization’s IT infrastructure. A user can face serious consequences for purposefully violating such policies.</li><li>Using outdated hardware or software makes an organization’s systems and data more vulnerable to attack.</li></ul></div></div></div></div></div></div></template></base-view></div></div></div></template></text-view>",
+  "complete": true
+ },
+ {
+  "modelid": "63ac281f5b32bd08d6d84863",
+  "model": {
+   "attributes": null,
+   "items": []
+  },
+  "methods": [
+   "render",
+   "preRender"
+  ],
+  "own": [
+   "isUpdatePending",
+   "hasUpdated",
+   "enableUpdating",
+   "renderOptions",
+   "applyDesignAttributesHandler",
+   "applyCustomCssHandler",
+   "__modelid",
+   "renderMethodRef",
+   "isLanguageChanged",
+   "renderMethodReplacement",
+   "renderedObserver",
+   "component",
+   "controller",
+   "renderRoot",
+   "model"
+  ],
+  "html": "<text-view modelid=\"63ac281f5b32bd08d6d84863\" class=\"is-right\" sgpulse-type=\"component\"><template shadowroot=\"open\"><div class=\"text-inner component__inner\"><div class=\"component__header-container\"><div data-socialgoodpulse-id=\"63ac281f5b32bd08d6d84863\" class=\"component text 63ac281f5b32bd08d6d84863  is-right is-complete  \"><base-view type=\"component\" lowercase_component=\"text\" customclass=\"\"><template shadowroot=\"open\"><div class=\"component__header-wrapper  \"><div class=\"component__header text__header\"><div class=\"component__header-inner text__header-inner\"><div class=\"component__content\"><div tabindex=\"0\" class=\"component__body text__body\"><div class=\"component__body-inner text__body-inner\"><p>The <strong>private cloud domain</strong> includes any private servers, resources, and IT infrastructure available to members of a single organization via the internet. While many organizations feel that their data is safer in a private cloud, this domain still poses significant security threats, including:</p><ul><li>Unauthorized network probing and port scanning</li><li>Unauthorized access to resources</li><li>Router, firewall or network device operating system or software vulnerabilities</li><li>Router, firewall or network device configuration errors</li><li>Remote users accessing an organization’s infrastructure and downloading sensitive data</li></ul></div></div></div></div></div></div></template></base-view></div></div></div></template></text-view>",
+  "complete": true
+ },
+ {
+  "modelid": "63ac31baa6548a08fc58f9e3",
+  "model": {
+   "attributes": null,
+   "items": []
+  },
+  "methods": [
+   "render",
+   "preRender"
+  ],
+  "own": [
+   "isUpdatePending",
+   "hasUpdated",
+   "enableUpdating",
+   "renderOptions",
+   "applyDesignAttributesHandler",
+   "applyCustomCssHandler",
+   "__modelid",
+   "renderMethodRef",
+   "isLanguageChanged",
+   "renderMethodReplacement",
+   "renderedObserver",
+   "component",
+   "controller",
+   "renderRoot",
+   "model"
+  ],
+  "html": "<text-view modelid=\"63ac31baa6548a08fc58f9e3\" class=\"is-full\" sgpulse-type=\"component\"><template shadowroot=\"open\"><div class=\"text-inner component__inner\"><div class=\"component__header-container\"><div data-socialgoodpulse-id=\"63ac31baa6548a08fc58f9e3\" class=\"component text 63ac31baa6548a08fc58f9e3  is-full is-complete  \"><base-view type=\"component\" lowercase_component=\"text\" customclass=\"\"><template shadowroot=\"open\"><div class=\"component__header-wrapper  \"><div class=\"component__header text__header\"><div class=\"component__header-inner text__header-inner\"><div class=\"component__content\"><div tabindex=\"0\" class=\"component__body text__body\"><div class=\"component__body-inner text__body-inner\"><p>The <strong>application domain</strong> includes all of the critical systems, applications, and data used by an organization to support operations. Increasingly, organizations are moving applications such as email, security monitoring, and database management to the public cloud.</p><p>Common threats to applications include:</p><ul><li>Someone gaining unauthorized access to data centers, computer rooms, wiring closets or systems</li><li>Server downtime during maintenance periods</li><li>Network operating system software vulnerabilities</li><li>Data loss</li><li>Client-server or web application development vulnerabilities</li></ul></div></div></div></div></div></div></template></base-view></div></div></div></template></text-view>",
+  "complete": true
+ },
+ {
+  "modelid": "63ac3cfe185ad308b0ee2d08",
+  "model": {
+   "attributes": null,
+   "items": []
+  },
+  "methods": [
+   "render",
+   "preRender"
+  ],
+  "own": [
+   "isUpdatePending",
+   "hasUpdated",
+   "enableUpdating",
+   "renderOptions",
+   "applyDesignAttributesHandler",
+   "applyCustomCssHandler",
+   "__modelid",
+   "renderMethodRef",
+   "isLanguageChanged",
+   "renderMethodReplacement",
+   "renderedObserver",
+   "component",
+   "controller",
+   "renderRoot",
+   "model"
+  ],
+  "html": "<text-view modelid=\"63ac3cfe185ad308b0ee2d08\" class=\"is-right\" sgpulse-type=\"component\"><template shadowroot=\"open\"><div class=\"text-inner component__inner\"><div class=\"component__header-container\"><div data-socialgoodpulse-id=\"63ac3cfe185ad308b0ee2d08\" class=\"component text 63ac3cfe185ad308b0ee2d08  is-right is-complete  \"><base-view type=\"component\" lowercase_component=\"text\" customclass=\"\"><template shadowroot=\"open\"><div class=\"component__header-wrapper  \"><div class=\"component__header text__header\"><div class=\"component__header-inner text__header-inner\"><div class=\"component__content\"><div tabindex=\"0\" class=\"component__body text__body\"><div class=\"component__body-inner text__body-inner\"><br></br><ul><li>An <strong>advanced persistent threat (APT) </strong>is a continuous attack that uses elaborate espionage tactics involving multiple actors and/or sophisticated malware to gain access to the target’s network.<br></br>Attackers remain undetected for a long period of time, with potentially devastating consequences. APTs typically target governments and high-level organizations and are usually well-orchestrated and well-funded.</li></ul></div></div></div></div></div></div></template></base-view></div></div></div></template></text-view>",
+  "complete": true
+ },
+ {
+  "modelid": "63ac3cfe185ad308b0ee2d0c",
+  "model": {
+   "attributes": null,
+   "items": []
+  },
+  "methods": [
+   "render",
+   "preRender"
+  ],
+  "own": [
+   "isUpdatePending",
+   "hasUpdated",
+   "enableUpdating",
+   "renderOptions",
+   "applyDesignAttributesHandler",
+   "applyCustomCssHandler",
+   "__modelid",
+   "renderMethodRef",
+   "isLanguageChanged",
+   "renderMethodReplacement",
+   "renderedObserver",
+   "component",
+   "controller",
+   "renderRoot",
+   "model"
+  ],
+  "html": "<text-view modelid=\"63ac3cfe185ad308b0ee2d0c\" class=\"is-left\" sgpulse-type=\"component\"><template shadowroot=\"open\"><div class=\"text-inner component__inner\"><div class=\"component__header-container\"><div data-socialgoodpulse-id=\"63ac3cfe185ad308b0ee2d0c\" class=\"component text 63ac3cfe185ad308b0ee2d0c  is-left is-complete  \"><base-view type=\"component\" lowercase_component=\"text\" customclass=\"\"><template shadowroot=\"open\"><div class=\"component__header-wrapper  \"><div class=\"component__header text__header\"><div class=\"component__header-inner text__header-inner\"><div class=\"component__content\"><div tabindex=\"0\" class=\"component__body text__body\"><div class=\"component__body-inner text__body-inner\"><br></br><ul><li>As the name suggests, <strong>algorithm attacks</strong> take advantage of algorithms in a piece of legitimate software to generate unintended behaviors. For example, algorithms used to track and report how much energy a computer consumes can be used to select targets or trigger false alerts. They can also disable a computer by forcing it to use up all its RAM or by overworking its central processing unit (CPU).</li></ul></div></div></div></div></div></div></template></base-view></div></div></div></template></text-view>",
+  "complete": true
+ }
+]

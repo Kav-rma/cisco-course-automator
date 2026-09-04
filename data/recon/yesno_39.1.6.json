@@ -1,0 +1,64 @@
+[
+ {
+  "html": "<div class=\"yesno_container \"><div class=\"yesno_question_container\" aria-describedby=\"_ItemLevelFeedback\" tabindex=\"0\" aria-hidden=\"false\"><img class=\"current_question img_question\" aria-describedby=\"_ItemLevelFeedback\" alt=\"System backups\"></img></div><div class=\"user_select_btn\"><div class=\"user_selects_yes\" tabindex=\"0\" role=\"button\"><div class=\"yesno-btn-text\"><img class=\"yesno_image_buttons\"></img>Yes</div></div><div class=\"user_selects_no\" tabindex=\"0\" role=\"button\"><div class=\"yesno-btn-text\"><img class=\"yesno_image_buttons\"></img>No</div></div></div></div>",
+  "complete": false,
+  "current_alt": "System backups",
+  "items": [
+   {
+    "alt": "Equipment failure",
+    "yes": true
+   },
+   {
+    "alt": "Natural disasters",
+    "yes": true
+   },
+   {
+    "alt": "Denial of service",
+    "yes": true
+   },
+   {
+    "alt": "Malicious attacks",
+    "yes": true
+   },
+   {
+    "alt": "Equipment maintenance",
+    "yes": false
+   },
+   {
+    "alt": "System backups",
+    "yes": false
+   }
+  ]
+ },
+ {
+  "html": "<div class=\"yesno_container \"><div class=\"yesno_question_container\" aria-describedby=\"_ItemLevelFeedback\" tabindex=\"0\" aria-hidden=\"false\"><img class=\"current_question img_question\" aria-describedby=\"_ItemLevelFeedback\" alt=\"System backups\"></img></div><div class=\"user_select_btn\"><div class=\"user_selects_yes\" tabindex=\"0\" role=\"button\"><div class=\"yesno-btn-text\"><img class=\"yesno_image_buttons\"></img>Yes</div></div><div class=\"user_selects_no\" tabindex=\"0\" role=\"button\"><div class=\"yesno-btn-text\"><img class=\"yesno_image_buttons\"></img>No</div></div></div></div>",
+  "complete": false,
+  "current_alt": "System backups",
+  "items": [
+   {
+    "alt": "Equipment failure",
+    "yes": true
+   },
+   {
+    "alt": "Natural disasters",
+    "yes": true
+   },
+   {
+    "alt": "Denial of service",
+    "yes": true
+   },
+   {
+    "alt": "Malicious attacks",
+    "yes": true
+   },
+   {
+    "alt": "Equipment maintenance",
+    "yes": false
+   },
+   {
+    "alt": "System backups",
+    "yes": false
+   }
+  ]
+ }
+]

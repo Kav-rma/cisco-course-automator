@@ -1,0 +1,36 @@
+[
+ {
+  "modelid": "6e186c85d2fe4f32bf5226c2b5dd38d6",
+  "model": {
+   "attributes": null,
+   "items": []
+  },
+  "methods": [
+   "render",
+   "focusOnInput",
+   "focusOnTable",
+   "focusOnCheckBtn",
+   "shiftFocusToComponentBody",
+   "preRender"
+  ],
+  "own": [
+   "isUpdatePending",
+   "hasUpdated",
+   "enableUpdating",
+   "renderOptions",
+   "applyDesignAttributesHandler",
+   "applyCustomCssHandler",
+   "__modelid",
+   "renderMethodRef",
+   "isLanguageChanged",
+   "renderMethodReplacement",
+   "renderedObserver",
+   "component",
+   "controller",
+   "renderRoot",
+   "model"
+  ],
+  "html": "<binary-to-decimal modelid=\"6e186c85d2fe4f32bf5226c2b5dd38d6\" class=\"is-full\" sgpulse-type=\"component\"><template shadowroot=\"open\"><div class=\"component\"><div class=\"binary-to-decimal-inner component__inner\"><div data-socialgoodpulse-id=\"6e186c85d2fe4f32bf5226c2b5dd38d6\" class=\"component binarytodecimal 6e186c85d2fe4f32bf5226c2b5dd38d6  is-full   \"><div class=\"component__header-container\"><div data-socialgoodpulse-id=\"6e186c85d2fe4f32bf5226c2b5dd38d6\" class=\"binarytodecimal \"><base-view type=\"component\" lowercase_component=\"binaryToDecimal\" customclass=\"\"><template shadowroot=\"open\"><div class=\"component__header-wrapper  \"><div class=\"component__header binaryToDecimal__header\"><div class=\"component__header-inner binaryToDecimal__header-inner\"><div class=\"component__content\"><div tabindex=\"0\" class=\"component__body binaryToDecimal__body\"><div class=\"component__body-inner binaryToDecimal__body-inner\"><p><strong>Instructions</strong></p><p>This activity allows you to practice 8-bit binary to decimal conversion as much as necessary. We recommend that you work with this tool until you are able to do the conversion without error. Convert the binary number shown in the octet to its decimal value.</p></div></div></div></div></div></div></template></base-view></div></div><div class=\"component__widget binary-to-decimal__widget\"><div class=\"binary-to-decimal-container\"><p class=\"component__instruction\"><p><strong>Enter decimal answer below.</strong></p></p><div class=\"binary-to-decimal-table-wrapper\"><table class=\"binary-to-decimal-table\"><tbody><tr><th tabindex=\"0\">Decimal Value</th><th colspan=\"9\" class=\"mask-input\" tabindex=\"0\"><input type=\"text\" min=\"0\" max=\"9\" maxlength=\"3\" aria-label=\"decimal input\"></input></th></tr><tr><td tabindex=\"0\">Base</td><td tabindex=\"0\">2</td><td tabindex=\"0\">2</td><td tabindex=\"0\">2</td><td tabindex=\"0\">2</td><td tabindex=\"0\">2</td><td tabindex=\"0\">2</td><td tabindex=\"0\">2</td><td tabindex=\"0\">2</td></tr><tr><td tabindex=\"0\">Exponent</td><td tabindex=\"0\">7</td><td tabindex=\"0\">6</td><td tabindex=\"0\">5</td><td tabindex=\"0\">4</td><td tabindex=\"0\">3</td><td tabindex=\"0\">2</td><td tabindex=\"0\">1</td><td tabindex=\"0\">0</td></tr><tr><td tabindex=\"0\">Position</td><td tabindex=\"0\">128</td><td tabindex=\"0\">64</td><td tabindex=\"0\">32</td><td tabindex=\"0\">16</td><td tabindex=\"0\">8</td><td tabindex=\"0\">4</td><td tabindex=\"0\">2</td><td tabindex=\"0\">1</td></tr><tr class=\"mask-output bit-value\"><td class=\"bit-mask-output\" tabindex=\"0\">Bit</td><td class=\"output-cell\" tabindex=\"0\"><strong>1</strong></td><td class=\"output-cell\" tabindex=\"0\"><strong>0</strong></td><td class=\"output-cell\" tabindex=\"0\"><strong>1</strong></td><td class=\"output-cell\" tabindex=\"0\"><strong>0</strong></td><td class=\"output-cell\" tabindex=\"0\"><strong>0</strong></td><td class=\"output-cell\" tabindex=\"0\"><strong>1</strong></td><td class=\"output-cell\" tabindex=\"0\"><strong>1</strong></td><td class=\"output-cell\" tabindex=\"0\"><strong>0</strong></td></tr></tbody></table></div><p tabindex=\"0\"><strong>Binary Number</strong></p><div class=\"btn__container\"><button class=\"btn-text btn__action check-answer\" aria-label=\"Select here to check your answer.>\">Check</button><button class=\"btn-text btn__action change-question\" aria-label=\"\">New Number</button><button class=\"btn-text btn__action show-answer\" aria-label=\"Select here to submit your answer.\">Show Me</button><button class=\"btn-text btn__action reset-answer\" aria-label=\"\">Reset</button></div></div></div></div></div><div></div></div></template></binary-to-decimal>",
+  "complete": false
+ }
+]

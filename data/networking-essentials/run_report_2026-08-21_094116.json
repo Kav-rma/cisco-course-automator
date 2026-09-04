@@ -1,0 +1,328 @@
+{
+ "started_at": "2026-08-21T09:41:16",
+ "items": [
+  {
+   "item": "35.0.1",
+   "title": "Webster - Why Should I Take this Module?",
+   "module": 35,
+   "type": "INTRODUCTION",
+   "components": [
+    "text-view",
+    "graphic-view"
+   ],
+   "unit_complete": true,
+   "status": "already_complete",
+   "notes": [],
+   "seconds": 7.9,
+   "outline_after": "completed"
+  },
+  {
+   "item": "35.1.1",
+   "title": "Connect More Devices",
+   "module": 35,
+   "type": "INTERACTIVE",
+   "components": [
+    "tabs-view",
+    "text-view"
+   ],
+   "unit_complete": true,
+   "status": "already_complete",
+   "notes": [],
+   "seconds": 5.6,
+   "outline_after": "completed"
+  },
+  {
+   "item": "35.1.6",
+   "title": "Check Your Understanding - Cisco Switches",
+   "module": 35,
+   "type": "KNOWLEDGE_CHECK",
+   "components": [
+    "mcq-view",
+    "mcq-view",
+    "mcq-view",
+    "mcq-view",
+    "mcq-view",
+    "mcq-view",
+    "mcq-view",
+    "mcq-view",
+    "mcq-view",
+    "quicknav-view"
+   ],
+   "unit_complete": false,
+   "status": "failed",
+   "notes": [
+    "submit_failed: When first connecting to a switch to configure it for the fi"
+   ],
+   "seconds": 18.8
+  },
+  {
+   "item": "35.2.1",
+   "title": "Frame Forwarding Methods on Cisco Switches",
+   "module": 35,
+   "type": "INTERACTIVE",
+   "components": [
+    "adobe-animate-view"
+   ],
+   "unit_complete": true,
+   "status": "already_complete",
+   "notes": [],
+   "seconds": 4.0,
+   "outline_after": "completed"
+  },
+  {
+   "item": "35.3.1",
+   "title": "Power Up the Switch",
+   "module": 35,
+   "type": "INTERACTIVE",
+   "components": [
+    "tabs-view"
+   ],
+   "unit_complete": true,
+   "status": "already_complete",
+   "notes": [],
+   "seconds": 5.8,
+   "outline_after": "completed"
+  },
+  {
+   "item": "35.4.1",
+   "title": "Video - Cisco Router Components",
+   "module": 35,
+   "type": "VIDEO",
+   "components": [
+    "media-view"
+   ],
+   "unit_complete": true,
+   "status": "already_complete",
+   "notes": [],
+   "seconds": 5.7,
+   "outline_after": "completed"
+  },
+  {
+   "item": "35.5.1",
+   "title": "Power Up the Router",
+   "module": 35,
+   "type": "INTERACTIVE",
+   "components": [
+    "accordion-view"
+   ],
+   "unit_complete": true,
+   "status": "already_complete",
+   "notes": [],
+   "seconds": 6.0,
+   "outline_after": "completed"
+  },
+  {
+   "item": "35.6.1",
+   "title": "What Did I Learn in this Module?",
+   "module": 35,
+   "type": "INTERACTIVE",
+   "components": [
+    "accordion-view"
+   ],
+   "unit_complete": true,
+   "status": "already_complete",
+   "notes": [],
+   "seconds": 5.3,
+   "outline_after": "completed"
+  },
+  {
+   "item": "35.6.3",
+   "title": "Cisco Switches and Routers Quiz",
+   "module": 35,
+   "type": "ASSESSMENT",
+   "components": [
+    "adaptive-start-screen-view"
+   ],
+   "unit_complete": false,
+   "status": "needs_user",
+   "notes": [
+    "graded assessment - never automated"
+   ],
+   "seconds": 34.1
+  },
+  {
+   "item": "36.0.1",
+   "title": "Webster - Why Should I Take this Module?",
+   "module": 36,
+   "type": "INTRODUCTION",
+   "components": [
+    "text-view",
+    "graphic-view"
+   ],
+   "unit_complete": false,
+   "status": "completed",
+   "notes": [
+    "completed after scrolling into view"
+   ],
+   "seconds": 8.9,
+   "outline_after": "in progress"
+  },
+  {
+   "item": "36.0.2",
+   "title": "What Will I Learn in this Module?",
+   "module": 36,
+   "type": "INTRODUCTION",
+   "components": [
+    "table-view",
+    "quicknav-view"
+   ],
+   "unit_complete": false,
+   "status": "completed",
+   "notes": [
+    "completed after scrolling into view"
+   ],
+   "seconds": 5.5,
+   "outline_after": "completed"
+  },
+  {
+   "item": "36.1.1",
+   "title": "Video - Network Troubleshooting",
+   "module": 36,
+   "type": "VIDEO",
+   "components": [
+    "media-view"
+   ],
+   "unit_complete": false,
+   "status": "completed",
+   "notes": [],
+   "seconds": 9.7,
+   "outline_after": "completed"
+  },
+  {
+   "item": "36.1.4",
+   "title": "Structured Troubleshooting Methods",
+   "module": 36,
+   "type": "INTERACTIVE",
+   "components": [
+    "tabs-view"
+   ],
+   "unit_complete": false,
+   "status": "completed",
+   "notes": [
+    "unit complete"
+   ],
+   "seconds": 10.4,
+   "outline_after": "completed"
+  },
+  {
+   "item": "36.1.6",
+   "title": "Check Your Understanding - The Troubleshooting Process",
+   "module": 36,
+   "type": "KNOWLEDGE_CHECK",
+   "components": [
+    "mcq-view",
+    "mcq-view",
+    "mcq-view",
+    "mcq-view",
+    "mcq-view",
+    "mcq-view",
+    "mcq-view",
+    "quicknav-view"
+   ],
+   "unit_complete": false,
+   "status": "completed",
+   "notes": [],
+   "seconds": 13.0,
+   "outline_after": "completed"
+  },
+  {
+   "item": "36.2.1",
+   "title": "Common Layer 1 Problems",
+   "module": 36,
+   "type": "INTERACTIVE",
+   "components": [
+    "tabs-view"
+   ],
+   "unit_complete": false,
+   "status": "completed",
+   "notes": [
+    "unit complete"
+   ],
+   "seconds": 8.6,
+   "outline_after": "completed"
+  },
+  {
+   "item": "36.2.4",
+   "title": "Check Your Understanding - Physical Layer Problems",
+   "module": 36,
+   "type": "KNOWLEDGE_CHECK",
+   "components": [
+    "mcq-view",
+    "mcq-view",
+    "mcq-view",
+    "quicknav-view"
+   ],
+   "unit_complete": false,
+   "status": "completed",
+   "notes": [],
+   "seconds": 7.1,
+   "outline_after": "completed"
+  },
+  {
+   "item": "36.3.1",
+   "title": "Causes of Wireless Issues",
+   "module": 36,
+   "type": "LESSON",
+   "components": [
+    "graphic-view",
+    "blank-view"
+   ],
+   "unit_complete": false,
+   "status": "completed",
+   "notes": [
+    "completed after scrolling into view"
+   ],
+   "seconds": 7.2,
+   "outline_after": "completed"
+  },
+  {
+   "item": "36.3.2",
+   "title": "Authentication and Association Errors",
+   "module": 36,
+   "type": "LESSON",
+   "components": [
+    "dynamic-graphic-view"
+   ],
+   "unit_complete": false,
+   "status": "completed",
+   "notes": [
+    "completed after scrolling into view"
+   ],
+   "seconds": 5.1,
+   "outline_after": "completed"
+  }
+ ],
+ "needs_user": [
+  {
+   "item": "35.6.3",
+   "why": "graded assessment - never automated"
+  }
+ ],
+ "failed": [
+  {
+   "item": "35.1.6",
+   "title": "Check Your Understanding - Cisco Switches",
+   "module": 35,
+   "type": "KNOWLEDGE_CHECK",
+   "components": [
+    "mcq-view",
+    "mcq-view",
+    "mcq-view",
+    "mcq-view",
+    "mcq-view",
+    "mcq-view",
+    "mcq-view",
+    "mcq-view",
+    "mcq-view",
+    "quicknav-view"
+   ],
+   "unit_complete": false,
+   "status": "failed",
+   "notes": [
+    "submit_failed: When first connecting to a switch to configure it for the fi"
+   ],
+   "seconds": 18.8
+  }
+ ],
+ "finished_at": "2026-08-21T09:44:59"
+}

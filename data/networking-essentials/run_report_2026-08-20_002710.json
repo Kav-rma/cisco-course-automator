@@ -1,0 +1,862 @@
+{
+ "started_at": "2026-08-20T00:27:10",
+ "items": [
+  {
+   "item": "9.0.1",
+   "title": "Webster - Why Should I Take this Module?",
+   "module": 9,
+   "type": "INTRODUCTION",
+   "status": "already_complete",
+   "notes": [],
+   "seconds": 5.6,
+   "outline_after": "completed"
+  },
+  {
+   "item": "9.1.1",
+   "title": "Video - IPv4 Unicast",
+   "module": 9,
+   "type": "VIDEO",
+   "status": "already_complete",
+   "notes": [],
+   "seconds": 7.5,
+   "outline_after": "completed"
+  },
+  {
+   "item": "9.2.1",
+   "title": "Public and Private IPv4 Addresses",
+   "module": 9,
+   "type": "LESSON",
+   "status": "already_complete",
+   "notes": [],
+   "seconds": 3.9,
+   "outline_after": "completed"
+  },
+  {
+   "item": "9.2.8",
+   "title": "Check Your Understanding - Types of IPv4 Addresses",
+   "module": 9,
+   "type": "KNOWLEDGE_CHECK",
+   "status": "completed",
+   "notes": [],
+   "seconds": 3.9,
+   "outline_after": "completed"
+  },
+  {
+   "item": "9.3.1",
+   "title": "Video - Network Segmentation",
+   "module": 9,
+   "type": "VIDEO",
+   "status": "completed",
+   "notes": [],
+   "seconds": 9.4,
+   "outline_after": "completed"
+  },
+  {
+   "item": "9.3.4",
+   "title": "Reasons for Segmenting Networks",
+   "module": 9,
+   "type": "INTERACTIVE",
+   "status": "completed",
+   "notes": [
+    "unit complete"
+   ],
+   "seconds": 5.6,
+   "outline_after": "completed"
+  },
+  {
+   "item": "9.3.5",
+   "title": "Check Your Understanding - Network Segmentation",
+   "module": 9,
+   "type": "KNOWLEDGE_CHECK",
+   "status": "completed",
+   "notes": [],
+   "seconds": 3.6,
+   "outline_after": "completed"
+  },
+  {
+   "item": "9.4.1",
+   "title": "What Did I Learn in this Module?",
+   "module": 9,
+   "type": "INTERACTIVE",
+   "status": "completed",
+   "notes": [
+    "unit complete"
+   ],
+   "seconds": 6.9,
+   "outline_after": "completed"
+  },
+  {
+   "item": "9.4.2",
+   "title": "Webster - Reflection Questions",
+   "module": 9,
+   "type": "LESSON",
+   "status": "already_complete",
+   "notes": [],
+   "seconds": 3.7,
+   "outline_after": "completed"
+  },
+  {
+   "item": "9.4.3",
+   "title": "IPv4 and Network Segmentation Quiz",
+   "module": 9,
+   "type": "ASSESSMENT",
+   "status": "needs_user",
+   "notes": [
+    "graded assessment - never automated"
+   ],
+   "seconds": 33.3
+  },
+  {
+   "item": "10.0.1",
+   "title": "Webster - Why Should I Take this Module?",
+   "module": 10,
+   "type": "INTRODUCTION",
+   "status": "completed",
+   "notes": [
+    "completed after scrolling into view"
+   ],
+   "seconds": 5.0,
+   "outline_after": "in progress"
+  },
+  {
+   "item": "10.0.2",
+   "title": "What Will I Learn in this Module?",
+   "module": 10,
+   "type": "INTRODUCTION",
+   "status": "already_complete",
+   "notes": [],
+   "seconds": 3.2,
+   "outline_after": "completed"
+  },
+  {
+   "item": "10.1.1",
+   "title": "The Need for IPv6",
+   "module": 10,
+   "type": "LESSON",
+   "status": "already_complete",
+   "notes": [],
+   "seconds": 3.7,
+   "outline_after": "completed"
+  },
+  {
+   "item": "10.1.2",
+   "title": "IPv4 and IPv6 Coexistence",
+   "module": 10,
+   "type": "INTERACTIVE",
+   "status": "completed",
+   "notes": [
+    "unit complete"
+   ],
+   "seconds": 5.2,
+   "outline_after": "completed"
+  },
+  {
+   "item": "10.1.3",
+   "title": "Check Your Understanding - IPv4 Issues",
+   "module": 10,
+   "type": "KNOWLEDGE_CHECK",
+   "status": "completed",
+   "notes": [],
+   "seconds": 3.8,
+   "outline_after": "completed"
+  },
+  {
+   "item": "10.2.1",
+   "title": "Hexadecimal Number System",
+   "module": 10,
+   "type": "LESSON",
+   "status": "already_complete",
+   "notes": [],
+   "seconds": 5.4,
+   "outline_after": "completed"
+  },
+  {
+   "item": "10.2.2",
+   "title": "IPv6 Addressing Formats",
+   "module": 10,
+   "type": "LESSON",
+   "status": "completed",
+   "notes": [
+    "completed after scrolling into view"
+   ],
+   "seconds": 4.3,
+   "outline_after": "completed"
+  },
+  {
+   "item": "10.2.3",
+   "title": "Video - IPv6 Formatting Rules",
+   "module": 10,
+   "type": "VIDEO",
+   "status": "completed",
+   "notes": [],
+   "seconds": 5.5,
+   "outline_after": "completed"
+  },
+  {
+   "item": "10.2.4",
+   "title": "Rule 1 – Omit Leading Zeros",
+   "module": 10,
+   "type": "LESSON",
+   "status": "completed",
+   "notes": [
+    "completed after scrolling into view"
+   ],
+   "seconds": 4.1,
+   "outline_after": "completed"
+  },
+  {
+   "item": "10.2.5",
+   "title": "Rule 2- Double Colon",
+   "module": 10,
+   "type": "LESSON",
+   "status": "completed",
+   "notes": [
+    "completed after scrolling into view"
+   ],
+   "seconds": 4.3,
+   "outline_after": "completed"
+  },
+  {
+   "item": "10.2.6",
+   "title": "Activity - IPv6 Address Representations",
+   "module": 10,
+   "type": "LESSON",
+   "status": "failed",
+   "notes": [
+    "unit still incomplete after viewing; pending components: ['ipv6addressrepresentation-view']"
+   ],
+   "seconds": 24.4
+  },
+  {
+   "item": "10.3.1",
+   "title": "What Did I Learn in this Module?",
+   "module": 10,
+   "type": "INTERACTIVE",
+   "status": "completed",
+   "notes": [
+    "unit complete"
+   ],
+   "seconds": 5.5,
+   "outline_after": "completed"
+  },
+  {
+   "item": "10.3.2",
+   "title": "Webster - Reflection Questions",
+   "module": 10,
+   "type": "LESSON",
+   "status": "already_complete",
+   "notes": [],
+   "seconds": 3.7,
+   "outline_after": "completed"
+  },
+  {
+   "item": "10.3.3",
+   "title": "IPv6 Addressing Formats and Rules Quiz",
+   "module": 10,
+   "type": "ASSESSMENT",
+   "status": "needs_user",
+   "notes": [
+    "graded assessment - never automated"
+   ],
+   "seconds": 33.5
+  },
+  {
+   "item": "11.0.1",
+   "title": "Webster - Why Should I Take this Module?",
+   "module": 11,
+   "type": "INTRODUCTION",
+   "status": "already_complete",
+   "notes": [],
+   "seconds": 7.0,
+   "outline_after": "completed"
+  },
+  {
+   "item": "11.1.1",
+   "title": "Static IPv4 Address Assignment",
+   "module": 11,
+   "type": "LESSON",
+   "status": "already_complete",
+   "notes": [],
+   "seconds": 5.1,
+   "outline_after": "completed"
+  },
+  {
+   "item": "11.2.1",
+   "title": "Video - DHCPv4 Operation",
+   "module": 11,
+   "type": "VIDEO",
+   "status": "already_complete",
+   "notes": [],
+   "seconds": 5.2,
+   "outline_after": "completed"
+  },
+  {
+   "item": "11.3.1",
+   "title": "What Did I Learn in this Module?",
+   "module": 11,
+   "type": "INTERACTIVE",
+   "status": "already_complete",
+   "notes": [],
+   "seconds": 3.7,
+   "outline_after": "completed"
+  },
+  {
+   "item": "11.3.3",
+   "title": "Dynamic Addressing with DHCP Quiz",
+   "module": 11,
+   "type": "ASSESSMENT",
+   "status": "needs_user",
+   "notes": [
+    "graded assessment - never automated"
+   ],
+   "seconds": 33.3
+  },
+  {
+   "item": "12.0.1",
+   "title": "Webster - Why Should I Take this Module?",
+   "module": 12,
+   "type": "INTRODUCTION",
+   "status": "completed",
+   "notes": [
+    "completed after scrolling into view"
+   ],
+   "seconds": 6.7,
+   "outline_after": "completed"
+  },
+  {
+   "item": "12.0.2",
+   "title": "What Will I Learn in this Module?",
+   "module": 12,
+   "type": "INTRODUCTION",
+   "status": "already_complete",
+   "notes": [],
+   "seconds": 4.9,
+   "outline_after": "completed"
+  },
+  {
+   "item": "12.1.1",
+   "title": "Video - Gateways to Other Networks",
+   "module": 12,
+   "type": "VIDEO",
+   "status": "completed",
+   "notes": [],
+   "seconds": 8.0,
+   "outline_after": "completed"
+  },
+  {
+   "item": "12.1.4",
+   "title": "Check Your Understanding - Network Boundaries",
+   "module": 12,
+   "type": "KNOWLEDGE_CHECK",
+   "status": "completed",
+   "notes": [],
+   "seconds": 3.8,
+   "outline_after": "completed"
+  },
+  {
+   "item": "12.2.1",
+   "title": "Video - Introduction to NAT",
+   "module": 12,
+   "type": "VIDEO",
+   "status": "completed",
+   "notes": [],
+   "seconds": 8.2,
+   "outline_after": "completed"
+  },
+  {
+   "item": "12.2.2",
+   "title": "Packet Tracer - Examine NAT on a Wireless Router",
+   "module": 12,
+   "type": "ASSESSMENT",
+   "status": "needs_user",
+   "notes": [
+    "graded assessment - never automated"
+   ],
+   "seconds": 3.0
+  },
+  {
+   "item": "12.3.1",
+   "title": "What Did I Learn in this Module?",
+   "module": 12,
+   "type": "INTERACTIVE",
+   "status": "completed",
+   "notes": [
+    "unit complete"
+   ],
+   "seconds": 5.3,
+   "outline_after": "completed"
+  },
+  {
+   "item": "12.3.2",
+   "title": "Webster - Reflection Questions",
+   "module": 12,
+   "type": "LESSON",
+   "status": "already_complete",
+   "notes": [],
+   "seconds": 3.1,
+   "outline_after": "completed"
+  },
+  {
+   "item": "12.3.3",
+   "title": "Gateways to Other Networks Quiz",
+   "module": 12,
+   "type": "ASSESSMENT",
+   "status": "needs_user",
+   "notes": [
+    "graded assessment - never automated"
+   ],
+   "seconds": 33.5
+  },
+  {
+   "item": "13.0.1",
+   "title": "Webster - Why Should I Take this Module",
+   "module": 13,
+   "type": "INTRODUCTION",
+   "status": "completed",
+   "notes": [
+    "completed after scrolling into view"
+   ],
+   "seconds": 7.7,
+   "outline_after": "completed"
+  },
+  {
+   "item": "13.0.2",
+   "title": "What Will I Learn in this Module?",
+   "module": 13,
+   "type": "INTRODUCTION",
+   "status": "already_complete",
+   "notes": [],
+   "seconds": 4.1,
+   "outline_after": "completed"
+  },
+  {
+   "item": "13.1.1",
+   "title": "Destination on Same Network",
+   "module": 13,
+   "type": "LESSON",
+   "status": "already_complete",
+   "notes": [],
+   "seconds": 3.7,
+   "outline_after": "completed"
+  },
+  {
+   "item": "13.1.3",
+   "title": "Packet Tracer - Identify MAC and IP Addresses",
+   "module": 13,
+   "type": "LAB",
+   "status": "completed",
+   "notes": [],
+   "seconds": 3.4,
+   "outline_after": "completed"
+  },
+  {
+   "item": "13.1.4",
+   "title": "Check Your Understanding - MAC and IP",
+   "module": 13,
+   "type": "KNOWLEDGE_CHECK",
+   "status": "completed",
+   "notes": [],
+   "seconds": 3.9,
+   "outline_after": "completed"
+  },
+  {
+   "item": "13.2.1",
+   "title": "Video - The Ethernet Broadcast",
+   "module": 13,
+   "type": "VIDEO",
+   "status": "completed",
+   "notes": [],
+   "seconds": 9.5,
+   "outline_after": "completed"
+  },
+  {
+   "item": "13.2.4",
+   "title": "Video - Address Resolution Protocol",
+   "module": 13,
+   "type": "VIDEO",
+   "status": "completed",
+   "notes": [],
+   "seconds": 6.0,
+   "outline_after": "completed"
+  },
+  {
+   "item": "13.2.5",
+   "title": "ARP",
+   "module": 13,
+   "type": "INTERACTIVE",
+   "status": "completed",
+   "notes": [
+    "unit complete"
+   ],
+   "seconds": 4.4,
+   "outline_after": "completed"
+  },
+  {
+   "item": "13.2.6",
+   "title": "Check Your Understanding - Broadcast Containment",
+   "module": 13,
+   "type": "KNOWLEDGE_CHECK",
+   "status": "completed",
+   "notes": [],
+   "seconds": 5.1,
+   "outline_after": "completed"
+  },
+  {
+   "item": "13.3.1",
+   "title": "What Did I Learn in this Module?",
+   "module": 13,
+   "type": "INTERACTIVE",
+   "status": "completed",
+   "notes": [
+    "unit complete"
+   ],
+   "seconds": 7.3,
+   "outline_after": "completed"
+  },
+  {
+   "item": "13.3.2",
+   "title": "Webster - Reflection Questions",
+   "module": 13,
+   "type": "LESSON",
+   "status": "already_complete",
+   "notes": [],
+   "seconds": 3.6,
+   "outline_after": "completed"
+  },
+  {
+   "item": "13.3.3",
+   "title": "The ARP Process Quiz",
+   "module": 13,
+   "type": "ASSESSMENT",
+   "status": "needs_user",
+   "notes": [
+    "graded assessment - never automated"
+   ],
+   "seconds": 33.3
+  },
+  {
+   "item": "14.0.1",
+   "title": "Webster - Why Should I Take this Module?",
+   "module": 14,
+   "type": "INTRODUCTION",
+   "status": "completed",
+   "notes": [
+    "completed after scrolling into view"
+   ],
+   "seconds": 6.4,
+   "outline_after": "completed"
+  },
+  {
+   "item": "14.0.2",
+   "title": "What Will I Learn in this Modules?",
+   "module": 14,
+   "type": "INTRODUCTION",
+   "status": "already_complete",
+   "notes": [],
+   "seconds": 4.3,
+   "outline_after": "completed"
+  },
+  {
+   "item": "14.1.1",
+   "title": "Video - Dividing the Local Network",
+   "module": 14,
+   "type": "VIDEO",
+   "status": "completed",
+   "notes": [],
+   "seconds": 8.8,
+   "outline_after": "completed"
+  },
+  {
+   "item": "14.1.2",
+   "title": "Now We Need Routing",
+   "module": 14,
+   "type": "INTERACTIVE",
+   "status": "completed",
+   "notes": [
+    "unit complete"
+   ],
+   "seconds": 4.5,
+   "outline_after": "completed"
+  },
+  {
+   "item": "14.1.3",
+   "title": "Check Your Understanding - The Need for Routing",
+   "module": 14,
+   "type": "KNOWLEDGE_CHECK",
+   "status": "completed",
+   "notes": [],
+   "seconds": 3.7,
+   "outline_after": "completed"
+  },
+  {
+   "item": "14.2.1",
+   "title": "Video - Router Packet Forwarding",
+   "module": 14,
+   "type": "VIDEO",
+   "status": "completed",
+   "notes": [],
+   "seconds": 13.2,
+   "outline_after": "completed"
+  },
+  {
+   "item": "14.2.2",
+   "title": "Video - Messages Within and Between Networks - Part 1",
+   "module": 14,
+   "type": "VIDEO",
+   "status": "completed",
+   "notes": [],
+   "seconds": 8.1,
+   "outline_after": "completed"
+  },
+  {
+   "item": "14.2.3",
+   "title": "Video - Messages Within and Between Networks - Part 2",
+   "module": 14,
+   "type": "VIDEO",
+   "status": "completed",
+   "notes": [],
+   "seconds": 11.4,
+   "outline_after": "completed"
+  },
+  {
+   "item": "14.2.6",
+   "title": "Check Your Understanding - Select the Default Gateway",
+   "module": 14,
+   "type": "KNOWLEDGE_CHECK",
+   "status": "completed",
+   "notes": [],
+   "seconds": 4.1,
+   "outline_after": "completed"
+  },
+  {
+   "item": "14.2.7",
+   "title": "Check Your Understanding - The Routing Table",
+   "module": 14,
+   "type": "KNOWLEDGE_CHECK",
+   "status": "completed",
+   "notes": [],
+   "seconds": 7.2,
+   "outline_after": "completed"
+  },
+  {
+   "item": "14.3.1",
+   "title": "Local Area Networks",
+   "module": 14,
+   "type": "LESSON",
+   "status": "completed",
+   "notes": [
+    "completed after scrolling into view"
+   ],
+   "seconds": 5.4,
+   "outline_after": "completed"
+  },
+  {
+   "item": "14.3.2",
+   "title": "Local and Remote Network Segments",
+   "module": 14,
+   "type": "INTERACTIVE",
+   "status": "completed",
+   "notes": [
+    "unit complete"
+   ],
+   "seconds": 5.0,
+   "outline_after": "completed"
+  },
+  {
+   "item": "14.3.3",
+   "title": "Packet Tracer - Observe Traffic Flow in a Routed Network",
+   "module": 14,
+   "type": "LAB",
+   "status": "completed",
+   "notes": [],
+   "seconds": 3.3,
+   "outline_after": "completed"
+  },
+  {
+   "item": "14.3.4",
+   "title": "Packet Tracer - Create a LAN",
+   "module": 14,
+   "type": "LAB",
+   "status": "completed",
+   "notes": [],
+   "seconds": 3.3,
+   "outline_after": "completed"
+  },
+  {
+   "item": "14.4.1",
+   "title": "What Did I Learn in this Module?",
+   "module": 14,
+   "type": "INTERACTIVE",
+   "status": "completed",
+   "notes": [
+    "unit complete"
+   ],
+   "seconds": 5.6,
+   "outline_after": "completed"
+  },
+  {
+   "item": "14.4.2",
+   "title": "Webster - Reflection Questions",
+   "module": 14,
+   "type": "LESSON",
+   "status": "already_complete",
+   "notes": [],
+   "seconds": 3.1,
+   "outline_after": "completed"
+  },
+  {
+   "item": "14.4.3",
+   "title": "Routing Between Networks Quiz",
+   "module": 14,
+   "type": "ASSESSMENT",
+   "status": "needs_user",
+   "notes": [
+    "graded assessment - never automated"
+   ],
+   "seconds": 33.3
+  },
+  {
+   "item": "15.0.1",
+   "title": "Webster - Why Should I Take this Module?",
+   "module": 15,
+   "type": "INTRODUCTION",
+   "status": "completed",
+   "notes": [
+    "completed after scrolling into view"
+   ],
+   "seconds": 6.8,
+   "outline_after": "completed"
+  },
+  {
+   "item": "15.0.2",
+   "title": "What Will I Learn in this Module?",
+   "module": 15,
+   "type": "INTRODUCTION",
+   "status": "already_complete",
+   "notes": [],
+   "seconds": 4.9,
+   "outline_after": "completed"
+  },
+  {
+   "item": "15.1.1",
+   "title": "Video - TCP and UDP Operation",
+   "module": 15,
+   "type": "VIDEO",
+   "status": "completed",
+   "notes": [],
+   "seconds": 8.0,
+   "outline_after": "completed"
+  },
+  {
+   "item": "15.1.2",
+   "title": "Check Your Understanding - TCP and UDP",
+   "module": 15,
+   "type": "KNOWLEDGE_CHECK",
+   "status": "completed",
+   "notes": [],
+   "seconds": 3.9,
+   "outline_after": "completed"
+  },
+  {
+   "item": "15.2.1",
+   "title": "Video - Transport Layer Port Numbers",
+   "module": 15,
+   "type": "VIDEO",
+   "status": "completed",
+   "notes": [],
+   "seconds": 8.1,
+   "outline_after": "completed"
+  },
+  {
+   "item": "15.2.5",
+   "title": "Check Your Understanding - Port Numbers",
+   "module": 15,
+   "type": "KNOWLEDGE_CHECK",
+   "status": "completed",
+   "notes": [],
+   "seconds": 4.1,
+   "outline_after": "completed"
+  },
+  {
+   "item": "15.3.1",
+   "title": "What Did I Learn in this Module?",
+   "module": 15,
+   "type": "INTERACTIVE",
+   "status": "completed",
+   "notes": [
+    "unit complete"
+   ],
+   "seconds": 6.0,
+   "outline_after": "completed"
+  },
+  {
+   "item": "15.3.2",
+   "title": "Webster - Reflection Questions",
+   "module": 15,
+   "type": "LESSON",
+   "status": "already_complete",
+   "notes": [],
+   "seconds": 3.6,
+   "outline_after": "completed"
+  },
+  {
+   "item": "15.3.3",
+   "title": "TCP and UDP Quiz",
+   "module": 15,
+   "type": "ASSESSMENT",
+   "status": "needs_user",
+   "notes": [
+    "graded assessment - never automated"
+   ],
+   "seconds": 33.2
+  }
+ ],
+ "needs_user": [
+  {
+   "item": "9.4.3",
+   "why": "graded assessment - never automated"
+  },
+  {
+   "item": "10.3.3",
+   "why": "graded assessment - never automated"
+  },
+  {
+   "item": "11.3.3",
+   "why": "graded assessment - never automated"
+  },
+  {
+   "item": "12.2.2",
+   "why": "graded assessment - never automated"
+  },
+  {
+   "item": "12.3.3",
+   "why": "graded assessment - never automated"
+  },
+  {
+   "item": "13.3.3",
+   "why": "graded assessment - never automated"
+  },
+  {
+   "item": "14.4.3",
+   "why": "graded assessment - never automated"
+  },
+  {
+   "item": "15.3.3",
+   "why": "graded assessment - never automated"
+  }
+ ],
+ "failed": [
+  {
+   "item": "10.2.6",
+   "title": "Activity - IPv6 Address Representations",
+   "module": 10,
+   "type": "LESSON",
+   "status": "failed",
+   "notes": [
+    "unit still incomplete after viewing; pending components: ['ipv6addressrepresentation-view']"
+   ],
+   "seconds": 24.4
+  }
+ ],
+ "finished_at": "2026-08-20T00:39:15"
+}

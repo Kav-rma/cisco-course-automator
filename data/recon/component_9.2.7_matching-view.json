@@ -1,0 +1,168 @@
+[
+ {
+  "modelid": "74660d755a364bfca581f7105424db46",
+  "model": {
+   "keys": [
+    "_channels",
+    "properties",
+    "changed",
+    "modelid",
+    "_childrenCollection",
+    "triggerTrackableState",
+    "_parentModel",
+    "triggerTrackableStateQueued"
+   ],
+   "items": [
+    {
+     "text": "172.16.35.2",
+     "_options": [
+      {
+       "text": "Public",
+       "_isCorrect": false,
+       "_index": 0
+      },
+      {
+       "text": "Private",
+       "_isCorrect": true,
+       "_index": 1
+      }
+     ],
+     "_index": 0,
+     "_parentId": "74660d755a364bfca581f7105424db46"
+    },
+    {
+     "text": "192.168.3.5",
+     "_options": [
+      {
+       "text": "Public",
+       "_isCorrect": false,
+       "_index": 0
+      },
+      {
+       "text": "Private",
+       "_isCorrect": true,
+       "_index": 1
+      }
+     ],
+     "_index": 1,
+     "_parentId": "74660d755a364bfca581f7105424db46"
+    },
+    {
+     "text": "192.0.3.15",
+     "_options": [
+      {
+       "text": "Public",
+       "_isCorrect": true,
+       "_index": 0
+      },
+      {
+       "text": "Private",
+       "_isCorrect": false,
+       "_index": 1
+      }
+     ],
+     "_index": 2,
+     "_parentId": "74660d755a364bfca581f7105424db46"
+    },
+    {
+     "text": "64.104.0.22",
+     "_options": [
+      {
+       "text": "Public",
+       "_isCorrect": true,
+       "_index": 0
+      },
+      {
+       "text": "Private",
+       "_isCorrect": false,
+       "_index": 1
+      }
+     ],
+     "_index": 3,
+     "_parentId": "74660d755a364bfca581f7105424db46"
+    },
+    {
+     "text": "209.165.201.30",
+     "_options": [
+      {
+       "text": "Public",
+       "_isCorrect": true,
+       "_index": 0
+      },
+      {
+       "text": "Private",
+       "_isCorrect": false,
+       "_index": 1
+      }
+     ],
+     "_index": 4,
+     "_parentId": "74660d755a364bfca581f7105424db46"
+    },
+    {
+     "text": "192.168.11.5",
+     "_options": [
+      {
+       "text": "Public",
+       "_isCorrect": false,
+       "_index": 0
+      },
+      {
+       "text": "Private",
+       "_isCorrect": true,
+       "_index": 1
+      }
+     ],
+     "_index": 5,
+     "_parentId": "74660d755a364bfca581f7105424db46"
+    },
+    {
+     "text": "172.16.30.30",
+     "_options": [
+      {
+       "text": "Public",
+       "_isCorrect": false,
+       "_index": 0
+      },
+      {
+       "text": "Private",
+       "_isCorrect": true,
+       "_index": 1
+      }
+     ],
+     "_index": 6,
+     "_parentId": "74660d755a364bfca581f7105424db46"
+    },
+    {
+     "text": "10.55.3.168",
+     "_options": [
+      {
+       "text": "Public",
+       "_isCorrect": false,
+       "_index": 0
+      },
+      {
+       "text": "Private",
+       "_isCorrect": true,
+       "_index": 1
+      }
+     ],
+     "_index": 7,
+     "_parentId": "74660d755a364bfca581f7105424db46"
+    }
+   ],
+   "attempts": -1,
+   "canShowModelAnswer": true,
+   "component": "matching",
+   "isComplete": false
+  },
+  "methods": [
+   "firstUpdated",
+   "render",
+   "setTabindexOnItem",
+   "shiftFocusToComponentBody",
+   "preRender",
+   "setupQuestion"
+  ],
+  "html": "<matching-view modelid=\"74660d755a364bfca581f7105424db46\" class=\"is-full background-colour1 animated-hide\" sgpulse-type=\"component\"><template shadowroot=\"open\"><div data-socialgoodpulse-id=\"74660d755a364bfca581f7105424db46\" class=\"component__inner matching__inner component is-question matching 74660d755a364bfca581f7105424db46 background-colour1 animated-hide is-full   can-show-model-answer can-show-feedback can-show-marking ani\"><div class=\"component__header-container\"><base-view type=\"component\" lowercase_component=\"matching\" customclass=\"\"><template shadowroot=\"open\"><div class=\"component__header-wrapper background-colour1 animated-hide \"><div class=\"component__header matching__header\"><div class=\"component__header-inner matching__header-inner\"><div class=\"component__content\"><div tabindex=\"0\" class=\"component__body matching__body\"><div class=\"component__body-inner matching__body-inner\"><p><strong>Instructions:</strong></p><p>Click Public or Private below each address to choose the correct network type.</p></div></div></div></div></div></div></template></base-view></div><div class=\"component__widget matching__widget \"><matching-dropdown-view class=\" matching__item_main \" index=\"0\" placeholder=\"Please select an option\"><template shadowroot=\"open\"><div class=\"matching__item-container-options-wrapper 0 background-colour1 animated-hide\"><div class=\"matching__item-title_inner\" data-socialgoodpulse-index=\"0\"><div class=\"matching__item-title\" tabindex=\"0\"><div class=\"matching__item-title_inner\">172.16.35.2</div></div><div tabindex=\"-1\" class=\"matching__select-container  \"><button class=\"dropdown__btn js-dropdown-btn\" aria-labelledby=\"matching__item-title_inner\" aria-haspopup=\"listbox\" aria-expanded=\"false\"><div class=\"dropdown__inner js-dropdown-inner\">Please select an option</div><div class=\"dropdown__icon\" aria-hidden=\"true\"><div class=\"icon matching_item-state\"><material-icon icon=\"arrow_drop_down\" class=\"arrow_drop_down\" customclasses=\"\" iconname=\"arrow_drop_down\"><template shadowroot=\"open\"><span part=\"material-icon\" class=\"material-icons \">arrow_drop_down</span></template></material-icon></div></div></button><ul role=\"listbox\" tabindex=\"-1\" class=\"dropdown__list js-dropdown-list hidden\"><li role=\"option\" id=\"dropdown__item-index-0\" class=\"dropdown__item js-dropdown-list-item \" data-index=\"0\" aria-selected=\"false\"><div class=\"dropdown__item-inner js-dropdown-list-item-inner\" tabindex=\"0\" value=\"Public\">Public<span class=\"sr-only\">, 1of2, not selected</span></div></li><li role=\"option\" id=\"dropdown__item-index-1\" class=\"dropdown__item js-dropdown-list-item \" data-index=\"1\" aria-selected=\"false\"><div class=\"dropdown__item-inner js-dropdown-list-item-inner\" tabindex=\"0\" value=\"Private\">Private<span class=\"sr-only\">, 2of2, not selected</span></div></li></ul></div></div></div></template></matching-dropdown-view><matching-dropdown-view class=\" matching__item_main \" index=\"1\" placeholder=\"Please select an option\"><template shadowroot=\"open\"><div class=\"matching__item-container-options-wrapper 1 background-colour1 animated-hide\"><div class=\"matching__item-title_inner\" data-socialgoodpulse-index=\"1\"><div class=\"matching__item-title\" tabindex=\"0\"><div class=\"matching__item-title_inner\">192.168.3.5</div></div><div tabindex=\"-1\" class=\"matching__select-container  \"><button class=\"dropdown__btn js-dropdown-btn\" aria-labelledby=\"matching__item-title_inner\" aria-haspopup=\"listbox\" aria-expanded=\"false\"><div class=\"dropdown__inner js-dropdown-inner\">Please select an option</div><div class=\"dropdown__icon\" aria-hidden=\"true\"><div class=\"icon matching_item-state\"><material-icon icon=\"arrow_drop_down\" class=\"arrow_drop_down\" customclasses=\"\" iconname=\"arrow_drop_down\"><template shadowroot=\"open\"><span part=\"material-icon\" class=\"material-icons \">arrow_drop_down</span></template></material-icon></div></div></button><ul role=\"listbox\" tabindex=\"-1\" class=\"dropdown__list js-dropdown-list hidden\"><li role=\"option\" id=\"dropdown__item-index-0\" class=\"dropdown__item js-dropdown-list-item \" data-index=\"0\" aria-selected=\"false\"><div class=\"dropdown__item-inner js-dropdown-list-item-inner\" tabindex=\"0\" value=\"Public\">Public<span class=\"sr-only\">, 1of2, not selected</span></div></li><li role=\"option\" id=\"dropdown__item-index-1\" class=\"dropdown__item js-dropdown-list-item \" data-index=\"1\" aria-selected=\"false\"><div class=\"dropdown__item-inner js-dropdown-list-item-inner\" tabindex=\"0\" value=\"Private\">Private<span class=\"sr-only\">, 2of2, not selected</span></div></li></ul></div></div></div></template></matching-dropdown-view><matching-dropdown-view class=\" matching__item_main \" index=\"2\" placeholder=\"Please select an option\"><template shadowroot=\"open\"><div class=\"matching__item-container-options-wrapper 2 background-colour1 animated-hide\"><div class=\"matching__item-title_inner\" data-socialgoodpulse-index=\"2\"><div class=\"matching__item-title\" tabindex=\"0\"><div class=\"matching__item-title_inner\">192.0.3.15</div></div><div tabindex=\"-1\" class=\"matching__select-container  \"><button class=\"dropdown__btn js-dropdown-btn\" aria-labelledby=\"matching__item-title_inner\" aria-haspopup=\"listbox\" aria-expanded=\"false\"><div class=\"dropdown__inner js-dropdown-inner\">Please select an option</div><div class=\"dropdown__icon\" aria-hidden=\"true\"><div class=\"icon matching_item-state\"><material-icon icon=\"arrow_drop_down\" class=\"arrow_drop_down\" customclasses=\"\" iconname=\"arrow_drop_down\"><template shadowroot=\"open\"><span part=\"material-icon\" class=\"material-icons \">arrow_drop_down</span></template></material-icon></div></div></button><ul role=\"listbox\" tabindex=\"-1\" class=\"dropdown__list js-dropdown-list hidden\"><li role=\"option\" id=\"dropdown__item-index-0\" class=\"dropdown__item js-dropdown-list-item \" data-index=\"0\" aria-selected=\"false\"><div class=\"dropdown__item-inner js-dropdown-list-item-inner\" tabindex=\"0\" value=\"Public\">Public<span class=\"sr-only\">, 1of2, not selected</span></div></li><li role=\"option\" id=\"dropdown__item-index-1\" class=\"dropdown__item js-dropdown-list-item \" data-index=\"1\" aria-selected=\"false\"><div class=\"dropdown__item-inner js-dropdown-list-item-inner\" tabindex=\"0\" value=\"Private\">Private<span class=\"sr-only\">, 2of2, not selected</span></div></li></ul></div></div></div></template></matching-dropdown-view><matching-dropdown-view class=\" matching__item_main \" index=\"3\" placeholder=\"Please select an option\"><template shadowroot=\"open\"><div class=\"matching__item-container-options-wrapper 3 background-colour1 animated-hide\"><div class=\"matching__item-title_inner\" data-socialgoodpulse-index=\"3\"><div class=\"matching__item-title\" tabindex=\"0\"><div class=\"matching__item-title_inner\">64.104.0.22</div></div><div tabindex=\"-1\" class=\"matching__select-container  \"><button class=\"dropdown__btn js-dropdown-btn\" aria-labelledby=\"matching__item-title_inner\" aria-haspopup=\"listbox\" aria-expanded=\"false\"><div class=\"dropdown__inner js-dropdown-inner\">Please select an option</div><div class=\"dropdown__icon\" aria-hidden=\"true\"><div class=\"icon matching_item-state\"><material-icon icon=\"arrow_drop_down\" class=\"arrow_drop_down\" customclasses=\"\" iconname=\"arrow_drop_down\"><template shadowroot=\"open\"><span part=\"material-icon\" class=\"material-icons \">arrow_drop_down</span></template></material-icon></div></div></button><ul role=\"listbox\" tabindex=\"-1\" class=\"dropdown__list js-dropdown-list hidden\"><li role=\"option\" id=\"dropdown__item-index-0\" class=\"dropdown__item js-dropdown-list-item \" data-index=\"0\" aria-selected=\"false\"><div class=\"dropdown__item-inner js-dropdown-list-item-inner\" tabindex=\"0\" value=\"Public\">Public<span class=\"sr-only\">, 1of2, not selected</span></div></li><li role=\"option\" id=\"dropdown__item-index-1\" class=\"dropdown__item js-dropdown-list-item \" data-index=\"1\" aria-selected=\"false\"><div class=\"dropdown__item-inner js-dropdown-list-item-inner\" tabindex=\"0\" value=\"Private\">Private<span class=\"sr-only\">, 2of2, not selected</span></div></li></ul></div></div></div></template></matching-dropdown-view><matching-dropdown-view class=\" matching__item_main \" index=\"4\" placeholder=\"Please select an option\"><template shadowroot=\"open\"><div class=\"matching__item-container-options-wrapper 4 background-colour1 animated-hide\"><div class=\"matching__item-title_inner\" data-socialgoodpulse-index=\"4\"><div class=\"matching__item-title\" tabindex=\"0\"><div class=\"matching__item-title_inner\">209.165.201.30</div></div><div tabindex=\"-1\" class=\"matching__select-container  \"><button class=\"dropdown__btn js-dropdown-btn\" aria-labelledby=\"matching__item-title_inner\" aria-haspopup=\"listbox\" aria-expanded=\"false\"><div class=\"dropdown__inner js-dropdown-inner\">Please select an option</div><div class=\"dropdown__icon\" aria-hidden=\"true\"><div class=\"icon matching_item-state\"><material-icon icon=\"arrow_drop_down\" class=\"arrow_drop_down\" customclasses=\"\" iconname=\"arrow_drop_down\"><template shadowroot=\"open\"><span part=\"material-icon\" class=\"material-icons \">arrow_drop_down</span></template></material-icon></div></div></button><ul role=\"listbox\" tabindex=\"-1\" class=\"dropdown__list js-dropdown-list hidden\"><li role=\"option\" id=\"dropdown__item-index-0\" class=\"dropdown__item js-dropdown-list-item \" data-index=\"0\" aria-selected=\"false\"><div class=\"dropdown__item-inner js-dropdown-list-item-inner\" tabindex=\"0\" value=\"Public\">Public<span class=\"sr-only\">, 1of2, not selected</span></div></li><li role=\"option\" id=\"dropdown__item-index-1\" class=\"dropdown__item js-dropdown-list-item \" data-index=\"1\" aria-selected=\"false\"><div class=\"dropdown__item-inner js-dropdown-list-item-inner\" tabindex=\"0\" value=\"Private\">Private<span class=\"sr-only\">, 2of2, not selected</span></div></li></ul></div></div></div></template></matching-dropdown-view><matching-dropdown-view class=\" matching__item_main \" index=\"5\" placeholder=\"Please select an option\"><template shadowroot=\"open\"><div class=\"matching__item-container-options-wrapper 5 background-colour1 animated-hide\"><div class=\"matching__item-title_inner\" data-socialgoodpulse-index=\"5\"><div class=\"matching__item-title\" tabindex=\"0\"><div class=\"matching__item-title_inner\">192.168.11.5</div></div><div tabindex=\"-1\" class=\"matching__select-container  \"><button class=\"dropdown__btn js-dropdown-btn\" aria-labelledby=\"matching__item-title_inner\" aria-haspopup=\"listbox\" aria-expanded=\"false\"><div class=\"dropdown__inner js-dropdown-inner\">Please select an option</div><div class=\"dropdown__icon\" aria-hidden=\"true\"><div class=\"icon matching_item-state\"><material-icon icon=\"arrow_drop_down\" class=\"arrow_drop_down\" customclasses=\"\" iconname=\"arrow_drop_down\"><template shadowroot=\"open\"><span part=\"material-icon\" class=\"material-icons \">arrow_drop_down</span></template></material-icon></div></div></button><ul role=\"listbox\" tabindex=\"-1\" class=\"dropdown__list js-dropdown-list hidden\"><li role=\"option\" id=\"dropdown__item-index-0\" class=\"dropdown__item js-dropdown-list-item \" data-index=\"0\" aria-selected=\"false\"><div class=\"dropdown__item-inner js-dropdown-list-item-inner\" tabindex=\"0\" value=\"Public\">Public<span class=\"sr-only\">, 1of2, not selected</span></div></li><li role=\"option\" id=\"dropdown__item-index-1\" class=\"dropdown__item js-dropdown-list-item \" data-index=\"1\" aria-selected=\"false\"><div class=\"dropdown__item-inner js-dropdown-list-item-inner\" tabindex=\"0\" value=\"Private\">Private<span class=\"sr-only\">, 2of2, not selected</span></div></li></ul></div></div></div></template></matching-dropdown-view><matching-dropdown-view class=\" matching__item_main \" index=\"6\" placeholder=\"Please select an option\"><template shadowroot=\"open\"><div class=\"matching__item-container-options-wrapper 6 background-colour1 animated-hide\"><div class=\"matching__item-title_inner\" data-socialgoodpulse-index=\"6\"><div class=\"matching__item-title\" tabindex=\"0\"><div class=\"matching__item-title_inner\">172.16.30.30</div></div><div tabindex=\"-1\" class=\"matching__select-container  \"><button class=\"dropdown__btn js-dropdown-btn\" aria-labelledby=\"matching__item-title_inner\" aria-haspopup=\"listbox\" aria-expanded=\"false\"><div class=\"dropdown__inner js-dropdown-inner\">Please select an option</div><div class=\"dropdown__icon\" aria-hidden=\"true\"><div class=\"icon matching_item-state\"><material-icon icon=\"arrow_drop_down\" class=\"arrow_drop_down\" customclasses=\"\" iconname=\"arrow_drop_down\"><template shadowroot=\"open\"><span part=\"material-icon\" class=\"material-icons \">arrow_drop_down</span></template></material-icon></div></div></button><ul role=\"listbox\" tabindex=\"-1\" class=\"dropdown__list js-dropdown-list hidden\"><li role=\"option\" id=\"dropdown__item-index-0\" class=\"dropdown__item js-dropdown-list-item \" data-index=\"0\" aria-selected=\"false\"><div class=\"dropdown__item-inner js-dropdown-list-item-inner\" tabindex=\"0\" value=\"Public\">Public<span class=\"sr-only\">, 1of2, not selected</span></div></li><li role=\"option\" id=\"dropdown__item-index-1\" class=\"dropdown__item js-dropdown-list-item \" data-index=\"1\" aria-selected=\"false\"><div class=\"dropdown__item-inner js-dropdown-list-item-inner\" tabindex=\"0\" value=\"Private\">Private<span class=\"sr-only\">, 2of2, not selected</span></div></li></ul></div></div></div></template></matching-dropdown-view><matching-dropdown-view class=\" matching__item_main \" index=\"7\" placeholder=\"Please select an option\"><template shadowroot=\"open\"><div class=\"matching__item-container-options-wrapper 7 background-colour1 animated-hide\"><div class=\"matching__item-title_inner\" data-socialgoodpulse-index=\"7\"><div class=\"matching__item-title\" tabindex=\"0\"><div class=\"matching__item-title_inner\">10.55.3.168</div></div><div tabindex=\"-1\" class=\"matching__select-container  \"><button class=\"dropdown__btn js-dropdown-btn\" aria-labelledby=\"matching__item-title_inner\" aria-haspopup=\"listbox\" aria-expanded=\"false\"><div class=\"dropdown__inner js-dropdown-inner\">Please select an option</div><div class=\"dropdown__icon\" aria-hidden=\"true\"><div class=\"icon matching_item-state\"><material-icon icon=\"arrow_drop_down\" class=\"arrow_drop_down\" customclasses=\"\" iconname=\"arrow_drop_down\"><template shadowroot=\"open\"><span part=\"material-icon\" class=\"material-icons \">arrow_drop_down</span></template></material-icon></div></div></button><ul role=\"listbox\" tabindex=\"-1\" class=\"dropdown__list js-dropdown-list hidden\"><li role=\"option\" id=\"dropdown__item-index-0\" class=\"dropdown__item js-dropdown-list-item \" data-index=\"0\" aria-selected=\"false\"><div class=\"dropdown__item-inner js-dropdown-list-item-inner\" tabindex=\"0\" value=\"Public\">Public<span class=\"sr-only\">, 1of2, not selected</span></div></li><li role=\"option\" id=\"dropdown__item-index-1\" class=\"dropdown__item js-dropdown-list-item \" data-index=\"1\" aria-selected=\"false\"><div class=\"dropdown__item-inner js-dropdown-list-item-inner\" tabindex=\"0\" value=\"Private\">Private<span class=\"sr-only\">, 2of2, not selected</span></div></li></ul></div></div></div></template></matching-dropdown-view></div><div class=\"btn-container \"><buttons-view sgpulse-type=\"component\"><template shadowroot=\"open\"><div class=\"btn__container \"><div class=\"btn__response-container\"><div class=\"js-answer-live-region aria-label\" aria-live=\"assertive\" aria-atomic=\"true\"></div><button class=\"btn-text btn__action js-btn-action is-disabled\" aria-label=\"Submit Your answer will be submitted\" disabled=\"\">Submit</button><button class=\"btn-text btn__action btn__feedback js-btn-feedback is-disabled\" disabled=\"\" aria-label=\"Show feedback\" aria-disabled=\"true\">Show feedback</button></div></div></template></buttons-view></div></div></template></matching-view>"
+ }
+]

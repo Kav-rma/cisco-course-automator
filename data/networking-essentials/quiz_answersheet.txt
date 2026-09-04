@@ -1,0 +1,3346 @@
+ANSWER SHEET — SCSE_FOS_Networking Essentials
+39 module quizzes, 439 questions
+Fill in each 'Answer:' line (letter(s) for MCQ; the pairing for match questions), then send it back.
+==========================================================================================
+
+### QUIZ 1.4.3 — Communications in a Connected World Quiz  (10 questions)
+
+Q1. What is the internet?
+    A) the type of physical media used by computers to access the World Wide Web
+    B) a network of networks
+    C) an application used to access the World Wide Web
+    D) a small isolated internal network of a company
+    Answer: ____
+
+Q2. What is an example of a binary value from everyday life?
+    A) room temperature
+    B) a simple light switch
+    C) speed of a traveling car
+    D) brightness of a light bulb
+    Answer: ____
+
+Q4. What type of device is able to create physical movement?
+    A) actuator
+    B) sensor
+    C) RFID tag
+    D) console
+    Answer: ____
+
+Q5. What are three options for signal transmission on a network? (Choose three.)
+    A) radio waves
+    B) vibration pulses
+    C) sound waves
+    D) electrical pulses
+    E) light pulses
+    Answer: ____  (choose all that apply)
+
+Q6. Who owns the internet?
+    A) Bill Gates
+    B) Cisco
+    C) the government
+    D) no one person or group
+    Answer: ____
+
+Q7. Which type of connected device is placed on objects to track and monitor them?
+    A) RFID tags
+    B) sensors
+    C) actuators
+    D) consoles
+    Answer: ____
+
+Q8. A byte consists of how many bits?
+    A) 2
+    B) 4
+    C) 8
+    D) 16
+    Answer: ____
+
+Q9. Which two numbers are possible values of a bit? (Choose two.)
+    A) 0
+    B) 1
+    C) 2
+    D) 8
+    E) 16
+    Answer: ____  (choose all that apply)
+
+Q10. What measurement is used to indicate thousands of bits per second?
+    A) Kbps
+    B) Mbps
+    C) Tbps
+    D) Gbps
+    Answer: ____
+
+Q11. What type of network must a home user access in order to do online shopping?
+    A) a SOHO network
+    B) the internet
+    C) a local area network
+    Answer: ____
+
+------------------------------------------------------------------------------------------
+
+### QUIZ 2.4.3 — Network Components, Types, and Connections Quiz  (10 questions)
+
+Q1. What type of network is defined by two computers that can both send and receive requests for resources?
+    A) client/server
+    B) peer-to-peer
+    C) enterprise
+    D) campus
+    Answer: ____
+
+Q2. What are two functions of end devices on a network? (Choose two.)
+    A) They originate the data that flows through the network.
+    B) They direct data over alternate paths in the event of link failures.
+    C) They filter the flow of data to enhance security.
+    D) They are the interface between humans and the communication network.
+    E) They provide the channel over which the network message travels.
+    Answer: ____  (choose all that apply)
+
+Q3. A home user is looking for an ISP connection that provides high speed digital transmission over regular phone lines. What ISP connection type should be used?
+    A) DSL
+    B) dial-up
+    C) satellite
+    D) cell modem
+    E) cable modem
+    Answer: ____
+
+Q4. What type of internet connection would be best for a residence in a remote area without mobile phone coverage or wired connectivity?
+    A) dial-up
+    B) cellular
+    C) satellite
+    D) DSL
+    Answer: ____
+
+Q5. Which term correctly describes the function of an ISP?
+    A) responsible for managing local networks
+    B) responsible for the maintenance of SOHO networks
+    C) responsible for providing the link between a private network and the internet
+    D) responsible for providing security on private networks
+    Answer: ____
+
+Q6. Which device is an intermediary device?
+    A) firewall
+    B) PC
+    C) server
+    D) smart device
+    Answer: ____
+
+Q7. Which scenario describes a peer-to-peer network?
+    A) Users access shared files from a file server.
+    B) A user visits a webpage on the company web site.
+    C) A user has shared a printer attached to the workstation.
+    D) Users print documents from a network printer that has a built-in NIC.
+    Answer: ____
+
+Q8. Which term is used to describe a network device with the primary function of providing information to other devices?
+    A) workstation
+    B) console
+    C) server
+    D) client
+    Answer: ____
+
+Q9. What is an advantage of the peer-to-peer network model?
+    A) scalability
+    B) high level of security
+    C) ease of setup
+    D) centralized administration
+    Answer: ____
+
+Q10. What is a characteristic of a peer-to-peer application?
+    A) Each device using the application provides a user interface and runs a background service.
+    B) Each device can act both as a client and a server, but not simultaneously.
+    C) The resources required for the application are centralized.
+    D) One device is designated a server and one device is designated a client for all communications and services.
+    Answer: ____
+
+------------------------------------------------------------------------------------------
+
+### QUIZ 3.3.3 — Wireless and Mobile Networks Quiz  (11 questions)
+
+Q1. What term is used to describe connecting a mobile device to another mobile device or computer to share a network connection?
+    A) joining
+    B) syncing
+    C) pairing
+    D) tethering
+    Answer: ____
+
+Q2. Which wireless technology uses a device-pairing process to communicate and operates over short distances of 100 meters?
+    A) wireless wide-area network
+    B) Wi-Fi
+    C) Bluetooth
+    D) GPS
+    Answer: ____
+
+Q3. What technology enables a cell phone to be used as a hands-free device?
+    A) Wi-Fi
+    B) Bluetooth
+    C) 4G
+    D) NFC
+    Answer: ____
+
+Q4. A student purchased a new Wi-Fi-enabled tablet computer. What is required to connect this device to the internet?
+    A) a 3G or 4G network
+    B) a telephone company
+    C) a wireless LAN
+    D) a mobile phone service provider
+    Answer: ____
+
+Q5. Which technology allows a mobile device to establish wireless communication with another mobile device by touching them together?
+    A) Bluetooth
+    B) NFC
+    C) GPS
+    D) 4G
+    Answer: ____
+
+Q6. Which technology will allow a mobile device to share an internet connection with other devices via tethering?
+    A) GPS
+    B) Bluetooth
+    C) near field communication
+    D) Wi-Fi
+    Answer: ____
+
+Q7. What are two methods typically used on a mobile device to provide internet connectivity? (Choose two.)
+    A) cellular
+    B) Bluetooth
+    C) Wi-Fi
+    D) NFC
+    E) GPS
+    Answer: ____  (choose all that apply)
+
+Q8. Which wireless technology allows a customer to connect to a payment system with a smartphone?
+    A) NFC
+    B) Wi-Fi
+    C) GPS
+    D) Bluetooth
+    Answer: ____
+
+Q9. A salesperson is using a smartphone map application to locate a business. What wireless technology enables the smartphone to receive satellite geolocation information for the map application?
+    A) GPS
+    B) NFC
+    C) Wi-Fi
+    D) Bluetooth
+    Answer: ____
+
+Q10. What two pieces of information are required when manually connecting either an iOS device or an Android device to a secured wireless network? (Choose two.)
+    A) the IP address
+    B) the SSID
+    C) the username
+    D) the password
+    Answer: ____  (choose all that apply)
+
+Q11. Which wireless technology can be used to connect wireless headphones to a computer?
+    A) NFC
+    B) Bluetooth
+    C) Wi-Fi
+    D) 4G
+    Answer: ____
+
+------------------------------------------------------------------------------------------
+
+### QUIZ 4.5.3 — Build a Home Network Quiz  (10 questions)
+
+Q1. Which type of wireless communication is based on 802.11 standards?
+    A) Wi-Fi
+    B) Cellular WAN
+    C) Bluetooth
+    D) Infrared
+    Answer: ____
+
+Q2. What wireless router configuration would stop outsiders from using your home network?
+    A) IP address
+    B) encryption
+    C) router location
+    D) network name
+    Answer: ____
+
+Q3. What type of device is commonly connected to the Ethernet switch ports on a home wireless router?
+    A) DSL modem
+    B) cable modem
+    C) wireless antenna
+    D) LAN device
+    Answer: ____
+
+Q4. Which type of network technology is used for low-speed communication between peripheral devices?
+    A) Bluetooth
+    B) Ethernet
+    C) 802.11
+    D) channels
+    Answer: ____
+
+Q5. What can be used to allow visitor mobile devices to connect to a wireless network and restrict access of those devices to only the internet?
+    A) MAC address filtering
+    B) guest SSID
+    C) encryption
+    D) authentication
+    Answer: ____
+
+Q6. What purpose would a home user have for implementing Wi-Fi?
+    A) to hear various radio stations
+    B) to connect a keyboard to a PC
+    C) to connect wireless headphones to a mobile device
+    D) to create a wireless network usable by other devices
+    Answer: ____
+
+Q7. What is another term for the internet port of a wireless router?
+    A) WAN port
+    B) LAN port
+    C) local port
+    D) switch port
+    Answer: ____
+
+Q8. Which type of network cable consists of 4 pairs of twisted wires?
+    A) category 5e
+    B) coaxial
+    C) Ethernet over powerline
+    D) fiber optic
+    Answer: ____
+
+Q9. What is the default SSID Broadcast setting on a wireless router?
+    A) Enabled
+    B) Disabled
+    C) Auto
+    D) Off
+    Answer: ____
+
+Q10. Which is a characteristic of the network SSID?
+    A) It is case sensitive.
+    B) It contains exactly 16 characters.
+    C) It is encrypted by default.
+    D) It is only required for guest access.
+    Answer: ____
+
+------------------------------------------------------------------------------------------
+
+### QUIZ 5.4.3 — Communications Principles Quiz  (10 questions)
+
+Q1. What is the purpose of the OSI physical layer?
+    A) controlling access to media
+    B) transmitting bits across the local media
+    C) performing error detection on received frames
+    D) exchanging frames between nodes over physical network media
+    Answer: ____
+
+Q2. Which statement is correct about network protocols?
+    A) Network protocols define the type of hardware that is used and how it is mounted in racks.
+    B) They define how messages are exchanged between the source and the destination.
+    C) They all function in the network access layer of TCP/IP.
+    D) They are only required for exchange of messages between devices on remote networks.
+    Answer: ____
+
+Q3. Which three acronyms/initialisms represent standards organizations? (Choose three.)
+    A) IANA
+    B) TCP/IP
+    C) IEEE
+    D) IETF
+    E) OSI
+    F) MAC
+    Answer: ____  (choose all that apply)
+
+Q4. What networking term describes a particular set of rules at one layer that govern communication at that layer?
+    A) duplex
+    B) encapsulation
+    C) error checking
+    D) protocol
+    Answer: ____
+
+Q5. Which layer of the OSI model defines services to segment and reassemble data for individual communications between end devices?
+    A) application
+    B) presentation
+    C) session
+    D) transport
+    E) network
+    Answer: ____
+
+Q6. What is the purpose of protocols in data communications?
+    A) specifying the bandwidth of the channel or medium for each type of communication
+    B) specifying the device operating systems that will support the communication
+    C) providing the rules required for a specific type of communication to occur
+    D) dictating the content of the message sent during communication
+    Answer: ____
+
+Q7. Which term refers to the set of rules that define how a network operates?
+    A) standard
+    B) protocol
+    C) model
+    D) domain
+    Answer: ____
+
+Q8. Which three layers of the OSI model make up the application layer of the TCP/IP model? (Choose three.)
+    A) data link
+    B) network
+    C) transport
+    D) session
+    E) presentation
+    F) application
+    Answer: ____  (choose all that apply)
+
+Q9. Which organization publishes and manages the Request for Comments (RFC) documents?
+    A) IEEE
+    B) ISO
+    C) IETF
+    D) TIA/EIA
+    Answer: ____
+
+Q10. Which two OSI model layers have the same functionality as a single layer of the TCP/IP model? (Choose two.)
+    A) data link
+    B) network
+    C) physical
+    D) session
+    E) transport
+    Answer: ____  (choose all that apply)
+
+------------------------------------------------------------------------------------------
+
+### QUIZ 6.2.3 — Network Media Quiz  (11 questions)
+
+Q1. A network technician is extending the network from the main office building over several hundred meters to a new security station. The security station needs a high speed connection to support video surveillance of the main building. What type of cable is best suited to connect the security station to the rest of the main office network?
+    A) coax
+    B) fiber optic
+    C) shielded twisted pair
+    D) unshielded twisted pair
+    Answer: ____
+
+Q2. What are two common media used in networks? (Choose two.)
+    A) copper
+    B) water
+    C) nylon
+    D) fiber
+    E) wood
+    Answer: ____  (choose all that apply)
+
+Q3. Which type of network cable is commonly used to connect office computers to the local network?
+    A) coaxial cable
+    B) twisted-pair cable
+    C) glass fiber-optic cable
+    D) plastic fiber-optic cable
+    Answer: ____
+
+Q4. Which three factors should be considered when choosing the appropriate network media? (Choose three.)
+    A) the speed of the CPU and amount of memory in servers
+    B) the environment in which the media is installed
+    C) the data security and fault tolerance requirement
+    D) the amount of data and the data transfer rate desired
+    E) the distance between hosts that the media will connect
+    F) the operating systems used on network devices in the network
+    Answer: ____  (choose all that apply)
+
+Q5. Refer to the graphic. What type of cabling is shown?
+    A) STP
+    B) UTP
+    C) coax
+    D) fiber
+    Answer: ____
+
+Q6. What makes fiber preferable to copper cabling for interconnecting buildings? (Choose three.)
+    A) greater distances per cable run
+    B) lower installation cost
+    C) limited susceptibility to EMI/RFI
+    D) durable connections
+    E) greater bandwidth potential
+    F) easily terminated
+    Answer: ____  (choose all that apply)
+
+Q7. Which type of network media carries data encoded into electrical impulses?
+    A) copper cable
+    B) wireless media
+    C) fiber-optic cable
+    D) cellular communication media
+    Answer: ____
+
+Q8. Which two types of network media carries data encoded into electrical impulses? (Choose two.)
+    A) coaxial cable
+    B) wireless media
+    C) twisted-pair cable
+    D) glass fiber-optic cable
+    E) plastic fiber-optic cable
+    Answer: ____  (choose all that apply)
+
+Q9. Which type of network media carries data encoded into impulses of light?
+    A) coaxial cable
+    B) wireless media
+    C) fiber-optic cable
+    D) twisted-pair cable
+    Answer: ____
+
+Q10. A network administrator in a small office is upgrading the local network within the building. New network cables are needed to connect office computers and networking devices. Which network media should the administrator use?
+    A) coaxial cable
+    B) wireless solution
+    C) fiber-optic cable
+    D) twisted-pair cable
+    Answer: ____
+
+Q11. What is the purpose of using twisted pairs of wires in an Ethernet cable?
+    A) to reduce interference
+    B) to provide higher bandwidth
+    C) to identify paths of data flow
+    D) to ensure that the transmission of electrical signals is extended over a longer distance
+    Answer: ____
+
+------------------------------------------------------------------------------------------
+
+### QUIZ 7.3.3 — The Access Layer Quiz  (11 questions)
+
+Q1. What will a Layer 2 switch do when the destination MAC address of a received frame is not in the MAC table?
+    A) It initiates an ARP request.
+    B) It broadcasts the frame out of all ports on the switch.
+    C) It notifies the sending host that the frame cannot be delivered.
+    D) It forwards the frame out of all ports except for the port at which the frame was received.
+    Answer: ____
+
+Q2. Which network device has the primary function to send data to a specific destination based on the information found in the MAC address table?
+    A) hub
+    B) router
+    C) switch
+    D) modem
+    Answer: ____
+
+Q3. What addressing information is recorded by a switch to build its MAC address table?
+    A) the destination Layer 3 address of incoming packets
+    B) the destination Layer 2 address of outgoing frames
+    C) the source Layer 3 address of outgoing packets
+    D) the source Layer 2 address of incoming frames
+    Answer: ____
+
+Q4. What is the purpose of the FCS field in a frame?
+    A) to obtain the MAC address of the sending node
+    B) to verify the logical address of the sending node
+    C) to compute the CRC header for the data field
+    D) to determine if errors occurred in the transmission and reception
+    Answer: ____
+
+Q5. What is one function of a Layer 2 switch?
+    A) forwards data based on logical addressing
+    B) duplicates the electrical signal of each frame to every port
+    C) learns the port assigned to a host by examining the destination MAC address
+    D) determines which interface is used to forward a frame based on the destination MAC address
+    Answer: ____
+
+Q6. Which information does a switch use to keep the MAC address table information current?
+    A) the destination MAC address and the incoming port
+    B) the destination MAC address and the outgoing port
+    C) the source and destination MAC addresses and the incoming port
+    D) the source and destination MAC addresses and the outgoing port
+    E) the source MAC address and the incoming port
+    Answer: ____
+
+Q7. What process is used to place one message inside another message for transfer from the source to the destination?
+    A) access control
+    B) decoding
+    C) encapsulation
+    D) flow control
+    E) the source MAC address and the incoming port
+    Answer: ____
+
+Q8. Refer to the exhibit. The exhibit shows a small switched network and the contents of the MAC address table of the switch. PC1 has sent a frame addressed to PC3. What will the switch do with the frame?
+    A) The switch will discard the frame.
+    B) The switch will forward the frame only to port 2.
+    C) The switch will forward the frame to all ports except port 4.
+    D) The switch will forward the frame to all ports.
+    E) The switch will forward the frame only to ports 1 and 3.
+    Answer: ____
+
+Q9. Which three fields are found in an 802.3 Ethernet frame? (Choose three.)
+    A) source physical address
+    B) source logical address
+    C) media type identifier
+    D) frame check sequence
+    E) destination physical address
+    F) destination logical address
+    Answer: ____  (choose all that apply)
+
+Q10. What will a host on an Ethernet network do if it receives a frame with a unicast destination MAC address that does not match its own MAC address?
+    A) It will discard the frame.
+    B) It will forward the frame to the next host.
+    C) It will remove the frame from the media.
+    D) It will strip off the data-link frame to check the destination IP address.
+    Answer: ____
+
+Q11. Which statement is correct about Ethernet switch frame forwarding decisions?
+    A) Frame forwarding decisions are based on MAC address and port mappings in the MAC Address table.
+    B) Frames addressed to unknown MAC addresses are dropped.
+    C) Switches build up their MAC Address tables based on the destination MAC address of incoming frames.
+    D) Unicast frames are always forwarded regardless of the destination MAC address.
+    Answer: ____
+
+------------------------------------------------------------------------------------------
+
+### QUIZ 8.3.3 — The Internet Protocol Quiz  (11 questions)
+
+Q1. What criterion must be followed in the design of an IPv4 addressing scheme for end devices?
+    A) Each IP address must match the address that is assigned to the host by DNS.
+    B) Each IP address must be unique within the local network.
+    C) Each IP address needs to be compatible with the MAC address.
+    D) Each local host should be assigned an IP address with a unique network component.
+    Answer: ____
+
+Q2. How many octets exist in an IPv4 address?
+    A) 4
+    B) 8
+    C) 16
+    D) 32
+    Answer: ____
+
+Q3. Which two parts are components of an IPv4 address? (Choose two.)
+    A) subnet portion
+    B) network portion
+    C) logical portion
+    D) host portion
+    E) physical portion
+    F) broadcast portion
+    Answer: ____  (choose all that apply)
+
+Q4. What is the purpose of the subnet mask in conjunction with an IP address?
+    A) to uniquely identify a host on a network
+    B) to identify whether the address is public or private
+    C) to determine the subnet to which the host belongs
+    D) to mask the IP address to outsiders
+    Answer: ____
+
+Q5. A technician is setting up equipment on a network. Which three devices will need IP addresses? (Choose three.)
+    A) a printer with an integrated NIC
+    B) a web camera that is attached directly to a host
+    C) a server with two NICs
+    D) an IP phone
+    E) a wireless mouse
+    F) a PDA that is attached to a networked workstation
+    Answer: ____  (choose all that apply)
+
+Q6. Which statement describes the relationship of a physical network and logical IPv4 addressed networks?
+    A) A local physical network supports one IPv4 logical network.
+    B) A physical network can connect multiple devices of different IPv4 logical networks.
+    C) All devices connected to a physical network need to belong to the same IPv4 logical network.
+    D) End devices on different IPv4 logical networks can communicate with each other if they all connect to the same switch.
+    Answer: ____
+
+Q7. How large are IPv4 addresses?
+    A) 8 bits
+    B) 16 bits
+    C) 32 bits
+    D) 64 bits
+    E) 128 bits
+    Answer: ____
+
+Q8. What is the network number for an IPv4 address 172.16.34.10 with the subnet mask of 255.255.255.0?
+    A) 10
+    B) 34.10
+    C) 172.16.0.0
+    D) 172.16.34.0
+    Answer: ____
+
+Q9. What are two features of IPv4 addresses? (Choose two.)
+    A) An IPv4 address contains 8 octets.
+    B) IPv4 is a logical addressing scheme.
+    C) An IPv4 addressing scheme is hierarchical.
+    D) IPv4 addresses are only used for communications on the internet.
+    E) An IPv4 address is bound to a network interface card to make it unique.
+    Answer: ____  (choose all that apply)
+
+Q10. Consider the group of five IPv4 addresses each with the subnet mask of 255.255.255.0. Which two IPv4 addresses belong to the same local network? (Choose two.)
+    A) 192.168.10.2
+    B) 193.168.10.16
+    C) 192.168.10.56
+    D) 192.167.10.74
+    E) 192.168.100.62
+    Answer: ____  (choose all that apply)
+
+Q11. The IT group needs to design and deploy IPv4 network connectivity in a new high school computer lab. The network design requires multiple logical networks be deployed on one physical network. Which technology is required to enable computers on different logical networks to communicate with each other?
+    A) routing
+    B) hosting
+    C) mapping
+    D) switching
+    Answer: ____
+
+------------------------------------------------------------------------------------------
+
+### QUIZ 9.4.3 — IPv4 and Network Segmentation Quiz  (10 questions)
+
+Q1. Which statement describes one purpose of the subnet mask setting for a host?
+    A) It is used to describe the type of the subnet.
+    B) It is used to identify the default gateway.
+    C) It is used to determine to which network the host is connected.
+    D) It is used to determine the maximum number of bits within one packet that can be placed on a particular network.
+    Answer: ____
+
+Q2. What is one reason for subnetting an IP network?
+    A) to reduce the scope of broadcast flooding
+    B) to increase the number of available host addresses on the network
+    C) to remove the need for network services that rely on broadcasts, such as DHCP
+    D) to ensure that all devices can communicate with each other without requiring a router
+    Answer: ____
+
+Q3. A message is sent to all hosts on a remote network. Which type of message is it?
+    A) limited broadcast
+    B) multicast
+    C) directed broadcast
+    D) unicast
+    Answer: ____
+
+Q4. A user is unable to access the company server from a computer. On issuing the ipconfig command, the user finds that the IP address of the computer is displayed as 169.254.0.2. What type of address is this?
+    A) private
+    B) link-local
+    C) loopback
+    D) experimental
+    Answer: ____
+
+Q5. Which three IP addresses are private ? (Choose three.)
+    A) 10.1.1.1
+    B) 172.32.5.2
+    C) 192.167.10.10
+    D) 172.16.4.4
+    E) 192.168.5.5
+    F) 224.6.6.6
+    Answer: ____  (choose all that apply)
+
+Q7. Which network device can serve as a boundary to divide a Layer 2 broadcast domain?
+    A) router
+    B) Ethernet bridge
+    C) Ethernet hub
+    D) access point
+    Answer: ____
+
+Q8. What is the role of IANA?
+    A) maintaining standards related to electrical wiring and connectors
+    B) documenting developments for new protocols and updating existing protocols
+    C) managing the allocation of IP addresses and domain names
+    D) promoting the development and evolution of the Internet around the world
+    Answer: ____
+
+Q9. Which address prefix range is reserved for IPv4 multicast?
+    A) 240.0.0.0 - 254.255.255.255
+    B) 224.0.0.0 - 239.255.255.255
+    C) 169.254.0.0 - 169.254.255.255
+    D) 127.0.0.0 - 127.255.255.255
+    Answer: ____
+
+Q10. A high school in New York (school A) is using videoconferencing technology to establish student interactions with another high school (school B) in Russia. The videoconferencing is conducted between two end devices through the internet. The network administrator of school A configures the end device with the IP address 209.165.201.10. The administrator sends a request for the IP address for the end device in school B and the response is 192.168.25.10. Neither school is using a VPN. The administrator knows immediately that this IP will not work. Why?
+    A) This is a loopback address.
+    B) This is a link-local address.
+    C) This is a private IP address.
+    D) There is an IP address conflict.
+    Answer: ____
+
+Q11. A host is transmitting a broadcast. Which host or hosts will receive it?
+    A) all hosts in the same network
+    B) a specially defined group of hosts
+    C) the closest neighbor on the same network
+    D) all hosts on the internet
+    Answer: ____
+
+------------------------------------------------------------------------------------------
+
+### QUIZ 10.3.3 — IPv6 Addressing Formats and Rules Quiz  (11 questions)
+
+Q1. What is an advantage of using IPv6 ?
+    A) more addresses for networks and hosts
+    B) faster connectivity
+    C) higher bandwidth
+    D) more frequencies
+    Answer: ____
+
+Q2. What was the reason for the creation and implementation of IPv6?
+    A) to make reading a 32-bit address easier
+    B) to relieve IPv4 address depletion
+    C) to provide more address space in the Internet Names Registry
+    D) to allow NAT support for private addressing
+    Answer: ____
+
+Q3. Which letter represents the hexadecimal value of the decimal number 15?
+    A) f
+    B) g
+    C) h
+    D) b
+    Answer: ____
+
+Q4. A PC is configured with both an IPv4 and IPv6 address on the same network adapter. What IPv4 and IPv6 coexistence strategy is implemented on the PC?
+    A) Dual stack
+    B) NAT64
+    C) Tunneling
+    D) NAT
+    Answer: ____
+
+Q5. What are two methods that can be used to shorten the IPv6 address notation? (Choose two.)
+    A) use of a double colon (::) to represent a string of all zero hextets
+    B) omit all leading zeros from all hextets in the address
+    C) remove all trailing zeros contained in the IPv6 address
+    D) use double colons to represent a string of the same non-zero value
+    Answer: ____  (choose all that apply)
+
+Q6. Which network migration technique encapsulates IPv6 packets inside IPv4 packets to carry them over IPv4 network infrastructures?
+    A) encapsulation
+    B) translation
+    C) dual-stack
+    D) tunneling
+    Answer: ____
+
+Q7. What does a double colon (::) represent in an IPv6 address notation?
+    A) a continuous string of one or more hextets that contain only zeros
+    B) at least eight occurrences of the same non-zero value
+    C) the boundary between the network portion and the host portion of the address
+    D) the beginning of the MAC address assigned to the IPv6 device
+    Answer: ____
+
+Q8. IPv6 increases the IP address size from 32 bits to how many bits?
+    A) 64
+    B) 96
+    C) 128
+    D) 192
+    E) 256
+    Answer: ____
+
+Q9. Which technology enables devices in an IPv6-only network to communicate with devices in an IPv4-only network?
+    A) NAT64
+    B) tunneling
+    C) DHCP
+    D) link-local addressing
+    Answer: ____
+
+Q10. Which IPv6 address notation is valid?
+    A) 2001:0DB8::ABCD::1234
+    B) ABCD:160D::4GAB:FFAB
+    C) 2001:DB8:0:1111::200
+    D) 2001::ABCD::
+    Answer: ____
+
+Q11. Which two statements are correct about IPv4 and IPv6 addresses? (Choose two.)
+    A) IPv6 addresses are represented by hexadecimal numbers.
+    B) IPv4 addresses are represented by hexadecimal numbers.
+    C) IPv6 addresses are 32 bits in length.
+    D) IPv4 addresses are 32 bits in length.
+    E) IPv4 addresses are 128 bits in length.
+    F) IPv6 addresses are 64 bits in length.
+    Answer: ____  (choose all that apply)
+
+------------------------------------------------------------------------------------------
+
+### QUIZ 11.3.3 — Dynamic Addressing with DHCP Quiz  (11 questions)
+
+Q1. Match each description with an appropriate IP address.
+    (match each prompt to one option)
+    options: DHCPACK, DHCPREQUEST, DHCPOFFER, DHCPDISCOVER
+    - a DHCP server responding to the initial request by a client   ->  ____
+    - the client accepting the IP address provided by the DHCP server   ->  ____
+    - the DHCP server confirming that the address lease has been accepted   ->  ____
+    - a client initiating a message to find a DHCP server   ->  ____
+
+Q2. Which two reasons generally make DHCP the preferred method of assigning IP addresses to hosts on large networks? (Choose two.)
+    A) It eliminates most address configuration errors.
+    B) It ensures that addresses are only applied to devices that require a permanent address.
+    C) It guarantees that every device that needs an address will get one.
+    D) It provides an address only to devices that are authorized to be connected to the network.
+    E) It reduces the burden on network support staff.
+    Answer: ____
+
+Q3. Which message does an IPv4 host use to reply when it receives a DHCPOFFER message from a DHCP server?
+    A) DHCPACK
+    B) DHCPDISCOVER
+    C) DHCPOFFER
+    D) DHCPREQUEST
+    Answer: ____
+
+Q4. Which destination IPv4 address does a DHCPv4 client use to send the initial DHCP Discover packet when the client is looking for a DHCP server?
+    A) 127.0.0.1
+    B) 224.0.0.1
+    C) 255.255.255.255
+    D) the IP address of the default gateway
+    Answer: ____
+
+Q5. Which type of packet is sent by a DHCP server after receiving a DHCP Discover message?
+    A) DHCP ACK
+    B) DHCP Discover
+    C) DHCP Offer
+    D) DHCP Request
+    Answer: ____
+
+Q6. What is one advantage of using DHCP to assign addresses to mobile devices?
+    A) Address leases are temporary and are returned to the pool when the device is turned off.
+    B) Addresses are permanently assigned to the mobile device and are valid on any network.
+    C) Using DHCP creates many more registered IPv4 addresses.
+    D) DHCP enables multiple internal IPv4 addresses to use a single registered global address.
+    Answer: ____
+
+Q7. Refer to the exhibit. A home wireless router is configured to act as a DHCP server. The IP address range is configured to be 192.168.0.100 - 149. What IP address will be assigned automatically to the first device that connects to the wireless router?
+    A) 192.168.0.1
+    B) 192.168.0.50
+    C) 192.168.0.100
+    D) 192.168.0.149
+    Answer: ____
+
+Q8. Refer to the exhibit. PC1 is configured to obtain a dynamic IP address from the DHCP server. PC1 has been shut down for two weeks. When PC1 boots and tries to request an available IP address, which destination IP address will PC1 place in the IP header?
+    A) 192.168.1.1
+    B) 192.168.1.8
+    C) 192.168.1.255
+    D) 255.255.255.255
+    Answer: ____
+
+Q9. Which type of server dynamically assigns an IP address to a host?
+    A) ARP
+    B) DHCP
+    C) DNS
+    D) FTP
+    Answer: ____
+
+Q10. Which three statements describe a DHCP Discover message? (Choose three.)
+    A) The source MAC address is 48 ones (FF-FF-FF-FF-FF-FF).
+    B) The destination IP address is 255.255.255.255.
+    C) The message comes from a server offering an IP address.
+    D) The message comes from a client seeking an IP address.
+    E) All hosts receive the message, but only a DHCP server replies.
+    F) Only the DHCP server receives the message.
+    Answer: ____
+
+Q11. A host PC is attempting to lease an address through DHCP. What message is sent by the server to let the client know it is able to use the provided IP information?
+    A) DHCPDISCOVER
+    B) DHCPOFFER
+    C) DHCPREQUEST
+    D) DHCPACK
+    Answer: ____
+
+------------------------------------------------------------------------------------------
+
+### QUIZ 12.3.3 — Gateways to Other Networks Quiz  (11 questions)
+
+Q1. A computer has to send a packet to a destination host in the same LAN. How will the packet be sent?
+    A) The packet will be sent to the default gateway first, and then, depending on the response from the gateway, it may be sent to the destination host.
+    B) The packet will be sent directly to the destination host.
+    C) The packet will first be sent to the default gateway, and then from the default gateway it will be sent directly to the destination host.
+    D) The packet will be sent only to the default gateway.
+    Answer: ____
+
+Q2. Typically, which network device would be used to perform NAT for a corporate environment?
+    A) DHCP server
+    B) host device
+    C) router
+    D) server
+    E) switch
+    Answer: ____
+
+Q3. Which characteristic describes the default gateway of a host computer?
+    A) the logical address of the router interface on the same network as the host computer
+    B) the physical address of the switch interface connected to the host computer
+    C) the physical address of the router interface on the same network as the host computer
+    D) the logical address assigned to the switch interface connected to the router
+    Answer: ____
+
+Q4. What is the purpose of configuring a default gateway address on a host?
+    A) to provide a permanent address to a computer
+    B) to identify the network to which a computer is connected
+    C) to identify the logical address of a networked computer and uniquely identify it to the rest of the network
+    D) to identify the device that allows local network computers to communicate with devices on other networks
+    Answer: ____
+
+Q5. If the default gateway is configured incorrectly on a host, what is the impact on communications?
+    A) The host is unable to communicate on the local network.
+    B) The host is unable to communicate with hosts on remote networks.
+    C) The host is unable to communicate with hosts on both the local and remote networks.
+    D) The host cannot get an IP address from the DHCP server.
+    Answer: ____
+
+Q6. Which three IPv4 network addresses are private IP addresses? (Choose three.)
+    A) 10.0.0.0
+    B) 172.32.0.0
+    C) 192.157.0.0
+    D) 172.16.0.0
+    E) 192.168.0.0
+    F) 224.6.0.0
+    Answer: ____  (choose all that apply)
+
+Q7. What is the purpose of NAT?
+    A) allowing hosts configured with registered public IP addresses to access the internet
+    B) translating private IP addresses to a public registered IP address
+    C) routing private IP addresses over the public internet
+    D) assigning a private IP address to a host for internet access
+    Answer: ____
+
+Q8. What is the primary advantage of using NAT?
+    A) allows a large group of users to share one or more public IP addresses
+    B) allows a large group of users to share the same private IP address within a LAN
+    C) allows static mapping of public inside addresses to private outside addresses
+    D) allows dynamic mapping of registered inside addresses to private outside addresses
+    Answer: ____
+
+Q9. Which three settings must be configured on a PC in order for it to communicate with devices located across the internet? (Choose three.)
+    A) IP address
+    B) subnet mask
+    C) default gateway address
+    D) DHCP server address
+    E) hostname
+    Answer: ____  (choose all that apply)
+
+Q10. The default configuration on a home wireless router provides which type of addresses to devices using DHCP?
+    A) private IP addresses
+    B) public registered IPv4 addresses
+    C) public registered IPv6 addresses
+    D) vendor-specific MAC addresses
+    Answer: ____
+
+Q11. Which type of intermediary device acts as a boundary between a home wireless network and the internet?
+    A) Layer 2 switch
+    B) access point
+    C) DNS server
+    D) wireless router
+    Answer: ____
+
+------------------------------------------------------------------------------------------
+
+### QUIZ 13.3.3 — The ARP Process Quiz  (12 questions)
+
+Q1. What is one function of the ARP protocol?
+    A) obtaining an IPv4 address automatically
+    B) mapping a domain name to its IP address
+    C) resolving an IPv4 address to a MAC address
+    D) maintaining a table of domain names with their resolved IP addresses
+    Answer: ____
+
+Q2. Which destination address is used in an ARP request frame?
+    A) 0.0.0.0
+    B) 255.255.255.255
+    C) FFFF.FFFF.FFFF
+    D) 127.0.0.1
+    E) 01-00-5E-00-AA-23
+    Answer: ____
+
+Q3. Which statement describes the treatment of ARP requests on the local link?
+    A) They must be forwarded by all routers on the local network.
+    B) They are received and processed by every device on the local network.
+    C) They are dropped by all switches on the local network.
+    D) They are received and processed only by the target device.
+    Answer: ____
+
+Q4. What important information is examined in the Ethernet frame header by a Layer 2 device in order to forward the data onward?
+    A) source MAC address
+    B) source IP address
+    C) destination MAC address
+    D) Ethernet type
+    E) destination IP address
+    Answer: ____
+
+Q5. What are two functions of MAC addresses in a LAN? (Choose two.)
+    A) to allow the transfer of frames from source to destination
+    B) to determine which host has priority to transfer data
+    C) to indicate the best path between separate networks
+    D) to associate with a specific network IP address
+    E) to uniquely identify a node on a network
+    Answer: ____  (choose all that apply)
+
+Q6. Refer to the exhibit. PC1 issues an ARP request because it needs to send a packet to PC2. In this scenario, what will happen next?
+    A) PC2 will send an ARP reply with the PC2 MAC address.
+    B) RT1 will send an ARP reply with the RT1 Fa0/0 MAC address.
+    C) RT1 will send an ARP reply with the PC2 MAC address.
+    D) SW1 will send an ARP reply with the PC2 MAC address.
+    E) SW1 will send an ARP reply with the SW1 Fa0/1 MAC address.
+    Answer: ____
+
+Q7. What addresses are mapped by ARP?
+    A) IPv4 address to a destination MAC address
+    B) destination IPv4 address to the source MAC address
+    C) destination IPv4 address to the destination host name
+    D) destination MAC address to the source IPv4 address
+    Answer: ____
+
+Q8. Refer to the exhibit. Switches Sw1 and Sw2 have MAC address tables that are populated with all the exhibited host MAC addresses. If host H1 sends a frame with destination address FFFF.FFFF.FFFF, what will be the result?
+    A) Sw1 will discard the frame.
+    B) Sw1 will flood the frame out all ports except the inbound port. The frame will be discarded by Sw2 but processed by host H2.
+    C) Sw1 will flood the frame out all ports except the inbound port. The frame will be flooded by Sw2 but discarded by hosts H2, H3, and H4.
+    D) Sw1 will flood the frame out all ports except the inbound port. The frame will be flooded by Sw2 and processed by hosts H2, H3, and H4.
+    Answer: ____
+
+Q9. Refer to the exhibit. Host A needs to send data to the server, but does not know its MAC address. When host A sends out an ARP request, what response will be in the ARP reply?
+    A) 00:0C:00:B4:00:10
+    B) 00:0C:00:B4:00:24
+    C) 00:0D:00:B4:12:F3
+    D) 00:0D:00:B4:99:AA
+    E) 02:C8:00:7D:12:33
+    Answer: ____
+
+Q10. file_download PT Activity Open the PT Activity. Perform the tasks in the activity instructions and then answer the question. When PC0 pings the web server, which MAC address is the source MAC address in the frame from R2 to the web server?
+    A) 0001.43EA.3E03
+    B) 0001.9756.6278
+    C) 0001.C972.4201
+    D) 0001.C972.4202
+    E) 0002.16D6.A601
+    Answer: ____
+
+Q11. What statement describes a characteristic of MAC addresses?
+    A) They are the physical address of the NIC or interface.
+    B) They are only routable within the private network.
+    C) They are added as part of a Layer 3 PDU.
+    D) They have a 32-bit binary value.
+    Answer: ____
+
+Q12. Which two characteristics describe MAC addresses? (Choose two.)
+    A) physical address assigned to the NIC
+    B) identifies source and destination in Layer 2 header
+    C) logical address assigned by DHCP
+    D) used by routers to select the best path to a destination
+    Answer: ____  (choose all that apply)
+
+------------------------------------------------------------------------------------------
+
+### QUIZ 14.4.3 — Routing Between Networks Quiz  (12 questions)
+
+Q1. Which information is used by routers to forward a data packet toward its destination?
+    A) source IP address
+    B) destination IP address
+    C) source data-link address
+    D) destination data-link address
+    Answer: ____
+
+Q2. If the default gateway is configured incorrectly on the host, what is the impact on communications?
+    A) The host is unable to communicate on the local network.
+    B) The host can communicate with other hosts on the local network, but is unable to communicate with hosts on remote networks.
+    C) The host can communicate with other hosts on remote networks, but is unable to communicate with hosts on the local network.
+    D) There is no impact on communications.
+    Answer: ____
+
+Q3. What role does a router play on a network?
+    A) forwarding Layer 2 broadcasts
+    B) forwarding frames based on a MAC address
+    C) selecting the path to destination networks
+    D) connecting smaller networks into a single broadcast domain
+    Answer: ____
+
+Q4. Which address should be configured as the default gateway address of a client device?
+    A) the Layer 2 address of the switch management interface
+    B) the Layer 2 address of the switch port that is connected to the workstation
+    C) the IPv4 address of the router interface that is connected to the same LAN
+    D) the IPv4 address of the router interface that is connected to the internet
+    Answer: ____
+
+Q5. Which device is used to transfer data from one IP local network to a remote network?
+    A) NIC card
+    B) switch
+    C) router
+    D) server
+    Answer: ____
+
+Q6. Refer to the exhibit. To allow IP communication between the two separate networks, what type of device is required?
+    A) server
+    B) router
+    C) switch
+    D) access point
+    Answer: ____
+
+Q7. What is a benefit of adding a router within an IP network?
+    A) increases the size of the local network
+    B) keeps broadcasts contained within a local network
+    C) reduces the number of hosts that can connect to the network
+    D) controls host-to-host traffic within a single local network
+    Answer: ____
+
+Q8. Refer to the exhibit. Host H7 sends a packet with the destination IP address of 255.255.255.255. What does router R1 do when it receives the packet from host H7?
+    A) examines the packet received on interface FastEthernet0/1 and does not forward the packet
+    B) changes the Layer 2 header information and forwards the packet out all connected interfaces
+    C) checks the routing table and forwards the packet out interface FastEthernet0/0
+    D) changes the destination IP address and forwards the packet out interface FastEthernet0/0
+    Answer: ____
+
+Q9. What action will a router take when it receives a frame with a broadcast MAC address?
+    A) It will not forward the frame to another network.
+    B) It forwards the frame back to the sending host.
+    C) It forwards the frame out of all connected interfaces.
+    D) It forwards the frame back out the receiving interface.
+    Answer: ____
+
+Q10. What are two reasons to install routers to segment a network? (Choose two.)
+    A) to limit the number of devices that can connect to the network
+    B) to expand the network to a different geographic location
+    C) to create smaller broadcast domains within the network
+    D) to reduce the number of switches needed to connect devices
+    Answer: ____  (choose all that apply)
+
+Q11. Which table does a router use to determine which interface to use to send packets to the destination network?
+    A) ARP table
+    B) routing table
+    C) network table
+    D) forwarding table
+    Answer: ____
+
+Q12. What action does the router take when it does not find a route to the destination network in its routing table?
+    A) It drops the packet.
+    B) It sends the packet as a broadcast.
+    C) It returns the packet to the sender.
+    D) It sends the packet out all connected interfaces.
+    Answer: ____
+
+------------------------------------------------------------------------------------------
+
+### QUIZ 15.3.3 — TCP and UDP Quiz  (11 questions)
+
+Q1. Which protocol operates at the application layer of the TCP/IP model?
+    A) IP
+    B) TCP
+    C) HTTP
+    D) ICMP
+    Answer: ____
+
+Q2. What is a characteristic of UDP?
+    A) It establishes sessions with a three-way handshake.
+    B) It uses sequence numbers to reassemble segments.
+    C) It adds 20 bytes of overhead to application layer data.
+    D) It provides unreliable delivery of segments.
+    Answer: ____
+
+Q3. Which type of applications are best suited to use UDP as the transport layer protocol?
+    A) applications that require flow control
+    B) applications that require data to be reassembled in a specific order
+    C) applications that require minimal transmission delay
+    D) applications that require stateful sessions
+    Answer: ____
+
+Q4. A student is sending files from a phone to a computer across a network. Which layer of the TCP/IP model is responsible for reassembling these messages as they are received on the computer?
+    A) application
+    B) transport
+    C) internet
+    D) network access
+    Answer: ____
+
+Q5. At which layer of the TCP/IP model does TCP operate?
+    A) transport
+    B) application
+    C) internetwork
+    D) network access
+    Answer: ____
+
+Q6. What protocol header information is used at the transport layer to identify a target application?
+    A) port number
+    B) IP address
+    C) sequence number
+    D) MAC address
+    Answer: ____
+
+Q7. What type of port number is assigned by IANA to commonly used services and applications?
+    A) well-known port
+    B) registered port
+    C) dynamic port
+    D) private port
+    Answer: ____
+
+Q8. What is the purpose of using a source port number in a TCP communication?
+    A) to notify the remote device that the conversation is over
+    B) to assemble the segments that arrived out of order
+    C) to keep track of multiple conversations between devices
+    D) to inquire for a nonreceived segment
+    Answer: ____
+
+Q9. What is an advantage of UDP over TCP?
+    A) UDP communication requires less overhead.
+    B) UDP communication is more reliable.
+    C) UDP reorders segments that are received out of order.
+    D) UDP acknowledges received data.
+    Answer: ____
+
+Q10. When is UDP preferred to TCP?
+    A) when a client sends a segment to a server
+    B) when all the data must be fully received before any part of it is considered useful
+    C) when an application can tolerate some loss of data during transmission
+    D) when segments must arrive in a very specific sequence to be processed successfully
+    Answer: ____
+
+Q11. Which statement correctly describes data transmission at the transport layer?
+    A) Retransmission of lost packets is provided by both TCP and UDP.
+    B) Segmentation is provided by the window size field when the TCP protocol is used.
+    C) A single datagram can include both a TCP and a UDP header.
+    D) Both UDP and TCP use port numbers.
+    E) Segmentation is provided by sequence numbers when UDP is used.
+    Answer: ____
+
+------------------------------------------------------------------------------------------
+
+### QUIZ 16.8.3 — Application Layer Services Quiz  (9 questions)
+
+Q1. What two characteristics describe an FTP connection? (Choose two.)
+    A) A large file requires more than two connections between the client and the server to successfully download it.
+    B) The server establishes the first connection with the client to control traffic that consists of server commands and client replies.
+    C) Files can be downloaded from or uploaded to the server.
+    D) The client needs to run a daemon program to establish an FTP connection with a server.
+    E) The first connection established is for traffic control and the second connection is created to transfer a file.
+    Answer: ____  (choose all that apply)
+
+Q2. Which statement is correct about network protocols?
+    A) Network protocols define the type of hardware that is used and how it is mounted in racks.
+    B) They define how messages are exchanged between the source and the destination.
+    C) They all function in the network access layer of TCP/IP.
+    D) They are only required for exchange of messages between devices on remote networks.
+    Answer: ____
+
+Q3. Which protocol is used by web servers to serve up a web page?
+    A) FTP
+    B) HTTP
+    C) IMAP
+    D) POP
+    Answer: ____
+
+Q5. Which two protocols are used in the process of sending and receiving emails? (Choose two.)
+    A) HTTP
+    B) POP
+    C) SSH
+    D) SMTP
+    E) FTP
+    Answer: ____  (choose all that apply)
+
+Q6. Which two applications provide virtual terminal access to remote servers? (Choose two.)
+    A) SSH
+    B) DNS
+    C) DHCP
+    D) SMTP
+    E) Telnet
+    Answer: ____  (choose all that apply)
+
+Q7. What is the advantage of using SSH over Telnet?
+    A) SSH is easier to use.
+    B) SSH operates faster than Telnet.
+    C) SSH provides secure communications to access hosts.
+    D) SSH supports authentication for a connection request.
+    Answer: ____
+
+Q8. Refer to the exhibit. Which protocol allows a user to type www.cisco.com instead of an IP address to access the web server?
+    A) DNS
+    B) FTP
+    C) HTML
+    D) HTTP
+    E) SNMP
+    Answer: ____
+
+Q9. Which protocol is used to transfer web pages from a server to a client device?
+    A) HTML
+    B) SMTP
+    C) HTTP
+    D) SSH
+    E) POP
+    Answer: ____
+
+Q10. Which two application layer protocols manage the exchange of messages between a client with a web browser and a remote web server? (Choose two.)
+    A) DNS
+    B) HTTP
+    C) HTML
+    D) DHCP
+    E) HTTPS
+    Answer: ____  (choose all that apply)
+
+------------------------------------------------------------------------------------------
+
+### QUIZ 17.2.3 — Network Testing Utilities Quiz  (9 questions)
+
+Q1. What is a user trying to determine when issuing a ping 10.1.1.1 command on a PC?
+    A) if the TCP/IP stack is functioning on the PC without putting traffic on the wire
+    B) if there is connectivity with the destination device
+    C) the path that traffic will take to reach the destination
+    D) what type of device is at the destination
+    Answer: ____
+
+Q2. A user who is unable to connect to the file server contacts the help desk. The helpdesk technician asks the user to ping the IP address of the default gateway that is configured on the workstation. What is the purpose for this ping command?
+    A) to obtain a dynamic IP address from the server
+    B) to request that gateway forward the connection request to the file server
+    C) to test that the host has the capability to reach hosts on other networks
+    D) to resolve the domain name of the file server to its IP address
+    Answer: ____
+
+Q3. Which three pieces of information are revealed by the ipconfig command (without the /all switch)? (Choose three.)
+    A) IP address
+    B) DHCP server
+    C) subnet mask
+    D) default gateway
+    E) DNS server
+    F) MAC address
+    Answer: ____  (choose all that apply)
+
+Q4. Which command is used to test network connectivity and provide a response to each packet received by the remote host?
+    A) connect
+    B) ping
+    C) text
+    D) tracert
+    Answer: ____
+
+Q5. Which command line utility is used to display active network connections on a PC?
+    A) nslookup
+    B) netstat
+    C) ipconfig
+    D) ipconfig /all
+    Answer: ____
+
+Q6. A user needs to find the MAC address on the host PC. Which command line utility can be used to display this information?
+    A) nslookup
+    B) ipconfig /all
+    C) ping
+    D) tracert
+    Answer: ____
+
+Q7. A user is able to ping www.cisco.com by its IP address but cannot browse to www.cisco.com in a browser. What is the possible cause?
+    A) The IP address of the source PC is wrong.
+    B) The IP address of the gateway is wrong.
+    C) The DHCP server is not configured correctly.
+    D) The DNS server is not working.
+    Answer: ____
+
+Q8. A technician troubleshooting a network problem has used CLI commands to determine that a computer has not been allocated a correct IP address from the DHCP server. Which command can the technician use to solve this problem?
+    A) ping
+    B) ipconfig /release
+    C) tracert
+    D) ipconfig /renew
+    Answer: ____
+
+Q9. Which command line utility is used to test connectivity to other IP hosts?
+    A) ping
+    B) tracert
+    C) ipconfig
+    D) nslookup
+    Answer: ____
+
+------------------------------------------------------------------------------------------
+
+### QUIZ 18.3.3 — Network Design Quiz  (10 questions)
+
+Q1. Which two devices would commonly be found at the access layer of the hierarchical enterprise LAN design model? (Choose two.)
+    A) access point
+    B) firewall
+    C) Layer 2 switch
+    D) Layer 3 device
+    E) modular switch
+    Answer: ____  (choose all that apply)
+
+Q2. What characteristic of a network enables it to quickly grow to support new users and applications without impacting the performance of the service being delivered to existing users?
+    A) reliability
+    B) scalability
+    C) quality of service
+    D) accessibility
+    Answer: ____
+
+Q4. A student is streaming a movie to his computer but the movie keeps stopping. What service would give streaming traffic higher priority and avoid the movie stopping?
+    A) HTTPS
+    B) security
+    C) fault tolerance
+    D) quality of service (QoS)
+    Answer: ____
+
+Q5. True or False? The impact of the failure of an important network device can be limited by a feature called fault tolerance.
+    A) true
+    B) false
+    Answer: ____
+
+Q6. Which type of address never changes on a device and is similar to a person's name?
+    A) MAC address
+    B) IP address
+    C) network address
+    D) logical address
+    Answer: ____
+
+Q7. What are the three layers of the switch hierarchical design model? (Choose three.)
+    A) access
+    B) data link
+    C) core
+    D) network access
+    E) enterprise
+    F) distribution
+    Answer: ____  (choose all that apply)
+
+Q8. Which network feature uses redundancy as a means to limit the number of affected users in the event of a failure?
+    A) fault tolerance
+    B) scalability
+    C) quality of service
+    D) security
+    Answer: ____
+
+Q9. What characteristic of a network would allow video traffic to have priority over traffic from an email application?
+    A) quality of service
+    B) fault tolerance
+    C) scalability
+    D) reliability
+    Answer: ____
+
+Q10. What is the responsibility of the distribution layer in a hierarchical network design?
+    A) It controls the traffic flows between the other layers.
+    B) It provides access to the network for end users.
+    C) It provides a high speed backbone for traffic flows.
+    D) It controls which devices are allowed to communicate on the network.
+    Answer: ____
+
+Q11. Which network design model improves efficiency by dividing the network into smaller pieces.
+    A) hierarchical
+    B) redundant
+    C) fault-tolerant
+    D) reliable
+    Answer: ____
+
+------------------------------------------------------------------------------------------
+
+### QUIZ 19.3.3 — Cloud and Virtualization Quiz  (12 questions)
+
+Q1. Which term is associated with Cloud computing?
+    A) teleworkers
+    B) wireless
+    C) tall servers
+    D) virtualization
+    Answer: ____
+
+Q2. Which three features represent benefits of virtualization? (Choose three.)
+    A) less power consumption
+    B) less employee technical training
+    C) less device monitoring
+    D) less equipment
+    E) improved disaster recovery
+    F) fewer security requirements
+    Answer: ____  (choose all that apply)
+
+Q3. Which term describes the type of cloud computing service that provides applications over the web?
+    A) IaaS
+    B) ITaaS
+    C) PaaS
+    D) SaaS
+    Answer: ____
+
+Q4. Saving your photos to a storage location maintained by your service provider is an example of ________.
+    A) virtualization
+    B) big data
+    C) cloud computing
+    Answer: ____
+
+Q5. Which cloud model provides services for a specific organization or entity?
+    A) a hybrid cloud
+    B) a community cloud
+    C) a public cloud
+    D) a private cloud
+    Answer: ____
+
+Q6. A company uses cloud services and is setting up a new switch supplied by the cloud provider. Which cloud model is used by the company?
+    A) DaaS
+    B) IaaS
+    C) PaaS
+    D) SaaS
+    Answer: ____
+
+Q7. What term is used to define the software process that creates VMs and performs hardware abstraction to support VMs?
+    A) hypervisor
+    B) container
+    C) element manager
+    D) Virtualized Infrastructure Manager (VIM)
+    Answer: ____
+
+Q8. Refer to the exhibit. What type of software is installed on the host system to support the three virtual machines?
+    A) Type 2 hypervisor software
+    B) bare metal software
+    C) Type 1 hypervisor software
+    D) edge computing software
+    Answer: ____
+
+Q9. Which piece of software is responsible for creating virtual machines and providing them access to resources on a physical machine?
+    A) hypervisor
+    B) supervisor
+    C) host operating system
+    D) hosted operating system
+    Answer: ____
+
+Q10. Which cloud type consists of two or more clouds that are connected through a single architecture?
+    A) hybrid
+    B) private
+    C) public
+    D) community
+    Answer: ____
+
+Q11. Which two are type 2 hypervisors? (Choose two.)
+    A) Virtualbox
+    B) VMware ESXi
+    C) Xen
+    D) Virtual PC
+    E) KVM
+    Answer: ____  (choose all that apply)
+
+Q12. What is a characteristic of a public cloud?
+    A) It is available to everyone.
+    B) It is intended for a specific organization.
+    C) It is made up of two or more clouds.
+    D) It is customized to meet specific functional needs of organizations.
+    Answer: ____
+
+------------------------------------------------------------------------------------------
+
+### QUIZ 20.3.3 — Number Systems Quiz  (12 questions)
+
+Q1. What is the binary representation for the decimal number 173?
+    A) 10100111
+    B) 10100101
+    C) 10101101
+    D) 10110101
+    Answer: ____
+
+Q2. How many bits make up an octet in an IPv4 address?
+    A) 4
+    B) 8
+    C) 16
+    D) 32
+    Answer: ____
+
+Q3. What is the decimal equivalent of 0xC9?
+    A) 185
+    B) 200
+    C) 201
+    D) 199
+    Answer: ____
+
+Q4. What is the binary representation of 0xCA?
+    A) 10111010
+    B) 11010101
+    C) 11001010
+    D) 11011010
+    Answer: ____
+
+Q5. What is the range of hexadecimal values that can be used in a hextet?
+    A) 0000 to 1111
+    B) 0000 to ffff
+    C) 1111 to aaaa
+    D) 0000 to 9999
+    Answer: ____
+
+Q6. What is the hexadecimal equivalent for the binary number 10011101?
+    A) 85
+    B) 9D
+    C) A1
+    D) D9
+    Answer: ____
+
+Q7. How many bits are in an IPv4 address?
+    A) 32
+    B) 64
+    C) 128
+    D) 256
+    Answer: ____
+
+Q8. A network engineer wants to represent confidential data in binary format. What are the two possible values that the engineer can use? (Choose two.)
+    A) 0
+    B) 1
+    C) 2
+    D) A
+    E) F
+    Answer: ____  (choose all that apply)
+
+Q9. What is the hexadecimal equivalent for the decimal number 139?
+    A) 8B
+    B) 92
+    C) A1
+    D) D7
+    Answer: ____
+
+Q10. Which is a valid hexadecimal number?
+    A) f
+    B) g
+    C) h
+    D) j
+    Answer: ____
+
+Q11. What is the binary equivalent of the decimal number 232?
+    A) 11101000
+    B) 11000110
+    C) 10011000
+    D) 11110010
+    Answer: ____
+
+Q12. Given the binary address of 11101100 00010001 00001100 00001010, which address does this represent in dotted decimal format?
+    A) 234.17.10.9
+    B) 234.16.12.10
+    C) 236.17.12.6
+    D) 236.17.12.10
+    Answer: ____
+
+------------------------------------------------------------------------------------------
+
+### QUIZ 21.5.3 — Ethernet Switching Quiz  (11 questions)
+
+Q1. What is encapsulated into the data field of an Ethernet frame?
+    A) the Layer 3 PDU
+    B) a cyclic redundancy check value
+    C) the encoded physical layer bits
+    D) the source and destination MAC addresses
+    Answer: ____
+
+Q2. What is the length restriction of the data field in an Ethernet frame?
+    A) between 0 to 1500 bytes
+    B) between 46 to 1500 bytes
+    C) between 46 to 1518 bytes
+    D) between 46 to 1522 bytes
+    Answer: ____
+
+Q3. Refer to the exhibit. What is the MAC address of this computer?
+    A) 00-01-00-01-15-15-BD-53-48-5B-39-A6-0F-3A
+    B) 87-52-25-78-0F-3A
+    C) fe80::740c:63a6:e9df:c700
+    D) fec0:0:0:ffff::1
+    Answer: ____
+
+Q4. Which Ethernet sublayer is used to control network access using CSMA/CD?
+    A) LLC
+    B) MAC
+    C) data link
+    D) physical
+    Answer: ____
+
+Q5. What addressing information is recorded by a switch to build its MAC address table?
+    A) the destination Layer 3 address of incoming packets
+    B) the destination Layer 2 address of outgoing frames
+    C) the source Layer 3 address of outgoing packets
+    D) the source Layer 2 address of incoming frames
+    Answer: ____
+
+Q6. What important information is examined in the Ethernet frame header by a Layer 2 device in order to forward the data onward?
+    A) source MAC address
+    B) source IP address
+    C) destination MAC address
+    D) Ethernet type
+    E) destination IP address
+    Answer: ____
+
+Q7. What happens to runt frames received by a Cisco Ethernet switch?
+    A) The frame is dropped.
+    B) The frame is returned to the originating network device.
+    C) The frame is broadcast to all other devices on the same network.
+    D) The frame is sent to the default gateway.
+    Answer: ____
+
+Q8. What is indicated by the 100 in the 100BASE-T standard?
+    A) meters
+    B) feet
+    C) megabits per second
+    D) twists per meter
+    Answer: ____
+
+Q9. Which three fields are found in an 802.3 Ethernet frame? (Choose three.)
+    A) source physical address
+    B) source logical address
+    C) media type identifier
+    D) frame check sequence
+    E) destination physical address
+    F) destination logical address
+    Answer: ____  (choose all that apply)
+
+Q11. Which two characteristics describe Ethernet technology? (Choose two.)
+    A) It is supported by IEEE 802.3 standards.
+    B) It is supported by IEEE 802.5 standards.
+    C) It typically uses an average of 16 Mbps for data transfer rates.
+    D) It uses unique MAC addresses to ensure that data is sent to the appropriate destination.
+    E) It uses a ring topology.
+    Answer: ____  (choose all that apply)
+
+Q12. What will a host on an Ethernet network do if it receives a frame with a unicast destination MAC address that does not match its own MAC address?
+    A) It will discard the frame.
+    B) It will forward the frame to the next host.
+    C) It will remove the frame from the media.
+    D) It will strip off the data-link frame to check the destination IP address.
+    Answer: ____
+
+------------------------------------------------------------------------------------------
+
+### QUIZ 22.4.3 — Network Layer Quiz  (11 questions)
+
+Q1. Which value, that is contained in an IPv4 header field, is decremented by each router that receives a packet?
+    A) Differentiated Services
+    B) Fragment Offset
+    C) Header Length
+    D) Time-to-Live
+    Answer: ____
+
+Q2. Which statement accurately describes a characteristic of IPv4?
+    A) All IPv4 addresses are assignable to hosts.
+    B) IPv4 has a 32-bit address space.
+    C) An IPv4 header has fewer fields than an IPv6 header has.
+    D) IPv4 natively supports IPsec.
+    Answer: ____
+
+Q3. Which technology provides a solution to IPv4 address depletion by allowing multiple devices to share one public IP address?
+    A) ARP
+    B) DNS
+    C) NAT
+    D) SMB
+    E) DHCP
+    F) HTTP
+    Answer: ____
+
+Q4. Why is IPv6 designed to replace IPv4?
+    A) because most computers have a 64-bit processor
+    B) because the IPv4 address space will soon be depleted
+    C) to allow computers to address more memory
+    D) to address compatibility issues with mobile devices
+    Answer: ____
+
+Q5. Which characteristic of the network layer in the OSI model allows carrying packets for multiple types of communications among many hosts?
+    A) the de-encapsulation of headers from lower layers
+    B) the selection of paths for and direct packets toward the destination
+    C) the ability to operate without regard to the data that is carried in each packet
+    D) the ability to manage the data transport between processes running on hosts
+    Answer: ____
+
+Q6. Which statement describes a characteristic of the network layer in the OSI model?
+    A) It manages the data transport between the processes running on each host.
+    B) In the encapsulation process, it adds source and destination port numbers to the IP header.
+    C) When a packet arrives at the destination host, its IP header is checked by the network layer to determine where the packet has to be routed.
+    D) Its protocols specify the packet structure and processing used to carry the data from one host to another.
+    Answer: ____
+
+Q7. Which layer of the OSI model is responsible for the logical addressing of packets?
+    A) data link
+    B) network
+    C) session
+    D) transport
+    Answer: ____
+
+Q8. What is the order of encapsulation for the protocol data units passing from the user application down the stack?
+    A) bits, segments, packets, frames, data
+    B) data, segments, packets, frames, bits
+    C) segments, data, packets, frames, bits
+    D) segments, packets, frames, bits, data
+    Answer: ____
+
+Q9. What process involves placing one PDU inside of another PDU?
+    A) encapsulation
+    B) encoding
+    C) segmentation
+    D) flow control
+    Answer: ____
+
+Q10. What information is added during encapsulation at OSI Layer 3?
+    A) source and destination MAC
+    B) source and destination application protocol
+    C) source and destination port number
+    D) source and destination IP address
+    Answer: ____
+
+Q11. How does the network layer use the MTU value?
+    A) The network layer depends on the higher level layers to determine the MTU.
+    B) The network layer depends on the data link layer to set the MTU, and adjusts the speed of transmission to accommodate it.
+    C) The MTU is passed to the network layer by the data link layer.
+    D) To increase speed of delivery, the network layer ignores the MTU.
+    Answer: ____
+
+------------------------------------------------------------------------------------------
+
+### QUIZ 23.2.3 — IPv4 Address Structure Quiz  (12 questions)
+
+Q1. Which statement describes IPv4 addressing?
+    A) Routers use the full 32-bit IP address to determine the location of each individual host.
+    B) The network portion of a destination IP address is obtained by performing an AND operation between a host IP address and a subnet mask.
+    C) An IPv4 address contains two parts: a network portion and a subnet portion.
+    D) Two hosts with the same subnet mask are in the same network.
+    Answer: ____
+
+Q2. Which statement describes one purpose of the subnet mask setting for a host?
+    A) It is used to describe the type of the subnet.
+    B) It is used to identify the default gateway.
+    C) It is used to determine to which network the host is connected.
+    D) It is used to determine the maximum number of bits within one packet that can be placed on a particular network.
+    Answer: ____
+
+Q3. How many octets exist in an IPv4 address?
+    A) 4
+    B) 8
+    C) 16
+    D) 32
+    Answer: ____
+
+Q4. Which full range of decimal values are valid in one octet of an IPv4 address?
+    A) 0 through 31
+    B) 1 through 64
+    C) 0 through 128
+    D) 0 through 255
+    E) 1 through 256
+    Answer: ____
+
+Q5. For what purpose are IPv4 addresses utilized?
+    A) An IPv4 address is used to uniquely identify a device on an IP network.
+    B) An IPv4 address is burned into the network card to uniquely identify a device.
+    C) An IPv4 address is used to uniquely identify the application that requested the information from a remote device.
+    D) An IPv4 address is used to identify the number of IP networks available.
+    Answer: ____
+
+Q6. What is the prefix length notation for the subnet mask 255.255.255.224?
+    A) /25
+    B) /26
+    C) /27
+    D) /28
+    Answer: ____
+
+Q7. Which two parts are components of an IPv4 address? (Choose two.)
+    A) subnet portion
+    B) network portion
+    C) logical portion
+    D) host portion
+    E) physical portion
+    F) broadcast portion
+    Answer: ____  (choose all that apply)
+
+Q8. What is obtained when ANDing the address 192.168.65.3/18 with its subnet mask?
+    A) 192.168.0.0
+    B) 192.168.16.0
+    C) 192.168.32.0
+    D) 192.168.64.0
+    Answer: ____
+
+Q9. What do devices on the same IPv4 subnet have in common?
+    A) They all use the same default gateway.
+    B) They all have a subnet mask of /8, /16, or /24.
+    C) They all have the same last octet in their IPv4 addresses.
+    D) They all have the same number in the first three octets of their IPv4 address.
+    Answer: ____
+
+Q10. How many unique addresses are available for assignment to hosts in the network of 10.100.16.0 with subnet mask 255.255.252.0?
+    A) 254
+    B) 510
+    C) 1022
+    D) 4094
+    Answer: ____
+
+Q11. Which is a valid default gateway address for a host configured with IP address 10.25.1.110 and a subnet mask of 255.255.255.192?
+    A) 10.25.1.65
+    B) 10.25.1.1
+    C) 10.0.0.1
+    D) 10.25.1.127
+    Answer: ____
+
+Q12. When IPv4 addressing is manually configured on a web server, which property of the IPv4 configuration identifies the network and host portion for an IPv4 address?
+    A) DNS server address
+    B) subnet mask
+    C) default gateway
+    D) DHCP server address
+    Answer: ____
+
+------------------------------------------------------------------------------------------
+
+### QUIZ 24.2.3 — Address Resolution Quiz  (11 questions)
+
+Q1. Which protocol is used to discover the destination address needed to be added to an Ethernet frame?
+    A) ARP
+    B) DNS
+    C) DHCP
+    D) HTTP
+    Answer: ____
+
+Q2. What is one function of the ARP protocol?
+    A) obtaining an IPv4 address automatically
+    B) mapping a domain name to its IP address
+    C) resolving an IPv4 address to a MAC address
+    D) maintaining a table of domain names with their resolved IP addresses
+    Answer: ____
+
+Q3. Refer to the exhibit. PC1 on VLAN 10 wants to communicate with PC2 on VLAN 20. PC1 sends an ARP request to its default gateway, GW1. How does GW1 respond?
+    A) It sends an ARP reply to PC2.
+    B) It sends an ARP request to PC1.
+    C) It forwards the ARP request from PC1 to PC2.
+    D) It sends an ARP reply to PC1 with its own MAC address.
+    Answer: ____
+
+Q4. What action does the ARP process take when a host needs to build a frame, but the ARP cache does not contain an address mapping?
+    A) The ARP process sends out an ARP request to the Ethernet broadcast address to discover the IPv4 address of the destination device.
+    B) The ARP process sends out an ARP request to the IPv4 broadcast address to discover the MAC address of the destination device.
+    C) The ARP process sends out an ARP request to the IPv4 broadcast address to discover the IPv4 address of the destination device.
+    D) The ARP process sends out an ARP request to the Ethernet broadcast address to discover the MAC address of the destination device.
+    Answer: ____
+
+Q5. Which statement describes the treatment of ARP requests on the local link?
+    A) They must be forwarded by all routers on the local network.
+    B) They are received and processed by every device on the local network.
+    C) They are dropped by all switches on the local network.
+    D) They are received and processed only by the target device.
+    Answer: ____
+
+Q6. What is the aim of an ARP spoofing attack?
+    A) to flood the network with ARP reply broadcasts
+    B) to fill switch MAC address tables with bogus addresses
+    C) to associate IP addresses to the wrong MAC address
+    D) to overwhelm network hosts with ARP requests
+    Answer: ____
+
+Q7. A cybersecurity analyst believes that an attacker is announcing a forged MAC address to network hosts in an attempt to spoof the default gateway. Which command could the analyst use on the network hosts to see what MAC address the hosts are using to reach the default gateway?
+    A) netsat -r
+    B) route print
+    C) ipconfig /all
+    D) arp -a
+    Answer: ____
+
+Q8. What will a host do first when preparing a Layer 2 PDU for transmission to a host on the same Ethernet network?
+    A) It will send the PDU to the router directly connected to the network.
+    B) It will query the local DNS server for the name of the destination host.
+    C) It will search the ARP table for the MAC address of the destination host.
+    D) It will initiate an ARP request to find the MAC address of the destination host.
+    Answer: ____
+
+Q9. Which destination address is used in an ARP request frame?
+    A) 0.0.0.0
+    B) 255.255.255.255
+    C) FFFF.FFFF.FFFF
+    D) 127.0.0.1
+    E) 01-00-5E-00-AA-23
+    Answer: ____
+
+Q10. Which protocol is used by a computer to find the MAC address of the default gateway on an Ethernet network?
+    A) ARP
+    B) TCP
+    C) UDP
+    D) DHCP
+    Answer: ____
+
+Q11. Refer to the exhibit. PC1 attempts to connect to File_server1 and sends an ARP request to obtain a destination MAC address. Which MAC address will PC1 receive in the ARP reply?
+    A) the MAC address of S1
+    B) the MAC address of the G0/0 interface on R1
+    C) the MAC address of the G0/0 interface on R2
+    D) the MAC address of S2
+    E) the MAC address of File_server1
+    Answer: ____
+
+------------------------------------------------------------------------------------------
+
+### QUIZ 25.3.3 — IP Addressing Services Quiz  (11 questions)
+
+Q1. Which network service automatically assigns IP addresses to devices on the network?
+    A) DHCP
+    B) Telnet
+    C) DNS
+    D) traceroute
+    Answer: ____
+
+Q2. A host PC has just booted and is attempting to lease an address through DHCP. Which two messages will the client typically broadcast on the network? (Choose two.)
+    A) DHCPDISCOVER
+    B) DHCPOFFER
+    C) DHCPREQUEST
+    D) DHCPACK
+    E) DHCPNACK
+    Answer: ____  (choose all that apply)
+
+Q3. Refer to the exhibit. Host A is trying to resolve the name www.internal.cisco.com to an IP address. When the name resolution request is received by a root DNS server, which server will be included in the response for further resolution?
+    A) DNS server A
+    B) DNS server B
+    C) DNS server C
+    D) web server D
+    Answer: ____
+
+Q4. Which statement is true about DHCP operation?
+    A) If the client receives several DHCPOFFER messages from different servers, it sends a unicast DHCPREQUEST message to the server from which it chooses to obtain the IP information.
+    B) A client must wait for lease expiration before it sends another DHCPREQUEST message.
+    C) When a device that is configured to use DHCP boots, the client broadcasts a DHCPDISCOVER message to identify any available DHCP servers on the network.
+    D) The DHCPDISCOVER message contains the IP address and subnet mask to be assigned, the IP address of the DNS server, and the IP address of the default gateway.
+    Answer: ____
+
+Q5. Which DHCPv4 message will a client send to accept an IPv4 address that is offered by a DHCP server?
+    A) unicast DHCPACK
+    B) broadcast DHCPACK
+    C) unicast DHCPREQUEST
+    D) broadcast DHCPREQUEST
+    Answer: ____
+
+Q6. Which protocol translates a website name such as www.cisco.com into a network address?
+    A) HTTP
+    B) FTP
+    C) DHCP
+    D) DNS
+    Answer: ____
+
+Q7. What type of information is contained in a DNS MX record?
+    A) the FQDN of the alias used to identify a service
+    B) the IP address for an FQDN entry
+    C) the domain name mapped to mail exchange servers
+    D) the IP address of an authoritative name server
+    Answer: ____
+
+Q8. A technician is adding a new PC to a LAN. After unpacking the components and making all the connections, the technician starts the PC. After the OS loads, the technician opens a browser, and verifies that the PC can reach the Internet. Why was the PC able to connect to the network with no additional configuration?
+    A) The PC does not require any additional information to function on the network
+    B) The PC came preconfigured with IP addressing information from the factory.
+    C) The PC was preconfigured to use DHCP.
+    D) The PC used DNS to automatically receive IP addressing information from a server.
+    E) The PC virtual interface is compatible with any network.
+    Answer: ____
+
+Q9. Which network server is malfunctioning if a user can ping the IP address of a web server but cannot ping the web server host name?
+    A) the DNS server
+    B) the DHCP server
+    C) the FTP server
+    D) the HTTP server
+    Answer: ____
+
+Q10. Refer to the exhibit. Which protocol allows a user to type www.cisco.com instead of an IP address to access the web server?
+    A) DNS
+    B) FTP
+    C) HTML
+    D) HTTP
+    E) SNMP
+    Answer: ____
+
+Q11. What action does a DNS server take if it does not have an entry for a requested URL?
+    A) The server drops the request.
+    B) The server returns a "page not found" response to the client.
+    C) The server checks with another DNS server to see if it has an entry.
+    D) The server assigns a temporary IP address to the name and sends this IP address to the client.
+    Answer: ____
+
+------------------------------------------------------------------------------------------
+
+### QUIZ 26.8.4 — Transport Layer Quiz  (10 questions)
+
+Q1. Match the characteristics to the correct protocols.
+    (match each prompt to one option)
+    - Flow control   ->  ____    [options: UDP / TCP]
+    - Application dependent for error correction   ->  ____    [options: TCP / UDP]
+    - Reliable   ->  ____    [options: UDP / TCP]
+    - Sequence number   ->  ____    [options: UDP / TCP]
+    - Efficient delivery   ->  ____    [options: TCP / UDP]
+    - Less overhead   ->  ____    [options: UDP / TCP]
+
+Q2. Which statement correctly describes data transmission at the transport layer?
+    A) Retransmission of lost packets is provided by both TCP and UDP.
+    B) Segmentation is provided by the window size field when the TCP protocol is used.
+    C) A single datagram can include both a TCP and a UDP header.
+    D) Both UDP and TCP use port numbers.
+    E) Segmentation is provided by sequence numbers when UDP is used.
+    Answer: ____
+
+Q3. Which three fields are used in a UDP segment header? (Choose three.)
+    A) Window Size
+    B) Length
+    C) Source Port
+    D) Acknowledgment Number
+    E) Checksum
+    F) Sequence Number
+    Answer: ____
+
+Q4. What is the last segment sent to complete the termination process of a TCP session that was initiated by a client?
+    A) a segment with the ACK flag set to 1 from the client
+    B) a segment with the FIN flag set to 1 from the server
+    C) a segment with the SYN flag set to 1 from the client
+    D) a segment with the ACK flag set to 1 from the server
+    Answer: ____
+
+Q5. What is a characteristic of a TCP server process?
+    A) Every application process running on the server has to be configured to use a dynamic port number.
+    B) There can be many ports open simultaneously on a server, one for each active server application.
+    C) An individual server can have two services assigned to the same port number within the same transport layer services.
+    D) A host running two different applications can have both configured to use the same server port.
+    Answer: ____
+
+Q6. Network congestion has resulted in the source learning of the loss of TCP segments that were sent to the destination. What is one way that the TCP protocol addresses this?
+    A) The source decreases the amount of data that it transmits before it receives an acknowledgement from the destination.
+    B) The source decreases the window size to decrease the rate of transmission from the destination.
+    C) The destination decreases the window size.
+    D) The destination sends fewer acknowledgement messages in order to conserve bandwidth.
+    Answer: ____
+
+Q7. Which field in the TCP header indicates the status of the three-way handshake process?
+    A) window
+    B) reserved
+    C) checksum
+    D) control bits
+    Answer: ____
+
+Q8. What are two features of protocols used within the TCP/IP protocol stack? (Choose two.)
+    A) The Internet Layer IP protocol has built in mechanisms for ensuring the reliable transmission and receipt of data.
+    B) UDP is used when an application must be delivered as quickly as possible and some loss of data can be tolerated.
+    C) TCP and UDP destination port numbers are dynamically generated by the sending device in order to track the responses to requests.
+    D) TCP mechanisms retransmit data when an acknowledgment is not received from the destination system within a set period of time.
+    E) The same Transport Layer source port is used for all of the tabs opened at the same time within a web browser.
+    Answer: ____
+
+Q11. What is a characteristic of the UDP protocol?
+    A) low overhead
+    B) guaranteed delivery
+    C) error correction
+    D) end-to-end establishment before delivery
+    Answer: ____
+
+Q12. Which two flags in the Layer 4 PDU header are set by a client and server to terminate a TCP conversation? (Choose two.)
+    A) URG
+    B) SYN
+    C) RST
+    D) FIN
+    E) ACK
+    Answer: ____
+
+------------------------------------------------------------------------------------------
+
+### QUIZ 27.4.3 — The Cisco IOS Command Line Quiz  (10 questions)
+
+Q1. Match the description with the associated IOS mode.
+    (match each prompt to one option)
+    - changes made affect the operation of the device as a whole   ->  ____    [options: global configuration mode / user EXEC mode / privileged EXEC mode]
+    - accessed by entering the <B>enable</B> command   ->  ____    [options: global configuration mode / privileged EXEC mode / user EXEC mode]
+    - identified by a prompt ending with the # character   ->  ____    [options: user EXEC mode / global configuration mode / privileged EXEC mode]
+    - limited number of basic monitoring commands   ->  ____    [options: privileged EXEC mode / global configuration mode / user EXEC mode]
+    - accessed by entering the<strong> configure terminal</strong> command   ->  ____    [options: user EXEC mode / privileged EXEC mode / global configuration mode]
+    - the first entrance into the CLI of an IOS device   ->  ____    [options: global configuration mode / user EXEC mode / privileged EXEC mode]
+
+Q2. Which command can an administrator execute to determine what interface a router will use to reach remote networks?
+    A) show arp
+    B) show interfaces
+    C) show ip route
+    D) show protocols
+    Answer: ____
+
+Q3. Which command will provide information about the status of all interfaces including the number of giants, runts, and collisions on the interface?
+    A) show interfaces
+    B) show ip interface brief
+    C) show history
+    D) show running-config
+    Answer: ____
+
+Q4. Which keys act as a hot key combination that is used to interrupt an IOS process?
+    A) Ctrl-Shift-X
+    B) Ctrl-Shift-6
+    C) Ctrl-Z
+    D) Ctrl-C
+    Answer: ____
+
+Q5. What function does pressing the Tab key have when entering a command in IOS?
+    A) It aborts the current command and returns to configuration mode.
+    B) It exits configuration mode and returns to user EXEC mode.
+    C) It moves the cursor to the beginning of the next line.
+    D) It completes the remainder of a partially typed word in a command.
+    Answer: ____
+
+Q6. Which command or key combination allows a user to return to the previous level in the command hierarchy?
+    A) end
+    B) exit
+    C) Ctrl-Z
+    D) Ctrl-C
+    Answer: ____
+
+Q8. Which two statements are true regarding the user EXEC mode? (Choose two.)
+    A) All router commands are available.
+    B) Global configuration mode can be accessed by entering the enable command.
+    C) The device prompt for this mode ends with the '>' symbol.
+    D) Interfaces and routing protocols can be configured.
+    E) Only some aspects of the router configuration can be viewed.
+    Answer: ____
+
+Q9. A network administrator is working on a Cisco router. The CLI prompt is Router1(config-if)#. Which operation is the administrator likely to configure next?
+    A) the vty lines
+    B) a LAN interface
+    C) the console port
+    D) the password that is required to access the privileged EXEC mode
+    Answer: ____
+
+Q10. In the show running-config command, which part of the syntax is represented by running-config ?
+    A) the command
+    B) a keyword
+    C) a variable
+    D) a prompt
+    Answer: ____
+
+Q11. A network administrator issues the Switch(config)# Interface FastEthernet 0/1 command on a Cisco switch. Which term is used to describe the "0/1" part in the command?
+    A) hot key
+    B) keyword
+    C) argument
+    D) command
+    Answer: ____
+
+------------------------------------------------------------------------------------------
+
+### QUIZ 28.5.3 — Build a Small Cisco Network Quiz  (10 questions)
+
+Q1. A user can print to a printer that is on the same network, but the traffic of the user cannot reach the internet. What is a possible cause of the problem?
+    A) The PC default gateway address is missing or incorrect.
+    B) The PC has an incorrect IP address.
+    C) The network cable connected to the user PC is faulty.
+    D) The NIC on the PC is faulty.
+    Answer: ____
+
+Q2. Which connection provides a secure CLI session with encryption to a Cisco switch?
+    A) a console connection
+    B) an AUX connection
+    C) a Telnet connection
+    D) an SSH connection
+    Answer: ____
+
+Q3. On which switch interface would an administrator configure an IP address so that the switch can be managed remotely?
+    A) FastEthernet0/1
+    B) VLAN 1
+    C) vty 0
+    D) console 0
+    Answer: ____
+
+Q4. An administrator defined a local user account with a secret password on router R1 for use with SSH. Which three additional steps are required to configure R1 to accept only encrypted SSH connections? (Choose three.)
+    A) Configure the IP domain name on the router.
+    B) Enable inbound vty Telnet sessions.
+    C) Generate the SSH keys.
+    D) Configure DNS on the router.
+    E) Enable inbound vty SSH sessions.
+    F) Generate two-way pre-shared keys.
+    Answer: ____  (choose all that apply)
+
+Q6. A technician is configuring a router to allow for all forms of management access. As part of each different type of access, the technician is trying to type the command login. Which configuration mode should be entered to do this task?
+    A) user executive mode
+    B) global configuration mode
+    C) any line configuration mode
+    D) privileged EXEC mode
+    Answer: ____
+
+Q7. Which statement describes SVIs?
+    A) An SVI is created automatically for each VLAN on a multilayer switch.
+    B) Creating an SVI automatically creates an associated VLAN.
+    C) A default SVI is created for VLAN 1 for switch administration.
+    D) An SVI can only be created for the management purposes.
+    Answer: ____
+
+Q8. What is one difference between using Telnet or SSH to connect to a network device for management purposes?
+    A) Telnet uses UDP as the transport protocol whereas SSH uses TCP.
+    B) Telnet does not provide authentication whereas SSH provides authentication.
+    C) Telnet supports a host GUI whereas SSH only supports a host CLI.
+    D) Telnet sends a username and password in plain text, whereas SSH encrypts the username and password.
+    Answer: ____
+
+Q9. Which type of access is secured on a Cisco router or switch with the enable secret command?
+    A) virtual terminal
+    B) privileged EXEC
+    C) AUX port
+    D) console line
+    Answer: ____
+
+Q10. Which statement regarding the service password-encryption command is true?
+    A) It is configured in privileged EXEC mode.
+    B) It encrypts only line mode passwords.
+    C) As soon as the service password-encryption command is entered, all currently set passwords formerly displayed in plain text are encrypted.
+    D) To see the passwords encrypted by the service password-encryption command in plain text, issue the no service password-encryption command.
+    Answer: ____
+
+Q11. What happens when the transport input ssh command is entered on the switch vty lines?
+    A) The SSH client on the switch is enabled.
+    B) Communication between the switch and remote users is encrypted.
+    C) The switch requires a username/password combination for remote access.
+    D) The switch requires remote connections via a proprietary client software.
+    Answer: ____
+
+------------------------------------------------------------------------------------------
+
+### QUIZ 29.3.4 — ICMP Quiz  (12 questions)
+
+Q1. A technician uses the ping 127.0.0.1 command. What is the technician testing?
+    A) the TCP/IP stack on a network host
+    B) connectivity between two adjacent Cisco devices
+    C) connectivity between a PC and the default gateway
+    D) connectivity between two PCs on the same network
+    E) physical connectivity of a particular PC and the network
+    Answer: ____
+
+Q2. Which command can be used to test connectivity between two devices using echo request and echo reply messages?
+    A) netstat
+    B) ipconfig
+    C) ICMP
+    D) ping
+    Answer: ____
+
+Q3. What field content is used by ICMPv6 to determine that a packet has expired?
+    A) TTL field
+    B) CRC field
+    C) Hop Limit field
+    D) Time Exceeded field
+    Answer: ____
+
+Q4. Which protocol provides feedback from the destination host to the source host about errors in packet delivery?
+    A) ARP
+    B) BOOTP
+    C) DNS
+    D) ICMP
+    Answer: ____
+
+Q5. What mechanism is used by a router to prevent a received IPv4 packet from traveling endlessly on a network?
+    A) It checks the value of the TTL field and if it is 0, it discards the packet and sends a Destination Unreachable message to the source host.
+    B) It checks the value of the TTL field and if it is 100, it discards the packet and sends a Destination Unreachable message to the source host.
+    C) It decrements the value of the TTL field by 1 and if the result is 0, it discards the packet and sends a Time Exceeded message to the source host.
+    D) It increments the value of the TTL field by 1 and if the result is 100, it discards the packet and sends a Parameter Problem message to the source host.
+    Answer: ____
+
+Q6. Which protocol is used by ping to test connectivity between network hosts?
+    A) ARP
+    B) DHCP
+    C) TCP
+    D) ICMP
+    Answer: ____
+
+Q7. A user is executing a tracert to a remote device. At what point would a router, which is in the path to the destination device, stop forwarding the packet?
+    A) when the router receives an ICMP Time Exceeded message
+    B) when the RTT value reaches zero
+    C) when the host responds with an ICMP Echo Reply message
+    D) when the value in the TTL field reaches zero
+    E) when the values of both the Echo Request and Echo Reply messages reach zero
+    Answer: ____
+
+Q8. Which protocol is used by the traceroute command to send and receive echo-requests and echo-replies?
+    A) SNMP
+    B) ICMP
+    C) Telnet
+    D) TCP
+    Answer: ____
+
+Q9. What message is sent by a host to check the uniqueness of an IPv6 address before using that address?
+    A) neighbor solicitation
+    B) ARP request
+    C) echo request
+    D) router solicitation
+    Answer: ____
+
+Q10. Which ICMPv6 message type provides network addressing information to hosts that use SLAAC?
+    A) neighbor solicitation
+    B) router advertisement
+    C) neighbor advertisement
+    D) router solicitation
+    Answer: ____
+
+Q11. A user executes a traceroute over IPv6. At what point would a router in the path to the destination device drop the packet?
+    A) when the value of the Hop Limit field reaches 255
+    B) when the value of the Hop Limit field reaches zero
+    C) when the router receives an ICMP time exceeded message
+    D) when the target host responds with an ICMP echo reply message
+    Answer: ____
+
+Q12. A user issues a ping 198.51.100.25 command and receives a response that includes a code of 2 . What does this code represent?
+    A) port unreachable
+    B) host unreachable
+    C) protocol unreachable
+    D) network unreachable
+    Answer: ____
+
+------------------------------------------------------------------------------------------
+
+### QUIZ 30.6.3 — Physical Layer Quiz  (12 questions)
+
+Q1. What is an important function of the physical layer of the OSI model?
+    A) It accepts frames from the physical media.
+    B) It encapsulates upper layer data into frames.
+    C) It defines the media access method performed by the hardware interface.
+    D) It encodes frames into electrical, optical, or radio wave signals.
+    Answer: ____
+
+Q2. A network administrator is troubleshooting connectivity issues on a server. Using a tester, the administrator notices that the signals generated by the server NIC are distorted and not usable. In which layer of the OSI model is the error categorized?
+    A) presentation layer
+    B) network layer
+    C) physical layer
+    D) data link layer
+    Answer: ____
+
+Q3. What is the purpose of the OSI physical layer?
+    A) controlling access to media
+    B) transmitting bits across the local media
+    C) performing error detection on received frames
+    D) exchanging frames between nodes over physical network media
+    Answer: ____
+
+Q4. Which statement correctly describes frame encoding?
+    A) It uses the characteristic of one wave to modify another wave.
+    B) It transmits data signals along with a clock signal which occurs at evenly spaced time durations.
+    C) It generates the electrical, optical, or wireless signals that represent the binary numbers of the frame.
+    D) It converts bits into a predefined code in order to provide a predictable pattern to help distinguish data bits from control bits.
+    Answer: ____
+
+Q5. What is one advantage of using fiber-optic cabling rather than copper cabling?
+    A) It is usually cheaper than copper cabling.
+    B) It is able to be installed around sharp bends.
+    C) It is easier to terminate and install than copper cabling.
+    D) It is able to carry signals much farther than copper cabling.
+    Answer: ____
+
+Q6. Which pairs of wires change termination order between the 568A and 568B standards?
+    A) green and orange
+    B) green and brown
+    C) blue and brown
+    D) brown and orange
+    Answer: ____
+
+Q7. What is the delay in the amount of time for data to travel between two points on a network?
+    A) bandwidth
+    B) throughput
+    C) latency
+    D) goodput
+    Answer: ____
+
+Q8. What terms represent the maximum and actual speed that can be utilized by a device to transfer data?
+    A) bandwidth; throughput
+    B) throughput; bandwidth
+    C) bandwidth; goodput
+    D) throughput; goodput
+    Answer: ____
+
+Q9. Which type of network cable contains multiple copper wires and uses extra shielding to prevent interference?
+    A) STP
+    B) UTP
+    C) fiber-optic
+    D) coax
+    Answer: ____
+
+Q10. What is line encoding?
+    A) a method to represent digital information
+    B) a security method used to protect data being transmitted
+    C) a method to represent bits on the media
+    D) a method to change the level of an electrical signal or optical pulse on the media
+    Answer: ____
+
+Q11. What is a factor that determines the practical bandwidth of a network?
+    A) physical media properties
+    B) type of traffic
+    C) amount of traffic
+    D) latency caused by all intermediary devices
+    Answer: ____
+
+Q12. What are three options for signal transmission on a network? (Choose three.)
+    A) radio waves
+    B) vibration pulses
+    C) sound waves
+    D) electrical pulses
+    E) light pulses
+    Answer: ____  (choose all that apply)
+
+------------------------------------------------------------------------------------------
+
+### QUIZ 31.3.3 — Data Link Layer Quiz  (12 questions)
+
+Q1. A school is adding 10 computers to a classroom. What is the most common physical network topology that is used in a classroom?
+    A) bus
+    B) ring
+    C) star
+    D) extended star
+    Answer: ____
+
+Q2. Which media access method requires that an end device send a notification across the media before sending data?
+    A) CSMA/CA​
+    B) CSMA/CD​
+    C) deterministic
+    D) token passing
+    Answer: ____
+
+Q3. An enterprise has four branches. The headquarters needs full connectivity to all branches. The branches do not need to be connected directly to each other. Which WAN topology is most suitable?
+    A) bus
+    B) full mesh
+    C) hub and spoke
+    D) mesh
+    E) point-to-point
+    Answer: ____
+
+Q4. What is a characteristic of CSMA/CA that differs from CSMA/CD?
+    A) CSMA/CA is suitable for networks with token ring topology.
+    B) An end device sends a notification across the media before it sends a data frame.
+    C) No collisions can exist within a local CSMA/CA network.
+    D) CSMA/CA is a deterministic access method that controls use of the network.
+    Answer: ____
+
+Q5. Which statement correctly describes the operation of CSMA/CD?
+    A) The end device waits until it receives a token then transmits the data.
+    B) The end device waits until there is no carrier signal, transmits a token, then transmits the data.
+    C) The end device waits until there are no data signals then transmits the data while listening for collisions.
+    D) The end device waits until there are no data signals, sends a notification that it is going to use the media, then transmits the data.
+    Answer: ____
+
+Q6. Which topology type describes the process that hosts use to access and communicate on a network?
+    A) star
+    B) logical
+    C) physical
+    D) bus
+    Answer: ____
+
+Q7. How does a device use CSMA/CA technology to avoid collisions?
+    A) It monitors the media and only begins to transmit when the media is free.
+    B) It sends a notification before transmitting when the media is free.
+    C) It uses a full-duplex channel for communication.
+    D) It waits for a token before transmitting.
+    Answer: ____
+
+Q8. On a point-to-point network, which communication type is used when two devices can both transmit and receive but not at the same time?
+    A) controlled access
+    B) deterministic
+    C) full-duplex
+    D) half-duplex
+    Answer: ____
+
+Q9. A dental office provides a WLAN in the waiting area for patients to access the Internet. The WLAN is equipped with a wireless router that connects to the Internet through a cable connection. Which data transmission mode is used by wireless devices?
+    A) simplex
+    B) half-duplex
+    C) full-duplex
+    D) multi-duplex
+    Answer: ____
+
+Q10. Which LAN topology requires a central intermediate device to connect end devices?
+    A) bus
+    B) ring
+    C) mesh
+    D) star
+    Answer: ____
+
+Q11. What is used on WLANs to avoid packet collisions?
+    A) CSMA/CA
+    B) STP
+    C) VLANs
+    D) SVIs
+    Answer: ____
+
+Q12. What is the first step in the CSMA/CA process when a wireless client is attempting to communicate on the wireless network?
+    A) The client listens for traffic on the channel.
+    B) The client sends an RTS message to the AP.
+    C) The AP sends a CTS message to the client.
+    D) The client sends a test frame onto the channel.
+    Answer: ____
+
+------------------------------------------------------------------------------------------
+
+### QUIZ 32.3.3 — Routing at the Network Layer Quiz  (12 questions)
+
+Q1. A computer can access devices on the same network but cannot access devices on other networks. What is the probable cause of this problem?
+    A) The cable is not connected properly to the NIC.
+    B) The computer has an invalid IP address.
+    C) The computer has an incorrect subnet mask.
+    D) The computer has an invalid default gateway address.
+    Answer: ____
+
+Q2. What information does the loopback test provide?
+    A) The TCP/IP stack on the device is working correctly.
+    B) The device has end-to-end connectivity.
+    C) DHCP is working correctly.
+    D) The Ethernet cable is working correctly.
+    E) The device has the correct IP address on the network.
+    Answer: ____
+
+Q3. Which two commands can be used on a Windows host to display the routing table? (Choose two.)
+    A) netstat -s
+    B) route print
+    C) show ip route
+    D) netstat -r
+    E) tracert
+    Answer: ____  (choose all that apply)
+
+Q4. During the process of forwarding traffic, what will the router do immediately after matching the destination IP address to a network on a directly connected routing table entry?
+    A) discard the traffic after consulting the route table
+    B) look up the next-hop address for the packet
+    C) switch the packet to the directly connected interface
+    D) analyze the destination IP address
+    Answer: ____
+
+Q5. A router receives a packet from the Gigabit 0/0 interface and determines that the packet needs to be forwarded out the Gigabit 0/1 interface. What will the router do next?
+    A) route the packet out the Gigabit 0/1 interface
+    B) create a new Layer 2 Ethernet frame to be sent to the destination
+    C) look into the ARP cache to determine the destination IP address
+    D) look into the routing table to determine if the destination network is in the routing table
+    Answer: ____
+
+Q6. What type of route is indicated by the code C in an IPv4 routing table on a Cisco router?
+    A) static route
+    B) default route
+    C) directly connected route
+    D) dynamic route that is learned through EIGRP
+    Answer: ____
+
+Q7. When a router receives a packet, what information must be examined in order for the packet to be forwarded to a remote destination?
+    A) destination MAC address
+    B) source IP address
+    C) destination IP address
+    D) source MAC address
+    Answer: ____
+
+Q8. What type of route is created when a network administrator manually configures a route that has an active exit interface?
+    A) static
+    B) directly connected
+    C) local
+    D) dynamic
+    Answer: ____
+
+Q9. If a company has decided not to use static routing for the four routers inside the company, what would be an alternative solution?
+    A) Use DHCP.
+    B) Install a routing protocol.
+    C) Use automatic flow labels.
+    D) Allow the internet provider to do the routing.
+    Answer: ____
+
+Q10. Which two statements describe features of an IPv4 routing table on a router? (Choose two.)
+    A) The netstat -r command can be used to display the routing table of a router.
+    B) Directly connected interfaces will have two route source codes in the routing table: C and S .
+    C) The routing table stores information about routes derived from the active router interfaces.
+    D) If a default static route is configured in the router, an entry will be included in the routing table with source code S .
+    E) The routing table lists the MAC addresses of each active interface.
+    Answer: ____  (choose all that apply)
+
+Q11. A router is receiving a stream of incoming packets that does not contain a route to the remote destination network. What configuration can a network administrator issue in order to successfully forward the incoming packets?
+    A) Add a default route.
+    B) Enable a dynamic routing protocol.
+    C) Share the routing table with the hosts on the local network.
+    D) Change the IP address of the ingress interface to match the targeted destination network.
+    Answer: ____
+
+Q12. Which address should be configured as the default gateway address of a client device?
+    A) the Layer 2 address of the switch management interface
+    B) the Layer 2 address of the switch port that is connected to the workstation
+    C) the IPv4 address of the router interface that is connected to the same LAN
+    D) the IPv4 address of the router interface that is connected to the internet
+    Answer: ____
+
+------------------------------------------------------------------------------------------
+
+### QUIZ 33.6.3 — IPv6 Addressing Quiz  (12 questions)
+
+Q1. Which type of IPv6 address is not routable and used only for communication on a single subnet?
+    A) global unicast address
+    B) link-local address
+    C) loopback address
+    D) unique local address
+    E) unspecified address
+    Answer: ____
+
+Q2. What are the three parts of an IPv6 global unicast address? (Choose three.)
+    A) broadcast address
+    B) global routing prefix
+    C) subnet mask
+    D) subnet ID
+    E) interface ID
+    Answer: ____  (choose all that apply)
+
+Q3. What are two types of IPv6 unicast addresses? (Choose two.)
+    A) multicast
+    B) loopback
+    C) link-local
+    D) anycast
+    E) broadcast
+    Answer: ____  (choose all that apply)
+
+Q4. A company uses the SLAAC method to configure IPv6 addresses for the employee workstations. Which address will a client use as its default gateway?
+    A) the all-routers multicast address
+    B) the link-local address of the router interface that is attached to the network
+    C) the unique local address of the router interface that is attached to the network
+    D) the global unicast address of the router interface that is attached to the network
+    Answer: ____
+
+Q5. What are IPv6 ULAs?
+    A) a method of translating IPv6 addresses into IPv4 addresses
+    B) a private IPv6 address range used for communication within a local site
+    C) any device that can run both an IPv6 and an IPv4 protocol stack simultaneously
+    D) tunneling protocols that allow two IPv6 networks to communicate across an IPv4 network
+    Answer: ____
+
+Q6. Which address type is not supported in IPv6?
+    A) private
+    B) multicast
+    C) unicast
+    D) broadcast
+    Answer: ____
+
+Q7. Which service provides dynamic global IPv6 addressing to end devices without using a server that keeps a record of available IPv6 addresses?
+    A) stateful DHCPv6
+    B) SLAAC
+    C) static IPv6 addressing
+    D) stateless DHCPv6
+    Answer: ____
+
+Q8. At a minimum, which address is required on IPv6-enabled interfaces?
+    A) link-local
+    B) unique local
+    C) site local
+    D) global unicast
+    Answer: ____
+
+Q9. Which type of IPv6 address refers to any unicast address that is assigned to multiple hosts?
+    A) unique local
+    B) global unicast
+    C) link-local
+    D) anycast
+    Answer: ____
+
+Q10. Which address is used to derive an IPv6 interface ID using the EUI-64 method?
+    A) IPv4
+    B) MAC
+    C) multicast
+    D) Layer 4
+    Answer: ____
+
+Q11. Which ICMPv6 message type contains network configuration information for clients that are performing SLAAC?
+    A) router advertisement
+    B) router solicitation
+    C) neighbor advertisement
+    D) neighbor solicitation
+    Answer: ____
+
+Q12. How many bits of an IPv6 address are used to identify the interface ID?
+    A) 32
+    B) 48
+    C) 64
+    D) 128
+    Answer: ____
+
+------------------------------------------------------------------------------------------
+
+### QUIZ 34.2.3 — IPv6 Neighbor Discovery Quiz  (12 questions)
+
+Q1. Which two ICMPv6 messages are used during the Ethernet MAC address resolution process? (Choose two.)
+    A) router solicitation
+    B) router advertisement
+    C) neighbor solicitation
+    D) neighbor advertisement
+    E) echo request
+    Answer: ____  (choose all that apply)
+
+Q2. What address scope is used in the IPv6 frame to ensure that an IPv6 neighbor solicitation message would not be forwarded by routers?
+    A) site-local scope
+    B) link-local scope
+    C) subnet-local scope
+    D) interface-local scope
+    Answer: ____
+
+Q3. What type of data transmission does an IPv6 host use to send a neighbor solicitation message?
+    A) unicast
+    B) anycast
+    C) multicast
+    D) broadcast
+    Answer: ____
+
+Q4. What type of Ethernet frame does an IPv6 host use to send a message in responding to an address resolution request?
+    A) unicast
+    B) anycast
+    C) multicast
+    D) broadcast
+    Answer: ____
+
+Q5. How many messages are used in ICMPv6 neighbor discovery protocol?
+    A) 3
+    B) 4
+    C) 5
+    D) 6
+    Answer: ____
+
+Q6. Which protocol provides messages to support IPv6 address resolution?
+    A) DNS
+    B) ARP
+    C) ICMPv6
+    D) DHCPv6
+    Answer: ____
+
+Q7. Which OSI layer provides IPv6 neighbor discovery operation?
+    A) network
+    B) data link
+    C) transport
+    D) application
+    Answer: ____
+
+Q8. Which method would an IPv6-enabled host using SLAAC employ to learn the address of the default gateway?
+    A) router advertisement messages received from the link router
+    B) neighbor solicitation messages sent to link neighbors
+    C) neighbor advertisement messages received from link neighbors
+    D) router solicitation messages received from the link router
+    Answer: ____
+
+Q9. Which message should an IPv6 host send in response to a request of its MAC address?
+    A) router solicitation message
+    B) neighbor solicitation message
+    C) router advertisement message
+    D) neighbor advertisement message
+    Answer: ____
+
+Q10. Which statement describes the neighbor solicitation and neighbor advertisement messages used in the IPv6 neighbor discovery protocol?
+    A) They are used only between two routers.
+    B) They are used only between two computers.
+    C) They are used for messaging to all devices on the same network.
+    D) They are used for device-to-device messaging and devices include both computers and routers.
+    Answer: ____
+
+Q11. IPv6 host A is sending a neighbor solicitation message to IPv6 host B on the same Ethernet network. What address type is used in the Destination MAC field of the Ethernet frame header?
+    A) unicast MAC address
+    B) anycast MAC address
+    C) multicast MAC address
+    D) broadcast MAC address
+    Answer: ____
+
+Q12. An IPv6 host needs to start communication with another IPv6 host. What is the first step that the sending host should do?
+    A) Broadcast an ARP message to the network.
+    B) Send a neighbor solicitation message to the destination host.
+    C) Determine if the destination host is on the same IPv6 network.
+    D) Send a neighbor advertisement message to the destination host.
+    Answer: ____
+
+------------------------------------------------------------------------------------------
+
+### QUIZ 35.6.3 — Cisco Switches and Routers Quiz  (10 questions)
+
+Q1. A technician is setting up a network in a new room. What is the best device to use to connect the PCs to each other and to the rest of the LAN?
+    A) gateway
+    B) firewall
+    C) switch
+    D) router
+    Answer: ____
+
+Q2. What is a characteristic of in-band device management?
+    A) It uses a terminal emulation client.
+    B) It is used for initial configuration or when a network connection is unavailable.
+    C) It uses a direct connection to a console or AUX port.
+    D) It is used to monitor and make configuration changes to a network device over a network connection.
+    Answer: ____
+
+Q3. Which advantage does the store-and-forward switching method have compared with the cut-through switching method?
+    A) collision detecting
+    B) frame error checking
+    C) faster frame forwarding
+    D) frame forwarding using IPv4 Layer 3 and 4 information
+    Answer: ____
+
+Q4. What are two functions of NVRAM? (Choose two.)
+    A) to store the routing table
+    B) to retain contents when power is removed
+    C) to store the startup configuration file
+    D) to contain the running configuration file
+    E) to store the ARP table
+    Answer: ____  (choose all that apply)
+
+Q5. Following default settings, what two tasks are performed first in the router boot sequence? (Choose two.)
+    A) Perform the POST routine.
+    B) Locate and load the startup-config file from NVRAM.
+    C) Load the bootstrap program from ROM.
+    D) Load the running-config file from RAM.
+    E) Locate and load the operating system.
+    Answer: ____  (choose all that apply)
+
+Q6. When a router is powered on, where will the router first search for a valid IOS image to load by default?
+    A) RAM
+    B) ROM
+    C) flash memory
+    D) NVRAM
+    Answer: ____
+
+Q7. Which two requirements must always be met to use in-band management to configure a network device? (Choose two.)
+    A) a direct connection to the console port
+    B) a direct connection to the auxiliary port
+    C) a terminal emulation client
+    D) at least one network interface that is connected and operational
+    E) Telnet, SSH, or HTTP access to the device
+    Answer: ____  (choose all that apply)
+
+Q8. Which two files are loaded into RAM of a Cisco switch when it is booted? (Choose two.)
+    A) routing table
+    B) IOS image file
+    C) file that contains customer settings
+    D) startup configuration file
+    E) running configuration file
+    Answer: ____  (choose all that apply)
+
+Q9. A router boots and enters setup mode. What is the reason for this?
+    A) The IOS image is corrupt.
+    B) Cisco IOS is missing from flash memory.
+    C) The configuration file is missing from NVRAM.
+    D) The POST process has detected hardware failure.
+    Answer: ____
+
+Q10. Which two statements describe out-of-band network management? (Choose two.)
+    A) does not require a physical connection
+    B) uses Telnet, HTTP or SSH protocols
+    C) used for initial device configuration
+    D) used when network connectivity to the device is not available
+    E) requires an active network connection to the device
+    Answer: ____  (choose all that apply)
+
+------------------------------------------------------------------------------------------
+
+### QUIZ 36.6.3 — Troubleshoot Common Network Problems Quiz  (13 questions)
+
+Q1. A user calls the help desk to report a workstation problem. Which three questions would produce the most helpful information for troubleshooting? (Choose three.)
+    A) If you received an error message, what was it?
+    B) What changes have you made to your workstation?
+    C) Do you have the warranty for your workstation?
+    D) What operating system version is running on your workstation?
+    E) Have you used a network monitoring tool on your workstation?
+    F) Have you performed a backup recently?
+    Answer: ____  (choose all that apply)
+
+Q2. Users are complaining that they are unable to browse certain websites on the Internet. An administrator can successfully ping a web server via its IP address, but cannot browse to the domain name of the website. Which troubleshooting tool would be most useful in determining where the problem is?
+    A) netstat
+    B) tracert
+    C) nslookup
+    D) ipconfig
+    Answer: ____
+
+Q3. What are two common causes of a physical layer network connectivity problem? (Choose two.)
+    A) a monitor unplugged
+    B) an Ethernet cable plugged into a wrong port
+    C) an incorrect default gateway
+    D) an unassigned IP address
+    E) a faulty Ethernet cable
+    Answer: ____  (choose all that apply)
+
+Q4. The home computer of a user is working properly. However, the user cannot access the Internet. The Internet connection is provided through a cable company. The user cannot identify the cause of the problem. Who should the user contact for further help?
+    A) the operating system vendor
+    B) the help line of the cable company
+    C) the help line of the computer manufacturer
+    D) the support web site of the computer vendor
+    Answer: ____
+
+Q5. Which troubleshooting method begins by examining cable connections and wiring issues?
+    A) top-down
+    B) bottom-up
+    C) substitution
+    D) divide-and-conquer
+    Answer: ____
+
+Q6. A user is unable to connect to the Internet. The network administrator decides to use the top-down troubleshooting approach. Which action should the administrator perform first?
+    A) Run the tracert command to identify the faulty device.
+    B) Check the patch cable connection from the PC to the wall.
+    C) Enter an IP address in the address bar of the web browser to determine if DNS has failed.
+    D) Run the ipconfig command to verify the IP address, subnet mask, and gateway on the PC.
+    Answer: ____
+
+Q7. If an administrator is troubleshooting a WLAN using a bottom up approach, which action would be taken first?
+    A) Update the firmware on the AP.
+    B) Make sure all devices are powered on.
+    C) Ping the AP.
+    D) Verify that the GUI interface is accessible from a client.
+    Answer: ____
+
+Q8. A laptop cannot connect to a wireless access point. Which two troubleshooting steps should be taken first? (Choose two.)
+    A) Ensure that the wireless NIC is enabled.
+    B) Ensure that the laptop antenna is attached.
+    C) Ensure that the wireless SSID is chosen.
+    D) Ensure that the correct network media is selected.
+    E) Ensure that the NIC is configured for the proper frequency.
+    Answer: ____  (choose all that apply)
+
+Q9. For the second time in a week, workstations on a LAN are not able to log into a specific server. The technician fixed the problem the first time, but cannot remember the steps taken to solve it. What aspect of the troubleshooting process has the technician neglected?
+    A) identifying the problem
+    B) asking questions of end users
+    C) documenting the troubleshooting process
+    D) using structured techniques to solve a problem
+    Answer: ____
+
+Q10. A technician suspects that a new switch is the source of a network problem. While troubleshooting, the technician notices a blinking green activity LED on some of the ports. What does this indicate?
+    A) There are no cables plugged into the ports.
+    B) The power supply is the source of the problem.
+    C) The ports are operational and are receiving traffic.
+    D) The ports are operational, but no traffic is flowing.
+    Answer: ____
+
+Q11. A customer called the cable company to report that the Internet connection is unstable. After trying several configuration changes, the technician decided to send the customer a new cable modem to try. What troubleshooting technique does this represent?
+    A) top-down
+    B) bottom-up
+    C) substitution
+    D) divide-and-conquer
+    Answer: ____
+
+Q12. Which step should be taken next once a problem is resolved during a troubleshooting process?
+    A) Consult an FAQ.
+    B) Escalate the problem.
+    C) Update the documentation.
+    D) Run remote access software.
+    Answer: ____
+
+Q13. A technician installed a network adapter in a computer and wants to test network connectivity. The ping command can receive responses from workstations on the same subnet but not from remote workstations. What could be causing the problem?
+    A) The NIC driver is out of date.
+    B) The operating system is not compatible with the remote sites.
+    C) The TCP/IP protocol stack is not loaded.
+    D) The default gateway is incorrect.
+    Answer: ____
+
+------------------------------------------------------------------------------------------
+
+### QUIZ 37.7.3 — Network Support Quiz  (15 questions)
+
+Q1. After a problem is defined, what is the next step in the seven-step troubleshooting process?
+    A) gather information
+    B) analyze information
+    C) propose hypothesis
+    D) eliminate possible causes
+    Answer: ____
+
+Q2. Which two types of problems are best investigated with a bottom-up troubleshooting method? (Choose two.)
+    A) problems involving an issue not seen before
+    B) problems involving cabling
+    C) problems involving software installed on end systems
+    D) problems involving routing tables
+    E) problems involving subnet addressing
+    Answer: ____  (choose all that apply)
+
+Q3. Which command will provide information that is useful for mapping a network?
+    A) show CDP neighbors
+    B) show ip interfaces brief
+    C) show running-config
+    D) show inventory
+    Answer: ____
+
+Q4. Which IEEE WLAN standard supports Wi-Fi 6 and Wi-Fi 6E?
+    A) 802.11ax
+    B) 802.11n
+    C) 802.11ac
+    D) 802.11g
+    Answer: ____
+
+Q5. What information could be determined from a network baseline?
+    A) the areas in the network that are under utilized
+    B) the layout of the components in the network
+    C) the operational status of network device interfaces
+    D) the number of hops between source and destination devices
+    Answer: ____
+
+Q6. A network technician troubleshoots a user's PC problem and launches the Task Manager to gather more information. What information can the technician gather from the Task Manager output?
+    A) the processes currently running on the PC
+    B) the devices configured on the PC
+    C) the errors that have occurred on the PC
+    D) the drivers installed on the PC
+    Answer: ____
+
+Q7. Which Cisco IOS command is used to determine the path of IP packets through the network?
+    A) traceroute
+    B) telnet
+    C) show ip route
+    D) ping
+    Answer: ____
+
+Q8. A user reports that the computer occasionally loses connectivity to the wireless network. The technician checks the configuration on the user's computer and then replaces the wireless access point with a known good one. What structured troubleshooting method is the technician using to solve the problem?
+    A) Comparison
+    B) Bottom-up
+    C) Divide-and-Conquer
+    D) Substitution
+    Answer: ____
+
+Q9. Which question enables the technician to determine the scope of a network issue reported by a user?
+    A) Are other users in your area experiencing the same issue?
+    B) Are you seeing any error messages when the problem occurs?
+    C) Is the problem one that you have experienced before?
+    D) Have you added any new applications recently?
+    Answer: ____
+
+Q10. What is an example of a targeted, closed-ended question?
+    A) What operating system is installed on your computer, Windows, Linux, or macOS?
+    B) What types of error messages did you see when you experienced the issue?
+    C) What steps did you take to attempt to solve the issue before reporting it?
+    D) What can you tell me about how you discovered this issue?
+    Answer: ____
+
+Q11. Which two platforms use the ifconfig command to verify interface IP configuration? (Choose two.)
+    A) Linux
+    B) mac OS
+    C) Windows
+    D) Cisco
+    Answer: ____  (choose all that apply)
+
+Q12. Which router IOS command displays the equivalent system information as many different show commands and is useful for troubleshooting a router?
+    A) show tech-support
+    B) show version
+    C) show running-config
+    D) show cdp neighbors detail
+    Answer: ____
+
+Q13. What is the main reason to establish an initial network performance baseline?
+    A) to determine normal traffic volume and behavior on the network
+    B) to eliminate bottlenecks and congestion affecting performance
+    C) to limit the number of devices attached to the network
+    D) to reduce the need to monitor traffic after making network changes
+    Answer: ____
+
+Q14. Which two wireless network standards operate in both the 2.4 and 5 GHz frequency spectrums? (Choose two.)
+    A) 802.11a
+    B) 802.11g
+    C) 802.11n
+    D) 802.11ac
+    E) 802.11ax
+    Answer: ____  (choose all that apply)
+
+Q15. Which type of network documentation would a technician use to determine the IP addresses and subnets configured in the network?
+    A) logical topology map
+    B) physical topology map
+    C) three-layer design model diagram
+    D) cloud service architecture diagram
+    Answer: ____
+
+------------------------------------------------------------------------------------------
+
+### QUIZ 38.6.3 — Cybersecurity Threats, Vulnerabilities, and Attacks Quiz  (14 questions)
+
+Q1. What does a rootkit modify?
+    A) Operating system
+    B) Programs
+    C) Screen savers
+    D) Notepad
+    E) Microsoft Word
+    Answer: ____
+
+Q2. An attacker is sitting in front of a store and wirelessly copies emails and contact lists from nearby unsuspecting user devices. What type of attack is this?
+    A) bluesnarfing
+    B) smishing
+    C) RF jamming
+    D) bluejacking
+    Answer: ____
+
+Q3. What type of attack targets an SQL database using the input field of a user?
+    A) XML injection
+    B) Cross-site scripting
+    C) SQL injection
+    D) buffer overflow
+    Answer: ____
+
+Q4. What is a nontechnical method that a cybercriminal would use to gather sensitive information from an organization?
+    A) man-in-the-middle
+    B) ransomeware
+    C) social engineering
+    D) pharming
+    Answer: ____
+
+Q5. The employees in a company receive an email stating that the account password will expire immediately and requires a password reset within 5 minutes. Which statement would classify this email?
+    A) It is a hoax.
+    B) It is an impersonation attack.
+    C) It is a piggy-back attack.
+    D) It is a DDoS attack.
+    Answer: ____
+
+Q6. What three best practices can help defend against social engineering attacks? (Choose three.)
+    A) Deploy well-designed firewall appliances.
+    B) Educate employees regarding policies.
+    C) Add more security guards.
+    D) Do not provide password resets in a chat window.
+    E) Enable a policy that states that the IT department should supply information over the phone only to managers.
+    F) Resist the urge to click on enticing web links.
+    Answer: ____  (choose all that apply)
+
+Q7. What is the term used when a malicious party sends a fraudulent email disguised as being from a legitimate, trusted source?
+    A) phishing
+    B) vishing
+    C) backdoor
+    D) Trojan
+    Answer: ____
+
+Q8. Users report that a database file on the main server cannot be accessed. A database administrator verifies the issue and notices that the database file is now encrypted. The organization receives a threatening email demanding payment for the decryption of the database file. What type of attack has the organization experienced?
+    A) DoS attack
+    B) man-in-the-middle attack
+    C) ransomware
+    D) Trojan horse
+    Answer: ____
+
+Q9. A cyber criminal sends a series of maliciously formatted packets to the database server. The server cannot parse the packets and the event causes the server to crash. What is the type of attack the cyber criminal launches?
+    A) packet Injection
+    B) SQL injection
+    C) DoS
+    D) man-in-the-middle
+    Answer: ____
+
+Q10. Employees in an organization report that the network access is slow. Further investigation reveals that one employee downloaded a third-party scanning program for the printer. What type of malware may have been introduced?
+    A) trojan horse
+    B) spam
+    C) worm
+    D) phishing
+    Answer: ____
+
+Q11. An organization adds an "external" tag to incoming emails from outside the domain to warn the internal users that such emails are from outside. Which deception method is used by a cyber attack to trick employees into believing that the organization sent a malicious email by removing the "external" tag?
+    A) watering hole attack
+    B) typosquatting
+    C) prepending
+    D) invoice scam
+    Answer: ____
+
+Q12. Netbus belongs to which malware type?
+    A) backdoor
+    B) logic bomb
+    C) keylogger
+    D) grayware
+    Answer: ____
+
+Q13. By having narrow viewing angles, an ATM mitigates what kind of attacks?
+    A) dumpster diving
+    B) shoulder surfing
+    C) quid pro quo
+    D) identity fraud
+    Answer: ____
+
+Q15. A user complains about frequently receiving messages on the smartphone that urges the user to visit different insurance websites. If the user clicks the link to visit, a user login message will pop up and ask the user to register first. Which wireless and mobile device attack has the user experienced?
+    A) Grayware
+    B) SMiShing
+    C) Bluejacking
+    D) Bluesnarfing
+    Answer: ____
+
+------------------------------------------------------------------------------------------
+
+### QUIZ 39.7.3 — Network Security Quiz  (15 questions)
+
+Q1. What is the level of need for data integrity in an e-commerce organization?
+    A) low
+    B) mid
+    C) high
+    D) critical
+    Answer: ____
+
+Q2. Which three solutions are examples of logical access control? (Choose three.)
+    A) firewall
+    B) access control list
+    C) biometrics
+    D) fence
+    E) laptop lock
+    F) swipe card
+    Answer: ____  (choose all that apply)
+
+Q3. Which host-based solution is installed on a device or server to monitor system calls and file system access to detect malicious requests?
+    A) host-based firewall
+    B) host intrusion detection system
+    C) host encryption
+    D) data loss prevention
+    Answer: ____
+
+Q4. What is the purpose of using the Windows BitLocker To Go tool?
+    A) to encrypt removable drives
+    B) to reformat removable drives
+    C) to manage partitions on removable drives
+    D) to manage safely inserting and removing of removable drives
+    Answer: ____
+
+Q5. Which Apple macOS security feature prevents the execution of malware through signature-based malware detection?
+    A) XProtect
+    B) MRT
+    C) Gatekeeper
+    D) Security-focured hardware
+    Answer: ____
+
+Q6. Which type of firewalls will inspect and filter network traffic based on OSI model Layer 3 and 4 information?
+    A) packet filtering
+    B) stateful firewall
+    C) application gateway firewall
+    D) next generation firewall
+    Answer: ____
+
+Q7. What is the benefit of using a stateful firewall in a network?
+    A) It can prevent application layer attacks because it examines the actual contents of the HTTP connection.
+    B) It analyzes traffic at OSI Layer 4 and Layer 5.
+    C) It filters IP traffic between bridged interfaces at OSI layer 7.
+    D) It strengthens packet filtering by providing more stringent control over security.
+    Answer: ____
+
+Q8. Which statement describes a TCP Wrappers host-based firewall?
+    A) It is a firewall that uses a profile-based approach to firewall functionality.
+    B) It is an application that allows Linux system administrators to configure network access rules that are part of the Linux kernel Netfilter modules.
+    C) It is a firewall application that uses a simple virtual machine in the Linux kernel.
+    D) It is a rule-based access control and logging system for Linux.
+    Answer: ____
+
+Q9. Which authentication method uses AES for encryption?
+    A) WEP
+    B) WPA
+    C) WPA2
+    D) WPA3-Enterprise
+    Answer: ____
+
+Q10. Which LAN authentication method is recommended for home or small office networks?
+    A) WPA Personal
+    B) WPA Enterprise
+    C) WPA2 Personal
+    D) WPA2 Enterprise
+    Answer: ____
+
+Q11. Which authentication method in WPA3 improves the onboarding process for IoT devices to join wireless network?
+    A) DPP
+    B) WPS
+    C) CCMP
+    D) EAP
+    Answer: ____
+
+Q12. What statement describes the principle of confidentiality in the CIA information security triad?
+    A) Authorized users must have uninterrupted access to important resources and data.
+    B) Data must be protected from unauthorized alteration.
+    C) Only authorized individuals, entities, or processes can access sensitive information.
+    D) Redundant services, gateways, and links must be implemented.
+    Answer: ____
+
+Q13. What statement describes the principle of integrity in the CIA information security triad?
+    A) Authorized users must have uninterrupted access to important resources and data.
+    B) Data must be protected from unauthorized alteration.
+    C) Only authorized individuals, entities, or processes can access sensitive information.
+    D) Redundant services, gateways, and links must be implemented.
+    Answer: ____
+
+Q14. Which is an example of a physical characteristic?
+    A) ear features
+    B) gestures
+    C) voice
+    D) gait
+    Answer: ____
+
+Q15. Which security principle applies to the first dimension of the cybersecurity cube of the CIA triad?
+    A) Accountability
+    B) Availability
+    C) Policy
+    D) Technology
+    Answer: ____
+
+------------------------------------------------------------------------------------------

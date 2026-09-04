@@ -1,0 +1,1551 @@
+{
+  "title": "SCSE_FOS_Networking Essentials",
+  "nodes": [
+    {
+      "uuid": "843d0f5a-aa74-54e3-a20d-53a6008f7aed",
+      "name": "Course Introduction",
+      "percentage": 100,
+      "expanded": true,
+      "sectionCount": 1,
+      "sections": [
+        {
+          "name": "Course Introduction",
+          "progress": "3 / 3",
+          "status": "completed"
+        }
+      ]
+    },
+    {
+      "uuid": "9f3c61cd-d695-5b71-ab25-8510ed41cc14",
+      "name": "Module 1: Communication in a Connected World",
+      "percentage": 38,
+      "expanded": false,
+      "sectionCount": 5,
+      "sections": [
+        {
+          "name": "1.0. Introduction",
+          "progress": null,
+          "status": "completed"
+        },
+        {
+          "name": "1.1. Network Types",
+          "progress": null,
+          "status": "in progress"
+        },
+        {
+          "name": "1.2. Data Transmission",
+          "progress": null,
+          "status": "in progress"
+        },
+        {
+          "name": "1.3. Bandwidth and Throughput",
+          "progress": null,
+          "status": "in progress"
+        },
+        {
+          "name": "1.4. Communications in a Connected World Summary",
+          "progress": null,
+          "status": "in progress"
+        }
+      ]
+    },
+    {
+      "uuid": "13043ec5-e4c1-52e4-9ae4-b6baf0b126ae",
+      "name": "Module 2: Network Components, Types, and Connections",
+      "percentage": 31,
+      "expanded": false,
+      "sectionCount": 5,
+      "sections": [
+        {
+          "name": "2.0. Introduction",
+          "progress": null,
+          "status": "completed"
+        },
+        {
+          "name": "2.1. Clients and Servers",
+          "progress": null,
+          "status": "in progress"
+        },
+        {
+          "name": "2.2. Network Components",
+          "progress": null,
+          "status": "start"
+        },
+        {
+          "name": "2.3. ISP Connectivity Options",
+          "progress": null,
+          "status": "start"
+        },
+        {
+          "name": "2.4. Network Components, Types, and Connections Summary",
+          "progress": null,
+          "status": "start"
+        }
+      ]
+    },
+    {
+      "uuid": "8bd51e4d-127e-5c87-96cc-be67cae544c9",
+      "name": "Module 3: Wireless and Mobile Networks",
+      "percentage": 25,
+      "expanded": false,
+      "sectionCount": 4,
+      "sections": [
+        {
+          "name": "3.0. Introduction",
+          "progress": null,
+          "status": "completed"
+        },
+        {
+          "name": "3.1. Wireless Networks",
+          "progress": null,
+          "status": "start"
+        },
+        {
+          "name": "3.2. Mobile Device Connectivity",
+          "progress": null,
+          "status": "start"
+        },
+        {
+          "name": "3.3. Wireless and Mobile Networks Summary",
+          "progress": null,
+          "status": "start"
+        }
+      ]
+    },
+    {
+      "uuid": "395d598a-b984-52db-8c05-c4535854f99f",
+      "name": "Module 4: Build a Home Network",
+      "percentage": null,
+      "expanded": false,
+      "sectionCount": 6,
+      "sections": [
+        {
+          "name": "4.0. Introduction",
+          "progress": null,
+          "status": "start"
+        },
+        {
+          "name": "4.1. Home Network Basics",
+          "progress": null,
+          "status": "start"
+        },
+        {
+          "name": "4.2. Network Technologies in the Home",
+          "progress": null,
+          "status": "start"
+        },
+        {
+          "name": "4.3. Wireless Standards",
+          "progress": null,
+          "status": "start"
+        },
+        {
+          "name": "4.4. Set Up a Home Router",
+          "progress": null,
+          "status": "start"
+        },
+        {
+          "name": "4.5. Build a Home Network Summary",
+          "progress": null,
+          "status": "start"
+        }
+      ]
+    },
+    {
+      "uuid": "6a1b47bd-326d-5585-91a3-accbfa815d19",
+      "name": "Checkpoint Exam: Build a Small Network",
+      "percentage": null,
+      "expanded": false,
+      "sectionCount": 1,
+      "sections": [
+        {
+          "name": "Checkpoint Exam",
+          "progress": null,
+          "status": "start"
+        }
+      ]
+    },
+    {
+      "uuid": "f8a4f5e0-e74d-5b96-aa5e-d2dad5d3ed03",
+      "name": "Module 5: Communication Principles",
+      "percentage": null,
+      "expanded": false,
+      "sectionCount": 5,
+      "sections": [
+        {
+          "name": "5.0. Introduction",
+          "progress": null,
+          "status": "start"
+        },
+        {
+          "name": "5.1. Communication Protocols",
+          "progress": null,
+          "status": "start"
+        },
+        {
+          "name": "5.2. Communication Standards",
+          "progress": null,
+          "status": "start"
+        },
+        {
+          "name": "5.3. Network Communication Models",
+          "progress": null,
+          "status": "start"
+        },
+        {
+          "name": "5.4. Communication Principles Summary",
+          "progress": null,
+          "status": "start"
+        }
+      ]
+    },
+    {
+      "uuid": "d53c45ae-95d2-5826-84a1-d12e9d80cc9e",
+      "name": "Module 6: Network Media",
+      "percentage": null,
+      "expanded": false,
+      "sectionCount": 3,
+      "sections": [
+        {
+          "name": "6.0. Introduction",
+          "progress": null,
+          "status": "start"
+        },
+        {
+          "name": "6.1. Network Media Types",
+          "progress": null,
+          "status": "start"
+        },
+        {
+          "name": "6.2. Network Media Summary",
+          "progress": null,
+          "status": "start"
+        }
+      ]
+    },
+    {
+      "uuid": "17d7b896-17fd-5b39-8c58-742915d16ab6",
+      "name": "Module 7: The Access Layer",
+      "percentage": null,
+      "expanded": false,
+      "sectionCount": 4,
+      "sections": [
+        {
+          "name": "7.0. Introduction",
+          "progress": null,
+          "status": "start"
+        },
+        {
+          "name": "7.1. Encapsulation and the Ethernet Frame",
+          "progress": null,
+          "status": "start"
+        },
+        {
+          "name": "7.2. The Access Layer",
+          "progress": null,
+          "status": "start"
+        },
+        {
+          "name": "7.3. The Access Layer Summary",
+          "progress": null,
+          "status": "start"
+        }
+      ]
+    },
+    {
+      "uuid": "a13c3ee3-8110-564d-bfe6-2c0bcdb51f11",
+      "name": "Checkpoint Exam: Network Access",
+      "percentage": null,
+      "expanded": false,
+      "sectionCount": 1,
+      "sections": [
+        {
+          "name": "Checkpoint Exam",
+          "progress": null,
+          "status": "start"
+        }
+      ]
+    },
+    {
+      "uuid": "f5fe182d-72ea-5f2b-8aa6-73eaf1250ab6",
+      "name": "Module 8: The Internet Protocol",
+      "percentage": null,
+      "expanded": false,
+      "sectionCount": 4,
+      "sections": [
+        {
+          "name": "8.0. Introduction",
+          "progress": null,
+          "status": "start"
+        },
+        {
+          "name": "8.1. Purpose of an IPv4 Address",
+          "progress": null,
+          "status": "start"
+        },
+        {
+          "name": "8.2. The IPv4 Address Structure",
+          "progress": null,
+          "status": "start"
+        },
+        {
+          "name": "8.3. The Internet Protocol Summary",
+          "progress": null,
+          "status": "start"
+        }
+      ]
+    },
+    {
+      "uuid": "dd16f5d1-3724-5c01-9c2f-15a7a39338e5",
+      "name": "Module 9: IPv4 and Network Segmentation",
+      "percentage": null,
+      "expanded": false,
+      "sectionCount": 5,
+      "sections": [
+        {
+          "name": "9.0. Introduction",
+          "progress": null,
+          "status": "start"
+        },
+        {
+          "name": "9.1. IPv4 Unicast, Broadcast, and Multicast",
+          "progress": null,
+          "status": "start"
+        },
+        {
+          "name": "9.2. Types of IPv4 Addresses",
+          "progress": null,
+          "status": "start"
+        },
+        {
+          "name": "9.3. Network Segmentation",
+          "progress": null,
+          "status": "start"
+        },
+        {
+          "name": "9.4. IPv4 and Network Segmentation Summary",
+          "progress": null,
+          "status": "start"
+        }
+      ]
+    },
+    {
+      "uuid": "e6f2e2e1-8b46-5ba3-aea3-55c2c98cd7c5",
+      "name": "Module 10: IPv6 Addressing Formats and Rules",
+      "percentage": null,
+      "expanded": false,
+      "sectionCount": 4,
+      "sections": [
+        {
+          "name": "10.0. Introduction",
+          "progress": null,
+          "status": "start"
+        },
+        {
+          "name": "10.1. IPv4 Issues",
+          "progress": null,
+          "status": "start"
+        },
+        {
+          "name": "10.2. IPv6 Addressing",
+          "progress": null,
+          "status": "start"
+        },
+        {
+          "name": "10.3. IPv6 Addressing Formats and Rules Summary",
+          "progress": null,
+          "status": "start"
+        }
+      ]
+    },
+    {
+      "uuid": "ffd8373d-9f54-5e6b-ba58-9c42334f1cd1",
+      "name": "Module 11: Dynamic Addressing with DHCP",
+      "percentage": null,
+      "expanded": false,
+      "sectionCount": 4,
+      "sections": [
+        {
+          "name": "11.0. Introduction",
+          "progress": null,
+          "status": "start"
+        },
+        {
+          "name": "11.1. Static and Dynamic Addressing",
+          "progress": null,
+          "status": "start"
+        },
+        {
+          "name": "11.2. DHCPv4 Configuration",
+          "progress": null,
+          "status": "start"
+        },
+        {
+          "name": "11.3. Dynamic Addressing with DHCP Summary",
+          "progress": null,
+          "status": "start"
+        }
+      ]
+    },
+    {
+      "uuid": "b4d3c9db-268b-5389-979a-0b9dc59349ce",
+      "name": "Checkpoint Exam: The Internet Protocol",
+      "percentage": null,
+      "expanded": false,
+      "sectionCount": 1,
+      "sections": [
+        {
+          "name": "Checkpoint Exam",
+          "progress": null,
+          "status": "start"
+        }
+      ]
+    },
+    {
+      "uuid": "fc9d042c-f1fc-53fc-8a52-31d36e68ff58",
+      "name": "Module 12: Gateways to Other Networks",
+      "percentage": null,
+      "expanded": false,
+      "sectionCount": 4,
+      "sections": [
+        {
+          "name": "12.0. Introduction",
+          "progress": null,
+          "status": "start"
+        },
+        {
+          "name": "12.1. Network Boundaries",
+          "progress": null,
+          "status": "start"
+        },
+        {
+          "name": "12.2. Network Address Translation",
+          "progress": null,
+          "status": "start"
+        },
+        {
+          "name": "12.3. Gateways to Other Networks Summary",
+          "progress": null,
+          "status": "start"
+        }
+      ]
+    },
+    {
+      "uuid": "4224986c-47fc-5741-a6e0-a00514c2a4f3",
+      "name": "Module 13: The ARP Process",
+      "percentage": null,
+      "expanded": false,
+      "sectionCount": 4,
+      "sections": [
+        {
+          "name": "13.0. Introduction",
+          "progress": null,
+          "status": "start"
+        },
+        {
+          "name": "13.1. MAC and IP",
+          "progress": null,
+          "status": "start"
+        },
+        {
+          "name": "13.2. Broadcast Containment",
+          "progress": null,
+          "status": "start"
+        },
+        {
+          "name": "13.3. The ARP Process Summary",
+          "progress": null,
+          "status": "start"
+        }
+      ]
+    },
+    {
+      "uuid": "fe0cabb8-fcf6-525c-bc2b-27f8f02afe1b",
+      "name": "Module 14: Routing Between Networks",
+      "percentage": null,
+      "expanded": false,
+      "sectionCount": 5,
+      "sections": [
+        {
+          "name": "14.0. Introduction",
+          "progress": null,
+          "status": "start"
+        },
+        {
+          "name": "14.1. The Need for Routing",
+          "progress": null,
+          "status": "start"
+        },
+        {
+          "name": "14.2. The Routing Table",
+          "progress": null,
+          "status": "start"
+        },
+        {
+          "name": "14.3. Create a LAN",
+          "progress": null,
+          "status": "start"
+        },
+        {
+          "name": "14.4. Routing Between Networks Summary",
+          "progress": null,
+          "status": "start"
+        }
+      ]
+    },
+    {
+      "uuid": "12214b37-c2ed-54a8-bee8-7adc494efd0c",
+      "name": "Checkpoint Exam: Communication Between Networks",
+      "percentage": null,
+      "expanded": false,
+      "sectionCount": 1,
+      "sections": [
+        {
+          "name": "Checkpoint Exam",
+          "progress": null,
+          "status": "start"
+        }
+      ]
+    },
+    {
+      "uuid": "5020438b-2681-5733-9a45-561a7e3ce873",
+      "name": "Module 15: TCP and UDP",
+      "percentage": null,
+      "expanded": false,
+      "sectionCount": 4,
+      "sections": [
+        {
+          "name": "15.0. Introduction",
+          "progress": null,
+          "status": "start"
+        },
+        {
+          "name": "15.1. TCP and UDP",
+          "progress": null,
+          "status": "start"
+        },
+        {
+          "name": "15.2. Port Numbers",
+          "progress": null,
+          "status": "start"
+        },
+        {
+          "name": "15.3. TCP and UDP Summary",
+          "progress": null,
+          "status": "start"
+        }
+      ]
+    },
+    {
+      "uuid": "071a7eee-76f7-52fd-af2a-da3c2aeda3e9",
+      "name": "Module 16: Application Layer Services",
+      "percentage": null,
+      "expanded": false,
+      "sectionCount": 9,
+      "sections": [
+        {
+          "name": "16.0. Introduction",
+          "progress": null,
+          "status": "start"
+        },
+        {
+          "name": "16.1. The Client Server Relationship",
+          "progress": null,
+          "status": "start"
+        },
+        {
+          "name": "16.2. Network Application Services",
+          "progress": null,
+          "status": "start"
+        },
+        {
+          "name": "16.3. Domain Name System",
+          "progress": null,
+          "status": "start"
+        },
+        {
+          "name": "16.4. Web Clients and Servers",
+          "progress": null,
+          "status": "start"
+        },
+        {
+          "name": "16.5. FTP Clients and Servers",
+          "progress": null,
+          "status": "start"
+        },
+        {
+          "name": "16.6. Virtual Terminals",
+          "progress": null,
+          "status": "start"
+        },
+        {
+          "name": "16.7. Email and Messaging",
+          "progress": null,
+          "status": "start"
+        },
+        {
+          "name": "16.8. Application Layer Services Summary",
+          "progress": null,
+          "status": "start"
+        }
+      ]
+    },
+    {
+      "uuid": "ded6e19f-c1d3-5cbd-af1a-a5ba6f927a3a",
+      "name": "Module 17: Network Testing Utilities",
+      "percentage": null,
+      "expanded": false,
+      "sectionCount": 3,
+      "sections": [
+        {
+          "name": "17.0. Introduction",
+          "progress": null,
+          "status": "start"
+        },
+        {
+          "name": "17.1. Troubleshooting Commands",
+          "progress": null,
+          "status": "start"
+        },
+        {
+          "name": "17.2. Network Testing Utilities Summary",
+          "progress": null,
+          "status": "start"
+        }
+      ]
+    },
+    {
+      "uuid": "b1905953-2ebe-56c7-a81a-78841142c8b3",
+      "name": "Checkpoint Exam: Protocols for Specific Tasks",
+      "percentage": null,
+      "expanded": false,
+      "sectionCount": 1,
+      "sections": [
+        {
+          "name": "Checkpoint Exam",
+          "progress": null,
+          "status": "start"
+        }
+      ]
+    },
+    {
+      "uuid": "6ba4429d-86eb-520a-9d32-b59eb5d8c2f0",
+      "name": "Module 18: Network Design",
+      "percentage": null,
+      "expanded": false,
+      "sectionCount": 4,
+      "sections": [
+        {
+          "name": "18.0. Introduction",
+          "progress": null,
+          "status": "start"
+        },
+        {
+          "name": "18.1. Reliable Networks",
+          "progress": null,
+          "status": "start"
+        },
+        {
+          "name": "18.2. Hierarchical Network Design",
+          "progress": null,
+          "status": "start"
+        },
+        {
+          "name": "18.3. Network Design Summary",
+          "progress": null,
+          "status": "start"
+        }
+      ]
+    },
+    {
+      "uuid": "be2b2180-f304-5f88-8ba9-35c2bc449af4",
+      "name": "Module 19: Cloud and Virtualization",
+      "percentage": null,
+      "expanded": false,
+      "sectionCount": 4,
+      "sections": [
+        {
+          "name": "19.0. Introduction",
+          "progress": null,
+          "status": "start"
+        },
+        {
+          "name": "19.1. Cloud and Cloud Services",
+          "progress": null,
+          "status": "start"
+        },
+        {
+          "name": "19.2. Virtualization",
+          "progress": null,
+          "status": "start"
+        },
+        {
+          "name": "19.3. Cloud and Virtualization Summary",
+          "progress": null,
+          "status": "start"
+        }
+      ]
+    },
+    {
+      "uuid": "5c36cae7-9452-5f0e-8539-45141b7f9f94",
+      "name": "Module 20: Number Systems",
+      "percentage": null,
+      "expanded": false,
+      "sectionCount": 4,
+      "sections": [
+        {
+          "name": "20.0. Introduction",
+          "progress": null,
+          "status": "start"
+        },
+        {
+          "name": "20.1. Binary Number System",
+          "progress": null,
+          "status": "start"
+        },
+        {
+          "name": "20.2. Hexadecimal Number System",
+          "progress": null,
+          "status": "start"
+        },
+        {
+          "name": "20.3. Number Systems Summary",
+          "progress": null,
+          "status": "start"
+        }
+      ]
+    },
+    {
+      "uuid": "fc72921c-b9f8-51f6-a315-7d065a9f6efa",
+      "name": "Checkpoint Exam: Characteristics of Network Design",
+      "percentage": null,
+      "expanded": false,
+      "sectionCount": 1,
+      "sections": [
+        {
+          "name": "Checkpoint Exam",
+          "progress": null,
+          "status": "start"
+        }
+      ]
+    },
+    {
+      "uuid": "03d855de-a96a-5764-bfb2-c9a206c6014e",
+      "name": "Module 21: Ethernet Switching",
+      "percentage": null,
+      "expanded": false,
+      "sectionCount": 6,
+      "sections": [
+        {
+          "name": "21.0. Introduction",
+          "progress": null,
+          "status": "start"
+        },
+        {
+          "name": "21.1. Ethernet",
+          "progress": null,
+          "status": "start"
+        },
+        {
+          "name": "21.2. Ethernet Frames",
+          "progress": null,
+          "status": "start"
+        },
+        {
+          "name": "21.3. Ethernet MAC Address",
+          "progress": null,
+          "status": "start"
+        },
+        {
+          "name": "21.4. The MAC Address Table",
+          "progress": null,
+          "status": "start"
+        },
+        {
+          "name": "21.5. Ethernet Switching Summary",
+          "progress": null,
+          "status": "start"
+        }
+      ]
+    },
+    {
+      "uuid": "6974dfef-d7e4-58c0-9fba-9483398ef664",
+      "name": "Module 22: Network Layer",
+      "percentage": null,
+      "expanded": false,
+      "sectionCount": 5,
+      "sections": [
+        {
+          "name": "22.0. Introduction",
+          "progress": null,
+          "status": "start"
+        },
+        {
+          "name": "22.1. Network Layer Characteristics",
+          "progress": null,
+          "status": "start"
+        },
+        {
+          "name": "22.2. IPv4 Packet",
+          "progress": null,
+          "status": "start"
+        },
+        {
+          "name": "22.3. IPv6 Packet",
+          "progress": null,
+          "status": "start"
+        },
+        {
+          "name": "22.4. Network Layer Summary",
+          "progress": null,
+          "status": "start"
+        }
+      ]
+    },
+    {
+      "uuid": "a85367aa-bc60-52c2-b829-de98e4b7dd76",
+      "name": "Module 23: IPv4 Address Structure",
+      "percentage": null,
+      "expanded": false,
+      "sectionCount": 3,
+      "sections": [
+        {
+          "name": "23.0. Introduction",
+          "progress": null,
+          "status": "start"
+        },
+        {
+          "name": "23.1. IPv4 Address Structure",
+          "progress": null,
+          "status": "start"
+        },
+        {
+          "name": "23.2. IPv4 Address Structure Summary",
+          "progress": null,
+          "status": "start"
+        }
+      ]
+    },
+    {
+      "uuid": "42b2c922-0384-560a-bdaf-24e9d10caa33",
+      "name": "Checkpoint Exam: Network Addressing",
+      "percentage": null,
+      "expanded": false,
+      "sectionCount": 1,
+      "sections": [
+        {
+          "name": "Checkpoint Exam",
+          "progress": null,
+          "status": "start"
+        }
+      ]
+    },
+    {
+      "uuid": "5752e6d2-746c-5790-ab86-0e2bdf5b638b",
+      "name": "Module 24: Address Resolution",
+      "percentage": null,
+      "expanded": false,
+      "sectionCount": 3,
+      "sections": [
+        {
+          "name": "24.0. Introduction",
+          "progress": null,
+          "status": "start"
+        },
+        {
+          "name": "24.1. ARP",
+          "progress": null,
+          "status": "start"
+        },
+        {
+          "name": "24.2. Address Resolution Summary",
+          "progress": null,
+          "status": "start"
+        }
+      ]
+    },
+    {
+      "uuid": "de02af68-5096-5732-8210-39100419057f",
+      "name": "Module 25: IP Addressing Services",
+      "percentage": null,
+      "expanded": false,
+      "sectionCount": 4,
+      "sections": [
+        {
+          "name": "25.0. Introduction",
+          "progress": null,
+          "status": "start"
+        },
+        {
+          "name": "25.1. DNS Services",
+          "progress": null,
+          "status": "start"
+        },
+        {
+          "name": "25.2. DHCP Services",
+          "progress": null,
+          "status": "start"
+        },
+        {
+          "name": "25.3. IP Addressing Services Summary",
+          "progress": null,
+          "status": "start"
+        }
+      ]
+    },
+    {
+      "uuid": "e79484c2-5428-53ac-84fd-d9d148ee3a0f",
+      "name": "Module 26: Transport Layer",
+      "percentage": null,
+      "expanded": false,
+      "sectionCount": 9,
+      "sections": [
+        {
+          "name": "26.0. Introduction",
+          "progress": null,
+          "status": "start"
+        },
+        {
+          "name": "26.1. Transportation of Data",
+          "progress": null,
+          "status": "start"
+        },
+        {
+          "name": "26.2. TCP Overview",
+          "progress": null,
+          "status": "start"
+        },
+        {
+          "name": "26.3. UDP Overview",
+          "progress": null,
+          "status": "start"
+        },
+        {
+          "name": "26.4. Port Numbers",
+          "progress": null,
+          "status": "start"
+        },
+        {
+          "name": "26.5. TCP Communication Process",
+          "progress": null,
+          "status": "start"
+        },
+        {
+          "name": "26.6. Reliability and Flow Control",
+          "progress": null,
+          "status": "start"
+        },
+        {
+          "name": "26.7. UDP Communication",
+          "progress": null,
+          "status": "start"
+        },
+        {
+          "name": "26.8. Transport Layer Summary",
+          "progress": null,
+          "status": "start"
+        }
+      ]
+    },
+    {
+      "uuid": "0635fcfb-9ae3-5430-bb5b-43310fdec5d2",
+      "name": "Checkpoint Exam: ARP, DNS, DHCP and the Transport Layer",
+      "percentage": null,
+      "expanded": false,
+      "sectionCount": 1,
+      "sections": [
+        {
+          "name": "Checkpoint Exam",
+          "progress": null,
+          "status": "start"
+        }
+      ]
+    },
+    {
+      "uuid": "baa76816-a96c-5df1-a5d5-9e95cb18db79",
+      "name": "Module 27: The Cisco IOS Command Line",
+      "percentage": null,
+      "expanded": false,
+      "sectionCount": 5,
+      "sections": [
+        {
+          "name": "27.0. Introduction",
+          "progress": null,
+          "status": "start"
+        },
+        {
+          "name": "27.1. IOS Navigation",
+          "progress": null,
+          "status": "start"
+        },
+        {
+          "name": "27.2. The Command Structure",
+          "progress": null,
+          "status": "start"
+        },
+        {
+          "name": "27.3. View Device Information",
+          "progress": null,
+          "status": "start"
+        },
+        {
+          "name": "27.4. The Cisco IOS Command Line Summary",
+          "progress": null,
+          "status": "start"
+        }
+      ]
+    },
+    {
+      "uuid": "52bea607-d7d5-51cf-9dbf-1971449724fd",
+      "name": "Module 28: Build a Small Cisco Network",
+      "percentage": null,
+      "expanded": false,
+      "sectionCount": 6,
+      "sections": [
+        {
+          "name": "28.0. Introduction",
+          "progress": null,
+          "status": "start"
+        },
+        {
+          "name": "28.1. Basic Switch Configuration",
+          "progress": null,
+          "status": "start"
+        },
+        {
+          "name": "28.2. Configure Initial Router Settings",
+          "progress": null,
+          "status": "start"
+        },
+        {
+          "name": "28.3. Secure the Devices",
+          "progress": null,
+          "status": "start"
+        },
+        {
+          "name": "28.4. Configure the Default Gateway",
+          "progress": null,
+          "status": "start"
+        },
+        {
+          "name": "28.5. Build a Small Cisco Network Summary",
+          "progress": null,
+          "status": "start"
+        }
+      ]
+    },
+    {
+      "uuid": "54b0c1a4-c712-5823-826e-92c98fe5034e",
+      "name": "Module 29: ICMP",
+      "percentage": null,
+      "expanded": false,
+      "sectionCount": 4,
+      "sections": [
+        {
+          "name": "29.0. Introduction",
+          "progress": null,
+          "status": "start"
+        },
+        {
+          "name": "29.1. ICMP Messages",
+          "progress": null,
+          "status": "start"
+        },
+        {
+          "name": "29.2. Ping and Traceroute Testing",
+          "progress": null,
+          "status": "start"
+        },
+        {
+          "name": "29.3. ICMP Summary",
+          "progress": null,
+          "status": "start"
+        }
+      ]
+    },
+    {
+      "uuid": "c6408474-3d70-5154-944d-ebcaac9ab9fd",
+      "name": "Checkpoint Exam: Configure Cisco Devices",
+      "percentage": null,
+      "expanded": false,
+      "sectionCount": 1,
+      "sections": [
+        {
+          "name": "Checkpoint Exam",
+          "progress": null,
+          "status": "start"
+        }
+      ]
+    },
+    {
+      "uuid": "db7b8c56-71cf-527a-a9e3-8fdf947726dc",
+      "name": "Module 30: Physical Layer",
+      "percentage": null,
+      "expanded": false,
+      "sectionCount": 7,
+      "sections": [
+        {
+          "name": "30.0. Introduction",
+          "progress": null,
+          "status": "start"
+        },
+        {
+          "name": "30.1. Purpose of the Physical Layer",
+          "progress": null,
+          "status": "start"
+        },
+        {
+          "name": "30.2. Physical Layer Characteristics",
+          "progress": null,
+          "status": "start"
+        },
+        {
+          "name": "30.3. Copper Cabling",
+          "progress": null,
+          "status": "start"
+        },
+        {
+          "name": "30.4. UTP Cabling",
+          "progress": null,
+          "status": "start"
+        },
+        {
+          "name": "30.5. Fiber-Optic Cabling",
+          "progress": null,
+          "status": "start"
+        },
+        {
+          "name": "30.6. Physical Layer Summary",
+          "progress": null,
+          "status": "start"
+        }
+      ]
+    },
+    {
+      "uuid": "697ee4e4-9083-5b30-914b-dc15078bc419",
+      "name": "Module 31: Data Link Layer",
+      "percentage": null,
+      "expanded": false,
+      "sectionCount": 4,
+      "sections": [
+        {
+          "name": "31.0. Introduction",
+          "progress": null,
+          "status": "start"
+        },
+        {
+          "name": "31.1. Topologies",
+          "progress": null,
+          "status": "start"
+        },
+        {
+          "name": "31.2. Media Access Control Methods",
+          "progress": null,
+          "status": "start"
+        },
+        {
+          "name": "31.3. Data Link Layer Summary",
+          "progress": null,
+          "status": "start"
+        }
+      ]
+    },
+    {
+      "uuid": "2a5231ce-45e5-5f08-9a01-0007a692c921",
+      "name": "Module 32: Routing at the Network Layer",
+      "percentage": null,
+      "expanded": false,
+      "sectionCount": 4,
+      "sections": [
+        {
+          "name": "32.0. Introduction",
+          "progress": null,
+          "status": "start"
+        },
+        {
+          "name": "32.1. How a Host Routes",
+          "progress": null,
+          "status": "start"
+        },
+        {
+          "name": "32.2. Routing Tables",
+          "progress": null,
+          "status": "start"
+        },
+        {
+          "name": "32.3. Routing at the Network Layer Summary",
+          "progress": null,
+          "status": "start"
+        }
+      ]
+    },
+    {
+      "uuid": "ac7c0eac-c910-5565-8754-e65f2c3a07f8",
+      "name": "Checkpoint Exam: Physical, Data Link, and Network Layers",
+      "percentage": null,
+      "expanded": false,
+      "sectionCount": 1,
+      "sections": [
+        {
+          "name": "Checkpoint Exam",
+          "progress": null,
+          "status": "start"
+        }
+      ]
+    },
+    {
+      "uuid": "20c9c146-fa95-506c-ba45-39a4d2895fcf",
+      "name": "Module 33: IPv6 Addressing",
+      "percentage": null,
+      "expanded": false,
+      "sectionCount": 7,
+      "sections": [
+        {
+          "name": "33.0. Introduction",
+          "progress": null,
+          "status": "start"
+        },
+        {
+          "name": "33.1. IPv6 Address Types",
+          "progress": null,
+          "status": "start"
+        },
+        {
+          "name": "33.2. GUA and LLA Static Configuration",
+          "progress": null,
+          "status": "start"
+        },
+        {
+          "name": "33.3. Dynamic Addressing for IPv6 GUAs",
+          "progress": null,
+          "status": "start"
+        },
+        {
+          "name": "33.4. Dynamic Addressing for IPv6 LLAs",
+          "progress": null,
+          "status": "start"
+        },
+        {
+          "name": "33.5. IPv6 Multicast Addresses",
+          "progress": null,
+          "status": "start"
+        },
+        {
+          "name": "33.6. IPv6 Addressing Summary",
+          "progress": null,
+          "status": "start"
+        }
+      ]
+    },
+    {
+      "uuid": "aaadc43f-1f2a-5198-959f-b31626241fe5",
+      "name": "Module 34: IPv6 Neighbor Discovery",
+      "percentage": null,
+      "expanded": false,
+      "sectionCount": 3,
+      "sections": [
+        {
+          "name": "34.0. Introduction",
+          "progress": null,
+          "status": "start"
+        },
+        {
+          "name": "34.1. Neighbor Discovery Operation",
+          "progress": null,
+          "status": "start"
+        },
+        {
+          "name": "34.2. IPv6 Neighbor Discovery Summary",
+          "progress": null,
+          "status": "start"
+        }
+      ]
+    },
+    {
+      "uuid": "309cb678-5c5e-5ecb-a1cc-d70d2ed82bea",
+      "name": "Checkpoint Exam: IP Addressing",
+      "percentage": null,
+      "expanded": false,
+      "sectionCount": 1,
+      "sections": [
+        {
+          "name": "Checkpoint Exam",
+          "progress": null,
+          "status": "start"
+        }
+      ]
+    },
+    {
+      "uuid": "a25502db-9afd-516d-9ddc-31657a74d073",
+      "name": "Module 35: Cisco Switches and Routers",
+      "percentage": null,
+      "expanded": false,
+      "sectionCount": 7,
+      "sections": [
+        {
+          "name": "35.0. Introduction",
+          "progress": null,
+          "status": "start"
+        },
+        {
+          "name": "35.1. Cisco Switches",
+          "progress": null,
+          "status": "start"
+        },
+        {
+          "name": "35.2. Switch Speeds and Forwarding Methods",
+          "progress": null,
+          "status": "start"
+        },
+        {
+          "name": "35.3. Switch Boot Process",
+          "progress": null,
+          "status": "start"
+        },
+        {
+          "name": "35.4. Cisco Routers",
+          "progress": null,
+          "status": "start"
+        },
+        {
+          "name": "35.5. Router Boot Process",
+          "progress": null,
+          "status": "start"
+        },
+        {
+          "name": "35.6. Cisco Switches and Routers Summary",
+          "progress": null,
+          "status": "start"
+        }
+      ]
+    },
+    {
+      "uuid": "8c713f2b-7d9b-5576-9169-bfa6f0bf1741",
+      "name": "Module 36: Troubleshoot Common Network Problems",
+      "percentage": null,
+      "expanded": false,
+      "sectionCount": 7,
+      "sections": [
+        {
+          "name": "36.0. Introduction",
+          "progress": null,
+          "status": "start"
+        },
+        {
+          "name": "36.1. The Troubleshooting Process",
+          "progress": null,
+          "status": "start"
+        },
+        {
+          "name": "36.2. Physical Layer Problems",
+          "progress": null,
+          "status": "start"
+        },
+        {
+          "name": "36.3. Troubleshoot Wireless Issues",
+          "progress": null,
+          "status": "start"
+        },
+        {
+          "name": "36.4. Common Internet Connectivity Issues",
+          "progress": null,
+          "status": "start"
+        },
+        {
+          "name": "36.5. Customer Support",
+          "progress": null,
+          "status": "start"
+        },
+        {
+          "name": "36.6. Troubleshoot Common Network Problems Summary",
+          "progress": null,
+          "status": "start"
+        }
+      ]
+    },
+    {
+      "uuid": "d345e483-7801-5360-99d0-9bd9470cf10a",
+      "name": "Checkpoint Exam: Cisco Devices and Troubleshooting Network Issues",
+      "percentage": null,
+      "expanded": false,
+      "sectionCount": 1,
+      "sections": [
+        {
+          "name": "Checkpoint Exam",
+          "progress": null,
+          "status": "start"
+        }
+      ]
+    },
+    {
+      "uuid": "b0fcf140-d503-5bbe-ab6a-5be2ac38d674",
+      "name": "Module 37: Network Support",
+      "percentage": null,
+      "expanded": false,
+      "sectionCount": 8,
+      "sections": [
+        {
+          "name": "37.0. Introduction",
+          "progress": null,
+          "status": "start"
+        },
+        {
+          "name": "37.1. Diagnostics and Troubleshooting Methodologies",
+          "progress": null,
+          "status": "start"
+        },
+        {
+          "name": "37.2. Network Documentation",
+          "progress": null,
+          "status": "start"
+        },
+        {
+          "name": "37.3. Help Desks",
+          "progress": null,
+          "status": "start"
+        },
+        {
+          "name": "37.4. Troubleshoot Endpoint Connectivity",
+          "progress": null,
+          "status": "start"
+        },
+        {
+          "name": "37.5. Troubleshoot a Network",
+          "progress": null,
+          "status": "start"
+        },
+        {
+          "name": "37.6. Troubleshoot Connectivity Remotely",
+          "progress": null,
+          "status": "start"
+        },
+        {
+          "name": "37.7. Network Support Summary",
+          "progress": null,
+          "status": "start"
+        }
+      ]
+    },
+    {
+      "uuid": "470b0f8c-3433-58f8-8cae-ad9db92ba313",
+      "name": "Module 38: Cybersecurity Threats, Vulnerabilities, and Attacks",
+      "percentage": null,
+      "expanded": false,
+      "sectionCount": 7,
+      "sections": [
+        {
+          "name": "38.0. Introduction",
+          "progress": null,
+          "status": "start"
+        },
+        {
+          "name": "38.1. Common Threats",
+          "progress": null,
+          "status": "start"
+        },
+        {
+          "name": "38.2. Deception",
+          "progress": null,
+          "status": "start"
+        },
+        {
+          "name": "38.3. Cyber Attacks",
+          "progress": null,
+          "status": "start"
+        },
+        {
+          "name": "38.4. Wireless and Mobile Device Attacks",
+          "progress": null,
+          "status": "start"
+        },
+        {
+          "name": "38.5. Application Attacks",
+          "progress": null,
+          "status": "start"
+        },
+        {
+          "name": "38.6. Cybersecurity Threats, Vulnerabilities, and Attacks Summary",
+          "progress": null,
+          "status": "start"
+        }
+      ]
+    },
+    {
+      "uuid": "01afc700-aa8e-52ba-afe5-2ffc14252051",
+      "name": "Module 39: Network Security",
+      "percentage": null,
+      "expanded": false,
+      "sectionCount": 8,
+      "sections": [
+        {
+          "name": "39.0. Introduction",
+          "progress": null,
+          "status": "start"
+        },
+        {
+          "name": "39.1. Security Foundations",
+          "progress": null,
+          "status": "start"
+        },
+        {
+          "name": "39.2. Access Control",
+          "progress": null,
+          "status": "start"
+        },
+        {
+          "name": "39.3. Defending Systems and Devices",
+          "progress": null,
+          "status": "start"
+        },
+        {
+          "name": "39.4. Antimalware Protection",
+          "progress": null,
+          "status": "start"
+        },
+        {
+          "name": "39.5. Firewalls and Host-Based Intrusion Prevention",
+          "progress": null,
+          "status": "start"
+        },
+        {
+          "name": "39.6. Secure Wireless Access",
+          "progress": null,
+          "status": "start"
+        },
+        {
+          "name": "39.7. Network Security Summary",
+          "progress": null,
+          "status": "start"
+        }
+      ]
+    },
+    {
+      "uuid": "a93c7375-3ccb-5ead-b70b-ee58bf4c10b5",
+      "name": "End of Course Survey",
+      "percentage": null,
+      "expanded": false,
+      "sectionCount": 1,
+      "sections": [
+        {
+          "name": "End of Course Survey",
+          "progress": null,
+          "status": "start"
+        }
+      ]
+    },
+    {
+      "uuid": "9ed21f52-5387-5876-ac46-3efdcb23e841",
+      "name": "Networking Essentials: Course Final Exam",
+      "percentage": null,
+      "expanded": false,
+      "sectionCount": 1,
+      "sections": [
+        {
+          "name": "Course Final Exam",
+          "progress": null,
+          "status": "start"
+        }
+      ]
+    }
+  ]
+}

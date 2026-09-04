@@ -1,0 +1,128 @@
+{
+ "started_at": "2026-08-22T12:31:29",
+ "items": [
+  {
+   "item": "36.0.1",
+   "title": "Webster - Why Should I Take this Module?",
+   "module": 36,
+   "type": "INTRODUCTION",
+   "components": [
+    "text-view",
+    "graphic-view"
+   ],
+   "unit_complete": true,
+   "status": "already_complete",
+   "notes": [],
+   "seconds": 7.1,
+   "outline_after": "completed"
+  },
+  {
+   "item": "36.1.1",
+   "title": "Video - Network Troubleshooting",
+   "module": 36,
+   "type": "VIDEO",
+   "components": [
+    "media-view"
+   ],
+   "unit_complete": true,
+   "status": "already_complete",
+   "notes": [],
+   "seconds": 4.9,
+   "outline_after": "completed"
+  },
+  {
+   "item": "36.2.1",
+   "title": "Common Layer 1 Problems",
+   "module": 36,
+   "type": "INTERACTIVE",
+   "components": [
+    "tabs-view"
+   ],
+   "unit_complete": true,
+   "status": "already_complete",
+   "notes": [],
+   "seconds": 3.9,
+   "outline_after": "completed"
+  },
+  {
+   "item": "36.3.1",
+   "title": "Causes of Wireless Issues",
+   "module": 36,
+   "type": "LESSON",
+   "components": [
+    "graphic-view",
+    "blank-view"
+   ],
+   "unit_complete": true,
+   "status": "already_complete",
+   "notes": [],
+   "seconds": 3.1,
+   "outline_after": "completed"
+  },
+  {
+   "item": "36.4.1",
+   "title": "DHCP Server Configuration Errors",
+   "module": 36,
+   "type": "LESSON",
+   "components": [
+    "graphic-view"
+   ],
+   "unit_complete": true,
+   "status": "already_complete",
+   "notes": [],
+   "seconds": 3.3,
+   "outline_after": "completed"
+  },
+  {
+   "item": "36.5.1",
+   "title": "Sources of Help",
+   "module": 36,
+   "type": "LESSON",
+   "components": [
+    "text-view"
+   ],
+   "unit_complete": true,
+   "status": "already_complete",
+   "notes": [],
+   "seconds": 3.2,
+   "outline_after": "completed"
+  },
+  {
+   "item": "36.6.1",
+   "title": "What Did I Learn in this Module?",
+   "module": 36,
+   "type": "INTERACTIVE",
+   "components": [
+    "accordion-view"
+   ],
+   "unit_complete": true,
+   "status": "already_complete",
+   "notes": [],
+   "seconds": 3.3,
+   "outline_after": "completed"
+  },
+  {
+   "item": "36.6.3",
+   "title": "Troubleshoot Common Network Problems Quiz",
+   "module": 36,
+   "type": "ASSESSMENT",
+   "components": [
+    "adaptive-start-screen-view"
+   ],
+   "unit_complete": false,
+   "status": "needs_user",
+   "notes": [
+    "graded assessment - never automated"
+   ],
+   "seconds": 33.2
+  }
+ ],
+ "needs_user": [
+  {
+   "item": "36.6.3",
+   "why": "graded assessment - never automated"
+  }
+ ],
+ "failed": [],
+ "finished_at": "2026-08-22T12:33:01"
+}

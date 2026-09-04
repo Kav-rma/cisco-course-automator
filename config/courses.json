@@ -1,0 +1,14 @@
+{
+  "courses": [
+    {
+      "key": "networking-essentials",
+      "name": "SCSE_FOS_Networking Essentials",
+      "url": "https://www.netacad.com/launch?id=1da0912b-1d6e-4fde-9d99-69c4197d93ca&tab=curriculum&view=febc5cbb-a9ba-5a49-8b90-6a5ad4e5183e"
+    },
+    {
+      "key": "ccna-srwe",
+      "name": "SCSE2026_CCNA: Switching, Routing, and Wireless Essentials",
+      "url": "https://www.netacad.com/launch?id=7f61078c-172c-4fbf-9033-ade39713c1af&tab=curriculum&view=547228af-d553-4c24-9e96-4d954f54921f"
+    }
+  ]
+}

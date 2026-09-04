@@ -1,0 +1,805 @@
+{
+  "url": "https://www.netacad.com/authoring-resources/index.html?xAPILaunchKey=31220d36-45b4-495a-83a9-2632fbffe20f&xAPILaunchService=https://www.netacad.com/adl/content/&lang=en-US&moduleNumber=4#/courses/ff9e491c-49be-4734-803e-a79e6e83dab1/395d598a-b984-52db-8c05-c4535854f99f/id/466432737d1d422a8f24105fe7f73ef1",
+  "title": "Module {{_globals._moduleNumber}}: Build a Home Network | 4.0. Introduction",
+  "readyState": "complete",
+  "shadowHosts": [
+    "app-root",
+    "sgpulse-loader",
+    "sgpulse-nav",
+    "tooltip-view",
+    "material-icon",
+    "search-button",
+    "tooltip-view",
+    "material-icon",
+    "theme-appearance",
+    "tooltip-view",
+    "btn-lang-picker",
+    "tooltip-view",
+    "material-icon",
+    "sgpluse-close-view",
+    "tooltip-view",
+    "material-icon",
+    "course-progress-view",
+    "tooltip-view",
+    "pagelevelprogress-indicator-view[modelid=466432737d1d422a8f24105fe7f73ef1]",
+    "tooltip-view",
+    "page-view[modelid=466432737d1d422a8f24105fe7f73ef1]",
+    "base-view",
+    "heading-view#466432737d1d422a8f24105fe7f73ef1-heading-view[modelid=466432737d1d422a8f24105fe7f73ef1]",
+    "article-view[modelid=7bc04b3d048c4cb38213d61c7bcf8de5]",
+    "base-view",
+    "block-view[modelid=13a23ebab14e4d69831d27f31173a260]",
+    "base-view[modelid=13a23ebab14e4d69831d27f31173a260]",
+    "text-view[modelid=0aa6c750edb549e08fd98ee5ea614b3f]",
+    "base-view",
+    "block-view[modelid=928df8826a65475980b8e01b84454dd4]",
+    "base-view[modelid=928df8826a65475980b8e01b84454dd4]",
+    "text-view[modelid=b836815506ed4d799b3fb7e1a5bc1842]",
+    "base-view",
+    "article-view[modelid=8339d7aa85f743a28709d1d39296e0fb]",
+    "base-view",
+    "block-view[modelid=35819680a2b1407ca240fe14a7045445]",
+    "base-view[modelid=35819680a2b1407ca240fe14a7045445]",
+    "heading-view#35819680a2b1407ca240fe14a7045445-heading-view[modelid=35819680a2b1407ca240fe14a7045445]",
+    "text-view[modelid=7d86e343298944ec9a3b43c3eb702d28]",
+    "base-view",
+    "graphic-view[modelid=0e6af314ac36471689c3196aa9808ab2]",
+    "base-view",
+    "block-view[modelid=b3bcb6b382594a3599f302b4be3650e8]",
+    "base-view[modelid=b3bcb6b382594a3599f302b4be3650e8]",
+    "blank-view[modelid=b20e997b012246d78ef12c3602cccb80]",
+    "base-view",
+    "block-view[modelid=20940449ee0f4010b78523552dadc490]",
+    "base-view[modelid=20940449ee0f4010b78523552dadc490]",
+    "heading-view#20940449ee0f4010b78523552dadc490-heading-view[modelid=20940449ee0f4010b78523552dadc490]",
+    "table-view[modelid=20fdb272a9c74556bcd97ee2819d4496]",
+    "base-view",
+    "block-view[modelid=50d62b7d6bc643e5b72d83899f7e4065]",
+    "base-view[modelid=50d62b7d6bc643e5b72d83899f7e4065]",
+    "quicknav-view[modelid=0e6e3923d22c48dcb55201e1fa2615e6]",
+    "notify-view",
+    "sgpulse-drawer",
+    "health-gauge-button-view",
+    "tooltip-view",
+    "material-icon"
+  ],
+  "customTags": {
+    "app-root": 1,
+    "sgpulse-loader": 1,
+    "sgpulse-nav": 1,
+    "tooltip-view": 8,
+    "material-icon": 5,
+    "search-button": 1,
+    "theme-appearance": 1,
+    "btn-lang-picker": 1,
+    "sgpluse-close-view": 1,
+    "course-progress-view": 1,
+    "pagelevelprogress-indicator-view": 1,
+    "page-view": 1,
+    "base-view": 15,
+    "heading-view": 3,
+    "article-view": 2,
+    "block-view": 6,
+    "text-view": 3,
+    "graphic-view": 1,
+    "blank-view": 1,
+    "table-view": 1,
+    "quicknav-view": 1,
+    "notify-view": 1,
+    "sgpulse-drawer": 1,
+    "health-gauge-button-view": 1
+  },
+  "bodyTextLen": 2335,
+  "idsSample": [
+    "style#ace-tm",
+    "style#ace_editor.css",
+    "script#www-widgetapi-script",
+    "script#youtube-api-script",
+    "h5#course__title-sub-title",
+    "style#customCSS",
+    "style#customCSS",
+    "style#customCSS",
+    "style#customCSS",
+    "style#customCSS",
+    "style#customCSS",
+    "style#customCSS",
+    "style#customCSS",
+    "style#customCSS",
+    "style#customCSS",
+    "style#customCSS",
+    "style#customCSS",
+    "button#closeButton",
+    "style#customCSS",
+    "style#customCSS",
+    "style#customCSS",
+    "style#customCSS",
+    "style#customCSS",
+    "style#customCSS",
+    "style#customCSS",
+    "div#Wrapper",
+    "span#foucs_content",
+    "heading-view#466432737d1d422a8f24105fe7f73ef1-heading-view",
+    "div#page-heading",
+    "style#customCSS",
+    "style#customCSS",
+    "style#customCSS",
+    "style#customCSS",
+    "style#customCSS",
+    "style#customCSS",
+    "style#customCSS",
+    "style#customCSS",
+    "style#customCSS",
+    "style#customCSS",
+    "style#customCSS",
+    "style#customCSS",
+    "style#customCSS",
+    "heading-view#35819680a2b1407ca240fe14a7045445-heading-view",
+    "div#block-heading",
+    "style#customCSS",
+    "style#customCSS",
+    "style#customCSS",
+    "style#customCSS",
+    "style#customCSS",
+    "img#graphic__image",
+    "style#customCSS",
+    "style#customCSS",
+    "style#customCSS",
+    "style#customCSS",
+    "style#customCSS",
+    "style#customCSS",
+    "heading-view#20940449ee0f4010b78523552dadc490-heading-view",
+    "div#block-heading",
+    "style#customCSS",
+    "style#customCSS",
+    "style#customCSS",
+    "caption#table-caption-20fdb272a9c74556bcd97ee2819d4496",
+    "style#customCSS",
+    "style#customCSS",
+    "style#customCSS",
+    "style#customCSS",
+    "style#customCSS",
+    "style#customCSS",
+    "style#customCSS",
+    "style#customCSS",
+    "style#customCSS",
+    "span#healthgauge-description",
+    "div#cont",
+    "svg#svg",
+    "circle#bar",
+    "style#customCSS",
+    "style#customCSS"
+  ],
+  "h1": [
+    "4.0 Introduction"
+  ],
+  "h2": [
+    "Module {{_globals._moduleNumber}}: Build a Home Network"
+  ],
+  "h3": [],
+  "counts": {
+    "iframe": 0,
+    "video": 0,
+    "audio": 0,
+    "button": 7,
+    "a": 0,
+    "input": 1,
+    "radio": 0,
+    "checkbox": 1,
+    "roleButton": 1,
+    "roleRadio": 0,
+    "roleCheckbox": 0,
+    "ariaExpanded": 0,
+    "details": 0,
+    "tabs": 0,
+    "dataAttrs": 28,
+    "shadowHosts": 59,
+    "forms": 0,
+    "fieldset": 0
+  },
+  "iframes": [],
+  "videos": [],
+  "ariaExpanded": [],
+  "buttons": [
+    {
+      "tag": "button",
+      "text": "Skip navigation",
+      "attrs": {
+        "class": "btn-text nav__btn  nav__skip-btn",
+        "tabindex": "0",
+        "data-event": "skipNavigation",
+        "aria-label": "Skip navigation"
+      }
+    },
+    {
+      "tag": "button",
+      "text": "",
+      "attrs": {
+        "class": "nav__btn nav__back-btn  js-nav-back-btn",
+        "data-event": "backButton",
+        "aria-label": "Back"
+      }
+    },
+    {
+      "tag": "button",
+      "text": "",
+      "attrs": {
+        "class": "nav_btn btn_icon btn_right"
+      }
+    },
+    {
+      "tag": "label",
+      "text": "",
+      "attrs": {
+        "class": "switch dayNight",
+        "role": "button",
+        "tabindex": "0",
+        "aria-label": "dark mode"
+      }
+    },
+    {
+      "tag": "button",
+      "text": "",
+      "attrs": {
+        "class": "nav_btn btn_icon btn_right language_btn"
+      }
+    },
+    {
+      "tag": "button",
+      "text": "",
+      "attrs": {
+        "id": "closeButton",
+        "class": "nav_btn btn_icon btn_right nav__close-btn",
+        "data-event": "closeButton",
+        "aria-label": "Select here to close the window."
+      }
+    },
+    {
+      "tag": "button",
+      "text": "",
+      "attrs": {
+        "role": "presentation",
+        "aria-hidden": "true",
+        "class": "nav__pagelevelprogress pagelevelprogress",
+        "aria-label": "Page completion 100%"
+      }
+    },
+    {
+      "tag": "button",
+      "text": "The health gauge reflects your performance during the course You now have 100% health 100",
+      "attrs": {
+        "aria-haspopup": "true",
+        "aria-describedby": "healthgauge-description",
+        "class": "healthgauge-button element-color-control",
+        "aria-label": "Health Gauge",
+        "title": "You now have 100% health"
+      }
+    }
+  ],
+  "inputs": [
+    {
+      "tag": "input",
+      "text": "",
+      "attrs": {
+        "type": "checkbox",
+        "class": "toggleTheme"
+      }
+    }
+  ],
+  "fieldsets": [],
+  "dataAttrNames": [
+    "data-event",
+    "data-large",
+    "data-location",
+    "data-pct",
+    "data-small",
+    "data-socialgoodpulse-id",
+    "data-text"
+  ],
+  "classPrefixesTop": [
+    [
+      "",
+      74
+    ],
+    [
+      "is-complete",
+      18
+    ],
+    [
+      "block__header",
+      18
+    ],
+    [
+      "component__header",
+      18
+    ],
+    [
+      "tooltip",
+      16
+    ],
+    [
+      "table",
+      15
+    ],
+    [
+      "nth",
+      15
+    ],
+    [
+      "component__header-container",
+      14
+    ],
+    [
+      "remove-padding-top",
+      12
+    ],
+    [
+      "is",
+      12
+    ],
+    [
+      "no-element-backgrounds",
+      9
+    ],
+    [
+      "tooltip-container",
+      8
+    ],
+    [
+      "nav_btn",
+      8
+    ],
+    [
+      "component__body",
+      8
+    ],
+    [
+      "background",
+      7
+    ],
+    [
+      "component",
+      7
+    ],
+    [
+      "article__header",
+      6
+    ],
+    [
+      "block",
+      6
+    ],
+    [
+      "block__inner",
+      6
+    ],
+    [
+      "component__container",
+      6
+    ],
+    [
+      "text",
+      6
+    ],
+    [
+      "component__inner",
+      6
+    ],
+    [
+      "text__header",
+      6
+    ],
+    [
+      "text__body",
+      6
+    ],
+    [
+      "csscolumns",
+      5
+    ],
+    [
+      "nav__inner",
+      5
+    ],
+    [
+      "btn_icon",
+      5
+    ],
+    [
+      "material",
+      5
+    ],
+    [
+      "table-row",
+      5
+    ],
+    [
+      "btn_right",
+      4
+    ],
+    [
+      "aria",
+      4
+    ],
+    [
+      "component__content",
+      4
+    ],
+    [
+      "item-color",
+      4
+    ],
+    [
+      "background-color",
+      4
+    ],
+    [
+      "block__title",
+      4
+    ],
+    [
+      "nav__btn",
+      3
+    ],
+    [
+      "page",
+      3
+    ],
+    [
+      "page__header",
+      3
+    ],
+    [
+      "js",
+      3
+    ],
+    [
+      "js-heading",
+      3
+    ],
+    [
+      "accessibility-completion-indicator",
+      3
+    ],
+    [
+      "fa",
+      3
+    ],
+    [
+      "nav__pagelevelprogress",
+      2
+    ],
+    [
+      "page__title",
+      2
+    ],
+    [
+      "page__body",
+      2
+    ],
+    [
+      "article",
+      2
+    ],
+    [
+      "article__inner",
+      2
+    ],
+    [
+      "no-adaptive",
+      2
+    ],
+    [
+      "block__container",
+      2
+    ],
+    [
+      "increase-padding",
+      2
+    ],
+    [
+      "graphic",
+      2
+    ],
+    [
+      "graphic__header",
+      2
+    ],
+    [
+      "component__widget",
+      2
+    ],
+    [
+      "blank__header",
+      2
+    ],
+    [
+      "table__header",
+      2
+    ],
+    [
+      "table__body",
+      2
+    ],
+    [
+      "quick_nav",
+      2
+    ],
+    [
+      "healthgauge",
+      2
+    ],
+    [
+      "no-touchevents",
+      1
+    ],
+    [
+      "csscolumns-gap",
+      1
+    ],
+    [
+      "csscolumns-rulecolor",
+      1
+    ],
+    [
+      "csscolumns-rulestyle",
+      1
+    ],
+    [
+      "csscolumns-rulewidth",
+      1
+    ],
+    [
+      "csscolumns-breakbefore",
+      1
+    ],
+    [
+      "csscolumns-breakafter",
+      1
+    ],
+    [
+      "csscolumns-breakinside",
+      1
+    ],
+    [
+      "flexbox",
+      1
+    ],
+    [
+      "flexboxlegacy",
+      1
+    ],
+    [
+      "cssreflections",
+      1
+    ],
+    [
+      "fullscreen",
+      1
+    ],
+    [
+      "chrome",
+      1
+    ],
+    [
+      "version-151.0.0.0",
+      1
+    ],
+    [
+      "OS",
+      1
+    ],
+    [
+      "version-151-0.0.0",
+      1
+    ],
+    [
+      "os",
+      1
+    ],
+    [
+      "pixel-density-low",
+      1
+    ],
+    [
+      "size",
+      1
+    ],
+    [
+      "orientation-landscape",
+      1
+    ],
+    [
+      "location",
+      1
+    ],
+    [
+      "location-id-466432737d1d422a8f24105fe7f73ef1",
+      1
+    ],
+    [
+      "block-base",
+      1
+    ],
+    [
+      "no-lang",
+      1
+    ],
+    [
+      "hide__nav-bar",
+      1
+    ],
+    [
+      "dir-ltr",
+      1
+    ],
+    [
+      "light",
+      1
+    ],
+    [
+      "vjs-styles-defaults",
+      1
+    ],
+    [
+      "loading__image-before",
+      1
+    ],
+    [
+      "js-loading-before",
+      1
+    ],
+    [
+      "remove",
+      1
+    ],
+    [
+      "loading__wrapper",
+      1
+    ],
+    [
+      "loading__logo",
+      1
+    ],
+    [
+      "course__title",
+      1
+    ],
+    [
+      "course__sub",
+      1
+    ],
+    [
+      "loading__image",
+      1
+    ],
+    [
+      "nav",
+      1
+    ],
+    [
+      "hide_nav_bar",
+      1
+    ],
+    [
+      "u-clearfix",
+      1
+    ],
+    [
+      "btn",
+      1
+    ],
+    [
+      "nav__skip-btn",
+      1
+    ],
+    [
+      "btn_left",
+      1
+    ],
+    [
+      "nav__back-btn",
+      1
+    ],
+    [
+      "js-nav-back-btn",
+      1
+    ],
+    [
+      "theme-appearance",
+      1
+    ],
+    [
+      "switch",
+      1
+    ],
+    [
+      "dayNight",
+      1
+    ],
+    [
+      "toggleTheme",
+      1
+    ],
+    [
+      "language_btn",
+      1
+    ],
+    [
+      "u-display",
+      1
+    ],
+    [
+      "nav__close-btn",
+      1
+    ],
+    [
+      "course-progress",
+      1
+    ],
+    [
+      "radial-progress",
+      1
+    ],
+    [
+      "pagelevelprogress-container",
+      1
+    ],
+    [
+      "pagelevelprogress",
+      1
+    ],
+    [
+      "pagelevelprogress__indicator",
+      1
+    ],
+    [
+      "pagelevelprogress__indicator-bar",
+      1
+    ],
+    [
+      "js-indicator-bar",
+      1
+    ],
+    [
+      "contentobject",
+      1
+    ],
+    [
+      "466432737d1d422a8f24105fe7f73ef1",
+      1
+    ],
+    [
+      "page-background",
+      1
+    ],
+    [
+      "page-background-image-466432737d1d422a8f24105fe7f73ef1",
+      1
+    ]
+  ],
+  "scrollers": [
+    {
+      "tag": "html",
+      "id": "",
+      "cls": "no-touchevents csscolumns csscolumns-width csscolumns-span csscolumns-fill csscolumns-gap csscolumns",
+      "sh": 2822,
+      "ch": 667
+    }
+  ],
+  "bodyText": "Module {{_globals._moduleNumber}}: Build a Home Network Skip navigation arrow_back search language exit_to_app 5 / 6 Complete 4.0. Introduction Complete 4.0. Introduction Understanding Build a Home Network. 4.0 Introduction Scroll to begin Complete 4.0.1 Webster - Why Should I Take this Module? Complete 4.0.1 Webster - Why Should I Take this Module? Kishori and Shridhar are washing the dishes after dinner. Kishori is watching a favorite movie on her tablet while putting the dishes away. She asks Shridhar if her tablet works exactly as her mobile phone does. He explains that there are some tablets that do use a mobile network, but that her tablet is works on Wi-Fi network in her house. She tells him that she knows it must come in from that box in the corner of the living room. That is all she knows! Shridhar explains that the box in the corner is a home router. The router is connected to the internet. Home routers typically have two primary types of ports: ethernet ports and internet ports. In addition to the wired ports, many home routers include a radio antenna and a built-in wireless access point. Kishori mostly uses wireless at home. Now Shridhar is worried about his mother’s wireless security. Since she did not know what the router was, she probably did not change her default password on the router! Shridhar logs into the router and makes some changes to keep Kishori’s network and devices safer. Have you ever set up a router? Have you thought about having secure communications over wireless devices? This module will give you the knowledge to build a home network and configure wireless devices for secure communication. Complete 4.0.2 What Will I Learn in this Module? Complete 4.0.2 What Will I Learn in this Module? Module Title: Build a Home Network Module Objective: Configure an integrated wireless router and wireless client to connect securely to the internet. 4.0.2 What Will I Learn in this Module? Topic Title Topic Objective Home Network Basics Describe the components required to build a home network. Network Technologies in the Home Describe wired and wireless network technologies. Wireless Standards Describe Wi-Fi. Set Up a Home Router Configure wireless devices for secure communications. The health gauge reflects your performance during the course You now have 100% health security 100",
+  "outline_status_before": "start",
+  "outline_status_after": "completed",
+  "top_prev_next": [
+    "Go To 4.3. Wireless Standards",
+    "Go To 4.5. Build a Home Network Summary"
+  ],
+  "outline_item": {
+    "index": 3,
+    "id": "4.4.4",
+    "title": "Packet Tracer - Configure a Wireless Router and Client",
+    "raw_title": "4.4.4 Packet Tracer - Configure a Wireless Router and Client",
+    "inferred_type": "lab",
+    "status": "start",
+    "key": "4/4/3"
+  }
+}

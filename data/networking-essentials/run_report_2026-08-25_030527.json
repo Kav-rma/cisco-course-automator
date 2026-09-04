@@ -1,0 +1,84 @@
+{
+ "started_at": "2026-08-25T03:05:27",
+ "items": [
+  {
+   "item": "5.0.1",
+   "title": "Webster - Why Should I Take this Module?",
+   "module": 5,
+   "type": "INTRODUCTION",
+   "components": [
+    "text-view",
+    "graphic-view"
+   ],
+   "unit_complete": false,
+   "status": "completed",
+   "notes": [
+    "completed after scrolling into view"
+   ],
+   "seconds": 48.1,
+   "outline_after": "start"
+  },
+  {
+   "item": "5.0.2",
+   "title": "What Will I Learn in this Module?",
+   "module": 5,
+   "type": "INTRODUCTION",
+   "components": [
+    "table-view",
+    "quicknav-view"
+   ],
+   "unit_complete": true,
+   "status": "already_complete",
+   "notes": [],
+   "seconds": 3.2,
+   "outline_after": "completed"
+  },
+  {
+   "item": "5.1.1",
+   "title": "Communication Protocols",
+   "module": 5,
+   "type": "INTERACTIVE",
+   "components": [
+    "accordion-view",
+    "text-view"
+   ],
+   "unit_complete": true,
+   "status": "already_complete",
+   "notes": [],
+   "seconds": 4.0,
+   "outline_after": "completed"
+  },
+  {
+   "item": "5.2.1",
+   "title": "Video - Devices in a Bubble",
+   "module": 5,
+   "type": "VIDEO",
+   "components": [
+    "media-view"
+   ],
+   "unit_complete": true,
+   "status": "already_complete",
+   "notes": [],
+   "seconds": 6.7,
+   "outline_after": "completed"
+  },
+  {
+   "item": "5.3.1",
+   "title": "Video - Network Protocols",
+   "module": 5,
+   "status": "error",
+   "error": "Message: Active window was already closed!\n"
+  }
+ ],
+ "needs_user": [],
+ "failed": [
+  {
+   "item": "5.3.1",
+   "title": "Video - Network Protocols",
+   "module": 5,
+   "status": "error",
+   "error": "Message: Active window was already closed!\n"
+  }
+ ],
+ "finished_at": "2026-08-25T03:08:47"
+}

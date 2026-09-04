@@ -1,0 +1,869 @@
+{
+  "url": "https://www.netacad.com/authoring-resources/index.html?xAPILaunchKey=602ac880-76bd-450d-b9af-878d0783d6cb&xAPILaunchService=https://www.netacad.com/adl/content/&lang=en-US&moduleNumber=8#/courses/ff9e491c-49be-4734-803e-a79e6e83dab1/f5fe182d-72ea-5f2b-8aa6-73eaf1250ab6/id/848a588b0bc445ebb23e11b6f0d1cc4d",
+  "title": "Module {{_globals._moduleNumber}}: The Internet Protocol | 8.1. Purpose of an IPv4 Address",
+  "readyState": "complete",
+  "shadowHosts": [
+    "app-root",
+    "sgpulse-loader",
+    "sgpulse-nav",
+    "tooltip-view",
+    "material-icon",
+    "search-button",
+    "tooltip-view",
+    "material-icon",
+    "theme-appearance",
+    "tooltip-view",
+    "btn-lang-picker",
+    "tooltip-view",
+    "material-icon",
+    "sgpluse-close-view",
+    "tooltip-view",
+    "material-icon",
+    "course-progress-view",
+    "tooltip-view",
+    "pagelevelprogress-indicator-view[modelid=848a588b0bc445ebb23e11b6f0d1cc4d]",
+    "tooltip-view",
+    "page-view[modelid=848a588b0bc445ebb23e11b6f0d1cc4d]",
+    "base-view",
+    "heading-view#848a588b0bc445ebb23e11b6f0d1cc4d-heading-view[modelid=848a588b0bc445ebb23e11b6f0d1cc4d]",
+    "article-view[modelid=d440615db0f64425b9c2111c0f8b84c0]",
+    "base-view",
+    "block-view[modelid=2ecb08c61d054d03a2d8fbf7ee8840c2]",
+    "base-view[modelid=2ecb08c61d054d03a2d8fbf7ee8840c2]",
+    "text-view[modelid=50e2ddf54f844535a44f6accb06121ec]",
+    "base-view",
+    "block-view[modelid=a09f430534844e0e8918459aabdb9f5c]",
+    "base-view[modelid=a09f430534844e0e8918459aabdb9f5c]",
+    "text-view[modelid=801035e733494472be9a74fb3f0030d6]",
+    "base-view",
+    "article-view[modelid=5d6ab8cd76994af1911f31ce0ffdcb20]",
+    "base-view",
+    "block-view[modelid=ed70dda6bb4748a98f496d56f153c642]",
+    "base-view[modelid=ed70dda6bb4748a98f496d56f153c642]",
+    "heading-view#ed70dda6bb4748a98f496d56f153c642-heading-view[modelid=ed70dda6bb4748a98f496d56f153c642]",
+    "adobe-animate-view[modelid=d194c1ed4a914552962e473ae4b6d1cd]",
+    "base-view",
+    "play-pause",
+    "material-icon",
+    "aa-scrubber#slider-custom-styles",
+    "block-view[modelid=32cafd44e6614cbea29333cf25932c2f]",
+    "base-view[modelid=32cafd44e6614cbea29333cf25932c2f]",
+    "heading-view#32cafd44e6614cbea29333cf25932c2f-heading-view[modelid=32cafd44e6614cbea29333cf25932c2f]",
+    "text-view[modelid=d5cc3050e9d9415abf368b38e6690073]",
+    "base-view",
+    "block-view[modelid=8fbbce59db444dfe87415964bdd94d48]",
+    "base-view[modelid=8fbbce59db444dfe87415964bdd94d48]",
+    "heading-view#8fbbce59db444dfe87415964bdd94d48-heading-view[modelid=8fbbce59db444dfe87415964bdd94d48]",
+    "pagetracer-view[modelid=1c5fab8bc20646028a678b4f7f256d46]",
+    "base-view",
+    "material-icon",
+    "material-icon",
+    "block-view[modelid=c3182e9e0b6647af851912c80c0b0988]",
+    "base-view[modelid=c3182e9e0b6647af851912c80c0b0988]",
+    "quicknav-view[modelid=025db3a826a5438281d9e3863ac8954f]",
+    "notify-view",
+    "sgpulse-drawer",
+    "health-gauge-button-view",
+    "tooltip-view",
+    "material-icon"
+  ],
+  "customTags": {
+    "app-root": 1,
+    "sgpulse-loader": 1,
+    "sgpulse-nav": 1,
+    "tooltip-view": 8,
+    "material-icon": 8,
+    "search-button": 1,
+    "theme-appearance": 1,
+    "btn-lang-picker": 1,
+    "sgpluse-close-view": 1,
+    "course-progress-view": 1,
+    "pagelevelprogress-indicator-view": 1,
+    "page-view": 1,
+    "base-view": 14,
+    "heading-view": 4,
+    "article-view": 2,
+    "block-view": 6,
+    "text-view": 3,
+    "adobe-animate-view": 1,
+    "play-pause": 1,
+    "aa-scrubber": 1,
+    "pagetracer-view": 1,
+    "quicknav-view": 1,
+    "notify-view": 1,
+    "sgpulse-drawer": 1,
+    "health-gauge-button-view": 1
+  },
+  "bodyTextLen": 3089,
+  "idsSample": [
+    "style#ace-tm",
+    "style#ace_editor.css",
+    "script#www-widgetapi-script",
+    "script#youtube-api-script",
+    "h5#course__title-sub-title",
+    "style#customCSS",
+    "style#customCSS",
+    "style#customCSS",
+    "style#customCSS",
+    "style#customCSS",
+    "style#customCSS",
+    "style#customCSS",
+    "style#customCSS",
+    "style#customCSS",
+    "style#customCSS",
+    "style#customCSS",
+    "style#customCSS",
+    "button#closeButton",
+    "style#customCSS",
+    "style#customCSS",
+    "style#customCSS",
+    "style#customCSS",
+    "style#customCSS",
+    "style#customCSS",
+    "style#customCSS",
+    "div#Wrapper",
+    "span#foucs_content",
+    "heading-view#848a588b0bc445ebb23e11b6f0d1cc4d-heading-view",
+    "div#page-heading",
+    "style#customCSS",
+    "style#customCSS",
+    "style#customCSS",
+    "style#customCSS",
+    "style#customCSS",
+    "style#customCSS",
+    "style#customCSS",
+    "style#customCSS",
+    "style#customCSS",
+    "style#customCSS",
+    "style#customCSS",
+    "style#customCSS",
+    "style#customCSS",
+    "heading-view#ed70dda6bb4748a98f496d56f153c642-heading-view",
+    "div#block-heading",
+    "style#customCSS",
+    "style#customCSS",
+    "style#customCSS",
+    "div#a11y_description-0743a950-e648-11ea-943d-3985b1606afe",
+    "div#0743a950-e648-11ea-943d-3985b1606afe",
+    "div#dynamic-text",
+    "div#ID_txt02",
+    "div#ID_txt03",
+    "div#ID_txt04",
+    "div#ID_txt05",
+    "style#customCSS",
+    "aa-scrubber#slider-custom-styles",
+    "style#customCSS",
+    "style#customCSS",
+    "heading-view#32cafd44e6614cbea29333cf25932c2f-heading-view",
+    "div#block-heading",
+    "style#customCSS",
+    "style#customCSS",
+    "style#customCSS",
+    "style#customCSS",
+    "style#customCSS",
+    "heading-view#8fbbce59db444dfe87415964bdd94d48-heading-view",
+    "div#block-heading",
+    "style#customCSS",
+    "style#customCSS",
+    "style#customCSS",
+    "style#customCSS",
+    "style#customCSS",
+    "style#customCSS",
+    "style#customCSS",
+    "style#customCSS",
+    "style#customCSS",
+    "style#customCSS",
+    "style#customCSS",
+    "style#customCSS",
+    "style#customCSS",
+    "style#customCSS",
+    "span#healthgauge-description",
+    "div#cont",
+    "svg#svg",
+    "circle#bar",
+    "style#customCSS",
+    "style#customCSS",
+    "style#customCSS"
+  ],
+  "h1": [
+    "8.1 Purpose of an IPv4 Address"
+  ],
+  "h2": [
+    "Module {{_globals._moduleNumber}}: The Internet Protocol"
+  ],
+  "h3": [],
+  "counts": {
+    "iframe": 0,
+    "video": 0,
+    "audio": 0,
+    "button": 9,
+    "a": 1,
+    "input": 2,
+    "radio": 0,
+    "checkbox": 1,
+    "roleButton": 2,
+    "roleRadio": 0,
+    "roleCheckbox": 0,
+    "ariaExpanded": 0,
+    "details": 0,
+    "tabs": 0,
+    "dataAttrs": 28,
+    "shadowHosts": 63,
+    "forms": 0,
+    "fieldset": 0
+  },
+  "iframes": [],
+  "videos": [
+    {
+      "tag": "div",
+      "text": "",
+      "attrs": {
+        "class": "player-controls"
+      }
+    }
+  ],
+  "ariaExpanded": [],
+  "buttons": [
+    {
+      "tag": "button",
+      "text": "Skip navigation",
+      "attrs": {
+        "class": "btn-text nav__btn  nav__skip-btn",
+        "tabindex": "0",
+        "data-event": "skipNavigation",
+        "aria-label": "Skip navigation"
+      }
+    },
+    {
+      "tag": "button",
+      "text": "",
+      "attrs": {
+        "class": "nav__btn nav__back-btn  js-nav-back-btn",
+        "data-event": "backButton",
+        "aria-label": "Back"
+      }
+    },
+    {
+      "tag": "button",
+      "text": "",
+      "attrs": {
+        "class": "nav_btn btn_icon btn_right"
+      }
+    },
+    {
+      "tag": "label",
+      "text": "",
+      "attrs": {
+        "class": "switch dayNight",
+        "role": "button",
+        "tabindex": "0",
+        "aria-label": "dark mode"
+      }
+    },
+    {
+      "tag": "button",
+      "text": "",
+      "attrs": {
+        "class": "nav_btn btn_icon btn_right language_btn"
+      }
+    },
+    {
+      "tag": "button",
+      "text": "",
+      "attrs": {
+        "id": "closeButton",
+        "class": "nav_btn btn_icon btn_right nav__close-btn",
+        "data-event": "closeButton",
+        "aria-label": "Select here to close the window."
+      }
+    },
+    {
+      "tag": "button",
+      "text": "",
+      "attrs": {
+        "role": "presentation",
+        "aria-hidden": "true",
+        "class": "nav__pagelevelprogress pagelevelprogress",
+        "aria-label": "Page completion 100%"
+      }
+    },
+    {
+      "tag": "button",
+      "text": "",
+      "attrs": {
+        "tabindex": "-1"
+      }
+    },
+    {
+      "tag": "button",
+      "text": "Connect to a Web Server",
+      "attrs": {
+        "class": "pageTracer-button btn-text btn__action",
+        "title": "Connect to a Web Server",
+        "data-page-tracer-button-id": "0"
+      }
+    },
+    {
+      "tag": "a",
+      "text": "Connect to a Web Server",
+      "attrs": {
+        "class": "download-btn btn-text btn__action",
+        "target": "_blank",
+        "role": "button",
+        "title": "Connect to a Web Server",
+        "href": "./courses/ff9e491c-49be-4734-803e-a79e6e83dab1/f5fe182d-72ea-5f2b-8aa6-73eaf1250ab6/en-US/assets/8.1.3-packet-tracer-connect-to-a-web-server.pka_en-US",
+        "download": "Connect to a Web Server.pka",
+        "data-page-tracer-download-button-id": "0"
+      }
+    },
+    {
+      "tag": "button",
+      "text": "The health gauge reflects your performance during the course You now have 100% health 100",
+      "attrs": {
+        "aria-haspopup": "true",
+        "aria-describedby": "healthgauge-description",
+        "class": "healthgauge-button element-color-control",
+        "aria-label": "Health Gauge",
+        "title": "You now have 100% health"
+      }
+    }
+  ],
+  "inputs": [
+    {
+      "tag": "input",
+      "text": "",
+      "attrs": {
+        "type": "checkbox",
+        "class": "toggleTheme"
+      }
+    },
+    {
+      "tag": "input",
+      "text": "",
+      "attrs": {
+        "tabindex": "-1",
+        "type": "range",
+        "max": "438",
+        "min": "0",
+        "step": "1"
+      }
+    }
+  ],
+  "fieldsets": [],
+  "dataAttrNames": [
+    "data-event",
+    "data-location",
+    "data-page-tracer-button-id",
+    "data-page-tracer-download-button-id",
+    "data-pct",
+    "data-socialgoodpulse-id",
+    "data-text"
+  ],
+  "classPrefixesTop": [
+    [
+      "",
+      61
+    ],
+    [
+      "is-complete",
+      18
+    ],
+    [
+      "block__header",
+      18
+    ],
+    [
+      "tooltip",
+      16
+    ],
+    [
+      "remove-padding-top",
+      16
+    ],
+    [
+      "component__header",
+      15
+    ],
+    [
+      "component__header-container",
+      13
+    ],
+    [
+      "no-element-backgrounds",
+      13
+    ],
+    [
+      "background",
+      11
+    ],
+    [
+      "is",
+      10
+    ],
+    [
+      "component__body",
+      10
+    ],
+    [
+      "tooltip-container",
+      8
+    ],
+    [
+      "material",
+      8
+    ],
+    [
+      "nav_btn",
+      8
+    ],
+    [
+      "article__header",
+      6
+    ],
+    [
+      "block",
+      6
+    ],
+    [
+      "block__inner",
+      6
+    ],
+    [
+      "component__container",
+      6
+    ],
+    [
+      "text",
+      6
+    ],
+    [
+      "component",
+      6
+    ],
+    [
+      "text__header",
+      6
+    ],
+    [
+      "text__body",
+      6
+    ],
+    [
+      "background-color",
+      6
+    ],
+    [
+      "item-color",
+      6
+    ],
+    [
+      "block__title",
+      6
+    ],
+    [
+      "csscolumns",
+      5
+    ],
+    [
+      "nav__inner",
+      5
+    ],
+    [
+      "btn_icon",
+      5
+    ],
+    [
+      "aria",
+      5
+    ],
+    [
+      "component__inner",
+      5
+    ],
+    [
+      "component__content",
+      5
+    ],
+    [
+      "btn_right",
+      4
+    ],
+    [
+      "js",
+      4
+    ],
+    [
+      "js-heading",
+      4
+    ],
+    [
+      "accessibility-completion-indicator",
+      4
+    ],
+    [
+      "btn",
+      3
+    ],
+    [
+      "nav__btn",
+      3
+    ],
+    [
+      "page",
+      3
+    ],
+    [
+      "page__header",
+      3
+    ],
+    [
+      "fa",
+      3
+    ],
+    [
+      "undefined",
+      3
+    ],
+    [
+      "pageTracer",
+      3
+    ],
+    [
+      "loading__image",
+      2
+    ],
+    [
+      "u-display",
+      2
+    ],
+    [
+      "nav__pagelevelprogress",
+      2
+    ],
+    [
+      "page__title",
+      2
+    ],
+    [
+      "page__body",
+      2
+    ],
+    [
+      "article",
+      2
+    ],
+    [
+      "article__inner",
+      2
+    ],
+    [
+      "no-adaptive",
+      2
+    ],
+    [
+      "block__container",
+      2
+    ],
+    [
+      "increase-padding",
+      2
+    ],
+    [
+      "adobe-animate__header",
+      2
+    ],
+    [
+      "adobe-animate__body",
+      2
+    ],
+    [
+      "component__widget",
+      2
+    ],
+    [
+      "range",
+      2
+    ],
+    [
+      "pageTracer__header",
+      2
+    ],
+    [
+      "pageTracer__body",
+      2
+    ],
+    [
+      "btn__action",
+      2
+    ],
+    [
+      "quick_nav",
+      2
+    ],
+    [
+      "healthgauge",
+      2
+    ],
+    [
+      "no-touchevents",
+      1
+    ],
+    [
+      "csscolumns-gap",
+      1
+    ],
+    [
+      "csscolumns-rulecolor",
+      1
+    ],
+    [
+      "csscolumns-rulestyle",
+      1
+    ],
+    [
+      "csscolumns-rulewidth",
+      1
+    ],
+    [
+      "csscolumns-breakbefore",
+      1
+    ],
+    [
+      "csscolumns-breakafter",
+      1
+    ],
+    [
+      "csscolumns-breakinside",
+      1
+    ],
+    [
+      "flexbox",
+      1
+    ],
+    [
+      "flexboxlegacy",
+      1
+    ],
+    [
+      "cssreflections",
+      1
+    ],
+    [
+      "fullscreen",
+      1
+    ],
+    [
+      "chrome",
+      1
+    ],
+    [
+      "version-151.0.0.0",
+      1
+    ],
+    [
+      "OS",
+      1
+    ],
+    [
+      "version-151-0.0.0",
+      1
+    ],
+    [
+      "os",
+      1
+    ],
+    [
+      "pixel-density-low",
+      1
+    ],
+    [
+      "size",
+      1
+    ],
+    [
+      "orientation-landscape",
+      1
+    ],
+    [
+      "block-base",
+      1
+    ],
+    [
+      "no-lang",
+      1
+    ],
+    [
+      "hide__nav-bar",
+      1
+    ],
+    [
+      "dir-ltr",
+      1
+    ],
+    [
+      "light",
+      1
+    ],
+    [
+      "location",
+      1
+    ],
+    [
+      "location-id-848a588b0bc445ebb23e11b6f0d1cc4d",
+      1
+    ],
+    [
+      "vjs-styles-defaults",
+      1
+    ],
+    [
+      "loading__image-before",
+      1
+    ],
+    [
+      "js-loading-before",
+      1
+    ],
+    [
+      "remove",
+      1
+    ],
+    [
+      "loading__wrapper",
+      1
+    ],
+    [
+      "loading__logo",
+      1
+    ],
+    [
+      "course__title",
+      1
+    ],
+    [
+      "course__sub",
+      1
+    ],
+    [
+      "nav",
+      1
+    ],
+    [
+      "hide_nav_bar",
+      1
+    ],
+    [
+      "u-clearfix",
+      1
+    ],
+    [
+      "nav__skip-btn",
+      1
+    ],
+    [
+      "btn_left",
+      1
+    ],
+    [
+      "nav__back-btn",
+      1
+    ],
+    [
+      "js-nav-back-btn",
+      1
+    ],
+    [
+      "theme-appearance",
+      1
+    ],
+    [
+      "switch",
+      1
+    ],
+    [
+      "dayNight",
+      1
+    ],
+    [
+      "toggleTheme",
+      1
+    ],
+    [
+      "language_btn",
+      1
+    ],
+    [
+      "nav__close-btn",
+      1
+    ],
+    [
+      "course-progress",
+      1
+    ],
+    [
+      "radial-progress",
+      1
+    ],
+    [
+      "pagelevelprogress-container",
+      1
+    ],
+    [
+      "pagelevelprogress",
+      1
+    ],
+    [
+      "pagelevelprogress__indicator",
+      1
+    ],
+    [
+      "pagelevelprogress__indicator-bar",
+      1
+    ],
+    [
+      "js-indicator-bar",
+      1
+    ],
+    [
+      "contentobject",
+      1
+    ],
+    [
+      "848a588b0bc445ebb23e11b6f0d1cc4d",
+      1
+    ],
+    [
+      "page-background",
+      1
+    ],
+    [
+      "page-background-image-848a588b0bc445ebb23e11b6f0d1cc4d",
+      1
+    ]
+  ],
+  "scrollers": [
+    {
+      "tag": "html",
+      "id": "",
+      "cls": "no-touchevents csscolumns csscolumns-width csscolumns-span csscolumns-fill csscolumns-gap csscolumns",
+      "sh": 3350,
+      "ch": 667
+    }
+  ],
+  "bodyText": "Module {{_globals._moduleNumber}}: The Internet Protocol Skip navigation arrow_back search language exit_to_app 3 / 4 Complete 8.1. Purpose of an IPv4 Address Complete 8.1. Purpose of an IPv4 Address Explain the purpose of an IPv4 address. 8.1 Purpose of an IPv4 Address Scroll to begin Complete 8.1.1 The IPv4 Address Complete 8.1.1 The IPv4 Address A host needs an IPv4 address to participate on the internet and almost all LANs today. The IPv4 address is a logical network address that identifies a particular host. It must be properly configured and unique within the LAN, for local communication. It must also be properly configured and unique in the world, for remote communication. This is how a host is able to communicate with other devices on the internet. An IPv4 address is assigned to the network interface connection for a host. This connection is usually a network interface card (NIC) installed in the device. Examples of end-user devices with network interfaces include workstations, servers, network printers, and IP phones. Some servers can have more than one NIC and each of these has its own IPv4 address. Router interfaces that provide connections to an IP network will also have an IPv4 address. Every packet sent across the internet has a source and destination IPv4 address. This information is required by networking devices to ensure the information gets to the destination and any replies are returned to the source. Click Play in the figure to see how packets travel across the internet. This animation consists of a user sitting at a desktop p c with I P address 192.168.200.8 which is connected to the internet. The p c is sending packets to a remote web server, www.cisco.com, at IP address 192.168.5.100. Also connected to the internet cloud are two other servers, Business A at 172.16.30.5 and Business B at 10.5.105.50. Internet WWW.CISCO.COM 64.100.0.1 Business A 192.0.0.1 Business B 209.165.200.1 play_circle_filled Complete 8.1.2 Octets and Dotted-Decimal Notation Complete 8.1.2 Octets and Dotted-Decimal Notation IPv4 addresses are 32 bits in length. Here is an IPv4 address in binary: 11010001101001011100100000000001 Notice how difficult this address is to read. Imagine having to configure devices with a series of 32 bits! For this reason, the 32 bits are grouped into four 8-bit bytes called octets like this: 11010001.10100101.11001000.00000001 That's better, but still difficult to read. That's why we convert each octet into its decimal value, separated by a decimal point or period. The above binary IPv4 becomes this dotted-decimal representation: 209.165.200.1 Note : For now, you do not need to know how to convert between binary and decimal number systems. Complete 8.1.3 Packet Tracer - Connect to a Web Server Complete 8.1.3 Packet Tracer - Connect to a Web Server In this activity, you will observe how packets are sent across the internet using IP addresses. description Connect to a Web Server file_download Connect to a Web Server The health gauge reflects your performance during the course You now have 100% health security 100",
+  "outline_status_before": "completed",
+  "outline_status_after": "completed",
+  "top_prev_next": [
+    "Go To 8.0. Introduction",
+    "Go To 8.2. The IPv4 Address Structure"
+  ],
+  "outline_item": {
+    "index": 0,
+    "id": "8.1.1",
+    "title": "The IPv4 Address",
+    "raw_title": "8.1.1 The IPv4 Address",
+    "inferred_type": "content",
+    "status": "start",
+    "key": "10/1/0"
+  }
+}

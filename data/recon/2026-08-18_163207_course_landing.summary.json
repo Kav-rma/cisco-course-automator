@@ -1,0 +1,968 @@
+{
+  "url": "https://www.netacad.com/launch?id=1da0912b-1d6e-4fde-9d99-69c4197d93ca&tab=curriculum&view=b68341af-2e9b-5c55-a01b-52fffe89b7fd",
+  "title": "Cisco Networking Academy: SCSE_FOS_Networking Essentials",
+  "h1": [
+    "SCSE_FOS_Networking Essentials"
+  ],
+  "h2": [
+    "No spaces yet",
+    "Consent Manager",
+    "Consent Manager"
+  ],
+  "iframes": [
+    {
+      "src": "https://www.netacad.com/authoring-resources/index.html?xAPILaunchKey=23e7abb6-b124-404c-b32c-6e271cad8bca&xAPILaunchService=https://www.netacad.com/adl/content/&lang=en-US&moduleNumber=0#/courses/ff9e491c-49be-4734-803e-a79e6e83dab1/843d0f5a-aa74-54e3-a20d-53a6008f7aed/id/6047385b4b69cb19ea4ce492",
+      "id": "",
+      "name": "",
+      "title": "Course content"
+    },
+    {
+      "src": "https://auth.netacad.com/auth/realms/skillsforall/protocol/openid-connect/login-status-iframe.html",
+      "id": "",
+      "name": "",
+      "title": "keycloak-session-iframe"
+    },
+    {
+      "src": "",
+      "id": "",
+      "name": "",
+      "title": "onetrust-text-resize"
+    }
+  ],
+  "roots": [
+    {
+      "tag": "main",
+      "id": "main-content",
+      "cls": "content"
+    }
+  ],
+  "counts": {
+    "nav": 0,
+    "aside": 0,
+    "main": 1,
+    "roleTree": 0,
+    "roleTreeItem": 0,
+    "roleNavigation": 1,
+    "roleButton": 11,
+    "button": 291,
+    "a": 14,
+    "details": 0,
+    "ariaExpanded": 254,
+    "progressbar": 0,
+    "dataTestId": 2,
+    "dataCy": 0,
+    "shadowHosts": 0
+  },
+  "dataAttrNames": [
+    "data-discover",
+    "data-domain-script",
+    "data-marketo-id",
+    "data-marketo-url",
+    "data-md-event-key",
+    "data-nosnippet",
+    "data-optanongroupid",
+    "data-parent-id",
+    "data-percentage",
+    "data-react-helmet",
+    "data-rr-ui-event-key",
+    "data-testid",
+    "data-theme",
+    "data-uuid"
+  ],
+  "navs": [
+    {
+      "tag": "div",
+      "text": "Consent ManagerYour PrivacyStrictly Necessary CookiesPerformance CookiesTargeting CookiesFunctional Cookies",
+      "attrs": {
+        "class": "ot-sdk-four ot-sdk-columns ot-tab-list",
+        "role": "navigation",
+        "aria-label": "Cookie Categories"
+      }
+    }
+  ],
+  "ariaExpanded": [
+    {
+      "tag": "button",
+      "text": "Course Introduction 100%",
+      "attrs": {
+        "class": "nodeInfoContainer--V7fAp btnLink--RBmH- showProgress--paNW+",
+        "aria-expanded": "true",
+        "aria-controls": "node-843d0f5a-aa74-54e3-a20d-53a6008f7aed",
+        "id": "node-button-843d0f5a-aa74-54e3-a20d-53a6008f7aed"
+      }
+    },
+    {
+      "tag": "button",
+      "text": "Course Introduction 3 / 3",
+      "attrs": {
+        "class": "subModuleBtn--lZq5k btnLink--4KCVB",
+        "aria-expanded": "true",
+        "aria-controls": "submodule-843d0f5a-aa74-54e3-a20d-53a6008f7aed",
+        "id": "submodule-button-843d0f5a-aa74-54e3-a20d-53a6008f7aed"
+      }
+    },
+    {
+      "tag": "button",
+      "text": "Module 1: Communication in a Connected World 38%",
+      "attrs": {
+        "class": "nodeInfoContainer--V7fAp btnLink--RBmH- showProgress--paNW+",
+        "aria-expanded": "false",
+        "aria-controls": "node-9f3c61cd-d695-5b71-ab25-8510ed41cc14",
+        "id": "node-button-9f3c61cd-d695-5b71-ab25-8510ed41cc14"
+      }
+    },
+    {
+      "tag": "button",
+      "text": "1.0. Introduction0 / 2",
+      "attrs": {
+        "class": "subModuleBtn--lZq5k btnLink--4KCVB",
+        "aria-expanded": "false",
+        "aria-controls": "submodule-9f3c61cd-d695-5b71-ab25-8510ed41cc14",
+        "id": "submodule-button-9f3c61cd-d695-5b71-ab25-8510ed41cc14"
+      }
+    },
+    {
+      "tag": "button",
+      "text": "1.1. Network Types0 / 8",
+      "attrs": {
+        "class": "subModuleBtn--lZq5k btnLink--4KCVB",
+        "aria-expanded": "false",
+        "aria-controls": "submodule-9f3c61cd-d695-5b71-ab25-8510ed41cc14",
+        "id": "submodule-button-9f3c61cd-d695-5b71-ab25-8510ed41cc14"
+      }
+    },
+    {
+      "tag": "button",
+      "text": "1.2. Data Transmission0 / 4",
+      "attrs": {
+        "class": "subModuleBtn--lZq5k btnLink--4KCVB",
+        "aria-expanded": "false",
+        "aria-controls": "submodule-9f3c61cd-d695-5b71-ab25-8510ed41cc14",
+        "id": "submodule-button-9f3c61cd-d695-5b71-ab25-8510ed41cc14"
+      }
+    },
+    {
+      "tag": "button",
+      "text": "1.3. Bandwidth and Throughput0 / 4",
+      "attrs": {
+        "class": "subModuleBtn--lZq5k btnLink--4KCVB",
+        "aria-expanded": "false",
+        "aria-controls": "submodule-9f3c61cd-d695-5b71-ab25-8510ed41cc14",
+        "id": "submodule-button-9f3c61cd-d695-5b71-ab25-8510ed41cc14"
+      }
+    },
+    {
+      "tag": "button",
+      "text": "1.4. Communications in a Connected World Summary0 / 3",
+      "attrs": {
+        "class": "subModuleBtn--lZq5k btnLink--4KCVB",
+        "aria-expanded": "false",
+        "aria-controls": "submodule-9f3c61cd-d695-5b71-ab25-8510ed41cc14",
+        "id": "submodule-button-9f3c61cd-d695-5b71-ab25-8510ed41cc14"
+      }
+    },
+    {
+      "tag": "button",
+      "text": "Module 2: Network Components, Types, and Connections 31%",
+      "attrs": {
+        "class": "nodeInfoContainer--V7fAp btnLink--RBmH- showProgress--paNW+",
+        "aria-expanded": "false",
+        "aria-controls": "node-13043ec5-e4c1-52e4-9ae4-b6baf0b126ae",
+        "id": "node-button-13043ec5-e4c1-52e4-9ae4-b6baf0b126ae"
+      }
+    },
+    {
+      "tag": "button",
+      "text": "2.0. Introduction0 / 2",
+      "attrs": {
+        "class": "subModuleBtn--lZq5k btnLink--4KCVB",
+        "aria-expanded": "false",
+        "aria-controls": "submodule-13043ec5-e4c1-52e4-9ae4-b6baf0b126ae",
+        "id": "submodule-button-13043ec5-e4c1-52e4-9ae4-b6baf0b126ae"
+      }
+    },
+    {
+      "tag": "button",
+      "text": "2.1. Clients and Servers0 / 6",
+      "attrs": {
+        "class": "subModuleBtn--lZq5k btnLink--4KCVB",
+        "aria-expanded": "false",
+        "aria-controls": "submodule-13043ec5-e4c1-52e4-9ae4-b6baf0b126ae",
+        "id": "submodule-button-13043ec5-e4c1-52e4-9ae4-b6baf0b126ae"
+      }
+    },
+    {
+      "tag": "button",
+      "text": "2.2. Network Components0 / 4",
+      "attrs": {
+        "class": "subModuleBtn--lZq5k btnLink--4KCVB",
+        "aria-expanded": "false",
+        "aria-controls": "submodule-13043ec5-e4c1-52e4-9ae4-b6baf0b126ae",
+        "id": "submodule-button-13043ec5-e4c1-52e4-9ae4-b6baf0b126ae"
+      }
+    },
+    {
+      "tag": "button",
+      "text": "2.3. ISP Connectivity Options0 / 5",
+      "attrs": {
+        "class": "subModuleBtn--lZq5k btnLink--4KCVB",
+        "aria-expanded": "false",
+        "aria-controls": "submodule-13043ec5-e4c1-52e4-9ae4-b6baf0b126ae",
+        "id": "submodule-button-13043ec5-e4c1-52e4-9ae4-b6baf0b126ae"
+      }
+    },
+    {
+      "tag": "button",
+      "text": "2.4. Network Components, Types, and Connections Summary0 / 3",
+      "attrs": {
+        "class": "subModuleBtn--lZq5k btnLink--4KCVB",
+        "aria-expanded": "false",
+        "aria-controls": "submodule-13043ec5-e4c1-52e4-9ae4-b6baf0b126ae",
+        "id": "submodule-button-13043ec5-e4c1-52e4-9ae4-b6baf0b126ae"
+      }
+    },
+    {
+      "tag": "button",
+      "text": "Module 3: Wireless and Mobile Networks 25%",
+      "attrs": {
+        "class": "nodeInfoContainer--V7fAp btnLink--RBmH- showProgress--paNW+",
+        "aria-expanded": "false",
+        "aria-controls": "node-8bd51e4d-127e-5c87-96cc-be67cae544c9",
+        "id": "node-button-8bd51e4d-127e-5c87-96cc-be67cae544c9"
+      }
+    },
+    {
+      "tag": "button",
+      "text": "3.0. Introduction0 / 2",
+      "attrs": {
+        "class": "subModuleBtn--lZq5k btnLink--4KCVB",
+        "aria-expanded": "false",
+        "aria-controls": "submodule-8bd51e4d-127e-5c87-96cc-be67cae544c9",
+        "id": "submodule-button-8bd51e4d-127e-5c87-96cc-be67cae544c9"
+      }
+    },
+    {
+      "tag": "button",
+      "text": "3.1. Wireless Networks0 / 4",
+      "attrs": {
+        "class": "subModuleBtn--lZq5k btnLink--4KCVB",
+        "aria-expanded": "false",
+        "aria-controls": "submodule-8bd51e4d-127e-5c87-96cc-be67cae544c9",
+        "id": "submodule-button-8bd51e4d-127e-5c87-96cc-be67cae544c9"
+      }
+    },
+    {
+      "tag": "button",
+      "text": "3.2. Mobile Device Connectivity0 / 8",
+      "attrs": {
+        "class": "subModuleBtn--lZq5k btnLink--4KCVB",
+        "aria-expanded": "false",
+        "aria-controls": "submodule-8bd51e4d-127e-5c87-96cc-be67cae544c9",
+        "id": "submodule-button-8bd51e4d-127e-5c87-96cc-be67cae544c9"
+      }
+    },
+    {
+      "tag": "button",
+      "text": "3.3. Wireless and Mobile Networks Summary0 / 3",
+      "attrs": {
+        "class": "subModuleBtn--lZq5k btnLink--4KCVB",
+        "aria-expanded": "false",
+        "aria-controls": "submodule-8bd51e4d-127e-5c87-96cc-be67cae544c9",
+        "id": "submodule-button-8bd51e4d-127e-5c87-96cc-be67cae544c9"
+      }
+    },
+    {
+      "tag": "button",
+      "text": "Module 4: Build a Home Network",
+      "attrs": {
+        "class": "nodeInfoContainer--V7fAp btnLink--RBmH-",
+        "aria-expanded": "false",
+        "aria-controls": "node-395d598a-b984-52db-8c05-c4535854f99f",
+        "id": "node-button-395d598a-b984-52db-8c05-c4535854f99f"
+      }
+    },
+    {
+      "tag": "button",
+      "text": "4.0. Introduction0 / 2",
+      "attrs": {
+        "class": "subModuleBtn--lZq5k btnLink--4KCVB",
+        "aria-expanded": "false",
+        "aria-controls": "submodule-395d598a-b984-52db-8c05-c4535854f99f",
+        "id": "submodule-button-395d598a-b984-52db-8c05-c4535854f99f"
+      }
+    },
+    {
+      "tag": "button",
+      "text": "4.1. Home Network Basics0 / 4",
+      "attrs": {
+        "class": "subModuleBtn--lZq5k btnLink--4KCVB",
+        "aria-expanded": "false",
+        "aria-controls": "submodule-395d598a-b984-52db-8c05-c4535854f99f",
+        "id": "submodule-button-395d598a-b984-52db-8c05-c4535854f99f"
+      }
+    },
+    {
+      "tag": "button",
+      "text": "4.2. Network Technologies in the Home0 / 3",
+      "attrs": {
+        "class": "subModuleBtn--lZq5k btnLink--4KCVB",
+        "aria-expanded": "false",
+        "aria-controls": "submodule-395d598a-b984-52db-8c05-c4535854f99f",
+        "id": "submodule-button-395d598a-b984-52db-8c05-c4535854f99f"
+      }
+    },
+    {
+      "tag": "button",
+      "text": "4.3. Wireless Standards0 / 3",
+      "attrs": {
+        "class": "subModuleBtn--lZq5k btnLink--4KCVB",
+        "aria-expanded": "false",
+        "aria-controls": "submodule-395d598a-b984-52db-8c05-c4535854f99f",
+        "id": "submodule-button-395d598a-b984-52db-8c05-c4535854f99f"
+      }
+    },
+    {
+      "tag": "button",
+      "text": "4.4. Set Up a Home Router0 / 4",
+      "attrs": {
+        "class": "subModuleBtn--lZq5k btnLink--4KCVB",
+        "aria-expanded": "false",
+        "aria-controls": "submodule-395d598a-b984-52db-8c05-c4535854f99f",
+        "id": "submodule-button-395d598a-b984-52db-8c05-c4535854f99f"
+      }
+    },
+    {
+      "tag": "button",
+      "text": "4.5. Build a Home Network Summary0 / 3",
+      "attrs": {
+        "class": "subModuleBtn--lZq5k btnLink--4KCVB",
+        "aria-expanded": "false",
+        "aria-controls": "submodule-395d598a-b984-52db-8c05-c4535854f99f",
+        "id": "submodule-button-395d598a-b984-52db-8c05-c4535854f99f"
+      }
+    },
+    {
+      "tag": "button",
+      "text": "Checkpoint Exam: Build a Small Network",
+      "attrs": {
+        "class": "nodeInfoContainer--V7fAp btnLink--RBmH-",
+        "aria-expanded": "false",
+        "aria-controls": "node-6a1b47bd-326d-5585-91a3-accbfa815d19",
+        "id": "node-button-6a1b47bd-326d-5585-91a3-accbfa815d19"
+      }
+    },
+    {
+      "tag": "button",
+      "text": "Module 5: Communication Principles",
+      "attrs": {
+        "class": "nodeInfoContainer--V7fAp btnLink--RBmH-",
+        "aria-expanded": "false",
+        "aria-controls": "node-f8a4f5e0-e74d-5b96-aa5e-d2dad5d3ed03",
+        "id": "node-button-f8a4f5e0-e74d-5b96-aa5e-d2dad5d3ed03"
+      }
+    },
+    {
+      "tag": "button",
+      "text": "5.0. Introduction0 / 2",
+      "attrs": {
+        "class": "subModuleBtn--lZq5k btnLink--4KCVB",
+        "aria-expanded": "false",
+        "aria-controls": "submodule-f8a4f5e0-e74d-5b96-aa5e-d2dad5d3ed03",
+        "id": "submodule-button-f8a4f5e0-e74d-5b96-aa5e-d2dad5d3ed03"
+      }
+    },
+    {
+      "tag": "button",
+      "text": "5.1. Communication Protocols0 / 3",
+      "attrs": {
+        "class": "subModuleBtn--lZq5k btnLink--4KCVB",
+        "aria-expanded": "false",
+        "aria-controls": "submodule-f8a4f5e0-e74d-5b96-aa5e-d2dad5d3ed03",
+        "id": "submodule-button-f8a4f5e0-e74d-5b96-aa5e-d2dad5d3ed03"
+      }
+    },
+    {
+      "tag": "button",
+      "text": "5.2. Communication Standards0 / 4",
+      "attrs": {
+        "class": "subModuleBtn--lZq5k btnLink--4KCVB",
+        "aria-expanded": "false",
+        "aria-controls": "submodule-f8a4f5e0-e74d-5b96-aa5e-d2dad5d3ed03",
+        "id": "submodule-button-f8a4f5e0-e74d-5b96-aa5e-d2dad5d3ed03"
+      }
+    },
+    {
+      "tag": "button",
+      "text": "5.3. Network Communication Models0 / 6",
+      "attrs": {
+        "class": "subModuleBtn--lZq5k btnLink--4KCVB",
+        "aria-expanded": "false",
+        "aria-controls": "submodule-f8a4f5e0-e74d-5b96-aa5e-d2dad5d3ed03",
+        "id": "submodule-button-f8a4f5e0-e74d-5b96-aa5e-d2dad5d3ed03"
+      }
+    },
+    {
+      "tag": "button",
+      "text": "5.4. Communication Principles Summary0 / 3",
+      "attrs": {
+        "class": "subModuleBtn--lZq5k btnLink--4KCVB",
+        "aria-expanded": "false",
+        "aria-controls": "submodule-f8a4f5e0-e74d-5b96-aa5e-d2dad5d3ed03",
+        "id": "submodule-button-f8a4f5e0-e74d-5b96-aa5e-d2dad5d3ed03"
+      }
+    },
+    {
+      "tag": "button",
+      "text": "Module 6: Network Media",
+      "attrs": {
+        "class": "nodeInfoContainer--V7fAp btnLink--RBmH-",
+        "aria-expanded": "false",
+        "aria-controls": "node-d53c45ae-95d2-5826-84a1-d12e9d80cc9e",
+        "id": "node-button-d53c45ae-95d2-5826-84a1-d12e9d80cc9e"
+      }
+    },
+    {
+      "tag": "button",
+      "text": "6.0. Introduction0 / 2",
+      "attrs": {
+        "class": "subModuleBtn--lZq5k btnLink--4KCVB",
+        "aria-expanded": "false",
+        "aria-controls": "submodule-d53c45ae-95d2-5826-84a1-d12e9d80cc9e",
+        "id": "submodule-button-d53c45ae-95d2-5826-84a1-d12e9d80cc9e"
+      }
+    },
+    {
+      "tag": "button",
+      "text": "6.1. Network Media Types0 / 4",
+      "attrs": {
+        "class": "subModuleBtn--lZq5k btnLink--4KCVB",
+        "aria-expanded": "false",
+        "aria-controls": "submodule-d53c45ae-95d2-5826-84a1-d12e9d80cc9e",
+        "id": "submodule-button-d53c45ae-95d2-5826-84a1-d12e9d80cc9e"
+      }
+    },
+    {
+      "tag": "button",
+      "text": "6.2. Network Media Summary0 / 3",
+      "attrs": {
+        "class": "subModuleBtn--lZq5k btnLink--4KCVB",
+        "aria-expanded": "false",
+        "aria-controls": "submodule-d53c45ae-95d2-5826-84a1-d12e9d80cc9e",
+        "id": "submodule-button-d53c45ae-95d2-5826-84a1-d12e9d80cc9e"
+      }
+    },
+    {
+      "tag": "button",
+      "text": "Module 7: The Access Layer",
+      "attrs": {
+        "class": "nodeInfoContainer--V7fAp btnLink--RBmH-",
+        "aria-expanded": "false",
+        "aria-controls": "node-17d7b896-17fd-5b39-8c58-742915d16ab6",
+        "id": "node-button-17d7b896-17fd-5b39-8c58-742915d16ab6"
+      }
+    },
+    {
+      "tag": "button",
+      "text": "7.0. Introduction0 / 2",
+      "attrs": {
+        "class": "subModuleBtn--lZq5k btnLink--4KCVB",
+        "aria-expanded": "false",
+        "aria-controls": "submodule-17d7b896-17fd-5b39-8c58-742915d16ab6",
+        "id": "submodule-button-17d7b896-17fd-5b39-8c58-742915d16ab6"
+      }
+    },
+    {
+      "tag": "button",
+      "text": "7.1. Encapsulation and the Ethernet Frame0 / 3",
+      "attrs": {
+        "class": "subModuleBtn--lZq5k btnLink--4KCVB",
+        "aria-expanded": "false",
+        "aria-controls": "submodule-17d7b896-17fd-5b39-8c58-742915d16ab6",
+        "id": "submodule-button-17d7b896-17fd-5b39-8c58-742915d16ab6"
+      }
+    },
+    {
+      "tag": "button",
+      "text": "7.2. The Access Layer0 / 3",
+      "attrs": {
+        "class": "subModuleBtn--lZq5k btnLink--4KCVB",
+        "aria-expanded": "false",
+        "aria-controls": "submodule-17d7b896-17fd-5b39-8c58-742915d16ab6",
+        "id": "submodule-button-17d7b896-17fd-5b39-8c58-742915d16ab6"
+      }
+    },
+    {
+      "tag": "button",
+      "text": "7.3. The Access Layer Summary0 / 3",
+      "attrs": {
+        "class": "subModuleBtn--lZq5k btnLink--4KCVB",
+        "aria-expanded": "false",
+        "aria-controls": "submodule-17d7b896-17fd-5b39-8c58-742915d16ab6",
+        "id": "submodule-button-17d7b896-17fd-5b39-8c58-742915d16ab6"
+      }
+    },
+    {
+      "tag": "button",
+      "text": "Checkpoint Exam: Network Access",
+      "attrs": {
+        "class": "nodeInfoContainer--V7fAp btnLink--RBmH-",
+        "aria-expanded": "false",
+        "aria-controls": "node-a13c3ee3-8110-564d-bfe6-2c0bcdb51f11",
+        "id": "node-button-a13c3ee3-8110-564d-bfe6-2c0bcdb51f11"
+      }
+    },
+    {
+      "tag": "button",
+      "text": "Module 8: The Internet Protocol",
+      "attrs": {
+        "class": "nodeInfoContainer--V7fAp btnLink--RBmH-",
+        "aria-expanded": "false",
+        "aria-controls": "node-f5fe182d-72ea-5f2b-8aa6-73eaf1250ab6",
+        "id": "node-button-f5fe182d-72ea-5f2b-8aa6-73eaf1250ab6"
+      }
+    },
+    {
+      "tag": "button",
+      "text": "8.0. Introduction0 / 2",
+      "attrs": {
+        "class": "subModuleBtn--lZq5k btnLink--4KCVB",
+        "aria-expanded": "false",
+        "aria-controls": "submodule-f5fe182d-72ea-5f2b-8aa6-73eaf1250ab6",
+        "id": "submodule-button-f5fe182d-72ea-5f2b-8aa6-73eaf1250ab6"
+      }
+    },
+    {
+      "tag": "button",
+      "text": "8.1. Purpose of an IPv4 Address0 / 3",
+      "attrs": {
+        "class": "subModuleBtn--lZq5k btnLink--4KCVB",
+        "aria-expanded": "false",
+        "aria-controls": "submodule-f5fe182d-72ea-5f2b-8aa6-73eaf1250ab6",
+        "id": "submodule-button-f5fe182d-72ea-5f2b-8aa6-73eaf1250ab6"
+      }
+    },
+    {
+      "tag": "button",
+      "text": "8.2. The IPv4 Address Structure0 / 3",
+      "attrs": {
+        "class": "subModuleBtn--lZq5k btnLink--4KCVB",
+        "aria-expanded": "false",
+        "aria-controls": "submodule-f5fe182d-72ea-5f2b-8aa6-73eaf1250ab6",
+        "id": "submodule-button-f5fe182d-72ea-5f2b-8aa6-73eaf1250ab6"
+      }
+    },
+    {
+      "tag": "button",
+      "text": "8.3. The Internet Protocol Summary0 / 3",
+      "attrs": {
+        "class": "subModuleBtn--lZq5k btnLink--4KCVB",
+        "aria-expanded": "false",
+        "aria-controls": "submodule-f5fe182d-72ea-5f2b-8aa6-73eaf1250ab6",
+        "id": "submodule-button-f5fe182d-72ea-5f2b-8aa6-73eaf1250ab6"
+      }
+    },
+    {
+      "tag": "button",
+      "text": "Module 9: IPv4 and Network Segmentation",
+      "attrs": {
+        "class": "nodeInfoContainer--V7fAp btnLink--RBmH-",
+        "aria-expanded": "false",
+        "aria-controls": "node-dd16f5d1-3724-5c01-9c2f-15a7a39338e5",
+        "id": "node-button-dd16f5d1-3724-5c01-9c2f-15a7a39338e5"
+      }
+    },
+    {
+      "tag": "button",
+      "text": "9.0. Introduction0 / 2",
+      "attrs": {
+        "class": "subModuleBtn--lZq5k btnLink--4KCVB",
+        "aria-expanded": "false",
+        "aria-controls": "submodule-dd16f5d1-3724-5c01-9c2f-15a7a39338e5",
+        "id": "submodule-button-dd16f5d1-3724-5c01-9c2f-15a7a39338e5"
+      }
+    },
+    {
+      "tag": "button",
+      "text": "9.1. IPv4 Unicast, Broadcast, and Multicast0 / 7",
+      "attrs": {
+        "class": "subModuleBtn--lZq5k btnLink--4KCVB",
+        "aria-expanded": "false",
+        "aria-controls": "submodule-dd16f5d1-3724-5c01-9c2f-15a7a39338e5",
+        "id": "submodule-button-dd16f5d1-3724-5c01-9c2f-15a7a39338e5"
+      }
+    },
+    {
+      "tag": "button",
+      "text": "9.2. Types of IPv4 Addresses0 / 8",
+      "attrs": {
+        "class": "subModuleBtn--lZq5k btnLink--4KCVB",
+        "aria-expanded": "false",
+        "aria-controls": "submodule-dd16f5d1-3724-5c01-9c2f-15a7a39338e5",
+        "id": "submodule-button-dd16f5d1-3724-5c01-9c2f-15a7a39338e5"
+      }
+    },
+    {
+      "tag": "button",
+      "text": "9.3. Network Segmentation0 / 5",
+      "attrs": {
+        "class": "subModuleBtn--lZq5k btnLink--4KCVB",
+        "aria-expanded": "false",
+        "aria-controls": "submodule-dd16f5d1-3724-5c01-9c2f-15a7a39338e5",
+        "id": "submodule-button-dd16f5d1-3724-5c01-9c2f-15a7a39338e5"
+      }
+    },
+    {
+      "tag": "button",
+      "text": "9.4. IPv4 and Network Segmentation Summary0 / 3",
+      "attrs": {
+        "class": "subModuleBtn--lZq5k btnLink--4KCVB",
+        "aria-expanded": "false",
+        "aria-controls": "submodule-dd16f5d1-3724-5c01-9c2f-15a7a39338e5",
+        "id": "submodule-button-dd16f5d1-3724-5c01-9c2f-15a7a39338e5"
+      }
+    },
+    {
+      "tag": "button",
+      "text": "Module 10: IPv6 Addressing Formats and Rules",
+      "attrs": {
+        "class": "nodeInfoContainer--V7fAp btnLink--RBmH-",
+        "aria-expanded": "false",
+        "aria-controls": "node-e6f2e2e1-8b46-5ba3-aea3-55c2c98cd7c5",
+        "id": "node-button-e6f2e2e1-8b46-5ba3-aea3-55c2c98cd7c5"
+      }
+    },
+    {
+      "tag": "button",
+      "text": "10.0. Introduction0 / 2",
+      "attrs": {
+        "class": "subModuleBtn--lZq5k btnLink--4KCVB",
+        "aria-expanded": "false",
+        "aria-controls": "submodule-e6f2e2e1-8b46-5ba3-aea3-55c2c98cd7c5",
+        "id": "submodule-button-e6f2e2e1-8b46-5ba3-aea3-55c2c98cd7c5"
+      }
+    },
+    {
+      "tag": "button",
+      "text": "10.1. IPv4 Issues0 / 3",
+      "attrs": {
+        "class": "subModuleBtn--lZq5k btnLink--4KCVB",
+        "aria-expanded": "false",
+        "aria-controls": "submodule-e6f2e2e1-8b46-5ba3-aea3-55c2c98cd7c5",
+        "id": "submodule-button-e6f2e2e1-8b46-5ba3-aea3-55c2c98cd7c5"
+      }
+    },
+    {
+      "tag": "button",
+      "text": "10.2. IPv6 Addressing0 / 6",
+      "attrs": {
+        "class": "subModuleBtn--lZq5k btnLink--4KCVB",
+        "aria-expanded": "false",
+        "aria-controls": "submodule-e6f2e2e1-8b46-5ba3-aea3-55c2c98cd7c5",
+        "id": "submodule-button-e6f2e2e1-8b46-5ba3-aea3-55c2c98cd7c5"
+      }
+    },
+    {
+      "tag": "button",
+      "text": "10.3. IPv6 Addressing Formats and Rules Summary0 / 3",
+      "attrs": {
+        "class": "subModuleBtn--lZq5k btnLink--4KCVB",
+        "aria-expanded": "false",
+        "aria-controls": "submodule-e6f2e2e1-8b46-5ba3-aea3-55c2c98cd7c5",
+        "id": "submodule-button-e6f2e2e1-8b46-5ba3-aea3-55c2c98cd7c5"
+      }
+    },
+    {
+      "tag": "button",
+      "text": "Module 11: Dynamic Addressing with DHCP",
+      "attrs": {
+        "class": "nodeInfoContainer--V7fAp btnLink--RBmH-",
+        "aria-expanded": "false",
+        "aria-controls": "node-ffd8373d-9f54-5e6b-ba58-9c42334f1cd1",
+        "id": "node-button-ffd8373d-9f54-5e6b-ba58-9c42334f1cd1"
+      }
+    },
+    {
+      "tag": "button",
+      "text": "11.0. Introduction0 / 2",
+      "attrs": {
+        "class": "subModuleBtn--lZq5k btnLink--4KCVB",
+        "aria-expanded": "false",
+        "aria-controls": "submodule-ffd8373d-9f54-5e6b-ba58-9c42334f1cd1",
+        "id": "submodule-button-ffd8373d-9f54-5e6b-ba58-9c42334f1cd1"
+      }
+    },
+    {
+      "tag": "button",
+      "text": "11.1. Static and Dynamic Addressing0 / 4",
+      "attrs": {
+        "class": "subModuleBtn--lZq5k btnLink--4KCVB",
+        "aria-expanded": "false",
+        "aria-controls": "submodule-ffd8373d-9f54-5e6b-ba58-9c42334f1cd1",
+        "id": "submodule-button-ffd8373d-9f54-5e6b-ba58-9c42334f1cd1"
+      }
+    },
+    {
+      "tag": "button",
+      "text": "11.2. DHCPv4 Configuration0 / 3",
+      "attrs": {
+        "class": "subModuleBtn--lZq5k btnLink--4KCVB",
+        "aria-expanded": "false",
+        "aria-controls": "submodule-ffd8373d-9f54-5e6b-ba58-9c42334f1cd1",
+        "id": "submodule-button-ffd8373d-9f54-5e6b-ba58-9c42334f1cd1"
+      }
+    },
+    {
+      "tag": "button",
+      "text": "11.3. Dynamic Addressing with DHCP Summary0 / 3",
+      "attrs": {
+        "class": "subModuleBtn--lZq5k btnLink--4KCVB",
+        "aria-expanded": "false",
+        "aria-controls": "submodule-ffd8373d-9f54-5e6b-ba58-9c42334f1cd1",
+        "id": "submodule-button-ffd8373d-9f54-5e6b-ba58-9c42334f1cd1"
+      }
+    },
+    {
+      "tag": "button",
+      "text": "Checkpoint Exam: The Internet Protocol",
+      "attrs": {
+        "class": "nodeInfoContainer--V7fAp btnLink--RBmH-",
+        "aria-expanded": "false",
+        "aria-controls": "node-b4d3c9db-268b-5389-979a-0b9dc59349ce",
+        "id": "node-button-b4d3c9db-268b-5389-979a-0b9dc59349ce"
+      }
+    },
+    {
+      "tag": "button",
+      "text": "Module 12: Gateways to Other Networks",
+      "attrs": {
+        "class": "nodeInfoContainer--V7fAp btnLink--RBmH-",
+        "aria-expanded": "false",
+        "aria-controls": "node-fc9d042c-f1fc-53fc-8a52-31d36e68ff58",
+        "id": "node-button-fc9d042c-f1fc-53fc-8a52-31d36e68ff58"
+      }
+    },
+    {
+      "tag": "button",
+      "text": "12.0. Introduction0 / 2",
+      "attrs": {
+        "class": "subModuleBtn--lZq5k btnLink--4KCVB",
+        "aria-expanded": "false",
+        "aria-controls": "submodule-fc9d042c-f1fc-53fc-8a52-31d36e68ff58",
+        "id": "submodule-button-fc9d042c-f1fc-53fc-8a52-31d36e68ff58"
+      }
+    },
+    {
+      "tag": "button",
+      "text": "12.1. Network Boundaries0 / 4",
+      "attrs": {
+        "class": "subModuleBtn--lZq5k btnLink--4KCVB",
+        "aria-expanded": "false",
+        "aria-controls": "submodule-fc9d042c-f1fc-53fc-8a52-31d36e68ff58",
+        "id": "submodule-button-fc9d042c-f1fc-53fc-8a52-31d36e68ff58"
+      }
+    },
+    {
+      "tag": "button",
+      "text": "12.2. Network Address Translation0 / 2",
+      "attrs": {
+        "class": "subModuleBtn--lZq5k btnLink--4KCVB",
+        "aria-expanded": "false",
+        "aria-controls": "submodule-fc9d042c-f1fc-53fc-8a52-31d36e68ff58",
+        "id": "submodule-button-fc9d042c-f1fc-53fc-8a52-31d36e68ff58"
+      }
+    },
+    {
+      "tag": "button",
+      "text": "12.3. Gateways to Other Networks Summary0 / 3",
+      "attrs": {
+        "class": "subModuleBtn--lZq5k btnLink--4KCVB",
+        "aria-expanded": "false",
+        "aria-controls": "submodule-fc9d042c-f1fc-53fc-8a52-31d36e68ff58",
+        "id": "submodule-button-fc9d042c-f1fc-53fc-8a52-31d36e68ff58"
+      }
+    },
+    {
+      "tag": "button",
+      "text": "Module 13: The ARP Process",
+      "attrs": {
+        "class": "nodeInfoContainer--V7fAp btnLink--RBmH-",
+        "aria-expanded": "false",
+        "aria-controls": "node-4224986c-47fc-5741-a6e0-a00514c2a4f3",
+        "id": "node-button-4224986c-47fc-5741-a6e0-a00514c2a4f3"
+      }
+    },
+    {
+      "tag": "button",
+      "text": "13.0. Introduction0 / 2",
+      "attrs": {
+        "class": "subModuleBtn--lZq5k btnLink--4KCVB",
+        "aria-expanded": "false",
+        "aria-controls": "submodule-4224986c-47fc-5741-a6e0-a00514c2a4f3",
+        "id": "submodule-button-4224986c-47fc-5741-a6e0-a00514c2a4f3"
+      }
+    },
+    {
+      "tag": "button",
+      "text": "13.1. MAC and IP0 / 4",
+      "attrs": {
+        "class": "subModuleBtn--lZq5k btnLink--4KCVB",
+        "aria-expanded": "false",
+        "aria-controls": "submodule-4224986c-47fc-5741-a6e0-a00514c2a4f3",
+        "id": "submodule-button-4224986c-47fc-5741-a6e0-a00514c2a4f3"
+      }
+    },
+    {
+      "tag": "button",
+      "text": "13.2. Broadcast Containment0 / 6",
+      "attrs": {
+        "class": "subModuleBtn--lZq5k btnLink--4KCVB",
+        "aria-expanded": "false",
+        "aria-controls": "submodule-4224986c-47fc-5741-a6e0-a00514c2a4f3",
+        "id": "submodule-button-4224986c-47fc-5741-a6e0-a00514c2a4f3"
+      }
+    },
+    {
+      "tag": "button",
+      "text": "13.3. The ARP Process Summary0 / 3",
+      "attrs": {
+        "class": "subModuleBtn--lZq5k btnLink--4KCVB",
+        "aria-expanded": "false",
+        "aria-controls": "submodule-4224986c-47fc-5741-a6e0-a00514c2a4f3",
+        "id": "submodule-button-4224986c-47fc-5741-a6e0-a00514c2a4f3"
+      }
+    },
+    {
+      "tag": "button",
+      "text": "Module 14: Routing Between Networks",
+      "attrs": {
+        "class": "nodeInfoContainer--V7fAp btnLink--RBmH-",
+        "aria-expanded": "false",
+        "aria-controls": "node-fe0cabb8-fcf6-525c-bc2b-27f8f02afe1b",
+        "id": "node-button-fe0cabb8-fcf6-525c-bc2b-27f8f02afe1b"
+      }
+    },
+    {
+      "tag": "button",
+      "text": "14.0. Introduction0 / 2",
+      "attrs": {
+        "class": "subModuleBtn--lZq5k btnLink--4KCVB",
+        "aria-expanded": "false",
+        "aria-controls": "submodule-fe0cabb8-fcf6-525c-bc2b-27f8f02afe1b",
+        "id": "submodule-button-fe0cabb8-fcf6-525c-bc2b-27f8f02afe1b"
+      }
+    },
+    {
+      "tag": "button",
+      "text": "14.1. The Need for Routing0 / 3",
+      "attrs": {
+        "class": "subModuleBtn--lZq5k btnLink--4KCVB",
+        "aria-expanded": "false",
+        "aria-controls": "submodule-fe0cabb8-fcf6-525c-bc2b-27f8f02afe1b",
+        "id": "submodule-button-fe0cabb8-fcf6-525c-bc2b-27f8f02afe1b"
+      }
+    },
+    {
+      "tag": "button",
+      "text": "14.2. The Routing Table0 / 7",
+      "attrs": {
+        "class": "subModuleBtn--lZq5k btnLink--4KCVB",
+        "aria-expanded": "false",
+        "aria-controls": "submodule-fe0cabb8-fcf6-525c-bc2b-27f8f02afe1b",
+        "id": "submodule-button-fe0cabb8-fcf6-525c-bc2b-27f8f02afe1b"
+      }
+    },
+    {
+      "tag": "button",
+      "text": "14.3. Create a LAN0 / 4",
+      "attrs": {
+        "class": "subModuleBtn--lZq5k btnLink--4KCVB",
+        "aria-expanded": "false",
+        "aria-controls": "submodule-fe0cabb8-fcf6-525c-bc2b-27f8f02afe1b",
+        "id": "submodule-button-fe0cabb8-fcf6-525c-bc2b-27f8f02afe1b"
+      }
+    }
+  ],
+  "testIds": [
+    {
+      "tag": "button",
+      "text": "",
+      "attrs": {
+        "id": "expandArrow",
+        "data-testid": "expandArrow",
+        "class": "collapseIcon--LbGmv left--1hLco btn btn--link",
+        "type": "submit"
+      }
+    },
+    {
+      "tag": "button",
+      "text": "",
+      "attrs": {
+        "id": "fullscreenBtn",
+        "data-testid": "fullscreenBtn",
+        "class": "fullscreenBtn---FJse btn btn--link",
+        "type": "submit"
+      }
+    }
+  ],
+  "progress": [],
+  "moduleLines": [
+    "Course Introduction",
+    "Course Introduction",
+    "3 / 3",
+    "Module 1: Communication in a Connected World",
+    "Module 2: Network Components, Types, and Connections",
+    "Module 3: Wireless and Mobile Networks",
+    "Module 4: Build a Home Network",
+    "Checkpoint Exam: Build a Small Network",
+    "Module 5: Communication Principles",
+    "Module 6: Network Media",
+    "Module 7: The Access Layer",
+    "Checkpoint Exam: Network Access",
+    "Module 8: The Internet Protocol",
+    "Module 9: IPv4 and Network Segmentation",
+    "Module 10: IPv6 Addressing Formats and Rules",
+    "Module 11: Dynamic Addressing with DHCP",
+    "Checkpoint Exam: The Internet Protocol",
+    "Module 12: Gateways to Other Networks",
+    "Module 13: The ARP Process",
+    "Module 14: Routing Between Networks",
+    "Checkpoint Exam: Communication Between Networks",
+    "Module 15: TCP and UDP",
+    "Module 16: Application Layer Services",
+    "Module 17: Network Testing Utilities",
+    "Checkpoint Exam: Protocols for Specific Tasks",
+    "Module 18: Network Design",
+    "Module 19: Cloud and Virtualization",
+    "Module 20: Number Systems",
+    "Checkpoint Exam: Characteristics of Network Design",
+    "Module 21: Ethernet Switching",
+    "Module 22: Network Layer",
+    "Module 23: IPv4 Address Structure",
+    "Checkpoint Exam: Network Addressing",
+    "Module 24: Address Resolution",
+    "Module 25: IP Addressing Services",
+    "Module 26: Transport Layer",
+    "Checkpoint Exam: ARP, DNS, DHCP and the Transport Layer",
+    "Module 27: The Cisco IOS Command Line",
+    "Module 28: Build a Small Cisco Network",
+    "Module 29: ICMP",
+    "Checkpoint Exam: Configure Cisco Devices",
+    "Module 30: Physical Layer",
+    "Module 31: Data Link Layer",
+    "Module 32: Routing at the Network Layer",
+    "Checkpoint Exam: Physical, Data Link, and Network Layers",
+    "Module 33: IPv6 Addressing",
+    "Module 34: IPv6 Neighbor Discovery",
+    "Checkpoint Exam: IP Addressing",
+    "Module 35: Cisco Switches and Routers",
+    "Module 36: Troubleshoot Common Network Problems",
+    "Checkpoint Exam: Cisco Devices and Troubleshooting Network Issues",
+    "Module 37: Network Support",
+    "Module 38: Cybersecurity Threats, Vulnerabilities, and Attacks",
+    "Module 39: Network Security",
+    "Networking Essentials: Course Final Exam",
+    "Course Introduction",
+    "Go To 1.0. Introduction"
+  ],
+  "bodyTextHead": "Skip to Course Outline\nSkip to Course Content\nSCSE_FOS_Networking Essentials\nAssignments\nContent\nGradebook\nAnnouncement\nCourse Outline\nResources\nSearch course outline\nMy Knowledge Check\nCourse Introduction\n100%\nCourse Introduction\n3 / 3\nFirst Time in This Course\nStudent Resources\nDownload Cisco Packet Tracer\nModule 1: Communication in a Connected World\n38%\nModule 2: Network Components, Types, and Connections\n31%\nModule 3: Wireless and Mobile Networks\n25%\nModule 4: Build a Home Network\nCheckpoint Exam: Build a Small Network\nModule 5: Communication Principles\nModule 6: Network Media\nModule 7: The Access Layer\nCheckpoint Exam: Network Access\nModule 8: The Internet Protocol\nModule 9: IPv4 and Network Segmentation\nModule 10: IPv6 Addressing Formats and Rules\nModule 11: Dynamic Addressing with DHCP\nCheckpoint Exam: The Internet Protocol\nModule 12: Gateways to Other Networks\nModule 13: The ARP Process\nModule 14: Routing Between Networks\nCheckpoint Exam: Communication Between Networks\nModule 15: TCP and UDP\nModule 16: Application Layer Services\nModule 17: Network Testing Utilities\nCheckpoint Exam: Protocols for Specific Tasks\nModule 18: Network Design\nModule 19: Cloud and Virtualization\nModule 20: Number Systems\nCheckpoint Exam: Characteristics of Network Design\nModule 21: Ethernet Switching\nModule 22: Network Layer\nModule 23: IPv4 Address Structure\nCheckpoint Exam: Network Addressing\nModule 24: Address Resolution\nModule 25: IP Addressing Services\nModule 26: Transport Layer\nCheckpoint Exam: ARP, DNS, DHCP and the Transport Layer\nModule 27: The Cisco IOS Command Line\nModule 28: Build a Small Cisco Network\nModule 29: ICMP\nCheckpoint Exam: Configure Cisco Devices\nModule 30: Physical Layer\nModule 31: Data Link Layer\nModule 32: Routing at the Network Layer\nCheckpoint Exam: Physical, Data Link, and Network Layers\nModule 33: IPv6 Addressing\nModule 34: IPv6 Neighbor Discovery\nCheckpoint Exam: IP Addressing\nModule 35: Cisco Switches and Routers\nModule 36: Troubleshoot Common Network Problems\nCheckpoint Exam: Cisco Devices and Troubleshooting Network Issues\nModule 37: Network Support\nModule 38: Cybersecurity Threats, Vulnerabilities, and Attacks\nModule 39: Network Security\nEnd of Course Survey\nNetworking Essentials: Course Final Exam\nCourse Introduction\nTheme Appearance changed to Light Mode\nEN\nGo To My Knowledge Check\nGo To 1.0. Introduction\nOpen webex window"
+}

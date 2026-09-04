@@ -4,14 +4,14 @@ profile_*/
 
 # --- personal data: extracted course content, your answers, run reports, logs ---
 # Cisco's quiz/exam questions are copyrighted assessment content - do not publish extracted banks.
-data/
+# data/
 logs/
 downloaded_files/
 scripts/downloaded_files/
 
 # --- your local configuration (ship the *.example.json templates instead) ---
-config/config.json
-config/courses.json
+# config/config.json
+# config/courses.json
 
 # --- python ---
 .venv/

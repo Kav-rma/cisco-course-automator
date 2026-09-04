@@ -1,0 +1,108 @@
+[
+ {
+  "item": "1.1.7",
+  "type": "LAB",
+  "status": "completed",
+  "seconds": 4.1,
+  "unit_complete": true,
+  "outline": [
+   "in progress",
+   "completed"
+  ],
+  "notes": [],
+  "components": {
+   "c716bf40-1278-494e-9355-4252dde48509": {
+    "ok": true,
+    "buttons": [
+     {
+      "kind": "dialog",
+      "title": "description Basic Switch Configuration - Physical Mode",
+      "id": "0"
+     },
+     {
+      "kind": "file",
+      "title": "file_download Basic Switch Configuration - Physical Mode",
+      "id": "0",
+      "href": "./courses/ff9e491c-49be-4734-803e-a79e6e83dab1/cb659016-84e7-5d77-9648-faabd7d9db8a/en-US/assets/1.1.7-packet-tracer---basic-switch-configuration---physical-mode.pka_en-US_e033512c-6a77-440d-a830-be0cb2acc0cc.pka"
+     }
+    ]
+   },
+   "78363030-7399-4a1b-b320-f7eef4034345": {
+    "ok": true,
+    "buttons": [
+     {
+      "kind": "dialog",
+      "title": "description Basic Switch Configuration",
+      "id": "0"
+     },
+     {
+      "kind": "file",
+      "title": "file_download Basic Switch Configuration",
+      "id": "0",
+      "href": "./courses/ff9e491c-49be-4734-803e-a79e6e83dab1/cb659016-84e7-5d77-9648-faabd7d9db8a/en-US/assets/1.1.7-lab---basic-switch-configuration.pdf_en-US_a0be02ad-d369-4a37-9383-db2173450e02.pdf"
+     }
+    ]
+   }
+  }
+ },
+ {
+  "item": "1.4.7",
+  "type": "LAB",
+  "status": "completed",
+  "seconds": 1.9,
+  "unit_complete": true,
+  "outline": [
+   "in progress",
+   "completed"
+  ],
+  "notes": [],
+  "components": {
+   "3ae535e3-c82a-4cfd-973e-63305b7c5c7a": {
+    "ok": true,
+    "buttons": [
+     {
+      "kind": "dialog",
+      "title": "description Configure Router Interfaces",
+      "id": "0"
+     },
+     {
+      "kind": "file",
+      "title": "file_download Configure Router Interfaces",
+      "id": "0",
+      "href": "./courses/ff9e491c-49be-4734-803e-a79e6e83dab1/cb659016-84e7-5d77-9648-faabd7d9db8a/en-US/assets/1.4.7-packet-tracer---configure-router-interfaces.pka_en-US_4a257dad-7741-40e7-b081-5efc63e4c0a5.pka"
+     }
+    ]
+   }
+  }
+ },
+ {
+  "item": "1.5.10",
+  "type": "LAB",
+  "status": "completed",
+  "seconds": 1.9,
+  "unit_complete": true,
+  "outline": [
+   "in progress",
+   "completed"
+  ],
+  "notes": [],
+  "components": {
+   "78c8309f-4dbf-43ac-8416-2a25e4c882be": {
+    "ok": true,
+    "buttons": [
+     {
+      "kind": "dialog",
+      "title": "description Verify Directly Connected Networks",
+      "id": "0"
+     },
+     {
+      "kind": "file",
+      "title": "file_download Verify Directly Connected Networks",
+      "id": "0",
+      "href": "./courses/ff9e491c-49be-4734-803e-a79e6e83dab1/cb659016-84e7-5d77-9648-faabd7d9db8a/en-US/assets/1.5.10-packet-tracer---verify-directly-connected-networks.pka_en-US_87fdef24-204c-4e18-a5fb-185bbad6c0ea.pka"
+     }
+    ]
+   }
+  }
+ }
+]

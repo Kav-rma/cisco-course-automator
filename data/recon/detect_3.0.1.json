@@ -1,0 +1,33 @@
+{
+ "page_type": "INTRODUCTION",
+ "item_id": "3.0.1",
+ "scope_kind": "block",
+ "scope_modelid": "8abeafba3b9447b9bb76dac2641ed84d",
+ "heading": "3.0.1 Webster - Why Should I Take this Module?",
+ "complete": true,
+ "components": [
+  {
+   "tag": "text-view",
+   "modelid": "bcbd0e8ffe0645a7808b0350043438fb",
+   "complete": true,
+   "heading": null
+  },
+  {
+   "tag": "graphic-view",
+   "modelid": "91f96f0abf9b4b89aa7d90ed963daccc",
+   "complete": true,
+   "heading": null
+  }
+ ],
+ "families": {
+  "assessment": 0,
+  "question": 0,
+  "media": 0,
+  "interactive": 0,
+  "static": 2,
+  "unknown": []
+ },
+ "reasons": [
+  "static components only (2)"
+ ]
+}

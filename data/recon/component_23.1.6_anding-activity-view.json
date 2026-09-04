@@ -1,0 +1,36 @@
+[
+ {
+  "modelid": "ac6c3a5864fb4aeeac55c523d0e933b3",
+  "model": {
+   "attributes": null,
+   "items": []
+  },
+  "methods": [
+   "render",
+   "focusOnBinaryInputs",
+   "focusOnTable",
+   "focusOnCheckBtn",
+   "shiftFocusToComponentBody",
+   "preRender"
+  ],
+  "own": [
+   "isUpdatePending",
+   "hasUpdated",
+   "enableUpdating",
+   "renderOptions",
+   "applyDesignAttributesHandler",
+   "applyCustomCssHandler",
+   "__modelid",
+   "renderMethodRef",
+   "isLanguageChanged",
+   "renderMethodReplacement",
+   "renderedObserver",
+   "component",
+   "model",
+   "controller",
+   "renderRoot"
+  ],
+  "html": "<anding-activity-view modelid=\"ac6c3a5864fb4aeeac55c523d0e933b3\" class=\"is-full background-colour1 remove-padding-top no-element-backgrounds\" sgpulse-type=\"component\"><template shadowroot=\"open\"><div class=\"component\"><div class=\"anding-activity-inner component__inner\"><div data-socialgoodpulse-id=\"ac6c3a5864fb4aeeac55c523d0e933b3\" class=\"component andingactivity ac6c3a5864fb4aeeac55c523d0e933b3 background-colour1 remove-padding-top no-element-backgrounds is-full   \"><div class=\"component__header-container\"><div data-socialgoodpulse-id=\"ac6c3a5864fb4aeeac55c523d0e933b3\" class=\"decimalToBinary background-colour1 remove-padding-top no-element-backgrounds\"><base-view type=\"component\" lowercase_component=\"andingActivity\" customclass=\"\"><template shadowroot=\"open\"><div class=\"component__header-wrapper background-colour1 remove-padding-top no-element-backgrounds \"><div class=\"component__header andingActivity__header\"><div class=\"component__header-inner andingActivity__header-inner\"><div class=\"component__content\"><div tabindex=\"0\" class=\"component__body andingActivity__body\"><div class=\"component__body-inner andingActivity__body-inner\"><p><strong>Instructions:</strong></p><p>Use the ANDing process to determine the network address (in binary and decimal formats).</p></div></div></div></div></div></div></template></base-view></div></div><div class=\"component__widget anding-activity__widget \"><div class=\"anding-activity-container anding-activity\"><div class=\"anding-activity-container-wrapper\"><table class=\"anding-activity-table\" tabindex=\"0\"><tbody><tr><td tabindex=\"0\">Host Address</td><td tabindex=\"0\">10</td><td tabindex=\"0\">168</td><td tabindex=\"0\">170</td><td tabindex=\"0\">46</td></tr><tr><td tabindex=\"0\">Subnet Mask</td><td tabindex=\"0\">255</td><td tabindex=\"0\">255</td><td tabindex=\"0\">255</td><td tabindex=\"0\">224</td></tr><tr><td tabindex=\"0\">Host Address in binary</td><td tabindex=\"0\">00001010</td><td tabindex=\"0\">10101000</td><td tabindex=\"0\">10101010</td><td tabindex=\"0\">00101110</td></tr><tr><td tabindex=\"0\">Subnet Mask in binary</td><td tabindex=\"0\">11111111</td><td tabindex=\"0\">11111111</td><td tabindex=\"0\">11111111</td><td tabindex=\"0\">11100000</td></tr><tr class=\"network-address-binary\"><td tabindex=\"0\">Network Address in binary</td><td class=\"mask-input\"><input type=\"text\" class=\"binary-input\" min=\"0\" max=\"1\" maxlength=\"8\" aria-label=\"Network Address in binary\"></input></td><td class=\"mask-input\"><input type=\"text\" class=\"binary-input\" min=\"0\" max=\"1\" maxlength=\"8\" aria-label=\"Network Address in binary\"></input></td><td class=\"mask-input\"><input type=\"text\" class=\"binary-input\" min=\"0\" max=\"1\" maxlength=\"8\" aria-label=\"Network Address in binary\"></input></td><td class=\"mask-input\"><input type=\"text\" class=\"binary-input\" min=\"0\" max=\"1\" maxlength=\"8\" aria-label=\"Network Address in binary\"></input></td></tr><tr class=\"network-address-decimal\"><td tabindex=\"0\">Network Address in decimal</td><td class=\"mask-input\"><input type=\"text\" class=\"decimal-input\" maxlength=\"3\" aria-label=\"Network Address in decimal\"></input></td><td class=\"mask-input\"><input type=\"text\" class=\"decimal-input\" maxlength=\"3\" aria-label=\"Network Address in decimal\"></input></td><td class=\"mask-input\"><input type=\"text\" class=\"decimal-input\" maxlength=\"3\" aria-label=\"Network Address in decimal\"></input></td><td class=\"mask-input\"><input type=\"text\" class=\"decimal-input\" maxlength=\"3\" aria-label=\"Network Address in decimal\"></input></td></tr></tbody></table></div><div class=\"btn__container\"><button class=\"btn-text btn__action check-answer\" aria-live=\"assertive\" aria-atomic=\"true\" aria-label=\"Select here to check your answer.\">Check</button><button class=\"btn-text btn__action change-question\" aria-label=\"\">New Number</button><button class=\"btn-text btn__action show-answer\" aria-label=\"Select here to submit your answer.\">Show Me</button><button class=\"btn-text btn__action reset-answer\" aria-label=\"\">Reset</button></div></div></div></div></div></div></template></anding-activity-view>",
+  "complete": false
+ }
+]

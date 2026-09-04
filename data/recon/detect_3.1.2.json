@@ -1,0 +1,27 @@
+{
+ "page_type": "VIDEO",
+ "item_id": "3.1.2",
+ "scope_kind": "block",
+ "scope_modelid": "96092afb42e34e42b1f31a52e9e4a38b",
+ "heading": "3.1.2 Video - Cell Phone Interactions with Different Networks",
+ "complete": false,
+ "components": [
+  {
+   "tag": "media-view",
+   "modelid": "6519db81ef7944d0a7743a63e8ef8399",
+   "complete": false,
+   "heading": null
+  }
+ ],
+ "families": {
+  "assessment": 0,
+  "question": 0,
+  "media": 1,
+  "interactive": 0,
+  "static": 0,
+  "unknown": []
+ },
+ "reasons": [
+  "1 media component(s)"
+ ]
+}

@@ -1,0 +1,111 @@
+[
+ {
+  "modelid": "63abefe2d3d5f7025c32a29b",
+  "model": {
+   "attributes": null,
+   "items": [
+    {
+     "_graphic": {
+      "alt": "Equipment failure",
+      "src": "en-US/assets/d2cc1479f4b746e2b22999ad08eadcf8.png"
+     },
+     "_questionText": "",
+     "_shouldBeSelected": true,
+     "_ItemLevelFeedback": "",
+     "_index": 0,
+     "_parentId": "63abefe2d3d5f7025c32a29b"
+    },
+    {
+     "_graphic": {
+      "alt": "Natural disasters",
+      "src": "en-US/assets/ab166149793b4687a14a553401050944.png"
+     },
+     "_questionText": "",
+     "_shouldBeSelected": true,
+     "_ItemLevelFeedback": "",
+     "_index": 1,
+     "_parentId": "63abefe2d3d5f7025c32a29b"
+    },
+    {
+     "_graphic": {
+      "alt": "Denial of service",
+      "src": "en-US/assets/61d39ca3e086495a9c6ba17128db1375.png"
+     },
+     "_questionText": "",
+     "_shouldBeSelected": true,
+     "_ItemLevelFeedback": "",
+     "_index": 2,
+     "_parentId": "63abefe2d3d5f7025c32a29b"
+    },
+    {
+     "_graphic": {
+      "alt": "Malicious attacks",
+      "src": "en-US/assets/4b3b585733ff4e2aade72f461ed3bf51.png"
+     },
+     "_questionText": "",
+     "_shouldBeSelected": true,
+     "_ItemLevelFeedback": "",
+     "_index": 3,
+     "_parentId": "63abefe2d3d5f7025c32a29b"
+    },
+    {
+     "_graphic": {
+      "alt": "Equipment maintenance",
+      "src": "en-US/assets/dad42dc91b7c4a838ae3d4ea01911e8e.png"
+     },
+     "_questionText": "",
+     "_shouldBeSelected": false,
+     "_ItemLevelFeedback": "",
+     "_index": 4,
+     "_parentId": "63abefe2d3d5f7025c32a29b"
+    },
+    {
+     "_graphic": {
+      "alt": "System backups",
+      "src": "en-US/assets/d86b80e8a95147d3b8826e06dc5e5884.png"
+     },
+     "_questionText": "",
+     "_shouldBeSelected": false,
+     "_ItemLevelFeedback": "",
+     "_index": 5,
+     "_parentId": "63abefe2d3d5f7025c32a29b"
+    }
+   ]
+  },
+  "methods": [
+   "renderCurrentQuestion",
+   "renderResultIcon",
+   "renderStartButton",
+   "renderYesNoButtons",
+   "renderNavigation",
+   "renderResetButton",
+   "render",
+   "getImagePath",
+   "shiftFocusToComponentBody",
+   "handleYesnoBtnKeydown",
+   "shouldDisplayAttempts",
+   "updateAttemptsCount",
+   "preRender",
+   "setupQuestion"
+  ],
+  "own": [
+   "isUpdatePending",
+   "hasUpdated",
+   "enableUpdating",
+   "renderOptions",
+   "applyDesignAttributesHandler",
+   "applyCustomCssHandler",
+   "__modelid",
+   "renderMethodRef",
+   "isLanguageChanged",
+   "renderMethodReplacement",
+   "renderedObserver",
+   "component",
+   "model",
+   "controller",
+   "renderRoot"
+  ],
+  "html": "<yesno-view modelid=\"63abefe2d3d5f7025c32a29b\" class=\"is-full\" sgpulse-type=\"component\"><template shadowroot=\"open\"><div class=\"component\"><div class=\"yesno-inner component__inner\"><div data-socialgoodpulse-id=\"63abefe2d3d5f7025c32a29b\" class=\"component__inner yesno__inner component is-question yesno 63abefe2d3d5f7025c32a29b  is-full    can-show-feedback can-show-marking \"><div class=\"component__header-container\"><base-view type=\"component\" lowercase_component=\"yesNo\" customclass=\"\"><template shadowroot=\"open\"><div class=\"component__header-wrapper  \"><div class=\"component__header yesNo__header\"><div class=\"component__header-inner yesNo__header-inner\"><div class=\"component__content\"><div tabindex=\"0\" class=\"component__body yesNo__body\"><div class=\"component__body-inner yesNo__body-inner\"><p>Availability refers to the need to make data accessible to all authorized users whenever they need it. Cyberattacks and system failures can prevent access to information, systems, and services.</p><p><strong>Can you identify the common causes of system failures that can impact the availability of data?</strong></p><p>When you select ‘Start,' you will be presented with a series of options. Tap ‘Yes’ if you think this could cause system failures that can impact the availability of information, systems, and services. If not, tap ‘No.'</p></div></div></div></div></div></div></template></base-view></div><div class=\"component__widget \"><div class=\"yesno_container \"><div class=\"yesno_question_container\" aria-describedby=\"_ItemLevelFeedback\" tabindex=\"-1\" aria-hidden=\"true\"><img class=\"current_question img_question\" aria-describedby=\"_ItemLevelFeedback\" src=\"./courses/ff9e491c-49be-4734-803e-a79e6e83dab1/01afc700-aa8e-52ba-afe5-2ffc14252051/en-US/assets/d2cc1479f4b746e2b22999ad08eadcf8.png\" alt=\"Equipment failure\"></img></div><div class=\"start_btn_container\"><button class=\"start_button\" aria-label=\"Click Start\"><span aria-hidden=\"true\">Start</span></button></div></div></div></div></div></div></template></yesno-view>",
+  "complete": false
+ }
+]

@@ -1,0 +1,206 @@
+{
+ "started_at": "2026-08-20T19:40:08",
+ "items": [
+  {
+   "item": "20.0.1",
+   "title": "Webster - Why Should I Take this Module?",
+   "module": 20,
+   "type": "INTRODUCTION",
+   "components": [
+    "text-view",
+    "graphic-view"
+   ],
+   "unit_complete": true,
+   "status": "already_complete",
+   "notes": [],
+   "seconds": 7.1,
+   "outline_after": "completed"
+  },
+  {
+   "item": "20.1.1",
+   "title": "Binary and IPv4 Addresses",
+   "module": 20,
+   "type": "LESSON",
+   "components": [
+    "dynamic-graphic-view",
+    "dynamic-graphic-view",
+    "text-view"
+   ],
+   "unit_complete": true,
+   "status": "already_complete",
+   "notes": [],
+   "seconds": 5.7,
+   "outline_after": "completed"
+  },
+  {
+   "item": "20.1.2",
+   "title": "Video - Converting Between Binary and Decimal Numbering Systems",
+   "module": 20,
+   "type": "VIDEO",
+   "components": [
+    "media-view",
+    "blank-view"
+   ],
+   "unit_complete": false,
+   "status": "completed",
+   "notes": [],
+   "seconds": 5.5,
+   "outline_after": "completed"
+  },
+  {
+   "item": "20.1.3",
+   "title": "Check Your Understanding - Binary Number System",
+   "module": 20,
+   "type": "KNOWLEDGE_CHECK",
+   "components": [
+    "mcq-view",
+    "mcq-view"
+   ],
+   "unit_complete": false,
+   "status": "completed",
+   "notes": [],
+   "seconds": 3.7,
+   "outline_after": "completed"
+  },
+  {
+   "item": "20.1.5",
+   "title": "Decimal to Binary Conversion",
+   "module": 20,
+   "type": "INTERACTIVE",
+   "components": [
+    "tabs-view"
+   ],
+   "unit_complete": false,
+   "status": "completed",
+   "notes": [
+    "unit complete"
+   ],
+   "seconds": 10.9,
+   "outline_after": "completed"
+  },
+  {
+   "item": "20.1.6",
+   "title": "Decimal to Binary Conversion Example",
+   "module": 20,
+   "type": "ASSESSMENT",
+   "components": [
+    "tabs-view"
+   ],
+   "unit_complete": false,
+   "status": "needs_user",
+   "notes": [
+    "graded assessment - never automated"
+   ],
+   "seconds": 3.7
+  },
+  {
+   "item": "20.1.9",
+   "title": "IPv4 Addresses",
+   "module": 20,
+   "type": "INTERACTIVE",
+   "components": [
+    "tabs-view",
+    "quicknav-view"
+   ],
+   "unit_complete": false,
+   "status": "completed",
+   "notes": [
+    "unit complete"
+   ],
+   "seconds": 6.9,
+   "outline_after": "completed"
+  },
+  {
+   "item": "20.2.1",
+   "title": "Hexadecimal and IPv6 Addresses",
+   "module": 20,
+   "type": "LESSON",
+   "components": [
+    "dynamic-graphic-view",
+    "dynamic-graphic-view",
+    "graphic-view"
+   ],
+   "unit_complete": true,
+   "status": "already_complete",
+   "notes": [],
+   "seconds": 5.6,
+   "outline_after": "completed"
+  },
+  {
+   "item": "20.2.2",
+   "title": "Video - Converting Between Hexadecimal and Decimal Numbering Systems",
+   "module": 20,
+   "type": "VIDEO",
+   "components": [
+    "media-view",
+    "blank-view"
+   ],
+   "unit_complete": false,
+   "status": "completed",
+   "notes": [],
+   "seconds": 7.0,
+   "outline_after": "completed"
+  },
+  {
+   "item": "20.2.3",
+   "title": "Check Your Understanding - Convert Between Decimal to Hexadecimal Number Systems",
+   "module": 20,
+   "type": "KNOWLEDGE_CHECK",
+   "components": [
+    "mcq-view",
+    "mcq-view",
+    "mcq-view",
+    "mcq-view",
+    "quicknav-view"
+   ],
+   "unit_complete": false,
+   "status": "completed",
+   "notes": [],
+   "seconds": 4.2,
+   "outline_after": "completed"
+  },
+  {
+   "item": "20.3.1",
+   "title": "What Did I Learn in this Module?",
+   "module": 20,
+   "type": "INTERACTIVE",
+   "components": [
+    "accordion-view"
+   ],
+   "unit_complete": false,
+   "status": "completed",
+   "notes": [
+    "unit complete"
+   ],
+   "seconds": 6.3,
+   "outline_after": "completed"
+  },
+  {
+   "item": "20.3.3",
+   "title": "Number Systems Quiz",
+   "module": 20,
+   "type": "UNKNOWN",
+   "components": [],
+   "unit_complete": null,
+   "status": "unknown"
+  }
+ ],
+ "needs_user": [
+  {
+   "item": "20.1.6",
+   "why": "graded assessment - never automated"
+  }
+ ],
+ "failed": [
+  {
+   "item": "20.3.3",
+   "title": "Number Systems Quiz",
+   "module": 20,
+   "type": "UNKNOWN",
+   "components": [],
+   "unit_complete": null,
+   "status": "unknown"
+  }
+ ],
+ "finished_at": "2026-08-20T19:42:26"
+}

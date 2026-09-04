@@ -1,0 +1,59 @@
+[
+ {
+  "modelid": "d84fc853-51bb-47ec-88ee-a35b8d5c9aef",
+  "model": {
+   "attributes": null,
+   "items": []
+  },
+  "methods": [
+   "jsLoadedCallback",
+   "handleFileLoad",
+   "handleComplete",
+   "loadAnimation",
+   "togglePlayback",
+   "preRender",
+   "connectedCallback",
+   "disconnectedCallback",
+   "itemResizeFunc",
+   "handleResize",
+   "notify",
+   "render",
+   "preRender"
+  ],
+  "own": [
+   "isUpdatePending",
+   "hasUpdated",
+   "enableUpdating",
+   "renderOptions",
+   "applyDesignAttributesHandler",
+   "applyCustomCssHandler",
+   "__modelid",
+   "renderMethodRef",
+   "isLanguageChanged",
+   "renderMethodReplacement",
+   "renderedObserver",
+   "component",
+   "controller",
+   "__isNested",
+   "__details",
+   "__css",
+   "__defaultHeight",
+   "__defaultWidth",
+   "__currentWidth",
+   "__animClip",
+   "__animStage",
+   "__paused",
+   "__currentFrame",
+   "a11y_description",
+   "createjs",
+   "resizeObserver",
+   "renderRoot",
+   "model",
+   "scaleFactor",
+   "currentHeight",
+   "AdobeAn"
+  ],
+  "html": "<adobe-animate-ia-view modelid=\"d84fc853-51bb-47ec-88ee-a35b8d5c9aef\" class=\"is-full undefined zoom-graphic-enabled\" sgpulse-type=\"component\"><template shadowroot=\"open\"><link rel=\"stylesheet\" href=\"_assets/media/2e2e5ee0-1c25-11ea-a010-eb2108469056/2e2e85f7-1c25-11ea-81a0-ffc2c49b96bc.css\"></link><div data-socialgoodpulse-id=\"d84fc853-51bb-47ec-88ee-a35b8d5c9aef\" class=\"component adobe-animate-ia d84fc853-51bb-47ec-88ee-a35b8d5c9aef undefined is-undefined is-complete  \"><div class=\"component__header-container\"><base-view type=\"component\" lowercase_component=\"adobe-animate-ia\" customclass=\"\"><template shadowroot=\"open\"><div class=\"component__header-wrapper undefined \"><div class=\"component__header adobe-animate-ia__header\"><div class=\"component__header-inner adobe-animate-ia__header-inner\"><div class=\"component__content\"><div tabindex=\"0\" class=\"component__body adobe-animate-ia__body\"><div class=\"component__body-inner adobe-animate-ia__body-inner\"><p>Instructions:</p><p>Decide to Pass or Block each IP address depending on whether it is Public (the internet) or Private (small local network). Click Start to begin and click on either Pass or Block.</p></div></div></div></div></div></div></template></base-view></div><div class=\"component__widget\"><div class=\"a11y_description screen-reader-hide\" aria-live=\"polite\" id=\"a11y_description-2e2e5ee0-1c25-11ea-a010-eb2108469056\"></div><div tabindex=\"0\" role=\"figure\" id=\"2e2e5ee0-1c25-11ea-a010-eb2108469056\" class=\"2e2e5ee0-1c25-11ea-a010-eb2108469056 adobe-animate-container\" aria-labelledby=\"a11y_description-2e2e5ee0-1c25-11ea-a010-eb2108469056\"><div class=\"spacer\"><div class=\"canvas-text-wrapper\"><canvas width=\"885\" height=\"569\"></canvas><div id=\"dynamic-text\"><div id=\"pass-or-block-ia-ID_txt03--UUID\" class=\"pass-or-block-ia-ID_txt03--UUID\"></div><div id=\"pass-or-block-ia-ID_txt04--UUID\" class=\"pass-or-block-ia-ID_txt04--UUID\"></div><div id=\"pass-or-block-ia-ID_txt02--UUID\" class=\"pass-or-block-ia-ID_txt02--UUID\" tabindex=\"-1\">Points</div><div id=\"pass-or-block-ia-start--UUID\" class=\"pass-or-block-ia-start--UUID\" tabindex=\"-1\">Start</div><div id=\"pass-or-block-ia-reset--UUID\" class=\"pass-or-block-ia-reset--UUID\" tabindex=\"-1\">Reset</div><div id=\"pass-or-block-ia-block--UUID\" class=\"pass-or-block-ia-block--UUID\" tabindex=\"-1\">Block</div><div id=\"pass-or-block-ia-pass--UUID\" class=\"pass-or-block-ia-pass--UUID\" tabindex=\"-1\">Pass</div></div></div></div></div></div></div></template></adobe-animate-ia-view>",
+  "complete": true
+ }
+]

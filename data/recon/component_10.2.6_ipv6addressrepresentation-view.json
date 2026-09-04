@@ -1,0 +1,150 @@
+[
+ {
+  "modelid": "a53ccf4e-868d-4500-a060-640ab9936733",
+  "model": {
+   "keys": [
+    "_channels",
+    "properties",
+    "changed",
+    "modelid",
+    "_childrenCollection",
+    "triggerTrackableState",
+    "_parentModel",
+    "triggerTrackableStateQueued"
+   ],
+   "items": [
+    {
+     "0": "1031",
+     "1": "1976",
+     "2": "0001",
+     "3": "0002",
+     "4": "0003",
+     "5": "0004",
+     "6": "0000",
+     "7": "0101",
+     "_index": 0,
+     "_parentId": "a53ccf4e-868d-4500-a060-640ab9936733"
+    },
+    {
+     "0": "2001",
+     "1": "0db8",
+     "2": "0000",
+     "3": "1234",
+     "4": "5678",
+     "5": "9101",
+     "6": "1112",
+     "7": "1113",
+     "_index": 1,
+     "_parentId": "a53ccf4e-868d-4500-a060-640ab9936733"
+    },
+    {
+     "0": "fe80",
+     "1": "0000",
+     "2": "0000",
+     "3": "0000",
+     "4": "6678",
+     "5": "9101",
+     "6": "0000",
+     "7": "34ab",
+     "_index": 2,
+     "_parentId": "a53ccf4e-868d-4500-a060-640ab9936733"
+    },
+    {
+     "0": "2001",
+     "1": "0000",
+     "2": "0db8",
+     "3": "1111",
+     "4": "0000",
+     "5": "0000",
+     "6": "0000",
+     "7": "0200",
+     "_index": 3,
+     "_parentId": "a53ccf4e-868d-4500-a060-640ab9936733"
+    },
+    {
+     "0": "2001",
+     "1": "0db8",
+     "2": "2233",
+     "3": "4455",
+     "4": "6677",
+     "5": "0000",
+     "6": "0000",
+     "7": "0101",
+     "_index": 4,
+     "_parentId": "a53ccf4e-868d-4500-a060-640ab9936733"
+    },
+    {
+     "0": "2001",
+     "1": "0db8",
+     "2": "ef01",
+     "3": "2345",
+     "4": "0678",
+     "5": "0910",
+     "6": "aaaa",
+     "7": "bbbb",
+     "_index": 5,
+     "_parentId": "a53ccf4e-868d-4500-a060-640ab9936733"
+    },
+    {
+     "0": "fe80",
+     "1": "0000",
+     "2": "0000",
+     "3": "0000",
+     "4": "0000",
+     "5": "0000",
+     "6": "0101",
+     "7": "1111",
+     "_index": 6,
+     "_parentId": "a53ccf4e-868d-4500-a060-640ab9936733"
+    },
+    {
+     "0": "0000",
+     "1": "0000",
+     "2": "0000",
+     "3": "0000",
+     "4": "0000",
+     "5": "0000",
+     "6": "0000",
+     "7": "0001",
+     "_index": 7,
+     "_parentId": "a53ccf4e-868d-4500-a060-640ab9936733"
+    },
+    {
+     "0": "2013",
+     "1": "ef12",
+     "2": "0123",
+     "3": "4567",
+     "4": "89ab",
+     "5": "cdef",
+     "6": "0000",
+     "7": "0001",
+     "_index": 8,
+     "_parentId": "a53ccf4e-868d-4500-a060-640ab9936733"
+    },
+    {
+     "0": "bb2b",
+     "1": "ef12",
+     "2": "bff3",
+     "3": "9125",
+     "4": "1111",
+     "5": "0101",
+     "6": "1111",
+     "7": "0101",
+     "_index": 9,
+     "_parentId": "a53ccf4e-868d-4500-a060-640ab9936733"
+    }
+   ],
+   "component": "ipv6AddressRepresentation",
+   "isComplete": false
+  },
+  "methods": [
+   "render",
+   "focusOnInput",
+   "focusOnTable",
+   "focusOnCheckBtn",
+   "shiftFocusToComponentBody",
+   "preRender"
+  ],
+  "html": "<ipv6addressrepresentation-view modelid=\"a53ccf4e-868d-4500-a060-640ab9936733\" class=\"is-full background-colour1 remove-padding-top no-element-backgrounds\" sgpulse-type=\"component\"><template shadowroot=\"open\"><div class=\"component\"><div class=\"identifyipv6addressdownload-inner component__inner\"><div data-socialgoodpulse-id=\"a53ccf4e-868d-4500-a060-640ab9936733\" class=\"component ipv6addressrepresentation a53ccf4e-868d-4500-a060-640ab9936733 background-colour1 remove-padding-top no-element-backgrounds is-full   \"><div class=\"component__header-container\"><div data-socialgoodpulse-id=\"a53ccf4e-868d-4500-a060-640ab9936733\" class=\"identifyipv6addressdownload background-colour1 remove-padding-top no-element-backgrounds\"><base-view type=\"component\" lowercase_component=\"ipv6AddressRepresentation\" customclass=\"\"><template shadowroot=\"open\"><div class=\"component__header-wrapper background-colour1 remove-padding-top no-element-backgrounds \"><div class=\"component__header ipv6AddressRepresentation__header\"><div class=\"component__header-inner ipv6AddressRepresentation__header-inner\"><div class=\"component__content\"><div tabindex=\"0\" class=\"component__body ipv6AddressRepresentation__body\"><div class=\"component__body-inner ipv6AddressRepresentation__body-inner\"><p><b>Instructions:</b></p> Convert the IPv6 addresses into short (omit the leading zeroes) and compressed forms. Enter letters in lowercase. Click Next to advance the activity to the next address.</div></div></div></div></div></div></template></base-view></div></div><div class=\"component__widget identifyipv6addressdownload__widget\"><div class=\"ipv6-address-representation-container decimal-to-binary\"><div class=\"ipv6-address-representation-table-wrapper\"><table class=\"ipv6-address-representation-table\" tabindex=\"0\"><tbody><tr class=\"example\"><th tabindex=\"0\">Preferred format</th><th tabindex=\"0\"><strong>bb2b</strong></th><th tabindex=\"0\"><strong>ef12</strong></th><th tabindex=\"0\"><strong>bff3</strong></th><th tabindex=\"0\"><strong>9125</strong></th><th tabindex=\"0\"><strong>1111</strong></th><th tabindex=\"0\"><strong>0101</strong></th><th tabindex=\"0\"><strong>1111</strong></th><th tabindex=\"0\"><strong>0101</strong></th></tr><tr><td tabindex=\"0\">Omit leading zeroes</td><td class=\"mask-input\"><input class=\"omit-leading-zero\" type=\"text\" aria-label=\"omit leading zero input\" maxlength=\"4\" tabindex=\"0\" data-output=\"bb2b\"></input></td><td class=\"mask-input\"><input class=\"omit-leading-zero\" type=\"text\" aria-label=\"omit leading zero input\" maxlength=\"4\" tabindex=\"0\" data-output=\"ef12\"></input></td><td class=\"mask-input\"><input class=\"omit-leading-zero\" type=\"text\" aria-label=\"omit leading zero input\" maxlength=\"4\" tabindex=\"0\" data-output=\"bff3\"></input></td><td class=\"mask-input\"><input class=\"omit-leading-zero\" type=\"text\" aria-label=\"omit leading zero input\" maxlength=\"4\" tabindex=\"0\" data-output=\"9125\"></input></td><td class=\"mask-input\"><input class=\"omit-leading-zero\" type=\"text\" aria-label=\"omit leading zero input\" maxlength=\"4\" tabindex=\"0\" data-output=\"1111\"></input></td><td class=\"mask-input\"><input class=\"omit-leading-zero\" type=\"text\" aria-label=\"omit leading zero input\" maxlength=\"4\" tabindex=\"0\" data-output=\"0101\"></input></td><td class=\"mask-input\"><input class=\"omit-leading-zero\" type=\"text\" aria-label=\"omit leading zero input\" maxlength=\"4\" tabindex=\"0\" data-output=\"1111\"></input></td><td class=\"mask-input\"><input class=\"omit-leading-zero\" type=\"text\" aria-label=\"omit leading zero input\" maxlength=\"4\" tabindex=\"0\" data-output=\"0101\"></input></td></tr><tr><td tabindex=\"0\">Compressed format</td><td class=\"compressed-input\" colspan=\"8\"><input class=\"compressed-ipv6\" type=\"text\" aria-label=\"compressed form input\" maxlength=\"39\" tabindex=\"0\"></input></td></tr></tbody></table></div><div class=\"component__inner ipv6Address__inner\"><div class=\"Toastify\"><div class=\"Toastify__toast-container Toastify__toast-container--top-center\"></div></div><div class=\"ipv6-address-container\"><div class=\"btn__container\"><button class=\"btn-text btn__action check-answer\" aria-label=\"Select here to check your answer.\">Check</button><button class=\"btn-text btn__action change-question\" aria-label=\"\">Next</button><button class=\"btn-text btn__action show-answer\" aria-label=\"Select here to submit your answer.\">Show Me</button><button class=\"btn-text btn__action reset-answer\" aria-label=\"\">Reset</button></div></div></div></div></div></div></div></div></template></ipv6addressrepresentation-view>"
+ }
+]

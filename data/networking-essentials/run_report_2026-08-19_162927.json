@@ -1,0 +1,98 @@
+{
+ "started_at": "2026-08-19T16:29:27",
+ "items": [
+  {
+   "item": "3.0.1",
+   "title": "Webster - Why Should I Take this Module?",
+   "module": 3,
+   "type": "INTRODUCTION",
+   "status": "already_complete",
+   "notes": [],
+   "seconds": 8.1,
+   "outline_after": "completed"
+  },
+  {
+   "item": "3.1.1",
+   "title": "Video - Types of Wireless Networks",
+   "module": 3,
+   "type": "VIDEO",
+   "status": "already_complete",
+   "notes": [],
+   "seconds": 6.0,
+   "outline_after": "completed"
+  },
+  {
+   "item": "3.2.1",
+   "title": "Mobile Devices and Wi-Fi",
+   "module": 3,
+   "type": "LESSON",
+   "status": "already_complete",
+   "notes": [],
+   "seconds": 5.1,
+   "outline_after": "completed"
+  },
+  {
+   "item": "3.2.2",
+   "title": "Wi-Fi Settings",
+   "module": 3,
+   "type": "INTERACTIVE",
+   "status": "completed",
+   "notes": [
+    "unit complete"
+   ],
+   "seconds": 4.8,
+   "outline_after": "completed"
+  },
+  {
+   "item": "3.2.4",
+   "title": "Configure Cellular Data Settings",
+   "module": 3,
+   "type": "INTERACTIVE",
+   "status": "completed",
+   "notes": [
+    "unit complete"
+   ],
+   "seconds": 4.9,
+   "outline_after": "completed"
+  },
+  {
+   "item": "3.2.5",
+   "title": "Video - Bluetooth Configuration on a Windows Laptop",
+   "module": 3,
+   "type": "VIDEO",
+   "status": "completed",
+   "notes": [],
+   "seconds": 6.2,
+   "outline_after": "completed"
+  },
+  {
+   "item": "3.3.1",
+   "title": "What Did I Learn in this Module?",
+   "module": 3,
+   "type": "INTERACTIVE",
+   "status": "already_complete",
+   "notes": [],
+   "seconds": 3.8,
+   "outline_after": "completed"
+  },
+  {
+   "item": "3.3.3",
+   "title": "Wireless and Mobile Networks Quiz",
+   "module": 3,
+   "type": "ASSESSMENT",
+   "status": "needs_user",
+   "notes": [
+    "graded assessment - never automated"
+   ],
+   "seconds": 33.0
+  }
+ ],
+ "needs_user": [
+  {
+   "item": "3.3.3",
+   "why": "graded assessment - never automated"
+  }
+ ],
+ "failed": [],
+ "finished_at": "2026-08-19T16:31:33"
+}

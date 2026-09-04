@@ -1,0 +1,136 @@
+{
+ "started_at": "2026-08-20T17:44:36",
+ "items": [
+  {
+   "item": "19.0.1",
+   "title": "Webster - Why Should I Take this Module?",
+   "module": 19,
+   "type": "INTRODUCTION",
+   "components": [
+    "text-view",
+    "graphic-view"
+   ],
+   "unit_complete": true,
+   "status": "already_complete",
+   "notes": [],
+   "seconds": 6.7,
+   "outline_after": "completed"
+  },
+  {
+   "item": "19.1.1",
+   "title": "Video - Cloud and Virtualization",
+   "module": 19,
+   "type": "VIDEO",
+   "components": [
+    "media-view"
+   ],
+   "unit_complete": false,
+   "status": "completed",
+   "notes": [],
+   "seconds": 10.2,
+   "outline_after": "completed"
+  },
+  {
+   "item": "19.1.4",
+   "title": "Check Your Understanding - Cloud and Cloud Services",
+   "module": 19,
+   "type": "KNOWLEDGE_CHECK",
+   "components": [
+    "mcq-view",
+    "mcq-view",
+    "mcq-view",
+    "quicknav-view"
+   ],
+   "unit_complete": false,
+   "status": "completed",
+   "notes": [],
+   "seconds": 4.2,
+   "outline_after": "completed"
+  },
+  {
+   "item": "19.2.1",
+   "title": "Advantages of Virtualization",
+   "module": 19,
+   "type": "LESSON",
+   "components": [
+    "text-view"
+   ],
+   "unit_complete": true,
+   "status": "already_complete",
+   "notes": [],
+   "seconds": 5.1,
+   "outline_after": "completed"
+  },
+  {
+   "item": "19.2.2",
+   "title": "Hypervisors",
+   "module": 19,
+   "type": "INTERACTIVE",
+   "components": [
+    "tabs-view"
+   ],
+   "unit_complete": false,
+   "status": "completed",
+   "notes": [
+    "unit complete"
+   ],
+   "seconds": 5.0,
+   "outline_after": "completed"
+  },
+  {
+   "item": "19.2.3",
+   "title": "Lab - Install Linux in a Virtual Machine and Explore the GUI",
+   "module": 19,
+   "type": "LAB",
+   "components": [
+    "pagetracer-view",
+    "quicknav-view"
+   ],
+   "unit_complete": false,
+   "status": "completed",
+   "notes": [],
+   "seconds": 3.3,
+   "outline_after": "completed"
+  },
+  {
+   "item": "19.3.1",
+   "title": "What Did I Learn in this Module?",
+   "module": 19,
+   "type": "INTERACTIVE",
+   "components": [
+    "accordion-view"
+   ],
+   "unit_complete": false,
+   "status": "completed",
+   "notes": [
+    "unit complete"
+   ],
+   "seconds": 5.8,
+   "outline_after": "completed"
+  },
+  {
+   "item": "19.3.3",
+   "title": "Cloud and Virtualization Quiz",
+   "module": 19,
+   "type": "ASSESSMENT",
+   "components": [
+    "adaptive-start-screen-view",
+    "quicknav-view"
+   ],
+   "unit_complete": false,
+   "status": "needs_user",
+   "notes": [
+    "graded assessment - never automated"
+   ],
+   "seconds": 33.0
+  }
+ ],
+ "needs_user": [
+  {
+   "item": "19.3.3",
+   "why": "graded assessment - never automated"
+  }
+ ],
+ "failed": [],
+ "finished_at": "2026-08-20T17:46:17"
+}

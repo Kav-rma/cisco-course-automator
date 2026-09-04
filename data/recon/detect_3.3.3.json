@@ -1,0 +1,27 @@
+{
+ "page_type": "ASSESSMENT",
+ "item_id": "3.3.3",
+ "scope_kind": "block",
+ "scope_modelid": "af018cc9644a47e58072cda13e609b36",
+ "heading": null,
+ "complete": false,
+ "components": [
+  {
+   "tag": "adaptive-start-screen-view",
+   "modelid": "0cc49fb386814619b07d0713c16e94c8",
+   "complete": true,
+   "heading": null
+  }
+ ],
+ "families": {
+  "assessment": 1,
+  "question": 0,
+  "media": 0,
+  "interactive": 0,
+  "static": 0,
+  "unknown": []
+ },
+ "reasons": [
+  "assessment start-screen / results component present"
+ ]
+}

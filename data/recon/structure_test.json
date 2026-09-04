@@ -1,0 +1,690 @@
+{
+  "course": {
+    "title": "SCSE_FOS_Networking Essentials",
+    "url": "https://www.netacad.com/launch?id=1da0912b-1d6e-4fde-9d99-69c4197d93ca&tab=curriculum&view=febc5cbb-a9ba-5a49-8b90-6a5ad4e5183e",
+    "explored_at": "2026-08-18T22:03:48",
+    "content_iframe_src_sample": "https://www.netacad.com/authoring-resources/index.html?xAPILaunchKey=358b7c93-0498-4557-9c04-0dc4152425f0&xAPILaunchService=https://www.netacad.com/adl/content/&lang=en-US&moduleNumber=3#/courses/ff9e491c-49be-4734-803e-a79e6e83dab1/8bd51e4d-127e-5c87-96cc-be67cae544c9/id/3bd1358b97d8422793ecdfbe6bff806d"
+  },
+  "selectors": {
+    "outline_scope": "top page (not the content iframe)",
+    "node_button": "button[id^=\"node-button-<uuid>\"]  (aria-expanded; label [class*=\"nodeName--\"]; progress [data-percentage])",
+    "node_container": "[class*=\"nodeContainer--\"] (ancestor of node_button; holds the sections)",
+    "section_container": "[class*=\"subModuleContainer--\"] within node_container",
+    "section_button": "button[id^=\"submodule-button-\"] (NOT unique; use container index)",
+    "section_title": "[class*=\"subModuleName--\"][title]",
+    "section_counter": "[class*=\"descendantProgress--\"]  e.g. \"0 / 4\"",
+    "item_link": "[class*=\"blockMainContainer--\"] a[class*=\"blockContainer--\"][role=button] (rendered only when section expanded)",
+    "item_title": "[class*=\"blockName--\"][title]",
+    "status_icon": "img[alt] -> start | in progress | completed",
+    "content_iframe": "iframe[title=\"Course content\"]  src ...authoring-resources/index.html?...#/courses/<course>/<module>/id/<page>",
+    "prev_next": "button[class*=\"moduleNavBtn--\"][aria-label^=\"Go To \"]"
+  },
+  "stats": {
+    "nodes": 4,
+    "sections": 15,
+    "items": 59
+  },
+  "nodes": [
+    {
+      "index": 0,
+      "uuid": "843d0f5a-aa74-54e3-a20d-53a6008f7aed",
+      "kind": "course_introduction",
+      "module_number": null,
+      "title": "Course Introduction",
+      "percentage": 100,
+      "sections": [
+        {
+          "index": 0,
+          "id": null,
+          "title": "Course Introduction",
+          "raw_title": "Course Introduction",
+          "counter": "0 / 3",
+          "status": "completed",
+          "items": [
+            {
+              "index": 0,
+              "id": null,
+              "title": "First Time in This Course",
+              "raw_title": "First Time in This Course",
+              "inferred_type": "content",
+              "status": "start"
+            },
+            {
+              "index": 1,
+              "id": null,
+              "title": "Student Resources",
+              "raw_title": "Student Resources",
+              "inferred_type": "content",
+              "status": "start"
+            },
+            {
+              "index": 2,
+              "id": null,
+              "title": "Download Cisco Packet Tracer",
+              "raw_title": "Download Cisco Packet Tracer",
+              "inferred_type": "lab",
+              "status": "start"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "uuid": "9f3c61cd-d695-5b71-ab25-8510ed41cc14",
+      "kind": "module",
+      "module_number": 1,
+      "title": "Module 1: Communication in a Connected World",
+      "percentage": 57,
+      "sections": [
+        {
+          "index": 0,
+          "id": "1.0",
+          "title": "Introduction",
+          "raw_title": "1.0. Introduction",
+          "counter": "0 / 2",
+          "status": "completed",
+          "items": [
+            {
+              "index": 0,
+              "id": "1.0.1",
+              "title": "Webster - Why Should I Take this Module?",
+              "raw_title": "1.0.1 Webster - Why Should I Take this Module?",
+              "inferred_type": "introduction",
+              "status": "start"
+            },
+            {
+              "index": 1,
+              "id": "1.0.2",
+              "title": "What Will I Learn in this Module?",
+              "raw_title": "1.0.2 What Will I Learn in this Module?",
+              "inferred_type": "introduction",
+              "status": "start"
+            }
+          ]
+        },
+        {
+          "index": 1,
+          "id": "1.1",
+          "title": "Network Types",
+          "raw_title": "1.1. Network Types",
+          "counter": "0 / 8",
+          "status": "in progress",
+          "items": [
+            {
+              "index": 0,
+              "id": "1.1.1",
+              "title": "Video - Welcome to the World of Networking",
+              "raw_title": "1.1.1 Video - Welcome to the World of Networking",
+              "inferred_type": "video",
+              "status": "completed"
+            },
+            {
+              "index": 1,
+              "id": "1.1.2",
+              "title": "Everything is Online",
+              "raw_title": "1.1.2 Everything is Online",
+              "inferred_type": "content",
+              "status": "completed"
+            },
+            {
+              "index": 2,
+              "id": "1.1.3",
+              "title": "Who Owns “The Internet”?",
+              "raw_title": "1.1.3 Who Owns “The Internet”?",
+              "inferred_type": "content",
+              "status": "completed"
+            },
+            {
+              "index": 3,
+              "id": "1.1.4",
+              "title": "Local Networks",
+              "raw_title": "1.1.4 Local Networks",
+              "inferred_type": "content",
+              "status": "completed"
+            },
+            {
+              "index": 4,
+              "id": "1.1.5",
+              "title": "Mobile Devices",
+              "raw_title": "1.1.5 Mobile Devices",
+              "inferred_type": "content",
+              "status": "completed"
+            },
+            {
+              "index": 5,
+              "id": "1.1.6",
+              "title": "Connected Home Devices",
+              "raw_title": "1.1.6 Connected Home Devices",
+              "inferred_type": "content",
+              "status": "completed"
+            },
+            {
+              "index": 6,
+              "id": "1.1.7",
+              "title": "Other Connected Devices",
+              "raw_title": "1.1.7 Other Connected Devices",
+              "inferred_type": "content",
+              "status": "completed"
+            },
+            {
+              "index": 7,
+              "id": "1.1.8",
+              "title": "Check Your Understanding - Network Types",
+              "raw_title": "1.1.8 Check Your Understanding - Network Types",
+              "inferred_type": "knowledge_check",
+              "status": "in progress"
+            }
+          ]
+        },
+        {
+          "index": 2,
+          "id": "1.2",
+          "title": "Data Transmission",
+          "raw_title": "1.2. Data Transmission",
+          "counter": "0 / 4",
+          "status": "in progress",
+          "items": [
+            {
+              "index": 0,
+              "id": "1.2.1",
+              "title": "Video - Types of Personal Data",
+              "raw_title": "1.2.1 Video - Types of Personal Data",
+              "inferred_type": "video",
+              "status": "completed"
+            },
+            {
+              "index": 1,
+              "id": "1.2.2",
+              "title": "The Bit",
+              "raw_title": "1.2.2 The Bit",
+              "inferred_type": "content",
+              "status": "completed"
+            },
+            {
+              "index": 2,
+              "id": "1.2.3",
+              "title": "Common Methods of Data Transmission",
+              "raw_title": "1.2.3 Common Methods of Data Transmission",
+              "inferred_type": "content",
+              "status": "completed"
+            },
+            {
+              "index": 3,
+              "id": "1.2.4",
+              "title": "Check Your Understanding - Data Transmission",
+              "raw_title": "1.2.4 Check Your Understanding - Data Transmission",
+              "inferred_type": "knowledge_check",
+              "status": "in progress"
+            }
+          ]
+        },
+        {
+          "index": 3,
+          "id": "1.3",
+          "title": "Bandwidth and Throughput",
+          "raw_title": "1.3. Bandwidth and Throughput",
+          "counter": "0 / 4",
+          "status": "in progress",
+          "items": [
+            {
+              "index": 0,
+              "id": "1.3.1",
+              "title": "Bandwidth",
+              "raw_title": "1.3.1 Bandwidth",
+              "inferred_type": "content",
+              "status": "completed"
+            },
+            {
+              "index": 1,
+              "id": "1.3.2",
+              "title": "Throughput",
+              "raw_title": "1.3.2 Throughput",
+              "inferred_type": "content",
+              "status": "completed"
+            },
+            {
+              "index": 2,
+              "id": "1.3.3",
+              "title": "Video - Throughput",
+              "raw_title": "1.3.3 Video - Throughput",
+              "inferred_type": "video",
+              "status": "in progress"
+            },
+            {
+              "index": 3,
+              "id": "1.3.4",
+              "title": "Check Your Understanding - Bandwidth and Throughput",
+              "raw_title": "1.3.4 Check Your Understanding - Bandwidth and Throughput",
+              "inferred_type": "knowledge_check",
+              "status": "in progress"
+            }
+          ]
+        },
+        {
+          "index": 4,
+          "id": "1.4",
+          "title": "Communications in a Connected World Summary",
+          "raw_title": "1.4. Communications in a Connected World Summary",
+          "counter": "0 / 3",
+          "status": "in progress",
+          "items": [
+            {
+              "index": 0,
+              "id": "1.4.1",
+              "title": "What Did I Learn in this Module?",
+              "raw_title": "1.4.1 What Did I Learn in this Module?",
+              "inferred_type": "summary",
+              "status": "in progress"
+            },
+            {
+              "index": 1,
+              "id": "1.4.2",
+              "title": "Webster - Reflection Questions",
+              "raw_title": "1.4.2 Webster - Reflection Questions",
+              "inferred_type": "content",
+              "status": "completed"
+            },
+            {
+              "index": 2,
+              "id": "1.4.3",
+              "title": "Communications in a Connected World Quiz",
+              "raw_title": "1.4.3 Communications in a Connected World Quiz",
+              "inferred_type": "assessment",
+              "status": "in progress"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "uuid": "13043ec5-e4c1-52e4-9ae4-b6baf0b126ae",
+      "kind": "module",
+      "module_number": 2,
+      "title": "Module 2: Network Components, Types, and Connections",
+      "percentage": 31,
+      "sections": [
+        {
+          "index": 0,
+          "id": "2.0",
+          "title": "Introduction",
+          "raw_title": "2.0. Introduction",
+          "counter": "0 / 2",
+          "status": "completed",
+          "items": [
+            {
+              "index": 0,
+              "id": "2.0.1",
+              "title": "Webster - Why Should I Take this Module?",
+              "raw_title": "2.0.1 Webster - Why Should I Take this Module?",
+              "inferred_type": "introduction",
+              "status": "start"
+            },
+            {
+              "index": 1,
+              "id": "2.0.2",
+              "title": "What Will I Learn in this Module?",
+              "raw_title": "2.0.2 What Will I Learn in this Module?",
+              "inferred_type": "introduction",
+              "status": "start"
+            }
+          ]
+        },
+        {
+          "index": 1,
+          "id": "2.1",
+          "title": "Clients and Servers",
+          "raw_title": "2.1. Clients and Servers",
+          "counter": "0 / 6",
+          "status": "in progress",
+          "items": [
+            {
+              "index": 0,
+              "id": "2.1.1",
+              "title": "Video - Clients and Servers",
+              "raw_title": "2.1.1 Video - Clients and Servers",
+              "inferred_type": "video",
+              "status": "completed"
+            },
+            {
+              "index": 1,
+              "id": "2.1.2",
+              "title": "Client and Server Roles",
+              "raw_title": "2.1.2 Client and Server Roles",
+              "inferred_type": "content",
+              "status": "completed"
+            },
+            {
+              "index": 2,
+              "id": "2.1.3",
+              "title": "Peer-to-Peer Networks",
+              "raw_title": "2.1.3 Peer-to-Peer Networks",
+              "inferred_type": "content",
+              "status": "completed"
+            },
+            {
+              "index": 3,
+              "id": "2.1.4",
+              "title": "Peer-to-Peer Applications",
+              "raw_title": "2.1.4 Peer-to-Peer Applications",
+              "inferred_type": "content",
+              "status": "completed"
+            },
+            {
+              "index": 4,
+              "id": "2.1.5",
+              "title": "Multiple Roles in the Network",
+              "raw_title": "2.1.5 Multiple Roles in the Network",
+              "inferred_type": "content",
+              "status": "completed"
+            },
+            {
+              "index": 5,
+              "id": "2.1.6",
+              "title": "Check Your Understanding - Clients and Servers",
+              "raw_title": "2.1.6 Check Your Understanding - Clients and Servers",
+              "inferred_type": "knowledge_check",
+              "status": "in progress"
+            }
+          ]
+        },
+        {
+          "index": 2,
+          "id": "2.2",
+          "title": "Network Components",
+          "raw_title": "2.2. Network Components",
+          "counter": "0 / 4",
+          "status": "start",
+          "items": [
+            {
+              "index": 0,
+              "id": "2.2.1",
+              "title": "Video - Network Infrastructure Symbols",
+              "raw_title": "2.2.1 Video - Network Infrastructure Symbols",
+              "inferred_type": "video",
+              "status": "in progress"
+            },
+            {
+              "index": 1,
+              "id": "2.2.2",
+              "title": "Network Infrastructure",
+              "raw_title": "2.2.2 Network Infrastructure",
+              "inferred_type": "content",
+              "status": "in progress"
+            },
+            {
+              "index": 2,
+              "id": "2.2.3",
+              "title": "End Devices",
+              "raw_title": "2.2.3 End Devices",
+              "inferred_type": "content",
+              "status": "start"
+            },
+            {
+              "index": 3,
+              "id": "2.2.4",
+              "title": "Check Your Understanding - Network Components",
+              "raw_title": "2.2.4 Check Your Understanding - Network Components",
+              "inferred_type": "knowledge_check",
+              "status": "in progress"
+            }
+          ]
+        },
+        {
+          "index": 3,
+          "id": "2.3",
+          "title": "ISP Connectivity Options",
+          "raw_title": "2.3. ISP Connectivity Options",
+          "counter": "0 / 5",
+          "status": "start",
+          "items": [
+            {
+              "index": 0,
+              "id": "2.3.1",
+              "title": "ISP Services",
+              "raw_title": "2.3.1 ISP Services",
+              "inferred_type": "content",
+              "status": "in progress"
+            },
+            {
+              "index": 1,
+              "id": "2.3.2",
+              "title": "ISP Connections",
+              "raw_title": "2.3.2 ISP Connections",
+              "inferred_type": "content",
+              "status": "start"
+            },
+            {
+              "index": 2,
+              "id": "2.3.3",
+              "title": "Cable and DSL Connections",
+              "raw_title": "2.3.3 Cable and DSL Connections",
+              "inferred_type": "content",
+              "status": "start"
+            },
+            {
+              "index": 3,
+              "id": "2.3.4",
+              "title": "Additional Connectivity Options",
+              "raw_title": "2.3.4 Additional Connectivity Options",
+              "inferred_type": "content",
+              "status": "start"
+            },
+            {
+              "index": 4,
+              "id": "2.3.5",
+              "title": "Check Your Understanding - ISP Connectivity Options",
+              "raw_title": "2.3.5 Check Your Understanding - ISP Connectivity Options",
+              "inferred_type": "knowledge_check",
+              "status": "in progress"
+            }
+          ]
+        },
+        {
+          "index": 4,
+          "id": "2.4",
+          "title": "Network Components, Types, and Connections Summary",
+          "raw_title": "2.4. Network Components, Types, and Connections Summary",
+          "counter": "0 / 3",
+          "status": "start",
+          "items": [
+            {
+              "index": 0,
+              "id": "2.4.1",
+              "title": "What Did I Learn in this Module?",
+              "raw_title": "2.4.1 What Did I Learn in this Module?",
+              "inferred_type": "summary",
+              "status": "in progress"
+            },
+            {
+              "index": 1,
+              "id": "2.4.2",
+              "title": "Webster - Reflection Questions",
+              "raw_title": "2.4.2 Webster - Reflection Questions",
+              "inferred_type": "content",
+              "status": "in progress"
+            },
+            {
+              "index": 2,
+              "id": "2.4.3",
+              "title": "Network Components, Types, and Connections Quiz",
+              "raw_title": "2.4.3 Network Components, Types, and Connections Quiz",
+              "inferred_type": "assessment",
+              "status": "start"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "uuid": "8bd51e4d-127e-5c87-96cc-be67cae544c9",
+      "kind": "module",
+      "module_number": 3,
+      "title": "Module 3: Wireless and Mobile Networks",
+      "percentage": 25,
+      "sections": [
+        {
+          "index": 0,
+          "id": "3.0",
+          "title": "Introduction",
+          "raw_title": "3.0. Introduction",
+          "counter": "",
+          "status": "completed",
+          "items": []
+        },
+        {
+          "index": 1,
+          "id": "3.1",
+          "title": "Wireless Networks",
+          "raw_title": "3.1. Wireless Networks",
+          "counter": "",
+          "status": "start",
+          "items": [
+            {
+              "index": 0,
+              "id": "3.1.1",
+              "title": "Video - Types of Wireless Networks",
+              "raw_title": "3.1.1 Video - Types of Wireless Networks",
+              "inferred_type": "video",
+              "status": "start"
+            },
+            {
+              "index": 1,
+              "id": "3.1.2",
+              "title": "Video - Cell Phone Interactions with Different Networks",
+              "raw_title": "3.1.2 Video - Cell Phone Interactions with Different Networks",
+              "inferred_type": "video",
+              "status": "start"
+            },
+            {
+              "index": 2,
+              "id": "3.1.3",
+              "title": "Other Wireless Networks",
+              "raw_title": "3.1.3 Other Wireless Networks",
+              "inferred_type": "content",
+              "status": "start"
+            },
+            {
+              "index": 3,
+              "id": "3.1.4",
+              "title": "Check Your Understanding - Wireless Networks",
+              "raw_title": "3.1.4 Check Your Understanding - Wireless Networks",
+              "inferred_type": "knowledge_check",
+              "status": "start"
+            }
+          ]
+        },
+        {
+          "index": 2,
+          "id": "3.2",
+          "title": "Mobile Device Connectivity",
+          "raw_title": "3.2. Mobile Device Connectivity",
+          "counter": "",
+          "status": "start",
+          "items": [
+            {
+              "index": 0,
+              "id": "3.2.1",
+              "title": "Mobile Devices and Wi-Fi",
+              "raw_title": "3.2.1 Mobile Devices and Wi-Fi",
+              "inferred_type": "content",
+              "status": "in progress"
+            },
+            {
+              "index": 1,
+              "id": "3.2.2",
+              "title": "Wi-Fi Settings",
+              "raw_title": "3.2.2 Wi-Fi Settings",
+              "inferred_type": "content",
+              "status": "start"
+            },
+            {
+              "index": 2,
+              "id": "3.2.3",
+              "title": "Configure Mobile Wi-Fi Connectivity",
+              "raw_title": "3.2.3 Configure Mobile Wi-Fi Connectivity",
+              "inferred_type": "content",
+              "status": "start"
+            },
+            {
+              "index": 3,
+              "id": "3.2.4",
+              "title": "Configure Cellular Data Settings",
+              "raw_title": "3.2.4 Configure Cellular Data Settings",
+              "inferred_type": "content",
+              "status": "start"
+            },
+            {
+              "index": 4,
+              "id": "3.2.5",
+              "title": "Video - Bluetooth Configuration on a Windows Laptop",
+              "raw_title": "3.2.5 Video - Bluetooth Configuration on a Windows Laptop",
+              "inferred_type": "video",
+              "status": "start"
+            },
+            {
+              "index": 5,
+              "id": "3.2.6",
+              "title": "Simple Connectivity with Bluetooth",
+              "raw_title": "3.2.6 Simple Connectivity with Bluetooth",
+              "inferred_type": "content",
+              "status": "start"
+            },
+            {
+              "index": 6,
+              "id": "3.2.7",
+              "title": "Bluetooth Pairing",
+              "raw_title": "3.2.7 Bluetooth Pairing",
+              "inferred_type": "content",
+              "status": "start"
+            },
+            {
+              "index": 7,
+              "id": "3.2.8",
+              "title": "Explore Your Network Settings on Your Mobile Device",
+              "raw_title": "3.2.8 Explore Your Network Settings on Your Mobile Device",
+              "inferred_type": "content",
+              "status": "start"
+            }
+          ]
+        },
+        {
+          "index": 3,
+          "id": "3.3",
+          "title": "Wireless and Mobile Networks Summary",
+          "raw_title": "3.3. Wireless and Mobile Networks Summary",
+          "counter": "",
+          "status": "start",
+          "items": [
+            {
+              "index": 0,
+              "id": "3.3.1",
+              "title": "What Did I Learn in this Module?",
+              "raw_title": "3.3.1 What Did I Learn in this Module?",
+              "inferred_type": "summary",
+              "status": "in progress"
+            },
+            {
+              "index": 1,
+              "id": "3.3.2",
+              "title": "Webster - Reflection Questions",
+              "raw_title": "3.3.2 Webster - Reflection Questions",
+              "inferred_type": "content",
+              "status": "start"
+            },
+            {
+              "index": 2,
+              "id": "3.3.3",
+              "title": "Wireless and Mobile Networks Quiz",
+              "raw_title": "3.3.3 Wireless and Mobile Networks Quiz",
+              "inferred_type": "assessment",
+              "status": "start"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

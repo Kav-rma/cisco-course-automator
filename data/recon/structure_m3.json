@@ -1,0 +1,215 @@
+{
+  "course": {
+    "title": "SCSE_FOS_Networking Essentials",
+    "url": "https://www.netacad.com/launch?id=1da0912b-1d6e-4fde-9d99-69c4197d93ca&tab=curriculum&view=febc5cbb-a9ba-5a49-8b90-6a5ad4e5183e",
+    "explored_at": "2026-08-18T22:07:26",
+    "content_iframe_src_sample": "https://www.netacad.com/authoring-resources/index.html?xAPILaunchKey=bac2655a-8980-40eb-8956-dd0d3a89c634&xAPILaunchService=https://www.netacad.com/adl/content/&lang=en-US&moduleNumber=3#/courses/ff9e491c-49be-4734-803e-a79e6e83dab1/8bd51e4d-127e-5c87-96cc-be67cae544c9/id/3bd1358b97d8422793ecdfbe6bff806d"
+  },
+  "selectors": {
+    "outline_scope": "top page (not the content iframe)",
+    "node_button": "button[id^=\"node-button-<uuid>\"]  (aria-expanded; label [class*=\"nodeName--\"]; progress [data-percentage])",
+    "node_container": "[class*=\"nodeContainer--\"] (ancestor of node_button; holds the sections)",
+    "section_container": "[class*=\"subModuleContainer--\"] within node_container",
+    "section_button": "button[id^=\"submodule-button-\"] (NOT unique; use container index)",
+    "section_title": "[class*=\"subModuleName--\"][title]",
+    "section_counter": "[class*=\"descendantProgress--\"]  e.g. \"0 / 4\"",
+    "item_link": "[class*=\"blockMainContainer--\"] a[class*=\"blockContainer--\"][role=button] (rendered only when section expanded)",
+    "item_title": "[class*=\"blockName--\"][title]",
+    "status_icon": "img[alt] -> start | in progress | completed",
+    "content_iframe": "iframe[title=\"Course content\"]  src ...authoring-resources/index.html?...#/courses/<course>/<module>/id/<page>",
+    "prev_next": "button[class*=\"moduleNavBtn--\"][aria-label^=\"Go To \"]"
+  },
+  "stats": {
+    "nodes": 1,
+    "sections": 4,
+    "items": 17
+  },
+  "nodes": [
+    {
+      "index": 3,
+      "uuid": "8bd51e4d-127e-5c87-96cc-be67cae544c9",
+      "kind": "module",
+      "module_number": 3,
+      "title": "Module 3: Wireless and Mobile Networks",
+      "percentage": 25,
+      "sections": [
+        {
+          "index": 0,
+          "id": "3.0",
+          "title": "Introduction",
+          "raw_title": "3.0. Introduction",
+          "counter": "0 / 2",
+          "status": "completed",
+          "items": [
+            {
+              "index": 0,
+              "id": "3.0.1",
+              "title": "Webster - Why Should I Take this Module?",
+              "raw_title": "3.0.1 Webster - Why Should I Take this Module?",
+              "inferred_type": "introduction",
+              "status": "start"
+            },
+            {
+              "index": 1,
+              "id": "3.0.2",
+              "title": "What Will I Learn in this Module?",
+              "raw_title": "3.0.2 What Will I Learn in this Module?",
+              "inferred_type": "introduction",
+              "status": "start"
+            }
+          ]
+        },
+        {
+          "index": 1,
+          "id": "3.1",
+          "title": "Wireless Networks",
+          "raw_title": "3.1. Wireless Networks",
+          "counter": "0 / 4",
+          "status": "start",
+          "items": [
+            {
+              "index": 0,
+              "id": "3.1.1",
+              "title": "Video - Types of Wireless Networks",
+              "raw_title": "3.1.1 Video - Types of Wireless Networks",
+              "inferred_type": "video",
+              "status": "start"
+            },
+            {
+              "index": 1,
+              "id": "3.1.2",
+              "title": "Video - Cell Phone Interactions with Different Networks",
+              "raw_title": "3.1.2 Video - Cell Phone Interactions with Different Networks",
+              "inferred_type": "video",
+              "status": "start"
+            },
+            {
+              "index": 2,
+              "id": "3.1.3",
+              "title": "Other Wireless Networks",
+              "raw_title": "3.1.3 Other Wireless Networks",
+              "inferred_type": "content",
+              "status": "start"
+            },
+            {
+              "index": 3,
+              "id": "3.1.4",
+              "title": "Check Your Understanding - Wireless Networks",
+              "raw_title": "3.1.4 Check Your Understanding - Wireless Networks",
+              "inferred_type": "knowledge_check",
+              "status": "start"
+            }
+          ]
+        },
+        {
+          "index": 2,
+          "id": "3.2",
+          "title": "Mobile Device Connectivity",
+          "raw_title": "3.2. Mobile Device Connectivity",
+          "counter": "0 / 8",
+          "status": "start",
+          "items": [
+            {
+              "index": 0,
+              "id": "3.2.1",
+              "title": "Mobile Devices and Wi-Fi",
+              "raw_title": "3.2.1 Mobile Devices and Wi-Fi",
+              "inferred_type": "content",
+              "status": "in progress"
+            },
+            {
+              "index": 1,
+              "id": "3.2.2",
+              "title": "Wi-Fi Settings",
+              "raw_title": "3.2.2 Wi-Fi Settings",
+              "inferred_type": "content",
+              "status": "start"
+            },
+            {
+              "index": 2,
+              "id": "3.2.3",
+              "title": "Configure Mobile Wi-Fi Connectivity",
+              "raw_title": "3.2.3 Configure Mobile Wi-Fi Connectivity",
+              "inferred_type": "content",
+              "status": "start"
+            },
+            {
+              "index": 3,
+              "id": "3.2.4",
+              "title": "Configure Cellular Data Settings",
+              "raw_title": "3.2.4 Configure Cellular Data Settings",
+              "inferred_type": "content",
+              "status": "start"
+            },
+            {
+              "index": 4,
+              "id": "3.2.5",
+              "title": "Video - Bluetooth Configuration on a Windows Laptop",
+              "raw_title": "3.2.5 Video - Bluetooth Configuration on a Windows Laptop",
+              "inferred_type": "video",
+              "status": "start"
+            },
+            {
+              "index": 5,
+              "id": "3.2.6",
+              "title": "Simple Connectivity with Bluetooth",
+              "raw_title": "3.2.6 Simple Connectivity with Bluetooth",
+              "inferred_type": "content",
+              "status": "start"
+            },
+            {
+              "index": 6,
+              "id": "3.2.7",
+              "title": "Bluetooth Pairing",
+              "raw_title": "3.2.7 Bluetooth Pairing",
+              "inferred_type": "content",
+              "status": "start"
+            },
+            {
+              "index": 7,
+              "id": "3.2.8",
+              "title": "Explore Your Network Settings on Your Mobile Device",
+              "raw_title": "3.2.8 Explore Your Network Settings on Your Mobile Device",
+              "inferred_type": "content",
+              "status": "start"
+            }
+          ]
+        },
+        {
+          "index": 3,
+          "id": "3.3",
+          "title": "Wireless and Mobile Networks Summary",
+          "raw_title": "3.3. Wireless and Mobile Networks Summary",
+          "counter": "0 / 3",
+          "status": "start",
+          "items": [
+            {
+              "index": 0,
+              "id": "3.3.1",
+              "title": "What Did I Learn in this Module?",
+              "raw_title": "3.3.1 What Did I Learn in this Module?",
+              "inferred_type": "summary",
+              "status": "in progress"
+            },
+            {
+              "index": 1,
+              "id": "3.3.2",
+              "title": "Webster - Reflection Questions",
+              "raw_title": "3.3.2 Webster - Reflection Questions",
+              "inferred_type": "content",
+              "status": "start"
+            },
+            {
+              "index": 2,
+              "id": "3.3.3",
+              "title": "Wireless and Mobile Networks Quiz",
+              "raw_title": "3.3.3 Wireless and Mobile Networks Quiz",
+              "inferred_type": "assessment",
+              "status": "start"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

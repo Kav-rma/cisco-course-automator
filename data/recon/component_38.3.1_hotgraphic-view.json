@@ -1,0 +1,99 @@
+[
+ {
+  "modelid": "63ae6b191422220804915691",
+  "model": {
+   "attributes": null,
+   "items": [
+    {
+     "_pin": {
+      "alt": "",
+      "src": ""
+     },
+     "_top": 73.08897434320664,
+     "body": "<p>A virus is a type of computer program that, when executed, replicates and attaches itself to other files, such as&nbsp;legitimate programs, by inserting its own code into the file. Some viruses are harmless yet others can be destructive, such as those that modify or delete data. Most viruses require end-user interaction to initiate activation, and can be written to act on a specific date or time.</p><p>Viruses can be spread through removable media such as USB flash drives, internet downloads, and email attachments. The simple act of opening a file or executing an infected program can trigger a virus. Once a virus is active, it will usually infect other programs on the computer or other computers on the network. Viruses mutate to avoid detection.</p><p>For example, the Melissa virus was released in 1999 and spread via email, affecting tens of thousands of users and causing an estimated $1.2 billion in damage.</p>",
+     "_left": 10.761508325171402,
+     "title": "Viruses",
+     "_classes": "",
+     "_graphic": {
+      "alt": "A virus",
+      "src": "en-US/assets/e0782099e789455391ab845ab9a8b4e9.png",
+      "_classes": "",
+      "attribution": ""
+     },
+     "strapline": "Tap + for more information",
+     "_ariaLevel": 0,
+     "_index": 0,
+     "_parentId": "63ae6b191422220804915691"
+    },
+    {
+     "_pin": {
+      "alt": "",
+      "src": ""
+     },
+     "_top": 71.97159501842987,
+     "body": "<p>A worm is a malicious software program that replicates by independently exploiting vulnerabilities in networks. Unlike a virus, which requires a host program to run, worms can run by themselves. Other than the initial infection of the host, they do not require user participation and can spread very quickly over the network, usually slowing it down.</p><p>Worms share similar patterns: they exploit system vulnerabilities, they have a way to propagate themselves, and they all contain malicious code (payload) that causes damage to computer systems or networks.</p><p>Worms are responsible for some of the most devastating attacks on the internet. In 2001, the Code Red worm infected over 300,000 servers in just 19 hours.</p>",
+     "_left": 46.898469541962534,
+     "title": "Worms",
+     "_classes": "",
+     "_graphic": {
+      "alt": "A worm",
+      "src": "en-US/assets/03680a7da3ea401c8dc0842e0a58582e.png",
+      "_classes": "",
+      "attribution": ""
+     },
+     "strapline": "Tap + for more information",
+     "_ariaLevel": 0,
+     "_index": 1,
+     "_parentId": "63ae6b191422220804915691"
+    },
+    {
+     "_pin": {
+      "alt": "",
+      "src": ""
+     },
+     "_top": 73.79386156125176,
+     "body": "<p>A Trojan horse is malware that carries out malicious operations by masking its true intent. It might appear legitimate but is, in fact, very dangerous. Trojans exploit the privileges of the user who runs them.</p><p>Unlike viruses, Trojans do not self-replicate but often bind themselves to non-executable files,&nbsp;such as image, audio, or video files, that act&nbsp;as a decoy to harm the systems of unsuspecting users.</p>",
+     "_left": 83.01094496051665,
+     "title": "Trojan horse",
+     "_classes": "",
+     "_graphic": {
+      "alt": "A wooden horse on wheels",
+      "src": "en-US/assets/c1bab5a9daad467fa6ead4821c9a6c44.png",
+      "_classes": "",
+      "attribution": ""
+     },
+     "strapline": "Tap + for more information",
+     "_ariaLevel": 0,
+     "_index": 2,
+     "_parentId": "63ae6b191422220804915691"
+    }
+   ]
+  },
+  "methods": [
+   "render",
+   "focusOnButton",
+   "_useGraphicsAsPins",
+   "renderPinContent",
+   "preRender"
+  ],
+  "own": [
+   "isUpdatePending",
+   "hasUpdated",
+   "enableUpdating",
+   "renderOptions",
+   "applyDesignAttributesHandler",
+   "applyCustomCssHandler",
+   "__modelid",
+   "renderMethodRef",
+   "isLanguageChanged",
+   "renderMethodReplacement",
+   "renderedObserver",
+   "component",
+   "controller",
+   "renderRoot",
+   "model"
+  ],
+  "html": "<hotgraphic-view modelid=\"63ae6b191422220804915691\" class=\"is-full\" sgpulse-type=\"component\"><template shadowroot=\"open\"><div class=\"component\"><div class=\"hotgraphic-inner component__inner\"><div data-socialgoodpulse-id=\"63ae6b191422220804915691\" class=\"component 63ae6b191422220804915691 is-complete\"><div class=\"component__header-container\"><div data-socialgoodpulse-id=\"63ae6b191422220804915691\" class=\"hotgraphic \"><base-view type=\"component\" lowercase_component=\"hotgraphic\" customclass=\"\"><template shadowroot=\"open\"><div class=\"component__header-wrapper  \"><div class=\"component__header hotgraphic__header\"><div class=\"component__header-inner hotgraphic__header-inner\"><div class=\"component__content\"><div tabindex=\"0\" class=\"component__body hotgraphic__body\"><div class=\"component__body-inner hotgraphic__body-inner\"><p>Cybercriminals use many different types of malicious software, or malware, to carry out attacks. Malware is any code that can be used to steal data, bypass access controls or cause harm to or compromise a system.</p><p><strong>Select the pin icons to find out more about three of the most common types of malware.</strong></p></div></div></div></div></div></div></template></base-view></div></div><div class=\"component__widget hotgraphic__widget is-tile \"><img class=\"hotgraphic__image\" aria-hidden=\"true\" src=\"./courses/ff9e491c-49be-4734-803e-a79e6e83dab1/470b0f8c-3433-58f8-8cae-ad9db92ba313/en-US/assets/63b6b477ce114563ba84d071581d4992.png\" aria-label=\"A wooden horse on wheels\"></img><div class=\"hotgraphic__pin-item-container\" role=\"list\"><div class=\"hotgraphic__pin-item\" role=\"listitem\"><button class=\"btn-icon hotgraphic__pin item-0 js-hotgraphic-item-click is-visited  hotgraphic-item-0\" aria-label=\"Viruses , Visited\" data-index=\"0\"><div class=\"hotgraphic__pin-icon hotgraphic-check_circle \"><material-icon icon=\"check\" class=\"hotgraphic-btn-icon\" customclasses=\"\" iconname=\"check\"><template shadowroot=\"open\"><span part=\"material-icon\" class=\"material-icons \">check</span></template></material-icon></div><div class=\"icon\"></div></button></div><div class=\"hotgraphic__pin-item\" role=\"listitem\"><button class=\"btn-icon hotgraphic__pin item-1 js-hotgraphic-item-click is-visited  hotgraphic-item-1\" aria-label=\"Worms , Visited\" data-index=\"1\"><div class=\"hotgraphic__pin-icon hotgraphic-check_circle \"><material-icon icon=\"check\" class=\"hotgraphic-btn-icon\" customclasses=\"\" iconname=\"check\"><template shadowroot=\"open\"><span part=\"material-icon\" class=\"material-icons \">check</span></template></material-icon></div><div class=\"icon\"></div></button></div><div class=\"hotgraphic__pin-item\" role=\"listitem\"><button class=\"btn-icon hotgraphic__pin item-2 js-hotgraphic-item-click is-visited  hotgraphic-item-2\" aria-label=\"Trojan horse , Visited\" data-index=\"2\"><div class=\"hotgraphic__pin-icon hotgraphic-check_circle \"><material-icon icon=\"check\" class=\"hotgraphic-btn-icon\" customclasses=\"\" iconname=\"check\"><template shadowroot=\"open\"><span part=\"material-icon\" class=\"material-icons \">check</span></template></material-icon></div><div class=\"icon\"></div></button></div></div></div></div></div></div></template></hotgraphic-view>",
+  "complete": true
+ }
+]

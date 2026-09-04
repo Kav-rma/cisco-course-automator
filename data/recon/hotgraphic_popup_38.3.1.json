@@ -1,0 +1,263 @@
+[
+ {
+  "tag": "html",
+  "cls": "no-touchevents csscolumns csscolumns-width csscolumns-span csscolumns-fill csscolumns-gap csscolumns-rule csscolumns-rul",
+  "role": null,
+  "aria": null,
+  "text": "Module {{_globals._moduleNumber}}: Cybersecurity Threats, Vu",
+  "visible": true,
+  "host": "document"
+ },
+ {
+  "tag": "button",
+  "cls": "nav_btn btn_icon btn_right nav__close-btn",
+  "role": null,
+  "aria": "Select here to close the window.",
+  "text": "exit_to_app",
+  "visible": false,
+  "host": "sgpluse-close-view"
+ },
+ {
+  "tag": "div",
+  "cls": "popup notify__popup notify__popup-type-popup hotgraphic",
+  "role": "dialog",
+  "aria": " ",
+  "text": "Viruses A virus is a type of computer program that, when exe",
+  "visible": true,
+  "host": "notify-view"
+ },
+ {
+  "tag": "div",
+  "cls": "notify__popup-inner",
+  "role": null,
+  "aria": null,
+  "text": "Viruses A virus is a type of computer program that, when exe",
+  "visible": true,
+  "host": "notify-view"
+ },
+ {
+  "tag": "div",
+  "cls": "notify__content",
+  "role": null,
+  "aria": null,
+  "text": "Viruses A virus is a type of computer program that, when exe",
+  "visible": true,
+  "host": "notify-view"
+ },
+ {
+  "tag": "div",
+  "cls": "notify__icon",
+  "role": null,
+  "aria": null,
+  "text": "",
+  "visible": true,
+  "host": "notify-view"
+ },
+ {
+  "tag": "div",
+  "cls": "notify__body",
+  "role": null,
+  "aria": null,
+  "text": "",
+  "visible": true,
+  "host": "notify-view"
+ },
+ {
+  "tag": "div",
+  "cls": "notify-body",
+  "role": null,
+  "aria": null,
+  "text": "",
+  "visible": true,
+  "host": "notify-view"
+ },
+ {
+  "tag": "div",
+  "cls": "popup__holder js-popup-holder",
+  "role": null,
+  "aria": null,
+  "text": "Viruses A virus is a type of computer program that, when exe",
+  "visible": true,
+  "host": "notify-view"
+ },
+ {
+  "tag": "div",
+  "cls": "hotgraphic-popup",
+  "role": "dialog",
+  "aria": null,
+  "text": "Viruses A virus is a type of computer program that, when exe",
+  "visible": true,
+  "host": "hotgraphic-popup"
+ },
+ {
+  "tag": "div",
+  "cls": "hotgraphic-popup__inner",
+  "role": null,
+  "aria": null,
+  "text": "Viruses A virus is a type of computer program that, when exe",
+  "visible": true,
+  "host": "hotgraphic-popup"
+ },
+ {
+  "tag": "div",
+  "cls": "hotgraphic-popup__item \n             \n            is-visited \n            is-active \n            ",
+  "role": null,
+  "aria": null,
+  "text": "Viruses A virus is a type of computer program that, when exe",
+  "visible": true,
+  "host": "hotgraphic-popup"
+ },
+ {
+  "tag": "div",
+  "cls": "hotgraphic-popup__item-content hotgraphic-popup__item-0",
+  "role": null,
+  "aria": null,
+  "text": "Viruses A virus is a type of computer program that, when exe",
+  "visible": true,
+  "host": "hotgraphic-popup"
+ },
+ {
+  "tag": "div",
+  "cls": "hotgraphic-popup__item-content-inner",
+  "role": null,
+  "aria": null,
+  "text": "Viruses A virus is a type of computer program that, when exe",
+  "visible": true,
+  "host": "hotgraphic-popup"
+ },
+ {
+  "tag": "div",
+  "cls": "hotgraphic-popup__item-title item-title-0",
+  "role": null,
+  "aria": null,
+  "text": "Viruses",
+  "visible": true,
+  "host": "hotgraphic-popup"
+ },
+ {
+  "tag": "div",
+  "cls": "hotgraphic-popup__item-title-inner hotgraphic-item-title-0",
+  "role": null,
+  "aria": null,
+  "text": "Viruses",
+  "visible": true,
+  "host": "hotgraphic-popup"
+ },
+ {
+  "tag": "div",
+  "cls": "hotgraphic-popup__item-body",
+  "role": null,
+  "aria": null,
+  "text": "A virus is a type of computer program that, when executed, r",
+  "visible": true,
+  "host": "hotgraphic-popup"
+ },
+ {
+  "tag": "div",
+  "cls": "hotgraphic-popup__item-body-inner",
+  "role": null,
+  "aria": null,
+  "text": "A virus is a type of computer program that, when executed, r",
+  "visible": true,
+  "host": "hotgraphic-popup"
+ },
+ {
+  "tag": "div",
+  "cls": "hotgraphic-popup__item-image-container ",
+  "role": null,
+  "aria": null,
+  "text": "",
+  "visible": true,
+  "host": "hotgraphic-popup"
+ },
+ {
+  "tag": "img",
+  "cls": "hotgraphic-popup__item-image",
+  "role": null,
+  "aria": "A virus",
+  "text": "",
+  "visible": true,
+  "host": "hotgraphic-popup"
+ },
+ {
+  "tag": "div",
+  "cls": "hotgraphic-popup__toolbar ",
+  "role": null,
+  "aria": null,
+  "text": "arrow_back_ios arrow_forward_ios 1 / 3",
+  "visible": true,
+  "host": "hotgraphic-popup"
+ },
+ {
+  "tag": "div",
+  "cls": "hotgraphic-popup__nav",
+  "role": null,
+  "aria": null,
+  "text": "arrow_back_ios arrow_forward_ios 1 / 3",
+  "visible": true,
+  "host": "hotgraphic-popup"
+ },
+ {
+  "tag": "button",
+  "cls": "btn-icon hotgraphic-popup__controls back disabled js-hotgraphic-controls-click ",
+  "role": null,
+  "aria": "Back",
+  "text": "arrow_back_ios",
+  "visible": false,
+  "host": "hotgraphic-popup"
+ },
+ {
+  "tag": "button",
+  "cls": "btn-icon hotgraphic-popup__controls next  js-hotgraphic-controls-click",
+  "role": null,
+  "aria": "Next",
+  "text": "arrow_forward_ios",
+  "visible": true,
+  "host": "hotgraphic-popup"
+ },
+ {
+  "tag": "div",
+  "cls": "hotgraphic-popup__count",
+  "role": null,
+  "aria": null,
+  "text": "1 / 3",
+  "visible": true,
+  "host": "hotgraphic-popup"
+ },
+ {
+  "tag": "button",
+  "cls": "btn-icon hotgraphic-popup__close js-hotgraphic-popup-close",
+  "role": null,
+  "aria": "Close popup",
+  "text": "close",
+  "visible": true,
+  "host": "hotgraphic-popup"
+ },
+ {
+  "tag": "material-icon",
+  "cls": "hotgraphic-close-btn",
+  "role": null,
+  "aria": null,
+  "text": "close",
+  "visible": true,
+  "host": "hotgraphic-popup"
+ },
+ {
+  "tag": "div",
+  "cls": "cancel-popup-close-icon",
+  "role": null,
+  "aria": null,
+  "text": "close Close popup",
+  "visible": false,
+  "host": "notify-view"
+ },
+ {
+  "tag": "button",
+  "cls": "btn-icon btn__action notify__btn-icon notify__close-btn js-notify-close-btn",
+  "role": null,
+  "aria": null,
+  "text": "close Close popup",
+  "visible": false,
+  "host": "notify-view"
+ }
+]

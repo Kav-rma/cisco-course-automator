@@ -1,0 +1,105 @@
+{
+ "started_at": "2026-08-20T19:48:31",
+ "items": [
+  {
+   "item": "20.0.1",
+   "title": "Webster - Why Should I Take this Module?",
+   "module": 20,
+   "type": "INTRODUCTION",
+   "components": [
+    "text-view",
+    "graphic-view"
+   ],
+   "unit_complete": true,
+   "status": "already_complete",
+   "notes": [],
+   "seconds": 7.1,
+   "outline_after": "completed"
+  },
+  {
+   "item": "20.1.1",
+   "title": "Binary and IPv4 Addresses",
+   "module": 20,
+   "type": "LESSON",
+   "components": [
+    "dynamic-graphic-view",
+    "dynamic-graphic-view",
+    "text-view"
+   ],
+   "unit_complete": true,
+   "status": "already_complete",
+   "notes": [],
+   "seconds": 5.9,
+   "outline_after": "completed"
+  },
+  {
+   "item": "20.1.6",
+   "title": "Decimal to Binary Conversion Example",
+   "module": 20,
+   "type": "INTERACTIVE",
+   "components": [
+    "tabs-view"
+   ],
+   "unit_complete": false,
+   "status": "completed",
+   "notes": [
+    "unit complete"
+   ],
+   "seconds": 10.8,
+   "outline_after": "completed"
+  },
+  {
+   "item": "20.2.1",
+   "title": "Hexadecimal and IPv6 Addresses",
+   "module": 20,
+   "type": "LESSON",
+   "components": [
+    "dynamic-graphic-view",
+    "dynamic-graphic-view",
+    "graphic-view"
+   ],
+   "unit_complete": true,
+   "status": "already_complete",
+   "notes": [],
+   "seconds": 4.8,
+   "outline_after": "completed"
+  },
+  {
+   "item": "20.3.1",
+   "title": "What Did I Learn in this Module?",
+   "module": 20,
+   "type": "INTERACTIVE",
+   "components": [
+    "accordion-view"
+   ],
+   "unit_complete": true,
+   "status": "already_complete",
+   "notes": [],
+   "seconds": 5.7,
+   "outline_after": "completed"
+  },
+  {
+   "item": "20.3.3",
+   "title": "Number Systems Quiz",
+   "module": 20,
+   "type": "ASSESSMENT",
+   "components": [
+    "adaptive-start-screen-view"
+   ],
+   "unit_complete": false,
+   "status": "needs_user",
+   "notes": [
+    "graded assessment - never automated"
+   ],
+   "seconds": 33.7
+  }
+ ],
+ "needs_user": [
+  {
+   "item": "20.3.3",
+   "why": "graded assessment - never automated"
+  }
+ ],
+ "failed": [],
+ "finished_at": "2026-08-20T19:50:09"
+}

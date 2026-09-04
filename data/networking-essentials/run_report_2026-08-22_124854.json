@@ -1,0 +1,706 @@
+{
+ "started_at": "2026-08-22T12:48:54",
+ "items": [
+  {
+   "item": "38.0.1",
+   "title": "Why Should I Take this Module?",
+   "module": 38,
+   "type": "INTRODUCTION",
+   "components": [
+    "graphic-view",
+    "text-view"
+   ],
+   "unit_complete": true,
+   "status": "already_complete",
+   "notes": [],
+   "seconds": 6.3,
+   "outline_after": "completed"
+  },
+  {
+   "item": "38.1.1",
+   "title": "Threat Domains",
+   "module": 38,
+   "type": "INTERACTIVE",
+   "components": [
+    "flipcard-view"
+   ],
+   "unit_complete": true,
+   "status": "already_complete",
+   "notes": [],
+   "seconds": 3.9,
+   "outline_after": "completed"
+  },
+  {
+   "item": "38.1.4",
+   "title": "Practice Item - Threat Origination",
+   "module": 38,
+   "type": "KNOWLEDGE_CHECK",
+   "components": [
+    "matching-view",
+    "blank-view"
+   ],
+   "unit_complete": false,
+   "status": "completed",
+   "notes": [],
+   "seconds": 3.3,
+   "outline_after": "completed"
+  },
+  {
+   "item": "38.1.5",
+   "title": "User Threats and Vulnerabilities",
+   "module": 38,
+   "type": "INTERACTIVE",
+   "components": [
+    "accordion-view",
+    "text-view"
+   ],
+   "unit_complete": false,
+   "status": "completed",
+   "notes": [
+    "unit complete"
+   ],
+   "seconds": 7.1,
+   "outline_after": "completed"
+  },
+  {
+   "item": "38.2.1",
+   "title": "Social Engineering",
+   "module": 38,
+   "type": "INTERACTIVE",
+   "components": [
+    "narrative-view"
+   ],
+   "unit_complete": true,
+   "status": "already_complete",
+   "notes": [],
+   "seconds": 5.0,
+   "outline_after": "completed"
+  },
+  {
+   "item": "38.2.2",
+   "title": "Social Engineering Tactics",
+   "module": 38,
+   "type": "INTERACTIVE",
+   "components": [
+    "accordion-view"
+   ],
+   "unit_complete": false,
+   "status": "completed",
+   "notes": [
+    "unit complete"
+   ],
+   "seconds": 6.7,
+   "outline_after": "completed"
+  },
+  {
+   "item": "38.2.3",
+   "title": "Practice Item - Social Engineering Scenario",
+   "module": 38,
+   "type": "KNOWLEDGE_CHECK",
+   "components": [
+    "mcq-view"
+   ],
+   "unit_complete": false,
+   "status": "completed",
+   "notes": [],
+   "seconds": 3.3,
+   "outline_after": "completed"
+  },
+  {
+   "item": "38.2.5",
+   "title": "Impersonation and Hoaxes",
+   "module": 38,
+   "type": "INTERACTIVE",
+   "components": [
+    "flipcard-view"
+   ],
+   "unit_complete": false,
+   "status": "completed",
+   "notes": [
+    "unit complete"
+   ],
+   "seconds": 4.9,
+   "outline_after": "completed"
+  },
+  {
+   "item": "38.2.7",
+   "title": "Other Methods of Deception",
+   "module": 38,
+   "type": "INTERACTIVE",
+   "components": [
+    "accordion-view",
+    "blank-view"
+   ],
+   "unit_complete": false,
+   "status": "completed",
+   "notes": [
+    "unit complete"
+   ],
+   "seconds": 5.9,
+   "outline_after": "completed"
+  },
+  {
+   "item": "38.2.8",
+   "title": "Check Your Understanding - Social Engineering Attacks",
+   "module": 38,
+   "type": "KNOWLEDGE_CHECK",
+   "components": [
+    "object-matching-view"
+   ],
+   "unit_complete": false,
+   "status": "completed",
+   "notes": [],
+   "seconds": 4.8,
+   "outline_after": "completed"
+  },
+  {
+   "item": "38.2.9",
+   "title": "Defending Against Deception",
+   "module": 38,
+   "type": "LESSON",
+   "components": [
+    "graphic-view",
+    "text-view"
+   ],
+   "unit_complete": false,
+   "status": "completed",
+   "notes": [
+    "completed after scrolling into view"
+   ],
+   "seconds": 3.9,
+   "outline_after": "completed"
+  },
+  {
+   "item": "38.2.10",
+   "title": "Video - Explore Social Engineering Techniques",
+   "module": 38,
+   "type": "VIDEO",
+   "components": [
+    "media-view"
+   ],
+   "unit_complete": false,
+   "status": "completed",
+   "notes": [],
+   "seconds": 5.2,
+   "outline_after": "completed"
+  },
+  {
+   "item": "38.2.11",
+   "title": "Lab - Explore Social Engineering Techniques",
+   "module": 38,
+   "type": "LAB",
+   "components": [
+    "pagetracer-view",
+    "quicknav-view"
+   ],
+   "unit_complete": false,
+   "status": "completed",
+   "notes": [],
+   "seconds": 3.1,
+   "outline_after": "completed"
+  },
+  {
+   "item": "38.3.1",
+   "title": "Malware",
+   "module": 38,
+   "type": "INTERACTIVE",
+   "components": [
+    "hotgraphic-view"
+   ],
+   "unit_complete": false,
+   "status": "failed",
+   "notes": [
+    "unhandled interactive component types: ['hotgraphic-view']",
+    "unit still incomplete after processing interactives"
+   ],
+   "seconds": 24.0
+  },
+  {
+   "item": "38.3.3",
+   "title": "Ransomware",
+   "module": 38,
+   "type": "LESSON",
+   "components": [
+    "graphic-view",
+    "text-view"
+   ],
+   "unit_complete": true,
+   "status": "already_complete",
+   "notes": [],
+   "seconds": 3.7,
+   "outline_after": "completed"
+  },
+  {
+   "item": "38.3.4",
+   "title": "Denial of Service Attacks",
+   "module": 38,
+   "type": "INTERACTIVE",
+   "components": [
+    "flipcard-view"
+   ],
+   "unit_complete": false,
+   "status": "completed",
+   "notes": [
+    "unit complete"
+   ],
+   "seconds": 5.1,
+   "outline_after": "completed"
+  },
+  {
+   "item": "38.3.5",
+   "title": "Domain Name System",
+   "module": 38,
+   "type": "INTERACTIVE",
+   "components": [
+    "accordion-view",
+    "blank-view"
+   ],
+   "unit_complete": false,
+   "status": "completed",
+   "notes": [
+    "unit complete"
+   ],
+   "seconds": 5.9,
+   "outline_after": "completed"
+  },
+  {
+   "item": "38.3.6",
+   "title": "Layer 2 Attacks",
+   "module": 38,
+   "type": "LESSON",
+   "components": [
+    "text-view",
+    "text-view",
+    "graphic-view",
+    "graphic-view",
+    "text-view"
+   ],
+   "unit_complete": false,
+   "status": "completed",
+   "notes": [
+    "completed after scrolling into view"
+   ],
+   "seconds": 5.0,
+   "outline_after": "completed"
+  },
+  {
+   "item": "38.3.7",
+   "title": "Practice Item - Attack Type",
+   "module": 38,
+   "type": "KNOWLEDGE_CHECK",
+   "components": [
+    "mcq-view"
+   ],
+   "unit_complete": false,
+   "status": "completed",
+   "notes": [],
+   "seconds": 3.2,
+   "outline_after": "completed"
+  },
+  {
+   "item": "38.3.8",
+   "title": "Man-in-the-Middle and Man-in-the-Mobile Attacks",
+   "module": 38,
+   "type": "INTERACTIVE",
+   "components": [
+    "flipcard-view"
+   ],
+   "unit_complete": false,
+   "status": "completed",
+   "notes": [
+    "unit complete"
+   ],
+   "seconds": 4.9,
+   "outline_after": "completed"
+  },
+  {
+   "item": "38.3.9",
+   "title": "Zero-Day Attacks",
+   "module": 38,
+   "type": "LESSON",
+   "components": [
+    "text-view",
+    "graphic-view"
+   ],
+   "unit_complete": true,
+   "status": "already_complete",
+   "notes": [],
+   "seconds": 3.4,
+   "outline_after": "completed"
+  },
+  {
+   "item": "38.3.11",
+   "title": "Confirm Your Details",
+   "module": 38,
+   "type": "KNOWLEDGE_CHECK",
+   "components": [
+    "mcq-view"
+   ],
+   "unit_complete": false,
+   "status": "completed",
+   "notes": [],
+   "seconds": 3.4,
+   "outline_after": "completed"
+  },
+  {
+   "item": "38.3.13",
+   "title": "Check Your Understanding - Cyber Attacks",
+   "module": 38,
+   "type": "KNOWLEDGE_CHECK",
+   "components": [
+    "object-matching-view",
+    "mcq-view",
+    "quicknav-view"
+   ],
+   "unit_complete": false,
+   "status": "completed",
+   "notes": [],
+   "seconds": 6.7,
+   "outline_after": "completed"
+  },
+  {
+   "item": "38.4.1",
+   "title": "Grayware and SMiShing",
+   "module": 38,
+   "type": "LESSON",
+   "components": [
+    "text-view",
+    "graphic-view"
+   ],
+   "unit_complete": true,
+   "status": "already_complete",
+   "notes": [],
+   "seconds": 3.1,
+   "outline_after": "completed"
+  },
+  {
+   "item": "38.4.2",
+   "title": "Rogue Access Points",
+   "module": 38,
+   "type": "INTERACTIVE",
+   "components": [
+    "narrative-view"
+   ],
+   "unit_complete": false,
+   "status": "completed",
+   "notes": [
+    "unit complete"
+   ],
+   "seconds": 5.3,
+   "outline_after": "completed"
+  },
+  {
+   "item": "38.4.3",
+   "title": "Radio Frequency Jamming",
+   "module": 38,
+   "type": "LESSON",
+   "components": [
+    "text-view",
+    "graphic-view"
+   ],
+   "unit_complete": true,
+   "status": "already_complete",
+   "notes": [],
+   "seconds": 3.4,
+   "outline_after": "completed"
+  },
+  {
+   "item": "38.4.4",
+   "title": "Bluejacking and Bluesnarfing",
+   "module": 38,
+   "type": "INTERACTIVE",
+   "components": [
+    "flipcard-view"
+   ],
+   "unit_complete": false,
+   "status": "completed",
+   "notes": [
+    "unit complete"
+   ],
+   "seconds": 5.2,
+   "outline_after": "completed"
+  },
+  {
+   "item": "38.4.7",
+   "title": "Check Your Understanding - Wireless and Mobile Device Attacks",
+   "module": 38,
+   "type": "KNOWLEDGE_CHECK",
+   "components": [
+    "mcq-view",
+    "quicknav-view"
+   ],
+   "unit_complete": false,
+   "status": "completed",
+   "notes": [],
+   "seconds": 3.1,
+   "outline_after": "completed"
+  },
+  {
+   "item": "38.5.1",
+   "title": "Cross-Site Scripting",
+   "module": 38,
+   "type": "LESSON",
+   "components": [
+    "text-view",
+    "dynamic-graphic-view"
+   ],
+   "unit_complete": true,
+   "status": "already_complete",
+   "notes": [],
+   "seconds": 3.2,
+   "outline_after": "completed"
+  },
+  {
+   "item": "38.5.2",
+   "title": "Code Injection",
+   "module": 38,
+   "type": "INTERACTIVE",
+   "components": [
+    "accordion-view"
+   ],
+   "unit_complete": false,
+   "status": "completed",
+   "notes": [
+    "unit complete"
+   ],
+   "seconds": 5.4,
+   "outline_after": "completed"
+  },
+  {
+   "item": "38.5.3",
+   "title": "Buffer Overflow",
+   "module": 38,
+   "type": "LESSON",
+   "components": [
+    "text-view",
+    "graphic-view"
+   ],
+   "unit_complete": true,
+   "status": "already_complete",
+   "notes": [],
+   "seconds": 3.5,
+   "outline_after": "completed"
+  },
+  {
+   "item": "38.5.4",
+   "title": "Remote Code Executions",
+   "module": 38,
+   "type": "INTERACTIVE",
+   "components": [
+    "flipcard-view"
+   ],
+   "unit_complete": false,
+   "status": "completed",
+   "notes": [
+    "unit complete"
+   ],
+   "seconds": 4.6,
+   "outline_after": "completed"
+  },
+  {
+   "item": "38.5.5",
+   "title": "Other Application Attacks",
+   "module": 38,
+   "type": "INTERACTIVE",
+   "components": [
+    "accordion-view"
+   ],
+   "unit_complete": false,
+   "status": "completed",
+   "notes": [
+    "unit complete"
+   ],
+   "seconds": 7.5,
+   "outline_after": "completed"
+  },
+  {
+   "item": "38.5.6",
+   "title": "Practice Item - Code and Memory Attacks",
+   "module": 38,
+   "type": "KNOWLEDGE_CHECK",
+   "components": [
+    "mcq-view",
+    "blank-view"
+   ],
+   "unit_complete": false,
+   "status": "completed",
+   "notes": [],
+   "seconds": 3.3,
+   "outline_after": "completed"
+  },
+  {
+   "item": "38.5.8",
+   "title": "Spam",
+   "module": 38,
+   "type": "LESSON",
+   "components": [
+    "text-view"
+   ],
+   "unit_complete": false,
+   "status": "completed",
+   "notes": [
+    "completed after scrolling into view"
+   ],
+   "seconds": 3.4,
+   "outline_after": "completed"
+  },
+  {
+   "item": "38.5.9",
+   "title": "Phishing",
+   "module": 38,
+   "type": "INTERACTIVE",
+   "components": [
+    "flipcard-view"
+   ],
+   "unit_complete": false,
+   "status": "completed",
+   "notes": [
+    "unit complete"
+   ],
+   "seconds": 5.0,
+   "outline_after": "completed"
+  },
+  {
+   "item": "38.5.10",
+   "title": "Vishing, Pharming and Whaling",
+   "module": 38,
+   "type": "INTERACTIVE",
+   "components": [
+    "accordion-view"
+   ],
+   "unit_complete": false,
+   "status": "completed",
+   "notes": [
+    "unit complete"
+   ],
+   "seconds": 4.9,
+   "outline_after": "completed"
+  },
+  {
+   "item": "38.5.11",
+   "title": "Practice Item - Phishing Attacks",
+   "module": 38,
+   "type": "KNOWLEDGE_CHECK",
+   "components": [
+    "object-matching-view",
+    "blank-view"
+   ],
+   "unit_complete": false,
+   "status": "completed",
+   "notes": [],
+   "seconds": 4.8,
+   "outline_after": "completed"
+  },
+  {
+   "item": "38.5.12",
+   "title": "Defending Against Email and Browser Attacks",
+   "module": 38,
+   "type": "INTERACTIVE",
+   "components": [
+    "text-view",
+    "accordion-view"
+   ],
+   "unit_complete": false,
+   "status": "completed",
+   "notes": [
+    "unit complete"
+   ],
+   "seconds": 5.3,
+   "outline_after": "completed"
+  },
+  {
+   "item": "38.5.13",
+   "title": "Check Your Understanding - Application Attacks",
+   "module": 38,
+   "type": "KNOWLEDGE_CHECK",
+   "components": [
+    "mcq-view",
+    "mcq-view",
+    "mcq-view",
+    "mcq-view",
+    "mcq-view",
+    "mcq-view",
+    "quicknav-view"
+   ],
+   "unit_complete": false,
+   "status": "completed",
+   "notes": [],
+   "seconds": 3.9,
+   "outline_after": "completed"
+  },
+  {
+   "item": "38.6.1",
+   "title": "What Did I Learn in this Module?",
+   "module": 38,
+   "type": "INTERACTIVE",
+   "components": [
+    "accordion-view"
+   ],
+   "unit_complete": false,
+   "status": "completed",
+   "notes": [
+    "unit complete"
+   ],
+   "seconds": 9.2,
+   "outline_after": "completed"
+  },
+  {
+   "item": "38.6.2",
+   "title": "Webster - Reflection Questions",
+   "module": 38,
+   "type": "LESSON",
+   "components": [
+    "text-view",
+    "graphic-view"
+   ],
+   "unit_complete": false,
+   "status": "completed",
+   "notes": [
+    "completed after scrolling into view"
+   ],
+   "seconds": 3.5,
+   "outline_after": "completed"
+  },
+  {
+   "item": "38.6.3",
+   "title": "Cybersecurity Threats, Vulnerabilities, and Attacks Quiz",
+   "module": 38,
+   "type": "ASSESSMENT",
+   "components": [
+    "adaptive-start-screen-view",
+    "quicknav-view"
+   ],
+   "unit_complete": false,
+   "status": "needs_user",
+   "notes": [
+    "graded assessment - never automated"
+   ],
+   "seconds": 33.1
+  }
+ ],
+ "needs_user": [
+  {
+   "item": "38.6.3",
+   "why": "graded assessment - never automated"
+  }
+ ],
+ "failed": [
+  {
+   "item": "38.3.1",
+   "title": "Malware",
+   "module": 38,
+   "type": "INTERACTIVE",
+   "components": [
+    "hotgraphic-view"
+   ],
+   "unit_complete": false,
+   "status": "failed",
+   "notes": [
+    "unhandled interactive component types: ['hotgraphic-view']",
+    "unit still incomplete after processing interactives"
+   ],
+   "seconds": 24.0
+  }
+ ],
+ "finished_at": "2026-08-22T12:53:50"
+}

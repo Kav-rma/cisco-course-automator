@@ -1,0 +1,36 @@
+[
+ {
+  "modelid": "89a1ddc900af45c7805e5d944c47c7c9",
+  "model": {
+   "attributes": null,
+   "items": []
+  },
+  "methods": [
+   "render",
+   "focusOnInput",
+   "focusOnTable",
+   "focusOnCheckBtn",
+   "shiftFocusToComponentBody",
+   "preRender"
+  ],
+  "own": [
+   "isUpdatePending",
+   "hasUpdated",
+   "enableUpdating",
+   "renderOptions",
+   "applyDesignAttributesHandler",
+   "applyCustomCssHandler",
+   "__modelid",
+   "renderMethodRef",
+   "isLanguageChanged",
+   "renderMethodReplacement",
+   "renderedObserver",
+   "component",
+   "model",
+   "controller",
+   "renderRoot"
+  ],
+  "html": "<decimal-to-binary modelid=\"89a1ddc900af45c7805e5d944c47c7c9\" class=\"is-full\" sgpulse-type=\"component\"><template shadowroot=\"open\"><div class=\"component\"><div class=\"decimal-to-binary-inner component__inner\"><div data-socialgoodpulse-id=\"89a1ddc900af45c7805e5d944c47c7c9\" class=\"component decimaltobinary 89a1ddc900af45c7805e5d944c47c7c9  is-full   \"><div class=\"component__header-container\"><div data-socialgoodpulse-id=\"89a1ddc900af45c7805e5d944c47c7c9\" class=\"decimalToBinary \"><base-view type=\"component\" lowercase_component=\"decimalToBinary\" customclass=\"\"><template shadowroot=\"open\"><div class=\"component__header-wrapper  \"><div class=\"component__header decimalToBinary__header\"><div class=\"component__header-inner decimalToBinary__header-inner\"><div class=\"component__content\"><div tabindex=\"0\" class=\"component__body decimalToBinary__body\"><div class=\"component__body-inner decimalToBinary__body-inner\"><p>Instructions</p><p>This activity allows you to practice decimal conversions to 8-bit binary values. We recommend that you work with this tool until you are able to do the conversion without error. Convert the decimal number shown in the Decimal Value row to its binary bits.</p></div></div></div></div></div></div></template></base-view></div></div><div class=\"component__widget decimal-to-binary__widget\"><div class=\"decimal-to-binary-container decimal-to-binary\"><p class=\"component__instruction\"></p><div class=\"decimal-to-binary-table-table-wrapper\"><table class=\"decimal-to-binary-table\"><tbody><tr class=\"mask-output\"><th tabindex=\"0\">Decimal Value</th><th colspan=\"9\" class=\"output-cell\" tabindex=\"0\" aria-lbel=\"6-questionValue\">6</th></tr><tr><td tabindex=\"0\">Base</td><td tabindex=\"0\">2</td><td tabindex=\"0\">2</td><td tabindex=\"0\">2</td><td tabindex=\"0\">2</td><td tabindex=\"0\">2</td><td tabindex=\"0\">2</td><td tabindex=\"0\">2</td><td tabindex=\"0\">2</td></tr><tr><td tabindex=\"0\">Exponent</td><td tabindex=\"0\">7</td><td tabindex=\"0\">6</td><td tabindex=\"0\">5</td><td tabindex=\"0\">4</td><td tabindex=\"0\">3</td><td tabindex=\"0\">2</td><td tabindex=\"0\">1</td><td tabindex=\"0\">0</td></tr><tr><td tabindex=\"0\">Position</td><td tabindex=\"0\">128</td><td tabindex=\"0\">64</td><td tabindex=\"0\">32</td><td tabindex=\"0\">16</td><td tabindex=\"0\">8</td><td tabindex=\"0\">4</td><td tabindex=\"0\">2</td><td>1</td></tr><tr><td tabindex=\"0\">Bit</td><td class=\"mask-input\"><input class=\"mask-inputs\" type=\"text\" min=\"0\" max=\"1\" maxlength=\"1\" aria-label=\"binary input\"></input></td><td class=\"mask-input\"><input class=\"mask-inputs\" type=\"text\" min=\"0\" max=\"1\" maxlength=\"1\" aria-label=\"binary input\"></input></td><td class=\"mask-input\"><input class=\"mask-inputs\" type=\"text\" min=\"0\" max=\"1\" maxlength=\"1\" aria-label=\"binary input\"></input></td><td class=\"mask-input\"><input class=\"mask-inputs\" type=\"text\" min=\"0\" max=\"1\" maxlength=\"1\" aria-label=\"binary input\"></input></td><td class=\"mask-input\"><input class=\"mask-inputs\" type=\"text\" min=\"0\" max=\"1\" maxlength=\"1\" aria-label=\"binary input\"></input></td><td class=\"mask-input\"><input class=\"mask-inputs\" type=\"text\" min=\"0\" max=\"1\" maxlength=\"1\" aria-label=\"binary input\"></input></td><td class=\"mask-input\"><input class=\"mask-inputs\" type=\"text\" min=\"0\" max=\"1\" maxlength=\"1\" aria-label=\"binary input\"></input></td><td class=\"mask-input\"><input class=\"mask-inputs\" type=\"text\" min=\"0\" max=\"1\" maxlength=\"1\" aria-label=\"binary input\"></input></td></tr></tbody></table></div><p></p><div class=\"btn__container\"><button class=\"btn-text btn__action check-answer\" aria-label=\"Select here to check your answer.\">Check</button><button class=\"btn-text btn__action change-question\" aria-label=\"\">New Number</button><button class=\"btn-text btn__action show-answer\" aria-label=\"Select here to submit your answer.\">Show Me</button><button class=\"btn-text btn__action reset-answer\" aria-label=\"\">Reset</button></div></div></div></div></div></div></template></decimal-to-binary>",
+  "complete": false
+ }
+]

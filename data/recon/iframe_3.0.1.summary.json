@@ -1,0 +1,181 @@
+{
+  "url": "https://www.netacad.com/authoring-resources/index.html?xAPILaunchKey=37ddeb1f-0592-4e72-881a-acb39607db63&xAPILaunchService=https://www.netacad.com/adl/content/&lang=en-US&moduleNumber=3#/courses/ff9e491c-49be-4734-803e-a79e6e83dab1/8bd51e4d-127e-5c87-96cc-be67cae544c9/id/bb528f011878404b990936f490fff824",
+  "title": "Module {{_globals._moduleNumber}}: Wireless and Mobile Networks | 3.0. Introduction",
+  "readyState": "complete",
+  "bodyTextLen": 0,
+  "h1": [],
+  "h2": [],
+  "h3": [],
+  "counts": {
+    "iframe": 0,
+    "video": 0,
+    "audio": 0,
+    "button": 0,
+    "a": 0,
+    "input": 0,
+    "radio": 0,
+    "checkbox": 0,
+    "roleButton": 0,
+    "roleRadio": 0,
+    "roleCheckbox": 0,
+    "ariaExpanded": 0,
+    "details": 0,
+    "tabs": 0,
+    "dataAttrs": 1,
+    "shadowHosts": 1,
+    "forms": 0,
+    "fieldset": 0
+  },
+  "iframes": [],
+  "videos": [],
+  "ariaExpanded": [],
+  "buttons": [],
+  "inputs": [],
+  "fieldsets": [],
+  "dataAttrNames": [
+    "data-location"
+  ],
+  "classPrefixesTop": [
+    [
+      "csscolumns",
+      5
+    ],
+    [
+      "no-touchevents",
+      1
+    ],
+    [
+      "csscolumns-gap",
+      1
+    ],
+    [
+      "csscolumns-rulecolor",
+      1
+    ],
+    [
+      "csscolumns-rulestyle",
+      1
+    ],
+    [
+      "csscolumns-rulewidth",
+      1
+    ],
+    [
+      "csscolumns-breakbefore",
+      1
+    ],
+    [
+      "csscolumns-breakafter",
+      1
+    ],
+    [
+      "csscolumns-breakinside",
+      1
+    ],
+    [
+      "flexbox",
+      1
+    ],
+    [
+      "flexboxlegacy",
+      1
+    ],
+    [
+      "cssreflections",
+      1
+    ],
+    [
+      "fullscreen",
+      1
+    ],
+    [
+      "chrome",
+      1
+    ],
+    [
+      "version-151.0.0.0",
+      1
+    ],
+    [
+      "OS",
+      1
+    ],
+    [
+      "version-151-0.0.0",
+      1
+    ],
+    [
+      "os",
+      1
+    ],
+    [
+      "pixel-density-low",
+      1
+    ],
+    [
+      "size",
+      1
+    ],
+    [
+      "orientation-landscape",
+      1
+    ],
+    [
+      "location",
+      1
+    ],
+    [
+      "location-id-bb528f011878404b990936f490fff824",
+      1
+    ],
+    [
+      "block-base",
+      1
+    ],
+    [
+      "no-lang",
+      1
+    ],
+    [
+      "hide__nav-bar",
+      1
+    ],
+    [
+      "dir-ltr",
+      1
+    ],
+    [
+      "light",
+      1
+    ],
+    [
+      "vjs-styles-defaults",
+      1
+    ]
+  ],
+  "scrollers": [
+    {
+      "tag": "html",
+      "id": "",
+      "cls": "no-touchevents csscolumns csscolumns-width csscolumns-span csscolumns-fill csscolumns-gap csscolumns",
+      "sh": 2446,
+      "ch": 667
+    }
+  ],
+  "bodyText": "",
+  "outline_status_before": "start",
+  "outline_status_after": "completed",
+  "top_prev_next": [
+    "Go To 2.4. Network Components, Types, and Connections Summary",
+    "Go To 3.1. Wireless Networks"
+  ],
+  "outline_item": {
+    "index": 0,
+    "id": "3.0.1",
+    "title": "Webster - Why Should I Take this Module?",
+    "raw_title": "3.0.1 Webster - Why Should I Take this Module?",
+    "inferred_type": "introduction",
+    "status": "start",
+    "key": "3/0/0"
+  }
+}

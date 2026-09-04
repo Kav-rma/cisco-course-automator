@@ -1,0 +1,70 @@
+[
+ {
+  "modelid": "2bceab13a6044b94bae685ce11f4bf13",
+  "model": {
+   "attributes": null,
+   "items": []
+  },
+  "methods": [
+   "connectedCallback",
+   "waitForHljsLoding",
+   "addScripts",
+   "render",
+   "preRender"
+  ],
+  "own": [
+   "isUpdatePending",
+   "hasUpdated",
+   "enableUpdating",
+   "renderOptions",
+   "applyDesignAttributesHandler",
+   "applyCustomCssHandler",
+   "__modelid",
+   "renderMethodRef",
+   "isLanguageChanged",
+   "renderMethodReplacement",
+   "renderedObserver",
+   "component",
+   "model",
+   "hljsLoaded",
+   "controller",
+   "renderRoot"
+  ],
+  "html": "<commandwindow-view modelid=\"2bceab13a6044b94bae685ce11f4bf13\" class=\"is-full animated-hide\" sgpulse-type=\"component\"><template shadowroot=\"open\"><link rel=\"stylesheet\" href=\"https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.2.0/styles/a11y-dark.min.css\"></link><div class=\"component\"><div class=\"commandWindow-inner component__inner\"><div data-socialgoodpulse-id=\"2bceab13a6044b94bae685ce11f4bf13\" class=\"component commandwindow 2bceab13a6044b94bae685ce11f4bf13 animated-hide is-full is-complete  animated fadeIn\"><div class=\"component__header-container\"><div data-socialgoodpulse-id=\"2bceab13a6044b94bae685ce11f4bf13\" class=\"commandWindow animated-hide\"><base-view type=\"component\" lowercase_component=\"commandWindow\" customclass=\"\"><template shadowroot=\"open\"><div class=\"component__header-wrapper animated-hide \"><div class=\"component__header commandWindow__header\"><div class=\"component__header-inner commandWindow__header-inner\"><div class=\"component__content\"><div tabindex=\"0\" class=\"component__body commandWindow__body\"><div class=\"component__body-inner commandWindow__body-inner\"><p>Probably the most commonly used network utility is ping. Most IP enabled devices support some form of the<strong> ping</strong> command in order to test whether or not network devices are reachable through the IP network.</p><p>If the IP configuration appears to be correctly configured on the local host, next, test network connectivity by using ping. The <strong>ping</strong> command can be followed by either an IP address or the name of a destination host. In the example, the user pings the default gateway at 10.10.10.1 and then pings ww​w.cisco.com.</p></div></div></div></div></div></div></template></base-view></div></div><div class=\"component__widget commandWindow__widget\"><div aria-describedby=\"media-transcript-415f37b0-eff4-11eb-a0fe-1721f423efb5\" class=\"media-container media media-command restricted-login\"><pre max-width=\"786px\"><code class=\"plaintext hljs\"><div class=\"over\"><div class=\"codeinner\" tabindex=\"0\" key=\"0\">C:\\> ping 10.10.10.1</div><div class=\"codeinner\" tabindex=\"0\" key=\"1\"></div><div class=\"codeinner\" tabindex=\"0\" key=\"2\">Pinging 10.10.10.1 with 32 bytes of data:</div><div class=\"codeinner\" tabindex=\"0\" key=\"3\">Reply from 10.10.10.1: bytes=32 time=1ms TTL=64</div><div class=\"codeinner\" tabindex=\"0\" key=\"4\">Reply from 10.10.10.1: bytes=32 time=1ms TTL=64</div><div class=\"codeinner\" tabindex=\"0\" key=\"5\">Reply from 10.10.10.1: bytes=32 time=1ms TTL=64</div><div class=\"codeinner\" tabindex=\"0\" key=\"6\">Reply from 10.10.10.1: bytes=32 time=1ms TTL=64</div><div class=\"codeinner\" tabindex=\"0\" key=\"7\"></div><div class=\"codeinner\" tabindex=\"0\" key=\"8\">Ping statistics for 10.10.10.1:</div><div class=\"codeinner\" tabindex=\"0\" key=\"9\"> Packets: Sent = 4, Received = 4, Lost = 0 (0% loss),</div><div class=\"codeinner\" tabindex=\"0\" key=\"10\">Approximate round trip times in milli-seconds:</div><div class=\"codeinner\" tabindex=\"0\" key=\"11\"> Minimum = 1ms, Maximum = 1ms, Average = 1ms</div><div class=\"codeinner\" tabindex=\"0\" key=\"12\"></div><div class=\"codeinner\" tabindex=\"0\" key=\"13\">C:\\> ping www.cisco.com</div><div class=\"codeinner\" tabindex=\"0\" key=\"14\"></div><div class=\"codeinner\" tabindex=\"0\" key=\"15\">Pinging e2867.dsca.akamaiedge.net [104.112.72.241] with 32 bytes of data:</div><div class=\"codeinner\" tabindex=\"0\" key=\"16\">Reply from 104.112.72.241: bytes=32 time=25ms TTL=53</div><div class=\"codeinner\" tabindex=\"0\" key=\"17\">Reply from 104.112.72.241: bytes=32 time=25ms TTL=53</div><div class=\"codeinner\" tabindex=\"0\" key=\"18\">Reply from 104.112.72.241: bytes=32 time=27ms TTL=53</div><div class=\"codeinner\" tabindex=\"0\" key=\"19\">Reply from 104.112.72.241: bytes=32 time=24ms TTL=53</div><div class=\"codeinner\" tabindex=\"0\" key=\"20\"></div><div class=\"codeinner\" tabindex=\"0\" key=\"21\">Ping statistics for 104.112.72.241:</div><div class=\"codeinner\" tabindex=\"0\" key=\"22\"> Packets: Sent = 4, Received = 4, Lost = 0 (0% loss),</div><div class=\"codeinner\" tabindex=\"0\" key=\"23\">Approximate round trip times in milli-seconds:</div><div class=\"codeinner\" tabindex=\"0\" key=\"24\"> Minimum = 24ms, Maximum = 27ms, Average = 25ms</div><div class=\"codeinner\" tabindex=\"0\" key=\"25\"></div><div class=\"codeinner\" tabindex=\"0\" key=\"26\">C:\\></div></div></code></pre></div></div></div></div></div></template></commandwindow-view>",
+  "complete": true
+ },
+ {
+  "modelid": "fd0e27376ff7457bb4e882cbdf597944",
+  "model": {
+   "attributes": null,
+   "items": []
+  },
+  "methods": [
+   "connectedCallback",
+   "waitForHljsLoding",
+   "addScripts",
+   "render",
+   "preRender"
+  ],
+  "own": [
+   "isUpdatePending",
+   "hasUpdated",
+   "enableUpdating",
+   "renderOptions",
+   "applyDesignAttributesHandler",
+   "applyCustomCssHandler",
+   "__modelid",
+   "renderMethodRef",
+   "isLanguageChanged",
+   "renderMethodReplacement",
+   "renderedObserver",
+   "component",
+   "model",
+   "hljsLoaded",
+   "controller",
+   "renderRoot"
+  ],
+  "html": "<commandwindow-view modelid=\"fd0e27376ff7457bb4e882cbdf597944\" class=\"is-full animated-hide\" sgpulse-type=\"component\"><template shadowroot=\"open\"><link rel=\"stylesheet\" href=\"https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.2.0/styles/a11y-dark.min.css\"></link><div class=\"component\"><div class=\"commandWindow-inner component__inner\"><div data-socialgoodpulse-id=\"fd0e27376ff7457bb4e882cbdf597944\" class=\"component commandwindow fd0e27376ff7457bb4e882cbdf597944 animated-hide is-full is-complete  animated fadeIn\"><div class=\"component__header-container\"><div data-socialgoodpulse-id=\"fd0e27376ff7457bb4e882cbdf597944\" class=\"commandWindow animated-hide\"><base-view type=\"component\" lowercase_component=\"commandWindow\" customclass=\"\"><template shadowroot=\"open\"><div class=\"component__header-wrapper animated-hide \"><div class=\"component__header commandWindow__header\"><div class=\"component__header-inner commandWindow__header-inner\"><div class=\"component__content\"><div tabindex=\"0\" class=\"component__body commandWindow__body\"><div class=\"component__body-inner commandWindow__body-inner\"><p>If<strong> ping</strong> commands to both the name and IP address are successful, but the user is still unable to access the application, then the problem most likely resides in the application on the destination host. For example, it may be that the requested service is not running.</p><p>If neither ping is successful, then network connectivity along the path to the destination is most likely the problem. If this occurs, it is common practice to ping the default gateway. If the ping to the default gateway is successful, the problem is not local. If the ping to the default gateway fails, the problem resides on the local network.</p><p>In some cases, the ping may fail but network connectivity is not the problem. A ping may fail due to the firewall on the sending or receiving device, or a router along the path that is blocking the pings.</p><p>The basic <strong>ping</strong> command usually issues four echoes and waits for the replies to each one. It can, however, be modified to increase its usefulness. The options listed in the figure display additional features available.</p></div></div></div></div></div></div></template></base-view></div></div><div class=\"component__widget commandWindow__widget\"><div aria-describedby=\"media-transcript-415f37b0-eff4-11eb-a0fe-1721f423efb5\" class=\"media-container media media-command restricted-login\"><pre max-width=\"786px\"><code class=\"plaintext hljs\"><div class=\"over\"><div class=\"codeinner\" tabindex=\"0\" key=\"0\">C:\\> ping</div><div class=\"codeinner\" tabindex=\"0\" key=\"1\"></div><div class=\"codeinner\" tabindex=\"0\" key=\"2\">Usage: ping [-t] [-a] [-n count] [-l size] [-f] [-i TTL] [-v TOS]</div><div class=\"codeinner\" tabindex=\"0\" key=\"3\"> [-r count] [-s count] [[-j host-list] | [-k host-list]]</div><div class=\"codeinner\" tabindex=\"0\" key=\"4\"> [-w timeout] [-R] [-S srcaddr] [-c compartment] [-p]</div><div class=\"codeinner\" tabindex=\"0\" key=\"5\"> [-4] [-6] target_name</div><div class=\"codeinner\" tabindex=\"0\" key=\"6\"></div><div class=\"codeinner\" tabindex=\"0\" key=\"7\">Options:</div><div class=\"codeinner\" tabindex=\"0\" key=\"8\"> -t Ping the specified host until stopped.</div><div class=\"codeinner\" tabindex=\"0\" key=\"9\"> To see statistics and continue - type Control-Break;</div><div class=\"codeinner\" tabindex=\"0\" key=\"10\"> To stop - type Control-C.</div><div class=\"codeinner\" tabindex=\"0\" key=\"11\"> -a Resolve addresses to hostnames.</div><div class=\"codeinner\" tabindex=\"0\" key=\"12\"> -n count Number of echo requests to send.</div><div class=\"codeinner\" tabindex=\"0\" key=\"13\"> -l size Send buffer size.</div><div class=\"codeinner\" tabindex=\"0\" key=\"14\"> -f Set Don't Fragment flag in packet (IPv4-only).</div><div class=\"codeinner\" tabindex=\"0\" key=\"15\"> -i TTL Time To Live.</div><div class=\"codeinner\" tabindex=\"0\" key=\"16\"> -v TOS Type Of Service (IPv4-only. This setting has been deprecated</div><div class=\"codeinner\" tabindex=\"0\" key=\"17\"> and has no effect on the type of service field in the IP</div><div class=\"codeinner\" tabindex=\"0\" key=\"18\"> Header).</div><div class=\"codeinner\" tabindex=\"0\" key=\"19\"> -r count Record route for count hops (IPv4-only).</div><div class=\"codeinner\" tabindex=\"0\" key=\"20\"> -s count Timestamp for count hops (IPv4-only).</div><div class=\"codeinner\" tabindex=\"0\" key=\"21\"> -j host-list Loose source route along host-list (IPv4-only).</div><div class=\"codeinner\" tabindex=\"0\" key=\"22\"> -k host-list Strict source route along host-list (IPv4-only).</div><div class=\"codeinner\" tabindex=\"0\" key=\"23\"> -w timeout Timeout in milliseconds to wait for each reply.</div><div class=\"codeinner\" tabindex=\"0\" key=\"24\"> -R Use routing header to test reverse route also (IPv6-only).</div><div class=\"codeinner\" tabindex=\"0\" key=\"25\"> Per RFC 5095 the use of this routing header has been</div><div class=\"codeinner\" tabindex=\"0\" key=\"26\"> deprecated. Some systems may drop echo requests if</div><div class=\"codeinner\" tabindex=\"0\" key=\"27\"> deprecated. Some systems may drop echo requests if</div><div class=\"codeinner\" tabindex=\"0\" key=\"28\"> -S srcaddr Source address to use.</div><div class=\"codeinner\" tabindex=\"0\" key=\"29\"> -c compartment Routing compartment identifier.</div><div class=\"codeinner\" tabindex=\"0\" key=\"30\"> -p Ping a Hyper-V Network Virtualization provider address.</div><div class=\"codeinner\" tabindex=\"0\" key=\"31\"> -4 Force using IPv4.</div><div class=\"codeinner\" tabindex=\"0\" key=\"32\"> -6 Force using IPv6.</div><div class=\"codeinner\" tabindex=\"0\" key=\"33\"></div><div class=\"codeinner\" tabindex=\"0\" key=\"34\"></div><div class=\"codeinner\" tabindex=\"0\" key=\"35\">C:\\></div></div></code></pre></div></div></div></div></div></template></commandwindow-view>",
+  "complete": true
+ }
+]

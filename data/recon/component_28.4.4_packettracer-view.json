@@ -1,0 +1,50 @@
+[
+ {
+  "modelid": "645fb74d5ac94149b8c5a97b83218769",
+  "model": {
+   "attributes": null,
+   "items": [
+    {
+     "_icon": "icon-controls-small-right",
+     "title": "Build a Switch and Router Network",
+     "iframeurl": "",
+     "_downloadUrl": "en-US/assets/11.4.4-packet-tracer-tutored-activity---build-a-switch-and-router-network.pksz_en-US_117bd990-8d7b-4e28-90a8-e54f7d23459e.pksz",
+     "_index": 0,
+     "_parentId": "645fb74d5ac94149b8c5a97b83218769"
+    }
+   ]
+  },
+  "methods": [
+   "connectedCallback",
+   "firstUpdated",
+   "setUpDialog",
+   "render",
+   "removeAllListers",
+   "removeAllElements",
+   "disconnectedCallback",
+   "focusOnPopup",
+   "preRender"
+  ],
+  "own": [
+   "isUpdatePending",
+   "hasUpdated",
+   "enableUpdating",
+   "renderOptions",
+   "applyDesignAttributesHandler",
+   "applyCustomCssHandler",
+   "__modelid",
+   "renderMethodRef",
+   "isLanguageChanged",
+   "renderMethodReplacement",
+   "renderedObserver",
+   "component",
+   "model",
+   "controller",
+   "renderRoot",
+   "updateThemeModeHandler",
+   "onLangChangeHandler"
+  ],
+  "html": "<packettracer-view modelid=\"645fb74d5ac94149b8c5a97b83218769\" class=\"is-full hide-document-button\" sgpulse-type=\"component\"><template shadowroot=\"open\"><div data-socialgoodpulse-id=\"645fb74d5ac94149b8c5a97b83218769\" class=\"component__inner packettracer__inner component packettracer 645fb74d5ac94149b8c5a97b83218769 hide-document-button is-full   \"><div class=\"component__header-container\"><base-view type=\"component\" lowercase_component=\"packetTracer\" customclass=\"\"><template shadowroot=\"open\"><div class=\"component__header-wrapper hide-document-button \"><div class=\"component__header packetTracer__header\"><div class=\"component__header-inner packetTracer__header-inner\"><div class=\"component__content\"><div tabindex=\"0\" class=\"component__body packetTracer__body\"><div class=\"component__body-inner packetTracer__body-inner\"><p>This Packet Tracer Tutored Activity includes a hinting system and a built-in tutorial. You will connect the devices, configure the PCs, configure the router, configure the switch, and verify end-to-end connectivity.</p></div></div></div></div></div></div></template></base-view></div><div class=\"component__widget packettracer__widget content-links-widget\"><div class=\"content-links-grid\"><div class=\"content-links-grid-inner clearfix\"><div class=\"content-links-grid-item\"><div class=\"content-links-grid-item-inner btn__container\"><a target=\"_blank\" role=\"button\" href=\"./courses/ff9e491c-49be-4734-803e-a79e6e83dab1/52bea607-d7d5-51cf-9dbf-1971449724fd/en-US/assets/11.4.4-packet-tracer-tutored-activity---build-a-switch-and-router-network.pksz_en-US_117bd990-8d7b-4e28\" data-index=\"0\" class=\"content-links-item-states-css btn-text btn__action download-file full-width\"><material-icon icon=\"file_download\" class=\"download-icon\" data-index=\"0\" customclasses=\"\" iconname=\"file_download\"><template shadowroot=\"open\"><span part=\"material-icon\" class=\"material-icons \">file_download</span></template></material-icon>Build a Switch and Router Network</a></div></div></div></div></div></div></template></packettracer-view>",
+  "complete": false
+ }
+]

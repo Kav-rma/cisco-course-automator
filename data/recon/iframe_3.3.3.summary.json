@@ -1,0 +1,942 @@
+{
+  "url": "https://www.netacad.com/authoring-resources/index.html?xAPILaunchKey=ff5d0e12-6621-415a-a5d0-b817221ddfd0&xAPILaunchService=https://www.netacad.com/adl/content/&lang=en-US&moduleNumber=3#/courses/ff9e491c-49be-4734-803e-a79e6e83dab1/8bd51e4d-127e-5c87-96cc-be67cae544c9/id/a26abdea62d14172b4b516bf2caa6e5e",
+  "title": "Module {{_globals._moduleNumber}}: Wireless and Mobile Networks | 3.3. Wireless and Mobile Networks Summary",
+  "readyState": "complete",
+  "shadowHosts": [
+    "app-root",
+    "sgpulse-loader",
+    "sgpulse-nav",
+    "tooltip-view",
+    "material-icon",
+    "search-button",
+    "tooltip-view",
+    "material-icon",
+    "theme-appearance",
+    "tooltip-view",
+    "btn-lang-picker",
+    "tooltip-view",
+    "material-icon",
+    "sgpluse-close-view",
+    "tooltip-view",
+    "material-icon",
+    "course-progress-view",
+    "tooltip-view",
+    "pagelevelprogress-indicator-view[modelid=a26abdea62d14172b4b516bf2caa6e5e]",
+    "tooltip-view",
+    "page-view[modelid=a26abdea62d14172b4b516bf2caa6e5e]",
+    "base-view",
+    "heading-view#a26abdea62d14172b4b516bf2caa6e5e-heading-view[modelid=a26abdea62d14172b4b516bf2caa6e5e]",
+    "article-view[modelid=fefbbf15711746a49aebfba1e614bbf0]",
+    "base-view",
+    "block-view[modelid=76e73329a559457f8f4863f0e3e7f034]",
+    "base-view[modelid=76e73329a559457f8f4863f0e3e7f034]",
+    "text-view[modelid=ee79b973839047548fed25c6c300adb8]",
+    "base-view",
+    "block-view[modelid=903391bce078415a809f0f24a0eedc94]",
+    "base-view[modelid=903391bce078415a809f0f24a0eedc94]",
+    "text-view[modelid=d45ab8ca0dec4b9eabcdd0aa585cf004]",
+    "base-view",
+    "article-view[modelid=2014433803e4406da1a29be3775c250d]",
+    "base-view",
+    "block-view[modelid=65edce2ec0a94151b3cece04847419d1]",
+    "base-view[modelid=65edce2ec0a94151b3cece04847419d1]",
+    "heading-view#65edce2ec0a94151b3cece04847419d1-heading-view[modelid=65edce2ec0a94151b3cece04847419d1]",
+    "accordion-view[modelid=c58ceb3c44ad4ff3bbec71c921010f6d]",
+    "base-view",
+    "material-icon",
+    "material-icon",
+    "block-view[modelid=1753436f9fdf4b58a829169c5a74e314]",
+    "base-view[modelid=1753436f9fdf4b58a829169c5a74e314]",
+    "heading-view#1753436f9fdf4b58a829169c5a74e314-heading-view[modelid=1753436f9fdf4b58a829169c5a74e314]",
+    "text-view[modelid=2f92989dd5184b23ad66f04af093b19e]",
+    "base-view",
+    "graphic-view[modelid=9a5043be05d841e19ff58dd4c2c13ba8]",
+    "base-view",
+    "block-view[modelid=7cdad6e0040f4e94bcfbb4a515cb5a72]",
+    "base-view[modelid=7cdad6e0040f4e94bcfbb4a515cb5a72]",
+    "blank-view[modelid=c6dfd6edfd49477aafea3d1d061200b5]",
+    "base-view",
+    "article-view[modelid=60d12f3babf341c4999ca9493307d09f]",
+    "assessment-block-strip-view",
+    "base-view",
+    "block-view[modelid=af018cc9644a47e58072cda13e609b36]",
+    "base-view[modelid=af018cc9644a47e58072cda13e609b36]",
+    "adaptive-start-screen-view[modelid=0cc49fb386814619b07d0713c16e94c8]",
+    "base-view",
+    "assessment-toolbar-view",
+    "article-view[modelid=03b49cb142c54e8495e750f8c98e29bd]",
+    "notify-view",
+    "sgpulse-drawer",
+    "health-gauge-button-view",
+    "tooltip-view",
+    "material-icon"
+  ],
+  "customTags": {
+    "app-root": 1,
+    "sgpulse-loader": 1,
+    "sgpulse-nav": 1,
+    "tooltip-view": 8,
+    "material-icon": 7,
+    "search-button": 1,
+    "theme-appearance": 1,
+    "btn-lang-picker": 1,
+    "sgpluse-close-view": 1,
+    "course-progress-view": 1,
+    "pagelevelprogress-indicator-view": 1,
+    "page-view": 1,
+    "base-view": 17,
+    "heading-view": 3,
+    "article-view": 4,
+    "block-view": 6,
+    "text-view": 3,
+    "accordion-view": 1,
+    "graphic-view": 1,
+    "blank-view": 1,
+    "assessment-block-strip-view": 1,
+    "adaptive-start-screen-view": 1,
+    "assessment-toolbar-view": 1,
+    "notify-view": 1,
+    "sgpulse-drawer": 1,
+    "health-gauge-button-view": 1
+  },
+  "bodyTextLen": 4638,
+  "idsSample": [
+    "style#ace-tm",
+    "style#ace_editor.css",
+    "script#www-widgetapi-script",
+    "script#youtube-api-script",
+    "h5#course__title-sub-title",
+    "style#customCSS",
+    "style#customCSS",
+    "style#customCSS",
+    "style#customCSS",
+    "style#customCSS",
+    "style#customCSS",
+    "style#customCSS",
+    "style#customCSS",
+    "style#customCSS",
+    "style#customCSS",
+    "style#customCSS",
+    "style#customCSS",
+    "button#closeButton",
+    "style#customCSS",
+    "style#customCSS",
+    "style#customCSS",
+    "style#customCSS",
+    "style#customCSS",
+    "style#customCSS",
+    "style#customCSS",
+    "div#Wrapper",
+    "span#foucs_content",
+    "heading-view#a26abdea62d14172b4b516bf2caa6e5e-heading-view",
+    "div#page-heading",
+    "style#customCSS",
+    "style#customCSS",
+    "style#customCSS",
+    "style#customCSS",
+    "style#customCSS",
+    "style#customCSS",
+    "style#customCSS",
+    "style#customCSS",
+    "style#customCSS",
+    "style#customCSS",
+    "style#customCSS",
+    "style#customCSS",
+    "style#customCSS",
+    "heading-view#65edce2ec0a94151b3cece04847419d1-heading-view",
+    "div#block-heading",
+    "style#customCSS",
+    "style#customCSS",
+    "style#customCSS",
+    "style#customCSS",
+    "div#accordion-item-0",
+    "style#customCSS",
+    "div#accordion-item-1",
+    "style#customCSS",
+    "style#customCSS",
+    "heading-view#1753436f9fdf4b58a829169c5a74e314-heading-view",
+    "div#block-heading",
+    "style#customCSS",
+    "style#customCSS",
+    "style#customCSS",
+    "style#customCSS",
+    "style#customCSS",
+    "img#graphic__image",
+    "style#customCSS",
+    "style#customCSS",
+    "style#customCSS",
+    "style#customCSS",
+    "style#customCSS",
+    "style#customCSS",
+    "style#customCSS",
+    "style#customCSS",
+    "style#customCSS",
+    "style#customCSS",
+    "style#customCSS",
+    "style#customCSS",
+    "style#customCSS",
+    "style#customCSS",
+    "style#customCSS",
+    "style#customCSS",
+    "style#customCSS",
+    "style#customCSS",
+    "span#healthgauge-description",
+    "div#cont",
+    "svg#svg",
+    "circle#bar",
+    "style#customCSS",
+    "style#customCSS",
+    "style#customCSS"
+  ],
+  "h1": [
+    "3.3 Wireless and Mobile Networks Summary"
+  ],
+  "h2": [
+    "Module {{_globals._moduleNumber}}: Wireless and Mobile Networks",
+    "Wireless and Mobile Networks Quiz"
+  ],
+  "h3": [],
+  "counts": {
+    "iframe": 0,
+    "video": 0,
+    "audio": 0,
+    "button": 9,
+    "a": 0,
+    "input": 1,
+    "radio": 0,
+    "checkbox": 1,
+    "roleButton": 2,
+    "roleRadio": 0,
+    "roleCheckbox": 0,
+    "ariaExpanded": 2,
+    "details": 0,
+    "tabs": 0,
+    "dataAttrs": 36,
+    "shadowHosts": 67,
+    "forms": 0,
+    "fieldset": 0
+  },
+  "iframes": [],
+  "videos": [],
+  "ariaExpanded": [
+    {
+      "tag": "button",
+      "text": "Wireless Networks",
+      "attrs": {
+        "class": "accordion__item-btn ",
+        "aria-expanded": "false",
+        "aria-controls": "accordion-item-0",
+        "data-index": "0"
+      }
+    },
+    {
+      "tag": "button",
+      "text": "Mobile Device Connectivity",
+      "attrs": {
+        "class": "accordion__item-btn ",
+        "aria-expanded": "false",
+        "aria-controls": "accordion-item-1",
+        "data-index": "1"
+      }
+    }
+  ],
+  "buttons": [
+    {
+      "tag": "button",
+      "text": "Skip navigation",
+      "attrs": {
+        "class": "btn-text nav__btn  nav__skip-btn",
+        "tabindex": "0",
+        "data-event": "skipNavigation",
+        "aria-label": "Skip navigation"
+      }
+    },
+    {
+      "tag": "button",
+      "text": "",
+      "attrs": {
+        "class": "nav__btn nav__back-btn  js-nav-back-btn",
+        "data-event": "backButton",
+        "aria-label": "Back"
+      }
+    },
+    {
+      "tag": "button",
+      "text": "",
+      "attrs": {
+        "class": "nav_btn btn_icon btn_right"
+      }
+    },
+    {
+      "tag": "label",
+      "text": "",
+      "attrs": {
+        "class": "switch dayNight",
+        "role": "button",
+        "tabindex": "0",
+        "aria-label": "dark mode"
+      }
+    },
+    {
+      "tag": "button",
+      "text": "",
+      "attrs": {
+        "class": "nav_btn btn_icon btn_right language_btn"
+      }
+    },
+    {
+      "tag": "button",
+      "text": "",
+      "attrs": {
+        "id": "closeButton",
+        "class": "nav_btn btn_icon btn_right nav__close-btn",
+        "data-event": "closeButton",
+        "aria-label": "Select here to close the window."
+      }
+    },
+    {
+      "tag": "button",
+      "text": "",
+      "attrs": {
+        "role": "presentation",
+        "aria-hidden": "true",
+        "class": "nav__pagelevelprogress pagelevelprogress",
+        "aria-label": "Page completion 33%"
+      }
+    },
+    {
+      "tag": "button",
+      "text": "Wireless Networks",
+      "attrs": {
+        "class": "accordion__item-btn ",
+        "aria-expanded": "false",
+        "aria-controls": "accordion-item-0",
+        "data-index": "0"
+      }
+    },
+    {
+      "tag": "button",
+      "text": "Mobile Device Connectivity",
+      "attrs": {
+        "class": "accordion__item-btn ",
+        "aria-expanded": "false",
+        "aria-controls": "accordion-item-1",
+        "data-index": "1"
+      }
+    },
+    {
+      "tag": "div",
+      "text": "Start",
+      "attrs": {
+        "class": "start-button start",
+        "role": "button",
+        "tabindex": "0"
+      }
+    },
+    {
+      "tag": "button",
+      "text": "The health gauge reflects your performance during the course You now have 0% health 0",
+      "attrs": {
+        "aria-haspopup": "true",
+        "aria-describedby": "healthgauge-description",
+        "class": "healthgauge-button element-color-control",
+        "aria-label": "Health Gauge",
+        "title": "You now have 0% health"
+      }
+    }
+  ],
+  "inputs": [
+    {
+      "tag": "input",
+      "text": "",
+      "attrs": {
+        "type": "checkbox",
+        "class": "toggleTheme"
+      }
+    }
+  ],
+  "fieldsets": [
+    {
+      "tag": "div",
+      "text": "",
+      "attrs": {
+        "class": "abs__container has-arrows no-adaptive-scroll assessment-1q abs-container-no-max-height",
+        "style": "min-height: 667px;"
+      }
+    },
+    {
+      "tag": "adaptive-start-screen-view",
+      "text": "",
+      "attrs": {
+        "modelid": "0cc49fb386814619b07d0713c16e94c8",
+        "class": "is-full assessment-start-screen",
+        "is-touch": "false",
+        "fullscreen": "true",
+        "device": "large",
+        "browser": "Chrome",
+        "os": "windows",
+        "dir": "ltr",
+        "location": "page",
+        "theme": "light",
+        "orientation": "landscape",
+        "themetype": "block-base-theme",
+        "sgpulse-type": "component",
+        "assessment": "true"
+      }
+    },
+    {
+      "tag": "div",
+      "text": "Wireless and Mobile Networks Quiz Instructions: The exam consists of 11 questions and 70% is required to pass. You have unlimited attempts to pass the exam. You",
+      "attrs": {
+        "data-socialgoodpulse-id": "0cc49fb386814619b07d0713c16e94c8",
+        "class": "component adaptivestartscreen 0cc49fb386814619b07d0713c16e94c8 assessment-start-screen is-full is-complete  "
+      }
+    },
+    {
+      "tag": "div",
+      "text": "",
+      "attrs": {
+        "data-socialgoodpulse-id": "0cc49fb386814619b07d0713c16e94c8",
+        "class": "component adaptivestartscreen 0cc49fb386814619b07d0713c16e94c8 assessment-start-screen is-full is-complete  "
+      }
+    },
+    {
+      "tag": "div",
+      "text": "",
+      "attrs": {
+        "class": "component__header-wrapper assessment-start-screen "
+      }
+    },
+    {
+      "tag": "div",
+      "text": "Wireless and Mobile Networks Quiz Instructions: The exam consists of 11 questions and 70% is required to pass. You have unlimited attempts to pass the exam. You",
+      "attrs": {
+        "class": "component__widget secure-one-question__widget adaptive-start-screen__widget"
+      }
+    },
+    {
+      "tag": "span",
+      "text": "11",
+      "attrs": {
+        "class": "secure-question-count"
+      }
+    }
+  ],
+  "dataAttrNames": [
+    "data-event",
+    "data-index",
+    "data-large",
+    "data-location",
+    "data-pct",
+    "data-small",
+    "data-socialgoodpulse-id",
+    "data-text"
+  ],
+  "classPrefixesTop": [
+    [
+      "",
+      75
+    ],
+    [
+      "component__header",
+      21
+    ],
+    [
+      "block__header",
+      18
+    ],
+    [
+      "tooltip",
+      16
+    ],
+    [
+      "component__header-container",
+      15
+    ],
+    [
+      "is",
+      14
+    ],
+    [
+      "is-complete",
+      13
+    ],
+    [
+      "remove-padding-top",
+      10
+    ],
+    [
+      "article__header",
+      9
+    ],
+    [
+      "component",
+      9
+    ],
+    [
+      "tooltip-container",
+      8
+    ],
+    [
+      "nav_btn",
+      8
+    ],
+    [
+      "component__body",
+      8
+    ],
+    [
+      "accordion__item",
+      8
+    ],
+    [
+      "material",
+      7
+    ],
+    [
+      "component__inner",
+      7
+    ],
+    [
+      "block",
+      6
+    ],
+    [
+      "block__inner",
+      6
+    ],
+    [
+      "component__container",
+      6
+    ],
+    [
+      "text",
+      6
+    ],
+    [
+      "text__header",
+      6
+    ],
+    [
+      "text__body",
+      6
+    ],
+    [
+      "background-color",
+      6
+    ],
+    [
+      "csscolumns",
+      5
+    ],
+    [
+      "nav__inner",
+      5
+    ],
+    [
+      "btn_icon",
+      5
+    ],
+    [
+      "btn_right",
+      4
+    ],
+    [
+      "aria",
+      4
+    ],
+    [
+      "component__content",
+      4
+    ],
+    [
+      "block__title",
+      4
+    ],
+    [
+      "accordion__item-body",
+      4
+    ],
+    [
+      "assessment-start",
+      4
+    ],
+    [
+      "nav__btn",
+      3
+    ],
+    [
+      "page",
+      3
+    ],
+    [
+      "page__header",
+      3
+    ],
+    [
+      "js",
+      3
+    ],
+    [
+      "js-heading",
+      3
+    ],
+    [
+      "accessibility-completion-indicator",
+      3
+    ],
+    [
+      "article",
+      3
+    ],
+    [
+      "article__inner",
+      3
+    ],
+    [
+      "no-adaptive",
+      3
+    ],
+    [
+      "block__container",
+      3
+    ],
+    [
+      "no-element-backgrounds",
+      3
+    ],
+    [
+      "fa",
+      3
+    ],
+    [
+      "accordion",
+      3
+    ],
+    [
+      "component__widget",
+      3
+    ],
+    [
+      "no",
+      3
+    ],
+    [
+      "secure",
+      3
+    ],
+    [
+      "vjs-styles-dimensions",
+      2
+    ],
+    [
+      "u-clearfix",
+      2
+    ],
+    [
+      "nav__pagelevelprogress",
+      2
+    ],
+    [
+      "page__title",
+      2
+    ],
+    [
+      "is-incomplete",
+      2
+    ],
+    [
+      "page__body",
+      2
+    ],
+    [
+      "increase-padding",
+      2
+    ],
+    [
+      "item-color",
+      2
+    ],
+    [
+      "accordion__header",
+      2
+    ],
+    [
+      "accordion__body",
+      2
+    ],
+    [
+      "component__item",
+      2
+    ],
+    [
+      "accordion__item-btn",
+      2
+    ],
+    [
+      "select-triangle",
+      2
+    ],
+    [
+      "accordion__item-title",
+      2
+    ],
+    [
+      "hide_accordion",
+      2
+    ],
+    [
+      "graphic",
+      2
+    ],
+    [
+      "graphic__header",
+      2
+    ],
+    [
+      "blank__header",
+      2
+    ],
+    [
+      "remove-padding",
+      2
+    ],
+    [
+      "adaptivestartscreen",
+      2
+    ],
+    [
+      "0cc49fb386814619b07d0713c16e94c8",
+      2
+    ],
+    [
+      "adaptiveStartScreen__header",
+      2
+    ],
+    [
+      "bottom-container",
+      2
+    ],
+    [
+      "instruction",
+      2
+    ],
+    [
+      "start",
+      2
+    ],
+    [
+      "healthgauge",
+      2
+    ],
+    [
+      "no-touchevents",
+      1
+    ],
+    [
+      "csscolumns-gap",
+      1
+    ],
+    [
+      "csscolumns-rulecolor",
+      1
+    ],
+    [
+      "csscolumns-rulestyle",
+      1
+    ],
+    [
+      "csscolumns-rulewidth",
+      1
+    ],
+    [
+      "csscolumns-breakbefore",
+      1
+    ],
+    [
+      "csscolumns-breakafter",
+      1
+    ],
+    [
+      "csscolumns-breakinside",
+      1
+    ],
+    [
+      "flexbox",
+      1
+    ],
+    [
+      "flexboxlegacy",
+      1
+    ],
+    [
+      "cssreflections",
+      1
+    ],
+    [
+      "fullscreen",
+      1
+    ],
+    [
+      "chrome",
+      1
+    ],
+    [
+      "version-151.0.0.0",
+      1
+    ],
+    [
+      "OS",
+      1
+    ],
+    [
+      "version-151-0.0.0",
+      1
+    ],
+    [
+      "os",
+      1
+    ],
+    [
+      "pixel-density-low",
+      1
+    ],
+    [
+      "size",
+      1
+    ],
+    [
+      "orientation-landscape",
+      1
+    ],
+    [
+      "block-base",
+      1
+    ],
+    [
+      "no-lang",
+      1
+    ],
+    [
+      "hide__nav-bar",
+      1
+    ],
+    [
+      "dir-ltr",
+      1
+    ],
+    [
+      "light",
+      1
+    ],
+    [
+      "location",
+      1
+    ],
+    [
+      "location-id-a26abdea62d14172b4b516bf2caa6e5e",
+      1
+    ],
+    [
+      "vjs-styles-defaults",
+      1
+    ],
+    [
+      "loading__image-before",
+      1
+    ],
+    [
+      "js-loading-before",
+      1
+    ],
+    [
+      "remove",
+      1
+    ],
+    [
+      "loading__wrapper",
+      1
+    ],
+    [
+      "loading__logo",
+      1
+    ],
+    [
+      "course__title",
+      1
+    ],
+    [
+      "course__sub",
+      1
+    ],
+    [
+      "loading__image",
+      1
+    ],
+    [
+      "nav",
+      1
+    ],
+    [
+      "hide_nav_bar",
+      1
+    ],
+    [
+      "btn",
+      1
+    ],
+    [
+      "nav__skip-btn",
+      1
+    ],
+    [
+      "btn_left",
+      1
+    ],
+    [
+      "nav__back-btn",
+      1
+    ],
+    [
+      "js-nav-back-btn",
+      1
+    ],
+    [
+      "theme-appearance",
+      1
+    ],
+    [
+      "switch",
+      1
+    ],
+    [
+      "dayNight",
+      1
+    ]
+  ],
+  "scrollers": [
+    {
+      "tag": "html",
+      "id": "",
+      "cls": "no-touchevents csscolumns csscolumns-width csscolumns-span csscolumns-fill csscolumns-gap csscolumns",
+      "sh": 2984,
+      "ch": 667
+    }
+  ],
+  "bodyText": "Module {{_globals._moduleNumber}}: Wireless and Mobile Networks Skip navigation arrow_back search language exit_to_app 1 / 4 Incomplete 3.3. Wireless and Mobile Networks Summary Incomplete 3.3. Wireless and Mobile Networks Summary Review and check your knowledge of these topics. 3.3 Wireless and Mobile Networks Summary Scroll to begin Incomplete 3.3.1 What Did I Learn in this Module? Incomplete 3.3.1 What Did I Learn in this Module? Click below to learn more about the different ways that smartphones make connections. expand_less Wireless Networks Mobile phones use radio waves to transmit voice signals to antennas mounted on towers located in specific geographic areas. When a telephone call is made, the voice signal is relayed from one tower to another tower until it is delivered to its destination. This type of network is used when you make a phone call to another mobile phone or to a wired telephone. It is also used to send text messages directly from the phone. The most common type of cellular telephone network is called a GSM network. The abbreviations 3G, 4G, 4G-LTE, and 5G are used to describe enhanced cell phone networks that are optimized for the fast transmission of data. Currently, 4G still dominates as the current mobile network used by most phones. In addition to the GSM and 4G/5G transmitters and receivers, smartphones make connections in a variety of ways. Wi-Fi transmitters and receivers located within the smartphone enable the phone to connect to local networks and the internet. Wi-Fi networks are usually privately owned but often provide guest or public access hotspots. A hotspot is an area where Wi-Fi signals are available. Bluetooth is wireless technology that allows devices to communicate over short distances. Multiple devices can be connected at the same time with Bluetooth. NFC is a wireless communication technology that enables data to be exchanged by devices that are in very close proximity to each other, usually less than a few centimeters. expand_less Mobile Device Connectivity Almost all mobile devices are capable of connecting to Wi-Fi networks. These precautions should be taken to protect Wi-Fi communications on mobile devices: Never send login or password information using unencrypted text (plaintext). Use a VPN connection when possible if you are sending sensitive data. Enable security on home networks. Use WPA2 or higher encryption for security. Two of the most popular operating systems for mobile devices are Android and Apple iOS. Mobile devices are preprogrammed to use a Wi-Fi network for the internet if one is available, and the device can connect to the access point and receive an IP address. If no Wi-Fi network is available, the device uses the cellular data capability if it is configured. Bluetooth technology provides a simple way for mobile devices to connect to each other and to wireless accessories. Bluetooth is wireless, automatic, and uses very little power, which helps conserve battery life. Some examples of devices that use Bluetooth include hands-free headsets, keyboards, a mouse, stereo controls, car speakerphones, and mobile speakers. Bluetooth pairing occurs when two Bluetooth devices establish a connection to share resources. In order for the devices to pair, the Bluetooth radios are turned on, and one device begins searching for other devices. Other devices must be set to discoverable mode, also called visible, so that they can be detected. When a Bluetooth device is in discoverable mode, it transmits the following information when another Bluetooth device requests it: Name Bluetooth class Services that the device can use Technical information, such as the features or the Bluetooth specification that it supports During the pairing process, a PIN may be requested to authenticate the pairing process. Complete 3.3.2 Webster - Reflection Questions Complete 3.3.2 Webster - Reflection Questions I find it fascinating that that you can send and receive data without plugging one device into another using a cable. I am going to get a tablet so I can take this course while I am at the beach! How many ways does your tablet or smartphone communicate when you are away from your home network? Wireless and Mobile Networks Quiz Instructions: The exam consists of 11 questions and 70 % is required to pass. You have unlimited attempts to pass the exam. You have no per attempt to pass the exam. You have no time limit per attempt to pass the exam. Your responses will be automatically submitted once the given time has elapsed. Start The health gauge reflects your performance during the course You now have 0% health security 0",
+  "outline_status_before": "in progress",
+  "outline_status_after": "in progress",
+  "top_prev_next": [
+    "Go To 3.2. Mobile Device Connectivity",
+    "Go To 4.0. Introduction"
+  ],
+  "outline_item": {
+    "index": 2,
+    "id": "3.3.3",
+    "title": "Wireless and Mobile Networks Quiz",
+    "raw_title": "3.3.3 Wireless and Mobile Networks Quiz",
+    "inferred_type": "assessment",
+    "status": "start",
+    "key": "3/3/2"
+  }
+}

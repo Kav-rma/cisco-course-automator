@@ -1,0 +1,1028 @@
+{
+ "started_at": "2026-08-21T09:22:50",
+ "items": [
+  {
+   "item": "31.0.1",
+   "title": "Webster - Why Should I Take This Module?",
+   "module": 31,
+   "type": "INTRODUCTION",
+   "components": [
+    "graphic-view",
+    "text-view"
+   ],
+   "unit_complete": true,
+   "status": "already_complete",
+   "notes": [],
+   "seconds": 7.0,
+   "outline_after": "completed"
+  },
+  {
+   "item": "31.1.1",
+   "title": "Physical and Logical Topologies",
+   "module": 31,
+   "type": "LESSON",
+   "components": [
+    "dynamic-graphic-view",
+    "dynamic-graphic-view"
+   ],
+   "unit_complete": true,
+   "status": "already_complete",
+   "notes": [],
+   "seconds": 4.8,
+   "outline_after": "completed"
+  },
+  {
+   "item": "31.1.2",
+   "title": "Video - The Logical Topology",
+   "module": 31,
+   "type": "VIDEO",
+   "components": [
+    "media-view"
+   ],
+   "unit_complete": false,
+   "status": "failed",
+   "notes": [
+    "media 4b1b54c1-e2c7-488f-8e93-cf6c39d845d5: not complete"
+   ],
+   "seconds": 121.9
+  },
+  {
+   "item": "31.1.3",
+   "title": "WAN Topologies",
+   "module": 31,
+   "type": "INTERACTIVE",
+   "components": [
+    "tabs-view",
+    "text-view",
+    "blank-view"
+   ],
+   "unit_complete": false,
+   "status": "completed",
+   "notes": [
+    "unit complete"
+   ],
+   "seconds": 13.6,
+   "outline_after": "completed"
+  },
+  {
+   "item": "31.1.6",
+   "title": "Check Your Understanding - Topologies",
+   "module": 31,
+   "type": "KNOWLEDGE_CHECK",
+   "components": [
+    "mcq-view",
+    "mcq-view",
+    "mcq-view",
+    "mcq-view",
+    "quicknav-view"
+   ],
+   "unit_complete": false,
+   "status": "completed",
+   "notes": [],
+   "seconds": 5.1,
+   "outline_after": "completed"
+  },
+  {
+   "item": "31.2.1",
+   "title": "Half and Full Duplex Communication",
+   "module": 31,
+   "type": "INTERACTIVE",
+   "components": [
+    "accordion-view",
+    "text-view"
+   ],
+   "unit_complete": false,
+   "status": "completed",
+   "notes": [
+    "unit complete"
+   ],
+   "seconds": 6.0,
+   "outline_after": "completed"
+  },
+  {
+   "item": "31.2.2",
+   "title": "Access Control Methods",
+   "module": 31,
+   "type": "INTERACTIVE",
+   "components": [
+    "accordion-view",
+    "text-view"
+   ],
+   "unit_complete": false,
+   "status": "completed",
+   "notes": [
+    "unit complete"
+   ],
+   "seconds": 4.9,
+   "outline_after": "completed"
+  },
+  {
+   "item": "31.2.3",
+   "title": "Contention-Based Access - CSMA/CD",
+   "module": 31,
+   "type": "INTERACTIVE",
+   "components": [
+    "tabs-view"
+   ],
+   "unit_complete": false,
+   "status": "completed",
+   "notes": [
+    "unit complete"
+   ],
+   "seconds": 6.3,
+   "outline_after": "completed"
+  },
+  {
+   "item": "31.2.5",
+   "title": "Check Your Understanding - Media Access Control Methods",
+   "module": 31,
+   "type": "KNOWLEDGE_CHECK",
+   "components": [
+    "mcq-view",
+    "mcq-view",
+    "mcq-view",
+    "quicknav-view"
+   ],
+   "unit_complete": false,
+   "status": "completed",
+   "notes": [],
+   "seconds": 4.9,
+   "outline_after": "completed"
+  },
+  {
+   "item": "31.3.1",
+   "title": "What Did I Learn in this Module?",
+   "module": 31,
+   "type": "SUMMARY",
+   "components": [
+    "text-view"
+   ],
+   "unit_complete": true,
+   "status": "already_complete",
+   "notes": [],
+   "seconds": 4.5,
+   "outline_after": "completed"
+  },
+  {
+   "item": "31.3.3",
+   "title": "Data Link Layer Quiz",
+   "module": 31,
+   "type": "ASSESSMENT",
+   "components": [
+    "adaptive-start-screen-view"
+   ],
+   "unit_complete": false,
+   "status": "needs_user",
+   "notes": [
+    "graded assessment - never automated"
+   ],
+   "seconds": 33.1
+  },
+  {
+   "item": "32.0.1",
+   "title": "Webster - Why Should I Take This Module?",
+   "module": 32,
+   "type": "INTRODUCTION",
+   "components": [
+    "graphic-view",
+    "text-view"
+   ],
+   "unit_complete": true,
+   "status": "already_complete",
+   "notes": [],
+   "seconds": 6.3,
+   "outline_after": "completed"
+  },
+  {
+   "item": "32.1.1",
+   "title": "Host Forwarding Decision",
+   "module": 32,
+   "type": "LESSON",
+   "components": [
+    "dynamic-graphic-view",
+    "text-view"
+   ],
+   "unit_complete": true,
+   "status": "already_complete",
+   "notes": [],
+   "seconds": 3.9,
+   "outline_after": "completed"
+  },
+  {
+   "item": "32.1.5",
+   "title": "Check Your Understanding - How a Host Routes",
+   "module": 32,
+   "type": "KNOWLEDGE_CHECK",
+   "components": [
+    "mcq-view",
+    "mcq-view",
+    "mcq-view",
+    "quicknav-view"
+   ],
+   "unit_complete": false,
+   "status": "completed",
+   "notes": [],
+   "seconds": 4.2,
+   "outline_after": "completed"
+  },
+  {
+   "item": "32.2.1",
+   "title": "Router Packet Forwarding Decision",
+   "module": 32,
+   "type": "LESSON",
+   "components": [
+    "dynamic-graphic-view",
+    "table-view"
+   ],
+   "unit_complete": true,
+   "status": "already_complete",
+   "notes": [],
+   "seconds": 5.7,
+   "outline_after": "completed"
+  },
+  {
+   "item": "32.2.5",
+   "title": "Video - IPv4 Router Routing Tables",
+   "module": 32,
+   "type": "VIDEO",
+   "components": [
+    "media-view"
+   ],
+   "unit_complete": false,
+   "status": "completed",
+   "notes": [],
+   "seconds": 7.1,
+   "outline_after": "completed"
+  },
+  {
+   "item": "32.2.7",
+   "title": "Check Your Understanding - Introduction to Routing",
+   "module": 32,
+   "type": "KNOWLEDGE_CHECK",
+   "components": [
+    "mcq-view",
+    "mcq-view",
+    "mcq-view",
+    "mcq-view",
+    "mcq-view",
+    "quicknav-view"
+   ],
+   "unit_complete": false,
+   "status": "completed",
+   "notes": [],
+   "seconds": 5.4,
+   "outline_after": "completed"
+  },
+  {
+   "item": "32.3.1",
+   "title": "What Did I Learn in This Module?",
+   "module": 32,
+   "type": "SUMMARY",
+   "components": [
+    "text-view"
+   ],
+   "unit_complete": true,
+   "status": "already_complete",
+   "notes": [],
+   "seconds": 4.5,
+   "outline_after": "completed"
+  },
+  {
+   "item": "32.3.3",
+   "title": "Routing at the Network Layer Quiz",
+   "module": 32,
+   "type": "ASSESSMENT",
+   "components": [
+    "adaptive-start-screen-view"
+   ],
+   "unit_complete": false,
+   "status": "needs_user",
+   "notes": [
+    "graded assessment - never automated"
+   ],
+   "seconds": 33.1
+  },
+  {
+   "item": "33.0.1",
+   "title": "Webster - Why Should I Take This Module?",
+   "module": 33,
+   "type": "INTRODUCTION",
+   "components": [
+    "text-view",
+    "graphic-view"
+   ],
+   "unit_complete": true,
+   "status": "already_complete",
+   "notes": [],
+   "seconds": 6.8,
+   "outline_after": "completed"
+  },
+  {
+   "item": "33.0.2",
+   "title": "What Will I Learn in This Module?",
+   "module": 33,
+   "type": "INTRODUCTION",
+   "components": [
+    "table-view",
+    "quicknav-view"
+   ],
+   "unit_complete": false,
+   "status": "completed",
+   "notes": [
+    "completed after scrolling into view"
+   ],
+   "seconds": 4.8,
+   "outline_after": "completed"
+  },
+  {
+   "item": "33.1.1",
+   "title": "Unicast, Multicast, Anycast",
+   "module": 33,
+   "type": "LESSON",
+   "components": [
+    "text-view"
+   ],
+   "unit_complete": true,
+   "status": "already_complete",
+   "notes": [],
+   "seconds": 4.0,
+   "outline_after": "completed"
+  },
+  {
+   "item": "33.1.8",
+   "title": "Check Your Understanding - IPv6 Address Types",
+   "module": 33,
+   "type": "KNOWLEDGE_CHECK",
+   "components": [
+    "mcq-view",
+    "mcq-view",
+    "mcq-view",
+    "mcq-view",
+    "mcq-view",
+    "quicknav-view"
+   ],
+   "unit_complete": false,
+   "status": "completed",
+   "notes": [],
+   "seconds": 4.9,
+   "outline_after": "completed"
+  },
+  {
+   "item": "33.2.1",
+   "title": "Static GUA Configuration on a Router",
+   "module": 33,
+   "type": "LESSON",
+   "components": [
+    "graphic-view",
+    "commandwindow-view"
+   ],
+   "unit_complete": true,
+   "status": "already_complete",
+   "notes": [],
+   "seconds": 4.0,
+   "outline_after": "completed"
+  },
+  {
+   "item": "33.3.1",
+   "title": "Video - RS and RA Messages",
+   "module": 33,
+   "type": "VIDEO",
+   "components": [
+    "media-view"
+   ],
+   "unit_complete": false,
+   "status": "completed",
+   "notes": [],
+   "seconds": 8.0,
+   "outline_after": "completed"
+  },
+  {
+   "item": "33.3.9",
+   "title": "Check Your Understanding - Dynamic Addressing for IPv6 GUAs",
+   "module": 33,
+   "type": "KNOWLEDGE_CHECK",
+   "components": [
+    "mcq-view",
+    "mcq-view",
+    "mcq-view",
+    "mcq-view",
+    "mcq-view",
+    "quicknav-view"
+   ],
+   "unit_complete": false,
+   "status": "completed",
+   "notes": [],
+   "seconds": 5.4,
+   "outline_after": "completed"
+  },
+  {
+   "item": "33.4.1",
+   "title": "Dynamic LLAs",
+   "module": 33,
+   "type": "LESSON",
+   "components": [
+    "dynamic-graphic-view"
+   ],
+   "unit_complete": true,
+   "status": "already_complete",
+   "notes": [],
+   "seconds": 4.5,
+   "outline_after": "completed"
+  },
+  {
+   "item": "33.4.6",
+   "title": "Packet Tracer - Configure IPv6 Addressing",
+   "module": 33,
+   "type": "LAB",
+   "components": [
+    "pagetracer-view",
+    "quicknav-view"
+   ],
+   "unit_complete": false,
+   "status": "completed",
+   "notes": [],
+   "seconds": 4.2,
+   "outline_after": "completed"
+  },
+  {
+   "item": "33.5.1",
+   "title": "Assigned IPv6 Multicast Addresses",
+   "module": 33,
+   "type": "LESSON",
+   "components": [
+    "text-view"
+   ],
+   "unit_complete": true,
+   "status": "already_complete",
+   "notes": [],
+   "seconds": 3.7,
+   "outline_after": "completed"
+  },
+  {
+   "item": "33.5.4",
+   "title": "Lab - Identify IPv6 Addresses",
+   "module": 33,
+   "type": "LAB",
+   "components": [
+    "pagetracer-view",
+    "quicknav-view"
+   ],
+   "unit_complete": false,
+   "status": "completed",
+   "notes": [],
+   "seconds": 3.9,
+   "outline_after": "completed"
+  },
+  {
+   "item": "33.6.1",
+   "title": "What Did I Learn in this Module?",
+   "module": 33,
+   "type": "INTERACTIVE",
+   "components": [
+    "accordion-view"
+   ],
+   "unit_complete": false,
+   "status": "completed",
+   "notes": [
+    "unit complete"
+   ],
+   "seconds": 7.0,
+   "outline_after": "completed"
+  },
+  {
+   "item": "33.6.3",
+   "title": "IPv6 Addressing Quiz",
+   "module": 33,
+   "type": "ASSESSMENT",
+   "components": [
+    "adaptive-start-screen-view"
+   ],
+   "unit_complete": false,
+   "status": "needs_user",
+   "notes": [
+    "graded assessment - never automated"
+   ],
+   "seconds": 33.1
+  },
+  {
+   "item": "34.0.1",
+   "title": "Webster - Why Should I Take This Module?",
+   "module": 34,
+   "type": "INTRODUCTION",
+   "components": [
+    "graphic-view",
+    "text-view"
+   ],
+   "unit_complete": true,
+   "status": "already_complete",
+   "notes": [],
+   "seconds": 6.0,
+   "outline_after": "completed"
+  },
+  {
+   "item": "34.1.1",
+   "title": "Video - IPv6 Neighbor Discovery",
+   "module": 34,
+   "type": "VIDEO",
+   "components": [
+    "media-view"
+   ],
+   "unit_complete": false,
+   "status": "completed",
+   "notes": [],
+   "seconds": 8.1,
+   "outline_after": "completed"
+  },
+  {
+   "item": "34.1.4",
+   "title": "Packet Tracer - IPv6 Neighbor Discovery",
+   "module": 34,
+   "type": "LAB",
+   "components": [
+    "pagetracer-view"
+   ],
+   "unit_complete": false,
+   "status": "completed",
+   "notes": [],
+   "seconds": 3.5,
+   "outline_after": "completed"
+  },
+  {
+   "item": "34.1.5",
+   "title": "Check Your Understanding - Neighbor Discovery",
+   "module": 34,
+   "type": "KNOWLEDGE_CHECK",
+   "components": [
+    "mcq-view",
+    "mcq-view",
+    "mcq-view",
+    "quicknav-view"
+   ],
+   "unit_complete": false,
+   "status": "completed",
+   "notes": [],
+   "seconds": 4.1,
+   "outline_after": "completed"
+  },
+  {
+   "item": "34.2.1",
+   "title": "What Did I Learn in this Module?",
+   "module": 34,
+   "type": "SUMMARY",
+   "components": [
+    "text-view"
+   ],
+   "unit_complete": true,
+   "status": "already_complete",
+   "notes": [],
+   "seconds": 4.3,
+   "outline_after": "completed"
+  },
+  {
+   "item": "34.2.2",
+   "title": "Webster - Reflection Questions",
+   "module": 34,
+   "type": "LESSON",
+   "components": [
+    "graphic-view",
+    "text-view",
+    "blank-view"
+   ],
+   "unit_complete": false,
+   "status": "completed",
+   "notes": [
+    "completed after scrolling into view"
+   ],
+   "seconds": 4.5,
+   "outline_after": "completed"
+  },
+  {
+   "item": "34.2.3",
+   "title": "IPv6 Neighbor Discovery Quiz",
+   "module": 34,
+   "type": "ASSESSMENT",
+   "components": [
+    "adaptive-start-screen-view"
+   ],
+   "unit_complete": false,
+   "status": "needs_user",
+   "notes": [
+    "graded assessment - never automated"
+   ],
+   "seconds": 32.7
+  },
+  {
+   "item": "35.0.1",
+   "title": "Webster - Why Should I Take this Module?",
+   "module": 35,
+   "type": "INTRODUCTION",
+   "components": [
+    "text-view",
+    "graphic-view"
+   ],
+   "unit_complete": false,
+   "status": "completed",
+   "notes": [
+    "completed after scrolling into view"
+   ],
+   "seconds": 6.1,
+   "outline_after": "completed"
+  },
+  {
+   "item": "35.0.2",
+   "title": "What Will I Learn in this Module?",
+   "module": 35,
+   "type": "INTRODUCTION",
+   "components": [
+    "table-view",
+    "quicknav-view"
+   ],
+   "unit_complete": false,
+   "status": "completed",
+   "notes": [
+    "completed after scrolling into view"
+   ],
+   "seconds": 5.2,
+   "outline_after": "completed"
+  },
+  {
+   "item": "35.1.1",
+   "title": "Connect More Devices",
+   "module": 35,
+   "type": "INTERACTIVE",
+   "components": [
+    "tabs-view",
+    "text-view"
+   ],
+   "unit_complete": false,
+   "status": "completed",
+   "notes": [
+    "unit complete"
+   ],
+   "seconds": 7.6,
+   "outline_after": "completed"
+  },
+  {
+   "item": "35.1.2",
+   "title": "Cisco LAN Switches",
+   "module": 35,
+   "type": "INTERACTIVE",
+   "components": [
+    "tabs-view"
+   ],
+   "unit_complete": false,
+   "status": "completed",
+   "notes": [
+    "unit complete"
+   ],
+   "seconds": 6.4,
+   "outline_after": "completed"
+  },
+  {
+   "item": "35.1.3",
+   "title": "Video - Components of a LAN Switch - Part 1",
+   "module": 35,
+   "type": "VIDEO",
+   "components": [
+    "media-view"
+   ],
+   "unit_complete": false,
+   "status": "completed",
+   "notes": [],
+   "seconds": 6.5,
+   "outline_after": "completed"
+  },
+  {
+   "item": "35.1.4",
+   "title": "Video - Components of a LAN Switch - Part 2",
+   "module": 35,
+   "type": "VIDEO",
+   "components": [
+    "media-view"
+   ],
+   "unit_complete": false,
+   "status": "completed",
+   "notes": [],
+   "seconds": 5.5,
+   "outline_after": "completed"
+  },
+  {
+   "item": "35.1.6",
+   "title": "Check Your Understanding - Cisco Switches",
+   "module": 35,
+   "type": "KNOWLEDGE_CHECK",
+   "components": [
+    "mcq-view",
+    "mcq-view",
+    "mcq-view",
+    "mcq-view",
+    "mcq-view",
+    "mcq-view",
+    "mcq-view",
+    "mcq-view",
+    "mcq-view",
+    "quicknav-view"
+   ],
+   "unit_complete": false,
+   "status": "failed",
+   "notes": [
+    "submit_failed: When first connecting to a switch to configure it for the fi"
+   ],
+   "seconds": 21.3
+  },
+  {
+   "item": "35.2.1",
+   "title": "Frame Forwarding Methods on Cisco Switches",
+   "module": 35,
+   "type": "INTERACTIVE",
+   "components": [
+    "adobe-animate-view"
+   ],
+   "unit_complete": false,
+   "status": "completed",
+   "notes": [
+    "unit complete"
+   ],
+   "seconds": 7.1,
+   "outline_after": "completed"
+  },
+  {
+   "item": "35.2.2",
+   "title": "Cut-Through Switching",
+   "module": 35,
+   "type": "INTERACTIVE",
+   "components": [
+    "adobe-animate-view",
+    "text-view"
+   ],
+   "unit_complete": false,
+   "status": "completed",
+   "notes": [
+    "unit complete"
+   ],
+   "seconds": 4.5,
+   "outline_after": "completed"
+  },
+  {
+   "item": "35.2.6",
+   "title": "Check Your Understanding - Switch Speeds and Forwarding Methods",
+   "module": 35,
+   "type": "KNOWLEDGE_CHECK",
+   "components": [
+    "mcq-view",
+    "mcq-view",
+    "mcq-view",
+    "mcq-view",
+    "quicknav-view"
+   ],
+   "unit_complete": false,
+   "status": "completed",
+   "notes": [],
+   "seconds": 4.7,
+   "outline_after": "completed"
+  },
+  {
+   "item": "35.3.1",
+   "title": "Power Up the Switch",
+   "module": 35,
+   "type": "INTERACTIVE",
+   "components": [
+    "tabs-view"
+   ],
+   "unit_complete": false,
+   "status": "completed",
+   "notes": [
+    "unit complete"
+   ],
+   "seconds": 8.2,
+   "outline_after": "completed"
+  },
+  {
+   "item": "35.3.2",
+   "title": "Video - In-Band and Out-of-Band Device Management",
+   "module": 35,
+   "type": "VIDEO",
+   "components": [
+    "media-view"
+   ],
+   "unit_complete": false,
+   "status": "completed",
+   "notes": [],
+   "seconds": 6.5,
+   "outline_after": "completed"
+  },
+  {
+   "item": "35.3.4",
+   "title": "Check Your Understanding - Switch Boot Process",
+   "module": 35,
+   "type": "KNOWLEDGE_CHECK",
+   "components": [
+    "mcq-view",
+    "mcq-view",
+    "mcq-view",
+    "mcq-view",
+    "mcq-view",
+    "quicknav-view"
+   ],
+   "unit_complete": false,
+   "status": "completed",
+   "notes": [],
+   "seconds": 6.7,
+   "outline_after": "completed"
+  },
+  {
+   "item": "35.4.1",
+   "title": "Video - Cisco Router Components",
+   "module": 35,
+   "type": "VIDEO",
+   "components": [
+    "media-view"
+   ],
+   "unit_complete": false,
+   "status": "completed",
+   "notes": [],
+   "seconds": 10.5,
+   "outline_after": "completed"
+  },
+  {
+   "item": "35.4.4",
+   "title": "Check Your Understanding - Cisco Routers",
+   "module": 35,
+   "type": "KNOWLEDGE_CHECK",
+   "components": [
+    "mcq-view",
+    "mcq-view",
+    "mcq-view",
+    "quicknav-view"
+   ],
+   "unit_complete": false,
+   "status": "completed",
+   "notes": [],
+   "seconds": 5.1,
+   "outline_after": "completed"
+  },
+  {
+   "item": "35.5.1",
+   "title": "Power Up the Router",
+   "module": 35,
+   "type": "INTERACTIVE",
+   "components": [
+    "accordion-view"
+   ],
+   "unit_complete": false,
+   "status": "completed",
+   "notes": [
+    "unit complete"
+   ],
+   "seconds": 9.5,
+   "outline_after": "completed"
+  },
+  {
+   "item": "35.5.3",
+   "title": "Video - The Cisco Router Boot Process",
+   "module": 35,
+   "type": "VIDEO",
+   "components": [
+    "media-view"
+   ],
+   "unit_complete": false,
+   "status": "completed",
+   "notes": [],
+   "seconds": 8.2,
+   "outline_after": "completed"
+  },
+  {
+   "item": "35.5.4",
+   "title": "Check Your Understanding - Router Boot Process",
+   "module": 35,
+   "type": "KNOWLEDGE_CHECK",
+   "components": [
+    "mcq-view",
+    "mcq-view",
+    "mcq-view",
+    "mcq-view",
+    "mcq-view",
+    "mcq-view",
+    "quicknav-view"
+   ],
+   "unit_complete": false,
+   "status": "completed",
+   "notes": [],
+   "seconds": 8.1,
+   "outline_after": "completed"
+  },
+  {
+   "item": "35.6.1",
+   "title": "What Did I Learn in this Module?",
+   "module": 35,
+   "type": "INTERACTIVE",
+   "components": [
+    "accordion-view"
+   ],
+   "unit_complete": false,
+   "status": "completed",
+   "notes": [
+    "unit complete"
+   ],
+   "seconds": 9.7,
+   "outline_after": "completed"
+  },
+  {
+   "item": "35.6.2",
+   "title": "Webster - Reflection Questions",
+   "module": 35,
+   "type": "LESSON",
+   "components": [
+    "graphic-view",
+    "text-view",
+    "blank-view"
+   ],
+   "unit_complete": false,
+   "status": "completed",
+   "notes": [
+    "completed after scrolling into view"
+   ],
+   "seconds": 5.0,
+   "outline_after": "completed"
+  },
+  {
+   "item": "35.6.3",
+   "title": "Cisco Switches and Routers Quiz",
+   "module": 35,
+   "type": "ASSESSMENT",
+   "components": [
+    "adaptive-start-screen-view"
+   ],
+   "unit_complete": false,
+   "status": "needs_user",
+   "notes": [
+    "graded assessment - never automated"
+   ],
+   "seconds": 34.0
+  }
+ ],
+ "needs_user": [
+  {
+   "item": "31.3.3",
+   "why": "graded assessment - never automated"
+  },
+  {
+   "item": "32.3.3",
+   "why": "graded assessment - never automated"
+  },
+  {
+   "item": "33.6.3",
+   "why": "graded assessment - never automated"
+  },
+  {
+   "item": "34.2.3",
+   "why": "graded assessment - never automated"
+  },
+  {
+   "item": "35.6.3",
+   "why": "graded assessment - never automated"
+  }
+ ],
+ "failed": [
+  {
+   "item": "31.1.2",
+   "title": "Video - The Logical Topology",
+   "module": 31,
+   "type": "VIDEO",
+   "components": [
+    "media-view"
+   ],
+   "unit_complete": false,
+   "status": "failed",
+   "notes": [
+    "media 4b1b54c1-e2c7-488f-8e93-cf6c39d845d5: not complete"
+   ],
+   "seconds": 121.9
+  },
+  {
+   "item": "35.1.6",
+   "title": "Check Your Understanding - Cisco Switches",
+   "module": 35,
+   "type": "KNOWLEDGE_CHECK",
+   "components": [
+    "mcq-view",
+    "mcq-view",
+    "mcq-view",
+    "mcq-view",
+    "mcq-view",
+    "mcq-view",
+    "mcq-view",
+    "mcq-view",
+    "mcq-view",
+    "quicknav-view"
+   ],
+   "unit_complete": false,
+   "status": "failed",
+   "notes": [
+    "submit_failed: When first connecting to a switch to configure it for the fi"
+   ],
+   "seconds": 21.3
+  }
+ ],
+ "finished_at": "2026-08-21T09:34:22"
+}

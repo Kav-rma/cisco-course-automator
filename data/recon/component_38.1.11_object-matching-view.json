@@ -1,0 +1,156 @@
+[
+ {
+  "modelid": "63cfc6d85d4b3d02c44afcaa",
+  "model": {
+   "attributes": null,
+   "items": [
+    {
+     "answer": "Device domain",
+     "question": "Inside the corporate office, employees work using a desktop, laptop, tablet, or smartphone.",
+     "questionBGColor": "#F9D8D6",
+     "_index": 0,
+     "_parentId": "63cfc6d85d4b3d02c44afcaa"
+    },
+    {
+     "answer": "SaaS provider",
+     "question": "Customers of the corporation have access to a suite of eLearning modules provided for a subscription fee.",
+     "questionBGColor": "#D6CDEA",
+     "_index": 1,
+     "_parentId": "63cfc6d85d4b3d02c44afcaa"
+    },
+    {
+     "answer": "User domain",
+     "question": "The corporation hires employees.",
+     "questionBGColor": "#F9EBDF",
+     "_index": 2,
+     "_parentId": "63cfc6d85d4b3d02c44afcaa"
+    },
+    {
+     "answer": "LAN domain",
+     "question": "At the corporate office, employees log into the network.",
+     "questionBGColor": "#CBE4F9",
+     "_index": 3,
+     "_parentId": "63cfc6d85d4b3d02c44afcaa"
+    },
+    {
+     "answer": "Public cloud domain",
+     "question": "The provider of the eLearning modules uses a cloud service to host the modules.",
+     "questionBGColor": "#cdf6cd",
+     "_index": 4,
+     "_parentId": "63cfc6d85d4b3d02c44afcaa"
+    },
+    {
+     "answer": "Physical facilities domain",
+     "question": "Employees gain access to the corporate office using an electronic staff ID card.",
+     "questionBGColor": "#EFF9DA",
+     "_index": 5,
+     "_parentId": "63cfc6d85d4b3d02c44afcaa"
+    }
+   ]
+  },
+  "methods": [
+   "setupQuestion",
+   "onResize",
+   "firstUpdated",
+   "render",
+   "getCatItemSelectedColor",
+   "getSelectedCatItemColor",
+   "updated",
+   "convertoptionToNumber",
+   "numberToAlphabet",
+   "getPosition",
+   "preRender",
+   "setupQuestion"
+  ],
+  "own": [
+   "isUpdatePending",
+   "hasUpdated",
+   "enableUpdating",
+   "renderOptions",
+   "applyDesignAttributesHandler",
+   "applyCustomCssHandler",
+   "__modelid",
+   "renderMethodRef",
+   "isLanguageChanged",
+   "renderMethodReplacement",
+   "renderedObserver",
+   "component",
+   "model",
+   "controller",
+   "isDesktop",
+   "renderRoot"
+  ],
+  "html": "<object-matching-view modelid=\"63cfc6d85d4b3d02c44afcaa\" class=\"is-full\" sgpulse-type=\"component\"><template shadowroot=\"open\"><div data-socialgoodpulse-id=\"63cfc6d85d4b3d02c44afcaa\" class=\"component__inner objectmatching__inner component is-question objectmatching 63cfc6d85d4b3d02c44afcaa  is-full   can-show-model-answer can-show-feedback can-show-marking \"><div class=\"component__header-container\"><base-view type=\"component\" lowercase_component=\"objectMatching\" customclass=\"\"><template shadowroot=\"open\"><div class=\"component__header-wrapper  \"><div class=\"component__header objectMatching__header\"><div class=\"component__header-inner objectMatching__header-inner\"><div class=\"component__content\"><div tabindex=\"0\" class=\"component__body objectMatching__body\"><div class=\"component__body-inner objectMatching__body-inner\"><p>Match the description to the correct term.</p></div></div></div></div></div></div></template></base-view></div><div class=\"component__widget objectMatching__widget \"><div class=\"component__widget-inner\"><div class=\"objectMatching-container categories-container\"><div class=\"objectMatching-category-title objectMatching-title\">Categories:</div><div class=\"objectMatching-category-item-container item  \"><button data-id=\"0\" class=\"base objectMatching-category-item \" data-currentquestionindex=\"1\" data-itemindex=\"0\"><div class=\"objectMatching-category-item-inner\"><div class=\"category-item-text\">Inside the corporate office, employees work using a desktop, laptop, tablet, or smartphone.</div><div class=\"category-item-number\">A</div><div class=\"category-line\"></div></div></button></div><div class=\"objectMatching-category-item-container item  \"><button data-id=\"1\" class=\"base objectMatching-category-item \" data-currentquestionindex=\"2\" data-itemindex=\"1\"><div class=\"objectMatching-category-item-inner\"><div class=\"category-item-text\">Customers of the corporation have access to a suite of eLearning modules provided for a subscription fee.</div><div class=\"category-item-number\">B</div><div class=\"category-line\"></div></div></button></div><div class=\"objectMatching-category-item-container item  \"><button data-id=\"2\" class=\"base objectMatching-category-item \" data-currentquestionindex=\"3\" data-itemindex=\"2\"><div class=\"objectMatching-category-item-inner\"><div class=\"category-item-text\">The corporation hires employees.</div><div class=\"category-item-number\">C</div><div class=\"category-line\"></div></div></button></div><div class=\"objectMatching-category-item-container item  \"><button data-id=\"3\" class=\"base objectMatching-category-item \" data-currentquestionindex=\"4\" data-itemindex=\"3\"><div class=\"objectMatching-category-item-inner\"><div class=\"category-item-text\">At the corporate office, employees log into the network.</div><div class=\"category-item-number\">D</div><div class=\"category-line\"></div></div></button></div><div class=\"objectMatching-category-item-container item  \"><button data-id=\"4\" class=\"base objectMatching-category-item \" data-currentquestionindex=\"5\" data-itemindex=\"4\"><div class=\"objectMatching-category-item-inner\"><div class=\"category-item-text\">The provider of the eLearning modules uses a cloud service to host the modules.</div><div class=\"category-item-number\">E</div><div class=\"category-line\"></div></div></button></div><div class=\"objectMatching-category-item-container item  \"><button data-id=\"5\" class=\"base objectMatching-category-item \" data-currentquestionindex=\"6\" data-itemindex=\"5\"><div class=\"objectMatching-category-item-inner\"><div class=\"category-item-text\">Employees gain access to the corporate office using an electronic staff ID card.</div><div class=\"category-item-number\">F</div><div class=\"category-line\"></div></div></button></div></div><div class=\"objectMatching-container options-container\"><div class=\"objectMatching-option-title objectMatching-title\">Options:</div><div class=\"objectMatching-option-item-container item\"><button data-id=\"5\" class=\"base objectMatching-option-item \" data-currentoptionindex=\"1\" data-itemindex=\"0\"><div class=\"objectMatching-option-item-inner\"><div class=\"dropdown__icon\" aria-hidden=\"true\"><div class=\"icon matching_item-state\"><material-icon icon=\"\" class=\"\" customclasses=\"\" iconname=\"\"><template shadowroot=\"open\"><span part=\"material-icon\" class=\"material-icons \"></span></template></material-icon></div></div><div class=\"category-item-number\"></div><div class=\"category-item-text\">Physical facilities domain</div></div></button></div><div class=\"objectMatching-option-item-container item\"><button data-id=\"2\" class=\"base objectMatching-option-item \" data-currentoptionindex=\"2\" data-itemindex=\"1\"><div class=\"objectMatching-option-item-inner\"><div class=\"dropdown__icon\" aria-hidden=\"true\"><div class=\"icon matching_item-state\"><material-icon icon=\"\" class=\"\" customclasses=\"\" iconname=\"\"><template shadowroot=\"open\"><span part=\"material-icon\" class=\"material-icons \"></span></template></material-icon></div></div><div class=\"category-item-number\"></div><div class=\"category-item-text\">User domain</div></div></button></div><div class=\"objectMatching-option-item-container item\"><button data-id=\"4\" class=\"base objectMatching-option-item \" data-currentoptionindex=\"3\" data-itemindex=\"2\"><div class=\"objectMatching-option-item-inner\"><div class=\"dropdown__icon\" aria-hidden=\"true\"><div class=\"icon matching_item-state\"><material-icon icon=\"\" class=\"\" customclasses=\"\" iconname=\"\"><template shadowroot=\"open\"><span part=\"material-icon\" class=\"material-icons \"></span></template></material-icon></div></div><div class=\"category-item-number\"></div><div class=\"category-item-text\">Public cloud domain</div></div></button></div><div class=\"objectMatching-option-item-container item\"><button data-id=\"3\" class=\"base objectMatching-option-item \" data-currentoptionindex=\"4\" data-itemindex=\"3\"><div class=\"objectMatching-option-item-inner\"><div class=\"dropdown__icon\" aria-hidden=\"true\"><div class=\"icon matching_item-state\"><material-icon icon=\"\" class=\"\" customclasses=\"\" iconname=\"\"><template shadowroot=\"open\"><span part=\"material-icon\" class=\"material-icons \"></span></template></material-icon></div></div><div class=\"category-item-number\"></div><div class=\"category-item-text\">LAN domain</div></div></button></div><div class=\"objectMatching-option-item-container item\"><button data-id=\"1\" class=\"base objectMatching-option-item \" data-currentoptionindex=\"5\" data-itemindex=\"4\"><div class=\"objectMatching-option-item-inner\"><div class=\"dropdown__icon\" aria-hidden=\"true\"><div class=\"icon matching_item-state\"><material-icon icon=\"\" class=\"\" customclasses=\"\" iconname=\"\"><template shadowroot=\"open\"><span part=\"material-icon\" class=\"material-icons \"></span></template></material-icon></div></div><div class=\"category-item-number\"></div><div class=\"category-item-text\">SaaS provider</div></div></button></div><div class=\"objectMatching-option-item-container item\"><button data-id=\"0\" class=\"base objectMatching-option-item \" data-currentoptionindex=\"6\" data-itemindex=\"5\"><div class=\"objectMatching-option-item-inner\"><div class=\"dropdown__icon\" aria-hidden=\"true\"><div class=\"icon matching_item-state\"><material-icon icon=\"\" class=\"\" customclasses=\"\" iconname=\"\"><template shadowroot=\"open\"><span part=\"material-icon\" class=\"material-icons \"></span></template></material-icon></div></div><div class=\"category-item-number\"></div><div class=\"category-item-text\">Device domain</div></div></button></div></div><div class=\"clear-fix\"></div></div></div><div class=\"btn-container \"><buttons-view sgpulse-type=\"component\"><template shadowroot=\"open\"><div class=\"btn__container \"><div class=\"btn__response-container\"><div class=\"js-answer-live-region aria-label\" aria-live=\"assertive\" aria-atomic=\"true\"></div><button class=\"btn-text btn__action js-btn-action is-disabled\" aria-label=\"Submit Your answer will be submitted\" disabled=\"\">Submit</button><button class=\"btn-text btn__action btn__feedback js-btn-feedback is-disabled\" disabled=\"\" aria-label=\"Show feedback\" aria-disabled=\"true\">Show feedback</button></div></div></template></buttons-view></div></div></template></object-matching-view>",
+  "complete": false
+ },
+ {
+  "modelid": "63cfd4405d4b3d02c44afcac",
+  "model": {
+   "attributes": null,
+   "items": [
+    {
+     "answer": "This is a type of malware attack used by cybercriminals to gain unauthorized access to systems by bypassing the normal authentication procedures, by typically having authorized users unknowingly run a remote administrative tool program (RAT) on their computer that installs a backdoor.",
+     "question": "backdoor attack",
+     "questionBGColor": "#F9D8D6",
+     "_index": 0,
+     "_parentId": "63cfd4405d4b3d02c44afcac"
+    },
+    {
+     "answer": "This is a type of malware attack designed to modify the operating system to create a vulnerability that attackers can then use to access the computer remotely, and<FONT style=\\\"text-align: justify;\\\">&nbsp;gain access to resources that normally should not be accessible (privilege escalation) and modify system files.&nbsp;&nbsp;</FONT>",
+     "question": "rootkit attack",
+     "questionBGColor": "#D6CDEA",
+     "_index": 1,
+     "_parentId": "63cfd4405d4b3d02c44afcac"
+    },
+    {
+     "answer": "This is a type of malware attack that generates information embedded in a piece of legitimate software to generate unintended behaviors. This type of malware attack can be used to select targets or trigger false alerts. They can also disable a computer by forcing it to use up all its RAM or by overworking its central processing unit (CPU).",
+     "question": "algorithm attack",
+     "questionBGColor": "#F9EBDF",
+     "_index": 2,
+     "_parentId": "63cfd4405d4b3d02c44afcac"
+    },
+    {
+     "answer": "This is a type of malware attack that is continuous and uses elaborate espionage tactics involving multiple actors and/or sophisticated malware to gain access to gain access to the network of the target system. It is&nbsp;typically targeted towards governments and high-level organizations and is usually well-orchestrated and well-funded.",
+     "question": "advanced persistent threat",
+     "questionBGColor": "#CBE4F9",
+     "_index": 3,
+     "_parentId": "63cfd4405d4b3d02c44afcac"
+    }
+   ]
+  },
+  "methods": [
+   "setupQuestion",
+   "onResize",
+   "firstUpdated",
+   "render",
+   "getCatItemSelectedColor",
+   "getSelectedCatItemColor",
+   "updated",
+   "convertoptionToNumber",
+   "numberToAlphabet",
+   "getPosition",
+   "preRender",
+   "setupQuestion"
+  ],
+  "own": [
+   "isUpdatePending",
+   "hasUpdated",
+   "enableUpdating",
+   "renderOptions",
+   "applyDesignAttributesHandler",
+   "applyCustomCssHandler",
+   "__modelid",
+   "renderMethodRef",
+   "isLanguageChanged",
+   "renderMethodReplacement",
+   "renderedObserver",
+   "component",
+   "model",
+   "controller",
+   "isDesktop",
+   "renderRoot"
+  ],
+  "html": "<object-matching-view modelid=\"63cfd4405d4b3d02c44afcac\" class=\"is-full\" sgpulse-type=\"component\"><template shadowroot=\"open\"><div data-socialgoodpulse-id=\"63cfd4405d4b3d02c44afcac\" class=\"component__inner objectmatching__inner component is-question objectmatching 63cfd4405d4b3d02c44afcac  is-full   can-show-model-answer can-show-feedback can-show-marking \"><div class=\"component__header-container\"><base-view type=\"component\" lowercase_component=\"objectMatching\" customclass=\"\"><template shadowroot=\"open\"><div class=\"component__header-wrapper  \"><div class=\"component__header objectMatching__header\"><div class=\"component__header-inner objectMatching__header-inner\"><div class=\"component__content\"><div tabindex=\"0\" class=\"component__body objectMatching__body\"><div class=\"component__body-inner objectMatching__body-inner\"><p>Match the cybersecurity threat term with the respective description.</p></div></div></div></div></div></div></template></base-view></div><div class=\"component__widget objectMatching__widget \"><div class=\"component__widget-inner\"><div class=\"objectMatching-container categories-container\"><div class=\"objectMatching-category-title objectMatching-title\">Categories:</div><div class=\"objectMatching-category-item-container item  \"><button data-id=\"0\" class=\"base objectMatching-category-item \" data-currentquestionindex=\"1\" data-itemindex=\"0\"><div class=\"objectMatching-category-item-inner\"><div class=\"category-item-text\">backdoor attack</div><div class=\"category-item-number\">A</div><div class=\"category-line\"></div></div></button></div><div class=\"objectMatching-category-item-container item  \"><button data-id=\"1\" class=\"base objectMatching-category-item \" data-currentquestionindex=\"2\" data-itemindex=\"1\"><div class=\"objectMatching-category-item-inner\"><div class=\"category-item-text\">rootkit attack</div><div class=\"category-item-number\">B</div><div class=\"category-line\"></div></div></button></div><div class=\"objectMatching-category-item-container item  \"><button data-id=\"2\" class=\"base objectMatching-category-item \" data-currentquestionindex=\"3\" data-itemindex=\"2\"><div class=\"objectMatching-category-item-inner\"><div class=\"category-item-text\">algorithm attack</div><div class=\"category-item-number\">C</div><div class=\"category-line\"></div></div></button></div><div class=\"objectMatching-category-item-container item  \"><button data-id=\"3\" class=\"base objectMatching-category-item \" data-currentquestionindex=\"4\" data-itemindex=\"3\"><div class=\"objectMatching-category-item-inner\"><div class=\"category-item-text\">advanced persistent threat</div><div class=\"category-item-number\">D</div><div class=\"category-line\"></div></div></button></div></div><div class=\"objectMatching-container options-container\"><div class=\"objectMatching-option-title objectMatching-title\">Options:</div><div class=\"objectMatching-option-item-container item\"><button data-id=\"1\" class=\"base objectMatching-option-item \" data-currentoptionindex=\"1\" data-itemindex=\"0\"><div class=\"objectMatching-option-item-inner\"><div class=\"dropdown__icon\" aria-hidden=\"true\"><div class=\"icon matching_item-state\"><material-icon icon=\"\" class=\"\" customclasses=\"\" iconname=\"\"><template shadowroot=\"open\"><span part=\"material-icon\" class=\"material-icons \"></span></template></material-icon></div></div><div class=\"category-item-number\"></div><div class=\"category-item-text\">This is a type of malware attack designed to modify the operating system to create a vulnerability that attackers can then use to access the computer remotely, and<font justify;\\\"=\"\"> gain access to resources that normally should not be accessible (privilege escalation) and modify system files. </font></div></div></button></div><div class=\"objectMatching-option-item-container item\"><button data-id=\"2\" class=\"base objectMatching-option-item \" data-currentoptionindex=\"2\" data-itemindex=\"1\"><div class=\"objectMatching-option-item-inner\"><div class=\"dropdown__icon\" aria-hidden=\"true\"><div class=\"icon matching_item-state\"><material-icon icon=\"\" class=\"\" customclasses=\"\" iconname=\"\"><template shadowroot=\"open\"><span part=\"material-icon\" class=\"material-icons \"></span></template></material-icon></div></div><div class=\"category-item-number\"></div><div class=\"category-item-text\">This is a type of malware attack that generates information embedded in a piece of legitimate software to generate unintended behaviors. This type of malware attack can be used to select targets or trigger false alerts. They can also disable a computer by forcing it to use up all its RAM or by overworking its central processing unit (CPU).</div></div></button></div><div class=\"objectMatching-option-item-container item\"><button data-id=\"3\" class=\"base objectMatching-option-item \" data-currentoptionindex=\"3\" data-itemindex=\"2\"><div class=\"objectMatching-option-item-inner\"><div class=\"dropdown__icon\" aria-hidden=\"true\"><div class=\"icon matching_item-state\"><material-icon icon=\"\" class=\"\" customclasses=\"\" iconname=\"\"><template shadowroot=\"open\"><span part=\"material-icon\" class=\"material-icons \"></span></template></material-icon></div></div><div class=\"category-item-number\"></div><div class=\"category-item-text\">This is a type of malware attack that is continuous and uses elaborate espionage tactics involving multiple actors and/or sophisticated malware to gain access to gain access to the network of the target system. It is typically targeted towards governments and high-level organizations and is usually well-orchestrated and well-funded.</div></div></button></div><div class=\"objectMatching-option-item-container item\"><button data-id=\"0\" class=\"base objectMatching-option-item \" data-currentoptionindex=\"4\" data-itemindex=\"3\"><div class=\"objectMatching-option-item-inner\"><div class=\"dropdown__icon\" aria-hidden=\"true\"><div class=\"icon matching_item-state\"><material-icon icon=\"\" class=\"\" customclasses=\"\" iconname=\"\"><template shadowroot=\"open\"><span part=\"material-icon\" class=\"material-icons \"></span></template></material-icon></div></div><div class=\"category-item-number\"></div><div class=\"category-item-text\">This is a type of malware attack used by cybercriminals to gain unauthorized access to systems by bypassing the normal authentication procedures, by typically having authorized users unknowingly run a remote administrative tool program (RAT) on their computer that installs a backdoor.</div></div></button></div></div><div class=\"clear-fix\"></div></div></div><div class=\"btn-container \"><buttons-view sgpulse-type=\"component\"><template shadowroot=\"open\"><div class=\"btn__container \"><div class=\"btn__response-container\"><div class=\"js-answer-live-region aria-label\" aria-live=\"assertive\" aria-atomic=\"true\"></div><button class=\"btn-text btn__action js-btn-action is-disabled\" aria-label=\"Submit Your answer will be submitted\" disabled=\"\">Submit</button><button class=\"btn-text btn__action btn__feedback js-btn-feedback is-disabled\" disabled=\"\" aria-label=\"Show feedback\" aria-disabled=\"true\">Show feedback</button></div></div></template></buttons-view></div></div></template></object-matching-view>",
+  "complete": false
+ }
+]

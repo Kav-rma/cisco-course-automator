@@ -1,0 +1,238 @@
+{
+ "started_at": "2026-08-22T12:35:24",
+ "items": [
+  {
+   "item": "38.0.1",
+   "title": "Why Should I Take this Module?",
+   "module": 38,
+   "type": "INTRODUCTION",
+   "components": [
+    "graphic-view",
+    "text-view"
+   ],
+   "unit_complete": true,
+   "status": "already_complete",
+   "notes": [],
+   "seconds": 6.9,
+   "outline_after": "completed"
+  },
+  {
+   "item": "38.1.1",
+   "title": "Threat Domains",
+   "module": 38,
+   "type": "INTERACTIVE",
+   "components": [
+    "flipcard-view"
+   ],
+   "unit_complete": false,
+   "status": "failed",
+   "notes": [
+    "unhandled interactive component types: ['flipcard-view']",
+    "unit still incomplete after processing interactives"
+   ],
+   "seconds": 25.1
+  },
+  {
+   "item": "38.1.2",
+   "title": "Types of Cyber Threats",
+   "module": 38,
+   "type": "INTERACTIVE",
+   "components": [
+    "accordion-view"
+   ],
+   "unit_complete": false,
+   "status": "completed",
+   "notes": [
+    "unit complete"
+   ],
+   "seconds": 7.6,
+   "outline_after": "completed"
+  },
+  {
+   "item": "38.1.7",
+   "title": "Threats to the Local Area Network",
+   "module": 38,
+   "type": "INTERACTIVE",
+   "components": [
+    "flipcard-view",
+    "blank-view"
+   ],
+   "unit_complete": false,
+   "status": "failed",
+   "notes": [
+    "unhandled interactive component types: ['flipcard-view']",
+    "unit still incomplete after processing interactives"
+   ],
+   "seconds": 24.1
+  },
+  {
+   "item": "38.1.9",
+   "title": "Threats to the Public Cloud",
+   "module": 38,
+   "type": "INTERACTIVE",
+   "components": [
+    "narrative-view"
+   ],
+   "unit_complete": false,
+   "status": "failed",
+   "notes": [
+    "unhandled interactive component types: ['narrative-view']",
+    "unit still incomplete after processing interactives"
+   ],
+   "seconds": 23.8
+  },
+  {
+   "item": "38.1.10",
+   "title": "Threats to Applications",
+   "module": 38,
+   "type": "LESSON",
+   "components": [
+    "text-view"
+   ],
+   "unit_complete": true,
+   "status": "already_complete",
+   "notes": [],
+   "seconds": 3.1,
+   "outline_after": "completed"
+  },
+  {
+   "item": "38.1.11",
+   "title": "Practice Item - Threats and Vulnerabilities",
+   "module": 38,
+   "type": "UNKNOWN",
+   "components": [
+    "object-matching-view"
+   ],
+   "unit_complete": false,
+   "status": "unknown"
+  },
+  {
+   "item": "38.1.13",
+   "title": "Backdoors and Rootkits",
+   "module": 38,
+   "type": "INTERACTIVE",
+   "components": [
+    "flipcard-view"
+   ],
+   "unit_complete": false,
+   "status": "failed",
+   "notes": [
+    "unhandled interactive component types: ['flipcard-view']",
+    "unit still incomplete after processing interactives"
+   ],
+   "seconds": 23.8
+  },
+  {
+   "item": "38.1.14",
+   "title": "Threat Intelligence and Research Sources",
+   "module": 38,
+   "type": "INTERACTIVE",
+   "components": [
+    "narrative-view"
+   ],
+   "unit_complete": false,
+   "status": "failed",
+   "notes": [
+    "unhandled interactive component types: ['narrative-view']",
+    "unit still incomplete after processing interactives"
+   ],
+   "seconds": 24.0
+  }
+ ],
+ "needs_user": [],
+ "failed": [
+  {
+   "item": "38.1.1",
+   "title": "Threat Domains",
+   "module": 38,
+   "type": "INTERACTIVE",
+   "components": [
+    "flipcard-view"
+   ],
+   "unit_complete": false,
+   "status": "failed",
+   "notes": [
+    "unhandled interactive component types: ['flipcard-view']",
+    "unit still incomplete after processing interactives"
+   ],
+   "seconds": 25.1
+  },
+  {
+   "item": "38.1.7",
+   "title": "Threats to the Local Area Network",
+   "module": 38,
+   "type": "INTERACTIVE",
+   "components": [
+    "flipcard-view",
+    "blank-view"
+   ],
+   "unit_complete": false,
+   "status": "failed",
+   "notes": [
+    "unhandled interactive component types: ['flipcard-view']",
+    "unit still incomplete after processing interactives"
+   ],
+   "seconds": 24.1
+  },
+  {
+   "item": "38.1.9",
+   "title": "Threats to the Public Cloud",
+   "module": 38,
+   "type": "INTERACTIVE",
+   "components": [
+    "narrative-view"
+   ],
+   "unit_complete": false,
+   "status": "failed",
+   "notes": [
+    "unhandled interactive component types: ['narrative-view']",
+    "unit still incomplete after processing interactives"
+   ],
+   "seconds": 23.8
+  },
+  {
+   "item": "38.1.11",
+   "title": "Practice Item - Threats and Vulnerabilities",
+   "module": 38,
+   "type": "UNKNOWN",
+   "components": [
+    "object-matching-view"
+   ],
+   "unit_complete": false,
+   "status": "unknown"
+  },
+  {
+   "item": "38.1.13",
+   "title": "Backdoors and Rootkits",
+   "module": 38,
+   "type": "INTERACTIVE",
+   "components": [
+    "flipcard-view"
+   ],
+   "unit_complete": false,
+   "status": "failed",
+   "notes": [
+    "unhandled interactive component types: ['flipcard-view']",
+    "unit still incomplete after processing interactives"
+   ],
+   "seconds": 23.8
+  },
+  {
+   "item": "38.1.14",
+   "title": "Threat Intelligence and Research Sources",
+   "module": 38,
+   "type": "INTERACTIVE",
+   "components": [
+    "narrative-view"
+   ],
+   "unit_complete": false,
+   "status": "failed",
+   "notes": [
+    "unhandled interactive component types: ['narrative-view']",
+    "unit still incomplete after processing interactives"
+   ],
+   "seconds": 24.0
+  }
+ ],
+ "finished_at": "2026-08-22T12:38:24"
+}

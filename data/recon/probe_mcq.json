@@ -1,0 +1,201 @@
+[
+ {
+  "modelid": "b123dea13cd8499bbdd61dff49ba00c1",
+  "mtype": "object",
+  "keys": [
+   "_channels",
+   "properties",
+   "changed",
+   "modelid",
+   "_childrenCollection",
+   "triggerTrackableState",
+   "_parentModel",
+   "triggerTrackableStateQueued"
+  ],
+  "items": [
+   {
+    "text": "NFC",
+    "_shouldBeSelected": false,
+    "_index": 0
+   },
+   {
+    "text": "GPS",
+    "_shouldBeSelected": false,
+    "_index": 1
+   },
+   {
+    "text": "Wi-Fi",
+    "_shouldBeSelected": false,
+    "_index": 2
+   },
+   {
+    "text": "Bluetooth",
+    "_shouldBeSelected": true,
+    "_index": 3
+   }
+  ],
+  "question": "Which of the following is a low-power, shorter range wireless technology that is intended to replace wired connectivity for accessories such as speakers or a mouse?",
+  "opts": [
+   {
+    "idx": "2",
+    "text": "Wi-Fi 1 of 4",
+    "checked": "false",
+    "cls": "mcq__item js-mcq-item item-2 is-incorrect"
+   },
+   {
+    "idx": "3",
+    "text": "Bluetooth 2 of 4",
+    "checked": "true",
+    "cls": "mcq__item js-mcq-item item-3 is-correct"
+   },
+   {
+    "idx": "0",
+    "text": "NFC 3 of 4",
+    "checked": "false",
+    "cls": "mcq__item js-mcq-item item-0 is-incorrect"
+   },
+   {
+    "idx": "1",
+    "text": "GPS 4 of 4",
+    "checked": "false",
+    "cls": "mcq__item js-mcq-item item-1 is-incorrect"
+   }
+  ],
+  "btns": [
+   {
+    "text": "Submit",
+    "cls": "btn-text btn__action js-btn-action is-disabled",
+    "disabled": true
+   },
+   {
+    "text": "Show feedback",
+    "cls": "btn-text btn__action btn__feedback js-btn-feedback ",
+    "disabled": false
+   }
+  ],
+  "propNames": [
+   "_$Ei",
+   "isUpdatePending",
+   "hasUpdated",
+   "_$El",
+   "enableUpdating",
+   "_$E_",
+   "_$AL",
+   "renderOptions",
+   "_$Do",
+   "applyDesignAttributesHandler",
+   "applyCustomCssHandler",
+   "__modelid",
+   "_$EC",
+   "renderMethodRef",
+   "isLanguageChanged",
+   "renderMethodReplacement",
+   "renderedObserver",
+   "component",
+   "model",
+   "_$ES",
+   "controller",
+   "renderRoot"
+  ]
+ },
+ {
+  "modelid": "787da42455fa44b3a9d5a25e7f6fcace",
+  "mtype": "object",
+  "keys": [
+   "_channels",
+   "properties",
+   "changed",
+   "modelid",
+   "_childrenCollection",
+   "triggerTrackableState",
+   "_parentModel",
+   "triggerTrackableStateQueued"
+  ],
+  "items": [
+   {
+    "text": "NFC",
+    "_shouldBeSelected": true,
+    "_index": 0
+   },
+   {
+    "text": "GPS",
+    "_shouldBeSelected": false,
+    "_index": 1,
+    "feedback": ""
+   },
+   {
+    "text": "Wi-Fi",
+    "_shouldBeSelected": false,
+    "_index": 2
+   },
+   {
+    "text": "Bluetooth",
+    "_shouldBeSelected": false,
+    "_index": 3
+   }
+  ],
+  "question": "Which of the following is a wireless communication technology that enables a smartphone to communicate with a payment system within a few centimeters away?",
+  "opts": [
+   {
+    "idx": "0",
+    "text": "NFC 1 of 4",
+    "checked": "true",
+    "cls": "mcq__item js-mcq-item item-0 is-correct"
+   },
+   {
+    "idx": "2",
+    "text": "Wi-Fi 2 of 4",
+    "checked": "false",
+    "cls": "mcq__item js-mcq-item item-2 is-incorrect"
+   },
+   {
+    "idx": "3",
+    "text": "Bluetooth 3 of 4",
+    "checked": "false",
+    "cls": "mcq__item js-mcq-item item-3 is-incorrect"
+   },
+   {
+    "idx": "1",
+    "text": "GPS 4 of 4",
+    "checked": "false",
+    "cls": "mcq__item js-mcq-item item-1 is-incorrect"
+   }
+  ],
+  "btns": [
+   {
+    "text": "Submit",
+    "cls": "btn-text btn__action js-btn-action is-disabled",
+    "disabled": true
+   },
+   {
+    "text": "Show feedback",
+    "cls": "btn-text btn__action btn__feedback js-btn-feedback ",
+    "disabled": false
+   }
+  ],
+  "propNames": [
+   "_$Ei",
+   "isUpdatePending",
+   "hasUpdated",
+   "_$El",
+   "enableUpdating",
+   "_$E_",
+   "_$AL",
+   "renderOptions",
+   "_$Do",
+   "applyDesignAttributesHandler",
+   "applyCustomCssHandler",
+   "__modelid",
+   "_$EC",
+   "renderMethodRef",
+   "isLanguageChanged",
+   "renderMethodReplacement",
+   "renderedObserver",
+   "component",
+   "model",
+   "_$ES",
+   "controller",
+   "renderRoot"
+  ]
+ }
+]

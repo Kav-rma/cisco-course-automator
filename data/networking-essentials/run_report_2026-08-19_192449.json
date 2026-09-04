@@ -1,0 +1,119 @@
+{
+ "started_at": "2026-08-19T19:24:49",
+ "items": [
+  {
+   "item": "11.0.1",
+   "title": "Webster - Why Should I Take this Module?",
+   "module": 11,
+   "type": "INTRODUCTION",
+   "status": "completed",
+   "notes": [
+    "completed after scrolling into view"
+   ],
+   "seconds": 7.0,
+   "outline_after": "completed"
+  },
+  {
+   "item": "11.0.2",
+   "title": "What Will I Learn in this Module?",
+   "module": 11,
+   "type": "INTRODUCTION",
+   "status": "already_complete",
+   "notes": [],
+   "seconds": 3.8,
+   "outline_after": "completed"
+  },
+  {
+   "item": "11.1.1",
+   "title": "Static IPv4 Address Assignment",
+   "module": 11,
+   "type": "LESSON",
+   "status": "already_complete",
+   "notes": [],
+   "seconds": 3.7,
+   "outline_after": "completed"
+  },
+  {
+   "item": "11.1.4",
+   "title": "Check Your Understanding - Static and Dynamic Addressing",
+   "module": 11,
+   "type": "KNOWLEDGE_CHECK",
+   "status": "completed",
+   "notes": [],
+   "seconds": 3.5,
+   "outline_after": "completed"
+  },
+  {
+   "item": "11.2.1",
+   "title": "Video - DHCPv4 Operation",
+   "module": 11,
+   "type": "VIDEO",
+   "status": "completed",
+   "notes": [],
+   "seconds": 8.9,
+   "outline_after": "completed"
+  },
+  {
+   "item": "11.2.2",
+   "title": "Video - DHCP Service Configuration",
+   "module": 11,
+   "type": "VIDEO",
+   "status": "completed",
+   "notes": [],
+   "seconds": 6.0,
+   "outline_after": "completed"
+  },
+  {
+   "item": "11.2.3",
+   "title": "Packet Tracer - Configure DHCP on a Wireless Router",
+   "module": 11,
+   "type": "LAB",
+   "status": "completed",
+   "notes": [],
+   "seconds": 3.3,
+   "outline_after": "completed"
+  },
+  {
+   "item": "11.3.1",
+   "title": "What Did I Learn in this Module?",
+   "module": 11,
+   "type": "INTERACTIVE",
+   "status": "completed",
+   "notes": [
+    "unit complete"
+   ],
+   "seconds": 5.5,
+   "outline_after": "completed"
+  },
+  {
+   "item": "11.3.2",
+   "title": "Webster - Reflection Questions",
+   "module": 11,
+   "type": "LESSON",
+   "status": "completed",
+   "notes": [
+    "completed after scrolling into view"
+   ],
+   "seconds": 4.5,
+   "outline_after": "completed"
+  },
+  {
+   "item": "11.3.3",
+   "title": "Dynamic Addressing with DHCP Quiz",
+   "module": 11,
+   "type": "UNKNOWN",
+   "status": "unknown"
+  }
+ ],
+ "needs_user": [],
+ "failed": [
+  {
+   "item": "11.3.3",
+   "title": "Dynamic Addressing with DHCP Quiz",
+   "module": 11,
+   "type": "UNKNOWN",
+   "status": "unknown"
+  }
+ ],
+ "finished_at": "2026-08-19T19:26:43"
+}

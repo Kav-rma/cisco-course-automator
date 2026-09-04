@@ -1,0 +1,149 @@
+{
+ "started_at": "2026-08-20T00:14:03",
+ "items": [
+  {
+   "item": "9.0.1",
+   "title": "Webster - Why Should I Take this Module?",
+   "module": 9,
+   "type": "INTRODUCTION",
+   "status": "already_complete",
+   "notes": [],
+   "seconds": 5.8,
+   "outline_after": "completed"
+  },
+  {
+   "item": "9.1.1",
+   "title": "Video - IPv4 Unicast",
+   "module": 9,
+   "type": "VIDEO",
+   "status": "already_complete",
+   "notes": [],
+   "seconds": 6.0,
+   "outline_after": "completed"
+  },
+  {
+   "item": "9.1.4",
+   "title": "Broadcast",
+   "module": 9,
+   "type": "INTERACTIVE",
+   "status": "completed",
+   "notes": [
+    "unit complete"
+   ],
+   "seconds": 6.5,
+   "outline_after": "completed"
+  },
+  {
+   "item": "9.1.5",
+   "title": "Video - IPv4 Multicast",
+   "module": 9,
+   "type": "VIDEO",
+   "status": "completed",
+   "notes": [],
+   "seconds": 10.3,
+   "outline_after": "completed"
+  },
+  {
+   "item": "9.1.6",
+   "title": "Multicast",
+   "module": 9,
+   "type": "INTERACTIVE",
+   "status": "completed",
+   "notes": [
+    "unit complete"
+   ],
+   "seconds": 5.1,
+   "outline_after": "completed"
+  },
+  {
+   "item": "9.1.7",
+   "title": "Activity - Unicast, Broadcast, or Multicast",
+   "module": 9,
+   "type": "LESSON",
+   "status": "completed",
+   "notes": [
+    "completed after scrolling into view"
+   ],
+   "seconds": 17.1,
+   "outline_after": "completed"
+  },
+  {
+   "item": "9.2.1",
+   "title": "Public and Private IPv4 Addresses",
+   "module": 9,
+   "type": "LESSON",
+   "status": "already_complete",
+   "notes": [],
+   "seconds": 3.9,
+   "outline_after": "completed"
+  },
+  {
+   "item": "9.2.2",
+   "title": "Routing to the Internet",
+   "module": 9,
+   "type": "LESSON",
+   "status": "completed",
+   "notes": [
+    "completed after scrolling into view"
+   ],
+   "seconds": 4.8,
+   "outline_after": "completed"
+  },
+  {
+   "item": "9.2.3",
+   "title": "Activity - Pass or Block IPv4 Addresses",
+   "module": 9,
+   "type": "UNKNOWN",
+   "status": "unknown"
+  },
+  {
+   "item": "9.2.4",
+   "title": "Special Use IPv4 Addresses",
+   "module": 9,
+   "type": "LESSON",
+   "status": "completed",
+   "notes": [
+    "completed after scrolling into view"
+   ],
+   "seconds": 4.7,
+   "outline_after": "completed"
+  },
+  {
+   "item": "9.2.7",
+   "title": "Activity - Public or Private IPv4 Address",
+   "module": 9,
+   "type": "KNOWLEDGE_CHECK",
+   "status": "needs_user",
+   "notes": [
+    "unsupported question type matching-view"
+   ],
+   "seconds": 3.2
+  },
+  {
+   "item": "9.2.8",
+   "title": "Check Your Understanding - Types of IPv4 Addresses",
+   "module": 9,
+   "type": "KNOWLEDGE_CHECK",
+   "status": "completed",
+   "notes": [],
+   "seconds": 4.3,
+   "outline_after": "completed"
+  }
+ ],
+ "needs_user": [
+  {
+   "item": "9.2.7",
+   "why": "unsupported question type matching-view"
+  }
+ ],
+ "failed": [
+  {
+   "item": "9.2.3",
+   "title": "Activity - Pass or Block IPv4 Addresses",
+   "module": 9,
+   "type": "UNKNOWN",
+   "status": "unknown"
+  }
+ ],
+ "finished_at": "2026-08-20T00:15:55"
+}

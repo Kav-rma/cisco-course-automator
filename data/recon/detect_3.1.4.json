@@ -1,0 +1,39 @@
+{
+ "page_type": "KNOWLEDGE_CHECK",
+ "item_id": "3.1.4",
+ "scope_kind": "article",
+ "scope_modelid": "e8ee820db5d9474c84f6daf5a2d82147",
+ "heading": "3.1.4 Check Your Understanding - Wireless Networks",
+ "complete": false,
+ "components": [
+  {
+   "tag": "mcq-view",
+   "modelid": "b123dea13cd8499bbdd61dff49ba00c1",
+   "complete": false,
+   "heading": "Question 1"
+  },
+  {
+   "tag": "mcq-view",
+   "modelid": "787da42455fa44b3a9d5a25e7f6fcace",
+   "complete": false,
+   "heading": "Question 2"
+  },
+  {
+   "tag": "quicknav-view",
+   "modelid": "08d07160720645c8a17d015735e76842",
+   "complete": null,
+   "heading": null
+  }
+ ],
+ "families": {
+  "assessment": 0,
+  "question": 2,
+  "media": 0,
+  "interactive": 0,
+  "static": 1,
+  "unknown": []
+ },
+ "reasons": [
+  "2 question component(s)"
+ ]
+}

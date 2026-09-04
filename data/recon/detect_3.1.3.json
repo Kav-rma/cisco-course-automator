@@ -1,0 +1,33 @@
+{
+ "page_type": "INTERACTIVE",
+ "item_id": "3.1.3",
+ "scope_kind": "block",
+ "scope_modelid": "c8b2c4ef24b8476195241a6ffeae425a",
+ "heading": "3.1.3 Other Wireless Networks",
+ "complete": false,
+ "components": [
+  {
+   "tag": "accordion-view",
+   "modelid": "1b1c180580c34396a019a14859f09737",
+   "complete": false,
+   "heading": null
+  },
+  {
+   "tag": "blank-view",
+   "modelid": "f10c7d35243c422bb9508c965326ea1e",
+   "complete": true,
+   "heading": null
+  }
+ ],
+ "families": {
+  "assessment": 0,
+  "question": 0,
+  "media": 0,
+  "interactive": 1,
+  "static": 1,
+  "unknown": []
+ },
+ "reasons": [
+  "1 interactive component(s)"
+ ]
+}

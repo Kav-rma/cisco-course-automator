@@ -1,0 +1,2845 @@
+{
+ "course": "SCSE2026_CCNA: Switching, Routing, and Wireless Essentials",
+ "quizzes": [
+  {
+   "item": "1.6.4",
+   "module": 1,
+   "title": "Module Quiz - Basic Device Configuration",
+   "type": "ASSESSMENT",
+   "questions": [
+    {
+     "question": "Which tasks can be accomplished by using the command history feature? (Choose two.)",
+     "type": "mcq",
+     "options": [
+      "View a list of commands entered in a previous session.",
+      "Recall up to 15 command lines by default.",
+      "Set the command history buffer size.",
+      "Recall previously entered commands.",
+      "Save command lines in a log file for future reference."
+     ],
+     "n": 1
+    },
+    {
+     "question": "Which statement describes the system LED operation on Cisco Catalyst switches? (Choose two.)",
+     "type": "mcq",
+     "options": [
+      "If the LED is blinking green, the system is operating normally.",
+      "If the LED is amber, the system is not powered on.",
+      "If the LED is blinking amber, the switch is performing POST.",
+      "If the LED is amber, the system is receiving power but it is not functioning properly."
+     ],
+     "n": 2
+    },
+    {
+     "question": "What type of Ethernet cable would be used to connect one switch to another switch when neither switch supports the auto-MDIX feature?",
+     "type": "mcq",
+     "options": [
+      "Straight-through",
+      "Crossover",
+      "Coaxial",
+      "Rollover"
+     ],
+     "n": 3
+    },
+    {
+     "question": "What advantage does SSH offer over Telnet?",
+     "type": "mcq",
+     "options": [
+      "Encryption",
+      "More connection lines",
+      "Connection-oriented services",
+      "Username and password authentication"
+     ],
+     "n": 4
+    },
+    {
+     "question": "A network administrator has configured ​VLAN 99 as the management VLAN and has configured it with an IP address and subnet mask. The administrator issues the show interface vlan 99 command and notices that the line protocol is down. Which action can change the state of the line protocol to up?",
+     "type": "mcq",
+     "options": [
+      "Connect a host to an interface associated with VLAN 99.",
+      "Configure a default gateway.",
+      "Remove all access ports from VLAN 99.",
+      "Configure a transport input method on the vty lines."
+     ],
+     "n": 5
+    },
+    {
+     "question": "Which statement describes SVIs?",
+     "type": "mcq",
+     "options": [
+      "An SVI is created automatically for each VLAN on a multilayer switch.",
+      "Creating an SVI automatically creates an associated VLAN.",
+      "A default SVI is created for VLAN 1 for switch administration.",
+      "An SVI can only be created for the management VLAN."
+     ],
+     "n": 6
+    },
+    {
+     "question": "Which prompt is displayed when a network administrator successfully accesses the boot loader on a switch to recover from a system crash?",
+     "type": "mcq",
+     "options": [
+      "System:",
+      "System#",
+      "Switch:",
+      "Switch#"
+     ],
+     "n": 7
+    },
+    {
+     "question": "Which router bootup sequence is correct?​",
+     "type": "mcq",
+     "options": [
+      "1 - perform the POST and load the Cisco IOS software 2 - locate and load the startup configuration file or enter setup mode 3 - locate and load the bootstrap program",
+      "1 - perform the POST and load the bootstrap program 2 - locate and load the startup configuration file or enter setup mode 3 - locate and load the Cisco IOS software​",
+      "1 - perform the POST and load the startup configuration file 2 - locate and load the bootstrap program 3 - locate and load the Cisco IOS software​",
+      "1 - perform the POST and load the bootstrap program 2 - locate and load the Cisco IOS software 3 - locate and load the startup configuration file or enter setup mode"
+     ],
+     "n": 8
+    },
+    {
+     "question": "What is the first action in the boot sequence when a switch is powered on?",
+     "type": "mcq",
+     "options": [
+      "Load the default Cisco IOS software",
+      "Load boot loader software",
+      "Low-level CPU initialization",
+      "Load a power-on self-test program"
+     ],
+     "n": 9
+    },
+    {
+     "question": "What must an administrator have in order to reset a lost password on a router?",
+     "type": "mcq",
+     "options": [
+      "A TFTP server",
+      "A crossover cable",
+      "Access to another router",
+      "Physical access to the router"
+     ],
+     "n": 10
+    },
+    {
+     "question": "When configuring a switch for SSH access, what other command that is associated with the login local command is required to be entered on the switch?",
+     "type": "mcq",
+     "options": [
+      "enable secret password",
+      "password password",
+      "username username secret secret",
+      "login block-for seconds attempts number within seconds"
+     ],
+     "n": 11
+    },
+    {
+     "question": "Which command will provide information about the status of all interfaces including the number of giants, runts, and collisions on the interface?",
+     "type": "mcq",
+     "options": [
+      "show interfaces",
+      "show ip interface brief",
+      "show history",
+      "show running-config"
+     ],
+     "n": 12
+    }
+   ],
+   "total_reported": 12
+  },
+  {
+   "item": "2.3.2",
+   "module": 2,
+   "title": "Module Quiz - Switching Concepts",
+   "type": "ASSESSMENT",
+   "questions": [
+    {
+     "question": "Which statement is true about broadcast and collision domains?",
+     "type": "mcq",
+     "options": [
+      "Adding a router to a network will increase the size of the collision domain.",
+      "The size of the collision domain can be reduced by adding hubs to a network.",
+      "The more interfaces a router has the larger the resulting broadcast domain.",
+      "Adding a switch to a network will increase the size of the broadcast domain."
+     ],
+     "n": 1
+    },
+    {
+     "question": "What is one function of a Layer 2 switch?",
+     "type": "mcq",
+     "options": [
+      "Forwards data based on logical addressing",
+      "Duplicates the electrical signal of each frame to every port",
+      "Learns the port assigned to a host by examining the destination MAC address",
+      "Determines which interface is used to forward a frame based on the destination MAC address"
+     ],
+     "n": 2
+    },
+    {
+     "question": "What is the significant difference between a hub and a Layer 2 LAN switch?",
+     "type": "mcq",
+     "options": [
+      "A hub divides collision domains, and a switch divides broadcast domains.",
+      "A switch creates many smaller collision domains, and a hub increases the size of a single collision domain.",
+      "Each port of a hub is a collision domain, and each port of a switch is a broadcast domain.",
+      "A hub forwards frames, and a switch forwards only packets."
+     ],
+     "n": 3
+    },
+    {
+     "question": "What will a Cisco LAN switch do if it receives an incoming frame and the destination MAC address is not listed in the MAC address table?",
+     "type": "mcq",
+     "options": [
+      "Drop the frame.",
+      "Send the frame to the default gateway address.",
+      "Use ARP to resolve the port that is related to the frame.",
+      "Forward the frame out all ports except the port where the frame is received."
+     ],
+     "n": 4
+    },
+    {
+     "question": "Which switch characteristic helps alleviate network congestion when a 10 Gbps port is forwarding data to a 1 Gbps port?",
+     "type": "mcq",
+     "options": [
+      "Fast internal switching",
+      "High port density",
+      "Fast port speed",
+      "Frame buffering"
+     ],
+     "n": 5
+    },
+    {
+     "question": "Which switching method makes use of the FCS value?",
+     "type": "mcq",
+     "options": [
+      "Broadcast",
+      "Cut-through",
+      "Large frame buffer",
+      "Store-and-forward"
+     ],
+     "n": 6
+    },
+    {
+     "question": "What does the term \"port density\" represent for an Ethernet switch?",
+     "type": "mcq",
+     "options": [
+      "The memory space that is allocated to each switch port",
+      "The number of available ports",
+      "The numbers of hosts that are connected to each switch port",
+      "The speed of each port"
+     ],
+     "n": 7
+    },
+    {
+     "question": "Which information does a switch use to keep the MAC address table information current?",
+     "type": "mcq",
+     "options": [
+      "The destination MAC address and the incoming port",
+      "The destination MAC address and the outgoing port",
+      "The source and destination MAC addresses and the incoming port",
+      "The source and destination MAC addresses and the outgoing port",
+      "The source MAC address and the incoming port",
+      "The source MAC address and the outgoing port"
+     ],
+     "n": 8
+    },
+    {
+     "question": "Which two statements are true about half-duplex and full-duplex communications? (Choose two.)",
+     "type": "mcq",
+     "options": [
+      "Full duplex offers 100 percent potential use of the bandwidth.",
+      "Half duplex has only one channel.",
+      "All modern NICs support both half-duplex and full-duplex communication.",
+      "Full duplex allows both ends to transmit and receive simultaneously.",
+      "Full duplex increases the effective bandwidth."
+     ],
+     "n": 9
+    },
+    {
+     "question": "Which type of address does a switch use to build the MAC address table?",
+     "type": "mcq",
+     "options": [
+      "Destination IP address",
+      "Source IP address",
+      "Destination MAC address",
+      "Source MAC address"
+     ],
+     "n": 10
+    },
+    {
+     "question": "Which option correctly describes a switching method?",
+     "type": "mcq",
+     "options": [
+      "Cut-through: makes a forwarding decision after receiving the entire frame",
+      "Store-and-forward: forwards the frame immediately after examining its destination MAC address",
+      "Cut-through: provides the flexibility to support any mix of Ethernet speeds",
+      "Store-and-forward: ensures that the frame is free of physical and data-link errors"
+     ],
+     "n": 11
+    },
+    {
+     "question": "Which network device can serve as a boundary to divide a Layer 2 broadcast domain?",
+     "type": "mcq",
+     "options": [
+      "Router",
+      "Ethernet bridge",
+      "Ethernet hub",
+      "Access point"
+     ],
+     "n": 12
+    },
+    {
+     "question": "What is the purpose of frame buffers on a switch?",
+     "type": "mcq",
+     "options": [
+      "They provide a basic security scan on received frames.",
+      "They provide temporary storage of the frame checksum.",
+      "They execute checksum values before transmission.",
+      "They hold traffic, thus alleviating network congestion."
+     ],
+     "n": 13
+    },
+    {
+     "question": "Which network device can be used to eliminate collisions on an Ethernet network?",
+     "type": "mcq",
+     "options": [
+      "Firewall",
+      "Hub",
+      "Router",
+      "Switch"
+     ],
+     "n": 14
+    }
+   ],
+   "total_reported": 14
+  },
+  {
+   "item": "3.6.4",
+   "module": 3,
+   "title": "Module Quiz - VLANs",
+   "type": "ASSESSMENT",
+   "questions": [
+    {
+     "question": "What happens to a port that is associated with VLAN 10 when the administrator deletes VLAN 10 from the switch?",
+     "type": "mcq",
+     "options": [
+      "The port becomes inactive.",
+      "The port goes back to the default VLAN.",
+      "The port automatically associates itself with the native VLAN.",
+      "The port creates the VLAN again."
+     ],
+     "n": 1
+    },
+    {
+     "question": "In which memory location are the VLAN configurations of normal range VLANs stored on a Catalyst switch?",
+     "type": "mcq",
+     "options": [
+      "Flash",
+      "NVRAM",
+      "RAM",
+      "ROM"
+     ],
+     "n": 2
+    },
+    {
+     "question": "An administrator is investigating a failure on a trunk link between a Cisco switch and a switch from another vendor. After a few show commands, the administrator notices that the switches are not negotiating a trunk. What is a probable cause for this issue?",
+     "type": "mcq",
+     "options": [
+      "Both switches are in trunk mode.",
+      "Both switches are in nonegotiate mode.",
+      "Switches from other vendors do not support DTP.",
+      "DTP frames are flooding the entire network."
+     ],
+     "n": 3
+    },
+    {
+     "question": "What is the purpose of the vlan.dat file on a switch?",
+     "type": "mcq",
+     "options": [
+      "It holds the running configuration.",
+      "It holds the saved configuration.",
+      "It holds the VLAN database.",
+      "It holds the operating system."
+     ],
+     "n": 4
+    },
+    {
+     "question": "What is the purpose of setting the native VLAN separate from data VLANs?",
+     "type": "mcq",
+     "options": [
+      "The native VLAN is for carrying VLAN management traffic only.",
+      "The security of management frames that are carried in the native VLAN can be enhanced.",
+      "A separate VLAN should be used to carry uncommon untagged frames to avoid bandwidth contention on data VLANs.",
+      "The native VLAN is for routers and switches to exchange their management information, so it should be different from data VLANs."
+     ],
+     "n": 5
+    },
+    {
+     "question": "When a Cisco switch receives untagged frames on a 802.1Q trunk port, which VLAN ID is the traffic switched to by default?",
+     "type": "mcq",
+     "options": [
+      "Unused VLAN ID",
+      "Native VLAN ID",
+      "Data VLAN ID",
+      "Management VLAN ID"
+     ],
+     "n": 6
+    },
+    {
+     "question": "A network administrator is determining the best placement of VLAN trunk links. Which two types of point-to-point connections utilize VLAN trunking?​ (Choose two.)",
+     "type": "mcq",
+     "options": [
+      "Between two switches that utilize multiple VLANs",
+      "Between a switch and a client PC",
+      "Between a switch and a server that has an 802.1Q NIC",
+      "Between a switch and a network printer",
+      "Between two switches that share a common VLAN"
+     ],
+     "n": 7
+    },
+    {
+     "question": "What are three primary benefits of using VLANs? (Choose three.)",
+     "type": "mcq",
+     "options": [
+      "Security",
+      "A reduction in the number of trunk links",
+      "Cost reduction",
+      "End user satisfaction",
+      "Improved IT Staff efficiency"
+     ],
+     "n": 8
+    },
+    {
+     "question": "On a Cisco switch, where is extended range VLAN information stored?",
+     "type": "mcq",
+     "options": [
+      "Running configuration file",
+      "Startup configuration file",
+      "NVRAM",
+      "Flash"
+     ],
+     "n": 9
+    },
+    {
+     "question": "In which location are the normal range VLANs stored on a Cisco switch by default?",
+     "type": "mcq",
+     "options": [
+      "Flash memory",
+      "Startup-config",
+      "Running-config",
+      "RAM"
+     ],
+     "n": 10
+    },
+    {
+     "question": "Which distinct type of VLAN is used by an administrator to access and configure a switch?",
+     "type": "mcq",
+     "options": [
+      "Default VLAN",
+      "Native VLAN",
+      "Data VLAN",
+      "Management VLAN"
+     ],
+     "n": 11
+    },
+    {
+     "question": "For what reason would a network administrator use the show interfaces trunk command on a switch?",
+     "type": "mcq",
+     "options": [
+      "To view the native VLAN",
+      "To examine DTP negotiation as it occurs",
+      "To verify port association with a particular VLAN",
+      "To display an IP address for any existing VLAN"
+     ],
+     "n": 12
+    },
+    {
+     "question": "Where is the vlan.dat file stored on a switch?",
+     "type": "mcq",
+     "options": [
+      "In RAM",
+      "In NVRAM",
+      "In flash memory",
+      "On the externally attached storage media or internal hard drive"
+     ],
+     "n": 13
+    },
+    {
+     "question": "If an organization is changing to include Cisco IP phones in its network, what design feature must be considered to ensure voice quality?",
+     "type": "mcq",
+     "options": [
+      "Voice traffic needs to be tagged with the native VLAN.",
+      "A separate VLAN is needed for voice traffic.",
+      "Additional switch ports that are dedicated to Cisco IP phones are required.",
+      "Voice traffic and data traffic require separate trunk links between switches."
+     ],
+     "n": 14
+    },
+    {
+     "question": "A Cisco switch currently allows traffic tagged with VLANs 10 and 20 across trunk port Fa0/5. What is the effect of issuing a switchport trunk allowed vlan 30 command on Fa0/5?",
+     "type": "mcq",
+     "options": [
+      "It allows VLANs 1 to 30 on Fa0/5.",
+      "It allows VLANs 10, 20, and 30 on Fa0/5.",
+      "It allows only VLAN 30 on Fa0/5.",
+      "It allows a native VLAN of 30 to be implemented on Fa0/5."
+     ],
+     "n": 15
+    }
+   ],
+   "total_reported": 15
+  },
+  {
+   "item": "4.5.4",
+   "module": 4,
+   "title": "Module Quiz - Inter-VLAN Routing",
+   "type": "ASSESSMENT",
+   "questions": [
+    {
+     "question": "A PC is to access a web server on another network. Which inter-VLAN method will provide the highest bandwidth at Layer 3 and also provide a default gateway for the PC?",
+     "type": "mcq",
+     "options": [
+      "Router on a stick",
+      "Multilayer switch with routing enabled",
+      "Trunked interface between the router and the switch",
+      "Multiple physical interfaces on the router, all connected to a Layer 2 switch"
+     ],
+     "n": 1
+    },
+    {
+     "question": "Which scalable method must be implemented in order to provide inter-VLAN routing on a switched network with more than 1000 VLANs?",
+     "type": "mcq",
+     "options": [
+      "Configuring static routes on a Layer 2 switch device",
+      "Routing traffic internally to a Layer 3 switch device",
+      "Connecting each physical router interface to a different physical switch port, with each switch port assigned to a different VLAN",
+      "Connecting a router interface to a switch port that is configured in trunk mode to route packets between VLANs, with each VLAN assigned to a router subinterface​"
+     ],
+     "n": 2
+    },
+    {
+     "question": "When configuring a router as part of a router-on-a-stick inter-VLAN routing topology, where should the IP address be assigned?",
+     "type": "mcq",
+     "options": [
+      "To the interface",
+      "To the subinterface",
+      "To the SVI",
+      "To the VLAN"
+     ],
+     "n": 3
+    },
+    {
+     "question": "A small college uses VLAN 10 for the classroom network and VLAN 20 for the office network. What is needed to enable communication between these two VLANs while using legacy inter-VLAN routing?",
+     "type": "mcq",
+     "options": [
+      "A router with at least two LAN interfaces should be used.",
+      "Two groups of switches are needed, each with ports that are configured for one VLAN.",
+      "A router with one VLAN interface is needed to connect to the SVI on a switch.",
+      "A switch with a port that is configured as trunk is needed to connect to a router."
+     ],
+     "n": 4
+    },
+    {
+     "question": "What is a disadvantage of using multilayer switches for inter-VLAN routing?",
+     "type": "mcq",
+     "options": [
+      "Multilayer switches have higher latency for Layer 3 routing.",
+      "Multilayer switches are more expensive than router-on-a-stick implementations.",
+      "Spanning tree must be disabled in order to implement routing on a multilayer switch.",
+      "Multilayer switches are limited to using trunk links for Layer 3 routing."
+     ],
+     "n": 5
+    },
+    {
+     "question": "Which type of inter-VLAN communication design requires the configuration of multiple subinterfaces?",
+     "type": "mcq",
+     "options": [
+      "Router on a stick",
+      "Routing via a multilayer switch",
+      "Routing for the management VLAN",
+      "Legacy inter-VLAN routing"
+     ],
+     "n": 6
+    },
+    {
+     "question": "What is a disadvantage of using router-on-a-stick inter-VLAN routing?",
+     "type": "mcq",
+     "options": [
+      "Does not support VLAN-tagged packets",
+      "Requires the use of more physical interfaces than legacy inter-VLAN routing",
+      "Does not scale well beyond 50 VLANs",
+      "Requires the use of multiple router interfaces configured to operate as access links"
+     ],
+     "n": 7
+    },
+    {
+     "question": "What is the meaning of the number 10 in the encapsulation dot1Q 10 native router subinterface command?​",
+     "type": "mcq",
+     "options": [
+      "The interface number",
+      "The subinterface number​",
+      "The subnet number",
+      "The VLAN ID"
+     ],
+     "n": 8
+    },
+    {
+     "question": "While configuring inter-VLAN routing on a multilayer switch, a network administrator issues the no switchport command on an interface that is connected to another switch. What is the purpose of this command?",
+     "type": "mcq",
+     "options": [
+      "To create a routed port for a single network",
+      "To provide a static trunk link",
+      "To create a switched virtual interface",
+      "To provide an access link that tags VLAN traffic"
+     ],
+     "n": 9
+    },
+    {
+     "question": "A network administrator enters the following command sequence on a Cisco 3560 switch. What is the purpose of these commands? Switch(config)# interface gigabitethernet 0/1 Switch(config-if)# no switchport",
+     "type": "mcq",
+     "options": [
+      "To shut down the Gi0/1 port",
+      "To make the Gi0/1 port a routed port",
+      "To enable the Gi0/1 port as a switch virtual interface",
+      "To enable the Gi0/1 port as a bridge virtual interface"
+     ],
+     "n": 10
+    },
+    {
+     "question": "What operational mode should be used on a switch port to connect it to a router for router-on-a-stick inter-VLAN routing?",
+     "type": "mcq",
+     "options": [
+      "Trunk",
+      "Access",
+      "Dynamic auto",
+      "Dynamic desirable"
+     ],
+     "n": 11
+    },
+    {
+     "question": "Which sentence correctly describes the SVI inter-VLAN routing method?",
+     "type": "mcq",
+     "options": [
+      "Subinterfaces have to be created.",
+      "The encapsulation type must be configured on the SVI.",
+      "An SVI is needed for each VLAN.",
+      "A physical interface is needed for every VLAN that is created."
+     ],
+     "n": 12
+    },
+    {
+     "question": "How is traffic routed between multiple VLANs on a multilayer switch?",
+     "type": "mcq",
+     "options": [
+      "Traffic is routed via physical interfaces.",
+      "Traffic is routed via internal VLAN interfaces.",
+      "Traffic is broadcast out all physical interfaces.",
+      "Traffic is routed via subinterfaces."
+     ],
+     "n": 13
+    },
+    {
+     "question": "What is required to perform router-on-a-stick inter-VLAN routing?",
+     "type": "mcq",
+     "options": [
+      "A Layer 2 switch that is configured with multiple trunk ports",
+      "A router with multiple physical interfaces",
+      "A multilayer switch",
+      "A router that is configured with multiple subinterfaces"
+     ],
+     "n": 14
+    },
+    {
+     "question": "An administrator was troubleshooting a router-on-a-stick topology and concluded that the problem was related to the configuration of VLANs on the router subinterfaces. Which two commands can the administrator use in the router to identify the problem? (Choose two.)",
+     "type": "mcq",
+     "options": [
+      "show controllers",
+      "show ip interface",
+      "show ip protocols",
+      "show running-config",
+      "show vlan"
+     ],
+     "n": 15
+    }
+   ],
+   "total_reported": 15
+  },
+  {
+   "item": "5.4.2",
+   "module": 5,
+   "title": "Module Quiz - STP",
+   "type": "ASSESSMENT",
+   "questions": [
+    {
+     "question": "Which port state will switch ports immediately transition to when configured for PortFast?",
+     "type": "mcq",
+     "options": [
+      "Listening",
+      "Learning",
+      "Forwarding",
+      "Blocking"
+     ],
+     "n": 1
+    },
+    {
+     "question": "After the election of the root bridge has been completed, how will switches find the best paths to the root bridge?",
+     "type": "mcq",
+     "options": [
+      "Each switch will analyze the sum of the hops to reach the root and use the path with the fewest hops.",
+      "Each switch will analyze the BID of all neighbors to reach the root and use the path through the lowest BID neighbors.",
+      "Each switch will analyze the port states of all neighbors and use the designated ports to forward traffic to the root.",
+      "Each switch will analyze the sum of all port costs to reach the root and use the path with the lowest cost."
+     ],
+     "n": 2
+    },
+    {
+     "question": "Which is the default STP operation mode on Cisco Catalyst switches?",
+     "type": "mcq",
+     "options": [
+      "RSTP",
+      "PVST+",
+      "MST",
+      "MSTP",
+      "Rapid PVST+"
+     ],
+     "n": 3
+    },
+    {
+     "question": "What value determines the root bridge when all switches connected by trunk links have default STP configurations?",
+     "type": "mcq",
+     "options": [
+      "VLAN ID",
+      "MAC address",
+      "Extended system ID",
+      "Bridge priority"
+     ],
+     "n": 4
+    },
+    {
+     "question": "During the implementation of Spanning Tree Protocol, all switches are rebooted by the network administrator. What is the first step of the spanning-tree election process?",
+     "type": "mcq",
+     "options": [
+      "Each switch with a lower root ID than its neighbor will not send BPDUs.",
+      "All the switches send out BPDUs advertising themselves as the root bridge.",
+      "Each switch determines the best path to forward traffic.",
+      "Each switch determines what port to block to prevent a loop from occurring."
+     ],
+     "n": 5
+    },
+    {
+     "question": "Which two concepts relate to a switch port that is intended to have only end devices attached and intended never to be used to connect to another switch? (Choose two.)",
+     "type": "mcq",
+     "options": [
+      "Bridge ID",
+      "Edge port",
+      "Extended system ID",
+      "PortFast",
+      "PVST+"
+     ],
+     "n": 6
+    },
+    {
+     "question": "Which three port states are used by Rapid PVST+? (Choose three.)",
+     "type": "mcq",
+     "options": [
+      "Discarding",
+      "Blocking",
+      "Trunking",
+      "Listening",
+      "Learning",
+      "Forwarding"
+     ],
+     "n": 7
+    },
+    {
+     "question": "When PVST is running over a switched network, which port state can participate in BPDU frame forwarding based on BPDUs received, but does not forward data frames?",
+     "type": "mcq",
+     "options": [
+      "Blocking",
+      "Listening",
+      "Forwarding",
+      "Disabled"
+     ],
+     "n": 8
+    },
+    {
+     "question": "Which STP port role is adopted by a switch port if there is no other port with a lower cost to the root bridge?",
+     "type": "mcq",
+     "options": [
+      "Designated port",
+      "Root port",
+      "Alternate",
+      "Disabled port"
+     ],
+     "n": 9
+    },
+    {
+     "question": "Which two statements describe a switch port that is configured with PortFast? (Choose two.)",
+     "type": "mcq",
+     "options": [
+      "The switch port immediately transitions from the listening to the forwarding state.",
+      "The switch port immediately transitions from blocking to the forwarding state.",
+      "The switch port should never receive BPDUs.",
+      "The switch port immediately processes any BPDUs before transitioning to the forwarding state.",
+      "The switch port sends DHCP requests before transitioning to the forwarding state."
+     ],
+     "n": 10
+    },
+    {
+     "question": "What is one way to correct a spanning tree failure?",
+     "type": "mcq",
+     "options": [
+      "Replace all instances of STP with RSTP.",
+      "Insert redundant links to replace the failed STP links.",
+      "Replace the cables on failed STP links.",
+      "Manually remove redundant links in the switched network."
+     ],
+     "n": 11
+    },
+    {
+     "question": "What additional information is contained in the 12-bit extended system ID of a BPDU?",
+     "type": "mcq",
+     "options": [
+      "MAC address",
+      "VLAN ID",
+      "IP address",
+      "Port ID"
+     ],
+     "n": 12
+    },
+    {
+     "question": "An administrator is troubleshooting a switch and wants to verify if it is a root bridge. What command can be used to do this?",
+     "type": "mcq",
+     "options": [
+      "show spanning-tree",
+      "show running-config",
+      "show startup-config",
+      "show vlan"
+     ],
+     "n": 13
+    },
+    {
+     "question": "What is an accurate description of redundancy?",
+     "type": "mcq",
+     "options": [
+      "Configuring a router with a complete MAC address database to ensure that all frames can be forwarded to the correct destination",
+      "Configuring a switch with proper security to ensure that all traffic forwarded through an interface is filtered",
+      "Designing a network to use multiple virtual devices to ensure that all traffic uses the best path through the internetwork",
+      "Designing a network to use multiple paths between switches to ensure there is no single point of failure"
+     ],
+     "n": 14
+    }
+   ],
+   "total_reported": 14
+  },
+  {
+   "item": "6.4.4",
+   "module": 6,
+   "title": "Module Quiz - Etherchannel",
+   "type": "ASSESSMENT",
+   "questions": [
+    {
+     "question": "An EtherChannel link using LACP was formed between two switches, S1 and S2. While verifying the configuration, which mode combination could be utilized on both switches?​",
+     "type": "mcq",
+     "options": [
+      "S1-on and S2-passive",
+      "S1-passive and S2-passive​",
+      "S1-on and S2-active​",
+      "S1-passive and S2-active"
+     ],
+     "n": 1
+    },
+    {
+     "question": "When a range of ports is being configured for EtherChannel, which mode will configure PAgP so that it initiates the EtherChannel negotiation?",
+     "type": "mcq",
+     "options": [
+      "Active",
+      "Auto",
+      "Desirable",
+      "Passive"
+     ],
+     "n": 2
+    },
+    {
+     "question": "Which three interface parameters must match for an EtherChannel to form? (Choose three.)",
+     "type": "mcq",
+     "options": [
+      "Allowed VLANs",
+      "EtherChannel mode",
+      "Native VLAN",
+      "PortFast mode",
+      "Spanning-tree state",
+      "Trunking mode"
+     ],
+     "n": 3
+    },
+    {
+     "question": "What are three advantages of using EtherChannel technology? (Choose three.)",
+     "type": "mcq",
+     "options": [
+      "EtherChannel uses multiple logical links to provide redundancy.",
+      "Configuration tasks can be done on the EtherChannel interface.",
+      "There is no need to upgrade links to faster connections to increase bandwidth.",
+      "Load balancing is not needed with EtherChannel.",
+      "The Spanning Tree Protocol shuts down the unused interfaces in the bundle to avoid loops.",
+      "A spanning tree recalculation is not required when a single link within the channel goes down."
+     ],
+     "n": 4
+    },
+    {
+     "question": "A network administrator is configuring an EtherChannel link between two physical ports on a switch. Which statement describes the result when one of the physical ports fails?",
+     "type": "mcq",
+     "options": [
+      "The EtherChannel link fails.",
+      "An STP recalculation is needed.",
+      "The EtherChannel stops transmitting data until it is restarted.",
+      "The EtherChannel continues transmitting data with reduced bandwidth."
+     ],
+     "n": 5
+    },
+    {
+     "question": "When EtherChannel is implemented, multiple physical interfaces are bundled into which type of logical connection?",
+     "type": "mcq",
+     "options": [
+      "Interface range",
+      "Loopback",
+      "VLAN interface",
+      "Port channel"
+     ],
+     "n": 6
+    },
+    {
+     "question": "When a range of ports is being configured for EtherChannel by the use of PAgP, which mode will form the bundled channel only if the port receives PAgP packets from another device?",
+     "type": "mcq",
+     "options": [
+      "Active",
+      "Auto",
+      "Desirable",
+      "Passive"
+     ],
+     "n": 7
+    },
+    {
+     "question": "Which two load balancing methods can be implemented with EtherChannel technology? (Choose two.)",
+     "type": "mcq",
+     "options": [
+      "Destination MAC to destination IP",
+      "Destination IP to destination MAC",
+      "Source MAC to destination MAC",
+      "Source IP to destination IP",
+      "Destination MAC to source MAC",
+      "Destination IP to source IP"
+     ],
+     "n": 8
+    },
+    {
+     "question": "Which function is provided by EtherChannel?",
+     "type": "mcq",
+     "options": [
+      "Spreading traffic across multiple physical WAN links",
+      "Dividing the bandwidth of a single link into separate time slots",
+      "Enabling traffic from multiple VLANs to travel over a single Layer 2 link",
+      "Creating one logical link by using multiple physical links between two LAN switches"
+     ],
+     "n": 9
+    },
+    {
+     "question": "Which statement is true about EtherChannel technology?",
+     "type": "mcq",
+     "options": [
+      "All configuration tasks must be done on the individual ports in the EtherChannel link.",
+      "EtherChannel uses existing switch ports.",
+      "Links must be upgraded to support EtherChannel.",
+      "STP does not run on redundant EtherChannel links."
+     ],
+     "n": 10
+    },
+    {
+     "question": "Which two mode combinations would result in the successful negotiation of an EtherChannel? (Choose two.)",
+     "type": "mcq",
+     "options": [
+      "Active; passive",
+      "Passive; auto",
+      "Desirable; active",
+      "Auto; auto",
+      "Desirable; desirable",
+      "Active; on"
+     ],
+     "n": 11
+    },
+    {
+     "question": "Which two protocols are link aggregation protocols? (Choose two.)",
+     "type": "mcq",
+     "options": [
+      "802.3ad",
+      "PAgP",
+      "STP",
+      "EtherChannel",
+      "RSTP"
+     ],
+     "n": 12
+    },
+    {
+     "question": "When a range of ports is being configured for EtherChannel, which mode will configure LACP so that it initiates the EtherChannel negotiation?",
+     "type": "mcq",
+     "options": [
+      "Active",
+      "Auto",
+      "Desirable",
+      "Passive"
+     ],
+     "n": 13
+    },
+    {
+     "question": "What will happen if a network administrator puts a port that is part of an EtherChannel bundle into a different VLAN than the other ports in that bundle?",
+     "type": "mcq",
+     "options": [
+      "The EtherChannel bundle will stay up only if PAgP is used.",
+      "The EtherChannel bundle will stay up only if LACP is used.",
+      "The EtherChannel bundle will stay up if either PAgP or LACP is used.",
+      "The EtherChannel bundle will stay up if the ports were configured with no negotiation between the switches to form the EtherChannel.",
+      "The EtherChannel will fail."
+     ],
+     "n": 14
+    },
+    {
+     "question": "When a range of ports is being configured for EtherChannel, which mode will configure LACP on a port only if the port receives LACP packets from another device?",
+     "type": "mcq",
+     "options": [
+      "Active",
+      "Auto",
+      "Desirable",
+      "Passive"
+     ],
+     "n": 15
+    }
+   ],
+   "total_reported": 15
+  },
+  {
+   "item": "7.4.4",
+   "module": 7,
+   "title": "Module Quiz - DHCPv4",
+   "type": "ASSESSMENT",
+   "questions": [
+    {
+     "question": "A DHCP-enabled client PC has just booted. During which two steps will the client PC use broadcast messages when communicating with a DHCP server? (Choose two.)",
+     "type": "mcq",
+     "options": [
+      "DHCPDISCOVER",
+      "DHCPACK",
+      "DHCPOFFER",
+      "DHCPREQUEST",
+      "DHCPNAK"
+     ],
+     "n": 1
+    },
+    {
+     "question": "An administrator issues the commands: Router(config)# interface g0/1 Router(config-if)# ip address dhcp What is the administrator trying to achieve?",
+     "type": "mcq",
+     "options": [
+      "Configuring the router to act as a DHCPv4 server",
+      "Configuring the router to obtain IP parameters from a DHCPv4 server",
+      "Configuring the router to act as a relay agent",
+      "Configuring the router to resolve IP address conflicts"
+     ],
+     "n": 2
+    },
+    {
+     "question": "When a client is requesting an initial address lease from a DHCP server, why is the DHCPREQUEST message sent as a broadcast?",
+     "type": "mcq",
+     "options": [
+      "The client does not yet know the IP address of the DHCP server that sent the offer.",
+      "The DHCP server may be on a different subnet, so the request must be sent as a broadcast.",
+      "The client does not have a MAC address assigned yet, so it cannot send a unicast message at Layer 2.",
+      "The client may have received offers from multiple servers, and the broadcast serves to implicitly decline those other offers."
+     ],
+     "n": 3
+    },
+    {
+     "question": "Which DHCP IPv4 message contains the following information? Destination address: 255.255.255.255 Client IPv4 address: 0.0.0.0 Default gateway address: 0.0.0.0 Subnet mask: 0.0.0.0",
+     "type": "mcq",
+     "options": [
+      "DHCPACK",
+      "DHCPDISCOVER",
+      "DHCPOFFER",
+      "DHCPREQUEST"
+     ],
+     "n": 4
+    },
+    {
+     "question": "What kind of message is sent by a DHCPv4 client requesting an IP address?",
+     "type": "mcq",
+     "options": [
+      "DHCPDISCOVER broadcast message",
+      "DHCPDISCOVER unicast message",
+      "DHCPOFFER unicast message",
+      "DHCPACK unicast message"
+     ],
+     "n": 5
+    },
+    {
+     "question": "As a DHCPv4 client lease is about to expire, what is the message that the client sends the DHCP server?",
+     "type": "mcq",
+     "options": [
+      "DHCPDISCOVER",
+      "DHCPOFFER",
+      "DHCPREQUEST",
+      "DHCPACK"
+     ],
+     "n": 6
+    },
+    {
+     "question": "What is the destination IP address when an IPv4 host sends a DHCPDISCOVER message?",
+     "type": "mcq",
+     "options": [
+      "255.255.255.255",
+      "224.0.0.1",
+      "0.0.0.0",
+      "192.168.1.1"
+     ],
+     "n": 7
+    },
+    {
+     "question": "If more than one DHCP server is available on the local network, in which order will DHCP messages be sent between a host and a DHCP server?",
+     "type": "mcq",
+     "options": [
+      "Request, discover, offer, acknowledgment",
+      "Acknowledgment, request, offer, discover",
+      "Discover, offer, request, acknowledgment",
+      "Request, acknowledgment, discover, offer"
+     ],
+     "n": 8
+    },
+    {
+     "question": "What is the most likely scenario in which the WAN interface of a router would be configured as a DHCP client to be assigned a dynamic IP address from an ISP?",
+     "type": "mcq",
+     "options": [
+      "There is a web server for public access on the LAN that is attached to the router.",
+      "The router is also the gateway for a LAN.",
+      "It is a SOHO or home broadband router.",
+      "The router is configured as a DHCP server."
+     ],
+     "n": 9
+    },
+    {
+     "question": "Which is a DHCPv4 address allocation method that assigns IPv4 addresses for a limited lease period?",
+     "type": "mcq",
+     "options": [
+      "Manual allocation",
+      "Pre-allocation",
+      "Automatic allocation",
+      "Dynamic allocation"
+     ],
+     "n": 10
+    },
+    {
+     "question": "What is the reason why the DHCPREQUEST message is sent as a broadcast during the DHCPv4 process?",
+     "type": "mcq",
+     "options": [
+      "To notify other DHCP servers on the subnet that the IP address was leased",
+      "To notify other hosts not to request the same IP address",
+      "For hosts on other subnets to receive the information",
+      "For routers to fill their routing tables with this new information"
+     ],
+     "n": 11
+    },
+    {
+     "question": "How is a DHCPDISCOVER transmitted on a network to reach a DHCP server?",
+     "type": "mcq",
+     "options": [
+      "A DHCPDISCOVER message is sent with the IP address of the DHCP server as the destination address.",
+      "A DHCPDISCOVER message is sent with a multicast IP address that all DHCP servers listen to as the destination address.",
+      "A DHCPDISCOVER message is sent with the broadcast IP address as the destination address.",
+      "A DHCPDISCOVER message is sent with the IP address of the default gateway as the destination address."
+     ],
+     "n": 12
+    },
+    {
+     "question": "Which destination IPv4 address does a DHCPv4 client use to send the initial DHCP Discover packet when the client is looking for a DHCP server?",
+     "type": "mcq",
+     "options": [
+      "127.0.0.1",
+      "224.0.0.1",
+      "255.255.255.255",
+      "The IP address of the default gateway"
+     ],
+     "n": 13
+    },
+    {
+     "question": "Under which two circumstances would a router usually be configured as a DHCPv4 client? (Choose two.)",
+     "type": "mcq",
+     "options": [
+      "The router is intended to be used as a SOHO gateway.",
+      "The administrator needs the router to act as a relay agent.",
+      "The router is meant to provide IP addresses to the hosts.",
+      "This is an ISP requirement.",
+      "The router has a fixed IP address."
+     ],
+     "n": 14
+    },
+    {
+     "question": "Which address does a DHCPv4 server target when sending a DHCPOFFER message to a client that makes an address request?",
+     "type": "mcq",
+     "options": [
+      "Client IP address",
+      "Client hardware address",
+      "Gateway IP address",
+      "Broadcast MAC address"
+     ],
+     "n": 15
+    }
+   ],
+   "total_reported": 15
+  },
+  {
+   "item": "8.5.3",
+   "module": 8,
+   "title": "Module Quiz - SLAAC and DHCPv6",
+   "type": "ASSESSMENT",
+   "questions": [
+    {
+     "question": "How does an IPv6 client ensure that it has a unique address after it configures its IPv6 address using the SLAAC allocation method?",
+     "type": "mcq",
+     "options": [
+      "It sends an ARP message with the IPv6 address as the destination IPv6 address.",
+      "It checks with the IPv6 address database that is hosted by the SLAAC server.",
+      "It contacts the DHCPv6 server via a special formed ICMPv6 message.",
+      "It sends an ICMPv6 Neighbor Solicitation message with the IPv6 address as the target IPv6 address."
+     ],
+     "n": 1
+    },
+    {
+     "question": "Which method would an IPv6-enabled host using SLAAC employ to learn the address of the default gateway?",
+     "type": "mcq",
+     "options": [
+      "Router advertisements that are received from the link router",
+      "Advertise messages that are received from the DHCPv6 server",
+      "Neighbor advertisements that are eceived from link neighbors",
+      "Reply messages that are received from the DHCPv6 server"
+     ],
+     "n": 2
+    },
+    {
+     "question": "What two methods can be used to generate an interface ID by an IPv6 host that is using SLAAC? (Choose two.)",
+     "type": "mcq",
+     "options": [
+      "EUI-64",
+      "Random generation",
+      "Stateful DHCPv6",
+      "DAD",
+      "ARP"
+     ],
+     "n": 3
+    },
+    {
+     "question": "A client is using SLAAC to obtain an IPv6 address for its interface. After an address has been generated and applied to the interface, what must the client do before it can begin to use this IPv6 address?",
+     "type": "mcq",
+     "options": [
+      "It must send a DHCPv6 INFORMATION-REQUEST message to request the address of the DNS server.",
+      "It must send an ICMPv6 Router Solicitation message to determine what default gateway it should use.",
+      "It must send a DHCPv6 REQUEST message to the DHCPv6 server to request permission to use this address.",
+      "It must send an ICMPv6 Neighbor Solicitation message to ensure that the address is not already in use on the network."
+     ],
+     "n": 4
+    },
+    {
+     "question": "Which command should be configured on a router interface to set the router as a stateful DHCPv6 client?",
+     "type": "mcq",
+     "options": [
+      "ipv6 enable",
+      "ipv6 address dhcp",
+      "ipv6 address autoconfigure",
+      "ipv6 dhcp server stateful"
+     ],
+     "n": 5
+    },
+    {
+     "question": "What message informs IPv6 enabled interfaces to use stateful DHCPv6 for obtaining an IPv6 address?",
+     "type": "mcq",
+     "options": [
+      "The ICMPv6 Router Advertisement",
+      "The ICMPv6 Router Solicitation",
+      "The DHCPv6 Reply message",
+      "The DHCPv6 Advertise message"
+     ],
+     "n": 6
+    },
+    {
+     "question": "Which destination IP address is used when an IPv6 host sends a DHCPv6 SOLICIT message to locate a DHCPv6 server?",
+     "type": "mcq",
+     "options": [
+      "FF02::2",
+      "FF02::1",
+      "FE80::1",
+      "FF02::1:2"
+     ],
+     "n": 7
+    },
+    {
+     "question": "In which alternative to DHCPv6 does a router dynamically provide IPv6 configuration information to hosts?",
+     "type": "mcq",
+     "options": [
+      "ARP",
+      "EUI-64",
+      "ICMPv6",
+      "SLAAC"
+     ],
+     "n": 8
+    },
+    {
+     "question": "A company implements the stateless DHCPv6 method for configuring IPv6 addresses on employee workstations. After a workstation receives messages from multiple DHCPv6 servers to indicate their availability for DHCPv6 service, which message does it send to a server for configuration information?",
+     "type": "mcq",
+     "options": [
+      "DHCPv6 SOLICIT",
+      "DHCPv6 REQUEST",
+      "DHCPv6 ADVERTISE",
+      "DHCPv6 INFORMATION-REQUEST"
+     ],
+     "n": 9
+    },
+    {
+     "question": "What process is used in ICMPv6 for a host to verify that an IPv6 address is unique before configuring it on an interface?",
+     "type": "mcq",
+     "options": [
+      "DAD",
+      "SLAAC",
+      "EUI-64",
+      "ARP"
+     ],
+     "n": 10
+    },
+    {
+     "question": "What are two characteristics of the SLAAC method for IPv6 address configuration? (Choose two.)",
+     "type": "mcq",
+     "options": [
+      "The default gateway of an IPv6 client on a LAN will be the link-local address of the router interface attached to the LAN.",
+      "This stateful method of acquiring an IPv6 address requires at least one DHCPv6 server.",
+      "Clients send router advertisement messages to routers to request IPv6 addressing.",
+      "IPv6 addressing is dynamically assigned to clients through the use of ICMPv6.",
+      "Router solicitation messages are sent by the router to offer IPv6 addressing to clients."
+     ],
+     "n": 11
+    },
+    {
+     "question": "After booting, a client receives an ICMPv6 RA message with the M flag set to 0 and the O flag set to 1. What does this indicate?",
+     "type": "mcq",
+     "options": [
+      "The client should request an IPv6 address directly from a DHCPv6 server.",
+      "The client should automatically configure an IPv6 address without contacting a DHCPv6 server.",
+      "The client should automatically configure an IPv6 address and then contact a DHCPv6 server for more information.",
+      "The client should be statically configured with an IPv6 address because the local router does not support autoconfiguration."
+     ],
+     "n": 12
+    },
+    {
+     "question": "A network administrator is entering the command ipv6 unicast-routing to start configuring DHCPv6 operation on a router. Which statement describes the function of this command?",
+     "type": "mcq",
+     "options": [
+      "It is required for sending ICMPv6 RA messages.",
+      "It is required to configure stateful DHCPv6 server on the router.",
+      "It is required to configure stateless DHCPv6 server on the router.",
+      "It is required for enabling DNS service in DHCPv6 configurations."
+     ],
+     "n": 13
+    }
+   ],
+   "total_reported": 13
+  },
+  {
+   "item": "9.3.2",
+   "module": 9,
+   "title": "Module Quiz - FHRP Concepts",
+   "type": "ASSESSMENT",
+   "questions": [
+    {
+     "question": "What is the purpose of HSRP?",
+     "type": "mcq",
+     "options": [
+      "It provides a continuous network connection when a router fails.",
+      "It prevents a rogue switch from becoming the STP root.",
+      "It enables an access port to immediately transition to the forwarding state.",
+      "It prevents malicious hosts from connecting to trunk ports."
+     ],
+     "n": 1
+    },
+    {
+     "question": "Which nonproprietary protocol provides router redundancy for a group of routers which support IPv4 LANs?",
+     "type": "mcq",
+     "options": [
+      "HSRP",
+      "VRRPv2",
+      "GLBP",
+      "SLB"
+     ],
+     "n": 2
+    },
+    {
+     "question": "A network administrator is analyzing first-hop router redundancy protocols. What is a characteristic of VRRPv3?",
+     "type": "mcq",
+     "options": [
+      "VRRPv3 is Cisco proprietary.",
+      "It supports IPv6 and IPv4 addressing.",
+      "It works together with HSRP.",
+      "It allows load balancing between routers."
+     ],
+     "n": 3
+    },
+    {
+     "question": "What is a potential disadvantage when implementing HSRP as compared to GLBP?",
+     "type": "mcq",
+     "options": [
+      "HSRP does not function in a multivendor environment.",
+      "HSRP does not provide load balancing with multiple active routers.",
+      "HSRP does not have the capability to support IPv6 addresses.",
+      "HSRP provides default gateway failover only when the active router fails."
+     ],
+     "n": 4
+    },
+    {
+     "question": "A network engineer is configuring a LAN with a redundant first hop to make better use of the available network resources. Which protocol should the engineer implement?",
+     "type": "mcq",
+     "options": [
+      "FHRP",
+      "GLBP",
+      "HSRP",
+      "VRRP"
+     ],
+     "n": 5
+    },
+    {
+     "question": "When first hop redundancy protocols are used, which two items will be shared by a set of routers that are presenting the illusion of being a single router? (Choose two.)",
+     "type": "mcq",
+     "options": [
+      "Hostname",
+      "IP address",
+      "BID",
+      "Static route",
+      "MAC address"
+     ],
+     "n": 6
+    },
+    {
+     "question": "In FHRP terminology, what represents a set of routers that present the illusion of a single router to hosts?",
+     "type": "mcq",
+     "options": [
+      "Standby router",
+      "Virtual router",
+      "Forwarding router",
+      "Default gateway"
+     ],
+     "n": 7
+    },
+    {
+     "question": "A user needs to add redundancy to the routers in a company. What are the three options the user can use? (Choose three.)",
+     "type": "mcq",
+     "options": [
+      "HSRP",
+      "VRRP",
+      "STP",
+      "IPFIX",
+      "RAID",
+      "GLBP"
+     ],
+     "n": 8
+    },
+    {
+     "question": "Which two protocols provide gateway redundancy at Layer 3? (Choose two.)",
+     "type": "mcq",
+     "options": [
+      "VRRP",
+      "STP",
+      "PVST",
+      "RSTP",
+      "HSRP"
+     ],
+     "n": 9
+    },
+    {
+     "question": "A network administrator is overseeing the implementation of first hop redundancy protocols. Which two protocols are Cisco proprietary? (Choose two.)",
+     "type": "mcq",
+     "options": [
+      "HSRP",
+      "VRRP",
+      "GLBP",
+      "IRDP",
+      "VRRPv2"
+     ],
+     "n": 10
+    },
+    {
+     "question": "Which statement describes a characteristic of GLBP?",
+     "type": "mcq",
+     "options": [
+      "It does not provide support for IPv6.​",
+      "It provides load balancing for a maximum of four gateways.",
+      "It provides multiple virtual IP addresses and multiple virtual MAC addresses.",
+      "It provides automatic rerouting if any router in the group fails."
+     ],
+     "n": 11
+    },
+    {
+     "question": "A network administrator is analyzing the features that are supported by different first-hop router redundancy protocols. Which statement is a feature that is associated with GLBP?",
+     "type": "mcq",
+     "options": [
+      "GLBP allows load balancing between routers.",
+      "It is nonproprietary.",
+      "It uses a virtual router master.",
+      "It works together with VRRP."
+     ],
+     "n": 12
+    }
+   ],
+   "total_reported": 12
+  },
+  {
+   "item": "10.6.2",
+   "module": 10,
+   "title": "Module Quiz - LAN Security Concepts",
+   "type": "ASSESSMENT",
+   "questions": [
+    {
+     "question": "What two protocols are supported on Cisco devices for AAA communications? (Choose two.)",
+     "type": "mcq",
+     "options": [
+      "VTP",
+      "LLDP",
+      "HSRP",
+      "RADIUS",
+      "TACACS+"
+     ],
+     "n": 1
+    },
+    {
+     "question": "Which service is enabled on a Cisco router by default that can reveal significant information about the router and potentially make it more vulnerable to attack?",
+     "type": "mcq",
+     "options": [
+      "HTTP",
+      "CDP",
+      "FTP",
+      "LLDP"
+     ],
+     "n": 2
+    },
+    {
+     "question": "When security is a concern, which OSI Layer is considered to be the weakest link in a network system?​",
+     "type": "mcq",
+     "options": [
+      "Layer 4",
+      "Layer 2",
+      "Layer 3",
+      "Layer 7"
+     ],
+     "n": 3
+    },
+    {
+     "question": "Which Layer 2 attack will result in a switch flooding incoming frames to all ports?",
+     "type": "mcq",
+     "options": [
+      "ARP poisoning",
+      "IP address spoofing",
+      "MAC address overflow",
+      "Spanning Tree Protocol manipulation"
+     ],
+     "n": 4
+    },
+    {
+     "question": "Why is authentication with AAA preferred over a local database method?",
+     "type": "mcq",
+     "options": [
+      "It uses less network bandwidth.",
+      "It requires a login and password combination on the console, vty lines, and aux ports.​",
+      "It provides a fallback authentication method if the administrator forgets the username or password.",
+      "It specifies a different password for each line or port."
+     ],
+     "n": 5
+    },
+    {
+     "question": "In a server-based AAA implementation, which protocol will allow the router to successfully communicate with the AAA server?",
+     "type": "mcq",
+     "options": [
+      "SSH",
+      "RADIUS",
+      "TACACS​",
+      "802.1x"
+     ],
+     "n": 6
+    },
+    {
+     "question": "Which Cisco solution helps prevent MAC and IP address spoofing attacks?",
+     "type": "mcq",
+     "options": [
+      "Port Security",
+      "DHCP Snooping",
+      "IP Source Guard",
+      "Dynamic ARP Inspection"
+     ],
+     "n": 7
+    },
+    {
+     "question": "What is the purpose of AAA accounting?",
+     "type": "mcq",
+     "options": [
+      "To collect and report application usage",
+      "To determine which resources the user can access",
+      "To prove users are who they say they are",
+      "To determine which operations the user can perform"
+     ],
+     "n": 8
+    },
+    {
+     "question": "Which Layer 2 attack will result in legitimate users not getting valid IP addresses?",
+     "type": "mcq",
+     "options": [
+      "ARP spoofing",
+      "DHCP starvation",
+      "IP address spoofing",
+      "MAC address flooding"
+     ],
+     "n": 9
+    },
+    {
+     "question": "Which three Cisco products focus on endpoint security solutions? (Choose three.)",
+     "type": "mcq",
+     "options": [
+      "IPS Sensor Appliance",
+      "Web Security Appliance",
+      "Email Security Appliance",
+      "SSL/IPsec VPN Appliance",
+      "Adaptive Security Appliance",
+      "NAC Appliance"
+     ],
+     "n": 10
+    },
+    {
+     "question": "True or False? In the 802.1X standard, the client attempting to access the network is referred to as the supplicant.",
+     "type": "mcq",
+     "options": [
+      "True",
+      "False"
+     ],
+     "n": 11
+    },
+    {
+     "question": "What is involved in an IP address spoofing attack?",
+     "type": "mcq",
+     "options": [
+      "A legitimate network IP address is hijacked by a rogue node.",
+      "A rogue node replies to an ARP request with its own MAC address indicated for the target IP address.",
+      "A rogue DHCP server provides false IP configuration parameters to legitimate DHCP clients.",
+      "Bogus DHCPDISCOVER messages are sent to consume all the available IP addresses on a DHCP server."
+     ],
+     "n": 12
+    },
+    {
+     "question": "What three services are provided by the AAA framework? (Choose three.)",
+     "type": "mcq",
+     "options": [
+      "Accounting",
+      "Automation",
+      "Authorization",
+      "Authentication",
+      "Autobalancing",
+      "Autoconfiguration"
+     ],
+     "n": 13
+    },
+    {
+     "question": "Because of implemented security controls, a user can only access a server with FTP. Which AAA component accomplishes this?",
+     "type": "mcq",
+     "options": [
+      "Accessibility",
+      "Accounting",
+      "Auditing",
+      "Authentication",
+      "Authorization"
+     ],
+     "n": 14
+    },
+    {
+     "question": "What mitigation plan is best for thwarting a DoS attack that is creating a MAC address table overflow?",
+     "type": "mcq",
+     "options": [
+      "Disable DTP.",
+      "Disable STP.",
+      "Enable port security.",
+      "Place unused ports in an unused VLAN."
+     ],
+     "n": 15
+    }
+   ],
+   "total_reported": 15
+  },
+  {
+   "item": "11.6.4",
+   "module": 11,
+   "title": "Module Quiz - Switch Security Configuration",
+   "type": "ASSESSMENT",
+   "questions": [
+    {
+     "question": "What is a recommended best practice when dealing with the native VLAN?",
+     "type": "mcq",
+     "options": [
+      "Turn off DTP.",
+      "Use port security.",
+      "Assign it to an unused VLAN.",
+      "Assign the same VLAN number as the management VLAN."
+     ],
+     "n": 1
+    },
+    {
+     "question": "On what switch ports should PortFast be enabled to enhance STP stability?",
+     "type": "mcq",
+     "options": [
+      "All end-user ports",
+      "Only ports that attach to a neighboring switch",
+      "All trunk ports that are not root ports",
+      "Only ports that are elected as designated ports"
+     ],
+     "n": 2
+    },
+    {
+     "question": "Which command would be best to use on an unused switch port if a company adheres to the best practices as recommended by Cisco?",
+     "type": "mcq",
+     "options": [
+      "shutdown",
+      "ip dhcp snooping",
+      "switchport port-security mac-address sticky",
+      "switchport port-security violation shutdown",
+      "switchport port-security mac-address sticky mac-address"
+     ],
+     "n": 3
+    },
+    {
+     "question": "Which two features on a Cisco Catalyst switch can be used to mitigate DHCP starvation and DHCP spoofing attacks? (Choose two.)",
+     "type": "mcq",
+     "options": [
+      "Port security",
+      "Extended ACL",
+      "DHCP snooping",
+      "DHCP server failover",
+      "Strong password on DHCP servers"
+     ],
+     "n": 4
+    },
+    {
+     "question": "What is the best way to prevent a VLAN hopping attack?",
+     "type": "mcq",
+     "options": [
+      "Disable STP on all nontrunk ports.",
+      "Use ISL encapsulation on all trunk links.",
+      "Use VLAN 1 as the native VLAN on trunk ports.",
+      "Disable trunk negotiation for trunk ports and statically set nontrunk ports as access ports."
+     ],
+     "n": 5
+    },
+    {
+     "question": "Which procedure is recommended to mitigate the chances of ARP spoofing?",
+     "type": "mcq",
+     "options": [
+      "Enable port security globally.",
+      "Enable DHCP snooping on selected VLANs.",
+      "Enable DAI on the management VLAN.",
+      "Enable IP Source Guard on trusted ports."
+     ],
+     "n": 6
+    },
+    {
+     "question": "What are two types of switch ports that are used on Cisco switches as part of the defense against DHCP spoofing attacks? (Choose two.)",
+     "type": "mcq",
+     "options": [
+      "Unknown port",
+      "Untrusted port",
+      "Unauthorized port",
+      "Trusted DHCP port",
+      "Authorized DHCP port",
+      "Established DHCP port"
+     ],
+     "n": 7
+    },
+    {
+     "question": "Which two commands can be used to enable PortFast on a switch? (Choose two.)",
+     "type": "mcq",
+     "options": [
+      "S1(config-if)# spanning-tree portfast",
+      "S1(config-line)# spanning-tree portfast",
+      "S1(config)# spanning-tree portfast default",
+      "S1(config-if)# enable spanning-tree portfast",
+      "S1(config)# enable spanning-tree portfast default"
+     ],
+     "n": 8
+    },
+    {
+     "question": "An administrator who is troubleshooting connectivity issues on a switch notices that a switch port configured for port security is in the err-disabled state. After verifying the cause of the violation, how should the administrator re-enable the port without disrupting network operation?",
+     "type": "mcq",
+     "options": [
+      "Reboot the switch.",
+      "Issue the shutdown command followed by the no shutdown command on the interface.",
+      "Issue the no switchport port-security command, then re-enable port security.",
+      "Issue the no switchport port-security violation shutdown command on the interface."
+     ],
+     "n": 9
+    },
+    {
+     "question": "A network administrator is configuring DHCP snooping on a switch. Which configuration command should be used first?",
+     "type": "mcq",
+     "options": [
+      "ip dhcp snooping",
+      "ip dhcp snooping vlan",
+      "ip dhcp snooping trust",
+      "ip dhcp snooping limit rate"
+     ],
+     "n": 10
+    },
+    {
+     "question": "A network administrator is configuring DAI on a switch with the command ip arp inspection validate dst-mac . What is the purpose of this configuration command?",
+     "type": "mcq",
+     "options": [
+      "To check the destination MAC address in the Ethernet header against the MAC address table",
+      "To check the destination MAC address in the Ethernet header against the user-configured ARP ACLs",
+      "To check the destination MAC address in the Ethernet header against the target MAC address in the ARP body",
+      "To check the destination MAC address in the Ethernet header against the source MAC address in the ARP body"
+     ],
+     "n": 11
+    },
+    {
+     "question": "Which security feature should be enabled in order to prevent an attacker from overflowing the MAC address table of a switch?",
+     "type": "mcq",
+     "options": [
+      "BPDU filter",
+      "Port security",
+      "Storm control",
+      "Root guard"
+     ],
+     "n": 12
+    },
+    {
+     "question": "What Layer 2 attack is mitigated by disabling Dynamic Trunking Protocol?",
+     "type": "mcq",
+     "options": [
+      "VLAN hopping",
+      "DHCP spoofing",
+      "ARP poisoning",
+      "ARP spoofing"
+     ],
+     "n": 13
+    },
+    {
+     "question": "A network administrator is configuring DAI on a switch. Which command should be used on the uplink interface that connects to a router?",
+     "type": "mcq",
+     "options": [
+      "ip arp inspection vlan",
+      "ip arp inspection trust",
+      "ip dhcp snooping",
+      "spanning-tree portfast"
+     ],
+     "n": 14
+    },
+    {
+     "question": "Where are dynamically learned MAC addresses stored when sticky learning is enabled with the switchport port-security mac-address sticky command?",
+     "type": "mcq",
+     "options": [
+      "ROM",
+      "RAM",
+      "NVRAM",
+      "Flash"
+     ],
+     "n": 15
+    }
+   ],
+   "total_reported": 15
+  },
+  {
+   "item": "12.8.2",
+   "module": 12,
+   "title": "Module Quiz - WLAN Concepts",
+   "type": "ASSESSMENT",
+   "questions": [
+    {
+     "question": "In the context of mobile devices, what does the term tethering involve?",
+     "type": "mcq",
+     "options": [
+      "Connecting a mobile device to another mobile device or computer to share a network connection",
+      "Connecting a mobile device to a hands-free headset",
+      "Connecting a mobile device to a 4G cellular network",
+      "Connecting a mobile device to a USB port on a computer in order to charge the mobile device"
+     ],
+     "n": 1
+    },
+    {
+     "question": "Which feature of 802.11n wireless access points allows them to transmit data at faster speeds than previous versions of 802.11 Wi-Fi standards did?",
+     "type": "mcq",
+     "options": [
+      "SPS",
+      "WPS",
+      "MIMO",
+      "MITM"
+     ],
+     "n": 2
+    },
+    {
+     "question": "Which method of wireless authentication is currently considered to be the strongest?",
+     "type": "mcq",
+     "options": [
+      "WEP",
+      "WPA",
+      "WPA2",
+      "Open",
+      "Shared key"
+     ],
+     "n": 3
+    },
+    {
+     "question": "Which parameter is commonly used to identify a wireless network name when a home wireless AP is being configured?",
+     "type": "mcq",
+     "options": [
+      "Ad hoc",
+      "BESS",
+      "ESS",
+      "SSID"
+     ],
+     "n": 4
+    },
+    {
+     "question": "Which characteristic describes a wireless client operating in active mode?",
+     "type": "mcq",
+     "options": [
+      "Ability to dynamically change channels",
+      "Must know the SSID to connect to an AP",
+      "Must be configured for security before attaching to an AP",
+      "Broadcasts probes that request the SSID"
+     ],
+     "n": 5
+    },
+    {
+     "question": "Which IEEE standard operates at wireless frequencies in both the 5 GHz and 2.4 GHz ranges?",
+     "type": "mcq",
+     "options": [
+      "802.11n",
+      "802.11g",
+      "802.11b",
+      "802.11a"
+     ],
+     "n": 6
+    },
+    {
+     "question": "Which statement describes an autonomous access point?",
+     "type": "mcq",
+     "options": [
+      "It is used for networks that require a large number of access points.",
+      "It is a standalone access point.",
+      "It is server-dependent.",
+      "It is managed by a WLAN controller."
+     ],
+     "n": 7
+    },
+    {
+     "question": "Which two roles are typically performed by a wireless router that is used in a home or small business? (Choose two.)",
+     "type": "mcq",
+     "options": [
+      "Repeater",
+      "Access point",
+      "WLAN controller",
+      "Ethernet switch",
+      "RADIUS authentication server"
+     ],
+     "n": 8
+    },
+    {
+     "question": "Which protocol and port numbers are used by both IPv4 and IPv6 CAPWAP tunnels? (Choose two.)",
+     "type": "mcq",
+     "options": [
+      "UDP",
+      "TCP",
+      "ICMP",
+      "5246 and 5247",
+      "17 and 163"
+     ],
+     "n": 9
+    },
+    {
+     "question": "If three 802.11b access points need to be deployed in close proximity, which three frequency channels should be used? (Choose three.)",
+     "type": "mcq",
+     "options": [
+      "1",
+      "3",
+      "5",
+      "6",
+      "8",
+      "11"
+     ],
+     "n": 10
+    },
+    {
+     "question": "Which type of telecommunication technology is used to provide Internet access to vessels at sea?",
+     "type": "mcq",
+     "options": [
+      "Satellite",
+      "WiMax",
+      "Cellular",
+      "Municipal WiFi"
+     ],
+     "n": 11
+    },
+    {
+     "question": "Which wireless network topology is being configured by a technician who is installing a keyboard, a mouse, and headphones, each of which uses Bluetooth?",
+     "type": "mcq",
+     "options": [
+      "Ad hoc mode",
+      "Hotspot",
+      "Infrastructure mode",
+      "Mixed mode"
+     ],
+     "n": 12
+    },
+    {
+     "question": "Which type of wireless topology is created when two or more Basic Service Sets are interconnected by Ethernet?",
+     "type": "mcq",
+     "options": [
+      "IBISS",
+      "BSS",
+      "WiFi Direct",
+      "ESS",
+      "Ad hoc WLAN"
+     ],
+     "n": 13
+    },
+    {
+     "question": "What Wi-Fi management frame is regularly broadcast by APs to announce their presence?",
+     "type": "mcq",
+     "options": [
+      "Probe",
+      "Beacon",
+      "Association",
+      "Authentication"
+     ],
+     "n": 14
+    }
+   ],
+   "total_reported": 14
+  },
+  {
+   "item": "13.5.4",
+   "module": 13,
+   "title": "Module Quiz - WLAN Configuration",
+   "type": "ASSESSMENT",
+   "questions": [
+    {
+     "question": "A user is configuring a wireless access point and wants to prevent any neighbors from discovering the network. What action does the user need to take?",
+     "type": "mcq",
+     "options": [
+      "Disable SSID broadcast.",
+      "Enable WPA encryption.",
+      "Configure DMZ settings.",
+      "Configure a DNS server."
+     ],
+     "n": 1
+    },
+    {
+     "question": "When a wireless network in a small office is being set up, which type of IP addressing is typically used on the networked devices?",
+     "type": "mcq",
+     "options": [
+      "Public",
+      "Private",
+      "Network",
+      "Wireless"
+     ],
+     "n": 2
+    },
+    {
+     "question": "A user has just purchased a generic home router and would like to secure it. What should be done to help secure the wireless home router?",
+     "type": "mcq",
+     "options": [
+      "Change the default administrator password.",
+      "Set a private IPv4 network for the internal network.",
+      "Change the default SSID.",
+      "Allow only IPv6 traffic to enter the router."
+     ],
+     "n": 3
+    },
+    {
+     "question": "Which protocol could be used by a company to monitor devices such as a wireless LAN controller (WLC)?",
+     "type": "mcq",
+     "options": [
+      "NTP",
+      "PAT",
+      "SNMP",
+      "SSH"
+     ],
+     "n": 4
+    },
+    {
+     "question": "When configuring a Cisco 3500 series wireless LAN controller (WLC) for a WPA2 Enterprise WLAN, what has to be created on the WLC before creating the new WLAN?",
+     "type": "mcq",
+     "options": [
+      "A new SSID",
+      "A security module",
+      "A security policy",
+      "A VLAN for the wireless network"
+     ],
+     "n": 5
+    },
+    {
+     "question": "What is a DHCP scope as it relates to a WLAN configured on the WLC controller?",
+     "type": "mcq",
+     "options": [
+      "A corporate plan for allocation of IP addresses for wireless clients",
+      "A pool of IP addresses for WLAN clients",
+      "Security rules associated with DHCP for WLANs",
+      "The distance allotted for wireless clients that can receive IP addressing information"
+     ],
+     "n": 6
+    },
+    {
+     "question": "Why would a technician configure a passphrase for a WLAN on a wireless router?",
+     "type": "mcq",
+     "options": [
+      "To protect someone from changing the configuration",
+      "To configure wireless client authentication",
+      "To protect someone from cabling directly to the router and accessing the router",
+      "To protect the SSID from being changed"
+     ],
+     "n": 7
+    },
+    {
+     "question": "A customer installs a wireless access point at home in the closet next to the kitchen. The customer mentions that the wireless communication performance seems degraded when the cordless phone or the microwave oven is in use. What is the possible reason for this degradation?",
+     "type": "mcq",
+     "options": [
+      "The access point is close to walls.",
+      "The cordless phone joins the WLAN and shares the available bandwidth.",
+      "The wireless signal is in the same radio frequency range as the household devices are in.",
+      "The access point is on the same electrical circuit as the phone base unit and microwave oven are.",
+      "The surge of electricity when a microwave oven is in use disrupts the operation of the access point."
+     ],
+     "n": 8
+    },
+    {
+     "question": "What functionality is required on routers to provide remote workers with VoIP and videoconferencing capabilities?",
+     "type": "mcq",
+     "options": [
+      "IPsec",
+      "QoS",
+      "VPN",
+      "PPPoE"
+     ],
+     "n": 9
+    },
+    {
+     "question": "A wireless router is displaying the IP address of 192.168.0.1. What could this mean?",
+     "type": "mcq",
+     "options": [
+      "The NAT function is not working on the wireless router.",
+      "The wireless router still has the factory default IP address.",
+      "Dynamic IP address allocation has been configured on the router and is functioning correctly.",
+      "The wireless router has been configured to use the frequencies on channel 1."
+     ],
+     "n": 10
+    },
+    {
+     "question": "A laptop cannot connect to a wireless access point. Which two troubleshooting steps should be taken first? (Choose two.)",
+     "type": "mcq",
+     "options": [
+      "Ensure that the wireless NIC is enabled.",
+      "Ensure that the laptop antenna is attached.",
+      "Ensure that the wireless SSID is chosen.",
+      "Ensure that the correct network media is selected.",
+      "Ensure that the NIC is configured for the proper frequency."
+     ],
+     "n": 11
+    },
+    {
+     "question": "In setting up a small office network, the network administrator decides to assign private IP addresses dynamically to workstations and mobile devices. Which feature must be enabled on the company router in order for office devices to access the internet?",
+     "type": "mcq",
+     "options": [
+      "QoS",
+      "NAT",
+      "UPnP",
+      "MAC filtering"
+     ],
+     "n": 12
+    },
+    {
+     "question": "What is a difference between autonomous APs that operate in a home environment and controller-based APs that operate in a corporate environment?",
+     "type": "mcq",
+     "options": [
+      "Autonomous APs incorporate the functions of a router, switch, and AP into one device.​",
+      "Autonomous APs do not support PoE.",
+      "Controller-based APs can be automatically configured and managed by a WLAN controller.",
+      "Controller-based APs are known as lightweight APs and require an initial configuration to operate."
+     ],
+     "n": 13
+    },
+    {
+     "question": "Which WLC tab would a network administrator typically use to see a summary view of the most heavily used WLANs including the number of clients using a particular WLAN?",
+     "type": "mcq",
+     "options": [
+      "Commands",
+      "Controller",
+      "Monitor",
+      "WLANs"
+     ],
+     "n": 14
+    },
+    {
+     "question": "Users on an IEEE 802.11n network are complaining of slow speeds. The network administrator checks the AP and verifies it is operating properly. What can be done to improve the wireless performance in the network?",
+     "type": "mcq",
+     "options": [
+      "Split the wireless traffic between the 802.11n 2.4 GHz band and the 5 GHz band.",
+      "Change the authentication method on the AP.",
+      "Switch to an 802.11g AP.",
+      "Set the AP to mixed mode."
+     ],
+     "n": 15
+    }
+   ],
+   "total_reported": 15
+  },
+  {
+   "item": "14.6.2",
+   "module": 14,
+   "title": "Module Quiz - Routing Concepts",
+   "type": "ASSESSMENT",
+   "questions": [
+    {
+     "question": "Which feature on a Cisco router permits the forwarding of traffic for which there is no specific route?",
+     "type": "mcq",
+     "options": [
+      "Next-hop",
+      "Gateway of last resort",
+      "Route source",
+      "Outgoing interface"
+     ],
+     "n": 1
+    },
+    {
+     "question": "Which three advantages are provided by static routing? (Choose three.)",
+     "type": "mcq",
+     "options": [
+      "Static routing does not advertise over the network, thus providing better security.",
+      "Configuration of static routes is error-free.",
+      "Static routes scale well as the network grows.",
+      "Static routing typically uses less network bandwidth and fewer CPU operations than dynamic routing does.",
+      "The path a static route uses to send data is known.",
+      "No intervention is required to maintain changing route information."
+     ],
+     "n": 2
+    },
+    {
+     "question": "What are two functions of dynamic routing protocols? (Choose two.)",
+     "type": "mcq",
+     "options": [
+      "To maintain routing tables",
+      "To assure low router overhead",
+      "To avoid exposing network information",
+      "To discover the network",
+      "To choose the path that is specified by the administrator"
+     ],
+     "n": 3
+    },
+    {
+     "question": "What is an advantage of using dynamic routing protocols instead of static routing?",
+     "type": "mcq",
+     "options": [
+      "Easier to implement",
+      "More secure in controlling routing updates",
+      "Fewer router resource overhead requirements",
+      "Ability to actively search for new routes if the current path becomes unavailable​"
+     ],
+     "n": 4
+    },
+    {
+     "question": "Which value represents the \"trustworthiness\" of a route and is used to determine which route to install into the routing table when there are multiple routes toward the same destination?",
+     "type": "mcq",
+     "options": [
+      "Routing protocol",
+      "Outgoing interface",
+      "Metric",
+      "Administrative distance"
+     ],
+     "n": 5
+    },
+    {
+     "question": "Which packet-forwarding method does a router use to make switching decisions when it is using a forwarding information base and an adjacency table?",
+     "type": "mcq",
+     "options": [
+      "Fast switching",
+      "Cisco Express Forwarding",
+      "Process switching",
+      "Flow process"
+     ],
+     "n": 6
+    },
+    {
+     "question": "Which type of route would typically be used on a border router so that devices inside the company could access the Internet?",
+     "type": "mcq",
+     "options": [
+      "Static",
+      "Default",
+      "Summary",
+      "Directly connected"
+     ],
+     "n": 7
+    },
+    {
+     "question": "What are two functions of a router? (Choose two.)",
+     "type": "mcq",
+     "options": [
+      "A router connects multiple IP networks.",
+      "It controls the flow of data via the use of Layer 2 addresses.",
+      "It determines the best path to send packets.",
+      "It provides segmentation at Layer 2.",
+      "It builds a routing table based on ARP requests."
+     ],
+     "n": 8
+    },
+    {
+     "question": "When a router learns that multiple paths are available to a destination network from the same routing protocol, which factor is considered by a router to choose the best path to forward a packet?",
+     "type": "mcq",
+     "options": [
+      "The lowest metric",
+      "The order of paths on the routing table",
+      "The fastest bandwidth of exiting interfaces",
+      "The reliability value of the neighboring routers"
+     ],
+     "n": 9
+    },
+    {
+     "question": "Which two route source codes are automatically created within a routing table whenever a router interface is configured with an IP address and activated? (Choose two.)",
+     "type": "mcq",
+     "options": [
+      "C",
+      "O",
+      "L",
+      "S",
+      "D"
+     ],
+     "n": 10
+    },
+    {
+     "question": "The output of the show ip route command contains the following entry: S 10.2.0.0 [1/0] via 172.16.2.2. What value is indicated by the 1 in the [1/0] portion of the output?",
+     "type": "mcq",
+     "options": [
+      "Metric",
+      "Number of hops",
+      "Administrative distance",
+      "Interface ID through which the network can be reached"
+     ],
+     "n": 11
+    },
+    {
+     "question": "Which type of static route creates a gateway of last resort?",
+     "type": "mcq",
+     "options": [
+      "Default static route",
+      "Floating static route",
+      "Standard static route",
+      "Summary static route"
+     ],
+     "n": 12
+    },
+    {
+     "question": "What are two common types of static routes in routing tables? (Choose two)",
+     "type": "mcq",
+     "options": [
+      "A default static route",
+      "A built-in static route by IOS",
+      "A static route to a specific network",
+      "A static route shared between two neighboring routers",
+      "A static route converted from a route that is learned through a dynamic routing protocol"
+     ],
+     "n": 13
+    },
+    {
+     "question": "What are two reasons why an administrator might choose to use static routing rather than dynamic routing? (Choose two.)",
+     "type": "mcq",
+     "options": [
+      "Static routing is easier to maintain in large networks.",
+      "Static routing is more secure.",
+      "Static routing is more scalable.",
+      "Static routing uses less router processing and bandwidth.",
+      "Static routing does not require complete knowledge of the whole network."
+     ],
+     "n": 14
+    },
+    {
+     "question": "What address and prefix length is used when configuring an IPv6 default static route?",
+     "type": "mcq",
+     "options": [
+      "::/0",
+      "::1/128",
+      "0.0.0.0/0",
+      "FF02::1/8"
+     ],
+     "n": 15
+    }
+   ],
+   "total_reported": 15
+  },
+  {
+   "item": "15.6.4",
+   "module": 15,
+   "title": "Module Quiz - IP Static Routing",
+   "type": "ASSESSMENT",
+   "questions": [
+    {
+     "question": "A network administrator configures a router by the command ip route 0.0.0.0 0.0.0.0 209.165.200.226 . What is the purpose of this command?",
+     "type": "mcq",
+     "options": [
+      "To forward all packets to the device with IP address 209.165.200.226",
+      "To add a dynamic route for the destination network 0.0.0.0 to the routing table",
+      "To forward packets destined for the network 0.0.0.0 to the device with IP address 209.165.200.226",
+      "To provide a route to forward packets for which there is no route in the routing table"
+     ],
+     "n": 1
+    },
+    {
+     "question": "Which type of static route that is configured on a router uses only the exit interface?",
+     "type": "mcq",
+     "options": [
+      "Recursive static route",
+      "Directly connected static route",
+      "Fully specified static route",
+      "Default static route"
+     ],
+     "n": 2
+    },
+    {
+     "question": "A network administrator uses the command ip route 172.18.0.0 255.255.0.0 S0/0/1 to configure a floating static route on a router. That route will function as a backup route to reach the EIGRP learned network 172.18.0.0/16. After this configuration, the EIGRP route is removed from the routing table even though EIGRP is still functioning properly. Why is the static route not functioning as intended?",
+     "type": "mcq",
+     "options": [
+      "The next hop neighbor IP address is not configured.",
+      "The administrative distance value is not high enough on the static route.",
+      "The destination network is incorrectly configured.",
+      "The network mask is incorrectly configured."
+     ],
+     "n": 3
+    },
+    {
+     "question": "What type of static route is created when the next-hop IP address and exit interface are specified?",
+     "type": "mcq",
+     "options": [
+      "Recursive static route",
+      "Directly connected static route",
+      "Fully specified static route",
+      "Floating static route"
+     ],
+     "n": 4
+    },
+    {
+     "question": "What is the correct syntax of a floating static route?",
+     "type": "mcq",
+     "options": [
+      "ip route 209.165.200.228 255.255.255.248 serial 0/0/0",
+      "ip route 209.165.200.228 255.255.255.248 10.0.0.1 120",
+      "ip route 0.0.0.0 0.0.0.0 serial 0/0/0",
+      "ip route 172.16.0.0 255.248.0.0 10.0.0.1"
+     ],
+     "n": 5
+    },
+    {
+     "question": "Which static route statement shows a recursive IPv6 static route?",
+     "type": "mcq",
+     "options": [
+      "Ipv6 route 0::/0 S0/0/0",
+      "Ipv6 route 0::/0 S0/0/0 254",
+      "Ipv6 route 2001:db8:cafe:1::/56 S0/0/0",
+      "Ipv6 route 2001:db8:cafe:1::/56 2001:db8:1000:10::1",
+      "Ipv6 route 2001:db8:cafe:1::/56 S0/0/0 2001:db8:1000:10::1"
+     ],
+     "n": 6
+    },
+    {
+     "question": "A network administrator is configuring a route to forward packets to a specific web server. What type of route should be configured by the administrator?",
+     "type": "mcq",
+     "options": [
+      "A host route",
+      "An OSPF route",
+      "An EIGRP route",
+      "A default route",
+      "A static route with an administrative distance higher than 1"
+     ],
+     "n": 7
+    },
+    {
+     "question": "Which command would create a valid IPv6 default route?",
+     "type": "mcq",
+     "options": [
+      "ipv6 route ::/0 fe80::1",
+      "ipv6 route 2001:db8:acad:1::/64 ::1",
+      "ipv6 route ::/0 2001:db8:acad:2::a",
+      "ipv6 route ::/128 2001:db8:acad:1::1"
+     ],
+     "n": 8
+    },
+    {
+     "question": "What is a characteristic of a default static route? ​",
+     "type": "mcq",
+     "options": [
+      "It backs up a route already discovered by a dynamic routing protocol.",
+      "It uses a single network address to send multiple static routes to one destination address.",
+      "It identifies the gateway IP address to which the router sends all IP packets for which it does not have a learned or static route.",
+      "It is configured with a higher administrative distance than is the original dynamic routing protocol."
+     ],
+     "n": 9
+    },
+    {
+     "question": "What is the purpose of a floating static route?",
+     "type": "mcq",
+     "options": [
+      "It allows summarization of contiguous networks.",
+      "It allows an alternate connection to be used when the preferred link fails.",
+      "It is commonly used when a dynamic routing protocol is not being used.",
+      "It allows connectivity to remote destinations that are not contained in the routing table."
+     ],
+     "n": 10
+    },
+    {
+     "question": "Which IPv6 static route would serve as a backup route to a dynamic route learned through OSPF?",
+     "type": "mcq",
+     "options": [
+      "Router1(config)# ipv6 route 2001:db8:acad:1::/32 2001:db8:acad:6::2 100",
+      "Router1(config)# ipv6 route 2001:db8:acad:1::/32 2001:db8:acad:6::100",
+      "Router1(config)# ipv6 route 2001:db8:acad:1::/32 2001:db8:acad:6::2 200",
+      "Router1(config)# ipv6 route 2001:db8:acad:1::/32 gigabitethernet0/0 2001:db8:acad:6::100 100"
+     ],
+     "n": 11
+    },
+    {
+     "question": "What command, or set of commands, would be used to determine if the following configuration on router HQ works as designed? ip route 0.0.0.0 0.0.0.0 serial 0/0/0 10 ip route 0.0.0.0 0.0.0.0 serial 0/1/0",
+     "type": "mcq",
+     "options": [
+      "HQ(config)# interface serial 0/1/0 HQ(config-if)# shutdown HQ(config-if)# end HQ# show ip route",
+      "HQ# traceroute 128.107.0.99",
+      "HQ# show ip interface brief",
+      "HQ# ping 128.107.0.99 HQ# ping 64.100.0.5",
+      "HQ# show ip route"
+     ],
+     "n": 12
+    },
+    {
+     "question": "Which type of static route typically uses the distance parameter in the ip route global configuration command?",
+     "type": "mcq",
+     "options": [
+      "Summary static route",
+      "Default static route",
+      "Floating static route",
+      "Standard static route"
+     ],
+     "n": 13
+    },
+    {
+     "question": "Why would a floating static route be configured with an administrative distance that is higher than the administrative distance of a dynamic routing protocol that is running on the same router?",
+     "type": "mcq",
+     "options": [
+      "To be used as a backup route",
+      "To load-balance the traffic",
+      "To act as a gateway of last resort",
+      "To be the priority route in the routing table"
+     ],
+     "n": 14
+    },
+    {
+     "question": "What network address and subnet mask combination would be used to create a default static route that matches any IPv4 destination?",
+     "type": "mcq",
+     "options": [
+      "0.0.0.0 0.0.0.0",
+      "0.0.0.0 255.255.255.255",
+      "255.255.255.255 255.255.255.255",
+      "255.255.255.255 0.0.0.0"
+     ],
+     "n": 15
+    }
+   ],
+   "total_reported": 15
+  },
+  {
+   "item": "16.3.4",
+   "module": 16,
+   "title": "Module Quiz - Troubleshoot Static and Default Routes",
+   "type": "ASSESSMENT",
+   "questions": [
+    {
+     "question": "Which sequence correctly identifies the order of the steps that a router will perform when it receives a packet on an Ethernet interface?",
+     "type": "mcq",
+     "options": [
+      "1. The router examines the destination IP address. 2. The router examines the destination MAC address. 3. The router identifies the Ethernet Type field. 4. The router de-encapsulates the Ethernet frame.",
+      "1. The router examines the destination MAC address. 2. The router identifies the Ethernet Type field. 3. The router de-encapsulates the Ethernet frame. 4. The router examines the destination IP address.",
+      "1. The router examines the destination IP address. 2. The router examines the destination MAC address. 3. The router de-encapsulates the Ethernet frame. 4. The router identifies the Ethernet Type field.",
+      "1. The router de-encapsulates the Ethernet frame. 2. The router examines the destination MAC address. 3. The router identifies the Ethernet Type field. 4. The router examines the destination IP address.",
+      "1. The router examines the destination MAC address. 2. The router identifies the Ethernet Type field. 3. The router examines the destination IP address. 4. The router de-encapsulates the Ethernet frame."
+     ],
+     "n": 1
+    },
+    {
+     "question": "Which three IOS troubleshooting commands can help to isolate problems with a static route? (Choose three.)",
+     "type": "mcq",
+     "options": [
+      "show version",
+      "ping",
+      "tracert",
+      "show ip route",
+      "show ip interface brief",
+      "show arp"
+     ],
+     "n": 2
+    },
+    {
+     "question": "A network administrator has entered a static route to an Ethernet LAN that is connected to an adjacent router. However, the route is not shown in the routing table. Which command would the administrator use to verify that the exit interface is up?",
+     "type": "mcq",
+     "options": [
+      "show ip interface brief",
+      "show ip protocols",
+      "show ip route",
+      "tracert"
+     ],
+     "n": 3
+    },
+    {
+     "question": "A static route has been configured on a router. However, the destination network no longer exists. What should an administrator do to remove the static route from the routing table?",
+     "type": "mcq",
+     "options": [
+      "Change the routing metric for that route.",
+      "Nothing. The static route will go away on its own.",
+      "Change the administrative distance for that route.",
+      "Remove the route using the no ip route command."
+     ],
+     "n": 4
+    },
+    {
+     "question": "Which statement describes the sequence of processes executed by a router when it receives a packet from a host to be delivered to a host on another network?",
+     "type": "mcq",
+     "options": [
+      "It receives the packet and forwards it directly to the destination host.",
+      "It de-encapsulates the packet, selects the appropriate path, and encapsulates the packet to forward it toward the destination host.",
+      "It de-encapsulates the packet and forwards it toward the destination host.",
+      "It selects the path and forwards it toward the destination host."
+     ],
+     "n": 5
+    },
+    {
+     "question": "A network engineer issues the show cdp neighbor command on several network devices during the process of network documentation. What is the purpose of performing this command?",
+     "type": "mcq",
+     "options": [
+      "To obtain information about directly connected Cisco devices",
+      "To check the networks that are advertised by the neighboring routers",
+      "To verify the network addresses that are attached to the network devices",
+      "To check the connectivity of PCs that are connected to the network devices"
+     ],
+     "n": 6
+    },
+    {
+     "question": "A network administrator notices that a correctly entered static route is not in the routing table. What two router commands would an administrator use to determine if the exit interface was up and the next hop address is available? (Choose two.)",
+     "type": "mcq",
+     "options": [
+      "ping",
+      "show ip protocols",
+      "show ip interface brief",
+      "show ip route",
+      "tracert"
+     ],
+     "n": 7
+    },
+    {
+     "question": "A network administrator has entered the following command: ip route 192.168.10.64 255.255.255.192 serial0/0/1 When the network administrator enters the command show ip route , the route is not in the routing table. What should the administrator do next?",
+     "type": "mcq",
+     "options": [
+      "Re-enter the command using the correct mask.",
+      "Verify that the serial 0/0/1 interface is active and available.",
+      "Verify that the 192.168.10.64 network is active within the network infrastructure.",
+      "Re-enter the command using a network number rather than a usable IP address."
+     ],
+     "n": 8
+    },
+    {
+     "question": "What will a router do if it does not have a default route configured and a packet needs to be forwarded to a destination network that is not listed in the routing table?",
+     "type": "mcq",
+     "options": [
+      "Forward it to another router",
+      "Drop it",
+      "Send it back to the source"
+     ],
+     "n": 9
+    },
+    {
+     "question": "What does the letter C mean next to an entry in the output of the show ip route command?",
+     "type": "mcq",
+     "options": [
+      "It identifies a network that is a static route.",
+      "It identifies a network that is learned through OSPF.",
+      "It identifies a network that is learned through EIGRP.",
+      "It identifies a network that is directly connected to the router."
+     ],
+     "n": 10
+    }
+   ],
+   "total_reported": 10
+  },
+  {
+   "item": "17.3.2",
+   "module": 17,
+   "title": "Module Quiz",
+   "type": "ASSESSMENT",
+   "questions": [
+    {
+     "question": "Match the port role to its description.",
+     "type": "object-matching",
+     "prompts": [
+      "Designated",
+      "Backup",
+      "Alternate",
+      "Root"
+     ],
+     "options": [
+      "Forwards traffic to the root bridge.",
+      "Immediately transitions to a forwarding port if an error occurs with the current forwarding port.",
+      "Discarding state that quickly transitions to forwarding if needed.",
+      "Forwards traffic from a segment to the root bridge."
+     ],
+     "n": 1
+    },
+    {
+     "question": "What is the main benefit of RSTP over STP?",
+     "type": "mcq",
+     "options": [
+      "RSTP has more port states than STP.",
+      "BPDUs are only initiated by the root bridge in RSTP, whereas in STP all switches initiate BPDUs.",
+      "RSTP achieves faster convergence than STP.",
+      "RSTP has less port roles than STP."
+     ],
+     "n": 2
+    },
+    {
+     "question": "A port on an RSTP switch is not forwarding frames, is blocked to prevent loops but is still able to listen to BPDUs to learn the network topology. What type of port state is being described?",
+     "type": "mcq",
+     "options": [
+      "Listening",
+      "Disabled",
+      "Discarding",
+      "Learning"
+     ],
+     "n": 3
+    },
+    {
+     "question": "What does RSTP use to select the root bridge?",
+     "type": "mcq",
+     "options": [
+      "The switch with the lowest MAC address.",
+      "The switch with the highest extended system ID.",
+      "The switch with the lowest BID.",
+      "The switch with the highest BID."
+     ],
+     "n": 4
+    },
+    {
+     "question": "In RSTP, a switch with four interfaces that connects to other RSTP switches, has been selected as the root bridge. What port type will be associated with the root bridge interfaces?",
+     "type": "mcq",
+     "options": [
+      "all will be root ports",
+      "all will be designated ports",
+      "all will be alternate ports",
+      "some will be root ports and some of them will be alternate ports"
+     ],
+     "n": 5
+    },
+    {
+     "question": "A network administrator configures PortFast on access ports that are connected to end devices. What does the configuration accomplish?",
+     "type": "mcq",
+     "options": [
+      "It prevents the forwarding of BPDUs to and from those access ports.",
+      "The access ports are temporarily put into a loop-inconsistent state.",
+      "It ensures that an unauthorized switch cannot connect to those access ports.",
+      "The access ports will transition directly to the forwarding state."
+     ],
+     "n": 6
+    },
+    {
+     "question": "What happens if a BPDU is received on a port that has BPDU Guard configured?",
+     "type": "mcq",
+     "options": [
+      "The port is disabled.",
+      "The BPDU is ignored.",
+      "The BPDU is returned to the sender.",
+      "The BPDU is sent to the closest root port."
+     ],
+     "n": 8
+    },
+    {
+     "question": "Which two statements are correct concerning RSTP features? (Choose two.)",
+     "type": "mcq",
+     "options": [
+      "Loop Guard and Root Guard should be configured on the same port.",
+      "PortFast and Root Guard must be configured on the same port.",
+      "BPDU Guard and BPDU Filter should not be configured on the same port.",
+      "PortFast should be configured on an interface that is configured as a trunk.",
+      "Only one RSTP feature should be configured on a port at the same time."
+     ],
+     "n": 9
+    },
+    {
+     "question": "Where is the best place to configure BPDU filtering?",
+     "type": "mcq",
+     "options": [
+      "on all ports within the network",
+      "on all root and trunking ports",
+      "on designated ports that connect to other switches",
+      "on access ports that connect to end devices"
+     ],
+     "n": 10
+    },
+    {
+     "question": "What is the function of a root port?",
+     "type": "mcq",
+     "options": [
+      "Every port on a root bridge is a route port.",
+      "It forwards traffic to the root bridge.",
+      "It provides backup to a designated port.",
+      "It connects to an end device."
+     ],
+     "n": 11
+    },
+    {
+     "question": "What RSTP solution prevents the connection of unauthorized switches to the network?",
+     "type": "mcq",
+     "options": [
+      "Root Guard",
+      "BPDU Guard",
+      "Loop Guard",
+      "BPDU Filter"
+     ],
+     "n": 12
+    },
+    {
+     "question": "A network technician enters the following global command: spanning-tree portfast bpduguard enable . What is accomplished with this command?",
+     "type": "mcq",
+     "options": [
+      "It enables BPDU Guard on all Portfast enabled access ports.",
+      "It enables PortFast on all BPDU Guard enabled access ports.",
+      "It enables PortFast and BPDU Guard on all enabled access ports.",
+      "It does nothing since the command is only used in interface mode."
+     ],
+     "n": 13
+    },
+    {
+     "question": "What occurs if a BPDU is received on a port enabled with BPDU Filter?",
+     "type": "mcq",
+     "options": [
+      "The port is placed in an error-disabled state.",
+      "The BPDU is ignored and the port remains functional.",
+      "The port is placed into the loop-inconsistant state.",
+      "The port is immediately disabled."
+     ],
+     "n": 14
+    },
+    {
+     "question": "How are root ports selected?",
+     "type": "mcq",
+     "options": [
+      "The non-root switches find the port with the shortest path to the root bridge.",
+      "All ports on the root bridge become root ports.",
+      "The port with the lowest BID on each non-root switch becomes the root port.",
+      "The port with the lowest interface number on each non-root switch becomes the root port."
+     ],
+     "n": 15
+    }
+   ],
+   "total_reported": 15
+  }
+ ],
+ "extracted_at": "2026-08-27T04:18:49"
+}

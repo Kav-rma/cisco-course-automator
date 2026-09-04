@@ -1,0 +1,1183 @@
+{
+ "item": "1.5.11",
+ "steps": [
+  {
+   "label": "before start",
+   "state": {
+    "start_controls": [
+     {
+      "tag": "div",
+      "cls": "start-button start",
+      "text": "Start",
+      "role": "button",
+      "aria": null,
+      "disabled": false,
+      "visible": true
+     },
+     {
+      "tag": "input",
+      "cls": "",
+      "text": "",
+      "role": "button",
+      "aria": "Skip All Question",
+      "disabled": false,
+      "visible": true
+     },
+     {
+      "tag": "input",
+      "cls": "",
+      "text": "",
+      "role": "button",
+      "aria": "Skip Question",
+      "disabled": false,
+      "visible": true
+     }
+    ],
+    "buttons": [
+     {
+      "tag": "button",
+      "cls": "tabs__nav-item-btn js-tabs-nav-item-btn-click is-visited isSelected",
+      "text": "section",
+      "role": "tab",
+      "aria": "section",
+      "disabled": false,
+      "visible": true
+     },
+     {
+      "tag": "button",
+      "cls": "tabs__nav-item-btn js-tabs-nav-item-btn-click is-visited ",
+      "text": "include",
+      "role": "tab",
+      "aria": "include",
+      "disabled": false,
+      "visible": true
+     },
+     {
+      "tag": "button",
+      "cls": "tabs__nav-item-btn js-tabs-nav-item-btn-click is-visited ",
+      "text": "exclude",
+      "role": "tab",
+      "aria": "exclude",
+      "disabled": false,
+      "visible": true
+     },
+     {
+      "tag": "button",
+      "cls": "tabs__nav-item-btn js-tabs-nav-item-btn-click is-visited ",
+      "text": "begin",
+      "role": "tab",
+      "aria": "begin",
+      "disabled": false,
+      "visible": true
+     },
+     {
+      "tag": "button",
+      "cls": "",
+      "text": "Show me",
+      "role": null,
+      "aria": "Show me",
+      "disabled": false,
+      "visible": true
+     },
+     {
+      "tag": "button",
+      "cls": "",
+      "text": "Show all",
+      "role": null,
+      "aria": "Show all",
+      "disabled": false,
+      "visible": true
+     },
+     {
+      "tag": "button",
+      "cls": "",
+      "text": "Reset",
+      "role": null,
+      "aria": "Reset",
+      "disabled": true,
+      "visible": true
+     },
+     {
+      "tag": "button",
+      "cls": "",
+      "text": "Show me",
+      "role": null,
+      "aria": "Show me",
+      "disabled": false,
+      "visible": true
+     },
+     {
+      "tag": "button",
+      "cls": "",
+      "text": "Show all",
+      "role": null,
+      "aria": "Show all",
+      "disabled": false,
+      "visible": true
+     },
+     {
+      "tag": "button",
+      "cls": "",
+      "text": "Reset",
+      "role": null,
+      "aria": "Reset",
+      "disabled": true,
+      "visible": true
+     },
+     {
+      "tag": "button",
+      "cls": "open-dialog btn-text btn__action  ",
+      "text": "description Verify Directly Connected Ne",
+      "role": null,
+      "aria": null,
+      "disabled": false,
+      "visible": true
+     },
+     {
+      "tag": "button",
+      "cls": "btn-icon article__btn-arrow is-left is-disabled",
+      "text": "arrow_back_ios",
+      "role": null,
+      "aria": "Scroll Question strip left",
+      "disabled": false,
+      "visible": true
+     },
+     {
+      "tag": "button",
+      "cls": " block-button active-block last-block\n                                          ",
+      "text": "Q1",
+      "role": null,
+      "aria": "answered Question 1",
+      "disabled": false,
+      "visible": true
+     },
+     {
+      "tag": "button",
+      "cls": "btn-icon article__btn-arrow is-right is-disabled",
+      "text": "arrow_forward_ios",
+      "role": null,
+      "aria": "Scroll Question strip right",
+      "disabled": false,
+      "visible": true
+     },
+     {
+      "tag": "button",
+      "cls": "btn-icon btn__action abs__btn-arrow submit-button aria-hidden is-disabled",
+      "text": "Submit",
+      "role": null,
+      "aria": "submit",
+      "disabled": true,
+      "visible": true
+     }
+    ],
+    "role_buttons": [
+     {
+      "tag": "a",
+      "cls": "content-links-item-states-css btn-text btn__action download-file ",
+      "text": "file_download Verify Directly Connected ",
+      "role": "button",
+      "aria": null,
+      "disabled": false,
+      "visible": true
+     },
+     {
+      "tag": "div",
+      "cls": "start-button start",
+      "text": "Start",
+      "role": "button",
+      "aria": null,
+      "disabled": false,
+      "visible": true
+     },
+     {
+      "tag": "input",
+      "cls": "",
+      "text": "",
+      "role": "button",
+      "aria": "Skip All Question",
+      "disabled": false,
+      "visible": true
+     },
+     {
+      "tag": "input",
+      "cls": "",
+      "text": "",
+      "role": "button",
+      "aria": "Skip Question",
+      "disabled": false,
+      "visible": true
+     }
+    ],
+    "secure_text": "1.5.11 Check Your Understanding - Verify Directly Connected Networks Instructions: The exam consists of 30 questions and 70 % is required to pass. You have unlimited attempts to pass the exam. You have no per attempt to pass the exam. You have no time limit per attempt to pass the exam. Your respons",
+    "mcq_count": 1,
+    "question_counter": [
+     "30"
+    ]
+   },
+   "mcq": [
+    {
+     "modelid": "48e84974-84af-11ee-b324-7926e94d7cb3",
+     "heading": "Question",
+     "question": "Which command will display a summary of all IPv6-enabled interfaces on a router that includes the IPv6 address and operational status?",
+     "type": "single",
+     "correct_indices": [
+      3
+     ],
+     "correct_texts": [
+      "<strong>show ipv6 interface brief</strong>"
+     ],
+     "complete": false,
+     "submitted": false,
+     "submit_enabled": false,
+     "options": [
+      [
+       2,
+       "show running-config interface",
+       false,
+       null
+      ],
+      [
+       1,
+       "show ipv6 route",
+       false,
+       null
+      ],
+      [
+       3,
+       "show ipv6 interface brief",
+       false,
+       null
+      ],
+      [
+       0,
+       "show ip interface brief",
+       false,
+       null
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "label": "after start",
+   "state": {
+    "start_controls": [
+     {
+      "tag": "div",
+      "cls": "start-button start",
+      "text": "Start",
+      "role": "button",
+      "aria": null,
+      "disabled": false,
+      "visible": true
+     },
+     {
+      "tag": "input",
+      "cls": "",
+      "text": "",
+      "role": "button",
+      "aria": "Skip All Question",
+      "disabled": false,
+      "visible": true
+     },
+     {
+      "tag": "input",
+      "cls": "",
+      "text": "",
+      "role": "button",
+      "aria": "Skip Question",
+      "disabled": false,
+      "visible": true
+     }
+    ],
+    "buttons": [
+     {
+      "tag": "button",
+      "cls": "tabs__nav-item-btn js-tabs-nav-item-btn-click is-visited isSelected",
+      "text": "section",
+      "role": "tab",
+      "aria": "section",
+      "disabled": false,
+      "visible": true
+     },
+     {
+      "tag": "button",
+      "cls": "tabs__nav-item-btn js-tabs-nav-item-btn-click is-visited ",
+      "text": "include",
+      "role": "tab",
+      "aria": "include",
+      "disabled": false,
+      "visible": true
+     },
+     {
+      "tag": "button",
+      "cls": "tabs__nav-item-btn js-tabs-nav-item-btn-click is-visited ",
+      "text": "exclude",
+      "role": "tab",
+      "aria": "exclude",
+      "disabled": false,
+      "visible": true
+     },
+     {
+      "tag": "button",
+      "cls": "tabs__nav-item-btn js-tabs-nav-item-btn-click is-visited ",
+      "text": "begin",
+      "role": "tab",
+      "aria": "begin",
+      "disabled": false,
+      "visible": true
+     },
+     {
+      "tag": "button",
+      "cls": "",
+      "text": "Show me",
+      "role": null,
+      "aria": "Show me",
+      "disabled": false,
+      "visible": true
+     },
+     {
+      "tag": "button",
+      "cls": "",
+      "text": "Show all",
+      "role": null,
+      "aria": "Show all",
+      "disabled": false,
+      "visible": true
+     },
+     {
+      "tag": "button",
+      "cls": "",
+      "text": "Reset",
+      "role": null,
+      "aria": "Reset",
+      "disabled": true,
+      "visible": true
+     },
+     {
+      "tag": "button",
+      "cls": "",
+      "text": "Show me",
+      "role": null,
+      "aria": "Show me",
+      "disabled": false,
+      "visible": true
+     },
+     {
+      "tag": "button",
+      "cls": "",
+      "text": "Show all",
+      "role": null,
+      "aria": "Show all",
+      "disabled": false,
+      "visible": true
+     },
+     {
+      "tag": "button",
+      "cls": "",
+      "text": "Reset",
+      "role": null,
+      "aria": "Reset",
+      "disabled": true,
+      "visible": true
+     },
+     {
+      "tag": "button",
+      "cls": "open-dialog btn-text btn__action  ",
+      "text": "description Verify Directly Connected Ne",
+      "role": null,
+      "aria": null,
+      "disabled": false,
+      "visible": true
+     },
+     {
+      "tag": "button",
+      "cls": "btn-icon article__btn-arrow is-left is-disabled",
+      "text": "arrow_back_ios",
+      "role": null,
+      "aria": "Scroll Question strip left",
+      "disabled": false,
+      "visible": true
+     },
+     {
+      "tag": "button",
+      "cls": " block-button active-block \n                                          ",
+      "text": "Q1",
+      "role": null,
+      "aria": "answered Question 1",
+      "disabled": false,
+      "visible": true
+     },
+     {
+      "tag": "button",
+      "cls": " block-button  last-block\n                                          ",
+      "text": "Q1",
+      "role": null,
+      "aria": "answered Question 1",
+      "disabled": false,
+      "visible": true
+     },
+     {
+      "tag": "button",
+      "cls": "btn-icon article__btn-arrow is-right is-disabled",
+      "text": "arrow_forward_ios",
+      "role": null,
+      "aria": "Scroll Question strip right",
+      "disabled": false,
+      "visible": true
+     },
+     {
+      "tag": "button",
+      "cls": "btn-icon btn__action abs__btn-arrow submit-button aria-hidden is-disabled",
+      "text": "Submit",
+      "role": null,
+      "aria": "submit",
+      "disabled": true,
+      "visible": true
+     }
+    ],
+    "role_buttons": [
+     {
+      "tag": "a",
+      "cls": "content-links-item-states-css btn-text btn__action download-file ",
+      "text": "file_download Verify Directly Connected ",
+      "role": "button",
+      "aria": null,
+      "disabled": false,
+      "visible": true
+     },
+     {
+      "tag": "div",
+      "cls": "start-button start",
+      "text": "Start",
+      "role": "button",
+      "aria": null,
+      "disabled": false,
+      "visible": true
+     },
+     {
+      "tag": "input",
+      "cls": "",
+      "text": "",
+      "role": "button",
+      "aria": "Skip All Question",
+      "disabled": false,
+      "visible": true
+     },
+     {
+      "tag": "input",
+      "cls": "",
+      "text": "",
+      "role": "button",
+      "aria": "Skip Question",
+      "disabled": false,
+      "visible": true
+     }
+    ],
+    "secure_text": "1.5.11 Check Your Understanding - Verify Directly Connected Networks Instructions: The exam consists of 30 questions and 70 % is required to pass. You have unlimited attempts to pass the exam. You have no per attempt to pass the exam. You have no time limit per attempt to pass the exam. Your respons",
+    "mcq_count": 2,
+    "question_counter": [
+     "30"
+    ]
+   },
+   "mcq": [
+    {
+     "modelid": "48e84974-84af-11ee-b324-7926e94d7cb3",
+     "heading": "Question",
+     "question": "Which command will display a summary of all IPv6-enabled interfaces on a router that includes the IPv6 address and operational status?",
+     "type": "single",
+     "correct_indices": [
+      3
+     ],
+     "correct_texts": [
+      "<strong>show ipv6 interface brief</strong>"
+     ],
+     "complete": false,
+     "submitted": false,
+     "submit_enabled": false,
+     "options": [
+      [
+       2,
+       "show running-config interface",
+       false,
+       null
+      ],
+      [
+       1,
+       "show ipv6 route",
+       false,
+       null
+      ],
+      [
+       3,
+       "show ipv6 interface brief",
+       false,
+       null
+      ],
+      [
+       0,
+       "show ip interface brief",
+       false,
+       null
+      ]
+     ]
+    },
+    {
+     "modelid": "48e84974-84af-11ee-b324-7926e94d7cb3",
+     "heading": "Question",
+     "question": "Which command will display a summary of all IPv6-enabled interfaces on a router that includes the IPv6 address and operational status?",
+     "type": "single",
+     "correct_indices": [
+      3
+     ],
+     "correct_texts": [
+      "<strong>show ipv6 interface brief</strong>"
+     ],
+     "complete": false,
+     "submitted": false,
+     "submit_enabled": false,
+     "options": [
+      [
+       2,
+       "show running-config interface",
+       false,
+       null
+      ],
+      [
+       1,
+       "show ipv6 route",
+       false,
+       null
+      ],
+      [
+       3,
+       "show ipv6 interface brief",
+       false,
+       null
+      ],
+      [
+       0,
+       "show ip interface brief",
+       false,
+       null
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "label": "after submit Q1",
+   "state": {
+    "start_controls": [
+     {
+      "tag": "div",
+      "cls": "start-button start",
+      "text": "Start",
+      "role": "button",
+      "aria": null,
+      "disabled": false,
+      "visible": true
+     },
+     {
+      "tag": "input",
+      "cls": "",
+      "text": "",
+      "role": "button",
+      "aria": "Skip All Question",
+      "disabled": false,
+      "visible": true
+     },
+     {
+      "tag": "input",
+      "cls": "",
+      "text": "",
+      "role": "button",
+      "aria": "Skip Question",
+      "disabled": false,
+      "visible": true
+     }
+    ],
+    "buttons": [
+     {
+      "tag": "button",
+      "cls": "tabs__nav-item-btn js-tabs-nav-item-btn-click is-visited isSelected",
+      "text": "section",
+      "role": "tab",
+      "aria": "section",
+      "disabled": false,
+      "visible": true
+     },
+     {
+      "tag": "button",
+      "cls": "tabs__nav-item-btn js-tabs-nav-item-btn-click is-visited ",
+      "text": "include",
+      "role": "tab",
+      "aria": "include",
+      "disabled": false,
+      "visible": true
+     },
+     {
+      "tag": "button",
+      "cls": "tabs__nav-item-btn js-tabs-nav-item-btn-click is-visited ",
+      "text": "exclude",
+      "role": "tab",
+      "aria": "exclude",
+      "disabled": false,
+      "visible": true
+     },
+     {
+      "tag": "button",
+      "cls": "tabs__nav-item-btn js-tabs-nav-item-btn-click is-visited ",
+      "text": "begin",
+      "role": "tab",
+      "aria": "begin",
+      "disabled": false,
+      "visible": true
+     },
+     {
+      "tag": "button",
+      "cls": "",
+      "text": "Show me",
+      "role": null,
+      "aria": "Show me",
+      "disabled": false,
+      "visible": true
+     },
+     {
+      "tag": "button",
+      "cls": "",
+      "text": "Show all",
+      "role": null,
+      "aria": "Show all",
+      "disabled": false,
+      "visible": true
+     },
+     {
+      "tag": "button",
+      "cls": "",
+      "text": "Reset",
+      "role": null,
+      "aria": "Reset",
+      "disabled": true,
+      "visible": true
+     },
+     {
+      "tag": "button",
+      "cls": "",
+      "text": "Show me",
+      "role": null,
+      "aria": "Show me",
+      "disabled": false,
+      "visible": true
+     },
+     {
+      "tag": "button",
+      "cls": "",
+      "text": "Show all",
+      "role": null,
+      "aria": "Show all",
+      "disabled": false,
+      "visible": true
+     },
+     {
+      "tag": "button",
+      "cls": "",
+      "text": "Reset",
+      "role": null,
+      "aria": "Reset",
+      "disabled": true,
+      "visible": true
+     },
+     {
+      "tag": "button",
+      "cls": "open-dialog btn-text btn__action  ",
+      "text": "description Verify Directly Connected Ne",
+      "role": null,
+      "aria": null,
+      "disabled": false,
+      "visible": true
+     },
+     {
+      "tag": "button",
+      "cls": "btn-icon article__btn-arrow is-left is-disabled",
+      "text": "arrow_back_ios",
+      "role": null,
+      "aria": "Scroll Question strip left",
+      "disabled": false,
+      "visible": true
+     },
+     {
+      "tag": "button",
+      "cls": " block-button active-block \n                                          is-disabled",
+      "text": "Q1",
+      "role": null,
+      "aria": "answered Question 1",
+      "disabled": true,
+      "visible": true
+     },
+     {
+      "tag": "button",
+      "cls": " block-button  last-block\n                                          is-disabled",
+      "text": "Q1",
+      "role": null,
+      "aria": "answered Question 1",
+      "disabled": true,
+      "visible": true
+     },
+     {
+      "tag": "button",
+      "cls": "btn-icon article__btn-arrow is-right is-disabled",
+      "text": "arrow_forward_ios",
+      "role": null,
+      "aria": "Scroll Question strip right",
+      "disabled": false,
+      "visible": true
+     },
+     {
+      "tag": "button",
+      "cls": "btn-icon btn__action abs__btn-arrow submit-button aria-hidden ",
+      "text": "Submit",
+      "role": null,
+      "aria": "submit",
+      "disabled": false,
+      "visible": true
+     }
+    ],
+    "role_buttons": [
+     {
+      "tag": "a",
+      "cls": "content-links-item-states-css btn-text btn__action download-file ",
+      "text": "file_download Verify Directly Connected ",
+      "role": "button",
+      "aria": null,
+      "disabled": false,
+      "visible": true
+     },
+     {
+      "tag": "div",
+      "cls": "start-button start",
+      "text": "Start",
+      "role": "button",
+      "aria": null,
+      "disabled": false,
+      "visible": true
+     },
+     {
+      "tag": "input",
+      "cls": "",
+      "text": "",
+      "role": "button",
+      "aria": "Skip All Question",
+      "disabled": false,
+      "visible": true
+     },
+     {
+      "tag": "input",
+      "cls": "",
+      "text": "",
+      "role": "button",
+      "aria": "Skip Question",
+      "disabled": false,
+      "visible": true
+     }
+    ],
+    "secure_text": "1.5.11 Check Your Understanding - Verify Directly Connected Networks Instructions: The exam consists of 30 questions and 70 % is required to pass. You have unlimited attempts to pass the exam. You have no per attempt to pass the exam. You have no time limit per attempt to pass the exam. Your respons",
+    "mcq_count": 2,
+    "question_counter": [
+     "30"
+    ]
+   },
+   "mcq": [
+    {
+     "modelid": "48e84974-84af-11ee-b324-7926e94d7cb3",
+     "heading": "Question",
+     "question": "Which command will display a summary of all IPv6-enabled interfaces on a router that includes the IPv6 address and operational status?",
+     "type": "single",
+     "correct_indices": [
+      3
+     ],
+     "correct_texts": [
+      "<strong>show ipv6 interface brief</strong>"
+     ],
+     "complete": false,
+     "submitted": false,
+     "submit_enabled": false,
+     "options": [
+      [
+       2,
+       "show running-config interface",
+       false,
+       null
+      ],
+      [
+       1,
+       "show ipv6 route",
+       false,
+       null
+      ],
+      [
+       3,
+       "show ipv6 interface brief",
+       true,
+       null
+      ],
+      [
+       0,
+       "show ip interface brief",
+       false,
+       null
+      ]
+     ]
+    },
+    {
+     "modelid": "48e84974-84af-11ee-b324-7926e94d7cb3",
+     "heading": "Question",
+     "question": "Which command will display a summary of all IPv6-enabled interfaces on a router that includes the IPv6 address and operational status?",
+     "type": "single",
+     "correct_indices": [
+      3
+     ],
+     "correct_texts": [
+      "<strong>show ipv6 interface brief</strong>"
+     ],
+     "complete": false,
+     "submitted": false,
+     "submit_enabled": false,
+     "options": [
+      [
+       2,
+       "show running-config interface",
+       false,
+       null
+      ],
+      [
+       1,
+       "show ipv6 route",
+       false,
+       null
+      ],
+      [
+       3,
+       "show ipv6 interface brief",
+       false,
+       null
+      ],
+      [
+       0,
+       "show ip interface brief",
+       false,
+       null
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "label": "after next",
+   "state": {
+    "start_controls": [
+     {
+      "tag": "div",
+      "cls": "start-button start",
+      "text": "Start",
+      "role": "button",
+      "aria": null,
+      "disabled": false,
+      "visible": true
+     },
+     {
+      "tag": "input",
+      "cls": "",
+      "text": "",
+      "role": "button",
+      "aria": "Skip All Question",
+      "disabled": false,
+      "visible": true
+     },
+     {
+      "tag": "input",
+      "cls": "",
+      "text": "",
+      "role": "button",
+      "aria": "Skip Question",
+      "disabled": false,
+      "visible": true
+     }
+    ],
+    "buttons": [
+     {
+      "tag": "button",
+      "cls": "tabs__nav-item-btn js-tabs-nav-item-btn-click is-visited isSelected",
+      "text": "section",
+      "role": "tab",
+      "aria": "section",
+      "disabled": false,
+      "visible": true
+     },
+     {
+      "tag": "button",
+      "cls": "tabs__nav-item-btn js-tabs-nav-item-btn-click is-visited ",
+      "text": "include",
+      "role": "tab",
+      "aria": "include",
+      "disabled": false,
+      "visible": true
+     },
+     {
+      "tag": "button",
+      "cls": "tabs__nav-item-btn js-tabs-nav-item-btn-click is-visited ",
+      "text": "exclude",
+      "role": "tab",
+      "aria": "exclude",
+      "disabled": false,
+      "visible": true
+     },
+     {
+      "tag": "button",
+      "cls": "tabs__nav-item-btn js-tabs-nav-item-btn-click is-visited ",
+      "text": "begin",
+      "role": "tab",
+      "aria": "begin",
+      "disabled": false,
+      "visible": true
+     },
+     {
+      "tag": "button",
+      "cls": "",
+      "text": "Show me",
+      "role": null,
+      "aria": "Show me",
+      "disabled": false,
+      "visible": true
+     },
+     {
+      "tag": "button",
+      "cls": "",
+      "text": "Show all",
+      "role": null,
+      "aria": "Show all",
+      "disabled": false,
+      "visible": true
+     },
+     {
+      "tag": "button",
+      "cls": "",
+      "text": "Reset",
+      "role": null,
+      "aria": "Reset",
+      "disabled": true,
+      "visible": true
+     },
+     {
+      "tag": "button",
+      "cls": "",
+      "text": "Show me",
+      "role": null,
+      "aria": "Show me",
+      "disabled": false,
+      "visible": true
+     },
+     {
+      "tag": "button",
+      "cls": "",
+      "text": "Show all",
+      "role": null,
+      "aria": "Show all",
+      "disabled": false,
+      "visible": true
+     },
+     {
+      "tag": "button",
+      "cls": "",
+      "text": "Reset",
+      "role": null,
+      "aria": "Reset",
+      "disabled": true,
+      "visible": true
+     },
+     {
+      "tag": "button",
+      "cls": "open-dialog btn-text btn__action  ",
+      "text": "description Verify Directly Connected Ne",
+      "role": null,
+      "aria": null,
+      "disabled": false,
+      "visible": true
+     },
+     {
+      "tag": "button",
+      "cls": "btn-icon article__btn-arrow is-left is-disabled",
+      "text": "arrow_back_ios",
+      "role": null,
+      "aria": "Scroll Question strip left",
+      "disabled": false,
+      "visible": true
+     },
+     {
+      "tag": "button",
+      "cls": " block-button active-block \n                                          is-disabled",
+      "text": "Q1",
+      "role": null,
+      "aria": "answered Question 1",
+      "disabled": true,
+      "visible": true
+     },
+     {
+      "tag": "button",
+      "cls": " block-button  last-block\n                                          is-disabled",
+      "text": "Q1",
+      "role": null,
+      "aria": "answered Question 1",
+      "disabled": true,
+      "visible": true
+     },
+     {
+      "tag": "button",
+      "cls": "btn-icon article__btn-arrow is-right is-disabled",
+      "text": "arrow_forward_ios",
+      "role": null,
+      "aria": "Scroll Question strip right",
+      "disabled": false,
+      "visible": true
+     },
+     {
+      "tag": "button",
+      "cls": "btn-icon btn__action abs__btn-arrow submit-button aria-hidden ",
+      "text": "Submit",
+      "role": null,
+      "aria": "submit",
+      "disabled": false,
+      "visible": true
+     }
+    ],
+    "role_buttons": [
+     {
+      "tag": "a",
+      "cls": "content-links-item-states-css btn-text btn__action download-file ",
+      "text": "file_download Verify Directly Connected ",
+      "role": "button",
+      "aria": null,
+      "disabled": false,
+      "visible": true
+     },
+     {
+      "tag": "div",
+      "cls": "start-button start",
+      "text": "Start",
+      "role": "button",
+      "aria": null,
+      "disabled": false,
+      "visible": true
+     },
+     {
+      "tag": "input",
+      "cls": "",
+      "text": "",
+      "role": "button",
+      "aria": "Skip All Question",
+      "disabled": false,
+      "visible": true
+     },
+     {
+      "tag": "input",
+      "cls": "",
+      "text": "",
+      "role": "button",
+      "aria": "Skip Question",
+      "disabled": false,
+      "visible": true
+     }
+    ],
+    "secure_text": "1.5.11 Check Your Understanding - Verify Directly Connected Networks Instructions: The exam consists of 30 questions and 70 % is required to pass. You have unlimited attempts to pass the exam. You have no per attempt to pass the exam. You have no time limit per attempt to pass the exam. Your respons",
+    "mcq_count": 2,
+    "question_counter": [
+     "30"
+    ]
+   },
+   "mcq": [
+    {
+     "modelid": "48e84974-84af-11ee-b324-7926e94d7cb3",
+     "heading": "Question",
+     "question": "Which command will display a summary of all IPv6-enabled interfaces on a router that includes the IPv6 address and operational status?",
+     "type": "single",
+     "correct_indices": [
+      3
+     ],
+     "correct_texts": [
+      "<strong>show ipv6 interface brief</strong>"
+     ],
+     "complete": false,
+     "submitted": false,
+     "submit_enabled": false,
+     "options": [
+      [
+       2,
+       "show running-config interface",
+       false,
+       null
+      ],
+      [
+       1,
+       "show ipv6 route",
+       false,
+       null
+      ],
+      [
+       3,
+       "show ipv6 interface brief",
+       true,
+       null
+      ],
+      [
+       0,
+       "show ip interface brief",
+       false,
+       null
+      ]
+     ]
+    },
+    {
+     "modelid": "48e84974-84af-11ee-b324-7926e94d7cb3",
+     "heading": "Question",
+     "question": "Which command will display a summary of all IPv6-enabled interfaces on a router that includes the IPv6 address and operational status?",
+     "type": "single",
+     "correct_indices": [
+      3
+     ],
+     "correct_texts": [
+      "<strong>show ipv6 interface brief</strong>"
+     ],
+     "complete": false,
+     "submitted": false,
+     "submit_enabled": false,
+     "options": [
+      [
+       2,
+       "show running-config interface",
+       false,
+       null
+      ],
+      [
+       1,
+       "show ipv6 route",
+       false,
+       null
+      ],
+      [
+       3,
+       "show ipv6 interface brief",
+       false,
+       null
+      ],
+      [
+       0,
+       "show ip interface brief",
+       false,
+       null
+      ]
+     ]
+    }
+   ]
+  }
+ ]
+}

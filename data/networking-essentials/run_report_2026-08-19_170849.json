@@ -1,0 +1,651 @@
+{
+ "started_at": "2026-08-19T17:08:49",
+ "items": [
+  {
+   "item": "1.0.1",
+   "title": "Webster - Why Should I Take this Module?",
+   "module": 1,
+   "type": "INTRODUCTION",
+   "status": "already_complete",
+   "notes": [],
+   "seconds": 11.1,
+   "outline_after": "completed"
+  },
+  {
+   "item": "1.1.1",
+   "title": "Video - Welcome to the World of Networking",
+   "module": 1,
+   "type": "VIDEO",
+   "status": "already_complete",
+   "notes": [],
+   "seconds": 7.5,
+   "outline_after": "completed"
+  },
+  {
+   "item": "1.1.8",
+   "title": "Check Your Understanding - Network Types",
+   "module": 1,
+   "type": "KNOWLEDGE_CHECK",
+   "status": "completed",
+   "notes": [],
+   "seconds": 4.9,
+   "outline_after": "completed"
+  },
+  {
+   "item": "1.2.1",
+   "title": "Video - Types of Personal Data",
+   "module": 1,
+   "type": "VIDEO",
+   "status": "already_complete",
+   "notes": [],
+   "seconds": 5.6,
+   "outline_after": "completed"
+  },
+  {
+   "item": "1.2.4",
+   "title": "Check Your Understanding - Data Transmission",
+   "module": 1,
+   "type": "KNOWLEDGE_CHECK",
+   "status": "completed",
+   "notes": [],
+   "seconds": 3.9,
+   "outline_after": "completed"
+  },
+  {
+   "item": "1.3.1",
+   "title": "Bandwidth",
+   "module": 1,
+   "type": "LESSON",
+   "status": "already_complete",
+   "notes": [],
+   "seconds": 5.3,
+   "outline_after": "completed"
+  },
+  {
+   "item": "1.3.3",
+   "title": "Video - Throughput",
+   "module": 1,
+   "type": "VIDEO",
+   "status": "completed",
+   "notes": [],
+   "seconds": 6.3,
+   "outline_after": "completed"
+  },
+  {
+   "item": "1.3.4",
+   "title": "Check Your Understanding - Bandwidth and Throughput",
+   "module": 1,
+   "type": "KNOWLEDGE_CHECK",
+   "status": "completed",
+   "notes": [],
+   "seconds": 4.2,
+   "outline_after": "completed"
+  },
+  {
+   "item": "1.4.1",
+   "title": "What Did I Learn in this Module?",
+   "module": 1,
+   "type": "INTERACTIVE",
+   "status": "completed",
+   "notes": [
+    "unit complete"
+   ],
+   "seconds": 6.7,
+   "outline_after": "completed"
+  },
+  {
+   "item": "1.4.3",
+   "title": "Communications in a Connected World Quiz",
+   "module": 1,
+   "type": "ASSESSMENT",
+   "status": "needs_user",
+   "notes": [
+    "graded assessment - never automated"
+   ],
+   "seconds": 33.3
+  },
+  {
+   "item": "2.0.1",
+   "title": "Webster - Why Should I Take this Module?",
+   "module": 2,
+   "type": "INTRODUCTION",
+   "status": "already_complete",
+   "notes": [],
+   "seconds": 9.9,
+   "outline_after": "completed"
+  },
+  {
+   "item": "2.1.1",
+   "title": "Video - Clients and Servers",
+   "module": 2,
+   "type": "VIDEO",
+   "status": "already_complete",
+   "notes": [],
+   "seconds": 5.9,
+   "outline_after": "completed"
+  },
+  {
+   "item": "2.1.6",
+   "title": "Check Your Understanding - Clients and Servers",
+   "module": 2,
+   "type": "KNOWLEDGE_CHECK",
+   "status": "completed",
+   "notes": [],
+   "seconds": 5.2,
+   "outline_after": "completed"
+  },
+  {
+   "item": "2.2.1",
+   "title": "Video - Network Infrastructure Symbols",
+   "module": 2,
+   "type": "VIDEO",
+   "status": "completed",
+   "notes": [],
+   "seconds": 7.8,
+   "outline_after": "completed"
+  },
+  {
+   "item": "2.2.3",
+   "title": "End Devices",
+   "module": 2,
+   "type": "LESSON",
+   "status": "completed",
+   "notes": [
+    "completed after scrolling into view"
+   ],
+   "seconds": 16.2,
+   "outline_after": "completed"
+  },
+  {
+   "item": "2.2.4",
+   "title": "Check Your Understanding - Network Components",
+   "module": 2,
+   "type": "KNOWLEDGE_CHECK",
+   "status": "completed",
+   "notes": [],
+   "seconds": 8.5,
+   "outline_after": "completed"
+  },
+  {
+   "item": "2.3.1",
+   "title": "ISP Services",
+   "module": 2,
+   "type": "LESSON",
+   "status": "already_complete",
+   "notes": [],
+   "seconds": 6.7,
+   "outline_after": "completed"
+  },
+  {
+   "item": "2.3.4",
+   "title": "Additional Connectivity Options",
+   "module": 2,
+   "type": "INTERACTIVE",
+   "status": "completed",
+   "notes": [
+    "unit complete"
+   ],
+   "seconds": 7.6,
+   "outline_after": "completed"
+  },
+  {
+   "item": "2.3.5",
+   "title": "Check Your Understanding - ISP Connectivity Options",
+   "module": 2,
+   "type": "KNOWLEDGE_CHECK",
+   "status": "completed",
+   "notes": [],
+   "seconds": 5.7,
+   "outline_after": "completed"
+  },
+  {
+   "item": "2.4.1",
+   "title": "What Did I Learn in this Module?",
+   "module": 2,
+   "type": "INTERACTIVE",
+   "status": "completed",
+   "notes": [
+    "unit complete"
+   ],
+   "seconds": 8.1,
+   "outline_after": "completed"
+  },
+  {
+   "item": "2.4.3",
+   "title": "Network Components, Types, and Connections Quiz",
+   "module": 2,
+   "type": "ASSESSMENT",
+   "status": "needs_user",
+   "notes": [
+    "graded assessment - never automated"
+   ],
+   "seconds": 33.4
+  },
+  {
+   "item": "3.0.1",
+   "title": "Webster - Why Should I Take this Module?",
+   "module": 3,
+   "type": "INTRODUCTION",
+   "status": "already_complete",
+   "notes": [],
+   "seconds": 6.3,
+   "outline_after": "completed"
+  },
+  {
+   "item": "3.1.1",
+   "title": "Video - Types of Wireless Networks",
+   "module": 3,
+   "type": "VIDEO",
+   "status": "already_complete",
+   "notes": [],
+   "seconds": 5.4,
+   "outline_after": "completed"
+  },
+  {
+   "item": "3.2.1",
+   "title": "Mobile Devices and Wi-Fi",
+   "module": 3,
+   "type": "LESSON",
+   "status": "already_complete",
+   "notes": [],
+   "seconds": 5.1,
+   "outline_after": "completed"
+  },
+  {
+   "item": "3.3.1",
+   "title": "What Did I Learn in this Module?",
+   "module": 3,
+   "type": "INTERACTIVE",
+   "status": "already_complete",
+   "notes": [],
+   "seconds": 4.9,
+   "outline_after": "completed"
+  },
+  {
+   "item": "3.3.3",
+   "title": "Wireless and Mobile Networks Quiz",
+   "module": 3,
+   "type": "ASSESSMENT",
+   "status": "needs_user",
+   "notes": [
+    "graded assessment - never automated"
+   ],
+   "seconds": 33.3
+  },
+  {
+   "item": "4.0.1",
+   "title": "Webster - Why Should I Take this Module?",
+   "module": 4,
+   "type": "INTRODUCTION",
+   "status": "already_complete",
+   "notes": [],
+   "seconds": 6.0,
+   "outline_after": "completed"
+  },
+  {
+   "item": "4.1.1",
+   "title": "Video - Typical Home Network Setup",
+   "module": 4,
+   "type": "VIDEO",
+   "status": "already_complete",
+   "notes": [],
+   "seconds": 5.6,
+   "outline_after": "completed"
+  },
+  {
+   "item": "4.2.1",
+   "title": "LAN Wireless Frequencies",
+   "module": 4,
+   "type": "LESSON",
+   "status": "already_complete",
+   "notes": [],
+   "seconds": 4.1,
+   "outline_after": "completed"
+  },
+  {
+   "item": "4.3.1",
+   "title": "Wi-Fi Networks",
+   "module": 4,
+   "type": "LESSON",
+   "status": "already_complete",
+   "notes": [],
+   "seconds": 3.9,
+   "outline_after": "completed"
+  },
+  {
+   "item": "4.4.1",
+   "title": "First Time Setup",
+   "module": 4,
+   "type": "LESSON",
+   "status": "already_complete",
+   "notes": [],
+   "seconds": 5.1,
+   "outline_after": "completed"
+  },
+  {
+   "item": "4.4.4",
+   "title": "Packet Tracer - Configure a Wireless Router and Client",
+   "module": 4,
+   "type": "LAB",
+   "status": "needs_user",
+   "notes": [
+    "hands-on lab - requires the student"
+   ],
+   "seconds": 3.4
+  },
+  {
+   "item": "4.5.1",
+   "title": "What Did I Learn in this Module?",
+   "module": 4,
+   "type": "INTERACTIVE",
+   "status": "already_complete",
+   "notes": [],
+   "seconds": 4.4,
+   "outline_after": "completed"
+  },
+  {
+   "item": "4.5.3",
+   "title": "Build a Home Network Quiz",
+   "module": 4,
+   "type": "ASSESSMENT",
+   "status": "needs_user",
+   "notes": [
+    "graded assessment - never automated"
+   ],
+   "seconds": 33.3
+  },
+  {
+   "item": "5.0.1",
+   "title": "Webster - Why Should I Take this Module?",
+   "module": 5,
+   "type": "INTRODUCTION",
+   "status": "already_complete",
+   "notes": [],
+   "seconds": 9.0,
+   "outline_after": "completed"
+  },
+  {
+   "item": "5.1.1",
+   "title": "Communication Protocols",
+   "module": 5,
+   "type": "INTERACTIVE",
+   "status": "already_complete",
+   "notes": [],
+   "seconds": 4.5,
+   "outline_after": "completed"
+  },
+  {
+   "item": "5.2.1",
+   "title": "Video - Devices in a Bubble",
+   "module": 5,
+   "type": "VIDEO",
+   "status": "already_complete",
+   "notes": [],
+   "seconds": 5.5,
+   "outline_after": "completed"
+  },
+  {
+   "item": "5.3.1",
+   "title": "Video - Network Protocols",
+   "module": 5,
+   "type": "VIDEO",
+   "status": "already_complete",
+   "notes": [],
+   "seconds": 5.8,
+   "outline_after": "completed"
+  },
+  {
+   "item": "5.4.1",
+   "title": "What Did I Learn in this Module?",
+   "module": 5,
+   "type": "INTERACTIVE",
+   "status": "already_complete",
+   "notes": [],
+   "seconds": 4.6,
+   "outline_after": "completed"
+  },
+  {
+   "item": "5.4.3",
+   "title": "Communications Principles Quiz",
+   "module": 5,
+   "type": "ASSESSMENT",
+   "status": "needs_user",
+   "notes": [
+    "graded assessment - never automated"
+   ],
+   "seconds": 34.2
+  },
+  {
+   "item": "6.0.1",
+   "title": "Webster - Why Should I Take this Module",
+   "module": 6,
+   "type": "INTRODUCTION",
+   "status": "already_complete",
+   "notes": [],
+   "seconds": 7.4,
+   "outline_after": "completed"
+  },
+  {
+   "item": "6.1.1",
+   "title": "Video - Network Media Types",
+   "module": 6,
+   "type": "VIDEO",
+   "status": "already_complete",
+   "notes": [],
+   "seconds": 5.7,
+   "outline_after": "completed"
+  },
+  {
+   "item": "6.2.1",
+   "title": "What Did I Learn in this Module?",
+   "module": 6,
+   "type": "SUMMARY",
+   "status": "already_complete",
+   "notes": [],
+   "seconds": 5.5,
+   "outline_after": "completed"
+  },
+  {
+   "item": "6.2.3",
+   "title": "Network Media Quiz",
+   "module": 6,
+   "type": "ASSESSMENT",
+   "status": "needs_user",
+   "notes": [
+    "graded assessment - never automated"
+   ],
+   "seconds": 34.4
+  },
+  {
+   "item": "7.0.1",
+   "title": "Webster - Why Should I Take this Module?",
+   "module": 7,
+   "type": "INTRODUCTION",
+   "status": "already_complete",
+   "notes": [],
+   "seconds": 7.2,
+   "outline_after": "completed"
+  },
+  {
+   "item": "7.1.1",
+   "title": "Video - The Fields of the Ethernet Frame",
+   "module": 7,
+   "type": "VIDEO",
+   "status": "already_complete",
+   "notes": [],
+   "seconds": 5.8,
+   "outline_after": "completed"
+  },
+  {
+   "item": "7.2.1",
+   "title": "Video - Ethernet Switches",
+   "module": 7,
+   "type": "VIDEO",
+   "status": "already_complete",
+   "notes": [],
+   "seconds": 5.6,
+   "outline_after": "completed"
+  },
+  {
+   "item": "7.3.1",
+   "title": "What Did I Learn in this Module?",
+   "module": 7,
+   "type": "INTERACTIVE",
+   "status": "already_complete",
+   "notes": [],
+   "seconds": 6.4,
+   "outline_after": "completed"
+  },
+  {
+   "item": "7.3.3",
+   "title": "The Access Layer Quiz",
+   "module": 7,
+   "type": "ASSESSMENT",
+   "status": "needs_user",
+   "notes": [
+    "graded assessment - never automated"
+   ],
+   "seconds": 34.2
+  },
+  {
+   "item": "8.0.1",
+   "title": "Webster - Why Should I Take this Module?",
+   "module": 8,
+   "type": "INTRODUCTION",
+   "status": "completed",
+   "notes": [
+    "completed after scrolling into view"
+   ],
+   "seconds": 6.6,
+   "outline_after": "completed"
+  },
+  {
+   "item": "8.0.2",
+   "title": "What Will I Learn in this Module?",
+   "module": 8,
+   "type": "INTRODUCTION",
+   "status": "already_complete",
+   "notes": [],
+   "seconds": 4.3,
+   "outline_after": "completed"
+  },
+  {
+   "item": "8.1.1",
+   "title": "The IPv4 Address",
+   "module": 8,
+   "type": "UNKNOWN",
+   "status": "unknown"
+  },
+  {
+   "item": "8.1.2",
+   "title": "Octets and Dotted-Decimal Notation",
+   "module": 8,
+   "type": "LESSON",
+   "status": "already_complete",
+   "notes": [],
+   "seconds": 3.2,
+   "outline_after": "completed"
+  },
+  {
+   "item": "8.1.3",
+   "title": "Packet Tracer - Connect to a Web Server",
+   "module": 8,
+   "type": "LAB",
+   "status": "needs_user",
+   "notes": [
+    "hands-on lab - requires the student"
+   ],
+   "seconds": 3.0
+  },
+  {
+   "item": "8.2.1",
+   "title": "Video - The IPv4 Address Structure",
+   "module": 8,
+   "type": "VIDEO",
+   "status": "completed",
+   "notes": [],
+   "seconds": 11.2,
+   "outline_after": "completed"
+  },
+  {
+   "item": "8.2.3",
+   "title": "Check Your Understanding - IPv4 Address Structure",
+   "module": 8,
+   "type": "KNOWLEDGE_CHECK",
+   "status": "completed",
+   "notes": [],
+   "seconds": 5.1,
+   "outline_after": "completed"
+  },
+  {
+   "item": "8.3.1",
+   "title": "What Did I Learn in this Module?",
+   "module": 8,
+   "type": "INTERACTIVE",
+   "status": "completed",
+   "notes": [
+    "unit complete"
+   ],
+   "seconds": 6.0,
+   "outline_after": "completed"
+  },
+  {
+   "item": "8.3.2",
+   "title": "Webster - Reflection Questions",
+   "module": 8,
+   "type": "LESSON",
+   "status": "already_complete",
+   "notes": [],
+   "seconds": 3.6,
+   "outline_after": "completed"
+  }
+ ],
+ "needs_user": [
+  {
+   "item": "1.4.3",
+   "why": "graded assessment - never automated"
+  },
+  {
+   "item": "2.4.3",
+   "why": "graded assessment - never automated"
+  },
+  {
+   "item": "3.3.3",
+   "why": "graded assessment - never automated"
+  },
+  {
+   "item": "4.4.4",
+   "why": "hands-on lab - requires the student"
+  },
+  {
+   "item": "4.5.3",
+   "why": "graded assessment - never automated"
+  },
+  {
+   "item": "5.4.3",
+   "why": "graded assessment - never automated"
+  },
+  {
+   "item": "6.2.3",
+   "why": "graded assessment - never automated"
+  },
+  {
+   "item": "7.3.3",
+   "why": "graded assessment - never automated"
+  },
+  {
+   "item": "8.1.3",
+   "why": "hands-on lab - requires the student"
+  }
+ ],
+ "failed": [
+  {
+   "item": "8.1.1",
+   "title": "The IPv4 Address",
+   "module": 8,
+   "type": "UNKNOWN",
+   "status": "unknown"
+  }
+ ],
+ "finished_at": "2026-08-19T17:19:17"
+}

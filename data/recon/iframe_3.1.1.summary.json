@@ -1,0 +1,2387 @@
+{
+  "url": "https://www.netacad.com/authoring-resources/index.html?xAPILaunchKey=ff5d0e12-6621-415a-a5d0-b817221ddfd0&xAPILaunchService=https://www.netacad.com/adl/content/&lang=en-US&moduleNumber=3#/courses/ff9e491c-49be-4734-803e-a79e6e83dab1/8bd51e4d-127e-5c87-96cc-be67cae544c9/id/3bd1358b97d8422793ecdfbe6bff806d",
+  "title": "Module {{_globals._moduleNumber}}: Wireless and Mobile Networks | 3.1. Wireless Networks",
+  "readyState": "complete",
+  "shadowHosts": [
+    "app-root",
+    "sgpulse-loader",
+    "sgpulse-nav",
+    "tooltip-view",
+    "material-icon",
+    "search-button",
+    "tooltip-view",
+    "material-icon",
+    "theme-appearance",
+    "tooltip-view",
+    "btn-lang-picker",
+    "tooltip-view",
+    "material-icon",
+    "sgpluse-close-view",
+    "tooltip-view",
+    "material-icon",
+    "course-progress-view",
+    "tooltip-view",
+    "pagelevelprogress-indicator-view[modelid=3bd1358b97d8422793ecdfbe6bff806d]",
+    "tooltip-view",
+    "page-view[modelid=3bd1358b97d8422793ecdfbe6bff806d]",
+    "base-view",
+    "heading-view#3bd1358b97d8422793ecdfbe6bff806d-heading-view[modelid=3bd1358b97d8422793ecdfbe6bff806d]",
+    "article-view[modelid=b444c61ef8d44edba004fc620a85705a]",
+    "base-view",
+    "block-view[modelid=acc1396e50e44306a54ca574ea23296a]",
+    "base-view[modelid=acc1396e50e44306a54ca574ea23296a]",
+    "text-view[modelid=724dd3ba65034dbd97ac6b4eef3673b3]",
+    "base-view",
+    "block-view[modelid=2bc496919512428fb43bc15ae30257ae]",
+    "base-view[modelid=2bc496919512428fb43bc15ae30257ae]",
+    "text-view[modelid=c2d615451e19491fbdaa1c17785019a5]",
+    "base-view",
+    "article-view[modelid=925abab214e540e3aa9282a87bd2803a]",
+    "base-view",
+    "block-view[modelid=a8d211bfa32d4f5898e7e63aec22a778]",
+    "base-view[modelid=a8d211bfa32d4f5898e7e63aec22a778]",
+    "heading-view#a8d211bfa32d4f5898e7e63aec22a778-heading-view[modelid=a8d211bfa32d4f5898e7e63aec22a778]",
+    "media-view[modelid=08db32adb24a4048b25d20ad61825795]",
+    "base-view",
+    "signed-url-transcript",
+    "block-view[modelid=96092afb42e34e42b1f31a52e9e4a38b]",
+    "base-view[modelid=96092afb42e34e42b1f31a52e9e4a38b]",
+    "heading-view#96092afb42e34e42b1f31a52e9e4a38b-heading-view[modelid=96092afb42e34e42b1f31a52e9e4a38b]",
+    "media-view[modelid=6519db81ef7944d0a7743a63e8ef8399]",
+    "base-view",
+    "signed-url-transcript",
+    "block-view[modelid=c8b2c4ef24b8476195241a6ffeae425a]",
+    "base-view[modelid=c8b2c4ef24b8476195241a6ffeae425a]",
+    "heading-view#c8b2c4ef24b8476195241a6ffeae425a-heading-view[modelid=c8b2c4ef24b8476195241a6ffeae425a]",
+    "accordion-view[modelid=1b1c180580c34396a019a14859f09737]",
+    "base-view",
+    "material-icon",
+    "component-selector",
+    "dynamic-graphic-view[modelid=2174eaf0-e30a-11ea-bd37-17e05b69d481]",
+    "base-view",
+    "inline-svg-viewer",
+    "material-icon",
+    "component-selector",
+    "dynamic-graphic-view[modelid=21797ed0-e30a-11ea-bd37-17e05b69d481]",
+    "base-view",
+    "inline-svg-viewer",
+    "material-icon",
+    "component-selector",
+    "dynamic-graphic-view[modelid=217d4f60-e30a-11ea-bd37-17e05b69d481]",
+    "base-view",
+    "inline-svg-viewer",
+    "material-icon",
+    "component-selector",
+    "dynamic-graphic-view[modelid=21814700-e30a-11ea-bd37-17e05b69d481]",
+    "base-view",
+    "inline-svg-viewer",
+    "block-view[modelid=0384b849d10648e2b1ae4918bacf13c0]",
+    "base-view[modelid=0384b849d10648e2b1ae4918bacf13c0]",
+    "blank-view[modelid=f10c7d35243c422bb9508c965326ea1e]",
+    "base-view",
+    "block-view[modelid=72cf91c0-7fa8-4033-8d80-e0191bd7bddb]",
+    "block-view[modelid=6245eb27-1840-4f7c-ad61-ff8d7248bb8e]",
+    "block-view[modelid=449a5c3d-95d5-4061-8241-a80b4580d1a5]",
+    "block-view[modelid=64bc720d-500a-4c2c-8f8f-74a8aba8f817]"
+  ],
+  "customTags": {
+    "app-root": 1,
+    "sgpulse-loader": 1,
+    "sgpulse-nav": 1,
+    "tooltip-view": 8,
+    "material-icon": 25,
+    "search-button": 1,
+    "theme-appearance": 1,
+    "btn-lang-picker": 1,
+    "sgpluse-close-view": 1,
+    "course-progress-view": 1,
+    "pagelevelprogress-indicator-view": 1,
+    "page-view": 1,
+    "base-view": 26,
+    "heading-view": 7,
+    "article-view": 4,
+    "block-view": 13,
+    "text-view": 2,
+    "media-view": 2,
+    "signed-url-transcript": 2,
+    "accordion-view": 1,
+    "component-selector": 4,
+    "dynamic-graphic-view": 4,
+    "inline-svg-viewer": 4,
+    "blank-view": 1,
+    "mcq-view": 2,
+    "buttons-view": 2,
+    "quicknav-view": 1,
+    "notify-view": 1,
+    "sgpulse-drawer": 1,
+    "health-gauge-button-view": 1
+  },
+  "bodyTextLen": 11257,
+  "idsSample": [
+    "style#ace-tm",
+    "style#ace_editor.css",
+    "script#www-widgetapi-script",
+    "script#youtube-api-script",
+    "h5#course__title-sub-title",
+    "style#customCSS",
+    "style#customCSS",
+    "style#customCSS",
+    "style#customCSS",
+    "style#customCSS",
+    "style#customCSS",
+    "style#customCSS",
+    "style#customCSS",
+    "style#customCSS",
+    "style#customCSS",
+    "style#customCSS",
+    "style#customCSS",
+    "button#closeButton",
+    "style#customCSS",
+    "style#customCSS",
+    "style#customCSS",
+    "style#customCSS",
+    "style#customCSS",
+    "style#customCSS",
+    "style#customCSS",
+    "div#Wrapper",
+    "span#foucs_content",
+    "heading-view#3bd1358b97d8422793ecdfbe6bff806d-heading-view",
+    "div#page-heading",
+    "style#customCSS",
+    "style#customCSS",
+    "style#customCSS",
+    "style#customCSS",
+    "style#customCSS",
+    "style#customCSS",
+    "style#customCSS",
+    "style#customCSS",
+    "style#customCSS",
+    "style#customCSS",
+    "style#customCSS",
+    "style#customCSS",
+    "style#customCSS",
+    "heading-view#a8d211bfa32d4f5898e7e63aec22a778-heading-view",
+    "div#block-heading",
+    "style#customCSS",
+    "style#customCSS",
+    "style#customCSS",
+    "div#my-player",
+    "video#my-player_html5_api",
+    "div#vjs-title-bar-title-668",
+    "div#vjs-title-bar-description-669",
+    "div#vjs-playback-rate-value-label-my-player_component_913",
+    "p#my-player_component_1214_description",
+    "p#my-player_component_1220_description",
+    "legend#captions-text-legend-my-player_component_1220",
+    "label#captions-foreground-color-my-player_component_1220",
+    "select#vjs_select_1246",
+    "option#captions-foreground-color-my-player_component_1220-White",
+    "option#captions-foreground-color-my-player_component_1220-Black",
+    "option#captions-foreground-color-my-player_component_1220-Red",
+    "option#captions-foreground-color-my-player_component_1220-Green",
+    "option#captions-foreground-color-my-player_component_1220-Blue",
+    "option#captions-foreground-color-my-player_component_1220-Yellow",
+    "option#captions-foreground-color-my-player_component_1220-Magenta",
+    "option#captions-foreground-color-my-player_component_1220-Cyan",
+    "label#captions-foreground-opacity-my-player_component_1220",
+    "select#vjs_select_1247",
+    "option#captions-foreground-opacity-my-player_component_1220-Opaque",
+    "option#captions-foreground-opacity-my-player_component_1220-SemiTransparent",
+    "legend#captions-background-my-player_component_1220",
+    "label#captions-background-color-my-player_component_1220",
+    "select#vjs_select_1248",
+    "option#captions-background-color-my-player_component_1220-Black",
+    "option#captions-background-color-my-player_component_1220-White",
+    "option#captions-background-color-my-player_component_1220-Red",
+    "option#captions-background-color-my-player_component_1220-Green",
+    "option#captions-background-color-my-player_component_1220-Blue",
+    "option#captions-background-color-my-player_component_1220-Yellow",
+    "option#captions-background-color-my-player_component_1220-Magenta",
+    "option#captions-background-color-my-player_component_1220-Cyan",
+    "label#captions-background-opacity-my-player_component_1220",
+    "select#vjs_select_1249",
+    "option#captions-background-opacity-my-player_component_1220-Opaque",
+    "option#captions-background-opacity-my-player_component_1220-SemiTransparent",
+    "option#captions-background-opacity-my-player_component_1220-Transparent",
+    "legend#captions-window-my-player_component_1220",
+    "label#captions-window-color-my-player_component_1220",
+    "select#vjs_select_1250",
+    "option#captions-window-color-my-player_component_1220-Black",
+    "option#captions-window-color-my-player_component_1220-White",
+    "option#captions-window-color-my-player_component_1220-Red",
+    "option#captions-window-color-my-player_component_1220-Green",
+    "option#captions-window-color-my-player_component_1220-Blue",
+    "option#captions-window-color-my-player_component_1220-Yellow",
+    "option#captions-window-color-my-player_component_1220-Magenta",
+    "option#captions-window-color-my-player_component_1220-Cyan",
+    "label#captions-window-opacity-my-player_component_1220",
+    "select#vjs_select_1251",
+    "option#captions-window-opacity-my-player_component_1220-Transparent",
+    "option#captions-window-opacity-my-player_component_1220-SemiTransparent",
+    "option#captions-window-opacity-my-player_component_1220-Opaque",
+    "legend#captions-font-size-my-player_component_1220",
+    "select#vjs_select_1252",
+    "option#captions-font-size-my-player_component_1220-50",
+    "option#captions-font-size-my-player_component_1220-75",
+    "option#captions-font-size-my-player_component_1220-100",
+    "option#captions-font-size-my-player_component_1220-125",
+    "option#captions-font-size-my-player_component_1220-150",
+    "option#captions-font-size-my-player_component_1220-175",
+    "option#captions-font-size-my-player_component_1220-200",
+    "option#captions-font-size-my-player_component_1220-300",
+    "option#captions-font-size-my-player_component_1220-400",
+    "legend#my-player_component_1220",
+    "select#vjs_select_1253",
+    "option#my-player_component_1220-None",
+    "option#my-player_component_1220-Raised",
+    "option#my-player_component_1220-Depressed",
+    "option#my-player_component_1220-Uniform",
+    "option#my-player_component_1220-Dropshadow",
+    "legend#captions-font-family-my-player_component_1220",
+    "select#vjs_select_1254",
+    "option#captions-font-family-my-player_component_1220-ProportionalSansSerif",
+    "option#captions-font-family-my-player_component_1220-MonospaceSansSerif",
+    "option#captions-font-family-my-player_component_1220-ProportionalSerif",
+    "option#captions-font-family-my-player_component_1220-MonospaceSerif",
+    "option#captions-font-family-my-player_component_1220-Casual",
+    "option#captions-font-family-my-player_component_1220-Script",
+    "option#captions-font-family-my-player_component_1220-SmallCaps",
+    "div#signed-transcript-region",
+    "li#font-size-opt-12",
+    "li#font-size-opt-16",
+    "li#font-size-opt-20",
+    "li#font-size-opt-24",
+    "li#font-size-opt-26",
+    "li#lang-opt-ro-RO",
+    "li#lang-opt-nl-NL",
+    "li#lang-opt-uk-UA",
+    "li#lang-opt-fr-FR",
+    "li#lang-opt-ar-SA",
+    "li#lang-opt-en-US",
+    "li#lang-opt-es-XL",
+    "li#lang-opt-zh-CN",
+    "li#lang-opt-pt-BR",
+    "li#lang-opt-de-DE",
+    "li#lang-opt-ja-JP",
+    "li#lang-opt-zh-HK",
+    "style#customCSS",
+    "style#customCSS",
+    "style#customCSS",
+    "heading-view#96092afb42e34e42b1f31a52e9e4a38b-heading-view"
+  ],
+  "h1": [
+    "3.1 Wireless Networks"
+  ],
+  "h2": [
+    "Module {{_globals._moduleNumber}}: Wireless and Mobile Networks"
+  ],
+  "h3": [
+    "Transcript",
+    "Transcript"
+  ],
+  "counts": {
+    "iframe": 0,
+    "video": 2,
+    "audio": 0,
+    "button": 61,
+    "a": 0,
+    "input": 11,
+    "radio": 8,
+    "checkbox": 1,
+    "roleButton": 7,
+    "roleRadio": 8,
+    "roleCheckbox": 0,
+    "ariaExpanded": 24,
+    "details": 0,
+    "tabs": 0,
+    "dataAttrs": 203,
+    "shadowHosts": 121,
+    "forms": 0,
+    "fieldset": 12
+  },
+  "iframes": [],
+  "videos": [
+    {
+      "tag": "div",
+      "text": "Play Video",
+      "attrs": {
+        "class": "video-container signed-video",
+        "data-videoids": "29396318-0bf0-41ba-b211-02bcc478853d",
+        "style": "height: 497.812px;"
+      }
+    },
+    {
+      "tag": "div",
+      "text": "Play Video",
+      "attrs": {
+        "poster": "https://dwapa7eo0o8l3.cloudfront.net/videos/29396318-0bf0-41ba-b211-02bcc478853d/versions/1/poster.jpg?Expires=1787080927&Signature=FS5SL0M1lxhqHgxkfT",
+        "class": "video-js vjs-default-skin signed-video vjs-paused vjs-controls-enabled vjs-workinghover vjs-v8 vjs-user-active my-player-dimensions vjs-hls-quality-se",
+        "data-setup": "{\"controls\": true, \"autoplay\": false, \"preload\": \"auto\",\"playbackRates\": [0.5, 0.75, 1, 1.25, 1.5, 1.75, 2]}",
+        "oncontextmenu": "return false;",
+        "preload": "metadata",
+        "playsinline": "true",
+        "id": "my-player",
+        "crossorigin": "anonymous",
+        "tabindex": "-1",
+        "role": "region",
+        "lang": "en-us",
+        "translate": "no",
+        "aria-label": "Video Player"
+      }
+    },
+    {
+      "tag": "video",
+      "text": "",
+      "attrs": {
+        "crossorigin": "anonymous",
+        "id": "my-player_html5_api",
+        "playsinline": "playsinline",
+        "preload": "auto",
+        "oncontextmenu": "return false;",
+        "data-setup": "{\"controls\": true, \"autoplay\": false, \"preload\": \"auto\",\"playbackRates\": [0.5, 0.75, 1, 1.25, 1.5, 1.75, 2]}",
+        "class": "vjs-tech",
+        "poster": "https://dwapa7eo0o8l3.cloudfront.net/videos/29396318-0bf0-41ba-b211-02bcc478853d/versions/1/poster.jpg?Expires=1787080927&Signature=FS5SL0M1lxhqHgxkfT",
+        "tabindex": "-1",
+        "role": "application",
+        "src": "blob:https://www.netacad.com/29ddc110-3b3c-4dbf-b883-a8fac53d4bda"
+      }
+    },
+    {
+      "tag": "div",
+      "text": "Play Video",
+      "attrs": {
+        "class": "video-container signed-video",
+        "data-videoids": "9bca6a75-30ae-4b1d-84ea-4d375a880782",
+        "style": "height: 497.812px;"
+      }
+    },
+    {
+      "tag": "div",
+      "text": "Play Video",
+      "attrs": {
+        "poster": "https://dwapa7eo0o8l3.cloudfront.net/videos/9bca6a75-30ae-4b1d-84ea-4d375a880782/versions/1/poster.jpg?Expires=1787080926&Signature=Pn3GFmD~5smPgWZl6b",
+        "class": "video-js vjs-default-skin signed-video vjs-paused vjs-controls-enabled vjs-workinghover vjs-v8 vjs-user-active my-player-dimensions vjs-hls-quality-se",
+        "data-setup": "{\"controls\": true, \"autoplay\": false, \"preload\": \"auto\",\"playbackRates\": [0.5, 0.75, 1, 1.25, 1.5, 1.75, 2]}",
+        "oncontextmenu": "return false;",
+        "preload": "metadata",
+        "playsinline": "true",
+        "id": "my-player",
+        "crossorigin": "anonymous",
+        "tabindex": "-1",
+        "role": "region",
+        "lang": "en-us",
+        "translate": "no",
+        "aria-label": "Video Player"
+      }
+    },
+    {
+      "tag": "video",
+      "text": "",
+      "attrs": {
+        "crossorigin": "anonymous",
+        "id": "my-player_html5_api",
+        "playsinline": "playsinline",
+        "preload": "auto",
+        "oncontextmenu": "return false;",
+        "data-setup": "{\"controls\": true, \"autoplay\": false, \"preload\": \"auto\",\"playbackRates\": [0.5, 0.75, 1, 1.25, 1.5, 1.75, 2]}",
+        "class": "vjs-tech",
+        "poster": "https://dwapa7eo0o8l3.cloudfront.net/videos/9bca6a75-30ae-4b1d-84ea-4d375a880782/versions/1/poster.jpg?Expires=1787080926&Signature=Pn3GFmD~5smPgWZl6b",
+        "tabindex": "-1",
+        "role": "application",
+        "src": "blob:https://www.netacad.com/58c457e2-1618-4e52-8a7a-67581862b745"
+      }
+    }
+  ],
+  "ariaExpanded": [
+    {
+      "tag": "button",
+      "text": "Playback Rate",
+      "attrs": {
+        "class": "vjs-playback-rate vjs-menu-button vjs-menu-button-popup vjs-button",
+        "type": "button",
+        "aria-disabled": "false",
+        "title": "Playback Rate",
+        "aria-haspopup": "true",
+        "aria-expanded": "false",
+        "aria-describedby": "vjs-playback-rate-value-label-my-player_component_913"
+      }
+    },
+    {
+      "tag": "button",
+      "text": "Chapters",
+      "attrs": {
+        "class": "vjs-chapters-button vjs-menu-button vjs-menu-button-popup vjs-button",
+        "type": "button",
+        "aria-disabled": "false",
+        "title": "Chapters",
+        "aria-haspopup": "true",
+        "aria-expanded": "false"
+      }
+    },
+    {
+      "tag": "button",
+      "text": "Descriptions",
+      "attrs": {
+        "class": "vjs-descriptions-button vjs-menu-button vjs-menu-button-popup vjs-button",
+        "type": "button",
+        "aria-disabled": "false",
+        "title": "Descriptions",
+        "aria-haspopup": "true",
+        "aria-expanded": "false"
+      }
+    },
+    {
+      "tag": "button",
+      "text": "Captions",
+      "attrs": {
+        "class": "vjs-subs-caps-button vjs-menu-button vjs-menu-button-popup vjs-button",
+        "type": "button",
+        "aria-disabled": "false",
+        "title": "Captions",
+        "aria-haspopup": "true",
+        "aria-expanded": "false"
+      }
+    },
+    {
+      "tag": "button",
+      "text": "Audio Track",
+      "attrs": {
+        "class": "vjs-audio-button vjs-menu-button vjs-menu-button-popup vjs-button",
+        "type": "button",
+        "aria-disabled": "false",
+        "title": "Audio Track",
+        "aria-haspopup": "true",
+        "aria-expanded": "false"
+      }
+    },
+    {
+      "tag": "button",
+      "text": "Show Transcript",
+      "attrs": {
+        "class": "vjs-signedTranscript-widget-toggle-btn",
+        "tabindex": "0",
+        "aria-controls": "signed-transcript-region",
+        "aria-expanded": "false"
+      }
+    },
+    {
+      "tag": "div",
+      "text": "16px (default) 12px , not selected 16px (default) , selected 20px , not selected 24px , not selected 26px , not selected",
+      "attrs": {
+        "class": "vjs-dropdown vjs-signedTranscript-widget-font-size-dropdown",
+        "role": "application",
+        "aria-expanded": "false",
+        "aria-haspopup": "true"
+      }
+    },
+    {
+      "tag": "button",
+      "text": "16px (default)",
+      "attrs": {
+        "class": "vjs-dropdown-button",
+        "aria-expanded": "false",
+        "aria-label": "Transcript Font Size Dropdown, 16px (default)"
+      }
+    },
+    {
+      "tag": "div",
+      "text": "English Română , not selected Nederlands , not selected Українська , not selected Français , not selected العربية , not selected English , selected Español , no",
+      "attrs": {
+        "class": "vjs-dropdown vjs-signedTranscript-widget-language-dropdown",
+        "role": "application",
+        "aria-expanded": "false",
+        "aria-haspopup": "true"
+      }
+    },
+    {
+      "tag": "button",
+      "text": "English",
+      "attrs": {
+        "class": "vjs-dropdown-button",
+        "aria-expanded": "false",
+        "aria-label": "Transcript Language Dropdown, English"
+      }
+    },
+    {
+      "tag": "button",
+      "text": "Playback Rate",
+      "attrs": {
+        "class": "vjs-playback-rate vjs-menu-button vjs-menu-button-popup vjs-button",
+        "type": "button",
+        "aria-disabled": "false",
+        "title": "Playback Rate",
+        "aria-haspopup": "true",
+        "aria-expanded": "false",
+        "aria-describedby": "vjs-playback-rate-value-label-my-player_component_286"
+      }
+    },
+    {
+      "tag": "button",
+      "text": "Chapters",
+      "attrs": {
+        "class": "vjs-chapters-button vjs-menu-button vjs-menu-button-popup vjs-button",
+        "type": "button",
+        "aria-disabled": "false",
+        "title": "Chapters",
+        "aria-haspopup": "true",
+        "aria-expanded": "false"
+      }
+    },
+    {
+      "tag": "button",
+      "text": "Descriptions",
+      "attrs": {
+        "class": "vjs-descriptions-button vjs-menu-button vjs-menu-button-popup vjs-button",
+        "type": "button",
+        "aria-disabled": "false",
+        "title": "Descriptions",
+        "aria-haspopup": "true",
+        "aria-expanded": "false"
+      }
+    },
+    {
+      "tag": "button",
+      "text": "Captions",
+      "attrs": {
+        "class": "vjs-subs-caps-button vjs-menu-button vjs-menu-button-popup vjs-button",
+        "type": "button",
+        "aria-disabled": "false",
+        "title": "Captions",
+        "aria-haspopup": "true",
+        "aria-expanded": "false"
+      }
+    },
+    {
+      "tag": "button",
+      "text": "Audio Track",
+      "attrs": {
+        "class": "vjs-audio-button vjs-menu-button vjs-menu-button-popup vjs-button",
+        "type": "button",
+        "aria-disabled": "false",
+        "title": "Audio Track",
+        "aria-haspopup": "true",
+        "aria-expanded": "false"
+      }
+    },
+    {
+      "tag": "button",
+      "text": "Show Transcript",
+      "attrs": {
+        "class": "vjs-signedTranscript-widget-toggle-btn",
+        "tabindex": "0",
+        "aria-controls": "signed-transcript-region",
+        "aria-expanded": "false"
+      }
+    },
+    {
+      "tag": "div",
+      "text": "16px (default) 12px , not selected 16px (default) , selected 20px , not selected 24px , not selected 26px , not selected",
+      "attrs": {
+        "class": "vjs-dropdown vjs-signedTranscript-widget-font-size-dropdown",
+        "role": "application",
+        "aria-expanded": "false",
+        "aria-haspopup": "true"
+      }
+    },
+    {
+      "tag": "button",
+      "text": "16px (default)",
+      "attrs": {
+        "class": "vjs-dropdown-button",
+        "aria-expanded": "false",
+        "aria-label": "Transcript Font Size Dropdown, 16px (default)"
+      }
+    },
+    {
+      "tag": "div",
+      "text": "English Nederlands , not selected Français , not selected Українська , not selected Română , not selected Español , not selected 简体中文 , not selected 日本語 , not s",
+      "attrs": {
+        "class": "vjs-dropdown vjs-signedTranscript-widget-language-dropdown",
+        "role": "application",
+        "aria-expanded": "false",
+        "aria-haspopup": "true"
+      }
+    },
+    {
+      "tag": "button",
+      "text": "English",
+      "attrs": {
+        "class": "vjs-dropdown-button",
+        "aria-expanded": "false",
+        "aria-label": "Transcript Language Dropdown, English"
+      }
+    },
+    {
+      "tag": "button",
+      "text": "GPS",
+      "attrs": {
+        "class": "accordion__item-btn ",
+        "aria-expanded": "false",
+        "aria-controls": "accordion-item-0",
+        "data-index": "0"
+      }
+    },
+    {
+      "tag": "button",
+      "text": "Wi-Fi",
+      "attrs": {
+        "class": "accordion__item-btn ",
+        "aria-expanded": "false",
+        "aria-controls": "accordion-item-1",
+        "data-index": "1"
+      }
+    },
+    {
+      "tag": "button",
+      "text": "Bluetooth",
+      "attrs": {
+        "class": "accordion__item-btn ",
+        "aria-expanded": "false",
+        "aria-controls": "accordion-item-2",
+        "data-index": "2"
+      }
+    },
+    {
+      "tag": "button",
+      "text": "NFC",
+      "attrs": {
+        "class": "accordion__item-btn ",
+        "aria-expanded": "false",
+        "aria-controls": "accordion-item-3",
+        "data-index": "3"
+      }
+    }
+  ],
+  "buttons": [
+    {
+      "tag": "button",
+      "text": "Skip navigation",
+      "attrs": {
+        "class": "btn-text nav__btn  nav__skip-btn",
+        "tabindex": "0",
+        "data-event": "skipNavigation",
+        "aria-label": "Skip navigation"
+      }
+    },
+    {
+      "tag": "button",
+      "text": "",
+      "attrs": {
+        "class": "nav__btn nav__back-btn  js-nav-back-btn",
+        "data-event": "backButton",
+        "aria-label": "Back"
+      }
+    },
+    {
+      "tag": "button",
+      "text": "",
+      "attrs": {
+        "class": "nav_btn btn_icon btn_right"
+      }
+    },
+    {
+      "tag": "label",
+      "text": "",
+      "attrs": {
+        "class": "switch dayNight",
+        "role": "button",
+        "tabindex": "0",
+        "aria-label": "dark mode"
+      }
+    },
+    {
+      "tag": "button",
+      "text": "",
+      "attrs": {
+        "class": "nav_btn btn_icon btn_right language_btn"
+      }
+    },
+    {
+      "tag": "button",
+      "text": "",
+      "attrs": {
+        "id": "closeButton",
+        "class": "nav_btn btn_icon btn_right nav__close-btn",
+        "data-event": "closeButton",
+        "aria-label": "Select here to close the window."
+      }
+    },
+    {
+      "tag": "button",
+      "text": "",
+      "attrs": {
+        "role": "presentation",
+        "aria-hidden": "true",
+        "class": "nav__pagelevelprogress pagelevelprogress",
+        "aria-label": "Page completion 0%"
+      }
+    },
+    {
+      "tag": "button",
+      "text": "Play Video",
+      "attrs": {
+        "class": "vjs-big-play-button",
+        "type": "button",
+        "title": "Play Video",
+        "aria-disabled": "false",
+        "aria-label": "Play Video, 3.1.1 Video - Types of Wireless Networks"
+      }
+    },
+    {
+      "tag": "button",
+      "text": "Play",
+      "attrs": {
+        "class": "vjs-play-control vjs-control vjs-button",
+        "type": "button",
+        "title": "Play",
+        "aria-disabled": "false"
+      }
+    },
+    {
+      "tag": "button",
+      "text": "Skip Backward",
+      "attrs": {
+        "class": "vjs-skip-backward-undefined vjs-control vjs-button vjs-hidden",
+        "type": "button",
+        "title": "Skip Backward",
+        "aria-disabled": "false"
+      }
+    },
+    {
+      "tag": "button",
+      "text": "Skip Forward",
+      "attrs": {
+        "class": "vjs-skip-forward-undefined vjs-control vjs-button vjs-hidden",
+        "type": "button",
+        "title": "Skip Forward",
+        "aria-disabled": "false"
+      }
+    },
+    {
+      "tag": "button",
+      "text": "Mute",
+      "attrs": {
+        "class": "vjs-mute-control vjs-control vjs-button vjs-vol-3",
+        "type": "button",
+        "title": "Mute",
+        "aria-disabled": "false"
+      }
+    },
+    {
+      "tag": "button",
+      "text": "Seek to live, currently behind liveLIVE",
+      "attrs": {
+        "class": "vjs-seek-to-live-control vjs-control",
+        "type": "button",
+        "title": "Seek to live, currently behind live",
+        "aria-disabled": "false"
+      }
+    },
+    {
+      "tag": "button",
+      "text": "Playback Rate",
+      "attrs": {
+        "class": "vjs-playback-rate vjs-menu-button vjs-menu-button-popup vjs-button",
+        "type": "button",
+        "aria-disabled": "false",
+        "title": "Playback Rate",
+        "aria-haspopup": "true",
+        "aria-expanded": "false",
+        "aria-describedby": "vjs-playback-rate-value-label-my-player_component_913"
+      }
+    },
+    {
+      "tag": "button",
+      "text": "Chapters",
+      "attrs": {
+        "class": "vjs-chapters-button vjs-menu-button vjs-menu-button-popup vjs-button",
+        "type": "button",
+        "aria-disabled": "false",
+        "title": "Chapters",
+        "aria-haspopup": "true",
+        "aria-expanded": "false"
+      }
+    },
+    {
+      "tag": "button",
+      "text": "Descriptions",
+      "attrs": {
+        "class": "vjs-descriptions-button vjs-menu-button vjs-menu-button-popup vjs-button",
+        "type": "button",
+        "aria-disabled": "false",
+        "title": "Descriptions",
+        "aria-haspopup": "true",
+        "aria-expanded": "false"
+      }
+    },
+    {
+      "tag": "button",
+      "text": "Captions",
+      "attrs": {
+        "class": "vjs-subs-caps-button vjs-menu-button vjs-menu-button-popup vjs-button",
+        "type": "button",
+        "aria-disabled": "false",
+        "title": "Captions",
+        "aria-haspopup": "true",
+        "aria-expanded": "false"
+      }
+    },
+    {
+      "tag": "button",
+      "text": "Audio Track",
+      "attrs": {
+        "class": "vjs-audio-button vjs-menu-button vjs-menu-button-popup vjs-button",
+        "type": "button",
+        "aria-disabled": "false",
+        "title": "Audio Track",
+        "aria-haspopup": "true",
+        "aria-expanded": "false"
+      }
+    },
+    {
+      "tag": "button",
+      "text": "Picture-in-Picture",
+      "attrs": {
+        "class": "vjs-picture-in-picture-control vjs-control vjs-button",
+        "type": "button",
+        "title": "Picture-in-Picture",
+        "aria-disabled": "false"
+      }
+    },
+    {
+      "tag": "button",
+      "text": "Fullscreen",
+      "attrs": {
+        "class": "vjs-fullscreen-control vjs-control vjs-button",
+        "type": "button",
+        "title": "Fullscreen",
+        "aria-disabled": "false"
+      }
+    },
+    {
+      "tag": "button",
+      "text": "Reset restore all settings to the default values",
+      "attrs": {
+        "type": "button",
+        "class": "vjs-default-button",
+        "title": "restore all settings to the default values"
+      }
+    },
+    {
+      "tag": "button",
+      "text": "Done",
+      "attrs": {
+        "type": "button",
+        "class": "vjs-done-button"
+      }
+    },
+    {
+      "tag": "button",
+      "text": "Close Modal Dialog",
+      "attrs": {
+        "class": "vjs-close-button vjs-control vjs-button",
+        "type": "button",
+        "title": "Close Modal Dialog",
+        "aria-disabled": "false"
+      }
+    },
+    {
+      "tag": "button",
+      "text": "Show Transcript",
+      "attrs": {
+        "class": "vjs-signedTranscript-widget-toggle-btn",
+        "tabindex": "0",
+        "aria-controls": "signed-transcript-region",
+        "aria-expanded": "false"
+      }
+    },
+    {
+      "tag": "button",
+      "text": "16px (default)",
+      "attrs": {
+        "class": "vjs-dropdown-button",
+        "aria-expanded": "false",
+        "aria-label": "Transcript Font Size Dropdown, 16px (default)"
+      }
+    },
+    {
+      "tag": "button",
+      "text": "English",
+      "attrs": {
+        "class": "vjs-dropdown-button",
+        "aria-expanded": "false",
+        "aria-label": "Transcript Language Dropdown, English"
+      }
+    },
+    {
+      "tag": "button",
+      "text": "",
+      "attrs": {
+        "class": "vjs-signedTranscript-widget-btn vjs-signedTranscript-widget-download-btn",
+        "role": "button",
+        "aria-label": "Download transcript",
+        "data-localize": "download",
+        "title": "Download transcript"
+      }
+    },
+    {
+      "tag": "button",
+      "text": "",
+      "attrs": {
+        "class": "vjs-signedTranscript-widget-btn vjs-signedTranscript-widget-search-btn",
+        "role": "button",
+        "aria-label": "Search transcript",
+        "data-localize": "search",
+        "title": "Search transcript"
+      }
+    },
+    {
+      "tag": "button",
+      "text": "",
+      "attrs": {
+        "class": "vjs-signedTranscript-widget-btn vjs-signedTranscript-widget-close-btn",
+        "role": "button",
+        "aria-label": "Close transcript",
+        "data-localize": "close",
+        "title": "Close transcript"
+      }
+    },
+    {
+      "tag": "button",
+      "text": "",
+      "attrs": {
+        "class": "vjs-signedTranscript-widget-btn vjs-signedTranscript-widget-clear-search-btn vjs-hidden",
+        "aria-label": "Clear search",
+        "title": "Clear search"
+      }
+    },
+    {
+      "tag": "button",
+      "text": "Play Video",
+      "attrs": {
+        "class": "vjs-big-play-button",
+        "type": "button",
+        "title": "Play Video",
+        "aria-disabled": "false",
+        "aria-label": "Play Video, 3.1.2 Video - Cell Phone Interactions with Different Networks"
+      }
+    },
+    {
+      "tag": "button",
+      "text": "Play",
+      "attrs": {
+        "class": "vjs-play-control vjs-control vjs-button",
+        "type": "button",
+        "title": "Play",
+        "aria-disabled": "false"
+      }
+    },
+    {
+      "tag": "button",
+      "text": "Skip Backward",
+      "attrs": {
+        "class": "vjs-skip-backward-undefined vjs-control vjs-button vjs-hidden",
+        "type": "button",
+        "title": "Skip Backward",
+        "aria-disabled": "false"
+      }
+    },
+    {
+      "tag": "button",
+      "text": "Skip Forward",
+      "attrs": {
+        "class": "vjs-skip-forward-undefined vjs-control vjs-button vjs-hidden",
+        "type": "button",
+        "title": "Skip Forward",
+        "aria-disabled": "false"
+      }
+    },
+    {
+      "tag": "button",
+      "text": "Mute",
+      "attrs": {
+        "class": "vjs-mute-control vjs-control vjs-button vjs-vol-3",
+        "type": "button",
+        "title": "Mute",
+        "aria-disabled": "false"
+      }
+    },
+    {
+      "tag": "button",
+      "text": "Seek to live, currently behind liveLIVE",
+      "attrs": {
+        "class": "vjs-seek-to-live-control vjs-control",
+        "type": "button",
+        "title": "Seek to live, currently behind live",
+        "aria-disabled": "false"
+      }
+    },
+    {
+      "tag": "button",
+      "text": "Playback Rate",
+      "attrs": {
+        "class": "vjs-playback-rate vjs-menu-button vjs-menu-button-popup vjs-button",
+        "type": "button",
+        "aria-disabled": "false",
+        "title": "Playback Rate",
+        "aria-haspopup": "true",
+        "aria-expanded": "false",
+        "aria-describedby": "vjs-playback-rate-value-label-my-player_component_286"
+      }
+    },
+    {
+      "tag": "button",
+      "text": "Chapters",
+      "attrs": {
+        "class": "vjs-chapters-button vjs-menu-button vjs-menu-button-popup vjs-button",
+        "type": "button",
+        "aria-disabled": "false",
+        "title": "Chapters",
+        "aria-haspopup": "true",
+        "aria-expanded": "false"
+      }
+    },
+    {
+      "tag": "button",
+      "text": "Descriptions",
+      "attrs": {
+        "class": "vjs-descriptions-button vjs-menu-button vjs-menu-button-popup vjs-button",
+        "type": "button",
+        "aria-disabled": "false",
+        "title": "Descriptions",
+        "aria-haspopup": "true",
+        "aria-expanded": "false"
+      }
+    },
+    {
+      "tag": "button",
+      "text": "Captions",
+      "attrs": {
+        "class": "vjs-subs-caps-button vjs-menu-button vjs-menu-button-popup vjs-button",
+        "type": "button",
+        "aria-disabled": "false",
+        "title": "Captions",
+        "aria-haspopup": "true",
+        "aria-expanded": "false"
+      }
+    },
+    {
+      "tag": "button",
+      "text": "Audio Track",
+      "attrs": {
+        "class": "vjs-audio-button vjs-menu-button vjs-menu-button-popup vjs-button",
+        "type": "button",
+        "aria-disabled": "false",
+        "title": "Audio Track",
+        "aria-haspopup": "true",
+        "aria-expanded": "false"
+      }
+    },
+    {
+      "tag": "button",
+      "text": "Picture-in-Picture",
+      "attrs": {
+        "class": "vjs-picture-in-picture-control vjs-control vjs-button",
+        "type": "button",
+        "title": "Picture-in-Picture",
+        "aria-disabled": "false"
+      }
+    },
+    {
+      "tag": "button",
+      "text": "Fullscreen",
+      "attrs": {
+        "class": "vjs-fullscreen-control vjs-control vjs-button",
+        "type": "button",
+        "title": "Fullscreen",
+        "aria-disabled": "false"
+      }
+    },
+    {
+      "tag": "button",
+      "text": "Reset restore all settings to the default values",
+      "attrs": {
+        "type": "button",
+        "class": "vjs-default-button",
+        "title": "restore all settings to the default values"
+      }
+    },
+    {
+      "tag": "button",
+      "text": "Done",
+      "attrs": {
+        "type": "button",
+        "class": "vjs-done-button"
+      }
+    },
+    {
+      "tag": "button",
+      "text": "Close Modal Dialog",
+      "attrs": {
+        "class": "vjs-close-button vjs-control vjs-button",
+        "type": "button",
+        "title": "Close Modal Dialog",
+        "aria-disabled": "false"
+      }
+    },
+    {
+      "tag": "button",
+      "text": "Show Transcript",
+      "attrs": {
+        "class": "vjs-signedTranscript-widget-toggle-btn",
+        "tabindex": "0",
+        "aria-controls": "signed-transcript-region",
+        "aria-expanded": "false"
+      }
+    },
+    {
+      "tag": "button",
+      "text": "16px (default)",
+      "attrs": {
+        "class": "vjs-dropdown-button",
+        "aria-expanded": "false",
+        "aria-label": "Transcript Font Size Dropdown, 16px (default)"
+      }
+    },
+    {
+      "tag": "button",
+      "text": "English",
+      "attrs": {
+        "class": "vjs-dropdown-button",
+        "aria-expanded": "false",
+        "aria-label": "Transcript Language Dropdown, English"
+      }
+    },
+    {
+      "tag": "button",
+      "text": "",
+      "attrs": {
+        "class": "vjs-signedTranscript-widget-btn vjs-signedTranscript-widget-download-btn",
+        "role": "button",
+        "aria-label": "Download transcript",
+        "data-localize": "download",
+        "title": "Download transcript"
+      }
+    },
+    {
+      "tag": "button",
+      "text": "",
+      "attrs": {
+        "class": "vjs-signedTranscript-widget-btn vjs-signedTranscript-widget-search-btn",
+        "role": "button",
+        "aria-label": "Search transcript",
+        "data-localize": "search",
+        "title": "Search transcript"
+      }
+    },
+    {
+      "tag": "button",
+      "text": "",
+      "attrs": {
+        "class": "vjs-signedTranscript-widget-btn vjs-signedTranscript-widget-close-btn",
+        "role": "button",
+        "aria-label": "Close transcript",
+        "data-localize": "close",
+        "title": "Close transcript"
+      }
+    },
+    {
+      "tag": "button",
+      "text": "",
+      "attrs": {
+        "class": "vjs-signedTranscript-widget-btn vjs-signedTranscript-widget-clear-search-btn vjs-hidden",
+        "aria-label": "Clear search",
+        "title": "Clear search"
+      }
+    },
+    {
+      "tag": "button",
+      "text": "GPS",
+      "attrs": {
+        "class": "accordion__item-btn ",
+        "aria-expanded": "false",
+        "aria-controls": "accordion-item-0",
+        "data-index": "0"
+      }
+    },
+    {
+      "tag": "button",
+      "text": "Wi-Fi",
+      "attrs": {
+        "class": "accordion__item-btn ",
+        "aria-expanded": "false",
+        "aria-controls": "accordion-item-1",
+        "data-index": "1"
+      }
+    },
+    {
+      "tag": "button",
+      "text": "Bluetooth",
+      "attrs": {
+        "class": "accordion__item-btn ",
+        "aria-expanded": "false",
+        "aria-controls": "accordion-item-2",
+        "data-index": "2"
+      }
+    },
+    {
+      "tag": "button",
+      "text": "NFC",
+      "attrs": {
+        "class": "accordion__item-btn ",
+        "aria-expanded": "false",
+        "aria-controls": "accordion-item-3",
+        "data-index": "3"
+      }
+    },
+    {
+      "tag": "button",
+      "text": "Submit",
+      "attrs": {
+        "class": "btn-text btn__action js-btn-action is-disabled",
+        "aria-label": "Submit Your answer will be submitted",
+        "disabled": ""
+      }
+    },
+    {
+      "tag": "button",
+      "text": "Show feedback",
+      "attrs": {
+        "class": "btn-text btn__action btn__feedback js-btn-feedback is-disabled",
+        "disabled": "",
+        "aria-label": "Show feedback",
+        "aria-disabled": "true"
+      }
+    },
+    {
+      "tag": "button",
+      "text": "Submit",
+      "attrs": {
+        "class": "btn-text btn__action js-btn-action is-disabled",
+        "aria-label": "Submit Your answer will be submitted",
+        "disabled": ""
+      }
+    },
+    {
+      "tag": "button",
+      "text": "Show feedback",
+      "attrs": {
+        "class": "btn-text btn__action btn__feedback js-btn-feedback is-disabled",
+        "disabled": "",
+        "aria-label": "Show feedback",
+        "aria-disabled": "true"
+      }
+    },
+    {
+      "tag": "button",
+      "text": "The health gauge reflects your performance during the course You now have 0% health 0",
+      "attrs": {
+        "aria-haspopup": "true",
+        "aria-describedby": "healthgauge-description",
+        "class": "healthgauge-button element-color-control",
+        "aria-label": "Health Gauge",
+        "title": "You now have 0% health"
+      }
+    }
+  ],
+  "inputs": [
+    {
+      "tag": "input",
+      "text": "",
+      "attrs": {
+        "type": "checkbox",
+        "class": "toggleTheme"
+      }
+    },
+    {
+      "tag": "select",
+      "text": "WhiteBlackRedGreenBlueYellowMagentaCyan",
+      "attrs": {
+        "aria-labelledby": "captions-text-legend-my-player_component_1220 captions-foreground-color-my-player_component_1220",
+        "id": "vjs_select_1246"
+      }
+    },
+    {
+      "tag": "select",
+      "text": "OpaqueSemi-Transparent",
+      "attrs": {
+        "aria-labelledby": "captions-text-legend-my-player_component_1220 captions-foreground-opacity-my-player_component_1220",
+        "id": "vjs_select_1247"
+      }
+    },
+    {
+      "tag": "select",
+      "text": "BlackWhiteRedGreenBlueYellowMagentaCyan",
+      "attrs": {
+        "aria-labelledby": "captions-background-my-player_component_1220 captions-background-color-my-player_component_1220",
+        "id": "vjs_select_1248"
+      }
+    },
+    {
+      "tag": "select",
+      "text": "OpaqueSemi-TransparentTransparent",
+      "attrs": {
+        "aria-labelledby": "captions-background-my-player_component_1220 captions-background-opacity-my-player_component_1220",
+        "id": "vjs_select_1249"
+      }
+    },
+    {
+      "tag": "select",
+      "text": "BlackWhiteRedGreenBlueYellowMagentaCyan",
+      "attrs": {
+        "aria-labelledby": "captions-window-my-player_component_1220 captions-window-color-my-player_component_1220",
+        "id": "vjs_select_1250"
+      }
+    },
+    {
+      "tag": "select",
+      "text": "TransparentSemi-TransparentOpaque",
+      "attrs": {
+        "aria-labelledby": "captions-window-my-player_component_1220 captions-window-opacity-my-player_component_1220",
+        "id": "vjs_select_1251"
+      }
+    },
+    {
+      "tag": "select",
+      "text": "50%75%100%125%150%175%200%300%400%",
+      "attrs": {
+        "aria-labelledby": "captions-font-size-my-player_component_1220",
+        "id": "vjs_select_1252"
+      }
+    },
+    {
+      "tag": "select",
+      "text": "NoneRaisedDepressedUniformDrop shadow",
+      "attrs": {
+        "aria-labelledby": "my-player_component_1220",
+        "id": "vjs_select_1253"
+      }
+    },
+    {
+      "tag": "select",
+      "text": "Proportional Sans-SerifMonospace Sans-SerifProportional SerifMonospace SerifCasualScriptSmall Caps",
+      "attrs": {
+        "aria-labelledby": "captions-font-family-my-player_component_1220",
+        "id": "vjs_select_1254"
+      }
+    },
+    {
+      "tag": "input",
+      "text": "",
+      "attrs": {
+        "class": "vjs-signedTranscript-widget-search-input",
+        "type": "text",
+        "placeholder": "Search transcript...",
+        "aria-label": "Search transcript..."
+      }
+    },
+    {
+      "tag": "select",
+      "text": "WhiteBlackRedGreenBlueYellowMagentaCyan",
+      "attrs": {
+        "aria-labelledby": "captions-text-legend-my-player_component_596 captions-foreground-color-my-player_component_596",
+        "id": "vjs_select_622"
+      }
+    },
+    {
+      "tag": "select",
+      "text": "OpaqueSemi-Transparent",
+      "attrs": {
+        "aria-labelledby": "captions-text-legend-my-player_component_596 captions-foreground-opacity-my-player_component_596",
+        "id": "vjs_select_623"
+      }
+    },
+    {
+      "tag": "select",
+      "text": "BlackWhiteRedGreenBlueYellowMagentaCyan",
+      "attrs": {
+        "aria-labelledby": "captions-background-my-player_component_596 captions-background-color-my-player_component_596",
+        "id": "vjs_select_624"
+      }
+    },
+    {
+      "tag": "select",
+      "text": "OpaqueSemi-TransparentTransparent",
+      "attrs": {
+        "aria-labelledby": "captions-background-my-player_component_596 captions-background-opacity-my-player_component_596",
+        "id": "vjs_select_625"
+      }
+    },
+    {
+      "tag": "select",
+      "text": "BlackWhiteRedGreenBlueYellowMagentaCyan",
+      "attrs": {
+        "aria-labelledby": "captions-window-my-player_component_596 captions-window-color-my-player_component_596",
+        "id": "vjs_select_626"
+      }
+    },
+    {
+      "tag": "select",
+      "text": "TransparentSemi-TransparentOpaque",
+      "attrs": {
+        "aria-labelledby": "captions-window-my-player_component_596 captions-window-opacity-my-player_component_596",
+        "id": "vjs_select_627"
+      }
+    },
+    {
+      "tag": "select",
+      "text": "50%75%100%125%150%175%200%300%400%",
+      "attrs": {
+        "aria-labelledby": "captions-font-size-my-player_component_596",
+        "id": "vjs_select_628"
+      }
+    },
+    {
+      "tag": "select",
+      "text": "NoneRaisedDepressedUniformDrop shadow",
+      "attrs": {
+        "aria-labelledby": "my-player_component_596",
+        "id": "vjs_select_629"
+      }
+    },
+    {
+      "tag": "select",
+      "text": "Proportional Sans-SerifMonospace Sans-SerifProportional SerifMonospace SerifCasualScriptSmall Caps",
+      "attrs": {
+        "aria-labelledby": "captions-font-family-my-player_component_596",
+        "id": "vjs_select_630"
+      }
+    },
+    {
+      "tag": "input",
+      "text": "",
+      "attrs": {
+        "class": "vjs-signedTranscript-widget-search-input",
+        "type": "text",
+        "placeholder": "Search transcript...",
+        "aria-label": "Search transcript..."
+      }
+    },
+    {
+      "tag": "div",
+      "text": "Bluetooth 1 of 4",
+      "attrs": {
+        "class": "mcq__item js-mcq-item item-3 ",
+        "tabindex": "0",
+        "role": "radio",
+        "aria-checked": "false",
+        "aria-labelledby": "b123dea13cd8499bbdd61dff49ba00c1-3-label",
+        "aria-posinset": "1",
+        "aria-setsize": "4",
+        "data-socialgoodpulse-index": "3"
+      }
+    },
+    {
+      "tag": "input",
+      "text": "",
+      "attrs": {
+        "class": "mcq__item-input js-item-input",
+        "tabindex": "-1",
+        "aria-hidden": "true",
+        "id": "b123dea13cd8499bbdd61dff49ba00c1-3-input",
+        "name": "b123dea13cd8499bbdd61dff49ba00c1-item",
+        "type": "radio",
+        "data-socialgoodpulse-index": "3"
+      }
+    },
+    {
+      "tag": "div",
+      "text": "NFC 2 of 4",
+      "attrs": {
+        "class": "mcq__item js-mcq-item item-0 ",
+        "tabindex": "0",
+        "role": "radio",
+        "aria-checked": "false",
+        "aria-labelledby": "b123dea13cd8499bbdd61dff49ba00c1-0-label",
+        "aria-posinset": "2",
+        "aria-setsize": "4",
+        "data-socialgoodpulse-index": "0"
+      }
+    },
+    {
+      "tag": "input",
+      "text": "",
+      "attrs": {
+        "class": "mcq__item-input js-item-input",
+        "tabindex": "-1",
+        "aria-hidden": "true",
+        "id": "b123dea13cd8499bbdd61dff49ba00c1-0-input",
+        "name": "b123dea13cd8499bbdd61dff49ba00c1-item",
+        "type": "radio",
+        "data-socialgoodpulse-index": "0"
+      }
+    },
+    {
+      "tag": "div",
+      "text": "GPS 3 of 4",
+      "attrs": {
+        "class": "mcq__item js-mcq-item item-1 ",
+        "tabindex": "0",
+        "role": "radio",
+        "aria-checked": "false",
+        "aria-labelledby": "b123dea13cd8499bbdd61dff49ba00c1-1-label",
+        "aria-posinset": "3",
+        "aria-setsize": "4",
+        "data-socialgoodpulse-index": "1"
+      }
+    },
+    {
+      "tag": "input",
+      "text": "",
+      "attrs": {
+        "class": "mcq__item-input js-item-input",
+        "tabindex": "-1",
+        "aria-hidden": "true",
+        "id": "b123dea13cd8499bbdd61dff49ba00c1-1-input",
+        "name": "b123dea13cd8499bbdd61dff49ba00c1-item",
+        "type": "radio",
+        "data-socialgoodpulse-index": "1"
+      }
+    },
+    {
+      "tag": "div",
+      "text": "Wi-Fi 4 of 4",
+      "attrs": {
+        "class": "mcq__item js-mcq-item item-2 ",
+        "tabindex": "0",
+        "role": "radio",
+        "aria-checked": "false",
+        "aria-labelledby": "b123dea13cd8499bbdd61dff49ba00c1-2-label",
+        "aria-posinset": "4",
+        "aria-setsize": "4",
+        "data-socialgoodpulse-index": "2"
+      }
+    },
+    {
+      "tag": "input",
+      "text": "",
+      "attrs": {
+        "class": "mcq__item-input js-item-input",
+        "tabindex": "-1",
+        "aria-hidden": "true",
+        "id": "b123dea13cd8499bbdd61dff49ba00c1-2-input",
+        "name": "b123dea13cd8499bbdd61dff49ba00c1-item",
+        "type": "radio",
+        "data-socialgoodpulse-index": "2"
+      }
+    },
+    {
+      "tag": "div",
+      "text": "NFC 1 of 4",
+      "attrs": {
+        "class": "mcq__item js-mcq-item item-0 ",
+        "tabindex": "0",
+        "role": "radio",
+        "aria-checked": "false",
+        "aria-labelledby": "787da42455fa44b3a9d5a25e7f6fcace-0-label",
+        "aria-posinset": "1",
+        "aria-setsize": "4",
+        "data-socialgoodpulse-index": "0"
+      }
+    },
+    {
+      "tag": "input",
+      "text": "",
+      "attrs": {
+        "class": "mcq__item-input js-item-input",
+        "tabindex": "-1",
+        "aria-hidden": "true",
+        "id": "787da42455fa44b3a9d5a25e7f6fcace-0-input",
+        "name": "787da42455fa44b3a9d5a25e7f6fcace-item",
+        "type": "radio",
+        "data-socialgoodpulse-index": "0"
+      }
+    },
+    {
+      "tag": "div",
+      "text": "Bluetooth 2 of 4",
+      "attrs": {
+        "class": "mcq__item js-mcq-item item-3 ",
+        "tabindex": "0",
+        "role": "radio",
+        "aria-checked": "false",
+        "aria-labelledby": "787da42455fa44b3a9d5a25e7f6fcace-3-label",
+        "aria-posinset": "2",
+        "aria-setsize": "4",
+        "data-socialgoodpulse-index": "3"
+      }
+    },
+    {
+      "tag": "input",
+      "text": "",
+      "attrs": {
+        "class": "mcq__item-input js-item-input",
+        "tabindex": "-1",
+        "aria-hidden": "true",
+        "id": "787da42455fa44b3a9d5a25e7f6fcace-3-input",
+        "name": "787da42455fa44b3a9d5a25e7f6fcace-item",
+        "type": "radio",
+        "data-socialgoodpulse-index": "3"
+      }
+    },
+    {
+      "tag": "div",
+      "text": "Wi-Fi 3 of 4",
+      "attrs": {
+        "class": "mcq__item js-mcq-item item-2 ",
+        "tabindex": "0",
+        "role": "radio",
+        "aria-checked": "false",
+        "aria-labelledby": "787da42455fa44b3a9d5a25e7f6fcace-2-label",
+        "aria-posinset": "3",
+        "aria-setsize": "4",
+        "data-socialgoodpulse-index": "2"
+      }
+    },
+    {
+      "tag": "input",
+      "text": "",
+      "attrs": {
+        "class": "mcq__item-input js-item-input",
+        "tabindex": "-1",
+        "aria-hidden": "true",
+        "id": "787da42455fa44b3a9d5a25e7f6fcace-2-input",
+        "name": "787da42455fa44b3a9d5a25e7f6fcace-item",
+        "type": "radio",
+        "data-socialgoodpulse-index": "2"
+      }
+    },
+    {
+      "tag": "div",
+      "text": "GPS 4 of 4",
+      "attrs": {
+        "class": "mcq__item js-mcq-item item-1 ",
+        "tabindex": "0",
+        "role": "radio",
+        "aria-checked": "false",
+        "aria-labelledby": "787da42455fa44b3a9d5a25e7f6fcace-1-label",
+        "aria-posinset": "4",
+        "aria-setsize": "4",
+        "data-socialgoodpulse-index": "1"
+      }
+    },
+    {
+      "tag": "input",
+      "text": "",
+      "attrs": {
+        "class": "mcq__item-input js-item-input",
+        "tabindex": "-1",
+        "aria-hidden": "true",
+        "id": "787da42455fa44b3a9d5a25e7f6fcace-1-input",
+        "name": "787da42455fa44b3a9d5a25e7f6fcace-item",
+        "type": "radio",
+        "data-socialgoodpulse-index": "1"
+      }
+    }
+  ],
+  "fieldsets": [
+    {
+      "tag": "fieldset",
+      "text": "TextColorWhiteBlackRedGreenBlueYellowMagentaCyanOpacityOpaqueSemi-Transparent",
+      "attrs": {
+        "class": "vjs-fg vjs-track-setting"
+      }
+    },
+    {
+      "tag": "legend",
+      "text": "Text",
+      "attrs": {
+        "id": "captions-text-legend-my-player_component_1220"
+      }
+    },
+    {
+      "tag": "fieldset",
+      "text": "Text BackgroundColorBlackWhiteRedGreenBlueYellowMagentaCyanOpacityOpaqueSemi-TransparentTransparent",
+      "attrs": {
+        "class": "vjs-bg vjs-track-setting"
+      }
+    },
+    {
+      "tag": "legend",
+      "text": "Text Background",
+      "attrs": {
+        "id": "captions-background-my-player_component_1220"
+      }
+    },
+    {
+      "tag": "fieldset",
+      "text": "Caption Area BackgroundColorBlackWhiteRedGreenBlueYellowMagentaCyanOpacityTransparentSemi-TransparentOpaque",
+      "attrs": {
+        "class": "vjs-window vjs-track-setting"
+      }
+    },
+    {
+      "tag": "legend",
+      "text": "Caption Area Background",
+      "attrs": {
+        "id": "captions-window-my-player_component_1220"
+      }
+    },
+    {
+      "tag": "fieldset",
+      "text": "Font Size50%75%100%125%150%175%200%300%400%",
+      "attrs": {
+        "class": "vjs-font-percent vjs-track-setting"
+      }
+    },
+    {
+      "tag": "legend",
+      "text": "Font Size",
+      "attrs": {
+        "id": "captions-font-size-my-player_component_1220"
+      }
+    },
+    {
+      "tag": "fieldset",
+      "text": "Text Edge StyleNoneRaisedDepressedUniformDrop shadow",
+      "attrs": {
+        "class": "vjs-edge-style vjs-track-setting"
+      }
+    },
+    {
+      "tag": "legend",
+      "text": "Text Edge Style",
+      "attrs": {
+        "id": "my-player_component_1220"
+      }
+    },
+    {
+      "tag": "fieldset",
+      "text": "Font FamilyProportional Sans-SerifMonospace Sans-SerifProportional SerifMonospace SerifCasualScriptSmall Caps",
+      "attrs": {
+        "class": "vjs-font-family vjs-track-setting"
+      }
+    },
+    {
+      "tag": "legend",
+      "text": "Font Family",
+      "attrs": {
+        "id": "captions-font-family-my-player_component_1220"
+      }
+    },
+    {
+      "tag": "fieldset",
+      "text": "TextColorWhiteBlackRedGreenBlueYellowMagentaCyanOpacityOpaqueSemi-Transparent",
+      "attrs": {
+        "class": "vjs-fg vjs-track-setting"
+      }
+    },
+    {
+      "tag": "legend",
+      "text": "Text",
+      "attrs": {
+        "id": "captions-text-legend-my-player_component_596"
+      }
+    },
+    {
+      "tag": "fieldset",
+      "text": "Text BackgroundColorBlackWhiteRedGreenBlueYellowMagentaCyanOpacityOpaqueSemi-TransparentTransparent",
+      "attrs": {
+        "class": "vjs-bg vjs-track-setting"
+      }
+    },
+    {
+      "tag": "legend",
+      "text": "Text Background",
+      "attrs": {
+        "id": "captions-background-my-player_component_596"
+      }
+    },
+    {
+      "tag": "fieldset",
+      "text": "Caption Area BackgroundColorBlackWhiteRedGreenBlueYellowMagentaCyanOpacityTransparentSemi-TransparentOpaque",
+      "attrs": {
+        "class": "vjs-window vjs-track-setting"
+      }
+    },
+    {
+      "tag": "legend",
+      "text": "Caption Area Background",
+      "attrs": {
+        "id": "captions-window-my-player_component_596"
+      }
+    },
+    {
+      "tag": "fieldset",
+      "text": "Font Size50%75%100%125%150%175%200%300%400%",
+      "attrs": {
+        "class": "vjs-font-percent vjs-track-setting"
+      }
+    },
+    {
+      "tag": "legend",
+      "text": "Font Size",
+      "attrs": {
+        "id": "captions-font-size-my-player_component_596"
+      }
+    },
+    {
+      "tag": "fieldset",
+      "text": "Text Edge StyleNoneRaisedDepressedUniformDrop shadow",
+      "attrs": {
+        "class": "vjs-edge-style vjs-track-setting"
+      }
+    },
+    {
+      "tag": "legend",
+      "text": "Text Edge Style",
+      "attrs": {
+        "id": "my-player_component_596"
+      }
+    },
+    {
+      "tag": "fieldset",
+      "text": "Font FamilyProportional Sans-SerifMonospace Sans-SerifProportional SerifMonospace SerifCasualScriptSmall Caps",
+      "attrs": {
+        "class": "vjs-font-family vjs-track-setting"
+      }
+    },
+    {
+      "tag": "legend",
+      "text": "Font Family",
+      "attrs": {
+        "id": "captions-font-family-my-player_component_596"
+      }
+    },
+    {
+      "tag": "div",
+      "text": "Question 1 Bluetooth 1 of 4 NFC 2 of 4 GPS 3 of 4 Wi-Fi 4 of 4",
+      "attrs": {
+        "data-socialgoodpulse-id": "b123dea13cd8499bbdd61dff49ba00c1",
+        "class": "component__inner mcq__inner component is-question mcq b123dea13cd8499bbdd61dff49ba00c1  is-full   can-show-model-answer can-show-feedback can-show-mar"
+      }
+    },
+    {
+      "tag": "div",
+      "text": "Question 2 NFC 1 of 4 Bluetooth 2 of 4 Wi-Fi 3 of 4 GPS 4 of 4",
+      "attrs": {
+        "data-socialgoodpulse-id": "787da42455fa44b3a9d5a25e7f6fcace",
+        "class": "component__inner mcq__inner component is-question mcq 787da42455fa44b3a9d5a25e7f6fcace  is-full   can-show-model-answer can-show-feedback can-show-mar"
+      }
+    }
+  ],
+  "dataAttrNames": [
+    "data-cue-id",
+    "data-currentvideoid",
+    "data-end",
+    "data-event",
+    "data-index",
+    "data-localize",
+    "data-location",
+    "data-pct",
+    "data-setup",
+    "data-socialgoodpulse-id",
+    "data-socialgoodpulse-index",
+    "data-start",
+    "data-text",
+    "data-value",
+    "data-videoids"
+  ],
+  "classPrefixesTop": [
+    [
+      "",
+      191
+    ],
+    [
+      "vjs",
+      182
+    ],
+    [
+      "vjs-control",
+      96
+    ],
+    [
+      "vjs-menu",
+      78
+    ],
+    [
+      "vjs-signedTranscript-widget-content-container-cue",
+      71
+    ],
+    [
+      "mcq__item",
+      48
+    ],
+    [
+      "vjs-menu-item",
+      46
+    ],
+    [
+      "component__header",
+      36
+    ],
+    [
+      "vjs-dropdown-menu",
+      34
+    ],
+    [
+      "vjs-icon-placeholder",
+      28
+    ],
+    [
+      "block__header",
+      27
+    ],
+    [
+      "material",
+      25
+    ],
+    [
+      "is",
+      24
+    ],
+    [
+      "vjs-subtitles-menu",
+      24
+    ],
+    [
+      "vjs-menu-button",
+      20
+    ],
+    [
+      "component__header-container",
+      18
+    ],
+    [
+      "tooltip",
+      16
+    ],
+    [
+      "accordion__item",
+      16
+    ],
+    [
+      "js-item",
+      16
+    ],
+    [
+      "component__body",
+      14
+    ],
+    [
+      "background-color",
+      14
+    ],
+    [
+      "vjs-time",
+      14
+    ],
+    [
+      "component",
+      13
+    ],
+    [
+      "aria",
+      12
+    ],
+    [
+      "article__header",
+      12
+    ],
+    [
+      "vjs-track",
+      12
+    ],
+    [
+      "vjs-dropdown",
+      12
+    ],
+    [
+      "select-triangle",
+      12
+    ],
+    [
+      "remove-padding-top",
+      11
+    ],
+    [
+      "component__widget",
+      11
+    ],
+    [
+      "item-color",
+      10
+    ],
+    [
+      "block",
+      9
+    ],
+    [
+      "block__inner",
+      9
+    ],
+    [
+      "component__container",
+      9
+    ],
+    [
+      "tooltip-container",
+      8
+    ],
+    [
+      "nav_btn",
+      8
+    ],
+    [
+      "is-complete",
+      8
+    ],
+    [
+      "component__inner",
+      8
+    ],
+    [
+      "vjs-volume",
+      8
+    ],
+    [
+      "vjs-selected",
+      8
+    ],
+    [
+      "vjs-signedTranscript-widget-btn",
+      8
+    ],
+    [
+      "accordion__item-body",
+      8
+    ],
+    [
+      "undefined",
+      8
+    ],
+    [
+      "dynamic-graphic__header",
+      8
+    ],
+    [
+      "dynamic-graphic",
+      8
+    ],
+    [
+      "dynamic-image",
+      8
+    ],
+    [
+      "js-mcq",
+      8
+    ],
+    [
+      "mcq__item-answer",
+      8
+    ],
+    [
+      "radio_button_unchecked",
+      8
+    ],
+    [
+      "mcq-icon",
+      8
+    ],
+    [
+      "mcq__item-text",
+      8
+    ],
+    [
+      "screenReader-position",
+      8
+    ],
+    [
+      "js",
+      7
+    ],
+    [
+      "is-incomplete",
+      7
+    ],
+    [
+      "js-heading",
+      7
+    ],
+    [
+      "accessibility-completion-indicator",
+      7
+    ],
+    [
+      "component__content",
+      7
+    ],
+    [
+      "no-element-backgrounds",
+      6
+    ],
+    [
+      "block__title",
+      6
+    ],
+    [
+      "vjs-bg",
+      6
+    ],
+    [
+      "vjs-signedTranscript-widget-content-container",
+      6
+    ],
+    [
+      "csscolumns",
+      5
+    ],
+    [
+      "nav__inner",
+      5
+    ],
+    [
+      "btn",
+      5
+    ],
+    [
+      "btn_icon",
+      5
+    ],
+    [
+      "is-undefined",
+      5
+    ],
+    [
+      "btn_right",
+      4
+    ],
+    [
+      "background",
+      4
+    ],
+    [
+      "article",
+      4
+    ],
+    [
+      "article__inner",
+      4
+    ],
+    [
+      "no-adaptive",
+      4
+    ],
+    [
+      "block__container",
+      4
+    ],
+    [
+      "text",
+      4
+    ],
+    [
+      "text__header",
+      4
+    ],
+    [
+      "text__body",
+      4
+    ],
+    [
+      "media",
+      4
+    ],
+    [
+      "media__header",
+      4
+    ],
+    [
+      "media__body",
+      4
+    ],
+    [
+      "signed",
+      4
+    ],
+    [
+      "vjs-default",
+      4
+    ],
+    [
+      "vjs-title-bar",
+      4
+    ],
+    [
+      "vjs-slider-bar",
+      4
+    ],
+    [
+      "vjs-slider-horizontal",
+      4
+    ],
+    [
+      "vjs-mouse",
+      4
+    ],
+    [
+      "vjs-duration",
+      4
+    ],
+    [
+      "vjs-progress",
+      4
+    ],
+    [
+      "vjs-live",
+      4
+    ],
+    [
+      "vjs-seek-to-live",
+      4
+    ],
+    [
+      "vjs-playback",
+      4
+    ],
+    [
+      "vjs-chapters",
+      4
+    ],
+    [
+      "vjs-descriptions",
+      4
+    ],
+    [
+      "vjs-subs-caps",
+      4
+    ],
+    [
+      "vjs-audio",
+      4
+    ],
+    [
+      "vjs-modal",
+      4
+    ],
+    [
+      "vjs-modal-dialog-description",
+      4
+    ],
+    [
+      "vjs-modal-dialog",
+      4
+    ],
+    [
+      "vjs-track-settings",
+      4
+    ],
+    [
+      "vjs-text",
+      4
+    ],
+    [
+      "vjs-window",
+      4
+    ],
+    [
+      "vjs-font",
+      4
+    ],
+    [
+      "selected",
+      4
+    ],
+    [
+      "component__item",
+      4
+    ],
+    [
+      "accordion__item-btn",
+      4
+    ],
+    [
+      "accordion__item-title",
+      4
+    ],
+    [
+      "hide_accordion",
+      4
+    ],
+    [
+      "dynamic",
+      4
+    ],
+    [
+      "a11y_description",
+      4
+    ],
+    [
+      "screen-reader",
+      4
+    ],
+    [
+      "dynamic-graphic-container",
+      4
+    ],
+    [
+      "overlay",
+      4
+    ],
+    [
+      "removed",
+      4
+    ],
+    [
+      "primary-image",
+      4
+    ],
+    [
+      "below-primary",
+      4
+    ],
+    [
+      "mobile-cisco-logo",
+      4
+    ],
+    [
+      "mcq__header",
+      4
+    ],
+    [
+      "component__title",
+      4
+    ],
+    [
+      "mcq__title",
+      4
+    ],
+    [
+      "mcq__body",
+      4
+    ],
+    [
+      "mcq__widget",
+      4
+    ],
+    [
+      "btn__action",
+      4
+    ]
+  ],
+  "scrollers": [
+    {
+      "tag": "html",
+      "id": "",
+      "cls": "no-touchevents csscolumns csscolumns-width csscolumns-span csscolumns-fill csscolumns-gap csscolumns",
+      "sh": 5787,
+      "ch": 667
+    }
+  ],
+  "bodyText": "Module {{_globals._moduleNumber}}: Wireless and Mobile Networks Skip navigation arrow_back search language exit_to_app 1 / 4 Incomplete 3.1. Wireless Networks Incomplete 3.1. Wireless Networks Describe the different types of networks used by cell phones and mobile devices. 3.1 Wireless Networks Scroll to begin Incomplete 3.1.1 Video - Types of Wireless Networks Incomplete 3.1.1 Video - Types of Wireless Networks Press the Play button to watch the video. Video Player is loading. Play Video Play Skip Backward Skip Forward Mute Current TimeÂ 0:00 / DurationÂ 2:12 Loaded : 7.53% 0:00 Stream TypeÂ LIVE Seek to live, currently behind live LIVE Remaining TimeÂ - 2:12 Â 1x Playback Rate 2x 1.75x 1.5x 1.25x 1x , selected 0.75x 0.5x Chapters Chapters Descriptions descriptions off , selected Captions captions settings , opens captions settings dialog captions off , selected Română Nederlands Українська Français العربية English Español 简体中文 Português (Brasil) Deutsch 日本語 繁體中文 Audio Track default , selected Picture-in-Picture Fullscreen This is a modal window. Beginning of dialog window. Escape will cancel and close the window. Text Color White Black Red Green Blue Yellow Magenta Cyan Opacity Opaque Semi-Transparent Text Background Color Black White Red Green Blue Yellow Magenta Cyan Opacity Opaque Semi-Transparent Transparent Caption Area Background Color Black White Red Green Blue Yellow Magenta Cyan Opacity Transparent Semi-Transparent Opaque Font Size 50% 75% 100% 125% 150% 175% 200% 300% 400% Text Edge Style None Raised Depressed Uniform Drop shadow Font Family Proportional Sans-Serif Monospace Sans-Serif Proportional Serif Monospace Serif Casual Script Small Caps Reset restore all settings to the default values Done Close Modal Dialog End of dialog window. Transcript Follow along using the transcript. Show Transcript Transcript 16 px (default) 12 px , not selected 16 px (default) , selected 20 px , not selected 24 px , not selected 26 px , not selected English Română , not selected Nederlands , not selected Українська , not selected Français , not selected العربية , not selected English , selected Español , not selected 简体中文 , not selected Português (Brasil) , not selected Deutsch , not selected 日本語 , not selected 繁體中文 , not selected No results found. 00:06 - Our cell phones communicate on many different networks. 00:09 When we're communicating over the voice channel, 00:13 and we're talking say to someone on another cell phone, 00:17 our communications are going through the 00:20 cellular provider network. 00:22 When we use a bluetooth device 00:24 like a speaker or a headset or even a smart watch, 00:29 that device is communicating through a 00:31 completely different network. 00:34 It is a much shorter range wireless network 00:38 than the cellular network, and it works 00:41 with different rules and different protocols. 00:44 Wi-Fi is something you are probably the most familiar 00:47 because Wi-Fi is supported on 00:49 many different types of devices, including smartphones. 00:52 When we are working on a Wi-Fi network 00:56 we are usually using that network to 00:59 communicate over the global internet. 01:02 And lastly we have near field communications. 01:06 Near field communications allow us to 01:08 send information over an extremely short distance. 01:13 This is how you might use your cellphone 01:16 to pay for something, you know, in a grocery store 01:19 or a fast food restaurant. 01:23 Basically all of these communications, protocols, rules 01:27 and frequencies are contained within the same device. 01:32 As far as I'm concerned it's pretty amazing. 01:35 Now there is one other thing that your cellphone does, 01:38 and that is, it is capable of receiving GPS signals. 01:42 What's happening is your cellphone is actually 01:45 receiving signals from satellites that are 01:47 stationed all around the Earth. 01:51 And they send signals down to the various devices 01:55 that have GPS capability. 01:57 And when they do, your cellphone is able to figure out 02:01 where it is, usually within a few meters. 02:05 All of these things may actually 02:07 be happening simultaneously. Incomplete 3.1.2 Video - Cell Phone Interactions with Different Networks Incomplete 3.1.2 Video - Cell Phone Interactions with Different Networks Press the Play button to watch the video. Video Player is loading. Play Video Play Skip Backward Skip Forward Mute Current TimeÂ 0:00 / DurationÂ 2:51 Loaded : 5.85% 0:00 Stream TypeÂ LIVE Seek to live, currently behind live LIVE Remaining TimeÂ - 2:51 Â 1x Playback Rate 2x 1.75x 1.5x 1.25x 1x , selected 0.75x 0.5x Chapters Chapters Descriptions descriptions off , selected Captions captions settings , opens captions settings dialog captions off , selected Nederlands Français Українська Română Español 简体中文 日本語 العربية 繁體中文 Português (Brasil) English Deutsch Audio Track default , selected Picture-in-Picture Fullscreen This is a modal window. Beginning of dialog window. Escape will cancel and close the window. Text Color White Black Red Green Blue Yellow Magenta Cyan Opacity Opaque Semi-Transparent Text Background Color Black White Red Green Blue Yellow Magenta Cyan Opacity Opaque Semi-Transparent Transparent Caption Area Background Color Black White Red Green Blue Yellow Magenta Cyan Opacity Transparent Semi-Transparent Opaque Font Size 50% 75% 100% 125% 150% 175% 200% 300% 400% Text Edge Style None Raised Depressed Uniform Drop shadow Font Family Proportional Sans-Serif Monospace Sans-Serif Proportional Serif Monospace Serif Casual Script Small Caps Reset restore all settings to the default values Done Close Modal Dialog End of dialog window. Transcript Follow along using the transcript. Show Transcript Transcript 16 px (default) 12 px , not selected 16 px (default) , selected 20 px , not selected 24 px , not selected 26 px , not selected English Nederlands , not selected Français , not selected Українська , not selected Română , not selected Español , not selected 简体中文 , n",
+  "outline_status_before": "in progress",
+  "outline_status_after": "in progress",
+  "top_prev_next": [
+    "Go To 3.0. Introduction",
+    "Go To 3.2. Mobile Device Connectivity"
+  ],
+  "outline_item": {
+    "index": 0,
+    "id": "3.1.1",
+    "title": "Video - Types of Wireless Networks",
+    "raw_title": "3.1.1 Video - Types of Wireless Networks",
+    "inferred_type": "video",
+    "status": "start",
+    "key": "3/1/0"
+  }
+}

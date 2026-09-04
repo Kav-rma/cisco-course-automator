@@ -1,0 +1,1680 @@
+{
+ "course": "SCSE2026_CCNA: Switching, Routing, and Wireless Essentials",
+ "quizzes": [
+  {
+   "item": "exam-1",
+   "title": "Checkpoint Exam: Switching Concepts, VLANs, and Inter-VLAN Routing Exam",
+   "questions": [
+    {
+     "n": 1,
+     "question": "Which two statements are correct with respect to SVI inter-VLAN routing? (Choose two.)",
+     "question_norm": "which two statements are correct with respect to svi inter vlan routing choose two",
+     "type": "mcq",
+     "raw_answer": "A,B",
+     "answer_texts": [
+      "Switching packets is faster with SVI.",
+      "There is no need for a connection to a router."
+     ],
+     "status": "resolved"
+    },
+    {
+     "n": 2,
+     "question": "Refer to the exhibit. The network administrator wants to configure Switch1 to allow SSH connections and prohibit Telnet connections. How should the network administrator change the displayed configuration to satisfy the requirement?",
+     "question_norm": "refer to the exhibit the network administrator wants to configure switch1 to allow ssh connections and prohibit telnet connections how should the network administrator change the displayed configuration to satisfy the requirement",
+     "type": "mcq",
+     "raw_answer": "D",
+     "answer_texts": [
+      "Modify the transport input command."
+     ],
+     "status": "resolved"
+    },
+    {
+     "n": 3,
+     "question": "Which solution would help a college alleviate network congestion due to collisions?",
+     "question_norm": "which solution would help a college alleviate network congestion due to collisions",
+     "type": "mcq",
+     "raw_answer": "B",
+     "answer_texts": [
+      "a high port density switch"
+     ],
+     "status": "resolved"
+    },
+    {
+     "n": 4,
+     "question": "Refer to the exhibit. A network administrator is configuring inter-VLAN routing on a network. For now, only one VLAN is being used, but more will be added soon. What is the missing parameter that is shown as the highlighted question mark in the graphic?",
+     "question_norm": "refer to the exhibit a network administrator is configuring inter vlan routing on a network for now only one vlan is being used but more will be added soon what is the missing parameter that is shown as the highlighted question mark in the graphic",
+     "type": "mcq",
+     "raw_answer": "B",
+     "answer_texts": [
+      "It identifies the VLAN number."
+     ],
+     "status": "resolved"
+    },
+    {
+     "n": 5,
+     "question": "Which type of VLAN is used to designate which traffic is untagged when crossing a trunk port?",
+     "question_norm": "which type of vlan is used to designate which traffic is untagged when crossing a trunk port",
+     "type": "mcq",
+     "raw_answer": "C",
+     "answer_texts": [
+      "native"
+     ],
+     "status": "resolved"
+    },
+    {
+     "n": 6,
+     "question": "A network administrator issues the show vlan brief command while troubleshooting a user support ticket. What output will be displayed?",
+     "question_norm": "a network administrator issues the show vlan brief command while troubleshooting a user support ticket what output will be displayed",
+     "type": "mcq",
+     "raw_answer": "B",
+     "answer_texts": [
+      "the VLAN assignment and membership for all switch ports"
+     ],
+     "status": "resolved"
+    },
+    {
+     "n": 7,
+     "question": "Refer to the exhibit. A network administrator has configured R1 as shown. When the administrator checks the status of the serial interface, the interface is shown as being administratively down. What additional command must be entered on the serial interface of R1 to bring the interface up?",
+     "question_norm": "refer to the exhibit a network administrator has configured r1 as shown when the administrator checks the status of the serial interface the interface is shown as being administratively down what additional command must be entered on the serial interface of r1 to bring the interface up",
+     "type": "mcq",
+     "raw_answer": "D",
+     "answer_texts": [
+      "no shutdown"
+     ],
+     "status": "resolved"
+    },
+    {
+     "n": 8,
+     "question": "file_download PT Activity Open the PT Activity. Perform the tasks in the activity instructions and then answer the question. Which message is displayed when 10.10.10.1 is entered into the PC1 Web Browser address bar?",
+     "question_norm": "file_download pt activity open the pt activity perform the tasks in the activity instructions and then answer the question which message is displayed when 10 10 10 1 is entered into the pc1 web browser address bar",
+     "type": "mcq",
+     "raw_answer": "NEEDS PT ACTIVITY",
+     "status": "match_free_text"
+    },
+    {
+     "n": 9,
+     "question": "What is a characteristic of an IPv4 loopback interface on a Cisco IOS router?​",
+     "question_norm": "what is a characteristic of an ipv4 loopback interface on a cisco ios router",
+     "type": "mcq",
+     "raw_answer": "B",
+     "answer_texts": [
+      "It is a logical interface internal to the router."
+     ],
+     "status": "resolved"
+    },
+    {
+     "n": 10,
+     "question": "What does a switch use to locate and load the IOS image?",
+     "question_norm": "what does a switch use to locate and load the ios image",
+     "type": "mcq",
+     "raw_answer": "A",
+     "answer_texts": [
+      "BOOT environment variable"
+     ],
+     "status": "resolved"
+    },
+    {
+     "n": 11,
+     "question": "After which step of the switch bootup sequence is the boot loader executed?",
+     "question_norm": "after which step of the switch bootup sequence is the boot loader executed",
+     "type": "mcq",
+     "raw_answer": "D",
+     "answer_texts": [
+      "after POST execution"
+     ],
+     "status": "resolved"
+    },
+    {
+     "n": 12,
+     "question": "Which impact does adding a Layer 2 switch have on a network?",
+     "question_norm": "which impact does adding a layer 2 switch have on a network",
+     "type": "mcq",
+     "raw_answer": "B",
+     "answer_texts": [
+      "an increase in the size of the broadcast domain"
+     ],
+     "status": "resolved"
+    },
+    {
+     "n": 13,
+     "question": "Which characteristic describes cut-through switching?",
+     "question_norm": "which characteristic describes cut through switching",
+     "type": "mcq",
+     "raw_answer": "B",
+     "answer_texts": [
+      "Frames are forwarded without any error checking."
+     ],
+     "status": "resolved"
+    },
+    {
+     "n": 14,
+     "question": "Refer to the exhibit. How many broadcast domains are displayed?",
+     "question_norm": "refer to the exhibit how many broadcast domains are displayed",
+     "type": "mcq",
+     "raw_answer": "NEEDS EXHIBIT",
+     "status": "match_free_text"
+    },
+    {
+     "n": 15,
+     "question": "Which switch component reduces the amount of packet handling time inside the switch?",
+     "question_norm": "which switch component reduces the amount of packet handling time inside the switch",
+     "type": "mcq",
+     "raw_answer": "A",
+     "answer_texts": [
+      "ASIC"
+     ],
+     "status": "resolved"
+    },
+    {
+     "n": 16,
+     "question": "What is the significant difference between a hub and a Layer 2 LAN switch?",
+     "question_norm": "what is the significant difference between a hub and a layer 2 lan switch",
+     "type": "mcq",
+     "raw_answer": "A",
+     "answer_texts": [
+      "A hub extends a collision domain, and a switch divides collision domains."
+     ],
+     "status": "resolved"
+    },
+    {
+     "n": 17,
+     "question": "Which statement is correct about Ethernet switch frame forwarding decisions?",
+     "question_norm": "which statement is correct about ethernet switch frame forwarding decisions",
+     "type": "mcq",
+     "raw_answer": "A",
+     "answer_texts": [
+      "Frame forwarding decisions are based on MAC address and port mappings in the CAM table."
+     ],
+     "status": "resolved"
+    },
+    {
+     "n": 18,
+     "question": "Which switch characteristic helps keep traffic local and alleviates network congestion?",
+     "question_norm": "which switch characteristic helps keep traffic local and alleviates network congestion",
+     "type": "mcq",
+     "raw_answer": "D",
+     "answer_texts": [
+      "fast internal switching"
+     ],
+     "status": "resolved"
+    },
+    {
+     "n": 19,
+     "question": "A network contains multiple VLANs spanning multiple switches. What happens when a device in VLAN 20 sends a broadcast Ethernet frame?",
+     "question_norm": "a network contains multiple vlans spanning multiple switches what happens when a device in vlan 20 sends a broadcast ethernet frame",
+     "type": "mcq",
+     "raw_answer": "C",
+     "answer_texts": [
+      "Only devices in VLAN 20 see the frame."
+     ],
+     "status": "resolved"
+    },
+    {
+     "n": 21,
+     "question": "Refer to the exhibit. In what switch mode should port G0/1 be assigned if Cisco best practices are being used?",
+     "question_norm": "refer to the exhibit in what switch mode should port g0 1 be assigned if cisco best practices are being used",
+     "type": "mcq",
+     "raw_answer": "B",
+     "answer_texts": [
+      "trunk"
+     ],
+     "status": "resolved"
+    },
+    {
+     "n": 22,
+     "question": "What happens to switch ports after the VLAN to which they are assigned is deleted?",
+     "question_norm": "what happens to switch ports after the vlan to which they are assigned is deleted",
+     "type": "mcq",
+     "raw_answer": "D",
+     "answer_texts": [
+      "The ports stop communicating with the attached devices."
+     ],
+     "status": "resolved"
+    },
+    {
+     "n": 23,
+     "question": "Which two characteristics describe the native VLAN? (Choose two.)",
+     "question_norm": "which two characteristics describe the native vlan choose two",
+     "type": "mcq",
+     "raw_answer": "B,E",
+     "answer_texts": [
+      "The native VLAN traffic will be untagged across the trunk link.",
+      "The native VLAN provides a common identifier to both ends of a trunk."
+     ],
+     "status": "resolved"
+    },
+    {
+     "n": 24,
+     "question": "Which four steps are needed to configure a voice VLAN on a switch port? (Choose four.)",
+     "question_norm": "which four steps are needed to configure a voice vlan on a switch port choose four",
+     "type": "mcq",
+     "raw_answer": "B,C,D,E",
+     "answer_texts": [
+      "Assign the voice VLAN to the switch port.",
+      "Activate spanning-tree PortFast on the interface.",
+      "Ensure that voice traffic is trusted and tagged with a CoS priority value.",
+      "Add a voice VLAN."
+     ],
+     "status": "resolved"
+    },
+    {
+     "n": 25,
+     "question": "Refer to the exhibit. All workstations are configured correctly in VLAN 20. Workstations that are connected to switch SW1 are not able to send traffic to workstations on SW2. What could be done to remedy the problem?",
+     "question_norm": "refer to the exhibit all workstations are configured correctly in vlan 20 workstations that are connected to switch sw1 are not able to send traffic to workstations on sw2 what could be done to remedy the problem",
+     "type": "mcq",
+     "raw_answer": "A",
+     "answer_texts": [
+      "Allow VLAN 20 on the trunk link."
+     ],
+     "status": "resolved"
+    },
+    {
+     "n": 27,
+     "question": "When routing a large number of VLANs, what are two disadvantages of using the router-on-a-stick inter-VLAN routing method rather than the multilayer switch inter-VLAN routing method? (Choose two.)",
+     "question_norm": "when routing a large number of vlans what are two disadvantages of using the router on a stick inter vlan routing method rather than the multilayer switch inter vlan routing method choose two",
+     "type": "mcq",
+     "raw_answer": "B,E",
+     "answer_texts": [
+      "A dedicated router is required.",
+      "Multiple subinterfaces may impact the traffic flow speed."
+     ],
+     "status": "resolved"
+    },
+    {
+     "n": 28,
+     "question": "Refer to the exhibit. A router-on-a-stick configuration was implemented for VLANs 15, 30, and 45, according to the show running-config command output. PCs on VLAN 45 that are using the 172.16.45.0 /24 network are having trouble connecting to PCs on VLAN 30 in the 172.16.30.0 /24 network. Which error is most likely causing this problem?​",
+     "question_norm": "refer to the exhibit a router on a stick configuration was implemented for vlans 15 30 and 45 according to the show running config command output pcs on vlan 45 that are using the 172 16 45 0 24 network are having trouble connecting to pcs on vlan 30 in the 172 16 30 0 24 network which error is most likely causing this problem",
+     "type": "mcq",
+     "raw_answer": "NEEDS EXHIBIT",
+     "status": "match_free_text"
+    },
+    {
+     "n": 29,
+     "question": "Refer to the exhibit. A network administrator is configuring RT1 for inter-VLAN routing. The switch is configured correctly and is functional. Host1, Host2, and Host3 cannot communicate with each other. Based on the router configuration, what is causing the problem?",
+     "question_norm": "refer to the exhibit a network administrator is configuring rt1 for inter vlan routing the switch is configured correctly and is functional host1 host2 and host3 cannot communicate with each other based on the router configuration what is causing the problem",
+     "type": "mcq",
+     "raw_answer": "B",
+     "answer_texts": [
+      "IP addresses on the subinterfaces are incorrectly matched to the VLANs."
+     ],
+     "status": "resolved"
+    },
+    {
+     "n": 30,
+     "question": "Refer to the exhibit. A network administrator is verifying the configuration of inter-VLAN routing. Users complain that PCs on different VLANs cannot communicate. Based on the output, what are two configuration errors on switch interface Gi1/1? (Choose two.)",
+     "question_norm": "refer to the exhibit a network administrator is verifying the configuration of inter vlan routing users complain that pcs on different vlans cannot communicate based on the output what are two configuration errors on switch interface gi1 1 choose two",
+     "type": "mcq",
+     "raw_answer": "NEEDS EXHIBIT",
+     "status": "match_free_text"
+    },
+    {
+     "n": 31,
+     "question": "Refer to the exhibit. A network administrator has configured router CiscoVille with the above commands to provide inter-VLAN routing. What type of port will be required on a switch that is connected to Gi0/0 on router CiscoVille to allow inter-VLAN routing?",
+     "question_norm": "refer to the exhibit a network administrator has configured router ciscoville with the above commands to provide inter vlan routing what type of port will be required on a switch that is connected to gi0 0 on router ciscoville to allow inter vlan routing",
+     "type": "mcq",
+     "raw_answer": "C",
+     "answer_texts": [
+      "trunk port"
+     ],
+     "status": "resolved"
+    },
+    {
+     "n": 32,
+     "question": "A technician is configuring a new Cisco 2960 switch. What is the effect of issuing the BranchSw(config-if)# shutdown command?",
+     "question_norm": "a technician is configuring a new cisco 2960 switch what is the effect of issuing the branchsw config if shutdown command",
+     "type": "mcq",
+     "raw_answer": "A",
+     "answer_texts": [
+      "It disables a virtual or physical switch interface."
+     ],
+     "status": "resolved"
+    },
+    {
+     "n": 33,
+     "question": "What type of VLAN is designed to reserve bandwidth to ensure IP Phone quality?",
+     "question_norm": "what type of vlan is designed to reserve bandwidth to ensure ip phone quality",
+     "type": "mcq",
+     "raw_answer": "A",
+     "answer_texts": [
+      "voice VLAN"
+     ],
+     "status": "resolved"
+    }
+   ]
+  },
+  {
+   "item": "exam-2",
+   "title": "Checkpoint Exam: Redundant Networks Exam",
+   "questions": [
+    {
+     "n": 1,
+     "question": "Refer to the exhibit. What are the possible port roles for ports A, B, C, and D in this RSTP-enabled network?",
+     "question_norm": "refer to the exhibit what are the possible port roles for ports a b c and d in this rstp enabled network",
+     "type": "mcq",
+     "raw_answer": "NEEDS EXHIBIT",
+     "status": "match_free_text"
+    },
+    {
+     "n": 2,
+     "question": "Refer to the exhibit. Which switching technology would allow each access layer switch link to be aggregated to provide more bandwidth between each Layer 2 switch and the Layer 3 switch?",
+     "question_norm": "refer to the exhibit which switching technology would allow each access layer switch link to be aggregated to provide more bandwidth between each layer 2 switch and the layer 3 switch",
+     "type": "mcq",
+     "raw_answer": "D",
+     "answer_texts": [
+      "EtherChannel"
+     ],
+     "status": "resolved"
+    },
+    {
+     "n": 3,
+     "question": "Refer to the exhibit. An administrator wants to form an EtherChannel between the two switches by using the Port Aggregation Protocol. If switch S1 is configured to be in auto mode, which mode should be configured on S2 to form the EtherChannel?",
+     "question_norm": "refer to the exhibit an administrator wants to form an etherchannel between the two switches by using the port aggregation protocol if switch s1 is configured to be in auto mode which mode should be configured on s2 to form the etherchannel",
+     "type": "mcq",
+     "raw_answer": "C",
+     "answer_texts": [
+      "desirable"
+     ],
+     "status": "resolved"
+    },
+    {
+     "n": 4,
+     "question": "file_download PT Activity Open the PT Activity. Perform the tasks in the activity instructions and then answer the question. Which set of configuration commands issued on SW1 will successfully complete the EtherChannel link between SW1 and SW2?",
+     "question_norm": "file_download pt activity open the pt activity perform the tasks in the activity instructions and then answer the question which set of configuration commands issued on sw1 will successfully complete the etherchannel link between sw1 and sw2",
+     "type": "mcq",
+     "raw_answer": "B",
+     "answer_texts": [
+      "interface GigabitEthernet0/1,channel-group 1 mode desirable"
+     ],
+     "status": "resolved"
+    },
+    {
+     "n": 5,
+     "question": "Which two network design features require Spanning Tree Protocol (STP) to ensure correct network operation? (Choose two.)",
+     "question_norm": "which two network design features require spanning tree protocol stp to ensure correct network operation choose two",
+     "type": "mcq",
+     "raw_answer": "C,E",
+     "answer_texts": [
+      "redundant links between Layer 2 switches",
+      "removing single points of failure with multiple Layer 2 switches"
+     ],
+     "status": "resolved"
+    },
+    {
+     "n": 6,
+     "question": "What is the outcome of a Layer 2 broadcast storm?",
+     "question_norm": "what is the outcome of a layer 2 broadcast storm",
+     "type": "mcq",
+     "raw_answer": "B",
+     "answer_texts": [
+      "New traffic is discarded by the switch because it is unable to be processed."
+     ],
+     "status": "resolved"
+    },
+    {
+     "n": 7,
+     "question": "When the show spanning-tree vlan 33 command is issued on a switch, three ports are shown in the forwarding state. In which two port roles could these interfaces function while in the forwarding state? (Choose two.)",
+     "question_norm": "when the show spanning tree vlan 33 command is issued on a switch three ports are shown in the forwarding state in which two port roles could these interfaces function while in the forwarding state choose two",
+     "type": "mcq",
+     "raw_answer": "B,C",
+     "answer_texts": [
+      "designated",
+      "root"
+     ],
+     "status": "resolved"
+    },
+    {
+     "n": 8,
+     "question": "Refer to the exhibit. Which switch will be the root bridge after the election process is complete?",
+     "question_norm": "refer to the exhibit which switch will be the root bridge after the election process is complete",
+     "type": "mcq",
+     "raw_answer": "NEEDS EXHIBIT",
+     "status": "match_free_text"
+    },
+    {
+     "n": 9,
+     "question": "What is the purpose of the Spanning Tree Protocol (STP)?",
+     "question_norm": "what is the purpose of the spanning tree protocol stp",
+     "type": "mcq",
+     "raw_answer": "A",
+     "answer_texts": [
+      "prevents Layer 2 loops"
+     ],
+     "status": "resolved"
+    },
+    {
+     "n": 10,
+     "question": "Which spanning tree standard supports only one root bridge so that traffic from all VLANs flows over the same path?",
+     "question_norm": "which spanning tree standard supports only one root bridge so that traffic from all vlans flows over the same path",
+     "type": "mcq",
+     "raw_answer": "B",
+     "answer_texts": [
+      "802.1D"
+     ],
+     "status": "resolved"
+    },
+    {
+     "n": 12,
+     "question": "In which two port states does a switch learn MAC addresses and process BPDUs in a PVST network? (Choose two.)",
+     "question_norm": "in which two port states does a switch learn mac addresses and process bpdus in a pvst network choose two",
+     "type": "mcq",
+     "raw_answer": "C,D",
+     "answer_texts": [
+      "forwarding",
+      "learning"
+     ],
+     "status": "resolved"
+    },
+    {
+     "n": 13,
+     "question": "What is the function of STP in a scalable network?",
+     "question_norm": "what is the function of stp in a scalable network",
+     "type": "mcq",
+     "raw_answer": "C",
+     "answer_texts": [
+      "It disables redundant paths to eliminate Layer 2 loops."
+     ],
+     "status": "resolved"
+    },
+    {
+     "n": 14,
+     "question": "What is the value used to determine which port on a non-root bridge will become a root port in a STP network?",
+     "question_norm": "what is the value used to determine which port on a non root bridge will become a root port in a stp network",
+     "type": "mcq",
+     "raw_answer": "D",
+     "answer_texts": [
+      "the path cost"
+     ],
+     "status": "resolved"
+    },
+    {
+     "n": 15,
+     "question": "If no bridge priority is configured in PVST, which criteria is considered when electing the root bridge?",
+     "question_norm": "if no bridge priority is configured in pvst which criteria is considered when electing the root bridge",
+     "type": "mcq",
+     "raw_answer": "B",
+     "answer_texts": [
+      "lowest MAC address"
+     ],
+     "status": "resolved"
+    },
+    {
+     "n": 16,
+     "question": "A small company network has six interconnected Layer 2 switches. Currently all switches are using the default bridge priority value. Which value can be used to configure the bridge priority of one of the switches to ensure that it becomes the root bridge in this design?",
+     "question_norm": "a small company network has six interconnected layer 2 switches currently all switches are using the default bridge priority value which value can be used to configure the bridge priority of one of the switches to ensure that it becomes the root bridge in this design",
+     "type": "mcq",
+     "raw_answer": "B",
+     "answer_texts": [
+      "28672"
+     ],
+     "status": "resolved"
+    },
+    {
+     "n": 17,
+     "question": "A set of switches is being connected in a LAN topology. Which STP bridge priority value will make it least likely for the switch to be selected as the root?",
+     "question_norm": "a set of switches is being connected in a lan topology which stp bridge priority value will make it least likely for the switch to be selected as the root",
+     "type": "mcq",
+     "raw_answer": "C",
+     "answer_texts": [
+      "61440"
+     ],
+     "status": "resolved"
+    },
+    {
+     "n": 18,
+     "question": "Which port role is assigned to the switch port that has the lowest cost to reach the root bridge?",
+     "question_norm": "which port role is assigned to the switch port that has the lowest cost to reach the root bridge",
+     "type": "mcq",
+     "raw_answer": "A",
+     "answer_texts": [
+      "root port"
+     ],
+     "status": "resolved"
+    },
+    {
+     "n": 19,
+     "question": "What are two load-balancing methods in the EtherChannel technology? (Choose two.)",
+     "question_norm": "what are two load balancing methods in the etherchannel technology choose two",
+     "type": "mcq",
+     "raw_answer": "B,C",
+     "answer_texts": [
+      "source IP to destination IP",
+      "source port to destination port"
+     ],
+     "status": "resolved"
+    },
+    {
+     "n": 20,
+     "question": "Refer to the exhibit. A network administrator issued the show etherchannel summary command on the switch S1. What conclusion can be drawn?",
+     "question_norm": "refer to the exhibit a network administrator issued the show etherchannel summary command on the switch s1 what conclusion can be drawn",
+     "type": "mcq",
+     "raw_answer": "NEEDS EXHIBIT",
+     "status": "match_free_text"
+    },
+    {
+     "n": 21,
+     "question": "Which two channel group modes would place an interface in a negotiating state using PAgP? (Choose two.)",
+     "question_norm": "which two channel group modes would place an interface in a negotiating state using pagp choose two",
+     "type": "mcq",
+     "raw_answer": "B,D",
+     "answer_texts": [
+      "desirable",
+      "auto"
+     ],
+     "status": "resolved"
+    },
+    {
+     "n": 22,
+     "question": "Which statement describes a characteristic of EtherChannel?",
+     "question_norm": "which statement describes a characteristic of etherchannel",
+     "type": "mcq",
+     "raw_answer": "D",
+     "answer_texts": [
+      "It is made by combining multiple physical links that are seen as one link between two switches."
+     ],
+     "status": "resolved"
+    },
+    {
+     "n": 23,
+     "question": "Refer to the exhibit. A network administrator is configuring an EtherChannel link between two switches, SW1 and SW2. However, the EtherChannel link fails to establish. What change in configuration would correct the problem?",
+     "question_norm": "refer to the exhibit a network administrator is configuring an etherchannel link between two switches sw1 and sw2 however the etherchannel link fails to establish what change in configuration would correct the problem",
+     "type": "mcq",
+     "raw_answer": "NEEDS EXHIBIT",
+     "status": "match_free_text"
+    },
+    {
+     "n": 24,
+     "question": "Which two parameters must match on the ports of two switches to create a PAgP EtherChannel between the switches? (Choose two.)",
+     "question_norm": "which two parameters must match on the ports of two switches to create a pagp etherchannel between the switches choose two",
+     "type": "mcq",
+     "raw_answer": "B,C",
+     "answer_texts": [
+      "Speed",
+      "VLAN information"
+     ],
+     "status": "resolved"
+    },
+    {
+     "n": 25,
+     "question": "What are two advantages of using LACP? (Choose two.)",
+     "question_norm": "what are two advantages of using lacp choose two",
+     "type": "mcq",
+     "raw_answer": "C,F",
+     "answer_texts": [
+      "It allows directly connected switches to negotiate an EtherChannel link.",
+      "It allows the use of multivendor devices."
+     ],
+     "status": "resolved"
+    },
+    {
+     "n": 26,
+     "question": "A network administrator configured an EtherChannel link with three interfaces between two switches. What is the result if one of the three interfaces is down?",
+     "question_norm": "a network administrator configured an etherchannel link with three interfaces between two switches what is the result if one of the three interfaces is down",
+     "type": "mcq",
+     "raw_answer": "B",
+     "answer_texts": [
+      "The remaining two interfaces continue to load balance traffic."
+     ],
+     "status": "resolved"
+    },
+    {
+     "n": 27,
+     "question": "What is a requirement to configure a trunking EtherChannel between two switches?",
+     "question_norm": "what is a requirement to configure a trunking etherchannel between two switches",
+     "type": "mcq",
+     "raw_answer": "B",
+     "answer_texts": [
+      "The allowed range of VLANs must be the same on both switches."
+     ],
+     "status": "resolved"
+    },
+    {
+     "n": 28,
+     "question": "What are two advantages of EtherChannel? (Choose two.)",
+     "question_norm": "what are two advantages of etherchannel choose two",
+     "type": "mcq",
+     "raw_answer": "A,D",
+     "answer_texts": [
+      "Configuring the EtherChannel interface provides consistency in the configuration of the physical links.",
+      "Spanning Tree Protocol views the physical links in an EtherChannel as one logical connection."
+     ],
+     "status": "resolved"
+    },
+    {
+     "n": 29,
+     "question": "When EtherChannel is configured, which mode will force an interface into a port channel without exchanging aggregation protocol packets?",
+     "question_norm": "when etherchannel is configured which mode will force an interface into a port channel without exchanging aggregation protocol packets",
+     "type": "mcq",
+     "raw_answer": "C",
+     "answer_texts": [
+      "on"
+     ],
+     "status": "resolved"
+    },
+    {
+     "n": 30,
+     "question": "Which statement is true regarding the use of PAgP to create EtherChannels?",
+     "question_norm": "which statement is true regarding the use of pagp to create etherchannels",
+     "type": "mcq",
+     "raw_answer": "B",
+     "answer_texts": [
+      "It is Cisco proprietary."
+     ],
+     "status": "resolved"
+    },
+    {
+     "n": 31,
+     "question": "Refer to the exhibit. An EtherChannel was configured between switches S1 and S2, but the interfaces do not form an EtherChannel. What is the problem?",
+     "question_norm": "refer to the exhibit an etherchannel was configured between switches s1 and s2 but the interfaces do not form an etherchannel what is the problem",
+     "type": "mcq",
+     "raw_answer": "D",
+     "answer_texts": [
+      "The EtherChannel was not configured with the same allowed range of VLANs on each interface."
+     ],
+     "status": "resolved"
+    },
+    {
+     "n": 32,
+     "question": "A switch is configured to run STP. What term describes the reference point for all path calculations?",
+     "question_norm": "a switch is configured to run stp what term describes the reference point for all path calculations",
+     "type": "mcq",
+     "raw_answer": "A",
+     "answer_texts": [
+      "root bridge"
+     ],
+     "status": "resolved"
+    }
+   ]
+  },
+  {
+   "item": "exam-3",
+   "title": "Checkpoint Exam: Available and Reliable Networks Exam",
+   "questions": [
+    {
+     "n": 1,
+     "question": "file_download PT Activity Open the PT Activity. Perform the tasks in the activity instructions and then answer the question. What is the keyword that is displayed on www.netacad.com?",
+     "question_norm": "file_download pt activity open the pt activity perform the tasks in the activity instructions and then answer the question what is the keyword that is displayed on www netacad com",
+     "type": "mcq",
+     "raw_answer": "NEEDS PT ACTIVITY",
+     "status": "match_free_text"
+    },
+    {
+     "n": 2,
+     "question": "After a host has generated an IPv6 address by using the DHCPv6 or SLAAC process, how does the host verify that the address is unique and therefore usable?",
+     "question_norm": "after a host has generated an ipv6 address by using the dhcpv6 or slaac process how does the host verify that the address is unique and therefore usable",
+     "type": "mcq",
+     "raw_answer": "B",
+     "answer_texts": [
+      "The host sends an ICMPv6 neighbor solicitation message to the DHCP or SLAAC-learned address and if no neighbor advertisement is returned, the address is considered unique."
+     ],
+     "status": "resolved"
+    },
+    {
+     "n": 3,
+     "question": "Which statement describes HSRP?​",
+     "question_norm": "which statement describes hsrp",
+     "type": "mcq",
+     "raw_answer": "D",
+     "answer_texts": [
+      "It is used within a group of routers for selecting an active device and a standby device to provide gateway services to a LAN."
+     ],
+     "status": "resolved"
+    },
+    {
+     "n": 5,
+     "question": "Which kind of message is sent by a DHCP client when its IP address lease has expired?​",
+     "question_norm": "which kind of message is sent by a dhcp client when its ip address lease has expired",
+     "type": "mcq",
+     "raw_answer": "C",
+     "answer_texts": [
+      "a DHCPREQUEST unicast message​"
+     ],
+     "status": "resolved"
+    },
+    {
+     "n": 6,
+     "question": "Which statement is true about DHCP operation?​",
+     "question_norm": "which statement is true about dhcp operation",
+     "type": "mcq",
+     "raw_answer": "D",
+     "answer_texts": [
+      "The DHCPDISCOVER message contains the IP address and subnet mask to be assigned, the IP address of the DNS server, and the IP address of the default gateway.​"
+     ],
+     "status": "resolved"
+    },
+    {
+     "n": 7,
+     "question": "What is an advantage of configuring a Cisco router as a relay agent?",
+     "question_norm": "what is an advantage of configuring a cisco router as a relay agent",
+     "type": "mcq",
+     "raw_answer": "A,D,F",
+     "answer_texts": [
+      "It will allow DHCPDISCOVER messages to pass without alteration.",
+      "It reduces the response time from a DHCP server."
+     ],
+     "status": "resolved"
+    },
+    {
+     "n": 8,
+     "question": "A client device on an Ethernet segment needs an IP address in order to communicate on the network. A DHCP server with IP address 192.168.1.1 has been configured and enabled on the network. How will a client device obtain a usable IP address for this network?",
+     "question_norm": "a client device on an ethernet segment needs an ip address in order to communicate on the network a dhcp server with ip address 192 168 1 1 has been configured and enabled on the network how will a client device obtain a usable ip address for this network",
+     "type": "mcq",
+     "raw_answer": "C",
+     "answer_texts": [
+      "Send a DHCPDISCOVER message to physical address FF-FF-FF-FF-FF-FF."
+     ],
+     "status": "resolved"
+    },
+    {
+     "n": 9,
+     "question": "What is the result of a network technician issuing the command ip dhcp excluded-address 10.0.15.1 10.0.15.15 on a Cisco router?",
+     "question_norm": "what is the result of a network technician issuing the command ip dhcp excluded address 10 0 15 1 10 0 15 15 on a cisco router",
+     "type": "mcq",
+     "raw_answer": "A",
+     "answer_texts": [
+      "The Cisco router will exclude 15 IP addresses from being leased to DHCP clients."
+     ],
+     "status": "resolved"
+    },
+    {
+     "n": 11,
+     "question": "A company uses DHCP servers to dynamically assign IPv4 addresses to employee workstations. The address lease duration is set as 5 days. An employee returns to the office after an absence of one week. When the employee boots the workstation, it sends a message to obtain an IP address. Which Layer 2 and Layer 3 destination addresses will the message contain?",
+     "question_norm": "a company uses dhcp servers to dynamically assign ipv4 addresses to employee workstations the address lease duration is set as 5 days an employee returns to the office after an absence of one week when the employee boots the workstation it sends a message to obtain an ip address which layer 2 and layer 3 destination addresses will the message contain",
+     "type": "mcq",
+     "raw_answer": "A",
+     "answer_texts": [
+      "FF-FF-FF-FF-FF-FF and 255.255.255.255"
+     ],
+     "status": "resolved"
+    },
+    {
+     "n": 12,
+     "question": "A host PC is attempting to lease an address through DHCP. What message is sent by the server to let the client know it is able to use the provided IP information?",
+     "question_norm": "a host pc is attempting to lease an address through dhcp what message is sent by the server to let the client know it is able to use the provided ip information",
+     "type": "mcq",
+     "raw_answer": "D",
+     "answer_texts": [
+      "DHCPACK"
+     ],
+     "status": "resolved"
+    },
+    {
+     "n": 13,
+     "question": "What is one indication that a Windows computer did not receive an IPv4 address from a DHCP server?",
+     "question_norm": "what is one indication that a windows computer did not receive an ipv4 address from a dhcp server",
+     "type": "mcq",
+     "raw_answer": "C",
+     "answer_texts": [
+      "The computer receives an IP address that starts with 169.254."
+     ],
+     "status": "resolved"
+    },
+    {
+     "n": 14,
+     "question": "Which DHCPv4 message will a client send to accept an IPv4 address that is offered by a DHCP server?",
+     "question_norm": "which dhcpv4 message will a client send to accept an ipv4 address that is offered by a dhcp server",
+     "type": "mcq",
+     "raw_answer": "D",
+     "answer_texts": [
+      "broadcast DHCPREQUEST"
+     ],
+     "status": "resolved"
+    },
+    {
+     "n": 15,
+     "question": "Which command will allow a network administrator to check the IP address that is assigned to a particular MAC address?",
+     "question_norm": "which command will allow a network administrator to check the ip address that is assigned to a particular mac address",
+     "type": "mcq",
+     "raw_answer": "D",
+     "answer_texts": [
+      "Router# show running-config I section_dhcp"
+     ],
+     "status": "resolved"
+    },
+    {
+     "n": 16,
+     "question": "Which message does an IPv4 host use to reply when it receives a DHCPOFFER message from a DHCP server?",
+     "question_norm": "which message does an ipv4 host use to reply when it receives a dhcpoffer message from a dhcp server",
+     "type": "mcq",
+     "raw_answer": "A",
+     "answer_texts": [
+      "DHCPACK"
+     ],
+     "status": "resolved"
+    },
+    {
+     "n": 17,
+     "question": "Which command, when issued in the interface configuration mode of a router, enables the interface to acquire an IPv4 address automatically from an ISP, when that link to the ISP is enabled?",
+     "question_norm": "which command when issued in the interface configuration mode of a router enables the interface to acquire an ipv4 address automatically from an isp when that link to the isp is enabled",
+     "type": "mcq",
+     "raw_answer": "B",
+     "answer_texts": [
+      "ip address dhcp"
+     ],
+     "status": "resolved"
+    },
+    {
+     "n": 18,
+     "question": "What is the reason that an ISP commonly assigns a DHCP address to a wireless router in a SOHO environment?",
+     "question_norm": "what is the reason that an isp commonly assigns a dhcp address to a wireless router in a soho environment",
+     "type": "mcq",
+     "raw_answer": "A",
+     "answer_texts": [
+      "better connectivity"
+     ],
+     "status": "resolved"
+    },
+    {
+     "n": 20,
+     "question": "Refer to the exhibit. PC-A is unable to receive an IPv6 address from the stateful DHCPv6 server. What is the problem?",
+     "question_norm": "refer to the exhibit pc a is unable to receive an ipv6 address from the stateful dhcpv6 server what is the problem",
+     "type": "mcq",
+     "raw_answer": "NEEDS EXHIBIT",
+     "status": "match_free_text"
+    },
+    {
+     "n": 21,
+     "question": "Refer to the exhibit. What should be done to allow PC-A to receive an IPv6 address from the DHCPv6 server?",
+     "question_norm": "refer to the exhibit what should be done to allow pc a to receive an ipv6 address from the dhcpv6 server",
+     "type": "mcq",
+     "raw_answer": "NEEDS EXHIBIT",
+     "status": "match_free_text"
+    },
+    {
+     "n": 22,
+     "question": "Refer to the exhibit. Based on the output that is shown, what kind of IPv6 addressing is being configured?",
+     "question_norm": "refer to the exhibit based on the output that is shown what kind of ipv6 addressing is being configured",
+     "type": "mcq",
+     "raw_answer": "NEEDS EXHIBIT",
+     "status": "match_free_text"
+    },
+    {
+     "n": 24,
+     "question": "Refer to the exhibit. A network administrator is implementing the stateless DHCPv6 operation for the company. Clients are configuring IPv6 addresses as expected. However, the clients are not getting the DNS server address and the domain name information configured in the DHCP pool. What could be the cause of the problem?",
+     "question_norm": "refer to the exhibit a network administrator is implementing the stateless dhcpv6 operation for the company clients are configuring ipv6 addresses as expected however the clients are not getting the dns server address and the domain name information configured in the dhcp pool what could be the cause of the problem",
+     "type": "mcq",
+     "raw_answer": "B",
+     "answer_texts": [
+      "The router is configured for SLAAC operation."
+     ],
+     "status": "resolved"
+    },
+    {
+     "n": 25,
+     "question": "Refer to the exhibit. A network administrator is configuring a router for DHCPv6 operation. Which conclusion can be drawn based on the commands?",
+     "question_norm": "refer to the exhibit a network administrator is configuring a router for dhcpv6 operation which conclusion can be drawn based on the commands",
+     "type": "mcq",
+     "raw_answer": "B",
+     "answer_texts": [
+      "The router is configured for stateless DHCPv6 operation."
+     ],
+     "status": "resolved"
+    },
+    {
+     "n": 26,
+     "question": "A network administrator is analyzing the features that are supported by different first-hop router redundancy protocols. Which statement describes a feature that is associated with HSRP?",
+     "question_norm": "a network administrator is analyzing the features that are supported by different first hop router redundancy protocols which statement describes a feature that is associated with hsrp",
+     "type": "mcq",
+     "raw_answer": "A",
+     "answer_texts": [
+      "HSRP uses active and standby routers."
+     ],
+     "status": "resolved"
+    },
+    {
+     "n": 28,
+     "question": "Refer to the exhibit. What protocol can be configured on gateway routers R1 and R2 that will allow traffic from the internal LAN to be load balanced across the two gateways to the Internet?",
+     "question_norm": "refer to the exhibit what protocol can be configured on gateway routers r1 and r2 that will allow traffic from the internal lan to be load balanced across the two gateways to the internet",
+     "type": "mcq",
+     "raw_answer": "D",
+     "answer_texts": [
+      "GLBP"
+     ],
+     "status": "resolved"
+    },
+    {
+     "n": 29,
+     "question": "Refer to the exhibit. A network engineer is troubleshooting host connectivity on a LAN that uses a first hop redundancy protocol. Which IPv4 gateway address should be configured on the host?",
+     "question_norm": "refer to the exhibit a network engineer is troubleshooting host connectivity on a lan that uses a first hop redundancy protocol which ipv4 gateway address should be configured on the host",
+     "type": "mcq",
+     "raw_answer": "NEEDS EXHIBIT",
+     "status": "match_free_text"
+    },
+    {
+     "n": 31,
+     "question": "Refer to the exhibit. Which destination MAC address is used when frames are sent from the workstation to the default gateway?",
+     "question_norm": "refer to the exhibit which destination mac address is used when frames are sent from the workstation to the default gateway",
+     "type": "mcq",
+     "raw_answer": "D",
+     "answer_texts": [
+      "MAC address of the virtual router"
+     ],
+     "status": "resolved"
+    },
+    {
+     "n": 32,
+     "question": "Which FHRP implementation is a nonproprietary IPv4-only election protocol which has one master router per group?",
+     "question_norm": "which fhrp implementation is a nonproprietary ipv4 only election protocol which has one master router per group",
+     "type": "mcq",
+     "raw_answer": "A",
+     "answer_texts": [
+      "VRRPv2"
+     ],
+     "status": "resolved"
+    },
+    {
+     "n": 33,
+     "question": "The address pool of a DHCP server is configured with 10.19.44.0/24. The network administrator reserves 3 IP addresses for servers. How many IP addresses are left in the pool to be assigned to other hosts?",
+     "question_norm": "the address pool of a dhcp server is configured with 10 19 44 0 24 the network administrator reserves 3 ip addresses for servers how many ip addresses are left in the pool to be assigned to other hosts",
+     "type": "mcq",
+     "raw_answer": "A",
+     "answer_texts": [
+      "251"
+     ],
+     "status": "resolved"
+    }
+   ]
+  },
+  {
+   "item": "exam-4",
+   "title": "Checkpoint Exam: L2 Security and WLANs Exam",
+   "questions": [
+    {
+     "n": 1,
+     "question": "What is the function provided by CAPWAP protocol in a corporate wireless network?",
+     "question_norm": "what is the function provided by capwap protocol in a corporate wireless network",
+     "type": "mcq",
+     "raw_answer": "A",
+     "answer_texts": [
+      "CAPWAP provides the encapsulation and forwarding of wireless user traffic between an access point and a wireless LAN controller."
+     ],
+     "status": "resolved"
+    },
+    {
+     "n": 2,
+     "question": "As part of the new security policy, all switches on the network are configured to automatically learn MAC addresses for each port. All running configurations are saved at the start and close of every business day. A severe thunderstorm causes an extended power outage several hours after the close of business. When the switches are brought back online, the dynamically learned MAC addresses are retained. Which port security configuration enabled this?",
+     "question_norm": "as part of the new security policy all switches on the network are configured to automatically learn mac addresses for each port all running configurations are saved at the start and close of every business day a severe thunderstorm causes an extended power outage several hours after the close of business when the switches are brought back online the dynamically learned mac addresses are retained which port security configuration enabled this",
+     "type": "mcq",
+     "raw_answer": "D",
+     "answer_texts": [
+      "Sticky secure MAC addresses"
+     ],
+     "status": "resolved"
+    },
+    {
+     "n": 3,
+     "question": "A network administrator of a college is configuring the WLAN user authentication process. Wireless users are required to enter username and password credentials that will be verified by a server. Which server would provide such service?",
+     "question_norm": "a network administrator of a college is configuring the wlan user authentication process wireless users are required to enter username and password credentials that will be verified by a server which server would provide such service",
+     "type": "mcq",
+     "raw_answer": "A",
+     "answer_texts": [
+      "AAA"
+     ],
+     "status": "resolved"
+    },
+    {
+     "n": 4,
+     "question": "A network administrator deploys a wireless router in a small law firm. Employee laptops join the WLAN and receive IP addresses in the 10.0.10.0/24 network. Which service is used on the wireless router to allow the employee laptops to access the internet?",
+     "question_norm": "a network administrator deploys a wireless router in a small law firm employee laptops join the wlan and receive ip addresses in the 10 0 10 0 24 network which service is used on the wireless router to allow the employee laptops to access the internet",
+     "type": "mcq",
+     "raw_answer": "A",
+     "answer_texts": [
+      "DNS"
+     ],
+     "status": "resolved"
+    },
+    {
+     "n": 5,
+     "question": "Which feature on a switch makes it vulnerable to VLAN hopping attacks?",
+     "question_norm": "which feature on a switch makes it vulnerable to vlan hopping attacks",
+     "type": "mcq",
+     "raw_answer": "D",
+     "answer_texts": [
+      "The automatic trunking port feature enabled for all ports by default"
+     ],
+     "status": "resolved"
+    },
+    {
+     "n": 6,
+     "question": "What device is considered a supplicant during the 802.1X authentication process?",
+     "question_norm": "what device is considered a supplicant during the 802 1x authentication process",
+     "type": "mcq",
+     "raw_answer": "A",
+     "answer_texts": [
+      "The client that is requesting authentication"
+     ],
+     "status": "resolved"
+    },
+    {
+     "n": 7,
+     "question": "What type of wireless antenna is best suited for providing coverage in large open spaces, such as hallways or large conference rooms?",
+     "question_norm": "what type of wireless antenna is best suited for providing coverage in large open spaces such as hallways or large conference rooms",
+     "type": "mcq",
+     "raw_answer": "C",
+     "answer_texts": [
+      "Yagi"
+     ],
+     "status": "resolved"
+    },
+    {
+     "n": 8,
+     "question": "A network administrator is required to upgrade wireless access to end users in a building. To provide data rates up to 1.3 Gb/s and still be backward compatible with older devices, which wireless standard should be implemented?",
+     "question_norm": "a network administrator is required to upgrade wireless access to end users in a building to provide data rates up to 1 3 gb s and still be backward compatible with older devices which wireless standard should be implemented",
+     "type": "mcq",
+     "raw_answer": "B",
+     "answer_texts": [
+      "802.11ac"
+     ],
+     "status": "resolved"
+    },
+    {
+     "n": 9,
+     "question": "What represents a best practice concerning discovery protocols such as CDP and LLDP on network devices?",
+     "question_norm": "what represents a best practice concerning discovery protocols such as cdp and lldp on network devices",
+     "type": "mcq",
+     "raw_answer": "B",
+     "answer_texts": [
+      "Disable both protocols on all interfaces where they are not required."
+     ],
+     "status": "resolved"
+    },
+    {
+     "n": 10,
+     "question": "A technician is troubleshooting a slow WLAN that consists of 802.11b and 802.11g devices. A new 802.11n/ac dual-band router has been deployed on the network to replace the old 802.11g router. What can the technician do to address the slow wireless speed?",
+     "question_norm": "a technician is troubleshooting a slow wlan that consists of 802 11b and 802 11g devices a new 802 11n ac dual band router has been deployed on the network to replace the old 802 11g router what can the technician do to address the slow wireless speed",
+     "type": "mcq",
+     "raw_answer": "C",
+     "answer_texts": [
+      "Split the wireless traffic between the 802.11n 2.4 GHz band and the 5 GHz band."
+     ],
+     "status": "resolved"
+    },
+    {
+     "n": 11,
+     "question": "Refer to the exhibit. What can be determined about port security from the information that is shown?",
+     "question_norm": "refer to the exhibit what can be determined about port security from the information that is shown",
+     "type": "mcq",
+     "raw_answer": "B",
+     "answer_texts": [
+      "The port has two attached devices."
+     ],
+     "status": "resolved"
+    },
+    {
+     "n": 12,
+     "question": "file_download PT Activity Open the PT Activity. Perform the tasks in the activity instructions and then answer the question. Which event will take place if there is a port security violation on switch S1 interface Fa0/1?",
+     "question_norm": "file_download pt activity open the pt activity perform the tasks in the activity instructions and then answer the question which event will take place if there is a port security violation on switch s1 interface fa0 1",
+     "type": "mcq",
+     "raw_answer": "NEEDS PT ACTIVITY",
+     "status": "match_free_text"
+    },
+    {
+     "n": 13,
+     "question": "Which two Cisco solutions help prevent DHCP starvation attacks? (Choose two.)",
+     "question_norm": "which two cisco solutions help prevent dhcp starvation attacks choose two",
+     "type": "mcq",
+     "raw_answer": "A,C",
+     "answer_texts": [
+      "Port Security",
+      "DHCP Snooping"
+     ],
+     "status": "resolved"
+    },
+    {
+     "n": 14,
+     "question": "Which wireless network topology would be used by network engineers to provide a wireless network for an entire college building?",
+     "question_norm": "which wireless network topology would be used by network engineers to provide a wireless network for an entire college building",
+     "type": "mcq",
+     "raw_answer": "C",
+     "answer_texts": [
+      "Infrastructure"
+     ],
+     "status": "resolved"
+    },
+    {
+     "n": 15,
+     "question": "Which two commands can be used to enable BPDU guard on a switch? (Choose two.)",
+     "question_norm": "which two commands can be used to enable bpdu guard on a switch choose two",
+     "type": "mcq",
+     "raw_answer": "A",
+     "answer_texts": [
+      "S1(config)# spanning-tree bpduguard default"
+     ],
+     "status": "resolved"
+    },
+    {
+     "n": 16,
+     "question": "What are three techniques for mitigating VLAN attacks? (Choose three.)",
+     "question_norm": "what are three techniques for mitigating vlan attacks choose three",
+     "type": "mcq",
+     "raw_answer": "B",
+     "answer_texts": [
+      "Enable trunking manually."
+     ],
+     "status": "resolved"
+    },
+    {
+     "n": 17,
+     "question": "Which access control component, implementation, or protocol controls what users can do on the network?",
+     "question_norm": "which access control component implementation or protocol controls what users can do on the network",
+     "type": "mcq",
+     "raw_answer": "NEEDS EXHIBIT",
+     "status": "match_free_text"
+    },
+    {
+     "n": 18,
+     "question": "On a Cisco 3504 WLC dashboard, which option provides access to the full menu of features?",
+     "question_norm": "on a cisco 3504 wlc dashboard which option provides access to the full menu of features",
+     "type": "mcq",
+     "raw_answer": "D",
+     "answer_texts": [
+      "Network Summary"
+     ],
+     "status": "resolved"
+    },
+    {
+     "n": 19,
+     "question": "A network administrator enters the following commands on the switch SW1. SW1(config)# interface range fa0/5 – 10 SW1(config-if)# ip dhcp snooping limit rate 6 What is the effect after these commands are entered?",
+     "question_norm": "a network administrator enters the following commands on the switch sw1 sw1 config interface range fa0 5 10 sw1 config if ip dhcp snooping limit rate 6 what is the effect after these commands are entered",
+     "type": "mcq",
+     "raw_answer": "B",
+     "answer_texts": [
+      "FastEthernet ports 5 through 10 can receive up to 6 DHCP messages per second of any type."
+     ],
+     "status": "resolved"
+    },
+    {
+     "n": 20,
+     "question": "A network administrator is configuring a RADIUS server connection on a Cisco 3500 series WLC. The configuration requires a shared secret password. What is the purpose for the shared secret password?",
+     "question_norm": "a network administrator is configuring a radius server connection on a cisco 3500 series wlc the configuration requires a shared secret password what is the purpose for the shared secret password",
+     "type": "mcq",
+     "raw_answer": "D",
+     "answer_texts": [
+      "It is used to encrypt the messages between the WLC and the RADIUS server."
+     ],
+     "status": "resolved"
+    },
+    {
+     "n": 21,
+     "question": "The company handbook states that employees cannot have microwave ovens in their offices. Instead, all employees must use the microwave ovens located in the employee cafeteria. What wireless security risk is the company trying to avoid?",
+     "question_norm": "the company handbook states that employees cannot have microwave ovens in their offices instead all employees must use the microwave ovens located in the employee cafeteria what wireless security risk is the company trying to avoid",
+     "type": "mcq",
+     "raw_answer": "A",
+     "answer_texts": [
+      "Accidental interference"
+     ],
+     "status": "resolved"
+    },
+    {
+     "n": 22,
+     "question": "What is an advantage of SSID cloaking?​",
+     "question_norm": "what is an advantage of ssid cloaking",
+     "type": "mcq",
+     "raw_answer": "B",
+     "answer_texts": [
+      "Clients will have to manually identify the SSID to connect to the network.​"
+     ],
+     "status": "resolved"
+    },
+    {
+     "n": 23,
+     "question": "Which service can be used on a wireless router to prioritize network traffic among different types of applications so that voice and video data are prioritized over email and web data?",
+     "question_norm": "which service can be used on a wireless router to prioritize network traffic among different types of applications so that voice and video data are prioritized over email and web data",
+     "type": "mcq",
+     "raw_answer": "B",
+     "answer_texts": [
+      "QoS"
+     ],
+     "status": "resolved"
+    },
+    {
+     "n": 24,
+     "question": "What security benefit is gained from enabling BPDU guard on PortFast enabled interfaces?",
+     "question_norm": "what security benefit is gained from enabling bpdu guard on portfast enabled interfaces",
+     "type": "mcq",
+     "raw_answer": "A",
+     "answer_texts": [
+      "Preventing rogue switches from being added to the network"
+     ],
+     "status": "resolved"
+    },
+    {
+     "n": 25,
+     "question": "A network administrator is configuring DAI on a switch with the command ip arp inspection validate src-mac . What is the purpose of this configuration command?",
+     "question_norm": "a network administrator is configuring dai on a switch with the command ip arp inspection validate src mac what is the purpose of this configuration command",
+     "type": "mcq",
+     "raw_answer": "D",
+     "answer_texts": [
+      "It checks the source MAC address in the Ethernet header against the sender MAC address in the ARP body."
+     ],
+     "status": "resolved"
+    },
+    {
+     "n": 26,
+     "question": "An IT security specialist enables port security on a switch port of a Cisco switch. What is the default violation mode in use until the switch port is configured to use a different violation mode?",
+     "question_norm": "an it security specialist enables port security on a switch port of a cisco switch what is the default violation mode in use until the switch port is configured to use a different violation mode",
+     "type": "mcq",
+     "raw_answer": "D",
+     "answer_texts": [
+      "Shutdown"
+     ],
+     "status": "resolved"
+    },
+    {
+     "n": 27,
+     "question": "Which type of wireless network is based on the 802.11 standard and a 2.4-GHz or 5-GHz radio frequency?",
+     "question_norm": "which type of wireless network is based on the 802 11 standard and a 2 4 ghz or 5 ghz radio frequency",
+     "type": "mcq",
+     "raw_answer": "A",
+     "answer_texts": [
+      "Wireless local-area network"
+     ],
+     "status": "resolved"
+    },
+    {
+     "n": 28,
+     "question": "Which step is required before creating a new WLAN on a Cisco 3500 series WLC?",
+     "question_norm": "which step is required before creating a new wlan on a cisco 3500 series wlc",
+     "type": "mcq",
+     "raw_answer": "B",
+     "answer_texts": [
+      "Create a new VLAN interface."
+     ],
+     "status": "resolved"
+    },
+    {
+     "n": 29,
+     "question": "What are two protocols that are used by AAA to authenticate users against a central database of usernames and password? (Choose two.)",
+     "question_norm": "what are two protocols that are used by aaa to authenticate users against a central database of usernames and password choose two",
+     "type": "mcq",
+     "raw_answer": "B",
+     "answer_texts": [
+      "TACACS+"
+     ],
+     "status": "resolved"
+    },
+    {
+     "n": 30,
+     "question": "Which component of AAA allows an administrator to track individuals who access network resources and any changes that are made to those resources?",
+     "question_norm": "which component of aaa allows an administrator to track individuals who access network resources and any changes that are made to those resources",
+     "type": "mcq",
+     "raw_answer": "A",
+     "answer_texts": [
+      "Accessibility"
+     ],
+     "status": "resolved"
+    },
+    {
+     "n": 31,
+     "question": "Which protocol can be used to monitor the network?",
+     "question_norm": "which protocol can be used to monitor the network",
+     "type": "mcq",
+     "raw_answer": "B",
+     "answer_texts": [
+      "SNMP"
+     ],
+     "status": "resolved"
+    },
+    {
+     "n": 33,
+     "question": "What is a wireless security mode that requires a RADIUS server to authenticate wireless users?",
+     "question_norm": "what is a wireless security mode that requires a radius server to authenticate wireless users",
+     "type": "mcq",
+     "raw_answer": "A",
+     "answer_texts": [
+      "Enterprise"
+     ],
+     "status": "resolved"
+    }
+   ]
+  },
+  {
+   "item": "exam-5",
+   "title": "Checkpoint Exam: Routing Concepts and Configuration Exam",
+   "questions": [
+    {
+     "n": 1,
+     "question": "What is a characteristic of a static route that matches all packets?",
+     "question_norm": "what is a characteristic of a static route that matches all packets",
+     "type": "mcq",
+     "raw_answer": "C",
+     "answer_texts": [
+      "It identifies the gateway IP address to which the router sends all IP packets for which it does not have a learned or static route."
+     ],
+     "status": "resolved"
+    },
+    {
+     "n": 2,
+     "question": "What are two advantages of static routing over dynamic routing? (Choose two.)",
+     "question_norm": "what are two advantages of static routing over dynamic routing choose two",
+     "type": "mcq",
+     "raw_answer": "A,D",
+     "answer_texts": [
+      "Static routing is more secure because it does not advertise over the network.",
+      "Static routing uses fewer router resources than dynamic routing."
+     ],
+     "status": "resolved"
+    },
+    {
+     "n": 3,
+     "question": "Refer to the exhibit. What will the router do with a packet that has a destination IP address of 192.168.12.227?",
+     "question_norm": "refer to the exhibit what will the router do with a packet that has a destination ip address of 192 168 12 227",
+     "type": "mcq",
+     "raw_answer": "NEEDS EXHIBIT",
+     "status": "match_free_text"
+    },
+    {
+     "n": 4,
+     "question": "Refer to the exhibit. PC A sends a request to Server B. What IPv4 address is used in the destination field in the packet as the packet leaves PC A?",
+     "question_norm": "refer to the exhibit pc a sends a request to server b what ipv4 address is used in the destination field in the packet as the packet leaves pc a",
+     "type": "mcq",
+     "raw_answer": "NEEDS EXHIBIT",
+     "status": "match_free_text"
+    },
+    {
+     "n": 5,
+     "question": "What happens to a static route entry in a routing table when the outgoing interface associated with that route goes into the down state?",
+     "question_norm": "what happens to a static route entry in a routing table when the outgoing interface associated with that route goes into the down state",
+     "type": "mcq",
+     "raw_answer": "A",
+     "answer_texts": [
+      "The static route is removed from the routing table."
+     ],
+     "status": "resolved"
+    },
+    {
+     "n": 6,
+     "question": "What route would have the lowest administrative distance?",
+     "question_norm": "what route would have the lowest administrative distance",
+     "type": "mcq",
+     "raw_answer": "A",
+     "answer_texts": [
+      "a directly connected network"
+     ],
+     "status": "resolved"
+    },
+    {
+     "n": 8,
+     "question": "Refer to the exhibit. The routing table for R2 is as follows: Gateway of last resort is not set 10.0.0.0/30 is subnetted, 2 subnets C 10.0.0.0 is directly connected, Serial0/0/0 C 10.0.0.4 is directly connected, Serial0/0/1 192.168.10.0/26 is subnetted, 3 subnets S 192.168.10.0 is directly connected, Serial0/0/0 C 192.168.10.64 is directly connected, FastEthernet0/0 S 192.168.10.128 [1/0] via 10.0.0.6 What will router R2 do with a packet destined for 192.168.10.129?",
+     "question_norm": "refer to the exhibit the routing table for r2 is as follows gateway of last resort is not set 10 0 0 0 30 is subnetted 2 subnets c 10 0 0 0 is directly connected serial0 0 0 c 10 0 0 4 is directly connected serial0 0 1 192 168 10 0 26 is subnetted 3 subnets s 192 168 10 0 is directly connected serial0 0 0 c 192 168 10 64 is directly connected fastethernet0 0 s 192 168 10 128 1 0 via 10 0 0 6 what will router r2 do with a packet destined for 192 168 10 129",
+     "type": "mcq",
+     "raw_answer": "D",
+     "answer_texts": [
+      "send the packet out interface FastEthernet0/0"
+     ],
+     "status": "resolved"
+    },
+    {
+     "n": 9,
+     "question": "Refer to the exhibit. What command would be used to configure a static route on R1 so that traffic from both LANs can reach the 2001:db8:1:4::/64 remote network?",
+     "question_norm": "refer to the exhibit what command would be used to configure a static route on r1 so that traffic from both lans can reach the 2001 db8 1 4 64 remote network",
+     "type": "mcq",
+     "raw_answer": "C",
+     "answer_texts": [
+      "ipv6 route 2001:db8:1:4::/64 2001:db8:1:3::2"
+     ],
+     "status": "resolved"
+    },
+    {
+     "n": 10,
+     "question": "A router has used the OSPF protocol to learn a route to the 172.16.32.0/19 network. Which command will implement a backup floating static route to this network?",
+     "question_norm": "a router has used the ospf protocol to learn a route to the 172 16 32 0 19 network which command will implement a backup floating static route to this network",
+     "type": "mcq",
+     "raw_answer": "B",
+     "answer_texts": [
+      "ip route 172.16.32.0 255.255.224.0 S0/0/0 200"
+     ],
+     "status": "resolved"
+    },
+    {
+     "n": 11,
+     "question": "Consider the following command: ip route 192.168.10.0 255.255.255.0 10.10.10.2 5 Which route would have to go down in order for this static route to appear in the routing table?",
+     "question_norm": "consider the following command ip route 192 168 10 0 255 255 255 0 10 10 10 2 5 which route would have to go down in order for this static route to appear in the routing table",
+     "type": "mcq",
+     "raw_answer": "B",
+     "answer_texts": [
+      "a static route to the 192.168.10.0/24 network"
+     ],
+     "status": "resolved"
+    },
+    {
+     "n": 12,
+     "question": "What network prefix and prefix-length combination is used to create a default static route that will match any IPv6 destination?",
+     "question_norm": "what network prefix and prefix length combination is used to create a default static route that will match any ipv6 destination",
+     "type": "mcq",
+     "raw_answer": "C",
+     "answer_texts": [
+      "::1/64"
+     ],
+     "status": "resolved"
+    },
+    {
+     "n": 13,
+     "question": "Refer to the exhibit. This network has two connections to the ISP, one via router C and one via router B. The serial link between router A and router C supports EIGRP and is the primary link to the Internet. If the primary link fails, the administrator needs a floating static route that avoids recursive route lookups and any potential next-hop issues caused by the multiaccess nature of the Ethernet segment with router B. What should the administrator configure?",
+     "question_norm": "refer to the exhibit this network has two connections to the isp one via router c and one via router b the serial link between router a and router c supports eigrp and is the primary link to the internet if the primary link fails the administrator needs a floating static route that avoids recursive route lookups and any potential next hop issues caused by the multiaccess nature of the ethernet segment with router b what should the administrator configure",
+     "type": "mcq",
+     "raw_answer": "C",
+     "answer_texts": [
+      "Create a static route pointing to 10.1.1.1 with an AD of 95."
+     ],
+     "status": "resolved"
+    },
+    {
+     "n": 14,
+     "question": "Refer to the exhibit. What two commands will change the next-hop address for the 10.0.0.0/8 network from 172.16.40.2 to 192.168.1.2? (Choose two.)",
+     "question_norm": "refer to the exhibit what two commands will change the next hop address for the 10 0 0 0 8 network from 172 16 40 2 to 192 168 1 2 choose two",
+     "type": "mcq",
+     "raw_answer": "C,E",
+     "answer_texts": [
+      "A(config)# no ip route 10.0.0.0 255.0.0.0 172.16.40.2",
+      "A(config)# ip route 10.0.0.0 255.0.0.0 192.168.1.2"
+     ],
+     "status": "resolved"
+    },
+    {
+     "n": 15,
+     "question": "On which two routers would a default static route be configured? (Choose two.)",
+     "question_norm": "on which two routers would a default static route be configured choose two",
+     "type": "mcq",
+     "raw_answer": "NEEDS EXHIBIT",
+     "status": "match_free_text"
+    },
+    {
+     "n": 16,
+     "question": "What is a characteristic of a floating static route?",
+     "question_norm": "what is a characteristic of a floating static route",
+     "type": "mcq",
+     "raw_answer": "C",
+     "answer_texts": [
+      "It is configured with a higher administrative distance than the original dynamic routing protocol has."
+     ],
+     "status": "resolved"
+    },
+    {
+     "n": 17,
+     "question": "Refer to the graphic. Which command would be used on router A to configure a static route to direct traffic from LAN A that is destined for LAN C?",
+     "question_norm": "refer to the graphic which command would be used on router a to configure a static route to direct traffic from lan a that is destined for lan c",
+     "type": "mcq",
+     "raw_answer": "A",
+     "answer_texts": [
+      "A(config)# ip route 192.168.4.0 255.255.255.0 192.168.5.2"
+     ],
+     "status": "resolved"
+    },
+    {
+     "n": 18,
+     "question": "Consider the following command: ip route 192.168.10.0 255.255.255.0 10.10.10.2 5 What does the 5 at the end of the command signify?",
+     "question_norm": "consider the following command ip route 192 168 10 0 255 255 255 0 10 10 10 2 5 what does the 5 at the end of the command signify",
+     "type": "mcq",
+     "raw_answer": "C",
+     "answer_texts": [
+      "administrative distance"
+     ],
+     "status": "resolved"
+    },
+    {
+     "n": 19,
+     "question": "Refer to the exhibit. The Branch Router has an OSPF neighbor relationship with the HQ router over the 198.51.0.4/30 network. The 198.51.0.8/30 network link should serve as a backup when the OSPF link goes down. The floating static route command ip route 0.0.0.0 0.0.0.0 S0/1/1 100 was issued on Branch and now traffic is using the backup link even when the OSPF link is up and functioning. Which change should be made to the static route command so that traffic will only use the OSPF link when it is up?",
+     "question_norm": "refer to the exhibit the branch router has an ospf neighbor relationship with the hq router over the 198 51 0 4 30 network the 198 51 0 8 30 network link should serve as a backup when the ospf link goes down the floating static route command ip route 0 0 0 0 0 0 0 0 s0 1 1 100 was issued on branch and now traffic is using the backup link even when the ospf link is up and functioning which change should be made to the static route command so that traffic will only use the ospf link when it is up",
+     "type": "mcq",
+     "raw_answer": "D",
+     "answer_texts": [
+      "Change the administrative distance to 120."
+     ],
+     "status": "resolved"
+    },
+    {
+     "n": 20,
+     "question": "Refer to the exhibit. A ping from R1 to 10.1.1.2 is successful, but a ping from R1 to any address in the 192.168.2.0 network fails. What is the cause of this problem?",
+     "question_norm": "refer to the exhibit a ping from r1 to 10 1 1 2 is successful but a ping from r1 to any address in the 192 168 2 0 network fails what is the cause of this problem",
+     "type": "mcq",
+     "raw_answer": "D",
+     "answer_texts": [
+      "The static route for 192.168.2.0 is incorrectly configured."
+     ],
+     "status": "resolved"
+    },
+    {
+     "n": 21,
+     "question": "Refer to the exhibit. The small company shown uses static routing. Users on the R2 LAN have reported a problem with connectivity. What is the issue?",
+     "question_norm": "refer to the exhibit the small company shown uses static routing users on the r2 lan have reported a problem with connectivity what is the issue",
+     "type": "mcq",
+     "raw_answer": "D",
+     "answer_texts": [
+      "R1 needs a static route to the R2 LAN."
+     ],
+     "status": "resolved"
+    },
+    {
+     "n": 22,
+     "question": "Refer to the exhibit. An administrator is attempting to install a default static route on router R1 to reach the Site B network on router R2. After entering the static route command, the route is still not showing up in the routing table of router R1. What is preventing the route from installing in the routing table?",
+     "question_norm": "refer to the exhibit an administrator is attempting to install a default static route on router r1 to reach the site b network on router r2 after entering the static route command the route is still not showing up in the routing table of router r1 what is preventing the route from installing in the routing table",
+     "type": "mcq",
+     "raw_answer": "D",
+     "answer_texts": [
+      "The next hop address is incorrect."
+     ],
+     "status": "resolved"
+    },
+    {
+     "n": 23,
+     "question": "Refer to the exhibit. An administrator is attempting to install an IPv6 static route on router R1 to reach the network attached to router R2. After the static route command is entered, connectivity to the network is still failing. What error has been made in the static route configuration?",
+     "question_norm": "refer to the exhibit an administrator is attempting to install an ipv6 static route on router r1 to reach the network attached to router r2 after the static route command is entered connectivity to the network is still failing what error has been made in the static route configuration",
+     "type": "mcq",
+     "raw_answer": "D",
+     "answer_texts": [
+      "The next hop address is incorrect."
+     ],
+     "status": "resolved"
+    },
+    {
+     "n": 24,
+     "question": "Refer to the exhibit. HostA is attempting to contact ServerB. Which two statements correctly describe the addressing that HostA will generate in the process? (Choose two.)",
+     "question_norm": "refer to the exhibit hosta is attempting to contact serverb which two statements correctly describe the addressing that hosta will generate in the process choose two",
+     "type": "mcq",
+     "raw_answer": "D",
+     "answer_texts": [
+      "A frame with the destination MAC address of RouterA."
+     ],
+     "status": "resolved"
+    },
+    {
+     "n": 25,
+     "question": "Refer to the exhibit. How was the host route 2001:DB8:CAFE:4::1/128 installed in the routing table?",
+     "question_norm": "refer to the exhibit how was the host route 2001 db8 cafe 4 1 128 installed in the routing table",
+     "type": "mcq",
+     "raw_answer": "C",
+     "answer_texts": [
+      "The route was manually entered by an administrator."
+     ],
+     "status": "resolved"
+    },
+    {
+     "n": 26,
+     "question": "What characteristic completes the following statement? When an IPv6 static route is configured, as a backup route to a static route in the routing table, the \"distance\" command is used with ......",
+     "question_norm": "what characteristic completes the following statement when an ipv6 static route is configured as a backup route to a static route in the routing table the distance command is used with",
+     "type": "mcq",
+     "raw_answer": "A",
+     "answer_texts": [
+      "an administrative distance of 2."
+     ],
+     "status": "resolved"
+    },
+    {
+     "n": 27,
+     "question": "Gateway of last resort is not set. 172.18.109.0/26 is variously subnetted, 7 subnets, 3 masks O 172.18.109.0/26 [110/10] via 172.18.32.1, 00:00:24, Serial0/0/0 O 172.18.109.64/26 [110/20] via 172.18.32.6, 00:00:56, Serial 0/0/1 O 172.18.109.128/26 [110/10] via 172.18.32.1, 00:00:24, Serial 0/0/0 C 172.18.109.192/27 is directly connected, GigabitEthernet0/0 L 172.18.109.193/27 is directly connected, GigabitEthernet0/0 C 172.18.109.224/27 is directly connected, GigabitEthernet0/1 L 172.18.109.225/27 is directly connected, GigabitEthernet0/1 172.18.32.0/24 is variably subnetted, 4 subnets, 2 masks C 172.18.32.0/30 is directly connected, Serial0/0/0 L 172.18.32.2/32 is directly connected, Serial0/0/0 C 172.18.32.4/30 is directly connected, Serial0/0/1 L 172.18.32.5/32 is directly connected, Serial0/0/1 S 172.18.33.0/26 [1/0] via 172.18.32.1, 00:00:24, Serial0/0/0 R1# Refer to the exhibit. Which interface will be the exit interface to forward a data packet that has the destination IP address 172.18.109.152?",
+     "question_norm": "gateway of last resort is not set 172 18 109 0 26 is variously subnetted 7 subnets 3 masks o 172 18 109 0 26 110 10 via 172 18 32 1 00 00 24 serial0 0 0 o 172 18 109 64 26 110 20 via 172 18 32 6 00 00 56 serial 0 0 1 o 172 18 109 128 26 110 10 via 172 18 32 1 00 00 24 serial 0 0 0 c 172 18 109 192 27 is directly connected gigabitethernet0 0 l 172 18 109 193 27 is directly connected gigabitethernet0 0 c 172 18 109 224 27 is directly connected gigabitethernet0 1 l 172 18 109 225 27 is directly connected gigabitethernet0 1 172 18 32 0 24 is variably subnetted 4 subnets 2 masks c 172 18 32 0 30 is directly connected serial0 0 0 l 172 18 32 2 32 is directly connected serial0 0 0 c 172 18 32 4 30 is directly connected serial0 0 1 l 172 18 32 5 32 is directly connected serial0 0 1 s 172 18 33 0 26 1 0 via 172 18 32 1 00 00 24 serial0 0 0 r1 refer to the exhibit which interface will be the exit interface to forward a data packet that has the destination ip address 172 18 109 152",
+     "type": "mcq",
+     "raw_answer": "A",
+     "answer_texts": [
+      "Serial0/0/0."
+     ],
+     "status": "resolved"
+    },
+    {
+     "n": 28,
+     "question": "Refer to the exhibit. Which command will properly configure an IPv6 static route on R2 that will allow traffic from PC2 to reach PC1 without any recursive lookups by router R2?",
+     "question_norm": "refer to the exhibit which command will properly configure an ipv6 static route on r2 that will allow traffic from pc2 to reach pc1 without any recursive lookups by router r2",
+     "type": "mcq",
+     "raw_answer": "B",
+     "answer_texts": [
+      "R2(config)# ipv6 route 2001:db8:10:12::/64 S0/0/0"
+     ],
+     "status": "resolved"
+    },
+    {
+     "n": 29,
+     "question": "file_download PT Activity Open the PT Activity. Perform the tasks in the activity instructions and then answer the question. A user reports that PC0 cannot visit the web server www.server.com . Troubleshoot the network configuration to identify the problem. What is the cause of the problem?",
+     "question_norm": "file_download pt activity open the pt activity perform the tasks in the activity instructions and then answer the question a user reports that pc0 cannot visit the web server www server com troubleshoot the network configuration to identify the problem what is the cause of the problem",
+     "type": "mcq",
+     "raw_answer": "NEEDS PT ACTIVITY",
+     "status": "match_free_text"
+    },
+    {
+     "n": 30,
+     "question": "Refer to the exhibit. What would happen after the IT administrator enters the new static route?",
+     "question_norm": "refer to the exhibit what would happen after the it administrator enters the new static route",
+     "type": "mcq",
+     "raw_answer": "B",
+     "answer_texts": [
+      "The 172.16.1.0 static route would be entered into the running-config but not shown in the routing table."
+     ],
+     "status": "resolved"
+    },
+    {
+     "n": 31,
+     "question": "Refer to the exhibit. Which static route would an IT technician enter to create a backup route to the 172.16.1.0 network that is only used if the primary RIP learned route fails?",
+     "question_norm": "refer to the exhibit which static route would an it technician enter to create a backup route to the 172 16 1 0 network that is only used if the primary rip learned route fails",
+     "type": "mcq",
+     "raw_answer": "C",
+     "answer_texts": [
+      "ip route 172.16.1.0 255.255.255.0 s0/0/0 111"
+     ],
+     "status": "resolved"
+    },
+    {
+     "n": 32,
+     "question": "What two pieces of information are needed in a fully specified static route to eliminate recursive lookups? (Choose two.)",
+     "question_norm": "what two pieces of information are needed in a fully specified static route to eliminate recursive lookups choose two",
+     "type": "mcq",
+     "raw_answer": "A,C",
+     "answer_texts": [
+      "the interface ID exit interface",
+      "the IP address of the next-hop neighbor"
+     ],
+     "status": "resolved"
+    },
+    {
+     "n": 33,
+     "question": "Refer to the exhibit. What routing solution will allow both PC A and PC B to access the Internet with the minimum amount of router CPU and network bandwidth utilization?",
+     "question_norm": "refer to the exhibit what routing solution will allow both pc a and pc b to access the internet with the minimum amount of router cpu and network bandwidth utilization",
+     "type": "mcq",
+     "raw_answer": "B",
+     "answer_texts": [
+      "Configure a static default route from R1 to Edge, a default route from Edge to the Internet, and a static route from Edge to R1."
+     ],
+     "status": "resolved"
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,39 @@
+{
+ "page_type": "LESSON",
+ "item_id": "3.3.2",
+ "scope_kind": "block",
+ "scope_modelid": "1753436f9fdf4b58a829169c5a74e314",
+ "heading": "3.3.2 Webster - Reflection Questions",
+ "complete": true,
+ "components": [
+  {
+   "tag": "text-view",
+   "modelid": "2f92989dd5184b23ad66f04af093b19e",
+   "complete": true,
+   "heading": null
+  },
+  {
+   "tag": "graphic-view",
+   "modelid": "9a5043be05d841e19ff58dd4c2c13ba8",
+   "complete": true,
+   "heading": null
+  },
+  {
+   "tag": "blank-view",
+   "modelid": "c6dfd6edfd49477aafea3d1d061200b5",
+   "complete": true,
+   "heading": null
+  }
+ ],
+ "families": {
+  "assessment": 0,
+  "question": 0,
+  "media": 0,
+  "interactive": 0,
+  "static": 3,
+  "unknown": []
+ },
+ "reasons": [
+  "static components only (3)"
+ ]
+}

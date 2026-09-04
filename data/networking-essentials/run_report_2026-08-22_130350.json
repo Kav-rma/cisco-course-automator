@@ -1,0 +1,877 @@
+{
+ "started_at": "2026-08-22T13:03:50",
+ "items": [
+  {
+   "item": "39.0.1",
+   "title": "Why Should I Take this Module?",
+   "module": 39,
+   "type": "INTRODUCTION",
+   "components": [
+    "graphic-view",
+    "text-view"
+   ],
+   "unit_complete": false,
+   "status": "completed",
+   "notes": [
+    "completed after scrolling into view"
+   ],
+   "seconds": 6.6,
+   "outline_after": "completed"
+  },
+  {
+   "item": "39.0.2",
+   "title": "What Will I Learn in this Module?",
+   "module": 39,
+   "type": "INTRODUCTION",
+   "components": [
+    "table-view",
+    "quicknav-view"
+   ],
+   "unit_complete": false,
+   "status": "completed",
+   "notes": [
+    "completed after scrolling into view"
+   ],
+   "seconds": 5.7,
+   "outline_after": "completed"
+  },
+  {
+   "item": "39.1.1",
+   "title": "The Cybersecurity Cube",
+   "module": 39,
+   "type": "LESSON",
+   "components": [
+    "text-view",
+    "graphic-view",
+    "text-view",
+    "graphic-view",
+    "text-view",
+    "graphic-view",
+    "text-view"
+   ],
+   "unit_complete": true,
+   "status": "already_complete",
+   "notes": [],
+   "seconds": 3.1,
+   "outline_after": "completed"
+  },
+  {
+   "item": "39.1.2",
+   "title": "Confidentiality, Integrity, and Availability",
+   "module": 39,
+   "type": "LESSON",
+   "components": [
+    "text-view",
+    "dynamic-graphic-view"
+   ],
+   "unit_complete": false,
+   "status": "completed",
+   "notes": [
+    "completed after scrolling into view"
+   ],
+   "seconds": 4.4,
+   "outline_after": "completed"
+  },
+  {
+   "item": "39.1.4",
+   "title": "Practice Item - Protecting Data Privacy",
+   "module": 39,
+   "type": "KNOWLEDGE_CHECK",
+   "components": [
+    "object-matching-view"
+   ],
+   "unit_complete": false,
+   "status": "completed",
+   "notes": [],
+   "seconds": 4.7,
+   "outline_after": "completed"
+  },
+  {
+   "item": "39.1.5",
+   "title": "Data Integrity",
+   "module": 39,
+   "type": "INTERACTIVE",
+   "components": [
+    "flipcard-view"
+   ],
+   "unit_complete": false,
+   "status": "completed",
+   "notes": [
+    "unit complete"
+   ],
+   "seconds": 6.9,
+   "outline_after": "completed"
+  },
+  {
+   "item": "39.1.6",
+   "title": "Availability",
+   "module": 39,
+   "type": "UNKNOWN",
+   "components": [
+    "yesno-view"
+   ],
+   "unit_complete": false,
+   "status": "unknown"
+  },
+  {
+   "item": "39.1.7",
+   "title": "Ensuring Availability",
+   "module": 39,
+   "type": "INTERACTIVE",
+   "components": [
+    "accordion-view"
+   ],
+   "unit_complete": false,
+   "status": "completed",
+   "notes": [
+    "unit complete"
+   ],
+   "seconds": 7.0,
+   "outline_after": "completed"
+  },
+  {
+   "item": "39.1.8",
+   "title": "Check Your Understanding - Security Foundations",
+   "module": 39,
+   "type": "KNOWLEDGE_CHECK",
+   "components": [
+    "object-matching-view",
+    "quicknav-view"
+   ],
+   "unit_complete": false,
+   "status": "completed",
+   "notes": [],
+   "seconds": 5.3,
+   "outline_after": "completed"
+  },
+  {
+   "item": "39.2.1",
+   "title": "Physical Access Controls",
+   "module": 39,
+   "type": "LESSON",
+   "components": [
+    "text-view",
+    "graphic-view"
+   ],
+   "unit_complete": true,
+   "status": "already_complete",
+   "notes": [],
+   "seconds": 6.2,
+   "outline_after": "completed"
+  },
+  {
+   "item": "39.2.3",
+   "title": "Administrative Access Controls",
+   "module": 39,
+   "type": "LESSON",
+   "components": [
+    "text-view",
+    "dynamic-graphic-view",
+    "text-view"
+   ],
+   "unit_complete": true,
+   "status": "already_complete",
+   "notes": [],
+   "seconds": 14.0,
+   "outline_after": "completed"
+  },
+  {
+   "item": "39.2.4",
+   "title": "Authentication, Authorization, and Accounting (AAA)",
+   "module": 39,
+   "type": "INTERACTIVE",
+   "components": [
+    "accordion-view"
+   ],
+   "unit_complete": false,
+   "status": "completed",
+   "notes": [
+    "unit complete"
+   ],
+   "seconds": 7.9,
+   "outline_after": "completed"
+  },
+  {
+   "item": "39.2.5",
+   "title": "What Is Identification?",
+   "module": 39,
+   "type": "LESSON",
+   "components": [
+    "text-view"
+   ],
+   "unit_complete": true,
+   "status": "already_complete",
+   "notes": [],
+   "seconds": 3.9,
+   "outline_after": "completed"
+  },
+  {
+   "item": "39.2.6",
+   "title": "Federated Identity Management",
+   "module": 39,
+   "type": "LESSON",
+   "components": [
+    "text-view",
+    "graphic-view"
+   ],
+   "unit_complete": false,
+   "status": "completed",
+   "notes": [
+    "completed after scrolling into view"
+   ],
+   "seconds": 4.4,
+   "outline_after": "completed"
+  },
+  {
+   "item": "39.2.7",
+   "title": "Authentication Methods",
+   "module": 39,
+   "type": "INTERACTIVE",
+   "components": [
+    "accordion-view"
+   ],
+   "unit_complete": false,
+   "status": "completed",
+   "notes": [
+    "unit complete"
+   ],
+   "seconds": 5.5,
+   "outline_after": "completed"
+  },
+  {
+   "item": "39.2.9",
+   "title": "Multi-Factor Authentication",
+   "module": 39,
+   "type": "LESSON",
+   "components": [
+    "text-view"
+   ],
+   "unit_complete": true,
+   "status": "already_complete",
+   "notes": [],
+   "seconds": 3.6,
+   "outline_after": "completed"
+  },
+  {
+   "item": "39.2.10",
+   "title": "Authorization",
+   "module": 39,
+   "type": "INTERACTIVE",
+   "components": [
+    "hotgraphic-view"
+   ],
+   "unit_complete": false,
+   "status": "completed",
+   "notes": [
+    "unit complete"
+   ],
+   "seconds": 5.2,
+   "outline_after": "completed"
+  },
+  {
+   "item": "39.2.11",
+   "title": "Accounting",
+   "module": 39,
+   "type": "INTERACTIVE",
+   "components": [
+    "narrative-view"
+   ],
+   "unit_complete": false,
+   "status": "completed",
+   "notes": [
+    "unit complete"
+   ],
+   "seconds": 5.4,
+   "outline_after": "completed"
+  },
+  {
+   "item": "39.2.12",
+   "title": "Check Your Understanding - Access Control",
+   "module": 39,
+   "type": "KNOWLEDGE_CHECK",
+   "components": [
+    "mcq-view"
+   ],
+   "unit_complete": false,
+   "status": "completed",
+   "notes": [],
+   "seconds": 3.1,
+   "outline_after": "completed"
+  },
+  {
+   "item": "39.2.13",
+   "title": "Video - Configure Access Control",
+   "module": 39,
+   "type": "VIDEO",
+   "components": [
+    "media-view"
+   ],
+   "unit_complete": false,
+   "status": "completed",
+   "notes": [],
+   "seconds": 6.4,
+   "outline_after": "completed"
+  },
+  {
+   "item": "39.2.14",
+   "title": "Packet Tracer - Configure Access Control",
+   "module": 39,
+   "type": "LAB",
+   "components": [
+    "pagetracer-view",
+    "quicknav-view"
+   ],
+   "unit_complete": false,
+   "status": "completed",
+   "notes": [],
+   "seconds": 3.2,
+   "outline_after": "completed"
+  },
+  {
+   "item": "39.3.1",
+   "title": "Operating System Security",
+   "module": 39,
+   "type": "INTERACTIVE",
+   "components": [
+    "narrative-view"
+   ],
+   "unit_complete": false,
+   "status": "completed",
+   "notes": [
+    "unit complete"
+   ],
+   "seconds": 6.1,
+   "outline_after": "completed"
+  },
+  {
+   "item": "39.3.2",
+   "title": "What Do You Know About Antimalware?",
+   "module": 39,
+   "type": "KNOWLEDGE_CHECK",
+   "components": [
+    "object-matching-view"
+   ],
+   "unit_complete": false,
+   "status": "completed",
+   "notes": [],
+   "seconds": 6.1,
+   "outline_after": "completed"
+  },
+  {
+   "item": "39.3.3",
+   "title": "Types of Antimalware",
+   "module": 39,
+   "type": "INTERACTIVE",
+   "components": [
+    "accordion-view"
+   ],
+   "unit_complete": false,
+   "status": "completed",
+   "notes": [
+    "unit complete"
+   ],
+   "seconds": 5.5,
+   "outline_after": "completed"
+  },
+  {
+   "item": "39.3.4",
+   "title": "Patch Management",
+   "module": 39,
+   "type": "INTERACTIVE",
+   "components": [
+    "narrative-view"
+   ],
+   "unit_complete": false,
+   "status": "completed",
+   "notes": [
+    "unit complete"
+   ],
+   "seconds": 5.9,
+   "outline_after": "completed"
+  },
+  {
+   "item": "39.3.5",
+   "title": "Endpoint Security",
+   "module": 39,
+   "type": "INTERACTIVE",
+   "components": [
+    "flipcard-view"
+   ],
+   "unit_complete": false,
+   "status": "completed",
+   "notes": [
+    "unit complete"
+   ],
+   "seconds": 9.2,
+   "outline_after": "completed"
+  },
+  {
+   "item": "39.3.6",
+   "title": "Host Encryption",
+   "module": 39,
+   "type": "LESSON",
+   "components": [
+    "text-view",
+    "graphic-view"
+   ],
+   "unit_complete": false,
+   "status": "completed",
+   "notes": [
+    "completed after scrolling into view"
+   ],
+   "seconds": 4.4,
+   "outline_after": "completed"
+  },
+  {
+   "item": "39.3.7",
+   "title": "Boot Integrity",
+   "module": 39,
+   "type": "INTERACTIVE",
+   "components": [
+    "narrative-view"
+   ],
+   "unit_complete": false,
+   "status": "completed",
+   "notes": [
+    "unit complete"
+   ],
+   "seconds": 6.7,
+   "outline_after": "completed"
+  },
+  {
+   "item": "39.3.8",
+   "title": "Apple System Security Features",
+   "module": 39,
+   "type": "INTERACTIVE",
+   "components": [
+    "accordion-view"
+   ],
+   "unit_complete": false,
+   "status": "completed",
+   "notes": [
+    "unit complete"
+   ],
+   "seconds": 9.0,
+   "outline_after": "completed"
+  },
+  {
+   "item": "39.3.9",
+   "title": "Physical Protection of Devices",
+   "module": 39,
+   "type": "INTERACTIVE",
+   "components": [
+    "narrative-view"
+   ],
+   "unit_complete": false,
+   "status": "completed",
+   "notes": [
+    "unit complete"
+   ],
+   "seconds": 6.5,
+   "outline_after": "completed"
+  },
+  {
+   "item": "39.3.10",
+   "title": "Check Your Understanding - Defending Systems and Devices",
+   "module": 39,
+   "type": "KNOWLEDGE_CHECK",
+   "components": [
+    "mcq-view",
+    "mcq-view",
+    "mcq-view",
+    "mcq-view",
+    "mcq-view",
+    "mcq-view",
+    "quicknav-view"
+   ],
+   "unit_complete": false,
+   "status": "completed",
+   "notes": [],
+   "seconds": 7.8,
+   "outline_after": "completed"
+  },
+  {
+   "item": "39.4.1",
+   "title": "Endpoint Threats",
+   "module": 39,
+   "type": "LESSON",
+   "components": [
+    "text-view",
+    "dynamic-graphic-view"
+   ],
+   "unit_complete": true,
+   "status": "already_complete",
+   "notes": [],
+   "seconds": 4.9,
+   "outline_after": "completed"
+  },
+  {
+   "item": "39.4.3",
+   "title": "Host-Based Malware Protection",
+   "module": 39,
+   "type": "INTERACTIVE",
+   "components": [
+    "accordion-view"
+   ],
+   "unit_complete": false,
+   "status": "completed",
+   "notes": [
+    "unit complete"
+   ],
+   "seconds": 6.0,
+   "outline_after": "completed"
+  },
+  {
+   "item": "39.4.5",
+   "title": "Check Your Understanding - Antimalware Protection",
+   "module": 39,
+   "type": "KNOWLEDGE_CHECK",
+   "components": [
+    "mcq-view",
+    "mcq-view",
+    "mcq-view",
+    "mcq-view",
+    "mcq-view",
+    "quicknav-view"
+   ],
+   "unit_complete": false,
+   "status": "completed",
+   "notes": [],
+   "seconds": 6.5,
+   "outline_after": "completed"
+  },
+  {
+   "item": "39.5.1",
+   "title": "Firewalls",
+   "module": 39,
+   "type": "INTERACTIVE",
+   "components": [
+    "adobe-animate-view",
+    "tabs-view"
+   ],
+   "unit_complete": false,
+   "status": "completed",
+   "notes": [
+    "unit complete"
+   ],
+   "seconds": 10.1,
+   "outline_after": "completed"
+  },
+  {
+   "item": "39.5.2",
+   "title": "Types of Firewalls",
+   "module": 39,
+   "type": "INTERACTIVE",
+   "components": [
+    "tabs-view",
+    "text-view"
+   ],
+   "unit_complete": false,
+   "status": "completed",
+   "notes": [
+    "unit complete"
+   ],
+   "seconds": 6.6,
+   "outline_after": "completed"
+  },
+  {
+   "item": "39.5.3",
+   "title": "Check Your Understanding - Identify the Type of Firewall",
+   "module": 39,
+   "type": "KNOWLEDGE_CHECK",
+   "components": [
+    "mcq-view",
+    "mcq-view",
+    "mcq-view",
+    "mcq-view",
+    "mcq-view"
+   ],
+   "unit_complete": false,
+   "status": "completed",
+   "notes": [],
+   "seconds": 3.8,
+   "outline_after": "completed"
+  },
+  {
+   "item": "39.5.6",
+   "title": "Host-Based Firewalls",
+   "module": 39,
+   "type": "INTERACTIVE",
+   "components": [
+    "accordion-view"
+   ],
+   "unit_complete": false,
+   "status": "completed",
+   "notes": [
+    "unit complete"
+   ],
+   "seconds": 5.9,
+   "outline_after": "completed"
+  },
+  {
+   "item": "39.5.7",
+   "title": "Antimalware Programs",
+   "module": 39,
+   "type": "INTERACTIVE",
+   "components": [
+    "accordion-view"
+   ],
+   "unit_complete": false,
+   "status": "completed",
+   "notes": [
+    "unit complete"
+   ],
+   "seconds": 6.0,
+   "outline_after": "completed"
+  },
+  {
+   "item": "39.5.9",
+   "title": "Check Your Understanding - Firewall and Host-Based Intrusion Prevention",
+   "module": 39,
+   "type": "KNOWLEDGE_CHECK",
+   "components": [
+    "mcq-view",
+    "mcq-view",
+    "mcq-view",
+    "mcq-view",
+    "mcq-view",
+    "object-matching-view",
+    "quicknav-view"
+   ],
+   "unit_complete": false,
+   "status": "completed",
+   "notes": [],
+   "seconds": 7.2,
+   "outline_after": "completed"
+  },
+  {
+   "item": "39.6.1",
+   "title": "Video - WLAN Threats",
+   "module": 39,
+   "type": "VIDEO",
+   "components": [
+    "media-view"
+   ],
+   "unit_complete": false,
+   "status": "completed",
+   "notes": [],
+   "seconds": 7.7,
+   "outline_after": "completed"
+  },
+  {
+   "item": "39.6.3",
+   "title": "DoS Attacks",
+   "module": 39,
+   "type": "LESSON",
+   "components": [
+    "dynamic-graphic-view",
+    "text-view"
+   ],
+   "unit_complete": false,
+   "status": "completed",
+   "notes": [
+    "completed after scrolling into view"
+   ],
+   "seconds": 4.5,
+   "outline_after": "completed"
+  },
+  {
+   "item": "39.6.6",
+   "title": "Check Your Understanding - WLAN Threats",
+   "module": 39,
+   "type": "KNOWLEDGE_CHECK",
+   "components": [
+    "mcq-view",
+    "mcq-view",
+    "mcq-view"
+   ],
+   "unit_complete": false,
+   "status": "completed",
+   "notes": [],
+   "seconds": 3.4,
+   "outline_after": "completed"
+  },
+  {
+   "item": "39.6.7",
+   "title": "Video - Secure WLANs",
+   "module": 39,
+   "type": "VIDEO",
+   "components": [
+    "media-view"
+   ],
+   "unit_complete": false,
+   "status": "completed",
+   "notes": [],
+   "seconds": 5.9,
+   "outline_after": "completed"
+  },
+  {
+   "item": "39.6.8",
+   "title": "SSID Cloaking and MAC Address Filtering",
+   "module": 39,
+   "type": "LESSON",
+   "components": [
+    "graphic-view",
+    "graphic-view"
+   ],
+   "unit_complete": false,
+   "status": "completed",
+   "notes": [
+    "completed after scrolling into view"
+   ],
+   "seconds": 4.7,
+   "outline_after": "completed"
+  },
+  {
+   "item": "39.6.10",
+   "title": "Shared Key Authentication Methods",
+   "module": 39,
+   "type": "LESSON",
+   "components": [
+    "table-view"
+   ],
+   "unit_complete": false,
+   "status": "completed",
+   "notes": [
+    "completed after scrolling into view"
+   ],
+   "seconds": 3.6,
+   "outline_after": "completed"
+  },
+  {
+   "item": "39.6.11",
+   "title": "Authenticating a Home User",
+   "module": 39,
+   "type": "LESSON",
+   "components": [
+    "graphic-view"
+   ],
+   "unit_complete": false,
+   "status": "completed",
+   "notes": [
+    "completed after scrolling into view"
+   ],
+   "seconds": 3.8,
+   "outline_after": "completed"
+  },
+  {
+   "item": "39.6.14",
+   "title": "WPA3",
+   "module": 39,
+   "type": "INTERACTIVE",
+   "components": [
+    "accordion-view",
+    "blank-view"
+   ],
+   "unit_complete": false,
+   "status": "completed",
+   "notes": [
+    "unit complete"
+   ],
+   "seconds": 5.5,
+   "outline_after": "completed"
+  },
+  {
+   "item": "39.6.15",
+   "title": "Check Your Understanding - Secure WLANs",
+   "module": 39,
+   "type": "KNOWLEDGE_CHECK",
+   "components": [
+    "mcq-view",
+    "mcq-view",
+    "mcq-view",
+    "mcq-view",
+    "mcq-view"
+   ],
+   "unit_complete": false,
+   "status": "completed",
+   "notes": [],
+   "seconds": 4.5,
+   "outline_after": "completed"
+  },
+  {
+   "item": "39.6.16",
+   "title": "Packet Tracer - Configure Basic Wireless Security",
+   "module": 39,
+   "type": "LAB",
+   "components": [
+    "pagetracer-view",
+    "quicknav-view"
+   ],
+   "unit_complete": false,
+   "status": "completed",
+   "notes": [],
+   "seconds": 3.2,
+   "outline_after": "completed"
+  },
+  {
+   "item": "39.7.1",
+   "title": "What Did I Learn in this Module?",
+   "module": 39,
+   "type": "INTERACTIVE",
+   "components": [
+    "accordion-view"
+   ],
+   "unit_complete": false,
+   "status": "completed",
+   "notes": [
+    "unit complete"
+   ],
+   "seconds": 10.5,
+   "outline_after": "completed"
+  },
+  {
+   "item": "39.7.2",
+   "title": "Webster - Reflection Questions",
+   "module": 39,
+   "type": "LESSON",
+   "components": [
+    "text-view",
+    "graphic-view",
+    "blank-view"
+   ],
+   "unit_complete": false,
+   "status": "completed",
+   "notes": [
+    "completed after scrolling into view"
+   ],
+   "seconds": 4.5,
+   "outline_after": "completed"
+  },
+  {
+   "item": "39.7.3",
+   "title": "Network Security Quiz",
+   "module": 39,
+   "type": "ASSESSMENT",
+   "components": [
+    "adaptive-start-screen-view"
+   ],
+   "unit_complete": false,
+   "status": "needs_user",
+   "notes": [
+    "graded assessment - never automated"
+   ],
+   "seconds": 33.1
+  }
+ ],
+ "needs_user": [
+  {
+   "item": "39.7.3",
+   "why": "graded assessment - never automated"
+  }
+ ],
+ "failed": [
+  {
+   "item": "39.1.6",
+   "title": "Availability",
+   "module": 39,
+   "type": "UNKNOWN",
+   "components": [
+    "yesno-view"
+   ],
+   "unit_complete": false,
+   "status": "unknown"
+  }
+ ],
+ "finished_at": "2026-08-22T13:10:13"
+}

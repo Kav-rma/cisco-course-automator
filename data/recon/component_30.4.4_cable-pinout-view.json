@@ -1,0 +1,100 @@
+[
+ {
+  "modelid": "8032d78d-d092-4fbf-837d-c93cf580413b",
+  "model": {
+   "attributes": null,
+   "items": []
+  },
+  "methods": [
+   "connectedCallback",
+   "disconnectedCallback",
+   "handleCheckButtonClicked",
+   "handleShowMeButtonClicked",
+   "handleResetButtonClicked",
+   "render",
+   "preRender"
+  ],
+  "own": [
+   "isUpdatePending",
+   "hasUpdated",
+   "enableUpdating",
+   "renderOptions",
+   "applyDesignAttributesHandler",
+   "applyCustomCssHandler",
+   "__modelid",
+   "renderMethodRef",
+   "isLanguageChanged",
+   "renderMethodReplacement",
+   "renderedObserver",
+   "component",
+   "controller",
+   "__cssvars",
+   "__details",
+   "__shuffledOptions",
+   "__selectedOption",
+   "__selectedTarget",
+   "__optionTargetSelections",
+   "__correctAnswersShown",
+   "__disabledButtons",
+   "a11y_description",
+   "shuffle",
+   "handleMove",
+   "selectOption",
+   "selectTarget",
+   "renderRoot",
+   "model",
+   "indexedOptions"
+  ],
+  "html": "<cable-pinout-view modelid=\"8032d78d-d092-4fbf-837d-c93cf580413b\" class=\"is-full undefined zoom-graphic-enabled\" sgpulse-type=\"component\"><template shadowroot=\"open\"><div data-socialgoodpulse-id=\"8032d78d-d092-4fbf-837d-c93cf580413b\" class=\"component cable-pinout 8032d78d-d092-4fbf-837d-c93cf580413b undefined is-undefined   \"><div class=\"component__header-container\"><base-view type=\"component\" lowercase_component=\"cable-pinout\" customclass=\"\"><template shadowroot=\"open\"><div class=\"component__header-wrapper undefined \"><div class=\"component__header cable-pinout__header\"><div class=\"component__header-inner cable-pinout__header-inner\"><div class=\"component__content\"><div tabindex=\"0\" class=\"component__body cable-pinout__body\"><div class=\"component__body-inner cable-pinout__body-inner\"><p>For this activity, correctly order the wire colors to a ANSI/TIA cable pinout. Select a wire case color by clicking it. Then click a wire to apply that casing to it.</p><p><strong>Select the pin case, then the cable pin to apply the casing.</strong></p></div></div></div></div></div></div></template></base-view></div><div class=\"component__widget\"><div class=\"a11y_description screen-reader-hide\" aria-live=\"polite\" id=\"a11y_description-2ddae7b0-1c25-11ea-a010-eb2108469056\"></div><div id=\"2ddae7b0-1c25-11ea-a010-eb2108469056\" class=\"cable-pinout-container 2ddae7b0-1c25-11ea-a010-eb2108469056 \" aria-labelledby=\"a11y_description-2ddae7b0-1c25-11ea-a010-eb2108469056\"><div class=\"drop-zone-container\"><div class=\"drop-zone\"><img class=\"main-image\" src=\"_assets/media/2ddae7b0-1c25-11ea-a010-eb2108469056/2ddae7b7-1c25-11ea-81a0-ffc2c49b96bc.svg\"></img><div class=\"drop-zone-wrapper\"><div class=\"faux-pins\"></div><div class=\"target-container\"><div class=\"target\" data-target=\"1\"></div><div class=\"target\" data-target=\"2\"></div><div class=\"target\" data-target=\"3\"></div><div class=\"target\" data-target=\"4\"></div><div class=\"target\" data-target=\"5\"></div><div class=\"target\" data-target=\"6\"></div><div class=\"target\" data-target=\"7\"></div><div class=\"target\" data-target=\"8\"></div></div><div class=\"dz-label\">T568A Pinout</div></div></div></div><div class=\"options-list\"><div class=\"option\" data-option=\"3\"></div><div class=\"option\" data-option=\"4\"></div><div class=\"option\" data-option=\"8\"></div><div class=\"option\" data-option=\"7\"></div><div class=\"option\" data-option=\"1\"></div><div class=\"option\" data-option=\"6\"></div><div class=\"option\" data-option=\"5\"></div><div class=\"option\" data-option=\"2\"></div></div><activity-buttons><template shadowroot=\"open\"><div class=\"controls\"><button id=\"check\" aria-label=\"Check\" disabled=\"\">Check</button><button id=\"showme\" aria-label=\"Show me\">Show me</button><button id=\"reset\" aria-label=\"Reset\" disabled=\"\">Reset</button></div></template></activity-buttons></div></div></div></template></cable-pinout-view>",
+  "complete": false
+ },
+ {
+  "modelid": "410ddb0f-2824-4c6c-b241-1d909f5bbd0e",
+  "model": {
+   "attributes": null,
+   "items": []
+  },
+  "methods": [
+   "connectedCallback",
+   "disconnectedCallback",
+   "handleCheckButtonClicked",
+   "handleShowMeButtonClicked",
+   "handleResetButtonClicked",
+   "render",
+   "preRender"
+  ],
+  "own": [
+   "isUpdatePending",
+   "hasUpdated",
+   "enableUpdating",
+   "renderOptions",
+   "applyDesignAttributesHandler",
+   "applyCustomCssHandler",
+   "__modelid",
+   "renderMethodRef",
+   "isLanguageChanged",
+   "renderMethodReplacement",
+   "renderedObserver",
+   "component",
+   "controller",
+   "__cssvars",
+   "__details",
+   "__shuffledOptions",
+   "__selectedOption",
+   "__selectedTarget",
+   "__optionTargetSelections",
+   "__correctAnswersShown",
+   "__disabledButtons",
+   "a11y_description",
+   "shuffle",
+   "handleMove",
+   "selectOption",
+   "selectTarget",
+   "renderRoot",
+   "model",
+   "indexedOptions"
+  ],
+  "html": "<cable-pinout-view modelid=\"410ddb0f-2824-4c6c-b241-1d909f5bbd0e\" class=\"is-full undefined zoom-graphic-enabled\" sgpulse-type=\"component\"><template shadowroot=\"open\"><div data-socialgoodpulse-id=\"410ddb0f-2824-4c6c-b241-1d909f5bbd0e\" class=\"component cable-pinout 410ddb0f-2824-4c6c-b241-1d909f5bbd0e undefined is-undefined   \"><div class=\"component__header-container\"><base-view type=\"component\" lowercase_component=\"cable-pinout\" customclass=\"\"><template shadowroot=\"open\"><div class=\"component__header-wrapper undefined \"><div class=\"component__header cable-pinout__header\"><div class=\"component__header-inner cable-pinout__header-inner\"><div class=\"component__content\"><div tabindex=\"0\" class=\"component__body cable-pinout__body\"><div class=\"component__body-inner cable-pinout__body-inner\"><p>For this activity, correctly order the wire colors to a ANSI/TIA cable pinout. Select a wire case color by clicking it. Then click a wire to apply that casing to it.</p><p><strong>Select the pin case, then the cable pin to apply the casing.</strong></p></div></div></div></div></div></div></template></base-view></div><div class=\"component__widget\"><div class=\"a11y_description screen-reader-hide\" aria-live=\"polite\" id=\"a11y_description-2ddb35d0-1c25-11ea-a010-eb2108469056\"></div><div id=\"2ddb35d0-1c25-11ea-a010-eb2108469056\" class=\"cable-pinout-container 2ddb35d0-1c25-11ea-a010-eb2108469056 \" aria-labelledby=\"a11y_description-2ddb35d0-1c25-11ea-a010-eb2108469056\"><div class=\"drop-zone-container\"><div class=\"drop-zone\"><img class=\"main-image\" src=\"_assets/media/2ddb35d0-1c25-11ea-a010-eb2108469056/2ddb35d6-1c25-11ea-81a0-ffc2c49b96bc.svg\"></img><div class=\"drop-zone-wrapper\"><div class=\"faux-pins\"></div><div class=\"target-container\"><div class=\"target\" data-target=\"1\"></div><div class=\"target\" data-target=\"2\"></div><div class=\"target\" data-target=\"3\"></div><div class=\"target\" data-target=\"4\"></div><div class=\"target\" data-target=\"5\"></div><div class=\"target\" data-target=\"6\"></div><div class=\"target\" data-target=\"7\"></div><div class=\"target\" data-target=\"8\"></div></div><div class=\"dz-label\">T568B Pinout</div></div></div></div><div class=\"options-list\"><div class=\"option\" data-option=\"5\"></div><div class=\"option\" data-option=\"2\"></div><div class=\"option\" data-option=\"8\"></div><div class=\"option\" data-option=\"7\"></div><div class=\"option\" data-option=\"3\"></div><div class=\"option\" data-option=\"4\"></div><div class=\"option\" data-option=\"6\"></div><div class=\"option\" data-option=\"1\"></div></div><activity-buttons><template shadowroot=\"open\"><div class=\"controls\"><button id=\"check\" aria-label=\"Check\" disabled=\"\">Check</button><button id=\"showme\" aria-label=\"Show me\">Show me</button><button id=\"reset\" aria-label=\"Reset\" disabled=\"\">Reset</button></div></template></activity-buttons></div></div></div></template></cable-pinout-view>",
+  "complete": false
+ }
+]

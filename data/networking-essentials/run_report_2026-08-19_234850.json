@@ -1,0 +1,28 @@
+{
+ "started_at": "2026-08-19T23:48:50",
+ "items": [
+  {
+   "item": "9.0.1",
+   "title": "Webster - Why Should I Take this Module?",
+   "module": 9,
+   "type": "INTRODUCTION",
+   "status": "already_complete",
+   "notes": [],
+   "seconds": 7.4,
+   "outline_after": "completed"
+  },
+  {
+   "item": "9.1.1",
+   "title": "Video - IPv4 Unicast",
+   "module": 9,
+   "type": "VIDEO",
+   "status": "already_complete",
+   "notes": [],
+   "seconds": 7.1,
+   "outline_after": "completed"
+  }
+ ],
+ "needs_user": [],
+ "failed": [],
+ "finished_at": "2026-08-19T23:52:32"
+}

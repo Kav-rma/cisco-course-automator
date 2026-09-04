@@ -1,0 +1,108 @@
+{
+ "started_at": "2026-08-23T13:05:23",
+ "items": [
+  {
+   "item": "1.0.1",
+   "title": "Why should I take this module?",
+   "module": 1,
+   "type": "INTRODUCTION",
+   "components": [
+    "text-view",
+    "blank-view"
+   ],
+   "unit_complete": true,
+   "status": "already_complete",
+   "notes": [],
+   "seconds": 6.4,
+   "outline_after": "completed"
+  },
+  {
+   "item": "1.1.1",
+   "title": "Switch Boot Sequence",
+   "module": 1,
+   "type": "LESSON",
+   "components": [
+    "text-view",
+    "blank-view"
+   ],
+   "unit_complete": true,
+   "status": "already_complete",
+   "notes": [],
+   "seconds": 3.9,
+   "outline_after": "completed"
+  },
+  {
+   "item": "1.2.1",
+   "title": "Duplex Communication",
+   "module": 1,
+   "type": "LESSON",
+   "components": [
+    "text-view",
+    "dynamic-graphic-view",
+    "text-view",
+    "blank-view"
+   ],
+   "unit_complete": true,
+   "status": "already_complete",
+   "notes": [],
+   "seconds": 3.3,
+   "outline_after": "completed"
+  },
+  {
+   "item": "1.3.1",
+   "title": "Telnet Operation",
+   "module": 1,
+   "type": "LESSON",
+   "components": [
+    "text-view",
+    "dynamic-graphic-view",
+    "blank-view"
+   ],
+   "unit_complete": true,
+   "status": "already_complete",
+   "notes": [],
+   "seconds": 3.8,
+   "outline_after": "completed"
+  },
+  {
+   "item": "1.4.1",
+   "title": "Configure Basic Router Settings",
+   "module": 1,
+   "type": "LESSON",
+   "components": [
+    "text-view",
+    "commandwindow-view",
+    "text-view",
+    "commandwindow-view",
+    "text-view",
+    "commandwindow-view",
+    "blank-view"
+   ],
+   "unit_complete": true,
+   "status": "already_complete",
+   "notes": [],
+   "seconds": 3.2,
+   "outline_after": "completed"
+  },
+  {
+   "item": "1.5.1",
+   "title": "Interface Verification Commands",
+   "module": 1,
+   "type": "LESSON",
+   "components": [
+    "text-view",
+    "graphic-view",
+    "text-view",
+    "blank-view"
+   ],
+   "unit_complete": true,
+   "status": "already_complete",
+   "notes": [],
+   "seconds": 4.5,
+   "outline_after": "completed"
+  }
+ ],
+ "needs_user": [],
+ "failed": [],
+ "finished_at": "2026-08-23T13:06:23"
+}

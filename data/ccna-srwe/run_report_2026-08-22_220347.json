@@ -1,0 +1,627 @@
+{
+ "started_at": "2026-08-22T22:03:47",
+ "items": [
+  {
+   "item": "1.0.1",
+   "title": "Why should I take this module?",
+   "module": 1,
+   "type": "INTRODUCTION",
+   "components": [
+    "text-view",
+    "blank-view"
+   ],
+   "unit_complete": true,
+   "status": "already_complete",
+   "notes": [],
+   "seconds": 3.5,
+   "outline_after": "completed"
+  },
+  {
+   "item": "1.1.1",
+   "title": "Switch Boot Sequence",
+   "module": 1,
+   "type": "LESSON",
+   "components": [
+    "text-view",
+    "blank-view"
+   ],
+   "unit_complete": true,
+   "status": "already_complete",
+   "notes": [],
+   "seconds": 5.6,
+   "outline_after": "completed"
+  },
+  {
+   "item": "1.1.6",
+   "title": "Switch SVI Configuration Example",
+   "module": 1,
+   "type": "INTERACTIVE",
+   "components": [
+    "text-view",
+    "text-view",
+    "tabs-view",
+    "blank-view"
+   ],
+   "unit_complete": false,
+   "status": "completed",
+   "notes": [
+    "unit complete"
+   ],
+   "seconds": 6.8,
+   "outline_after": "completed"
+  },
+  {
+   "item": "1.1.7",
+   "title": "Lab - Basic Switch Configuration",
+   "module": 1,
+   "type": "LAB",
+   "components": [
+    "text-view",
+    "packettracer-view",
+    "text-view",
+    "packettracer-view",
+    "quicknav-view"
+   ],
+   "unit_complete": false,
+   "status": "needs_user",
+   "notes": [
+    "lab item did not complete after clicking its buttons",
+    "lab item did not complete after clicking its buttons"
+   ],
+   "seconds": 44.3
+  },
+  {
+   "item": "1.2.1",
+   "title": "Duplex Communication",
+   "module": 1,
+   "type": "LESSON",
+   "components": [
+    "text-view",
+    "dynamic-graphic-view",
+    "text-view",
+    "blank-view"
+   ],
+   "unit_complete": false,
+   "status": "completed",
+   "notes": [
+    "completed after scrolling into view"
+   ],
+   "seconds": 6.9,
+   "outline_after": "completed"
+  },
+  {
+   "item": "1.2.2",
+   "title": "Configure Switch Ports at the Physical Layer",
+   "module": 1,
+   "type": "LESSON",
+   "components": [
+    "text-view",
+    "dynamic-graphic-view",
+    "text-view",
+    "table-view",
+    "text-view",
+    "blank-view"
+   ],
+   "unit_complete": false,
+   "status": "completed",
+   "notes": [
+    "completed after scrolling into view"
+   ],
+   "seconds": 5.6,
+   "outline_after": "completed"
+  },
+  {
+   "item": "1.2.3",
+   "title": "Auto-MDIX",
+   "module": 1,
+   "type": "LESSON",
+   "components": [
+    "text-view",
+    "commandwindow-view",
+    "text-view",
+    "commandwindow-view",
+    "blank-view"
+   ],
+   "unit_complete": false,
+   "status": "completed",
+   "notes": [
+    "completed after scrolling into view"
+   ],
+   "seconds": 5.1,
+   "outline_after": "completed"
+  },
+  {
+   "item": "1.2.4",
+   "title": "Switch Verification Commands",
+   "module": 1,
+   "type": "LESSON",
+   "components": [
+    "text-view",
+    "table-view",
+    "blank-view"
+   ],
+   "unit_complete": false,
+   "status": "completed",
+   "notes": [
+    "completed after scrolling into view"
+   ],
+   "seconds": 4.9,
+   "outline_after": "completed"
+  },
+  {
+   "item": "1.2.5",
+   "title": "Verify Switch Port Configuration",
+   "module": 1,
+   "type": "LESSON",
+   "components": [
+    "text-view",
+    "commandwindow-view",
+    "text-view",
+    "commandwindow-view",
+    "blank-view"
+   ],
+   "unit_complete": false,
+   "status": "completed",
+   "notes": [
+    "completed after scrolling into view"
+   ],
+   "seconds": 6.1,
+   "outline_after": "completed"
+  },
+  {
+   "item": "1.2.6",
+   "title": "Network Access Layer Issues",
+   "module": 1,
+   "type": "LESSON",
+   "components": [
+    "text-view",
+    "commandwindow-view",
+    "text-view",
+    "commandwindow-view",
+    "text-view",
+    "table-view",
+    "blank-view"
+   ],
+   "unit_complete": false,
+   "status": "completed",
+   "notes": [
+    "completed after scrolling into view"
+   ],
+   "seconds": 6.6,
+   "outline_after": "completed"
+  },
+  {
+   "item": "1.2.7",
+   "title": "Interface Input and Output Errors",
+   "module": 1,
+   "type": "LESSON",
+   "components": [
+    "text-view",
+    "blank-view"
+   ],
+   "unit_complete": false,
+   "status": "completed",
+   "notes": [
+    "completed after scrolling into view"
+   ],
+   "seconds": 4.0,
+   "outline_after": "completed"
+  },
+  {
+   "item": "1.2.8",
+   "title": "Troubleshooting Network Access Layer Issues",
+   "module": 1,
+   "type": "LESSON",
+   "components": [
+    "text-view",
+    "dynamic-graphic-view",
+    "text-view",
+    "blank-view"
+   ],
+   "unit_complete": false,
+   "status": "completed",
+   "notes": [
+    "completed after scrolling into view"
+   ],
+   "seconds": 4.5,
+   "outline_after": "completed"
+  },
+  {
+   "item": "1.2.9",
+   "title": "Syntax Checker - Configure Switch Ports",
+   "module": 1,
+   "type": "LESSON",
+   "components": [
+    "text-view",
+    "quicknav-view"
+   ],
+   "unit_complete": false,
+   "status": "completed",
+   "notes": [
+    "completed after scrolling into view"
+   ],
+   "seconds": 3.4,
+   "outline_after": "completed"
+  },
+  {
+   "item": "1.3.1",
+   "title": "Telnet Operation",
+   "module": 1,
+   "type": "LESSON",
+   "components": [
+    "text-view",
+    "dynamic-graphic-view",
+    "blank-view"
+   ],
+   "unit_complete": false,
+   "status": "completed",
+   "notes": [
+    "completed after scrolling into view"
+   ],
+   "seconds": 6.2,
+   "outline_after": "completed"
+  },
+  {
+   "item": "1.3.2",
+   "title": "SSH Operation",
+   "module": 1,
+   "type": "LESSON",
+   "components": [
+    "text-view",
+    "dynamic-graphic-view",
+    "blank-view"
+   ],
+   "unit_complete": false,
+   "status": "completed",
+   "notes": [
+    "completed after scrolling into view"
+   ],
+   "seconds": 3.9,
+   "outline_after": "completed"
+  },
+  {
+   "item": "1.3.4",
+   "title": "Configure SSH",
+   "module": 1,
+   "type": "INTERACTIVE",
+   "components": [
+    "text-view",
+    "text-view",
+    "tabs-view",
+    "blank-view"
+   ],
+   "unit_complete": false,
+   "status": "completed",
+   "notes": [
+    "unit complete"
+   ],
+   "seconds": 7.6,
+   "outline_after": "completed"
+  },
+  {
+   "item": "1.3.5",
+   "title": "Verify SSH is Operational",
+   "module": 1,
+   "type": "LESSON",
+   "components": [
+    "text-view",
+    "dynamic-graphic-view",
+    "text-view",
+    "commandwindow-view",
+    "text-view",
+    "commandwindow-view",
+    "blank-view"
+   ],
+   "unit_complete": false,
+   "status": "completed",
+   "notes": [
+    "completed after scrolling into view"
+   ],
+   "seconds": 6.5,
+   "outline_after": "completed"
+  },
+  {
+   "item": "1.3.6",
+   "title": "Packet Tracer - Configure SSH",
+   "module": 1,
+   "type": "LAB",
+   "components": [
+    "text-view",
+    "packettracer-view",
+    "quicknav-view"
+   ],
+   "unit_complete": false,
+   "status": "needs_user",
+   "notes": [
+    "lab item did not complete after clicking its buttons"
+   ],
+   "seconds": 23.1
+  },
+  {
+   "item": "1.4.1",
+   "title": "Configure Basic Router Settings",
+   "module": 1,
+   "type": "LESSON",
+   "components": [
+    "text-view",
+    "commandwindow-view",
+    "text-view",
+    "commandwindow-view",
+    "text-view",
+    "commandwindow-view",
+    "blank-view"
+   ],
+   "unit_complete": false,
+   "status": "completed",
+   "notes": [
+    "completed after scrolling into view"
+   ],
+   "seconds": 8.7,
+   "outline_after": "completed"
+  },
+  {
+   "item": "1.4.2",
+   "title": "Syntax Checker - Configure Basic Router Settings",
+   "module": 1,
+   "type": "LESSON",
+   "components": [
+    "text-view",
+    "blank-view"
+   ],
+   "unit_complete": false,
+   "status": "completed",
+   "notes": [
+    "completed after scrolling into view"
+   ],
+   "seconds": 4.4,
+   "outline_after": "completed"
+  },
+  {
+   "item": "1.4.3",
+   "title": "Dual Stack Topology",
+   "module": 1,
+   "type": "LESSON",
+   "components": [
+    "text-view",
+    "graphic-view",
+    "blank-view"
+   ],
+   "unit_complete": false,
+   "status": "completed",
+   "notes": [
+    "completed after scrolling into view"
+   ],
+   "seconds": 4.7,
+   "outline_after": "completed"
+  },
+  {
+   "item": "1.4.4",
+   "title": "Configure Router Interfaces",
+   "module": 1,
+   "type": "LESSON",
+   "components": [
+    "text-view",
+    "commandwindow-view",
+    "blank-view"
+   ],
+   "unit_complete": false,
+   "status": "completed",
+   "notes": [
+    "completed after scrolling into view"
+   ],
+   "seconds": 5.0,
+   "outline_after": "completed"
+  },
+  {
+   "item": "1.4.5",
+   "title": "Syntax Checker - Configure Router Interfaces",
+   "module": 1,
+   "type": "LESSON",
+   "components": [
+    "text-view",
+    "blank-view"
+   ],
+   "unit_complete": false,
+   "status": "completed",
+   "notes": [
+    "completed after scrolling into view"
+   ],
+   "seconds": 4.0,
+   "outline_after": "completed"
+  },
+  {
+   "item": "1.4.6",
+   "title": "IPv4 Loopback Interfaces",
+   "module": 1,
+   "type": "LESSON",
+   "components": [
+    "text-view",
+    "text-view",
+    "text-view",
+    "text-view",
+    "commandwindow-view",
+    "blank-view"
+   ],
+   "unit_complete": false,
+   "status": "completed",
+   "notes": [
+    "completed after scrolling into view"
+   ],
+   "seconds": 5.6,
+   "outline_after": "completed"
+  },
+  {
+   "item": "1.4.7",
+   "title": "Packet Tracer- Configure Router Interfaces",
+   "module": 1,
+   "type": "LAB",
+   "components": [
+    "text-view",
+    "packettracer-view",
+    "quicknav-view"
+   ],
+   "unit_complete": false,
+   "status": "needs_user",
+   "notes": [
+    "lab item did not complete after clicking its buttons"
+   ],
+   "seconds": 23.0
+  },
+  {
+   "item": "1.5.1",
+   "title": "Interface Verification Commands",
+   "module": 1,
+   "type": "LESSON",
+   "components": [
+    "text-view",
+    "graphic-view",
+    "text-view",
+    "blank-view"
+   ],
+   "unit_complete": true,
+   "status": "already_complete",
+   "notes": [],
+   "seconds": 4.2,
+   "outline_after": "completed"
+  },
+  {
+   "item": "1.5.6",
+   "title": "Filter Show Command Output",
+   "module": 1,
+   "type": "INTERACTIVE",
+   "components": [
+    "text-view",
+    "text-view",
+    "tabs-view",
+    "text-view",
+    "blank-view"
+   ],
+   "unit_complete": false,
+   "status": "completed",
+   "notes": [
+    "unit complete"
+   ],
+   "seconds": 5.9,
+   "outline_after": "completed"
+  },
+  {
+   "item": "1.5.10",
+   "title": "Packet Tracer - Verify Directly Connected Networks",
+   "module": 1,
+   "type": "LAB",
+   "components": [
+    "text-view",
+    "packettracer-view",
+    "blank-view"
+   ],
+   "unit_complete": false,
+   "status": "needs_user",
+   "notes": [
+    "lab item did not complete after clicking its buttons"
+   ],
+   "seconds": 23.4
+  },
+  {
+   "item": "1.6.1",
+   "title": "Packet Tracer - Implement a Small Network",
+   "module": 1,
+   "type": "LAB",
+   "components": [
+    "text-view",
+    "packettracer-view",
+    "blank-view"
+   ],
+   "unit_complete": false,
+   "status": "needs_user",
+   "notes": [
+    "lab item did not complete after clicking its buttons"
+   ],
+   "seconds": 23.9
+  },
+  {
+   "item": "1.6.2",
+   "title": "Lab - Configure Basic Router Settings",
+   "module": 1,
+   "type": "LAB",
+   "components": [
+    "text-view",
+    "packettracer-view",
+    "text-view",
+    "packettracer-view",
+    "blank-view"
+   ],
+   "unit_complete": false,
+   "status": "needs_user",
+   "notes": [
+    "lab item did not complete after clicking its buttons",
+    "lab item did not complete after clicking its buttons"
+   ],
+   "seconds": 45.2
+  },
+  {
+   "item": "1.6.3",
+   "title": "What did I learn in this module?",
+   "module": 1,
+   "type": "SUMMARY",
+   "components": [
+    "text-view",
+    "blank-view"
+   ],
+   "unit_complete": false,
+   "status": "completed",
+   "notes": [
+    "unit complete"
+   ],
+   "seconds": 6.3,
+   "outline_after": "completed"
+  },
+  {
+   "item": "1.6.4",
+   "title": "Module Quiz - Basic Device Configuration",
+   "module": 1,
+   "type": "ASSESSMENT",
+   "components": [
+    "adaptive-start-screen-view",
+    "quicknav-view"
+   ],
+   "unit_complete": false,
+   "status": "needs_user",
+   "notes": [
+    "graded assessment - never automated"
+   ],
+   "seconds": 34.1
+  }
+ ],
+ "needs_user": [
+  {
+   "item": "1.1.7",
+   "why": "lab item did not complete after clicking its buttons; lab item did not complete after clicking its buttons"
+  },
+  {
+   "item": "1.3.6",
+   "why": "lab item did not complete after clicking its buttons"
+  },
+  {
+   "item": "1.4.7",
+   "why": "lab item did not complete after clicking its buttons"
+  },
+  {
+   "item": "1.5.10",
+   "why": "lab item did not complete after clicking its buttons"
+  },
+  {
+   "item": "1.6.1",
+   "why": "lab item did not complete after clicking its buttons"
+  },
+  {
+   "item": "1.6.2",
+   "why": "lab item did not complete after clicking its buttons; lab item did not complete after clicking its buttons"
+  },
+  {
+   "item": "1.6.4",
+   "why": "graded assessment - never automated"
+  }
+ ],
+ "failed": [],
+ "finished_at": "2026-08-22T22:11:52"
+}

@@ -1,0 +1,121 @@
+{
+ "state": {
+  "buttons": [
+   {
+    "tag": "button",
+    "cls": "",
+    "text": "Show me",
+    "aria": "Show me"
+   },
+   {
+    "tag": "button",
+    "cls": "",
+    "text": "Show all",
+    "aria": "Show all"
+   },
+   {
+    "tag": "button",
+    "cls": "",
+    "text": "Reset",
+    "aria": "Reset"
+   },
+   {
+    "tag": "button",
+    "cls": "",
+    "text": "Show me",
+    "aria": "Show me"
+   },
+   {
+    "tag": "button",
+    "cls": "",
+    "text": "Show all",
+    "aria": "Show all"
+   },
+   {
+    "tag": "button",
+    "cls": "",
+    "text": "Reset",
+    "aria": "Reset"
+   },
+   {
+    "tag": "button",
+    "cls": "open-dialog btn-text btn__action  ",
+    "text": "description Verify Directly Connect",
+    "aria": null
+   },
+   {
+    "tag": "button",
+    "cls": "btn-icon article__btn-arrow is-left is-disabled",
+    "text": "arrow_back_ios",
+    "aria": "Scroll Question strip left"
+   },
+   {
+    "tag": "button",
+    "cls": " block-button active-block \n                                          ",
+    "text": "Q1",
+    "aria": "answered Question 1"
+   },
+   {
+    "tag": "button",
+    "cls": " block-button  last-block\n                                          ",
+    "text": "Q1",
+    "aria": "answered Question 1"
+   },
+   {
+    "tag": "button",
+    "cls": "btn-icon article__btn-arrow is-right is-disabled",
+    "text": "arrow_forward_ios",
+    "aria": "Scroll Question strip right"
+   },
+   {
+    "tag": "button",
+    "cls": "btn-icon btn__action abs__btn-arrow submit-button aria-hidden is-disab",
+    "text": "Submit",
+    "aria": "submit"
+   }
+  ],
+  "role_buttons": [
+   {
+    "tag": "a",
+    "cls": "content-links-item-states-css btn-text btn__action download-file ",
+    "text": "file_download Verify Directly Conne",
+    "aria": null
+   },
+   {
+    "tag": "div",
+    "cls": "start-button start",
+    "text": "Start",
+    "aria": null
+   },
+   {
+    "tag": "input",
+    "cls": "",
+    "text": "",
+    "aria": "Skip All Question"
+   },
+   {
+    "tag": "input",
+    "cls": "",
+    "text": "",
+    "aria": "Skip Question"
+   }
+  ],
+  "start_visible": true,
+  "mcq_visible": 2,
+  "secure": [
+   "component__widget secure-one-question__widget adaptive-start :: 1.5.11 Check Your Understanding - Verify Directly ",
+   "intro-screen secure :: 1.5.11 Check Your Understanding - Verify Directly ",
+   "secure-question-count :: 6",
+   "secure-passing-score :: 70",
+   "secure-attempts :: unlimited",
+   "secure-attempt-text :: attempts",
+   "secure-static-intruction :: You have no time limit per attempt to pass the exa",
+   "c77dea45-c478-466e-bb61-cc81f0e1efe4 block remove-padding-to :: Incomplete Question Incomplete Question 1 Which co",
+   "block__header-wrapper remove-padding-top remove-padding-bott :: ",
+   "c77dea45-c478-466e-bb61-cc81f0e1efe4 block remove-padding-to :: Incomplete Question Incomplete Question 1 Which co",
+   "block__header-wrapper remove-padding-top remove-padding-bott :: ",
+   "secure-toolbar-container sticky-toolbar-container sticky :: error 5 remaining. close 1 of 6 Questions Skip All"
+  ]
+ },
+ "html": "<!---->\n        <div class=\"adaptive-start-screen-inner component__inner\">\n            <div data-socialgoodpulse-id=\"25b1de0b-4fb8-4733-a41c-c3b2289abd79\" class=\"component adaptivestartscreen 25b1de0b-4fb8-4733-a41c-c3b2289abd79 assessment-start-screen is-full is-complete  \">\n            <div class=\"component__header-container\">\n                <div data-socialgoodpulse-id=\"25b1de0b-4fb8-4733-a41c-c3b2289abd79\" class=\"component adaptivestartscreen 25b1de0b-4fb8-4733-a41c-c3b2289abd79 assessment-start-screen is-full is-complete  \">\n                    <base-view type=\"component\" lowercase_component=\"adaptiveStartScreen\" model=\"[object Object]\" customclass=\"\" is-touch=\"false\" fullscreen=\"true\" device=\"large\" browser=\"Chrome\" os=\"windows\" dir=\"ltr\" location=\"page\" theme=\"light\" orientation=\"landscape\" themetype=\"block-base-theme\"></base-view>\n                </div>\n            </div>\n            <!--?lit$865434475$-->\n            <div class=\"component__widget secure-one-question__widget adaptive-start-screen__widget\">\n                <div class=\"widget-inner\">\n                   <div class=\"intro-screen secure\">\n                            <div class=\"bottom\">\n                                <div class=\"bottom-container\">\n                                    <div class=\"bottom-container-title\">\n                                        <p class=\"top-text\" tabindex=\"0\"><!--?lit$865434475$--></p>\n                                        <h2 class=\"module-title\" tabindex=\"0\"><!--?lit$865434475$-->1.5.11 Check Your Understanding - Verify Directly Connected Networks</h2>\n                                        <!--?lit$865434475$-->\n                                    </div>\n                                </div>\n                                <div class=\"instruction\">\n                                    <div class=\"instruction-text\" tabindex=\"0\">\n                                        <img src=\"./assets/icons8-info-16.svg\" alt=\"\">\n                                        <p><!--?lit$865434475$-->Instructions:</p>\n                                    </div>\n                                    <p tabindex=\"0\"><!--?lit$865434475$--><p></p><ul><li>The exam consists of <b><span class=\"secure-question-count\">6</span></b> questions and <b><span class=\"secure-passing-score\">70</span></b>% is required to pass.</li><li>You have <b><span class=\"secure-attempts\">unlimited</span> <span class=\"secure-attempt-text\">attempts</span> </b>to pass the exam.</li> <li class=\"secure-dynamic-time\" style=\"display: none;\">You have <b><span class=\"secure-time\">no</span></b> per attempt to pass the exam.</li><li class=\"secure-static-intruction\" style=\"display: list-item;\">You have <b>no</b> time limit per attempt to pass the exam.</li><li class=\"secure-note\" style=\"display: none;\">Your responses will be automatically submitted once the given time has elapsed.</li></ul><p></p></p>\n                                </div>\n                                <!--?lit$865434475$-->\n                                <div class=\"start-button start\" role=\"button\" tabindex=\"0\">\n                                    <!--?lit$865434475$-->Start\n                                </div>\n                                \n                            </div>\n                    </div>\n                </div>\n            </div>\n            \n        </div>\n        </div><style id=\"customCSS\">.reduce-margin-top {\nmargin-top: calc(4em / 2) !important;\n}\n\n.remove-top-margin {\nmargin-top: 0 !important;\n}\n\n.reduce-padding-top {\npadding-top: calc(4em / 2) !important;\n}\n\n.remove-top-padding {\npadding-top: 0 !important;\n}\n\n.increase-margin-top {\nmargin-top: calc(4em * 2) !important;\n}\n\n.increase-padding-top {\npadding-top: calc(4em * 2) !important;\n}\n\n.reduce-margin-bottom {\nmargin-bottom: calc(4em / 2) !important;\n}\n\n.remove-bottom-margin {\nmargin-bottom: 0 !important;\n}\n\n.background-color-blue {\nbackground-color: #0d274d;\n}\n\n.background-color-gray {\nbackground-color: rgb(var(--background-color-2));\n}\n\n.reduce-padding-bottom {\npadding-bottom: calc(4em / 2) !important;\n}\n\n.remove-bottom-padding {\npadding-bottom: 0 !important;\n}\n\n.background-color-white {\nbackground-color: rgb(var(--background-color-3));\n}\n\n.increase-margin-bottom {\nmargin-bottom: calc(4em / 2) !important;\n}\n\n.increase-padding-bottom {\npadding-bottom: calc(4em / 2) !important;\n}\n\n.graphic-component-aside-content {\ndisplay: flex;\nflex-direction: row-reverse;\n}:host([theme=\"light\"]) {\n    --background-color-5: 214, 216, 220;\n    --font-color-2: rgba(0, 0, 0, 0.6);\n}\n\n:host([theme=\"dark\"]) {\n    --background-color-5: 94, 102, 113;\n    --font-color-2: rgba(255, 255, 255, 0.6);\n}\n.text__body-inner pre code,\n.mcq__body div pre code {\n  overflow-x: auto;\n  display: block;\n  background: #23241f;\n  color: #dfdfdf;\n  border-radius: 8px;\n  padding: 1em;\n}\nlabel div.mcq__item-text div code {\n  overflow-x: auto;\n  display: inline-block;\n  background: #23241f;\n  color: #dfdfdf;\n  border-radius: 3px;\n  padding: 0.5em 0.25em;\n  line-height: 0.75em;\n}\n.tabs__content-item-body div pre,\n.text__header p code,\n.text__header li code {\n  background: #23241f;\n  border-radius: 3px;\n  padding: 1px 4px 2px;\n  color: #dfdfdf;\n  margin: 1em 0;\n}\n.tabs__content-item-body div pre code {\n  overflow-x: auto;\n}\n.bold {\n  font-weight: bold;\n}\n.instructions {\n  border: 1px solid #00bceb;\n  padding: 10px 20px;\n}\n.table,\ntable {\n  border-collapse: collapse;\n  width: 100%;\n  user-select: none;\n  min-width: initial !important;\n}\n\n.table-inner td pre {\n  white-space: nowrap !important;\n  overflow-x: auto;\n  display: block;\n  background: #23241f;\n  color: #dfdfdf;\n  border-radius: 8px;\n  padding: 1em;\n}\n.table-inner tr.active td {\n  background-color: rgba(30, 68, 113, 0.25) !important;\n}\n.table-stripes table tr:nth-child(odd) td {\n  background-color: #f2f2f2 !important;\n  color: black !important;\n}\n.table-stripes table tr.active td {\n  background-color: rgba(30, 68, 113, 0.25) !important;\n}\n.table-stripes table td:not(:has(:not(:empty))) {\n "
+}

@@ -1,0 +1,85 @@
+{
+ "started_at": "2026-08-27T19:24:53",
+ "items": [
+  {
+   "item": "15.0.1",
+   "title": "Webster - Why Should I Take this Module?",
+   "module": 15,
+   "type": "INTRODUCTION",
+   "components": [
+    "graphic-view",
+    "text-view"
+   ],
+   "unit_complete": true,
+   "status": "already_complete",
+   "notes": [],
+   "seconds": 6.2,
+   "outline_after": "completed"
+  },
+  {
+   "item": "15.1.1",
+   "title": "Video - TCP and UDP Operation",
+   "module": 15,
+   "type": "VIDEO",
+   "components": [
+    "media-view"
+   ],
+   "unit_complete": true,
+   "status": "already_complete",
+   "notes": [],
+   "seconds": 7.3,
+   "outline_after": "completed"
+  },
+  {
+   "item": "15.2.1",
+   "title": "Video - Transport Layer Port Numbers",
+   "module": 15,
+   "type": "VIDEO",
+   "components": [
+    "media-view"
+   ],
+   "unit_complete": true,
+   "status": "already_complete",
+   "notes": [],
+   "seconds": 5.0,
+   "outline_after": "completed"
+  },
+  {
+   "item": "15.3.1",
+   "title": "What Did I Learn in this Module?",
+   "module": 15,
+   "type": "INTERACTIVE",
+   "components": [
+    "accordion-view"
+   ],
+   "unit_complete": true,
+   "status": "already_complete",
+   "notes": [],
+   "seconds": 3.9,
+   "outline_after": "completed"
+  },
+  {
+   "item": "15.3.3",
+   "title": "TCP and UDP Quiz",
+   "module": 15,
+   "type": "ASSESSMENT",
+   "components": [
+    "adaptive-start-screen-view"
+   ],
+   "unit_complete": false,
+   "status": "needs_user",
+   "notes": [
+    "graded assessment - never automated"
+   ],
+   "seconds": 33.4
+  }
+ ],
+ "needs_user": [
+  {
+   "item": "15.3.3",
+   "why": "graded assessment - never automated"
+  }
+ ],
+ "failed": [],
+ "finished_at": "2026-08-27T19:26:20"
+}

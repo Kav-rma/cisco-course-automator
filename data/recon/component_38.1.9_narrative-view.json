@@ -1,0 +1,152 @@
+[
+ {
+  "modelid": "63ac2cfc5b32bd08d6d84867",
+  "model": {
+   "attributes": null,
+   "items": [
+    {
+     "body": "<p>This is a subscription-based model that provides organizations with software that is centrally hosted and accessed by users via a web browser, app, or other software. In other words, this is software that is not stored locally but instead is run from the cloud.</p>",
+     "title": "Software as a Service (SaaS)",
+     "_graphic": {
+      "alt": "A smartphone",
+      "src": "en-US/assets/5f300dd9d51743a9bbe9e98ee266a168.png",
+      "attribution": ""
+     },
+     "strapline": "Tap + for more information",
+     "_ariaLevel": 0,
+     "_index": 0,
+     "_parentId": "63ac2cfc5b32bd08d6d84867"
+    },
+    {
+     "body": "<p>This subscription-based model provides a platform that allows an organization to develop, run and manage its applications on the service’s hardware, using tools that the service provides. This platform is accessed via the public cloud.</p>",
+     "title": "Platform as a Service (PaaS)",
+     "_graphic": {
+      "alt": "A server",
+      "src": "en-US/assets/07e9dd07760a4668b111e8470233bc9c.png",
+      "attribution": ""
+     },
+     "strapline": "Tap + for more information",
+     "_ariaLevel": 0,
+     "_index": 1,
+     "_parentId": "63ac2cfc5b32bd08d6d84867"
+    },
+    {
+     "body": "<p>This subscription-based model provides virtual computing resources such as hardware, software, servers, storage, and other infrastructure components over the internet. An organization will buy access to this infrastructure and use it via the public cloud.</p>",
+     "title": "Infrastructure as a Service (IaaS)",
+     "_graphic": {
+      "alt": "A desktop and modem",
+      "src": "en-US/assets/228538bb2101478ab6f9d3cde5e9ab89.png",
+      "attribution": ""
+     },
+     "strapline": "Tap + for more information",
+     "_ariaLevel": 0,
+     "_index": 2,
+     "_parentId": "63ac2cfc5b32bd08d6d84867"
+    }
+   ]
+  },
+  "methods": [
+   "connectedCallback",
+   "firstUpdated",
+   "getImageItemMediaDir",
+   "render",
+   "disconnectedCallback",
+   "preRender"
+  ],
+  "own": [
+   "isUpdatePending",
+   "hasUpdated",
+   "enableUpdating",
+   "renderOptions",
+   "applyDesignAttributesHandler",
+   "applyCustomCssHandler",
+   "__modelid",
+   "renderMethodRef",
+   "isLanguageChanged",
+   "renderMethodReplacement",
+   "renderedObserver",
+   "component",
+   "model",
+   "controller",
+   "renderRoot",
+   "requestUpdateHandler"
+  ],
+  "html": "<narrative-view modelid=\"63ac2cfc5b32bd08d6d84867\" class=\"is-full\" sgpulse-type=\"component\"><template shadowroot=\"open\"><div class=\"narrative-inner component__inner\"><div data-socialgoodpulse-id=\"63ac2cfc5b32bd08d6d84867\" class=\"narrative__inner component narrative 63ac2cfc5b32bd08d6d84867  is-full   \"><div class=\"component__header-container\"><base-view type=\"component\" lowercase_component=\"narrative\" customclass=\"\"><template shadowroot=\"open\"><div class=\"component__header-wrapper  \"><div class=\"component__header narrative__header\"><div class=\"component__header-inner narrative__header-inner\"><div class=\"component__content\"><div tabindex=\"0\" class=\"component__body narrative__body\"><div class=\"component__body-inner narrative__body-inner\"><p>Where a private cloud domain hosts computing resources for a single organization, the<strong> public cloud domain</strong> is the entirety of computing services hosted by a cloud service or internet provider that are available to the public or shared across organizations.</p><p>There are three models of public cloud services that organizations may choose to use.</p><p><strong>Select the arrows to find out more about public cloud services.</strong></p></div></div></div></div></div></div></template></base-view></div><div class=\"component__widget \"><narrative-widget-view modelid=\"63ac2cfc5b32bd08d6d84867\" contentbase=\"https://contenthub.netacad.com/asset/netacad-media\" items=\"[object Object],[object Object],[object Object]\" navigationflage=\"false\"><template shadowroot=\"open\"><div><span class=\"narrative-slider-container_inner\" role=\"heading\" aria-level=\"5\" aria-label=\"Software as a Service (SaaS)\"></span></div><div class=\"narrative-widget-content-inner \"><div class=\"narrtive-items-container\"><div class=\"narrative-slider-container\"><div class=\"narrative__slider-wrapper\"><div class=\"narrative__slider\"><div id=\"image-0\" class=\"narrative__slider-image-container image-item-0 is-visited \" tabindex=\"1\" data-index=\"0\"><img class=\"narrative__slider-image\" src=\"./courses/ff9e491c-49be-4734-803e-a79e6e83dab1/470b0f8c-3433-58f8-8cae-ad9db92ba313/en-US/assets/5f300dd9d51743a9bbe9e98ee266a168.png\" alt=\"A smartphone\" aria-hidden=\"false\"></img></div><div id=\"image-1\" class=\"narrative__slider-image-container image-item-1  \" tabindex=\"-1\" data-index=\"1\"><img class=\"narrative__slider-image\" src=\"./courses/ff9e491c-49be-4734-803e-a79e6e83dab1/470b0f8c-3433-58f8-8cae-ad9db92ba313/en-US/assets/07e9dd07760a4668b111e8470233bc9c.png\" alt=\"A server\" aria-hidden=\"true\"></img></div><div id=\"image-2\" class=\"narrative__slider-image-container image-item-2  \" tabindex=\"-1\" data-index=\"2\"><img class=\"narrative__slider-image\" src=\"./courses/ff9e491c-49be-4734-803e-a79e6e83dab1/470b0f8c-3433-58f8-8cae-ad9db92ba313/en-US/assets/228538bb2101478ab6f9d3cde5e9ab89.png\" alt=\"A desktop and modem\" aria-hidden=\"true\"></img></div><div class=\"clear\"></div></div><div class=\"narrative__slider-button-container\"><button tabindex=\"3\" aria-label=\"Back\" class=\"narrative__controls previous disabled\"><material-icon class=\"select-triangle\" icon=\"chevron_left\" aria-hidden=\"true\" customclasses=\"\" iconname=\"chevron_left\"><template shadowroot=\"open\"><span part=\"material-icon\" class=\"material-icons \">chevron_left</span></template></material-icon></button><button tabindex=\"4\" aria-label=\"Next\" class=\"narrative__controls next \"><material-icon class=\"select-triangle\" icon=\"chevron_right\" aria-hidden=\"true\" customclasses=\"\" iconname=\"chevron_right\"><template shadowroot=\"open\"><span part=\"material-icon\" class=\"material-icons \">chevron_right</span></template></material-icon></button></div><div class=\"narrative__indicators narrative__slide-indicators\" aria-hidden=\"true\"><button role=\"tab\" class=\"narrative__progress js-narrative-progress-click is-visited  is-selected\" data-index=\"0\" aria-selected=\"true\" aria-label=\"Slide 1 of 3, visited\"></button><button role=\"tab\" class=\"narrative__progress js-narrative-progress-click   \" data-index=\"1\" aria-selected=\"false\" aria-label=\"Slide 2 of 3\"></button><button role=\"tab\" class=\"narrative__progress js-narrative-progress-click   \" data-index=\"2\" aria-selected=\"false\" aria-label=\"Slide 3 of 3\"></button></div></div><div class=\"narrative-content-container\" tabindex=\"2\"><narrative-item-content-view modelid=\"63ac2cfc5b32bd08d6d84867\" index=\"0\"><template shadowroot=\"open\"><div class=\"narrative__content\"><div class=\"narrative__content-inner\"><div class=\"narrative__content-title\"><strong>Software as a Service (SaaS)</strong></div><div class=\"narrative__content-body\"><p>This is a subscription-based model that provides organizations with software that is centrally hosted and accessed by users via a web browser, app, or other software. In other words, this is software that is not stored locally but instead is run from the cloud.</p></div></div></div></template></narrative-item-content-view></div><div class=\"clear\"></div></div></div></div></template></narrative-widget-view></div></div></div></template></narrative-view>",
+  "complete": false
+ },
+ {
+  "modelid": "63ac41b1248b18028273530b",
+  "model": {
+   "attributes": null,
+   "items": [
+    {
+     "body": "<p>This refers to encrypted web content that is not indexed by conventional search engines and requires specific software, authorization, or configurations to access. Expert researchers monitor the dark web for new threat intelligence.</p>",
+     "title": "The Dark Web",
+     "_graphic": {
+      "alt": "A hacker icon on a desktop screen",
+      "src": "en-US/assets/e66fe7feacf649188ca0ce1fc4b1cd91.png",
+      "attribution": ""
+     },
+     "strapline": "Tap + for more information",
+     "_ariaLevel": 0,
+     "_index": 0,
+     "_parentId": "63ac41b1248b18028273530b"
+    },
+    {
+     "body": "<p>IOCs such as malware signatures or malicious domain names provide evidence of security breaches and details about them.</p>",
+     "title": "Indicator of Compromise (IOC)",
+     "_graphic": {
+      "alt": "A magnifying glass",
+      "src": "en-US/assets/7066f66d2d5b4aaab9efc342d4e85566.png",
+      "attribution": ""
+     },
+     "strapline": "Tap + for more information",
+     "_ariaLevel": 0,
+     "_index": 1,
+     "_parentId": "63ac41b1248b18028273530b"
+    },
+    {
+     "body": "<p>Automated Indicator Sharing (AIS), a Cybersecurity and Infrastructure Security Agency (CISA) capability, enables the real-time exchange of cybersecurity threat indicators using a standardized and structured language.&nbsp; Structured Threat Information Expression (STIX) and Trusted Automated Exchange of Intelligence Information (TAXII) are standards&nbsp;used in AIS.</p>",
+     "title": "Automated Indicator Sharing (AIS)",
+     "_graphic": {
+      "alt": "Cybersecurity and Infrastructure Security Agency logo",
+      "src": "en-US/assets/af4e1bebcdae4ee498d17d49e16f2896.png",
+      "attribution": ""
+     },
+     "strapline": "Tap + for more information",
+     "_ariaLevel": 0,
+     "_index": 2,
+     "_parentId": "63ac41b1248b18028273530b"
+    }
+   ]
+  },
+  "methods": [
+   "connectedCallback",
+   "firstUpdated",
+   "getImageItemMediaDir",
+   "render",
+   "disconnectedCallback",
+   "preRender"
+  ],
+  "own": [
+   "isUpdatePending",
+   "hasUpdated",
+   "enableUpdating",
+   "renderOptions",
+   "applyDesignAttributesHandler",
+   "applyCustomCssHandler",
+   "__modelid",
+   "renderMethodRef",
+   "isLanguageChanged",
+   "renderMethodReplacement",
+   "renderedObserver",
+   "component",
+   "model",
+   "controller",
+   "renderRoot",
+   "requestUpdateHandler"
+  ],
+  "html": "<narrative-view modelid=\"63ac41b1248b18028273530b\" class=\"is-full\" sgpulse-type=\"component\"><template shadowroot=\"open\"><div class=\"narrative-inner component__inner\"><div data-socialgoodpulse-id=\"63ac41b1248b18028273530b\" class=\"narrative__inner component narrative 63ac41b1248b18028273530b  is-full   \"><div class=\"component__header-container\"><base-view type=\"component\" lowercase_component=\"narrative\" customclass=\"\"><template shadowroot=\"open\"><div class=\"component__header-wrapper  \"><div class=\"component__header narrative__header\"><div class=\"component__header-inner narrative__header-inner\"><div class=\"component__content\"><div tabindex=\"0\" class=\"component__body narrative__body\"><div class=\"component__body-inner narrative__body-inner\"><p>The United States Computer Emergency Readiness Team (US-CERT) and the U.S. Department of Homeland Security sponsor a database of common <strong>vulnerabilities and exposures (CVE)</strong>. These CVEs have been widely adopted as a way to describe and reference known vulnerabilities.</p><p>Each CVE entry contains a standard identifier number, a brief description of the security vulnerability, and any important references to related vulnerability reports. The CVE list is maintained by a not-for-profit, the MITRE Corporation, on its public website.</p><p><strong>Select the arrows to find out more about some other threat intelligence sources.</strong></p></div></div></div></div></div></div></template></base-view></div><div class=\"component__widget \"><narrative-widget-view modelid=\"63ac41b1248b18028273530b\" contentbase=\"https://contenthub.netacad.com/asset/netacad-media\" items=\"[object Object],[object Object],[object Object]\" navigationflage=\"false\"><template shadowroot=\"open\"><div><span class=\"narrative-slider-container_inner\" role=\"heading\" aria-level=\"5\" aria-label=\"The Dark Web\"></span></div><div class=\"narrative-widget-content-inner \"><div class=\"narrtive-items-container\"><div class=\"narrative-slider-container\"><div class=\"narrative__slider-wrapper\"><div class=\"narrative__slider\"><div id=\"image-0\" class=\"narrative__slider-image-container image-item-0 is-visited \" tabindex=\"1\" data-index=\"0\"><img class=\"narrative__slider-image\" src=\"./courses/ff9e491c-49be-4734-803e-a79e6e83dab1/470b0f8c-3433-58f8-8cae-ad9db92ba313/en-US/assets/e66fe7feacf649188ca0ce1fc4b1cd91.png\" alt=\"A hacker icon on a desktop screen\" aria-hidden=\"false\"></img></div><div id=\"image-1\" class=\"narrative__slider-image-container image-item-1  \" tabindex=\"-1\" data-index=\"1\"><img class=\"narrative__slider-image\" src=\"./courses/ff9e491c-49be-4734-803e-a79e6e83dab1/470b0f8c-3433-58f8-8cae-ad9db92ba313/en-US/assets/7066f66d2d5b4aaab9efc342d4e85566.png\" alt=\"A magnifying glass\" aria-hidden=\"true\"></img></div><div id=\"image-2\" class=\"narrative__slider-image-container image-item-2  \" tabindex=\"-1\" data-index=\"2\"><img class=\"narrative__slider-image\" src=\"./courses/ff9e491c-49be-4734-803e-a79e6e83dab1/470b0f8c-3433-58f8-8cae-ad9db92ba313/en-US/assets/af4e1bebcdae4ee498d17d49e16f2896.png\" alt=\"Cybersecurity and Infrastructure Security Agency logo\" aria-hidden=\"true\"></img></div><div class=\"clear\"></div></div><div class=\"narrative__slider-button-container\"><button tabindex=\"3\" aria-label=\"Back\" class=\"narrative__controls previous disabled\"><material-icon class=\"select-triangle\" icon=\"chevron_left\" aria-hidden=\"true\" customclasses=\"\" iconname=\"chevron_left\"><template shadowroot=\"open\"><span part=\"material-icon\" class=\"material-icons \">chevron_left</span></template></material-icon></button><button tabindex=\"4\" aria-label=\"Next\" class=\"narrative__controls next \"><material-icon class=\"select-triangle\" icon=\"chevron_right\" aria-hidden=\"true\" customclasses=\"\" iconname=\"chevron_right\"><template shadowroot=\"open\"><span part=\"material-icon\" class=\"material-icons \">chevron_right</span></template></material-icon></button></div><div class=\"narrative__indicators narrative__slide-indicators\" aria-hidden=\"true\"><button role=\"tab\" class=\"narrative__progress js-narrative-progress-click is-visited  is-selected\" data-index=\"0\" aria-selected=\"true\" aria-label=\"Slide 1 of 3, visited\"></button><button role=\"tab\" class=\"narrative__progress js-narrative-progress-click   \" data-index=\"1\" aria-selected=\"false\" aria-label=\"Slide 2 of 3\"></button><button role=\"tab\" class=\"narrative__progress js-narrative-progress-click   \" data-index=\"2\" aria-selected=\"false\" aria-label=\"Slide 3 of 3\"></button></div></div><div class=\"narrative-content-container\" tabindex=\"2\"><narrative-item-content-view modelid=\"63ac41b1248b18028273530b\" index=\"0\"><template shadowroot=\"open\"><div class=\"narrative__content\"><div class=\"narrative__content-inner\"><div class=\"narrative__content-title\"><strong>The Dark Web</strong></div><div class=\"narrative__content-body\"><p>This refers to encrypted web content that is not indexed by conventional search engines and requires specific software, authorization, or configurations to access. Expert researchers monitor the dark web for new threat intelligence.</p></div></div></div></template></narrative-item-content-view></div><div class=\"clear\"></div></div></div></div></template></narrative-widget-view></div></div></div></template></narrative-view>",
+  "complete": false
+ }
+]

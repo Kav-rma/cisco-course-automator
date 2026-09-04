@@ -1,0 +1,1801 @@
+ANSWER SHEET — SCSE2026_CCNA: Switching, Routing, and Wireless Essentials
+17 module quizzes, 238 questions
+Fill in each 'Answer:' line (letter(s) for MCQ; the pairing for match questions), then send it back.
+==========================================================================================
+
+### QUIZ 1.6.4 — Module Quiz - Basic Device Configuration  (12 questions)
+
+Q1. Which tasks can be accomplished by using the command history feature? (Choose two.)
+    A) View a list of commands entered in a previous session.
+    B) Recall up to 15 command lines by default.
+    C) Set the command history buffer size.
+    D) Recall previously entered commands.
+    E) Save command lines in a log file for future reference.
+    Answer: ____
+
+Q2. Which statement describes the system LED operation on Cisco Catalyst switches? (Choose two.)
+    A) If the LED is blinking green, the system is operating normally.
+    B) If the LED is amber, the system is not powered on.
+    C) If the LED is blinking amber, the switch is performing POST.
+    D) If the LED is amber, the system is receiving power but it is not functioning properly.
+    Answer: ____
+
+Q3. What type of Ethernet cable would be used to connect one switch to another switch when neither switch supports the auto-MDIX feature?
+    A) Straight-through
+    B) Crossover
+    C) Coaxial
+    D) Rollover
+    Answer: ____
+
+Q4. What advantage does SSH offer over Telnet?
+    A) Encryption
+    B) More connection lines
+    C) Connection-oriented services
+    D) Username and password authentication
+    Answer: ____
+
+Q5. A network administrator has configured ​VLAN 99 as the management VLAN and has configured it with an IP address and subnet mask. The administrator issues the show interface vlan 99 command and notices that the line protocol is down. Which action can change the state of the line protocol to up?
+    A) Connect a host to an interface associated with VLAN 99.
+    B) Configure a default gateway.
+    C) Remove all access ports from VLAN 99.
+    D) Configure a transport input method on the vty lines.
+    Answer: ____
+
+Q6. Which statement describes SVIs?
+    A) An SVI is created automatically for each VLAN on a multilayer switch.
+    B) Creating an SVI automatically creates an associated VLAN.
+    C) A default SVI is created for VLAN 1 for switch administration.
+    D) An SVI can only be created for the management VLAN.
+    Answer: ____
+
+Q7. Which prompt is displayed when a network administrator successfully accesses the boot loader on a switch to recover from a system crash?
+    A) System:
+    B) System#
+    C) Switch:
+    D) Switch#
+    Answer: ____
+
+Q8. Which router bootup sequence is correct?​
+    A) 1 - perform the POST and load the Cisco IOS software 2 - locate and load the startup configuration file or enter setup mode 3 - locate and load the bootstrap program
+    B) 1 - perform the POST and load the bootstrap program 2 - locate and load the startup configuration file or enter setup mode 3 - locate and load the Cisco IOS software​
+    C) 1 - perform the POST and load the startup configuration file 2 - locate and load the bootstrap program 3 - locate and load the Cisco IOS software​
+    D) 1 - perform the POST and load the bootstrap program 2 - locate and load the Cisco IOS software 3 - locate and load the startup configuration file or enter setup mode
+    Answer: ____
+
+Q9. What is the first action in the boot sequence when a switch is powered on?
+    A) Load the default Cisco IOS software
+    B) Load boot loader software
+    C) Low-level CPU initialization
+    D) Load a power-on self-test program
+    Answer: ____
+
+Q10. What must an administrator have in order to reset a lost password on a router?
+    A) A TFTP server
+    B) A crossover cable
+    C) Access to another router
+    D) Physical access to the router
+    Answer: ____
+
+Q11. When configuring a switch for SSH access, what other command that is associated with the login local command is required to be entered on the switch?
+    A) enable secret password
+    B) password password
+    C) username username secret secret
+    D) login block-for seconds attempts number within seconds
+    Answer: ____
+
+Q12. Which command will provide information about the status of all interfaces including the number of giants, runts, and collisions on the interface?
+    A) show interfaces
+    B) show ip interface brief
+    C) show history
+    D) show running-config
+    Answer: ____
+
+------------------------------------------------------------------------------------------
+
+### QUIZ 2.3.2 — Module Quiz - Switching Concepts  (14 questions)
+
+Q1. Which statement is true about broadcast and collision domains?
+    A) Adding a router to a network will increase the size of the collision domain.
+    B) The size of the collision domain can be reduced by adding hubs to a network.
+    C) The more interfaces a router has the larger the resulting broadcast domain.
+    D) Adding a switch to a network will increase the size of the broadcast domain.
+    Answer: ____
+
+Q2. What is one function of a Layer 2 switch?
+    A) Forwards data based on logical addressing
+    B) Duplicates the electrical signal of each frame to every port
+    C) Learns the port assigned to a host by examining the destination MAC address
+    D) Determines which interface is used to forward a frame based on the destination MAC address
+    Answer: ____
+
+Q3. What is the significant difference between a hub and a Layer 2 LAN switch?
+    A) A hub divides collision domains, and a switch divides broadcast domains.
+    B) A switch creates many smaller collision domains, and a hub increases the size of a single collision domain.
+    C) Each port of a hub is a collision domain, and each port of a switch is a broadcast domain.
+    D) A hub forwards frames, and a switch forwards only packets.
+    Answer: ____
+
+Q4. What will a Cisco LAN switch do if it receives an incoming frame and the destination MAC address is not listed in the MAC address table?
+    A) Drop the frame.
+    B) Send the frame to the default gateway address.
+    C) Use ARP to resolve the port that is related to the frame.
+    D) Forward the frame out all ports except the port where the frame is received.
+    Answer: ____
+
+Q5. Which switch characteristic helps alleviate network congestion when a 10 Gbps port is forwarding data to a 1 Gbps port?
+    A) Fast internal switching
+    B) High port density
+    C) Fast port speed
+    D) Frame buffering
+    Answer: ____
+
+Q6. Which switching method makes use of the FCS value?
+    A) Broadcast
+    B) Cut-through
+    C) Large frame buffer
+    D) Store-and-forward
+    Answer: ____
+
+Q7. What does the term "port density" represent for an Ethernet switch?
+    A) The memory space that is allocated to each switch port
+    B) The number of available ports
+    C) The numbers of hosts that are connected to each switch port
+    D) The speed of each port
+    Answer: ____
+
+Q8. Which information does a switch use to keep the MAC address table information current?
+    A) The destination MAC address and the incoming port
+    B) The destination MAC address and the outgoing port
+    C) The source and destination MAC addresses and the incoming port
+    D) The source and destination MAC addresses and the outgoing port
+    E) The source MAC address and the incoming port
+    F) The source MAC address and the outgoing port
+    Answer: ____
+
+Q9. Which two statements are true about half-duplex and full-duplex communications? (Choose two.)
+    A) Full duplex offers 100 percent potential use of the bandwidth.
+    B) Half duplex has only one channel.
+    C) All modern NICs support both half-duplex and full-duplex communication.
+    D) Full duplex allows both ends to transmit and receive simultaneously.
+    E) Full duplex increases the effective bandwidth.
+    Answer: ____
+
+Q10. Which type of address does a switch use to build the MAC address table?
+    A) Destination IP address
+    B) Source IP address
+    C) Destination MAC address
+    D) Source MAC address
+    Answer: ____
+
+Q11. Which option correctly describes a switching method?
+    A) Cut-through: makes a forwarding decision after receiving the entire frame
+    B) Store-and-forward: forwards the frame immediately after examining its destination MAC address
+    C) Cut-through: provides the flexibility to support any mix of Ethernet speeds
+    D) Store-and-forward: ensures that the frame is free of physical and data-link errors
+    Answer: ____
+
+Q12. Which network device can serve as a boundary to divide a Layer 2 broadcast domain?
+    A) Router
+    B) Ethernet bridge
+    C) Ethernet hub
+    D) Access point
+    Answer: ____
+
+Q13. What is the purpose of frame buffers on a switch?
+    A) They provide a basic security scan on received frames.
+    B) They provide temporary storage of the frame checksum.
+    C) They execute checksum values before transmission.
+    D) They hold traffic, thus alleviating network congestion.
+    Answer: ____
+
+Q14. Which network device can be used to eliminate collisions on an Ethernet network?
+    A) Firewall
+    B) Hub
+    C) Router
+    D) Switch
+    Answer: ____
+
+------------------------------------------------------------------------------------------
+
+### QUIZ 3.6.4 — Module Quiz - VLANs  (15 questions)
+
+Q1. What happens to a port that is associated with VLAN 10 when the administrator deletes VLAN 10 from the switch?
+    A) The port becomes inactive.
+    B) The port goes back to the default VLAN.
+    C) The port automatically associates itself with the native VLAN.
+    D) The port creates the VLAN again.
+    Answer: ____
+
+Q2. In which memory location are the VLAN configurations of normal range VLANs stored on a Catalyst switch?
+    A) Flash
+    B) NVRAM
+    C) RAM
+    D) ROM
+    Answer: ____
+
+Q3. An administrator is investigating a failure on a trunk link between a Cisco switch and a switch from another vendor. After a few show commands, the administrator notices that the switches are not negotiating a trunk. What is a probable cause for this issue?
+    A) Both switches are in trunk mode.
+    B) Both switches are in nonegotiate mode.
+    C) Switches from other vendors do not support DTP.
+    D) DTP frames are flooding the entire network.
+    Answer: ____
+
+Q4. What is the purpose of the vlan.dat file on a switch?
+    A) It holds the running configuration.
+    B) It holds the saved configuration.
+    C) It holds the VLAN database.
+    D) It holds the operating system.
+    Answer: ____
+
+Q5. What is the purpose of setting the native VLAN separate from data VLANs?
+    A) The native VLAN is for carrying VLAN management traffic only.
+    B) The security of management frames that are carried in the native VLAN can be enhanced.
+    C) A separate VLAN should be used to carry uncommon untagged frames to avoid bandwidth contention on data VLANs.
+    D) The native VLAN is for routers and switches to exchange their management information, so it should be different from data VLANs.
+    Answer: ____
+
+Q6. When a Cisco switch receives untagged frames on a 802.1Q trunk port, which VLAN ID is the traffic switched to by default?
+    A) Unused VLAN ID
+    B) Native VLAN ID
+    C) Data VLAN ID
+    D) Management VLAN ID
+    Answer: ____
+
+Q7. A network administrator is determining the best placement of VLAN trunk links. Which two types of point-to-point connections utilize VLAN trunking?​ (Choose two.)
+    A) Between two switches that utilize multiple VLANs
+    B) Between a switch and a client PC
+    C) Between a switch and a server that has an 802.1Q NIC
+    D) Between a switch and a network printer
+    E) Between two switches that share a common VLAN
+    Answer: ____
+
+Q8. What are three primary benefits of using VLANs? (Choose three.)
+    A) Security
+    B) A reduction in the number of trunk links
+    C) Cost reduction
+    D) End user satisfaction
+    E) Improved IT Staff efficiency
+    Answer: ____
+
+Q9. On a Cisco switch, where is extended range VLAN information stored?
+    A) Running configuration file
+    B) Startup configuration file
+    C) NVRAM
+    D) Flash
+    Answer: ____
+
+Q10. In which location are the normal range VLANs stored on a Cisco switch by default?
+    A) Flash memory
+    B) Startup-config
+    C) Running-config
+    D) RAM
+    Answer: ____
+
+Q11. Which distinct type of VLAN is used by an administrator to access and configure a switch?
+    A) Default VLAN
+    B) Native VLAN
+    C) Data VLAN
+    D) Management VLAN
+    Answer: ____
+
+Q12. For what reason would a network administrator use the show interfaces trunk command on a switch?
+    A) To view the native VLAN
+    B) To examine DTP negotiation as it occurs
+    C) To verify port association with a particular VLAN
+    D) To display an IP address for any existing VLAN
+    Answer: ____
+
+Q13. Where is the vlan.dat file stored on a switch?
+    A) In RAM
+    B) In NVRAM
+    C) In flash memory
+    D) On the externally attached storage media or internal hard drive
+    Answer: ____
+
+Q14. If an organization is changing to include Cisco IP phones in its network, what design feature must be considered to ensure voice quality?
+    A) Voice traffic needs to be tagged with the native VLAN.
+    B) A separate VLAN is needed for voice traffic.
+    C) Additional switch ports that are dedicated to Cisco IP phones are required.
+    D) Voice traffic and data traffic require separate trunk links between switches.
+    Answer: ____
+
+Q15. A Cisco switch currently allows traffic tagged with VLANs 10 and 20 across trunk port Fa0/5. What is the effect of issuing a switchport trunk allowed vlan 30 command on Fa0/5?
+    A) It allows VLANs 1 to 30 on Fa0/5.
+    B) It allows VLANs 10, 20, and 30 on Fa0/5.
+    C) It allows only VLAN 30 on Fa0/5.
+    D) It allows a native VLAN of 30 to be implemented on Fa0/5.
+    Answer: ____
+
+------------------------------------------------------------------------------------------
+
+### QUIZ 4.5.4 — Module Quiz - Inter-VLAN Routing  (15 questions)
+
+Q1. A PC is to access a web server on another network. Which inter-VLAN method will provide the highest bandwidth at Layer 3 and also provide a default gateway for the PC?
+    A) Router on a stick
+    B) Multilayer switch with routing enabled
+    C) Trunked interface between the router and the switch
+    D) Multiple physical interfaces on the router, all connected to a Layer 2 switch
+    Answer: ____
+
+Q2. Which scalable method must be implemented in order to provide inter-VLAN routing on a switched network with more than 1000 VLANs?
+    A) Configuring static routes on a Layer 2 switch device
+    B) Routing traffic internally to a Layer 3 switch device
+    C) Connecting each physical router interface to a different physical switch port, with each switch port assigned to a different VLAN
+    D) Connecting a router interface to a switch port that is configured in trunk mode to route packets between VLANs, with each VLAN assigned to a router subinterface​
+    Answer: ____
+
+Q3. When configuring a router as part of a router-on-a-stick inter-VLAN routing topology, where should the IP address be assigned?
+    A) To the interface
+    B) To the subinterface
+    C) To the SVI
+    D) To the VLAN
+    Answer: ____
+
+Q4. A small college uses VLAN 10 for the classroom network and VLAN 20 for the office network. What is needed to enable communication between these two VLANs while using legacy inter-VLAN routing?
+    A) A router with at least two LAN interfaces should be used.
+    B) Two groups of switches are needed, each with ports that are configured for one VLAN.
+    C) A router with one VLAN interface is needed to connect to the SVI on a switch.
+    D) A switch with a port that is configured as trunk is needed to connect to a router.
+    Answer: ____
+
+Q5. What is a disadvantage of using multilayer switches for inter-VLAN routing?
+    A) Multilayer switches have higher latency for Layer 3 routing.
+    B) Multilayer switches are more expensive than router-on-a-stick implementations.
+    C) Spanning tree must be disabled in order to implement routing on a multilayer switch.
+    D) Multilayer switches are limited to using trunk links for Layer 3 routing.
+    Answer: ____
+
+Q6. Which type of inter-VLAN communication design requires the configuration of multiple subinterfaces?
+    A) Router on a stick
+    B) Routing via a multilayer switch
+    C) Routing for the management VLAN
+    D) Legacy inter-VLAN routing
+    Answer: ____
+
+Q7. What is a disadvantage of using router-on-a-stick inter-VLAN routing?
+    A) Does not support VLAN-tagged packets
+    B) Requires the use of more physical interfaces than legacy inter-VLAN routing
+    C) Does not scale well beyond 50 VLANs
+    D) Requires the use of multiple router interfaces configured to operate as access links
+    Answer: ____
+
+Q8. What is the meaning of the number 10 in the encapsulation dot1Q 10 native router subinterface command?​
+    A) The interface number
+    B) The subinterface number​
+    C) The subnet number
+    D) The VLAN ID
+    Answer: ____
+
+Q9. While configuring inter-VLAN routing on a multilayer switch, a network administrator issues the no switchport command on an interface that is connected to another switch. What is the purpose of this command?
+    A) To create a routed port for a single network
+    B) To provide a static trunk link
+    C) To create a switched virtual interface
+    D) To provide an access link that tags VLAN traffic
+    Answer: ____
+
+Q10. A network administrator enters the following command sequence on a Cisco 3560 switch. What is the purpose of these commands? Switch(config)# interface gigabitethernet 0/1 Switch(config-if)# no switchport
+    A) To shut down the Gi0/1 port
+    B) To make the Gi0/1 port a routed port
+    C) To enable the Gi0/1 port as a switch virtual interface
+    D) To enable the Gi0/1 port as a bridge virtual interface
+    Answer: ____
+
+Q11. What operational mode should be used on a switch port to connect it to a router for router-on-a-stick inter-VLAN routing?
+    A) Trunk
+    B) Access
+    C) Dynamic auto
+    D) Dynamic desirable
+    Answer: ____
+
+Q12. Which sentence correctly describes the SVI inter-VLAN routing method?
+    A) Subinterfaces have to be created.
+    B) The encapsulation type must be configured on the SVI.
+    C) An SVI is needed for each VLAN.
+    D) A physical interface is needed for every VLAN that is created.
+    Answer: ____
+
+Q13. How is traffic routed between multiple VLANs on a multilayer switch?
+    A) Traffic is routed via physical interfaces.
+    B) Traffic is routed via internal VLAN interfaces.
+    C) Traffic is broadcast out all physical interfaces.
+    D) Traffic is routed via subinterfaces.
+    Answer: ____
+
+Q14. What is required to perform router-on-a-stick inter-VLAN routing?
+    A) A Layer 2 switch that is configured with multiple trunk ports
+    B) A router with multiple physical interfaces
+    C) A multilayer switch
+    D) A router that is configured with multiple subinterfaces
+    Answer: ____
+
+Q15. An administrator was troubleshooting a router-on-a-stick topology and concluded that the problem was related to the configuration of VLANs on the router subinterfaces. Which two commands can the administrator use in the router to identify the problem? (Choose two.)
+    A) show controllers
+    B) show ip interface
+    C) show ip protocols
+    D) show running-config
+    E) show vlan
+    Answer: ____
+
+------------------------------------------------------------------------------------------
+
+### QUIZ 5.4.2 — Module Quiz - STP  (14 questions)
+
+Q1. Which port state will switch ports immediately transition to when configured for PortFast?
+    A) Listening
+    B) Learning
+    C) Forwarding
+    D) Blocking
+    Answer: ____
+
+Q2. After the election of the root bridge has been completed, how will switches find the best paths to the root bridge?
+    A) Each switch will analyze the sum of the hops to reach the root and use the path with the fewest hops.
+    B) Each switch will analyze the BID of all neighbors to reach the root and use the path through the lowest BID neighbors.
+    C) Each switch will analyze the port states of all neighbors and use the designated ports to forward traffic to the root.
+    D) Each switch will analyze the sum of all port costs to reach the root and use the path with the lowest cost.
+    Answer: ____
+
+Q3. Which is the default STP operation mode on Cisco Catalyst switches?
+    A) RSTP
+    B) PVST+
+    C) MST
+    D) MSTP
+    E) Rapid PVST+
+    Answer: ____
+
+Q4. What value determines the root bridge when all switches connected by trunk links have default STP configurations?
+    A) VLAN ID
+    B) MAC address
+    C) Extended system ID
+    D) Bridge priority
+    Answer: ____
+
+Q5. During the implementation of Spanning Tree Protocol, all switches are rebooted by the network administrator. What is the first step of the spanning-tree election process?
+    A) Each switch with a lower root ID than its neighbor will not send BPDUs.
+    B) All the switches send out BPDUs advertising themselves as the root bridge.
+    C) Each switch determines the best path to forward traffic.
+    D) Each switch determines what port to block to prevent a loop from occurring.
+    Answer: ____
+
+Q6. Which two concepts relate to a switch port that is intended to have only end devices attached and intended never to be used to connect to another switch? (Choose two.)
+    A) Bridge ID
+    B) Edge port
+    C) Extended system ID
+    D) PortFast
+    E) PVST+
+    Answer: ____
+
+Q7. Which three port states are used by Rapid PVST+? (Choose three.)
+    A) Discarding
+    B) Blocking
+    C) Trunking
+    D) Listening
+    E) Learning
+    F) Forwarding
+    Answer: ____
+
+Q8. When PVST is running over a switched network, which port state can participate in BPDU frame forwarding based on BPDUs received, but does not forward data frames?
+    A) Blocking
+    B) Listening
+    C) Forwarding
+    D) Disabled
+    Answer: ____
+
+Q9. Which STP port role is adopted by a switch port if there is no other port with a lower cost to the root bridge?
+    A) Designated port
+    B) Root port
+    C) Alternate
+    D) Disabled port
+    Answer: ____
+
+Q10. Which two statements describe a switch port that is configured with PortFast? (Choose two.)
+    A) The switch port immediately transitions from the listening to the forwarding state.
+    B) The switch port immediately transitions from blocking to the forwarding state.
+    C) The switch port should never receive BPDUs.
+    D) The switch port immediately processes any BPDUs before transitioning to the forwarding state.
+    E) The switch port sends DHCP requests before transitioning to the forwarding state.
+    Answer: ____
+
+Q11. What is one way to correct a spanning tree failure?
+    A) Replace all instances of STP with RSTP.
+    B) Insert redundant links to replace the failed STP links.
+    C) Replace the cables on failed STP links.
+    D) Manually remove redundant links in the switched network.
+    Answer: ____
+
+Q12. What additional information is contained in the 12-bit extended system ID of a BPDU?
+    A) MAC address
+    B) VLAN ID
+    C) IP address
+    D) Port ID
+    Answer: ____
+
+Q13. An administrator is troubleshooting a switch and wants to verify if it is a root bridge. What command can be used to do this?
+    A) show spanning-tree
+    B) show running-config
+    C) show startup-config
+    D) show vlan
+    Answer: ____
+
+Q14. What is an accurate description of redundancy?
+    A) Configuring a router with a complete MAC address database to ensure that all frames can be forwarded to the correct destination
+    B) Configuring a switch with proper security to ensure that all traffic forwarded through an interface is filtered
+    C) Designing a network to use multiple virtual devices to ensure that all traffic uses the best path through the internetwork
+    D) Designing a network to use multiple paths between switches to ensure there is no single point of failure
+    Answer: ____
+
+------------------------------------------------------------------------------------------
+
+### QUIZ 6.4.4 — Module Quiz - Etherchannel  (15 questions)
+
+Q1. An EtherChannel link using LACP was formed between two switches, S1 and S2. While verifying the configuration, which mode combination could be utilized on both switches?​
+    A) S1-on and S2-passive
+    B) S1-passive and S2-passive​
+    C) S1-on and S2-active​
+    D) S1-passive and S2-active
+    Answer: ____
+
+Q2. When a range of ports is being configured for EtherChannel, which mode will configure PAgP so that it initiates the EtherChannel negotiation?
+    A) Active
+    B) Auto
+    C) Desirable
+    D) Passive
+    Answer: ____
+
+Q3. Which three interface parameters must match for an EtherChannel to form? (Choose three.)
+    A) Allowed VLANs
+    B) EtherChannel mode
+    C) Native VLAN
+    D) PortFast mode
+    E) Spanning-tree state
+    F) Trunking mode
+    Answer: ____
+
+Q4. What are three advantages of using EtherChannel technology? (Choose three.)
+    A) EtherChannel uses multiple logical links to provide redundancy.
+    B) Configuration tasks can be done on the EtherChannel interface.
+    C) There is no need to upgrade links to faster connections to increase bandwidth.
+    D) Load balancing is not needed with EtherChannel.
+    E) The Spanning Tree Protocol shuts down the unused interfaces in the bundle to avoid loops.
+    F) A spanning tree recalculation is not required when a single link within the channel goes down.
+    Answer: ____
+
+Q5. A network administrator is configuring an EtherChannel link between two physical ports on a switch. Which statement describes the result when one of the physical ports fails?
+    A) The EtherChannel link fails.
+    B) An STP recalculation is needed.
+    C) The EtherChannel stops transmitting data until it is restarted.
+    D) The EtherChannel continues transmitting data with reduced bandwidth.
+    Answer: ____
+
+Q6. When EtherChannel is implemented, multiple physical interfaces are bundled into which type of logical connection?
+    A) Interface range
+    B) Loopback
+    C) VLAN interface
+    D) Port channel
+    Answer: ____
+
+Q7. When a range of ports is being configured for EtherChannel by the use of PAgP, which mode will form the bundled channel only if the port receives PAgP packets from another device?
+    A) Active
+    B) Auto
+    C) Desirable
+    D) Passive
+    Answer: ____
+
+Q8. Which two load balancing methods can be implemented with EtherChannel technology? (Choose two.)
+    A) Destination MAC to destination IP
+    B) Destination IP to destination MAC
+    C) Source MAC to destination MAC
+    D) Source IP to destination IP
+    E) Destination MAC to source MAC
+    F) Destination IP to source IP
+    Answer: ____
+
+Q9. Which function is provided by EtherChannel?
+    A) Spreading traffic across multiple physical WAN links
+    B) Dividing the bandwidth of a single link into separate time slots
+    C) Enabling traffic from multiple VLANs to travel over a single Layer 2 link
+    D) Creating one logical link by using multiple physical links between two LAN switches
+    Answer: ____
+
+Q10. Which statement is true about EtherChannel technology?
+    A) All configuration tasks must be done on the individual ports in the EtherChannel link.
+    B) EtherChannel uses existing switch ports.
+    C) Links must be upgraded to support EtherChannel.
+    D) STP does not run on redundant EtherChannel links.
+    Answer: ____
+
+Q11. Which two mode combinations would result in the successful negotiation of an EtherChannel? (Choose two.)
+    A) Active; passive
+    B) Passive; auto
+    C) Desirable; active
+    D) Auto; auto
+    E) Desirable; desirable
+    F) Active; on
+    Answer: ____
+
+Q12. Which two protocols are link aggregation protocols? (Choose two.)
+    A) 802.3ad
+    B) PAgP
+    C) STP
+    D) EtherChannel
+    E) RSTP
+    Answer: ____
+
+Q13. When a range of ports is being configured for EtherChannel, which mode will configure LACP so that it initiates the EtherChannel negotiation?
+    A) Active
+    B) Auto
+    C) Desirable
+    D) Passive
+    Answer: ____
+
+Q14. What will happen if a network administrator puts a port that is part of an EtherChannel bundle into a different VLAN than the other ports in that bundle?
+    A) The EtherChannel bundle will stay up only if PAgP is used.
+    B) The EtherChannel bundle will stay up only if LACP is used.
+    C) The EtherChannel bundle will stay up if either PAgP or LACP is used.
+    D) The EtherChannel bundle will stay up if the ports were configured with no negotiation between the switches to form the EtherChannel.
+    E) The EtherChannel will fail.
+    Answer: ____
+
+Q15. When a range of ports is being configured for EtherChannel, which mode will configure LACP on a port only if the port receives LACP packets from another device?
+    A) Active
+    B) Auto
+    C) Desirable
+    D) Passive
+    Answer: ____
+
+------------------------------------------------------------------------------------------
+
+### QUIZ 7.4.4 — Module Quiz - DHCPv4  (15 questions)
+
+Q1. A DHCP-enabled client PC has just booted. During which two steps will the client PC use broadcast messages when communicating with a DHCP server? (Choose two.)
+    A) DHCPDISCOVER
+    B) DHCPACK
+    C) DHCPOFFER
+    D) DHCPREQUEST
+    E) DHCPNAK
+    Answer: ____
+
+Q2. An administrator issues the commands: Router(config)# interface g0/1 Router(config-if)# ip address dhcp What is the administrator trying to achieve?
+    A) Configuring the router to act as a DHCPv4 server
+    B) Configuring the router to obtain IP parameters from a DHCPv4 server
+    C) Configuring the router to act as a relay agent
+    D) Configuring the router to resolve IP address conflicts
+    Answer: ____
+
+Q3. When a client is requesting an initial address lease from a DHCP server, why is the DHCPREQUEST message sent as a broadcast?
+    A) The client does not yet know the IP address of the DHCP server that sent the offer.
+    B) The DHCP server may be on a different subnet, so the request must be sent as a broadcast.
+    C) The client does not have a MAC address assigned yet, so it cannot send a unicast message at Layer 2.
+    D) The client may have received offers from multiple servers, and the broadcast serves to implicitly decline those other offers.
+    Answer: ____
+
+Q4. Which DHCP IPv4 message contains the following information? Destination address: 255.255.255.255 Client IPv4 address: 0.0.0.0 Default gateway address: 0.0.0.0 Subnet mask: 0.0.0.0
+    A) DHCPACK
+    B) DHCPDISCOVER
+    C) DHCPOFFER
+    D) DHCPREQUEST
+    Answer: ____
+
+Q5. What kind of message is sent by a DHCPv4 client requesting an IP address?
+    A) DHCPDISCOVER broadcast message
+    B) DHCPDISCOVER unicast message
+    C) DHCPOFFER unicast message
+    D) DHCPACK unicast message
+    Answer: ____
+
+Q6. As a DHCPv4 client lease is about to expire, what is the message that the client sends the DHCP server?
+    A) DHCPDISCOVER
+    B) DHCPOFFER
+    C) DHCPREQUEST
+    D) DHCPACK
+    Answer: ____
+
+Q7. What is the destination IP address when an IPv4 host sends a DHCPDISCOVER message?
+    A) 255.255.255.255
+    B) 224.0.0.1
+    C) 0.0.0.0
+    D) 192.168.1.1
+    Answer: ____
+
+Q8. If more than one DHCP server is available on the local network, in which order will DHCP messages be sent between a host and a DHCP server?
+    A) Request, discover, offer, acknowledgment
+    B) Acknowledgment, request, offer, discover
+    C) Discover, offer, request, acknowledgment
+    D) Request, acknowledgment, discover, offer
+    Answer: ____
+
+Q9. What is the most likely scenario in which the WAN interface of a router would be configured as a DHCP client to be assigned a dynamic IP address from an ISP?
+    A) There is a web server for public access on the LAN that is attached to the router.
+    B) The router is also the gateway for a LAN.
+    C) It is a SOHO or home broadband router.
+    D) The router is configured as a DHCP server.
+    Answer: ____
+
+Q10. Which is a DHCPv4 address allocation method that assigns IPv4 addresses for a limited lease period?
+    A) Manual allocation
+    B) Pre-allocation
+    C) Automatic allocation
+    D) Dynamic allocation
+    Answer: ____
+
+Q11. What is the reason why the DHCPREQUEST message is sent as a broadcast during the DHCPv4 process?
+    A) To notify other DHCP servers on the subnet that the IP address was leased
+    B) To notify other hosts not to request the same IP address
+    C) For hosts on other subnets to receive the information
+    D) For routers to fill their routing tables with this new information
+    Answer: ____
+
+Q12. How is a DHCPDISCOVER transmitted on a network to reach a DHCP server?
+    A) A DHCPDISCOVER message is sent with the IP address of the DHCP server as the destination address.
+    B) A DHCPDISCOVER message is sent with a multicast IP address that all DHCP servers listen to as the destination address.
+    C) A DHCPDISCOVER message is sent with the broadcast IP address as the destination address.
+    D) A DHCPDISCOVER message is sent with the IP address of the default gateway as the destination address.
+    Answer: ____
+
+Q13. Which destination IPv4 address does a DHCPv4 client use to send the initial DHCP Discover packet when the client is looking for a DHCP server?
+    A) 127.0.0.1
+    B) 224.0.0.1
+    C) 255.255.255.255
+    D) The IP address of the default gateway
+    Answer: ____
+
+Q14. Under which two circumstances would a router usually be configured as a DHCPv4 client? (Choose two.)
+    A) The router is intended to be used as a SOHO gateway.
+    B) The administrator needs the router to act as a relay agent.
+    C) The router is meant to provide IP addresses to the hosts.
+    D) This is an ISP requirement.
+    E) The router has a fixed IP address.
+    Answer: ____
+
+Q15. Which address does a DHCPv4 server target when sending a DHCPOFFER message to a client that makes an address request?
+    A) Client IP address
+    B) Client hardware address
+    C) Gateway IP address
+    D) Broadcast MAC address
+    Answer: ____
+
+------------------------------------------------------------------------------------------
+
+### QUIZ 8.5.3 — Module Quiz - SLAAC and DHCPv6  (13 questions)
+
+Q1. How does an IPv6 client ensure that it has a unique address after it configures its IPv6 address using the SLAAC allocation method?
+    A) It sends an ARP message with the IPv6 address as the destination IPv6 address.
+    B) It checks with the IPv6 address database that is hosted by the SLAAC server.
+    C) It contacts the DHCPv6 server via a special formed ICMPv6 message.
+    D) It sends an ICMPv6 Neighbor Solicitation message with the IPv6 address as the target IPv6 address.
+    Answer: ____
+
+Q2. Which method would an IPv6-enabled host using SLAAC employ to learn the address of the default gateway?
+    A) Router advertisements that are received from the link router
+    B) Advertise messages that are received from the DHCPv6 server
+    C) Neighbor advertisements that are eceived from link neighbors
+    D) Reply messages that are received from the DHCPv6 server
+    Answer: ____
+
+Q3. What two methods can be used to generate an interface ID by an IPv6 host that is using SLAAC? (Choose two.)
+    A) EUI-64
+    B) Random generation
+    C) Stateful DHCPv6
+    D) DAD
+    E) ARP
+    Answer: ____
+
+Q4. A client is using SLAAC to obtain an IPv6 address for its interface. After an address has been generated and applied to the interface, what must the client do before it can begin to use this IPv6 address?
+    A) It must send a DHCPv6 INFORMATION-REQUEST message to request the address of the DNS server.
+    B) It must send an ICMPv6 Router Solicitation message to determine what default gateway it should use.
+    C) It must send a DHCPv6 REQUEST message to the DHCPv6 server to request permission to use this address.
+    D) It must send an ICMPv6 Neighbor Solicitation message to ensure that the address is not already in use on the network.
+    Answer: ____
+
+Q5. Which command should be configured on a router interface to set the router as a stateful DHCPv6 client?
+    A) ipv6 enable
+    B) ipv6 address dhcp
+    C) ipv6 address autoconfigure
+    D) ipv6 dhcp server stateful
+    Answer: ____
+
+Q6. What message informs IPv6 enabled interfaces to use stateful DHCPv6 for obtaining an IPv6 address?
+    A) The ICMPv6 Router Advertisement
+    B) The ICMPv6 Router Solicitation
+    C) The DHCPv6 Reply message
+    D) The DHCPv6 Advertise message
+    Answer: ____
+
+Q7. Which destination IP address is used when an IPv6 host sends a DHCPv6 SOLICIT message to locate a DHCPv6 server?
+    A) FF02::2
+    B) FF02::1
+    C) FE80::1
+    D) FF02::1:2
+    Answer: ____
+
+Q8. In which alternative to DHCPv6 does a router dynamically provide IPv6 configuration information to hosts?
+    A) ARP
+    B) EUI-64
+    C) ICMPv6
+    D) SLAAC
+    Answer: ____
+
+Q9. A company implements the stateless DHCPv6 method for configuring IPv6 addresses on employee workstations. After a workstation receives messages from multiple DHCPv6 servers to indicate their availability for DHCPv6 service, which message does it send to a server for configuration information?
+    A) DHCPv6 SOLICIT
+    B) DHCPv6 REQUEST
+    C) DHCPv6 ADVERTISE
+    D) DHCPv6 INFORMATION-REQUEST
+    Answer: ____
+
+Q10. What process is used in ICMPv6 for a host to verify that an IPv6 address is unique before configuring it on an interface?
+    A) DAD
+    B) SLAAC
+    C) EUI-64
+    D) ARP
+    Answer: ____
+
+Q11. What are two characteristics of the SLAAC method for IPv6 address configuration? (Choose two.)
+    A) The default gateway of an IPv6 client on a LAN will be the link-local address of the router interface attached to the LAN.
+    B) This stateful method of acquiring an IPv6 address requires at least one DHCPv6 server.
+    C) Clients send router advertisement messages to routers to request IPv6 addressing.
+    D) IPv6 addressing is dynamically assigned to clients through the use of ICMPv6.
+    E) Router solicitation messages are sent by the router to offer IPv6 addressing to clients.
+    Answer: ____
+
+Q12. After booting, a client receives an ICMPv6 RA message with the M flag set to 0 and the O flag set to 1. What does this indicate?
+    A) The client should request an IPv6 address directly from a DHCPv6 server.
+    B) The client should automatically configure an IPv6 address without contacting a DHCPv6 server.
+    C) The client should automatically configure an IPv6 address and then contact a DHCPv6 server for more information.
+    D) The client should be statically configured with an IPv6 address because the local router does not support autoconfiguration.
+    Answer: ____
+
+Q13. A network administrator is entering the command ipv6 unicast-routing to start configuring DHCPv6 operation on a router. Which statement describes the function of this command?
+    A) It is required for sending ICMPv6 RA messages.
+    B) It is required to configure stateful DHCPv6 server on the router.
+    C) It is required to configure stateless DHCPv6 server on the router.
+    D) It is required for enabling DNS service in DHCPv6 configurations.
+    Answer: ____
+
+------------------------------------------------------------------------------------------
+
+### QUIZ 9.3.2 — Module Quiz - FHRP Concepts  (12 questions)
+
+Q1. What is the purpose of HSRP?
+    A) It provides a continuous network connection when a router fails.
+    B) It prevents a rogue switch from becoming the STP root.
+    C) It enables an access port to immediately transition to the forwarding state.
+    D) It prevents malicious hosts from connecting to trunk ports.
+    Answer: ____
+
+Q2. Which nonproprietary protocol provides router redundancy for a group of routers which support IPv4 LANs?
+    A) HSRP
+    B) VRRPv2
+    C) GLBP
+    D) SLB
+    Answer: ____
+
+Q3. A network administrator is analyzing first-hop router redundancy protocols. What is a characteristic of VRRPv3?
+    A) VRRPv3 is Cisco proprietary.
+    B) It supports IPv6 and IPv4 addressing.
+    C) It works together with HSRP.
+    D) It allows load balancing between routers.
+    Answer: ____
+
+Q4. What is a potential disadvantage when implementing HSRP as compared to GLBP?
+    A) HSRP does not function in a multivendor environment.
+    B) HSRP does not provide load balancing with multiple active routers.
+    C) HSRP does not have the capability to support IPv6 addresses.
+    D) HSRP provides default gateway failover only when the active router fails.
+    Answer: ____
+
+Q5. A network engineer is configuring a LAN with a redundant first hop to make better use of the available network resources. Which protocol should the engineer implement?
+    A) FHRP
+    B) GLBP
+    C) HSRP
+    D) VRRP
+    Answer: ____
+
+Q6. When first hop redundancy protocols are used, which two items will be shared by a set of routers that are presenting the illusion of being a single router? (Choose two.)
+    A) Hostname
+    B) IP address
+    C) BID
+    D) Static route
+    E) MAC address
+    Answer: ____
+
+Q7. In FHRP terminology, what represents a set of routers that present the illusion of a single router to hosts?
+    A) Standby router
+    B) Virtual router
+    C) Forwarding router
+    D) Default gateway
+    Answer: ____
+
+Q8. A user needs to add redundancy to the routers in a company. What are the three options the user can use? (Choose three.)
+    A) HSRP
+    B) VRRP
+    C) STP
+    D) IPFIX
+    E) RAID
+    F) GLBP
+    Answer: ____
+
+Q9. Which two protocols provide gateway redundancy at Layer 3? (Choose two.)
+    A) VRRP
+    B) STP
+    C) PVST
+    D) RSTP
+    E) HSRP
+    Answer: ____
+
+Q10. A network administrator is overseeing the implementation of first hop redundancy protocols. Which two protocols are Cisco proprietary? (Choose two.)
+    A) HSRP
+    B) VRRP
+    C) GLBP
+    D) IRDP
+    E) VRRPv2
+    Answer: ____
+
+Q11. Which statement describes a characteristic of GLBP?
+    A) It does not provide support for IPv6.​
+    B) It provides load balancing for a maximum of four gateways.
+    C) It provides multiple virtual IP addresses and multiple virtual MAC addresses.
+    D) It provides automatic rerouting if any router in the group fails.
+    Answer: ____
+
+Q12. A network administrator is analyzing the features that are supported by different first-hop router redundancy protocols. Which statement is a feature that is associated with GLBP?
+    A) GLBP allows load balancing between routers.
+    B) It is nonproprietary.
+    C) It uses a virtual router master.
+    D) It works together with VRRP.
+    Answer: ____
+
+------------------------------------------------------------------------------------------
+
+### QUIZ 10.6.2 — Module Quiz - LAN Security Concepts  (15 questions)
+
+Q1. What two protocols are supported on Cisco devices for AAA communications? (Choose two.)
+    A) VTP
+    B) LLDP
+    C) HSRP
+    D) RADIUS
+    E) TACACS+
+    Answer: ____
+
+Q2. Which service is enabled on a Cisco router by default that can reveal significant information about the router and potentially make it more vulnerable to attack?
+    A) HTTP
+    B) CDP
+    C) FTP
+    D) LLDP
+    Answer: ____
+
+Q3. When security is a concern, which OSI Layer is considered to be the weakest link in a network system?​
+    A) Layer 4
+    B) Layer 2
+    C) Layer 3
+    D) Layer 7
+    Answer: ____
+
+Q4. Which Layer 2 attack will result in a switch flooding incoming frames to all ports?
+    A) ARP poisoning
+    B) IP address spoofing
+    C) MAC address overflow
+    D) Spanning Tree Protocol manipulation
+    Answer: ____
+
+Q5. Why is authentication with AAA preferred over a local database method?
+    A) It uses less network bandwidth.
+    B) It requires a login and password combination on the console, vty lines, and aux ports.​
+    C) It provides a fallback authentication method if the administrator forgets the username or password.
+    D) It specifies a different password for each line or port.
+    Answer: ____
+
+Q6. In a server-based AAA implementation, which protocol will allow the router to successfully communicate with the AAA server?
+    A) SSH
+    B) RADIUS
+    C) TACACS​
+    D) 802.1x
+    Answer: ____
+
+Q7. Which Cisco solution helps prevent MAC and IP address spoofing attacks?
+    A) Port Security
+    B) DHCP Snooping
+    C) IP Source Guard
+    D) Dynamic ARP Inspection
+    Answer: ____
+
+Q8. What is the purpose of AAA accounting?
+    A) To collect and report application usage
+    B) To determine which resources the user can access
+    C) To prove users are who they say they are
+    D) To determine which operations the user can perform
+    Answer: ____
+
+Q9. Which Layer 2 attack will result in legitimate users not getting valid IP addresses?
+    A) ARP spoofing
+    B) DHCP starvation
+    C) IP address spoofing
+    D) MAC address flooding
+    Answer: ____
+
+Q10. Which three Cisco products focus on endpoint security solutions? (Choose three.)
+    A) IPS Sensor Appliance
+    B) Web Security Appliance
+    C) Email Security Appliance
+    D) SSL/IPsec VPN Appliance
+    E) Adaptive Security Appliance
+    F) NAC Appliance
+    Answer: ____
+
+Q11. True or False? In the 802.1X standard, the client attempting to access the network is referred to as the supplicant.
+    A) True
+    B) False
+    Answer: ____
+
+Q12. What is involved in an IP address spoofing attack?
+    A) A legitimate network IP address is hijacked by a rogue node.
+    B) A rogue node replies to an ARP request with its own MAC address indicated for the target IP address.
+    C) A rogue DHCP server provides false IP configuration parameters to legitimate DHCP clients.
+    D) Bogus DHCPDISCOVER messages are sent to consume all the available IP addresses on a DHCP server.
+    Answer: ____
+
+Q13. What three services are provided by the AAA framework? (Choose three.)
+    A) Accounting
+    B) Automation
+    C) Authorization
+    D) Authentication
+    E) Autobalancing
+    F) Autoconfiguration
+    Answer: ____
+
+Q14. Because of implemented security controls, a user can only access a server with FTP. Which AAA component accomplishes this?
+    A) Accessibility
+    B) Accounting
+    C) Auditing
+    D) Authentication
+    E) Authorization
+    Answer: ____
+
+Q15. What mitigation plan is best for thwarting a DoS attack that is creating a MAC address table overflow?
+    A) Disable DTP.
+    B) Disable STP.
+    C) Enable port security.
+    D) Place unused ports in an unused VLAN.
+    Answer: ____
+
+------------------------------------------------------------------------------------------
+
+### QUIZ 11.6.4 — Module Quiz - Switch Security Configuration  (15 questions)
+
+Q1. What is a recommended best practice when dealing with the native VLAN?
+    A) Turn off DTP.
+    B) Use port security.
+    C) Assign it to an unused VLAN.
+    D) Assign the same VLAN number as the management VLAN.
+    Answer: ____
+
+Q2. On what switch ports should PortFast be enabled to enhance STP stability?
+    A) All end-user ports
+    B) Only ports that attach to a neighboring switch
+    C) All trunk ports that are not root ports
+    D) Only ports that are elected as designated ports
+    Answer: ____
+
+Q3. Which command would be best to use on an unused switch port if a company adheres to the best practices as recommended by Cisco?
+    A) shutdown
+    B) ip dhcp snooping
+    C) switchport port-security mac-address sticky
+    D) switchport port-security violation shutdown
+    E) switchport port-security mac-address sticky mac-address
+    Answer: ____
+
+Q4. Which two features on a Cisco Catalyst switch can be used to mitigate DHCP starvation and DHCP spoofing attacks? (Choose two.)
+    A) Port security
+    B) Extended ACL
+    C) DHCP snooping
+    D) DHCP server failover
+    E) Strong password on DHCP servers
+    Answer: ____
+
+Q5. What is the best way to prevent a VLAN hopping attack?
+    A) Disable STP on all nontrunk ports.
+    B) Use ISL encapsulation on all trunk links.
+    C) Use VLAN 1 as the native VLAN on trunk ports.
+    D) Disable trunk negotiation for trunk ports and statically set nontrunk ports as access ports.
+    Answer: ____
+
+Q6. Which procedure is recommended to mitigate the chances of ARP spoofing?
+    A) Enable port security globally.
+    B) Enable DHCP snooping on selected VLANs.
+    C) Enable DAI on the management VLAN.
+    D) Enable IP Source Guard on trusted ports.
+    Answer: ____
+
+Q7. What are two types of switch ports that are used on Cisco switches as part of the defense against DHCP spoofing attacks? (Choose two.)
+    A) Unknown port
+    B) Untrusted port
+    C) Unauthorized port
+    D) Trusted DHCP port
+    E) Authorized DHCP port
+    F) Established DHCP port
+    Answer: ____
+
+Q8. Which two commands can be used to enable PortFast on a switch? (Choose two.)
+    A) S1(config-if)# spanning-tree portfast
+    B) S1(config-line)# spanning-tree portfast
+    C) S1(config)# spanning-tree portfast default
+    D) S1(config-if)# enable spanning-tree portfast
+    E) S1(config)# enable spanning-tree portfast default
+    Answer: ____
+
+Q9. An administrator who is troubleshooting connectivity issues on a switch notices that a switch port configured for port security is in the err-disabled state. After verifying the cause of the violation, how should the administrator re-enable the port without disrupting network operation?
+    A) Reboot the switch.
+    B) Issue the shutdown command followed by the no shutdown command on the interface.
+    C) Issue the no switchport port-security command, then re-enable port security.
+    D) Issue the no switchport port-security violation shutdown command on the interface.
+    Answer: ____
+
+Q10. A network administrator is configuring DHCP snooping on a switch. Which configuration command should be used first?
+    A) ip dhcp snooping
+    B) ip dhcp snooping vlan
+    C) ip dhcp snooping trust
+    D) ip dhcp snooping limit rate
+    Answer: ____
+
+Q11. A network administrator is configuring DAI on a switch with the command ip arp inspection validate dst-mac . What is the purpose of this configuration command?
+    A) To check the destination MAC address in the Ethernet header against the MAC address table
+    B) To check the destination MAC address in the Ethernet header against the user-configured ARP ACLs
+    C) To check the destination MAC address in the Ethernet header against the target MAC address in the ARP body
+    D) To check the destination MAC address in the Ethernet header against the source MAC address in the ARP body
+    Answer: ____
+
+Q12. Which security feature should be enabled in order to prevent an attacker from overflowing the MAC address table of a switch?
+    A) BPDU filter
+    B) Port security
+    C) Storm control
+    D) Root guard
+    Answer: ____
+
+Q13. What Layer 2 attack is mitigated by disabling Dynamic Trunking Protocol?
+    A) VLAN hopping
+    B) DHCP spoofing
+    C) ARP poisoning
+    D) ARP spoofing
+    Answer: ____
+
+Q14. A network administrator is configuring DAI on a switch. Which command should be used on the uplink interface that connects to a router?
+    A) ip arp inspection vlan
+    B) ip arp inspection trust
+    C) ip dhcp snooping
+    D) spanning-tree portfast
+    Answer: ____
+
+Q15. Where are dynamically learned MAC addresses stored when sticky learning is enabled with the switchport port-security mac-address sticky command?
+    A) ROM
+    B) RAM
+    C) NVRAM
+    D) Flash
+    Answer: ____
+
+------------------------------------------------------------------------------------------
+
+### QUIZ 12.8.2 — Module Quiz - WLAN Concepts  (14 questions)
+
+Q1. In the context of mobile devices, what does the term tethering involve?
+    A) Connecting a mobile device to another mobile device or computer to share a network connection
+    B) Connecting a mobile device to a hands-free headset
+    C) Connecting a mobile device to a 4G cellular network
+    D) Connecting a mobile device to a USB port on a computer in order to charge the mobile device
+    Answer: ____
+
+Q2. Which feature of 802.11n wireless access points allows them to transmit data at faster speeds than previous versions of 802.11 Wi-Fi standards did?
+    A) SPS
+    B) WPS
+    C) MIMO
+    D) MITM
+    Answer: ____
+
+Q3. Which method of wireless authentication is currently considered to be the strongest?
+    A) WEP
+    B) WPA
+    C) WPA2
+    D) Open
+    E) Shared key
+    Answer: ____
+
+Q4. Which parameter is commonly used to identify a wireless network name when a home wireless AP is being configured?
+    A) Ad hoc
+    B) BESS
+    C) ESS
+    D) SSID
+    Answer: ____
+
+Q5. Which characteristic describes a wireless client operating in active mode?
+    A) Ability to dynamically change channels
+    B) Must know the SSID to connect to an AP
+    C) Must be configured for security before attaching to an AP
+    D) Broadcasts probes that request the SSID
+    Answer: ____
+
+Q6. Which IEEE standard operates at wireless frequencies in both the 5 GHz and 2.4 GHz ranges?
+    A) 802.11n
+    B) 802.11g
+    C) 802.11b
+    D) 802.11a
+    Answer: ____
+
+Q7. Which statement describes an autonomous access point?
+    A) It is used for networks that require a large number of access points.
+    B) It is a standalone access point.
+    C) It is server-dependent.
+    D) It is managed by a WLAN controller.
+    Answer: ____
+
+Q8. Which two roles are typically performed by a wireless router that is used in a home or small business? (Choose two.)
+    A) Repeater
+    B) Access point
+    C) WLAN controller
+    D) Ethernet switch
+    E) RADIUS authentication server
+    Answer: ____
+
+Q9. Which protocol and port numbers are used by both IPv4 and IPv6 CAPWAP tunnels? (Choose two.)
+    A) UDP
+    B) TCP
+    C) ICMP
+    D) 5246 and 5247
+    E) 17 and 163
+    Answer: ____
+
+Q10. If three 802.11b access points need to be deployed in close proximity, which three frequency channels should be used? (Choose three.)
+    A) 1
+    B) 3
+    C) 5
+    D) 6
+    E) 8
+    F) 11
+    Answer: ____
+
+Q11. Which type of telecommunication technology is used to provide Internet access to vessels at sea?
+    A) Satellite
+    B) WiMax
+    C) Cellular
+    D) Municipal WiFi
+    Answer: ____
+
+Q12. Which wireless network topology is being configured by a technician who is installing a keyboard, a mouse, and headphones, each of which uses Bluetooth?
+    A) Ad hoc mode
+    B) Hotspot
+    C) Infrastructure mode
+    D) Mixed mode
+    Answer: ____
+
+Q13. Which type of wireless topology is created when two or more Basic Service Sets are interconnected by Ethernet?
+    A) IBISS
+    B) BSS
+    C) WiFi Direct
+    D) ESS
+    E) Ad hoc WLAN
+    Answer: ____
+
+Q14. What Wi-Fi management frame is regularly broadcast by APs to announce their presence?
+    A) Probe
+    B) Beacon
+    C) Association
+    D) Authentication
+    Answer: ____
+
+------------------------------------------------------------------------------------------
+
+### QUIZ 13.5.4 — Module Quiz - WLAN Configuration  (15 questions)
+
+Q1. A user is configuring a wireless access point and wants to prevent any neighbors from discovering the network. What action does the user need to take?
+    A) Disable SSID broadcast.
+    B) Enable WPA encryption.
+    C) Configure DMZ settings.
+    D) Configure a DNS server.
+    Answer: ____
+
+Q2. When a wireless network in a small office is being set up, which type of IP addressing is typically used on the networked devices?
+    A) Public
+    B) Private
+    C) Network
+    D) Wireless
+    Answer: ____
+
+Q3. A user has just purchased a generic home router and would like to secure it. What should be done to help secure the wireless home router?
+    A) Change the default administrator password.
+    B) Set a private IPv4 network for the internal network.
+    C) Change the default SSID.
+    D) Allow only IPv6 traffic to enter the router.
+    Answer: ____
+
+Q4. Which protocol could be used by a company to monitor devices such as a wireless LAN controller (WLC)?
+    A) NTP
+    B) PAT
+    C) SNMP
+    D) SSH
+    Answer: ____
+
+Q5. When configuring a Cisco 3500 series wireless LAN controller (WLC) for a WPA2 Enterprise WLAN, what has to be created on the WLC before creating the new WLAN?
+    A) A new SSID
+    B) A security module
+    C) A security policy
+    D) A VLAN for the wireless network
+    Answer: ____
+
+Q6. What is a DHCP scope as it relates to a WLAN configured on the WLC controller?
+    A) A corporate plan for allocation of IP addresses for wireless clients
+    B) A pool of IP addresses for WLAN clients
+    C) Security rules associated with DHCP for WLANs
+    D) The distance allotted for wireless clients that can receive IP addressing information
+    Answer: ____
+
+Q7. Why would a technician configure a passphrase for a WLAN on a wireless router?
+    A) To protect someone from changing the configuration
+    B) To configure wireless client authentication
+    C) To protect someone from cabling directly to the router and accessing the router
+    D) To protect the SSID from being changed
+    Answer: ____
+
+Q8. A customer installs a wireless access point at home in the closet next to the kitchen. The customer mentions that the wireless communication performance seems degraded when the cordless phone or the microwave oven is in use. What is the possible reason for this degradation?
+    A) The access point is close to walls.
+    B) The cordless phone joins the WLAN and shares the available bandwidth.
+    C) The wireless signal is in the same radio frequency range as the household devices are in.
+    D) The access point is on the same electrical circuit as the phone base unit and microwave oven are.
+    E) The surge of electricity when a microwave oven is in use disrupts the operation of the access point.
+    Answer: ____
+
+Q9. What functionality is required on routers to provide remote workers with VoIP and videoconferencing capabilities?
+    A) IPsec
+    B) QoS
+    C) VPN
+    D) PPPoE
+    Answer: ____
+
+Q10. A wireless router is displaying the IP address of 192.168.0.1. What could this mean?
+    A) The NAT function is not working on the wireless router.
+    B) The wireless router still has the factory default IP address.
+    C) Dynamic IP address allocation has been configured on the router and is functioning correctly.
+    D) The wireless router has been configured to use the frequencies on channel 1.
+    Answer: ____
+
+Q11. A laptop cannot connect to a wireless access point. Which two troubleshooting steps should be taken first? (Choose two.)
+    A) Ensure that the wireless NIC is enabled.
+    B) Ensure that the laptop antenna is attached.
+    C) Ensure that the wireless SSID is chosen.
+    D) Ensure that the correct network media is selected.
+    E) Ensure that the NIC is configured for the proper frequency.
+    Answer: ____
+
+Q12. In setting up a small office network, the network administrator decides to assign private IP addresses dynamically to workstations and mobile devices. Which feature must be enabled on the company router in order for office devices to access the internet?
+    A) QoS
+    B) NAT
+    C) UPnP
+    D) MAC filtering
+    Answer: ____
+
+Q13. What is a difference between autonomous APs that operate in a home environment and controller-based APs that operate in a corporate environment?
+    A) Autonomous APs incorporate the functions of a router, switch, and AP into one device.​
+    B) Autonomous APs do not support PoE.
+    C) Controller-based APs can be automatically configured and managed by a WLAN controller.
+    D) Controller-based APs are known as lightweight APs and require an initial configuration to operate.
+    Answer: ____
+
+Q14. Which WLC tab would a network administrator typically use to see a summary view of the most heavily used WLANs including the number of clients using a particular WLAN?
+    A) Commands
+    B) Controller
+    C) Monitor
+    D) WLANs
+    Answer: ____
+
+Q15. Users on an IEEE 802.11n network are complaining of slow speeds. The network administrator checks the AP and verifies it is operating properly. What can be done to improve the wireless performance in the network?
+    A) Split the wireless traffic between the 802.11n 2.4 GHz band and the 5 GHz band.
+    B) Change the authentication method on the AP.
+    C) Switch to an 802.11g AP.
+    D) Set the AP to mixed mode.
+    Answer: ____
+
+------------------------------------------------------------------------------------------
+
+### QUIZ 14.6.2 — Module Quiz - Routing Concepts  (15 questions)
+
+Q1. Which feature on a Cisco router permits the forwarding of traffic for which there is no specific route?
+    A) Next-hop
+    B) Gateway of last resort
+    C) Route source
+    D) Outgoing interface
+    Answer: ____
+
+Q2. Which three advantages are provided by static routing? (Choose three.)
+    A) Static routing does not advertise over the network, thus providing better security.
+    B) Configuration of static routes is error-free.
+    C) Static routes scale well as the network grows.
+    D) Static routing typically uses less network bandwidth and fewer CPU operations than dynamic routing does.
+    E) The path a static route uses to send data is known.
+    F) No intervention is required to maintain changing route information.
+    Answer: ____
+
+Q3. What are two functions of dynamic routing protocols? (Choose two.)
+    A) To maintain routing tables
+    B) To assure low router overhead
+    C) To avoid exposing network information
+    D) To discover the network
+    E) To choose the path that is specified by the administrator
+    Answer: ____
+
+Q4. What is an advantage of using dynamic routing protocols instead of static routing?
+    A) Easier to implement
+    B) More secure in controlling routing updates
+    C) Fewer router resource overhead requirements
+    D) Ability to actively search for new routes if the current path becomes unavailable​
+    Answer: ____
+
+Q5. Which value represents the "trustworthiness" of a route and is used to determine which route to install into the routing table when there are multiple routes toward the same destination?
+    A) Routing protocol
+    B) Outgoing interface
+    C) Metric
+    D) Administrative distance
+    Answer: ____
+
+Q6. Which packet-forwarding method does a router use to make switching decisions when it is using a forwarding information base and an adjacency table?
+    A) Fast switching
+    B) Cisco Express Forwarding
+    C) Process switching
+    D) Flow process
+    Answer: ____
+
+Q7. Which type of route would typically be used on a border router so that devices inside the company could access the Internet?
+    A) Static
+    B) Default
+    C) Summary
+    D) Directly connected
+    Answer: ____
+
+Q8. What are two functions of a router? (Choose two.)
+    A) A router connects multiple IP networks.
+    B) It controls the flow of data via the use of Layer 2 addresses.
+    C) It determines the best path to send packets.
+    D) It provides segmentation at Layer 2.
+    E) It builds a routing table based on ARP requests.
+    Answer: ____
+
+Q9. When a router learns that multiple paths are available to a destination network from the same routing protocol, which factor is considered by a router to choose the best path to forward a packet?
+    A) The lowest metric
+    B) The order of paths on the routing table
+    C) The fastest bandwidth of exiting interfaces
+    D) The reliability value of the neighboring routers
+    Answer: ____
+
+Q10. Which two route source codes are automatically created within a routing table whenever a router interface is configured with an IP address and activated? (Choose two.)
+    A) C
+    B) O
+    C) L
+    D) S
+    E) D
+    Answer: ____
+
+Q11. The output of the show ip route command contains the following entry: S 10.2.0.0 [1/0] via 172.16.2.2. What value is indicated by the 1 in the [1/0] portion of the output?
+    A) Metric
+    B) Number of hops
+    C) Administrative distance
+    D) Interface ID through which the network can be reached
+    Answer: ____
+
+Q12. Which type of static route creates a gateway of last resort?
+    A) Default static route
+    B) Floating static route
+    C) Standard static route
+    D) Summary static route
+    Answer: ____
+
+Q13. What are two common types of static routes in routing tables? (Choose two)
+    A) A default static route
+    B) A built-in static route by IOS
+    C) A static route to a specific network
+    D) A static route shared between two neighboring routers
+    E) A static route converted from a route that is learned through a dynamic routing protocol
+    Answer: ____
+
+Q14. What are two reasons why an administrator might choose to use static routing rather than dynamic routing? (Choose two.)
+    A) Static routing is easier to maintain in large networks.
+    B) Static routing is more secure.
+    C) Static routing is more scalable.
+    D) Static routing uses less router processing and bandwidth.
+    E) Static routing does not require complete knowledge of the whole network.
+    Answer: ____
+
+Q15. What address and prefix length is used when configuring an IPv6 default static route?
+    A) ::/0
+    B) ::1/128
+    C) 0.0.0.0/0
+    D) FF02::1/8
+    Answer: ____
+
+------------------------------------------------------------------------------------------
+
+### QUIZ 15.6.4 — Module Quiz - IP Static Routing  (15 questions)
+
+Q1. A network administrator configures a router by the command ip route 0.0.0.0 0.0.0.0 209.165.200.226 . What is the purpose of this command?
+    A) To forward all packets to the device with IP address 209.165.200.226
+    B) To add a dynamic route for the destination network 0.0.0.0 to the routing table
+    C) To forward packets destined for the network 0.0.0.0 to the device with IP address 209.165.200.226
+    D) To provide a route to forward packets for which there is no route in the routing table
+    Answer: ____
+
+Q2. Which type of static route that is configured on a router uses only the exit interface?
+    A) Recursive static route
+    B) Directly connected static route
+    C) Fully specified static route
+    D) Default static route
+    Answer: ____
+
+Q3. A network administrator uses the command ip route 172.18.0.0 255.255.0.0 S0/0/1 to configure a floating static route on a router. That route will function as a backup route to reach the EIGRP learned network 172.18.0.0/16. After this configuration, the EIGRP route is removed from the routing table even though EIGRP is still functioning properly. Why is the static route not functioning as intended?
+    A) The next hop neighbor IP address is not configured.
+    B) The administrative distance value is not high enough on the static route.
+    C) The destination network is incorrectly configured.
+    D) The network mask is incorrectly configured.
+    Answer: ____
+
+Q4. What type of static route is created when the next-hop IP address and exit interface are specified?
+    A) Recursive static route
+    B) Directly connected static route
+    C) Fully specified static route
+    D) Floating static route
+    Answer: ____
+
+Q5. What is the correct syntax of a floating static route?
+    A) ip route 209.165.200.228 255.255.255.248 serial 0/0/0
+    B) ip route 209.165.200.228 255.255.255.248 10.0.0.1 120
+    C) ip route 0.0.0.0 0.0.0.0 serial 0/0/0
+    D) ip route 172.16.0.0 255.248.0.0 10.0.0.1
+    Answer: ____
+
+Q6. Which static route statement shows a recursive IPv6 static route?
+    A) Ipv6 route 0::/0 S0/0/0
+    B) Ipv6 route 0::/0 S0/0/0 254
+    C) Ipv6 route 2001:db8:cafe:1::/56 S0/0/0
+    D) Ipv6 route 2001:db8:cafe:1::/56 2001:db8:1000:10::1
+    E) Ipv6 route 2001:db8:cafe:1::/56 S0/0/0 2001:db8:1000:10::1
+    Answer: ____
+
+Q7. A network administrator is configuring a route to forward packets to a specific web server. What type of route should be configured by the administrator?
+    A) A host route
+    B) An OSPF route
+    C) An EIGRP route
+    D) A default route
+    E) A static route with an administrative distance higher than 1
+    Answer: ____
+
+Q8. Which command would create a valid IPv6 default route?
+    A) ipv6 route ::/0 fe80::1
+    B) ipv6 route 2001:db8:acad:1::/64 ::1
+    C) ipv6 route ::/0 2001:db8:acad:2::a
+    D) ipv6 route ::/128 2001:db8:acad:1::1
+    Answer: ____
+
+Q9. What is a characteristic of a default static route? ​
+    A) It backs up a route already discovered by a dynamic routing protocol.
+    B) It uses a single network address to send multiple static routes to one destination address.
+    C) It identifies the gateway IP address to which the router sends all IP packets for which it does not have a learned or static route.
+    D) It is configured with a higher administrative distance than is the original dynamic routing protocol.
+    Answer: ____
+
+Q10. What is the purpose of a floating static route?
+    A) It allows summarization of contiguous networks.
+    B) It allows an alternate connection to be used when the preferred link fails.
+    C) It is commonly used when a dynamic routing protocol is not being used.
+    D) It allows connectivity to remote destinations that are not contained in the routing table.
+    Answer: ____
+
+Q11. Which IPv6 static route would serve as a backup route to a dynamic route learned through OSPF?
+    A) Router1(config)# ipv6 route 2001:db8:acad:1::/32 2001:db8:acad:6::2 100
+    B) Router1(config)# ipv6 route 2001:db8:acad:1::/32 2001:db8:acad:6::100
+    C) Router1(config)# ipv6 route 2001:db8:acad:1::/32 2001:db8:acad:6::2 200
+    D) Router1(config)# ipv6 route 2001:db8:acad:1::/32 gigabitethernet0/0 2001:db8:acad:6::100 100
+    Answer: ____
+
+Q12. What command, or set of commands, would be used to determine if the following configuration on router HQ works as designed? ip route 0.0.0.0 0.0.0.0 serial 0/0/0 10 ip route 0.0.0.0 0.0.0.0 serial 0/1/0
+    A) HQ(config)# interface serial 0/1/0 HQ(config-if)# shutdown HQ(config-if)# end HQ# show ip route
+    B) HQ# traceroute 128.107.0.99
+    C) HQ# show ip interface brief
+    D) HQ# ping 128.107.0.99 HQ# ping 64.100.0.5
+    E) HQ# show ip route
+    Answer: ____
+
+Q13. Which type of static route typically uses the distance parameter in the ip route global configuration command?
+    A) Summary static route
+    B) Default static route
+    C) Floating static route
+    D) Standard static route
+    Answer: ____
+
+Q14. Why would a floating static route be configured with an administrative distance that is higher than the administrative distance of a dynamic routing protocol that is running on the same router?
+    A) To be used as a backup route
+    B) To load-balance the traffic
+    C) To act as a gateway of last resort
+    D) To be the priority route in the routing table
+    Answer: ____
+
+Q15. What network address and subnet mask combination would be used to create a default static route that matches any IPv4 destination?
+    A) 0.0.0.0 0.0.0.0
+    B) 0.0.0.0 255.255.255.255
+    C) 255.255.255.255 255.255.255.255
+    D) 255.255.255.255 0.0.0.0
+    Answer: ____
+
+------------------------------------------------------------------------------------------
+
+### QUIZ 16.3.4 — Module Quiz - Troubleshoot Static and Default Routes  (10 questions)
+
+Q1. Which sequence correctly identifies the order of the steps that a router will perform when it receives a packet on an Ethernet interface?
+    A) 1. The router examines the destination IP address. 2. The router examines the destination MAC address. 3. The router identifies the Ethernet Type field. 4. The router de-encapsulates the Ethernet frame.
+    B) 1. The router examines the destination MAC address. 2. The router identifies the Ethernet Type field. 3. The router de-encapsulates the Ethernet frame. 4. The router examines the destination IP address.
+    C) 1. The router examines the destination IP address. 2. The router examines the destination MAC address. 3. The router de-encapsulates the Ethernet frame. 4. The router identifies the Ethernet Type field.
+    D) 1. The router de-encapsulates the Ethernet frame. 2. The router examines the destination MAC address. 3. The router identifies the Ethernet Type field. 4. The router examines the destination IP address.
+    E) 1. The router examines the destination MAC address. 2. The router identifies the Ethernet Type field. 3. The router examines the destination IP address. 4. The router de-encapsulates the Ethernet frame.
+    Answer: ____
+
+Q2. Which three IOS troubleshooting commands can help to isolate problems with a static route? (Choose three.)
+    A) show version
+    B) ping
+    C) tracert
+    D) show ip route
+    E) show ip interface brief
+    F) show arp
+    Answer: ____
+
+Q3. A network administrator has entered a static route to an Ethernet LAN that is connected to an adjacent router. However, the route is not shown in the routing table. Which command would the administrator use to verify that the exit interface is up?
+    A) show ip interface brief
+    B) show ip protocols
+    C) show ip route
+    D) tracert
+    Answer: ____
+
+Q4. A static route has been configured on a router. However, the destination network no longer exists. What should an administrator do to remove the static route from the routing table?
+    A) Change the routing metric for that route.
+    B) Nothing. The static route will go away on its own.
+    C) Change the administrative distance for that route.
+    D) Remove the route using the no ip route command.
+    Answer: ____
+
+Q5. Which statement describes the sequence of processes executed by a router when it receives a packet from a host to be delivered to a host on another network?
+    A) It receives the packet and forwards it directly to the destination host.
+    B) It de-encapsulates the packet, selects the appropriate path, and encapsulates the packet to forward it toward the destination host.
+    C) It de-encapsulates the packet and forwards it toward the destination host.
+    D) It selects the path and forwards it toward the destination host.
+    Answer: ____
+
+Q6. A network engineer issues the show cdp neighbor command on several network devices during the process of network documentation. What is the purpose of performing this command?
+    A) To obtain information about directly connected Cisco devices
+    B) To check the networks that are advertised by the neighboring routers
+    C) To verify the network addresses that are attached to the network devices
+    D) To check the connectivity of PCs that are connected to the network devices
+    Answer: ____
+
+Q7. A network administrator notices that a correctly entered static route is not in the routing table. What two router commands would an administrator use to determine if the exit interface was up and the next hop address is available? (Choose two.)
+    A) ping
+    B) show ip protocols
+    C) show ip interface brief
+    D) show ip route
+    E) tracert
+    Answer: ____
+
+Q8. A network administrator has entered the following command: ip route 192.168.10.64 255.255.255.192 serial0/0/1 When the network administrator enters the command show ip route , the route is not in the routing table. What should the administrator do next?
+    A) Re-enter the command using the correct mask.
+    B) Verify that the serial 0/0/1 interface is active and available.
+    C) Verify that the 192.168.10.64 network is active within the network infrastructure.
+    D) Re-enter the command using a network number rather than a usable IP address.
+    Answer: ____
+
+Q9. What will a router do if it does not have a default route configured and a packet needs to be forwarded to a destination network that is not listed in the routing table?
+    A) Forward it to another router
+    B) Drop it
+    C) Send it back to the source
+    Answer: ____
+
+Q10. What does the letter C mean next to an entry in the output of the show ip route command?
+    A) It identifies a network that is a static route.
+    B) It identifies a network that is learned through OSPF.
+    C) It identifies a network that is learned through EIGRP.
+    D) It identifies a network that is directly connected to the router.
+    Answer: ____
+
+------------------------------------------------------------------------------------------
+
+### QUIZ 17.3.2 — Module Quiz  (14 questions)
+
+Q1. Match the port role to its description.
+    (match each prompt to one option)
+    options: Forwards traffic to the root bridge., Immediately transitions to a forwarding port if an error occurs with the current forwarding port., Discarding state that quickly transitions to forwarding if needed., Forwards traffic from a segment to the root bridge.
+    - Designated   ->  ____
+    - Backup   ->  ____
+    - Alternate   ->  ____
+    - Root   ->  ____
+
+Q2. What is the main benefit of RSTP over STP?
+    A) RSTP has more port states than STP.
+    B) BPDUs are only initiated by the root bridge in RSTP, whereas in STP all switches initiate BPDUs.
+    C) RSTP achieves faster convergence than STP.
+    D) RSTP has less port roles than STP.
+    Answer: ____
+
+Q3. A port on an RSTP switch is not forwarding frames, is blocked to prevent loops but is still able to listen to BPDUs to learn the network topology. What type of port state is being described?
+    A) Listening
+    B) Disabled
+    C) Discarding
+    D) Learning
+    Answer: ____
+
+Q4. What does RSTP use to select the root bridge?
+    A) The switch with the lowest MAC address.
+    B) The switch with the highest extended system ID.
+    C) The switch with the lowest BID.
+    D) The switch with the highest BID.
+    Answer: ____
+
+Q5. In RSTP, a switch with four interfaces that connects to other RSTP switches, has been selected as the root bridge. What port type will be associated with the root bridge interfaces?
+    A) all will be root ports
+    B) all will be designated ports
+    C) all will be alternate ports
+    D) some will be root ports and some of them will be alternate ports
+    Answer: ____
+
+Q6. A network administrator configures PortFast on access ports that are connected to end devices. What does the configuration accomplish?
+    A) It prevents the forwarding of BPDUs to and from those access ports.
+    B) The access ports are temporarily put into a loop-inconsistent state.
+    C) It ensures that an unauthorized switch cannot connect to those access ports.
+    D) The access ports will transition directly to the forwarding state.
+    Answer: ____
+
+Q8. What happens if a BPDU is received on a port that has BPDU Guard configured?
+    A) The port is disabled.
+    B) The BPDU is ignored.
+    C) The BPDU is returned to the sender.
+    D) The BPDU is sent to the closest root port.
+    Answer: ____
+
+Q9. Which two statements are correct concerning RSTP features? (Choose two.)
+    A) Loop Guard and Root Guard should be configured on the same port.
+    B) PortFast and Root Guard must be configured on the same port.
+    C) BPDU Guard and BPDU Filter should not be configured on the same port.
+    D) PortFast should be configured on an interface that is configured as a trunk.
+    E) Only one RSTP feature should be configured on a port at the same time.
+    Answer: ____
+
+Q10. Where is the best place to configure BPDU filtering?
+    A) on all ports within the network
+    B) on all root and trunking ports
+    C) on designated ports that connect to other switches
+    D) on access ports that connect to end devices
+    Answer: ____
+
+Q11. What is the function of a root port?
+    A) Every port on a root bridge is a route port.
+    B) It forwards traffic to the root bridge.
+    C) It provides backup to a designated port.
+    D) It connects to an end device.
+    Answer: ____
+
+Q12. What RSTP solution prevents the connection of unauthorized switches to the network?
+    A) Root Guard
+    B) BPDU Guard
+    C) Loop Guard
+    D) BPDU Filter
+    Answer: ____
+
+Q13. A network technician enters the following global command: spanning-tree portfast bpduguard enable . What is accomplished with this command?
+    A) It enables BPDU Guard on all Portfast enabled access ports.
+    B) It enables PortFast on all BPDU Guard enabled access ports.
+    C) It enables PortFast and BPDU Guard on all enabled access ports.
+    D) It does nothing since the command is only used in interface mode.
+    Answer: ____
+
+Q14. What occurs if a BPDU is received on a port enabled with BPDU Filter?
+    A) The port is placed in an error-disabled state.
+    B) The BPDU is ignored and the port remains functional.
+    C) The port is placed into the loop-inconsistant state.
+    D) The port is immediately disabled.
+    Answer: ____
+
+Q15. How are root ports selected?
+    A) The non-root switches find the port with the shortest path to the root bridge.
+    B) All ports on the root bridge become root ports.
+    C) The port with the lowest BID on each non-root switch becomes the root port.
+    D) The port with the lowest interface number on each non-root switch becomes the root port.
+    Answer: ____
+
+------------------------------------------------------------------------------------------

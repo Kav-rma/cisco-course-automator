@@ -1,0 +1,92 @@
+{
+ "started_at": "2026-08-19T16:27:09",
+ "items": [
+  {
+   "item": "3.0.1",
+   "title": "Webster - Why Should I Take this Module?",
+   "module": 3,
+   "type": "INTRODUCTION",
+   "status": "dry_run"
+  },
+  {
+   "item": "3.1.1",
+   "title": "Video - Types of Wireless Networks",
+   "module": 3,
+   "type": "VIDEO",
+   "status": "dry_run"
+  },
+  {
+   "item": "3.2.1",
+   "title": "Mobile Devices and Wi-Fi",
+   "module": 3,
+   "type": "LESSON",
+   "status": "dry_run"
+  },
+  {
+   "item": "3.2.2",
+   "title": "Wi-Fi Settings",
+   "module": 3,
+   "type": "INTERACTIVE",
+   "status": "dry_run"
+  },
+  {
+   "item": "3.2.3",
+   "title": "Configure Mobile Wi-Fi Connectivity",
+   "module": 3,
+   "type": "LESSON",
+   "status": "dry_run"
+  },
+  {
+   "item": "3.2.4",
+   "title": "Configure Cellular Data Settings",
+   "module": 3,
+   "type": "INTERACTIVE",
+   "status": "dry_run"
+  },
+  {
+   "item": "3.2.5",
+   "title": "Video - Bluetooth Configuration on a Windows Laptop",
+   "module": 3,
+   "type": "VIDEO",
+   "status": "dry_run"
+  },
+  {
+   "item": "3.2.6",
+   "title": "Simple Connectivity with Bluetooth",
+   "module": 3,
+   "type": "LESSON",
+   "status": "dry_run"
+  },
+  {
+   "item": "3.2.7",
+   "title": "Bluetooth Pairing",
+   "module": 3,
+   "type": "LESSON",
+   "status": "dry_run"
+  },
+  {
+   "item": "3.2.8",
+   "title": "Explore Your Network Settings on Your Mobile Device",
+   "module": 3,
+   "type": "LESSON",
+   "status": "dry_run"
+  },
+  {
+   "item": "3.3.1",
+   "title": "What Did I Learn in this Module?",
+   "module": 3,
+   "type": "INTERACTIVE",
+   "status": "dry_run"
+  },
+  {
+   "item": "3.3.3",
+   "title": "Wireless and Mobile Networks Quiz",
+   "module": 3,
+   "type": "ASSESSMENT",
+   "status": "dry_run"
+  }
+ ],
+ "needs_user": [],
+ "failed": [],
+ "finished_at": "2026-08-19T16:29:10"
+}

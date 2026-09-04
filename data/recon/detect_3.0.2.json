@@ -1,0 +1,33 @@
+{
+ "page_type": "INTRODUCTION",
+ "item_id": "3.0.2",
+ "scope_kind": "block",
+ "scope_modelid": "c087e098038d42599b221109e4360fd8",
+ "heading": "3.0.2 What Will I Learn in this Module?",
+ "complete": true,
+ "components": [
+  {
+   "tag": "table-view",
+   "modelid": "e7331b062d5346f8af7b828ef85728f0",
+   "complete": true,
+   "heading": null
+  },
+  {
+   "tag": "quicknav-view",
+   "modelid": "f004487567964b17913c6be4656f4ccc",
+   "complete": null,
+   "heading": null
+  }
+ ],
+ "families": {
+  "assessment": 0,
+  "question": 0,
+  "media": 0,
+  "interactive": 0,
+  "static": 2,
+  "unknown": []
+ },
+ "reasons": [
+  "static components only (2)"
+ ]
+}

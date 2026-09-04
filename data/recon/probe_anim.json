@@ -1,0 +1,291 @@
+{
+ "module": 9,
+ "items": [
+  {
+   "item": "9.1.2",
+   "modelid": "097a5bcb-8ad7-43a2-8903-b964101795d1",
+   "info": {
+    "viewMethods": [
+     "triggerEvent",
+     "jsLoadedCallback",
+     "handleFileLoad",
+     "handleComplete",
+     "loadAnimation",
+     "togglePlayback",
+     "updateCurrentFrame",
+     "scrubbedHandler",
+     "preRender",
+     "connectedCallback",
+     "disconnectedCallback",
+     "itemResizeFunc",
+     "handleResize",
+     "render",
+     "preRender",
+     "connectedCallback",
+     "customScrollIntoView",
+     "scrollToModelView",
+     "scrollToQuestionModelView",
+     "applyDesignAttributes",
+     "updated",
+     "preRender",
+     "inProgressObserver",
+     "willUpdate",
+     "disconnectedCallback",
+     "firstUpdated",
+     "checkIfReady",
+     "addChildren",
+     "UnsubscribeHandlers",
+     "updated",
+     "applyCustomCss",
+     "applyDesignAttributes",
+     "getThemeMode",
+     "isAbsolutePath",
+     "updateBodySrc",
+     "disconnectedCallback"
+    ],
+    "ppMethods": [
+     "togglePlayPause",
+     "render",
+     "createRenderRoot",
+     "update",
+     "connectedCallback",
+     "disconnectedCallback",
+     "render",
+     "addController",
+     "removeController",
+     "createRenderRoot",
+     "connectedCallback",
+     "enableUpdating",
+     "disconnectedCallback",
+     "attributeChangedCallback",
+     "requestUpdate",
+     "scheduleUpdate",
+     "performUpdate",
+     "willUpdate",
+     "getUpdateComplete",
+     "shouldUpdate",
+     "update",
+     "updated",
+     "firstUpdated",
+     "attachInternals",
+     "blur",
+     "click",
+     "focus",
+     "hidePopover",
+     "showPopover",
+     "togglePopover"
+    ],
+    "clipInfo": {
+     "totalFrames": 92,
+     "currentFrame": 0,
+     "paused": false,
+     "loop": false,
+     "duration": 92,
+     "hasGotoAndPlay": true,
+     "tickEnabled": true
+    },
+    "viewPaused": true,
+    "viewFrame": 0,
+    "ppHandlers": [],
+    "viewProps": [
+     "_$Ei",
+     "isUpdatePending",
+     "hasUpdated",
+     "_$El",
+     "enableUpdating",
+     "_$E_",
+     "_$AL",
+     "renderOptions",
+     "_$Do",
+     "applyDesignAttributesHandler",
+     "applyCustomCssHandler",
+     "__modelid",
+     "_$EC",
+     "renderMethodRef",
+     "isLanguageChanged",
+     "renderMethodReplacement",
+     "renderedObserver",
+     "component",
+     "_$ES",
+     "controller",
+     "__isNested",
+     "__details",
+     "__dir",
+     "__css",
+     "__defaultHeight",
+     "__defaultWidth",
+     "__currentWidth",
+     "__animClip",
+     "__animStage",
+     "__paused",
+     "__currentFrame",
+     "a11y_description",
+     "createjs",
+     "resizeObserver",
+     "updateCurrentFrameBound",
+     "renderRoot",
+     "model",
+     "scaleFactor",
+     "currentHeight",
+     "AdobeAn"
+    ],
+    "ppProps": [
+     "_$Ei",
+     "isUpdatePending",
+     "hasUpdated",
+     "_$El",
+     "enableUpdating",
+     "_$E_",
+     "_$AL",
+     "renderOptions",
+     "_$Do",
+     "__paused",
+     "renderRoot"
+    ],
+    "ppAttrs": [
+     "paused="
+    ],
+    "range": {
+     "value": "0",
+     "max": "92",
+     "min": "0",
+     "step": "1"
+    },
+    "canvas": {
+     "w": 885,
+     "h": 805
+    },
+    "createjs": false,
+    "AdobeAn": false,
+    "exportRootGlobal": false,
+    "stageInfo": {
+     "hasStage": false
+    },
+    "complete": false
+   },
+   "samples": [
+    {
+     "complete": false,
+     "max": 92,
+     "paused": true,
+     "value": 0
+    },
+    {
+     "complete": false,
+     "max": 92,
+     "paused": true,
+     "value": 0
+    },
+    {
+     "complete": false,
+     "max": 92,
+     "paused": true,
+     "value": 0
+    },
+    {
+     "complete": false,
+     "max": 92,
+     "paused": true,
+     "value": 0
+    },
+    {
+     "complete": false,
+     "max": 92,
+     "paused": true,
+     "value": 0
+    },
+    {
+     "complete": false,
+     "max": 92,
+     "paused": true,
+     "value": 0
+    },
+    {
+     "complete": false,
+     "max": 92,
+     "paused": true,
+     "value": 0
+    },
+    {
+     "complete": false,
+     "max": 92,
+     "paused": true,
+     "value": 0
+    },
+    {
+     "complete": false,
+     "max": 92,
+     "paused": true,
+     "value": 0
+    },
+    {
+     "complete": false,
+     "max": 92,
+     "paused": true,
+     "value": 0
+    },
+    {
+     "complete": false,
+     "max": 92,
+     "paused": true,
+     "value": 0
+    },
+    {
+     "complete": false,
+     "max": 92,
+     "paused": true,
+     "value": 0
+    }
+   ],
+   "stage_after_play": {
+    "hasStage": false
+   },
+   "try_togglePlayback": [
+    {
+     "complete": false,
+     "max": 92,
+     "paused": false,
+     "value": 14
+    },
+    {
+     "complete": false,
+     "max": 92,
+     "paused": false,
+     "value": 27
+    },
+    {
+     "complete": false,
+     "max": 92,
+     "paused": false,
+     "value": 41
+    },
+    {
+     "complete": false,
+     "max": 92,
+     "paused": false,
+     "value": 55
+    },
+    {
+     "complete": false,
+     "max": 92,
+     "paused": false,
+     "value": 68
+    },
+    {
+     "complete": false,
+     "max": 92,
+     "paused": false,
+     "value": 82
+    }
+   ],
+   "jump": "ok (goto 89/92)",
+   "complete_after_jump": true,
+   "state_after_jump": {
+    "complete": true,
+    "max": 92,
+    "paused": true,
+    "value": 92
+   }
+  }
+ ]
+}

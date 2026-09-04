@@ -1,0 +1,4936 @@
+{
+ "started_at": "2026-08-20T00:48:37",
+ "items": [
+  {
+   "item": "1.0.1",
+   "title": "Webster - Why Should I Take this Module?",
+   "module": 1,
+   "type": "INTRODUCTION",
+   "components": [
+    "text-view",
+    "graphic-view"
+   ],
+   "unit_complete": false,
+   "status": "dry_run"
+  },
+  {
+   "item": "1.0.2",
+   "title": "What Will I Learn in this Module?",
+   "module": 1,
+   "type": "INTRODUCTION",
+   "components": [
+    "table-view",
+    "quicknav-view"
+   ],
+   "unit_complete": true,
+   "status": "dry_run"
+  },
+  {
+   "item": "1.1.1",
+   "title": "Video - Welcome to the World of Networking",
+   "module": 1,
+   "type": "VIDEO",
+   "components": [
+    "media-view"
+   ],
+   "unit_complete": true,
+   "status": "dry_run"
+  },
+  {
+   "item": "1.2.1",
+   "title": "Video - Types of Personal Data",
+   "module": 1,
+   "type": "VIDEO",
+   "components": [
+    "media-view"
+   ],
+   "unit_complete": true,
+   "status": "dry_run"
+  },
+  {
+   "item": "1.3.1",
+   "title": "Bandwidth",
+   "module": 1,
+   "type": "LESSON",
+   "components": [
+    "table-view"
+   ],
+   "unit_complete": true,
+   "status": "dry_run"
+  },
+  {
+   "item": "1.4.1",
+   "title": "What Did I Learn in this Module?",
+   "module": 1,
+   "type": "INTERACTIVE",
+   "components": [
+    "accordion-view"
+   ],
+   "unit_complete": true,
+   "status": "dry_run"
+  },
+  {
+   "item": "1.4.3",
+   "title": "Communications in a Connected World Quiz",
+   "module": 1,
+   "type": "UNKNOWN",
+   "components": [],
+   "unit_complete": null,
+   "status": "unknown"
+  },
+  {
+   "item": "2.0.1",
+   "title": "Webster - Why Should I Take this Module?",
+   "module": 2,
+   "type": "INTRODUCTION",
+   "components": [
+    "graphic-view",
+    "text-view"
+   ],
+   "unit_complete": true,
+   "status": "dry_run"
+  },
+  {
+   "item": "2.1.1",
+   "title": "Video - Clients and Servers",
+   "module": 2,
+   "type": "VIDEO",
+   "components": [
+    "media-view"
+   ],
+   "unit_complete": true,
+   "status": "dry_run"
+  },
+  {
+   "item": "2.2.1",
+   "title": "Video - Network Infrastructure Symbols",
+   "module": 2,
+   "type": "VIDEO",
+   "components": [
+    "media-view"
+   ],
+   "unit_complete": true,
+   "status": "dry_run"
+  },
+  {
+   "item": "2.3.1",
+   "title": "ISP Services",
+   "module": 2,
+   "type": "LESSON",
+   "components": [
+    "dynamic-graphic-view"
+   ],
+   "unit_complete": true,
+   "status": "dry_run"
+  },
+  {
+   "item": "2.4.1",
+   "title": "What Did I Learn in this Module?",
+   "module": 2,
+   "type": "INTERACTIVE",
+   "components": [
+    "accordion-view"
+   ],
+   "unit_complete": true,
+   "status": "dry_run"
+  },
+  {
+   "item": "2.4.3",
+   "title": "Network Components, Types, and Connections Quiz",
+   "module": 2,
+   "type": "ASSESSMENT",
+   "components": [
+    "adaptive-start-screen-view"
+   ],
+   "unit_complete": false,
+   "status": "dry_run"
+  },
+  {
+   "item": "3.0.1",
+   "title": "Webster - Why Should I Take this Module?",
+   "module": 3,
+   "type": "INTRODUCTION",
+   "components": [
+    "text-view",
+    "graphic-view"
+   ],
+   "unit_complete": true,
+   "status": "dry_run"
+  },
+  {
+   "item": "3.1.1",
+   "title": "Video - Types of Wireless Networks",
+   "module": 3,
+   "type": "VIDEO",
+   "components": [
+    "media-view"
+   ],
+   "unit_complete": true,
+   "status": "dry_run"
+  },
+  {
+   "item": "3.2.1",
+   "title": "Mobile Devices and Wi-Fi",
+   "module": 3,
+   "type": "LESSON",
+   "components": [
+    "text-view",
+    "graphic-view"
+   ],
+   "unit_complete": true,
+   "status": "dry_run"
+  },
+  {
+   "item": "3.3.1",
+   "title": "What Did I Learn in this Module?",
+   "module": 3,
+   "type": "INTERACTIVE",
+   "components": [
+    "accordion-view"
+   ],
+   "unit_complete": true,
+   "status": "dry_run"
+  },
+  {
+   "item": "3.3.3",
+   "title": "Wireless and Mobile Networks Quiz",
+   "module": 3,
+   "type": "ASSESSMENT",
+   "components": [
+    "adaptive-start-screen-view"
+   ],
+   "unit_complete": false,
+   "status": "dry_run"
+  },
+  {
+   "item": "4.0.1",
+   "title": "Webster - Why Should I Take this Module?",
+   "module": 4,
+   "type": "INTRODUCTION",
+   "components": [
+    "text-view",
+    "graphic-view",
+    "blank-view"
+   ],
+   "unit_complete": true,
+   "status": "dry_run"
+  },
+  {
+   "item": "4.1.1",
+   "title": "Video - Typical Home Network Setup",
+   "module": 4,
+   "type": "VIDEO",
+   "components": [
+    "media-view"
+   ],
+   "unit_complete": true,
+   "status": "dry_run"
+  },
+  {
+   "item": "4.2.1",
+   "title": "LAN Wireless Frequencies",
+   "module": 4,
+   "type": "LESSON",
+   "components": [
+    "text-view",
+    "dynamic-graphic-view"
+   ],
+   "unit_complete": true,
+   "status": "dry_run"
+  },
+  {
+   "item": "4.3.1",
+   "title": "Wi-Fi Networks",
+   "module": 4,
+   "type": "LESSON",
+   "components": [
+    "text-view"
+   ],
+   "unit_complete": true,
+   "status": "dry_run"
+  },
+  {
+   "item": "4.4.1",
+   "title": "First Time Setup",
+   "module": 4,
+   "type": "LESSON",
+   "components": [
+    "text-view"
+   ],
+   "unit_complete": true,
+   "status": "dry_run"
+  },
+  {
+   "item": "4.5.1",
+   "title": "What Did I Learn in this Module?",
+   "module": 4,
+   "type": "INTERACTIVE",
+   "components": [
+    "accordion-view"
+   ],
+   "unit_complete": true,
+   "status": "dry_run"
+  },
+  {
+   "item": "4.5.3",
+   "title": "Build a Home Network Quiz",
+   "module": 4,
+   "type": "ASSESSMENT",
+   "components": [
+    "adaptive-start-screen-view",
+    "quicknav-view"
+   ],
+   "unit_complete": false,
+   "status": "dry_run"
+  },
+  {
+   "item": "5.0.1",
+   "title": "Webster - Why Should I Take this Module?",
+   "module": 5,
+   "type": "INTRODUCTION",
+   "components": [
+    "text-view",
+    "graphic-view"
+   ],
+   "unit_complete": true,
+   "status": "dry_run"
+  },
+  {
+   "item": "5.1.1",
+   "title": "Communication Protocols",
+   "module": 5,
+   "type": "INTERACTIVE",
+   "components": [
+    "accordion-view",
+    "text-view"
+   ],
+   "unit_complete": true,
+   "status": "dry_run"
+  },
+  {
+   "item": "5.2.1",
+   "title": "Video - Devices in a Bubble",
+   "module": 5,
+   "type": "VIDEO",
+   "components": [
+    "media-view"
+   ],
+   "unit_complete": true,
+   "status": "dry_run"
+  },
+  {
+   "item": "5.3.1",
+   "title": "Video - Network Protocols",
+   "module": 5,
+   "type": "VIDEO",
+   "components": [
+    "media-view"
+   ],
+   "unit_complete": true,
+   "status": "dry_run"
+  },
+  {
+   "item": "5.4.1",
+   "title": "What Did I Learn in this Module?",
+   "module": 5,
+   "type": "INTERACTIVE",
+   "components": [
+    "accordion-view"
+   ],
+   "unit_complete": true,
+   "status": "dry_run"
+  },
+  {
+   "item": "5.4.3",
+   "title": "Communications Principles Quiz",
+   "module": 5,
+   "type": "ASSESSMENT",
+   "components": [
+    "adaptive-start-screen-view"
+   ],
+   "unit_complete": false,
+   "status": "dry_run"
+  },
+  {
+   "item": "6.0.1",
+   "title": "Webster - Why Should I Take this Module",
+   "module": 6,
+   "type": "INTRODUCTION",
+   "components": [
+    "text-view",
+    "graphic-view"
+   ],
+   "unit_complete": true,
+   "status": "dry_run"
+  },
+  {
+   "item": "6.1.1",
+   "title": "Video - Network Media Types",
+   "module": 6,
+   "type": "VIDEO",
+   "components": [
+    "media-view"
+   ],
+   "unit_complete": false,
+   "status": "dry_run"
+  },
+  {
+   "item": "6.2.1",
+   "title": "What Did I Learn in this Module?",
+   "module": 6,
+   "type": "SUMMARY",
+   "components": [
+    "text-view"
+   ],
+   "unit_complete": true,
+   "status": "dry_run"
+  },
+  {
+   "item": "6.2.3",
+   "title": "Network Media Quiz",
+   "module": 6,
+   "type": "ASSESSMENT",
+   "components": [
+    "adaptive-start-screen-view"
+   ],
+   "unit_complete": false,
+   "status": "dry_run"
+  },
+  {
+   "item": "7.0.1",
+   "title": "Webster - Why Should I Take this Module?",
+   "module": 7,
+   "type": "INTRODUCTION",
+   "components": [
+    "text-view",
+    "graphic-view"
+   ],
+   "unit_complete": true,
+   "status": "dry_run"
+  },
+  {
+   "item": "7.1.1",
+   "title": "Video - The Fields of the Ethernet Frame",
+   "module": 7,
+   "type": "VIDEO",
+   "components": [
+    "media-view"
+   ],
+   "unit_complete": true,
+   "status": "dry_run"
+  },
+  {
+   "item": "7.2.1",
+   "title": "Video - Ethernet Switches",
+   "module": 7,
+   "type": "VIDEO",
+   "components": [
+    "media-view"
+   ],
+   "unit_complete": true,
+   "status": "dry_run"
+  },
+  {
+   "item": "7.3.1",
+   "title": "What Did I Learn in this Module?",
+   "module": 7,
+   "type": "INTERACTIVE",
+   "components": [
+    "accordion-view"
+   ],
+   "unit_complete": true,
+   "status": "dry_run"
+  },
+  {
+   "item": "7.3.3",
+   "title": "The Access Layer Quiz",
+   "module": 7,
+   "type": "ASSESSMENT",
+   "components": [
+    "adaptive-start-screen-view"
+   ],
+   "unit_complete": false,
+   "status": "dry_run"
+  },
+  {
+   "item": "8.0.1",
+   "title": "Webster - Why Should I Take this Module?",
+   "module": 8,
+   "type": "INTRODUCTION",
+   "components": [
+    "text-view",
+    "graphic-view"
+   ],
+   "unit_complete": true,
+   "status": "dry_run"
+  },
+  {
+   "item": "8.0.2",
+   "title": "What Will I Learn in this Module?",
+   "module": 8,
+   "type": "INTRODUCTION",
+   "components": [
+    "table-view",
+    "quicknav-view"
+   ],
+   "unit_complete": true,
+   "status": "dry_run"
+  },
+  {
+   "item": "8.1.1",
+   "title": "The IPv4 Address",
+   "module": 8,
+   "type": "INTERACTIVE",
+   "components": [
+    "adobe-animate-view"
+   ],
+   "unit_complete": true,
+   "status": "dry_run"
+  },
+  {
+   "item": "8.2.1",
+   "title": "Video - The IPv4 Address Structure",
+   "module": 8,
+   "type": "VIDEO",
+   "components": [
+    "media-view"
+   ],
+   "unit_complete": true,
+   "status": "dry_run"
+  },
+  {
+   "item": "8.3.1",
+   "title": "What Did I Learn in this Module?",
+   "module": 8,
+   "type": "INTERACTIVE",
+   "components": [
+    "accordion-view"
+   ],
+   "unit_complete": true,
+   "status": "dry_run"
+  },
+  {
+   "item": "8.3.3",
+   "title": "The Internet Protocol Quiz",
+   "module": 8,
+   "type": "ASSESSMENT",
+   "components": [
+    "adaptive-start-screen-view"
+   ],
+   "unit_complete": false,
+   "status": "dry_run"
+  },
+  {
+   "item": "9.0.1",
+   "title": "Webster - Why Should I Take this Module?",
+   "module": 9,
+   "type": "INTRODUCTION",
+   "components": [
+    "text-view",
+    "graphic-view",
+    "blank-view"
+   ],
+   "unit_complete": true,
+   "status": "dry_run"
+  },
+  {
+   "item": "9.1.1",
+   "title": "Video - IPv4 Unicast",
+   "module": 9,
+   "type": "VIDEO",
+   "components": [
+    "media-view"
+   ],
+   "unit_complete": true,
+   "status": "dry_run"
+  },
+  {
+   "item": "9.2.1",
+   "title": "Public and Private IPv4 Addresses",
+   "module": 9,
+   "type": "LESSON",
+   "components": [
+    "table-view",
+    "text-view",
+    "blank-view"
+   ],
+   "unit_complete": true,
+   "status": "dry_run"
+  },
+  {
+   "item": "9.3.1",
+   "title": "Video - Network Segmentation",
+   "module": 9,
+   "type": "VIDEO",
+   "components": [
+    "media-view"
+   ],
+   "unit_complete": true,
+   "status": "dry_run"
+  },
+  {
+   "item": "9.4.1",
+   "title": "What Did I Learn in this Module?",
+   "module": 9,
+   "type": "INTERACTIVE",
+   "components": [
+    "accordion-view"
+   ],
+   "unit_complete": true,
+   "status": "dry_run"
+  },
+  {
+   "item": "9.4.3",
+   "title": "IPv4 and Network Segmentation Quiz",
+   "module": 9,
+   "type": "ASSESSMENT",
+   "components": [
+    "adaptive-start-screen-view",
+    "quicknav-view"
+   ],
+   "unit_complete": false,
+   "status": "dry_run"
+  },
+  {
+   "item": "10.0.1",
+   "title": "Webster - Why Should I Take this Module?",
+   "module": 10,
+   "type": "INTRODUCTION",
+   "components": [
+    "graphic-view",
+    "text-view"
+   ],
+   "unit_complete": true,
+   "status": "dry_run"
+  },
+  {
+   "item": "10.1.1",
+   "title": "The Need for IPv6",
+   "module": 10,
+   "type": "LESSON",
+   "components": [
+    "dynamic-graphic-view",
+    "text-view"
+   ],
+   "unit_complete": true,
+   "status": "dry_run"
+  },
+  {
+   "item": "10.2.1",
+   "title": "Hexadecimal Number System",
+   "module": 10,
+   "type": "LESSON",
+   "components": [
+    "text-view"
+   ],
+   "unit_complete": true,
+   "status": "dry_run"
+  },
+  {
+   "item": "10.2.6",
+   "title": "Activity - IPv6 Address Representations",
+   "module": 10,
+   "type": "LESSON",
+   "components": [
+    "ipv6addressrepresentation-view",
+    "quicknav-view"
+   ],
+   "unit_complete": false,
+   "status": "dry_run"
+  },
+  {
+   "item": "10.3.1",
+   "title": "What Did I Learn in this Module?",
+   "module": 10,
+   "type": "INTERACTIVE",
+   "components": [
+    "accordion-view"
+   ],
+   "unit_complete": true,
+   "status": "dry_run"
+  },
+  {
+   "item": "10.3.3",
+   "title": "IPv6 Addressing Formats and Rules Quiz",
+   "module": 10,
+   "type": "ASSESSMENT",
+   "components": [
+    "adaptive-start-screen-view"
+   ],
+   "unit_complete": false,
+   "status": "dry_run"
+  },
+  {
+   "item": "11.0.1",
+   "title": "Webster - Why Should I Take this Module?",
+   "module": 11,
+   "type": "INTRODUCTION",
+   "components": [
+    "graphic-view",
+    "text-view"
+   ],
+   "unit_complete": true,
+   "status": "dry_run"
+  },
+  {
+   "item": "11.1.1",
+   "title": "Static IPv4 Address Assignment",
+   "module": 11,
+   "type": "LESSON",
+   "components": [
+    "graphic-view"
+   ],
+   "unit_complete": true,
+   "status": "dry_run"
+  },
+  {
+   "item": "11.2.1",
+   "title": "Video - DHCPv4 Operation",
+   "module": 11,
+   "type": "VIDEO",
+   "components": [
+    "media-view"
+   ],
+   "unit_complete": true,
+   "status": "dry_run"
+  },
+  {
+   "item": "11.3.1",
+   "title": "What Did I Learn in this Module?",
+   "module": 11,
+   "type": "INTERACTIVE",
+   "components": [
+    "accordion-view"
+   ],
+   "unit_complete": true,
+   "status": "dry_run"
+  },
+  {
+   "item": "11.3.3",
+   "title": "Dynamic Addressing with DHCP Quiz",
+   "module": 11,
+   "type": "ASSESSMENT",
+   "components": [
+    "adaptive-start-screen-view"
+   ],
+   "unit_complete": false,
+   "status": "dry_run"
+  },
+  {
+   "item": "12.0.1",
+   "title": "Webster - Why Should I Take this Module?",
+   "module": 12,
+   "type": "INTRODUCTION",
+   "components": [
+    "text-view",
+    "graphic-view"
+   ],
+   "unit_complete": true,
+   "status": "dry_run"
+  },
+  {
+   "item": "12.0.2",
+   "title": "What Will I Learn in this Module?",
+   "module": 12,
+   "type": "INTRODUCTION",
+   "components": [
+    "table-view",
+    "quicknav-view"
+   ],
+   "unit_complete": true,
+   "status": "dry_run"
+  },
+  {
+   "item": "12.1.1",
+   "title": "Video - Gateways to Other Networks",
+   "module": 12,
+   "type": "VIDEO",
+   "components": [
+    "media-view"
+   ],
+   "unit_complete": true,
+   "status": "dry_run"
+  },
+  {
+   "item": "12.2.1",
+   "title": "Video - Introduction to NAT",
+   "module": 12,
+   "type": "VIDEO",
+   "components": [
+    "media-view"
+   ],
+   "unit_complete": true,
+   "status": "dry_run"
+  },
+  {
+   "item": "12.2.2",
+   "title": "Packet Tracer - Examine NAT on a Wireless Router",
+   "module": 12,
+   "type": "ASSESSMENT",
+   "components": [
+    "pagetracer-view",
+    "quicknav-view"
+   ],
+   "unit_complete": false,
+   "status": "dry_run"
+  },
+  {
+   "item": "12.3.1",
+   "title": "What Did I Learn in this Module?",
+   "module": 12,
+   "type": "INTERACTIVE",
+   "components": [
+    "accordion-view"
+   ],
+   "unit_complete": true,
+   "status": "dry_run"
+  },
+  {
+   "item": "12.3.3",
+   "title": "Gateways to Other Networks Quiz",
+   "module": 12,
+   "type": "ASSESSMENT",
+   "components": [
+    "adaptive-start-screen-view",
+    "quicknav-view"
+   ],
+   "unit_complete": false,
+   "status": "dry_run"
+  },
+  {
+   "item": "13.0.1",
+   "title": "Webster - Why Should I Take this Module",
+   "module": 13,
+   "type": "INTRODUCTION",
+   "components": [
+    "text-view",
+    "graphic-view"
+   ],
+   "unit_complete": false,
+   "status": "dry_run"
+  },
+  {
+   "item": "13.0.2",
+   "title": "What Will I Learn in this Module?",
+   "module": 13,
+   "type": "INTRODUCTION",
+   "components": [
+    "table-view",
+    "quicknav-view"
+   ],
+   "unit_complete": true,
+   "status": "dry_run"
+  },
+  {
+   "item": "13.1.1",
+   "title": "Destination on Same Network",
+   "module": 13,
+   "type": "LESSON",
+   "components": [
+    "dynamic-graphic-view",
+    "text-view"
+   ],
+   "unit_complete": true,
+   "status": "dry_run"
+  },
+  {
+   "item": "13.2.1",
+   "title": "Video - The Ethernet Broadcast",
+   "module": 13,
+   "type": "VIDEO",
+   "components": [
+    "media-view"
+   ],
+   "unit_complete": true,
+   "status": "dry_run"
+  },
+  {
+   "item": "13.3.1",
+   "title": "What Did I Learn in this Module?",
+   "module": 13,
+   "type": "INTERACTIVE",
+   "components": [
+    "accordion-view"
+   ],
+   "unit_complete": true,
+   "status": "dry_run"
+  },
+  {
+   "item": "13.3.3",
+   "title": "The ARP Process Quiz",
+   "module": 13,
+   "type": "ASSESSMENT",
+   "components": [
+    "adaptive-start-screen-view"
+   ],
+   "unit_complete": false,
+   "status": "dry_run"
+  },
+  {
+   "item": "14.0.1",
+   "title": "Webster - Why Should I Take this Module?",
+   "module": 14,
+   "type": "INTRODUCTION",
+   "components": [
+    "text-view",
+    "graphic-view"
+   ],
+   "unit_complete": false,
+   "status": "dry_run"
+  },
+  {
+   "item": "14.0.2",
+   "title": "What Will I Learn in this Modules?",
+   "module": 14,
+   "type": "INTRODUCTION",
+   "components": [
+    "table-view",
+    "quicknav-view"
+   ],
+   "unit_complete": true,
+   "status": "dry_run"
+  },
+  {
+   "item": "14.1.1",
+   "title": "Video - Dividing the Local Network",
+   "module": 14,
+   "type": "VIDEO",
+   "components": [
+    "media-view"
+   ],
+   "unit_complete": true,
+   "status": "dry_run"
+  },
+  {
+   "item": "14.2.1",
+   "title": "Video - Router Packet Forwarding",
+   "module": 14,
+   "type": "VIDEO",
+   "components": [
+    "media-view"
+   ],
+   "unit_complete": true,
+   "status": "dry_run"
+  },
+  {
+   "item": "14.3.1",
+   "title": "Local Area Networks",
+   "module": 14,
+   "type": "LESSON",
+   "components": [
+    "dynamic-graphic-view"
+   ],
+   "unit_complete": true,
+   "status": "dry_run"
+  },
+  {
+   "item": "14.4.1",
+   "title": "What Did I Learn in this Module?",
+   "module": 14,
+   "type": "INTERACTIVE",
+   "components": [
+    "accordion-view"
+   ],
+   "unit_complete": true,
+   "status": "dry_run"
+  },
+  {
+   "item": "14.4.3",
+   "title": "Routing Between Networks Quiz",
+   "module": 14,
+   "type": "ASSESSMENT",
+   "components": [
+    "adaptive-start-screen-view",
+    "quicknav-view"
+   ],
+   "unit_complete": false,
+   "status": "dry_run"
+  },
+  {
+   "item": "15.0.1",
+   "title": "Webster - Why Should I Take this Module?",
+   "module": 15,
+   "type": "INTRODUCTION",
+   "components": [
+    "graphic-view",
+    "text-view"
+   ],
+   "unit_complete": true,
+   "status": "dry_run"
+  },
+  {
+   "item": "15.1.1",
+   "title": "Video - TCP and UDP Operation",
+   "module": 15,
+   "type": "VIDEO",
+   "components": [
+    "media-view"
+   ],
+   "unit_complete": true,
+   "status": "dry_run"
+  },
+  {
+   "item": "15.2.1",
+   "title": "Video - Transport Layer Port Numbers",
+   "module": 15,
+   "type": "VIDEO",
+   "components": [
+    "media-view"
+   ],
+   "unit_complete": true,
+   "status": "dry_run"
+  },
+  {
+   "item": "15.3.1",
+   "title": "What Did I Learn in this Module?",
+   "module": 15,
+   "type": "INTERACTIVE",
+   "components": [
+    "accordion-view"
+   ],
+   "unit_complete": true,
+   "status": "dry_run"
+  },
+  {
+   "item": "15.3.3",
+   "title": "TCP and UDP Quiz",
+   "module": 15,
+   "type": "ASSESSMENT",
+   "components": [
+    "adaptive-start-screen-view"
+   ],
+   "unit_complete": false,
+   "status": "dry_run"
+  },
+  {
+   "item": "16.0.1",
+   "title": "Webster - Why Should I Take this Module?",
+   "module": 16,
+   "type": "INTRODUCTION",
+   "components": [
+    "text-view",
+    "graphic-view"
+   ],
+   "unit_complete": true,
+   "status": "dry_run"
+  },
+  {
+   "item": "16.1.1",
+   "title": "Client and Server Interaction",
+   "module": 16,
+   "type": "LESSON",
+   "components": [
+    "dynamic-graphic-view",
+    "table-view"
+   ],
+   "unit_complete": true,
+   "status": "dry_run"
+  },
+  {
+   "item": "16.2.1",
+   "title": "Common Network Application Services",
+   "module": 16,
+   "type": "LESSON",
+   "components": [
+    "dynamic-graphic-view",
+    "table-view",
+    "blank-view"
+   ],
+   "unit_complete": true,
+   "status": "dry_run"
+  },
+  {
+   "item": "16.3.1",
+   "title": "Video - DNS Servers",
+   "module": 16,
+   "type": "VIDEO",
+   "components": [
+    "media-view"
+   ],
+   "unit_complete": true,
+   "status": "dry_run"
+  },
+  {
+   "item": "16.4.1",
+   "title": "Video - HTTP and HTML",
+   "module": 16,
+   "type": "VIDEO",
+   "components": [
+    "media-view"
+   ],
+   "unit_complete": true,
+   "status": "dry_run"
+  },
+  {
+   "item": "16.5.1",
+   "title": "File Transfer Protocol",
+   "module": 16,
+   "type": "LESSON",
+   "components": [
+    "dynamic-graphic-view",
+    "text-view"
+   ],
+   "unit_complete": true,
+   "status": "dry_run"
+  },
+  {
+   "item": "16.6.1",
+   "title": "Video - Remote Access with Telnet or SSH",
+   "module": 16,
+   "type": "VIDEO",
+   "components": [
+    "media-view"
+   ],
+   "unit_complete": true,
+   "status": "dry_run"
+  },
+  {
+   "item": "16.7.1",
+   "title": "Email Clients and Servers",
+   "module": 16,
+   "type": "LESSON",
+   "components": [
+    "dynamic-graphic-view"
+   ],
+   "unit_complete": true,
+   "status": "dry_run"
+  },
+  {
+   "item": "16.8.1",
+   "title": "What Did I Learn in this Module?",
+   "module": 16,
+   "type": "INTERACTIVE",
+   "components": [
+    "accordion-view"
+   ],
+   "unit_complete": true,
+   "status": "dry_run"
+  },
+  {
+   "item": "16.8.3",
+   "title": "Application Layer Services Quiz",
+   "module": 16,
+   "type": "ASSESSMENT",
+   "components": [
+    "adaptive-start-screen-view"
+   ],
+   "unit_complete": false,
+   "status": "dry_run"
+  },
+  {
+   "item": "17.0.1",
+   "title": "Webster - Why Should I Take this Module?",
+   "module": 17,
+   "type": "INTRODUCTION",
+   "components": [
+    "text-view",
+    "graphic-view"
+   ],
+   "unit_complete": false,
+   "status": "dry_run"
+  },
+  {
+   "item": "17.0.2",
+   "title": "What Will I Learn in this Module?",
+   "module": 17,
+   "type": "INTRODUCTION",
+   "components": [
+    "table-view",
+    "quicknav-view"
+   ],
+   "unit_complete": true,
+   "status": "dry_run"
+  },
+  {
+   "item": "17.1.1",
+   "title": "Overview of Troubleshooting Commands",
+   "module": 17,
+   "type": "LESSON",
+   "components": [
+    "text-view"
+   ],
+   "unit_complete": true,
+   "status": "dry_run"
+  },
+  {
+   "item": "17.1.2",
+   "title": "The ipconfig Command",
+   "module": 17,
+   "type": "INTERACTIVE",
+   "components": [
+    "accordion-view"
+   ],
+   "unit_complete": false,
+   "status": "dry_run"
+  },
+  {
+   "item": "17.1.3",
+   "title": "Packet Tracer - Use the ipconfig Command",
+   "module": 17,
+   "type": "LAB",
+   "components": [
+    "pagetracer-view"
+   ],
+   "unit_complete": false,
+   "status": "dry_run"
+  },
+  {
+   "item": "17.1.4",
+   "title": "The ping Command",
+   "module": 17,
+   "type": "LESSON",
+   "components": [
+    "commandwindow-view",
+    "text-view"
+   ],
+   "unit_complete": false,
+   "status": "dry_run"
+  },
+  {
+   "item": "17.1.5",
+   "title": "Ping Results",
+   "module": 17,
+   "type": "UNKNOWN",
+   "components": [
+    "commandwindow-view"
+   ],
+   "unit_complete": false,
+   "status": "unknown"
+  },
+  {
+   "item": "17.1.6",
+   "title": "Packet Tracer - Use the ping Command",
+   "module": 17,
+   "type": "LAB",
+   "components": [
+    "pagetracer-view",
+    "quicknav-view"
+   ],
+   "unit_complete": false,
+   "status": "dry_run"
+  },
+  {
+   "item": "17.2.1",
+   "title": "What Did I Learn in this Module?",
+   "module": 17,
+   "type": "SUMMARY",
+   "components": [
+    "text-view"
+   ],
+   "unit_complete": false,
+   "status": "dry_run"
+  },
+  {
+   "item": "17.2.2",
+   "title": "Webster - Reflection Questions",
+   "module": 17,
+   "type": "LESSON",
+   "components": [
+    "text-view",
+    "graphic-view",
+    "blank-view"
+   ],
+   "unit_complete": false,
+   "status": "dry_run"
+  },
+  {
+   "item": "17.2.3",
+   "title": "Network Testing Utilities Quiz",
+   "module": 17,
+   "type": "ASSESSMENT",
+   "components": [
+    "adaptive-start-screen-view"
+   ],
+   "unit_complete": false,
+   "status": "dry_run"
+  },
+  {
+   "item": "18.0.1",
+   "title": "Webster - Why Should I Take this Module?",
+   "module": 18,
+   "type": "INTRODUCTION",
+   "components": [
+    "text-view",
+    "graphic-view"
+   ],
+   "unit_complete": false,
+   "status": "dry_run"
+  },
+  {
+   "item": "18.0.2",
+   "title": "What Will I Learn in this Module?",
+   "module": 18,
+   "type": "INTRODUCTION",
+   "components": [
+    "table-view",
+    "quicknav-view"
+   ],
+   "unit_complete": true,
+   "status": "dry_run"
+  },
+  {
+   "item": "18.1.1",
+   "title": "Network Architecture",
+   "module": 18,
+   "type": "LESSON",
+   "components": [
+    "text-view"
+   ],
+   "unit_complete": true,
+   "status": "dry_run"
+  },
+  {
+   "item": "18.1.2",
+   "title": "Video - Fault Tolerance",
+   "module": 18,
+   "type": "VIDEO",
+   "components": [
+    "media-view"
+   ],
+   "unit_complete": false,
+   "status": "dry_run"
+  },
+  {
+   "item": "18.1.3",
+   "title": "Fault Tolerance",
+   "module": 18,
+   "type": "LESSON",
+   "components": [
+    "dynamic-graphic-view"
+   ],
+   "unit_complete": false,
+   "status": "dry_run"
+  },
+  {
+   "item": "18.1.7",
+   "title": "Check Your Understanding - Reliable Networks",
+   "module": 18,
+   "type": "KNOWLEDGE_CHECK",
+   "components": [
+    "mcq-view",
+    "mcq-view",
+    "mcq-view",
+    "mcq-view",
+    "quicknav-view"
+   ],
+   "unit_complete": false,
+   "status": "dry_run"
+  },
+  {
+   "item": "18.2.1",
+   "title": "Physical and Logical Addresses",
+   "module": 18,
+   "type": "LESSON",
+   "components": [
+    "dynamic-graphic-view"
+   ],
+   "unit_complete": true,
+   "status": "dry_run"
+  },
+  {
+   "item": "18.2.2",
+   "title": "Video - View Network Information on My Device",
+   "module": 18,
+   "type": "VIDEO",
+   "components": [
+    "media-view"
+   ],
+   "unit_complete": false,
+   "status": "dry_run"
+  },
+  {
+   "item": "18.2.3",
+   "title": "Lab - View Wireless and Wired NIC Information",
+   "module": 18,
+   "type": "LAB",
+   "components": [
+    "pagetracer-view"
+   ],
+   "unit_complete": false,
+   "status": "dry_run"
+  },
+  {
+   "item": "18.2.4",
+   "title": "Hierarchical Analogy",
+   "module": 18,
+   "type": "INTERACTIVE",
+   "components": [
+    "tabs-view",
+    "text-view"
+   ],
+   "unit_complete": false,
+   "status": "dry_run"
+  },
+  {
+   "item": "18.2.5",
+   "title": "Video - Benefits of a Hierarchical Network Design",
+   "module": 18,
+   "type": "VIDEO",
+   "components": [
+    "media-view"
+   ],
+   "unit_complete": false,
+   "status": "dry_run"
+  },
+  {
+   "item": "18.2.6",
+   "title": "Access, Distribution, and Core",
+   "module": 18,
+   "type": "INTERACTIVE",
+   "components": [
+    "tabs-view"
+   ],
+   "unit_complete": false,
+   "status": "dry_run"
+  },
+  {
+   "item": "18.2.7",
+   "title": "Check Your Understanding - Hierarchical Network Design",
+   "module": 18,
+   "type": "KNOWLEDGE_CHECK",
+   "components": [
+    "mcq-view",
+    "mcq-view",
+    "mcq-view",
+    "mcq-view",
+    "mcq-view",
+    "quicknav-view"
+   ],
+   "unit_complete": false,
+   "status": "dry_run"
+  },
+  {
+   "item": "18.3.1",
+   "title": "What Did I Learn in this Module?",
+   "module": 18,
+   "type": "INTERACTIVE",
+   "components": [
+    "accordion-view"
+   ],
+   "unit_complete": false,
+   "status": "dry_run"
+  },
+  {
+   "item": "18.3.2",
+   "title": "Webster - Reflection Questions",
+   "module": 18,
+   "type": "LESSON",
+   "components": [
+    "text-view",
+    "graphic-view",
+    "blank-view"
+   ],
+   "unit_complete": false,
+   "status": "dry_run"
+  },
+  {
+   "item": "18.3.3",
+   "title": "Network Design Quiz",
+   "module": 18,
+   "type": "ASSESSMENT",
+   "components": [
+    "adaptive-start-screen-view"
+   ],
+   "unit_complete": false,
+   "status": "dry_run"
+  },
+  {
+   "item": "19.0.1",
+   "title": "Webster - Why Should I Take this Module?",
+   "module": 19,
+   "type": "INTRODUCTION",
+   "components": [
+    "text-view",
+    "graphic-view"
+   ],
+   "unit_complete": false,
+   "status": "dry_run"
+  },
+  {
+   "item": "19.0.2",
+   "title": "What Will I Learn in this Module?",
+   "module": 19,
+   "type": "INTRODUCTION",
+   "components": [
+    "table-view",
+    "quicknav-view"
+   ],
+   "unit_complete": true,
+   "status": "dry_run"
+  },
+  {
+   "item": "19.1.1",
+   "title": "Video - Cloud and Virtualization",
+   "module": 19,
+   "type": "VIDEO",
+   "components": [
+    "media-view"
+   ],
+   "unit_complete": false,
+   "status": "dry_run"
+  },
+  {
+   "item": "19.1.4",
+   "title": "Check Your Understanding - Cloud and Cloud Services",
+   "module": 19,
+   "type": "KNOWLEDGE_CHECK",
+   "components": [
+    "mcq-view",
+    "mcq-view",
+    "mcq-view",
+    "quicknav-view"
+   ],
+   "unit_complete": false,
+   "status": "dry_run"
+  },
+  {
+   "item": "19.2.1",
+   "title": "Advantages of Virtualization",
+   "module": 19,
+   "type": "LESSON",
+   "components": [
+    "text-view"
+   ],
+   "unit_complete": false,
+   "status": "dry_run"
+  },
+  {
+   "item": "19.2.2",
+   "title": "Hypervisors",
+   "module": 19,
+   "type": "INTERACTIVE",
+   "components": [
+    "tabs-view"
+   ],
+   "unit_complete": false,
+   "status": "dry_run"
+  },
+  {
+   "item": "19.2.3",
+   "title": "Lab - Install Linux in a Virtual Machine and Explore the GUI",
+   "module": 19,
+   "type": "LAB",
+   "components": [
+    "pagetracer-view",
+    "quicknav-view"
+   ],
+   "unit_complete": false,
+   "status": "dry_run"
+  },
+  {
+   "item": "19.3.1",
+   "title": "What Did I Learn in this Module?",
+   "module": 19,
+   "type": "INTERACTIVE",
+   "components": [
+    "accordion-view"
+   ],
+   "unit_complete": false,
+   "status": "dry_run"
+  },
+  {
+   "item": "19.3.2",
+   "title": "Webster - Reflection Questions",
+   "module": 19,
+   "type": "LESSON",
+   "components": [
+    "text-view",
+    "graphic-view",
+    "blank-view"
+   ],
+   "unit_complete": true,
+   "status": "dry_run"
+  },
+  {
+   "item": "19.3.3",
+   "title": "Cloud and Virtualization Quiz",
+   "module": 19,
+   "type": "ASSESSMENT",
+   "components": [
+    "adaptive-start-screen-view",
+    "quicknav-view"
+   ],
+   "unit_complete": false,
+   "status": "dry_run"
+  },
+  {
+   "item": "20.0.1",
+   "title": "Webster - Why Should I Take this Module?",
+   "module": 20,
+   "type": "INTRODUCTION",
+   "components": [
+    "text-view",
+    "graphic-view"
+   ],
+   "unit_complete": false,
+   "status": "dry_run"
+  },
+  {
+   "item": "20.0.2",
+   "title": "What Will I Learn in this Module?",
+   "module": 20,
+   "type": "INTRODUCTION",
+   "components": [
+    "table-view",
+    "quicknav-view"
+   ],
+   "unit_complete": true,
+   "status": "dry_run"
+  },
+  {
+   "item": "20.1.1",
+   "title": "Binary and IPv4 Addresses",
+   "module": 20,
+   "type": "LESSON",
+   "components": [
+    "dynamic-graphic-view",
+    "dynamic-graphic-view",
+    "text-view"
+   ],
+   "unit_complete": true,
+   "status": "dry_run"
+  },
+  {
+   "item": "20.1.2",
+   "title": "Video - Converting Between Binary and Decimal Numbering Systems",
+   "module": 20,
+   "type": "VIDEO",
+   "components": [
+    "media-view",
+    "blank-view"
+   ],
+   "unit_complete": false,
+   "status": "dry_run"
+  },
+  {
+   "item": "20.1.3",
+   "title": "Check Your Understanding - Binary Number System",
+   "module": 20,
+   "type": "KNOWLEDGE_CHECK",
+   "components": [
+    "mcq-view",
+    "mcq-view"
+   ],
+   "unit_complete": false,
+   "status": "dry_run"
+  },
+  {
+   "item": "20.1.4",
+   "title": "Activity - Binary to Decimal Conversions",
+   "module": 20,
+   "type": "UNKNOWN",
+   "components": [
+    "binary-to-decimal"
+   ],
+   "unit_complete": false,
+   "status": "unknown"
+  },
+  {
+   "item": "20.1.5",
+   "title": "Decimal to Binary Conversion",
+   "module": 20,
+   "type": "INTERACTIVE",
+   "components": [
+    "tabs-view"
+   ],
+   "unit_complete": false,
+   "status": "dry_run"
+  },
+  {
+   "item": "20.1.6",
+   "title": "Decimal to Binary Conversion Example",
+   "module": 20,
+   "type": "ASSESSMENT",
+   "components": [
+    "tabs-view"
+   ],
+   "unit_complete": false,
+   "status": "dry_run"
+  },
+  {
+   "item": "20.1.7",
+   "title": "Activity - Decimal to Binary Conversions",
+   "module": 20,
+   "type": "UNKNOWN",
+   "components": [
+    "decimal-to-binary"
+   ],
+   "unit_complete": false,
+   "status": "unknown"
+  },
+  {
+   "item": "20.1.8",
+   "title": "Activity - Binary Game",
+   "module": 20,
+   "type": "LESSON",
+   "components": [
+    "text-view"
+   ],
+   "unit_complete": true,
+   "status": "dry_run"
+  },
+  {
+   "item": "20.1.9",
+   "title": "IPv4 Addresses",
+   "module": 20,
+   "type": "INTERACTIVE",
+   "components": [
+    "tabs-view",
+    "quicknav-view"
+   ],
+   "unit_complete": false,
+   "status": "dry_run"
+  },
+  {
+   "item": "20.2.1",
+   "title": "Hexadecimal and IPv6 Addresses",
+   "module": 20,
+   "type": "LESSON",
+   "components": [
+    "dynamic-graphic-view",
+    "dynamic-graphic-view",
+    "graphic-view"
+   ],
+   "unit_complete": true,
+   "status": "dry_run"
+  },
+  {
+   "item": "20.2.2",
+   "title": "Video - Converting Between Hexadecimal and Decimal Numbering Systems",
+   "module": 20,
+   "type": "VIDEO",
+   "components": [
+    "media-view",
+    "blank-view"
+   ],
+   "unit_complete": false,
+   "status": "dry_run"
+  },
+  {
+   "item": "20.2.3",
+   "title": "Check Your Understanding - Convert Between Decimal to Hexadecimal Number Systems",
+   "module": 20,
+   "type": "KNOWLEDGE_CHECK",
+   "components": [
+    "mcq-view",
+    "mcq-view",
+    "mcq-view",
+    "mcq-view",
+    "quicknav-view"
+   ],
+   "unit_complete": false,
+   "status": "dry_run"
+  },
+  {
+   "item": "20.3.1",
+   "title": "What Did I Learn in this Module?",
+   "module": 20,
+   "type": "INTERACTIVE",
+   "components": [
+    "accordion-view"
+   ],
+   "unit_complete": false,
+   "status": "dry_run"
+  },
+  {
+   "item": "20.3.2",
+   "title": "Webster - Reflection Questions",
+   "module": 20,
+   "type": "LESSON",
+   "components": [
+    "text-view",
+    "graphic-view",
+    "blank-view"
+   ],
+   "unit_complete": false,
+   "status": "dry_run"
+  },
+  {
+   "item": "20.3.3",
+   "title": "Number Systems Quiz",
+   "module": 20,
+   "type": "ASSESSMENT",
+   "components": [
+    "adaptive-start-screen-view"
+   ],
+   "unit_complete": false,
+   "status": "dry_run"
+  },
+  {
+   "item": "21.0.1",
+   "title": "Webster - Why Should I Take this Module?",
+   "module": 21,
+   "type": "INTRODUCTION",
+   "components": [
+    "text-view",
+    "graphic-view"
+   ],
+   "unit_complete": false,
+   "status": "dry_run"
+  },
+  {
+   "item": "21.0.2",
+   "title": "What Will I Learn in this Module?",
+   "module": 21,
+   "type": "INTRODUCTION",
+   "components": [
+    "table-view",
+    "quicknav-view"
+   ],
+   "unit_complete": false,
+   "status": "dry_run"
+  },
+  {
+   "item": "21.1.1",
+   "title": "The Rise of Ethernet",
+   "module": 21,
+   "type": "LESSON",
+   "components": [
+    "dynamic-graphic-view"
+   ],
+   "unit_complete": false,
+   "status": "dry_run"
+  },
+  {
+   "item": "21.1.2",
+   "title": "Ethernet Evolution",
+   "module": 21,
+   "type": "INTERACTIVE",
+   "components": [
+    "adobe-animate-view"
+   ],
+   "unit_complete": false,
+   "status": "dry_run"
+  },
+  {
+   "item": "21.1.3",
+   "title": "Video - Ethernet Addressing",
+   "module": 21,
+   "type": "VIDEO",
+   "components": [
+    "media-view"
+   ],
+   "unit_complete": false,
+   "status": "dry_run"
+  },
+  {
+   "item": "21.1.4",
+   "title": "Lab - Determine the MAC Address of a Host",
+   "module": 21,
+   "type": "LAB",
+   "components": [
+    "pagetracer-view",
+    "quicknav-view"
+   ],
+   "unit_complete": false,
+   "status": "dry_run"
+  },
+  {
+   "item": "21.2.1",
+   "title": "Ethernet Encapsulation",
+   "module": 21,
+   "type": "LESSON",
+   "components": [
+    "dynamic-graphic-view"
+   ],
+   "unit_complete": true,
+   "status": "dry_run"
+  },
+  {
+   "item": "21.2.2",
+   "title": "Data Link Sublayers",
+   "module": 21,
+   "type": "LESSON",
+   "components": [
+    "dynamic-graphic-view"
+   ],
+   "unit_complete": false,
+   "status": "dry_run"
+  },
+  {
+   "item": "21.2.5",
+   "title": "Check Your Understanding - Ethernet Frame",
+   "module": 21,
+   "type": "KNOWLEDGE_CHECK",
+   "components": [
+    "mcq-view",
+    "mcq-view",
+    "mcq-view",
+    "mcq-view",
+    "mcq-view",
+    "mcq-view",
+    "mcq-view"
+   ],
+   "unit_complete": false,
+   "status": "dry_run"
+  },
+  {
+   "item": "21.2.6",
+   "title": "Lab - View Captured Traffic in Wireshark",
+   "module": 21,
+   "type": "LAB",
+   "components": [
+    "pagetracer-view"
+   ],
+   "unit_complete": false,
+   "status": "dry_run"
+  },
+  {
+   "item": "21.2.7",
+   "title": "Lab - Use Wireshark to Examine Ethernet Frames",
+   "module": 21,
+   "type": "ASSESSMENT",
+   "components": [
+    "pagetracer-view",
+    "quicknav-view"
+   ],
+   "unit_complete": false,
+   "status": "dry_run"
+  },
+  {
+   "item": "21.3.1",
+   "title": "MAC Address and Hexadecimal",
+   "module": 21,
+   "type": "LESSON",
+   "components": [
+    "dynamic-graphic-view",
+    "dynamic-graphic-view",
+    "text-view"
+   ],
+   "unit_complete": true,
+   "status": "dry_run"
+  },
+  {
+   "item": "21.3.2",
+   "title": "Unicast MAC Address",
+   "module": 21,
+   "type": "INTERACTIVE",
+   "components": [
+    "adobe-animate-view",
+    "text-view"
+   ],
+   "unit_complete": false,
+   "status": "dry_run"
+  },
+  {
+   "item": "21.3.3",
+   "title": "Broadcast MAC Address",
+   "module": 21,
+   "type": "INTERACTIVE",
+   "components": [
+    "adobe-animate-view",
+    "text-view"
+   ],
+   "unit_complete": false,
+   "status": "dry_run"
+  },
+  {
+   "item": "21.3.4",
+   "title": "Multicast MAC Address",
+   "module": 21,
+   "type": "INTERACTIVE",
+   "components": [
+    "adobe-animate-view",
+    "text-view",
+    "blank-view"
+   ],
+   "unit_complete": false,
+   "status": "dry_run"
+  },
+  {
+   "item": "21.3.5",
+   "title": "Check Your Understanding - Ethernet MAC Address",
+   "module": 21,
+   "type": "KNOWLEDGE_CHECK",
+   "components": [
+    "mcq-view",
+    "mcq-view",
+    "mcq-view",
+    "mcq-view",
+    "quicknav-view"
+   ],
+   "unit_complete": false,
+   "status": "dry_run"
+  },
+  {
+   "item": "21.4.1",
+   "title": "Switch Fundamentals",
+   "module": 21,
+   "type": "LESSON",
+   "components": [
+    "dynamic-graphic-view",
+    "text-view"
+   ],
+   "unit_complete": false,
+   "status": "dry_run"
+  },
+  {
+   "item": "21.4.2",
+   "title": "Switch Learning and Forwarding",
+   "module": 21,
+   "type": "INTERACTIVE",
+   "components": [
+    "tabs-view"
+   ],
+   "unit_complete": false,
+   "status": "dry_run"
+  },
+  {
+   "item": "21.4.3",
+   "title": "Filtering Frames",
+   "module": 21,
+   "type": "INTERACTIVE",
+   "components": [
+    "tabs-view"
+   ],
+   "unit_complete": false,
+   "status": "dry_run"
+  },
+  {
+   "item": "21.4.4",
+   "title": "Video - MAC Address Tables on Connected Switches",
+   "module": 21,
+   "type": "VIDEO",
+   "components": [
+    "media-view"
+   ],
+   "unit_complete": false,
+   "status": "dry_run"
+  },
+  {
+   "item": "21.4.5",
+   "title": "Video - Send the Frame to the Default Gateway",
+   "module": 21,
+   "type": "VIDEO",
+   "components": [
+    "media-view"
+   ],
+   "unit_complete": false,
+   "status": "dry_run"
+  },
+  {
+   "item": "21.4.6",
+   "title": "Activity - Switch It!",
+   "module": 21,
+   "type": "LESSON",
+   "components": [
+    "switch-it-view",
+    "quicknav-view"
+   ],
+   "unit_complete": false,
+   "status": "dry_run"
+  },
+  {
+   "item": "21.5.1",
+   "title": "What Did I Learn in this Module?",
+   "module": 21,
+   "type": "INTERACTIVE",
+   "components": [
+    "accordion-view"
+   ],
+   "unit_complete": false,
+   "status": "dry_run"
+  },
+  {
+   "item": "21.5.2",
+   "title": "Webster - Reflection",
+   "module": 21,
+   "type": "LESSON",
+   "components": [
+    "text-view",
+    "graphic-view",
+    "blank-view"
+   ],
+   "unit_complete": true,
+   "status": "dry_run"
+  },
+  {
+   "item": "21.5.3",
+   "title": "Ethernet Switching Quiz",
+   "module": 21,
+   "type": "UNKNOWN",
+   "components": [],
+   "unit_complete": null,
+   "status": "unknown"
+  },
+  {
+   "item": "22.0.1",
+   "title": "Webster - Why Should I Take this Module?",
+   "module": 22,
+   "type": "INTRODUCTION",
+   "components": [
+    "text-view",
+    "graphic-view"
+   ],
+   "unit_complete": false,
+   "status": "dry_run"
+  },
+  {
+   "item": "22.0.2",
+   "title": "What Will I Learn in this Module?",
+   "module": 22,
+   "type": "INTRODUCTION",
+   "components": [
+    "table-view",
+    "quicknav-view"
+   ],
+   "unit_complete": true,
+   "status": "dry_run"
+  },
+  {
+   "item": "22.1.1",
+   "title": "Video - Data Encapsulation",
+   "module": 22,
+   "type": "VIDEO",
+   "components": [
+    "media-view"
+   ],
+   "unit_complete": false,
+   "status": "dry_run"
+  },
+  {
+   "item": "22.1.2",
+   "title": "The Network Layer",
+   "module": 22,
+   "type": "INTERACTIVE",
+   "components": [
+    "dynamic-graphic-view",
+    "adobe-animate-view"
+   ],
+   "unit_complete": false,
+   "status": "dry_run"
+  },
+  {
+   "item": "22.1.4",
+   "title": "Characteristics of IP",
+   "module": 22,
+   "type": "LESSON",
+   "components": [
+    "text-view"
+   ],
+   "unit_complete": true,
+   "status": "dry_run"
+  },
+  {
+   "item": "22.1.5",
+   "title": "Connectionless",
+   "module": 22,
+   "type": "LESSON",
+   "components": [
+    "dynamic-graphic-view",
+    "dynamic-graphic-view"
+   ],
+   "unit_complete": false,
+   "status": "dry_run"
+  },
+  {
+   "item": "22.1.6",
+   "title": "Best Effort",
+   "module": 22,
+   "type": "LESSON",
+   "components": [
+    "dynamic-graphic-view"
+   ],
+   "unit_complete": false,
+   "status": "dry_run"
+  },
+  {
+   "item": "22.1.8",
+   "title": "Check Your Understanding - IP Characteristics",
+   "module": 22,
+   "type": "KNOWLEDGE_CHECK",
+   "components": [
+    "mcq-view",
+    "mcq-view",
+    "mcq-view",
+    "mcq-view",
+    "quicknav-view"
+   ],
+   "unit_complete": false,
+   "status": "dry_run"
+  },
+  {
+   "item": "22.2.1",
+   "title": "IPv4 Packet Header",
+   "module": 22,
+   "type": "LESSON",
+   "components": [
+    "text-view"
+   ],
+   "unit_complete": true,
+   "status": "dry_run"
+  },
+  {
+   "item": "22.2.2",
+   "title": "IPv4 Packet Header Fields",
+   "module": 22,
+   "type": "LESSON",
+   "components": [
+    "dynamic-graphic-view",
+    "text-view"
+   ],
+   "unit_complete": false,
+   "status": "dry_run"
+  },
+  {
+   "item": "22.2.3",
+   "title": "Video - Sample IPv4 Headers in Wireshark",
+   "module": 22,
+   "type": "VIDEO",
+   "components": [
+    "media-view",
+    "blank-view"
+   ],
+   "unit_complete": false,
+   "status": "dry_run"
+  },
+  {
+   "item": "22.2.4",
+   "title": "Check Your Understanding - IPv4 Packet",
+   "module": 22,
+   "type": "KNOWLEDGE_CHECK",
+   "components": [
+    "mcq-view",
+    "mcq-view",
+    "mcq-view",
+    "mcq-view",
+    "quicknav-view"
+   ],
+   "unit_complete": false,
+   "status": "dry_run"
+  },
+  {
+   "item": "22.3.1",
+   "title": "Limitations of IPv4",
+   "module": 22,
+   "type": "LESSON",
+   "components": [
+    "text-view"
+   ],
+   "unit_complete": true,
+   "status": "dry_run"
+  },
+  {
+   "item": "22.3.3",
+   "title": "IPv4 Packet Header Fields in the IPv6 Packet Header",
+   "module": 22,
+   "type": "LESSON",
+   "components": [
+    "dynamic-graphic-view",
+    "dynamic-graphic-view"
+   ],
+   "unit_complete": false,
+   "status": "dry_run"
+  },
+  {
+   "item": "22.3.5",
+   "title": "Video - Sample IPv6 Headers in Wireshark",
+   "module": 22,
+   "type": "VIDEO",
+   "components": [
+    "media-view",
+    "blank-view"
+   ],
+   "unit_complete": false,
+   "status": "dry_run"
+  },
+  {
+   "item": "22.3.6",
+   "title": "Check Your Understanding - IPv6 Packet",
+   "module": 22,
+   "type": "KNOWLEDGE_CHECK",
+   "components": [
+    "mcq-view",
+    "mcq-view",
+    "mcq-view",
+    "mcq-view",
+    "quicknav-view"
+   ],
+   "unit_complete": false,
+   "status": "dry_run"
+  },
+  {
+   "item": "22.4.1",
+   "title": "What Did I Learn in this Module?",
+   "module": 22,
+   "type": "INTERACTIVE",
+   "components": [
+    "accordion-view"
+   ],
+   "unit_complete": false,
+   "status": "dry_run"
+  },
+  {
+   "item": "22.4.2",
+   "title": "Webster - Reflection Questions",
+   "module": 22,
+   "type": "LESSON",
+   "components": [
+    "text-view",
+    "graphic-view",
+    "blank-view"
+   ],
+   "unit_complete": true,
+   "status": "dry_run"
+  },
+  {
+   "item": "22.4.3",
+   "title": "Network Layer Quiz",
+   "module": 22,
+   "type": "ASSESSMENT",
+   "components": [
+    "adaptive-start-screen-view",
+    "quicknav-view"
+   ],
+   "unit_complete": false,
+   "status": "dry_run"
+  },
+  {
+   "item": "23.0.1",
+   "title": "Webster - Why Should I Take this Module?",
+   "module": 23,
+   "type": "INTRODUCTION",
+   "components": [
+    "text-view",
+    "graphic-view"
+   ],
+   "unit_complete": false,
+   "status": "dry_run"
+  },
+  {
+   "item": "23.0.2",
+   "title": "What Will I Learn in this Module?",
+   "module": 23,
+   "type": "INTRODUCTION",
+   "components": [
+    "table-view",
+    "quicknav-view"
+   ],
+   "unit_complete": true,
+   "status": "dry_run"
+  },
+  {
+   "item": "23.1.1",
+   "title": "Network and Host Portions",
+   "module": 23,
+   "type": "LESSON",
+   "components": [
+    "dynamic-graphic-view",
+    "text-view"
+   ],
+   "unit_complete": true,
+   "status": "dry_run"
+  },
+  {
+   "item": "23.1.5",
+   "title": "Video - Network, Host and Broadcast Addresses",
+   "module": 23,
+   "type": "VIDEO",
+   "components": [
+    "media-view"
+   ],
+   "unit_complete": false,
+   "status": "dry_run"
+  },
+  {
+   "item": "23.1.6",
+   "title": "Activity - ANDing to Determine the Network Address",
+   "module": 23,
+   "type": "UNKNOWN",
+   "components": [
+    "anding-activity-view"
+   ],
+   "unit_complete": false,
+   "status": "unknown"
+  },
+  {
+   "item": "23.1.7",
+   "title": "Check Your Understanding - IPv4 Address Structure",
+   "module": 23,
+   "type": "KNOWLEDGE_CHECK",
+   "components": [
+    "mcq-view",
+    "mcq-view",
+    "mcq-view",
+    "mcq-view",
+    "mcq-view",
+    "quicknav-view"
+   ],
+   "unit_complete": false,
+   "status": "dry_run"
+  },
+  {
+   "item": "23.2.1",
+   "title": "What Did I Learn in this Module?",
+   "module": 23,
+   "type": "SUMMARY",
+   "components": [
+    "text-view"
+   ],
+   "unit_complete": false,
+   "status": "dry_run"
+  },
+  {
+   "item": "23.2.2",
+   "title": "Webster - Reflection Questions",
+   "module": 23,
+   "type": "LESSON",
+   "components": [
+    "text-view",
+    "graphic-view",
+    "blank-view"
+   ],
+   "unit_complete": false,
+   "status": "dry_run"
+  },
+  {
+   "item": "23.2.3",
+   "title": "IPv4 Address Structure Quiz",
+   "module": 23,
+   "type": "ASSESSMENT",
+   "components": [
+    "adaptive-start-screen-view"
+   ],
+   "unit_complete": false,
+   "status": "dry_run"
+  },
+  {
+   "item": "24.0.1",
+   "title": "Webster - Why Should I Take this Module?",
+   "module": 24,
+   "type": "INTRODUCTION",
+   "components": [
+    "graphic-view",
+    "text-view"
+   ],
+   "unit_complete": false,
+   "status": "dry_run"
+  },
+  {
+   "item": "24.0.2",
+   "title": "What Will I Learn in this Module?",
+   "module": 24,
+   "type": "INTRODUCTION",
+   "components": [
+    "table-view",
+    "quicknav-view"
+   ],
+   "unit_complete": true,
+   "status": "dry_run"
+  },
+  {
+   "item": "24.1.1",
+   "title": "ARP Overview",
+   "module": 24,
+   "type": "UNKNOWN",
+   "components": [],
+   "unit_complete": null,
+   "status": "unknown"
+  },
+  {
+   "item": "24.1.2",
+   "title": "ARP Functions",
+   "module": 24,
+   "status": "error",
+   "error": "Message: javascript error: Cannot read properties of null (reading 'getAttribute')\n  (Session info: chrome=151.0.7922.138)\nStacktrace:\n\tuc_driver!GetHandleVerifier [0x7ff69efcabb5+151b5]\n\tuc_driver!GetHandleVerifier [0x7ff69efcac10+15210]\n\tuc_driver!(No symbol) [0x7ff69eaf5d6d]\n\tuc_driver!(No symbol"
+  },
+  {
+   "item": "24.1.3",
+   "title": "Video - ARP Operation - ARP Request",
+   "module": 24,
+   "type": "VIDEO",
+   "components": [
+    "media-view"
+   ],
+   "unit_complete": false,
+   "status": "dry_run"
+  },
+  {
+   "item": "24.1.4",
+   "title": "Video - ARP Operation - ARP Reply",
+   "module": 24,
+   "type": "VIDEO",
+   "components": [
+    "media-view"
+   ],
+   "unit_complete": false,
+   "status": "dry_run"
+  },
+  {
+   "item": "24.1.5",
+   "title": "Video - ARP Role in Remote Communications",
+   "module": 24,
+   "type": "VIDEO",
+   "components": [
+    "media-view"
+   ],
+   "unit_complete": false,
+   "status": "dry_run"
+  },
+  {
+   "item": "24.1.7",
+   "title": "ARP Tables on Devices",
+   "module": 24,
+   "type": "UNKNOWN",
+   "components": [
+    "commandwindow-view",
+    "commandwindow-view"
+   ],
+   "unit_complete": true,
+   "status": "unknown"
+  },
+  {
+   "item": "24.1.9",
+   "title": "Packet Tracer - Examine the ARP Table",
+   "module": 24,
+   "type": "ASSESSMENT",
+   "components": [
+    "pagetracer-view"
+   ],
+   "unit_complete": false,
+   "status": "dry_run"
+  },
+  {
+   "item": "24.1.10",
+   "title": "Lab - View ARP Traffic in Wireshark",
+   "module": 24,
+   "type": "LAB",
+   "components": [
+    "pagetracer-view"
+   ],
+   "unit_complete": false,
+   "status": "dry_run"
+  },
+  {
+   "item": "24.1.11",
+   "title": "Check Your Understanding - ARP",
+   "module": 24,
+   "type": "KNOWLEDGE_CHECK",
+   "components": [
+    "mcq-view",
+    "mcq-view",
+    "mcq-view",
+    "mcq-view",
+    "mcq-view",
+    "quicknav-view"
+   ],
+   "unit_complete": false,
+   "status": "dry_run"
+  },
+  {
+   "item": "24.2.1",
+   "title": "What Did I Learn in this Module?",
+   "module": 24,
+   "type": "SUMMARY",
+   "components": [
+    "text-view"
+   ],
+   "unit_complete": false,
+   "status": "dry_run"
+  },
+  {
+   "item": "24.2.2",
+   "title": "Webster - Reflection Questions",
+   "module": 24,
+   "type": "LESSON",
+   "components": [
+    "text-view",
+    "graphic-view",
+    "blank-view"
+   ],
+   "unit_complete": false,
+   "status": "dry_run"
+  },
+  {
+   "item": "24.2.3",
+   "title": "Address Resolution Quiz",
+   "module": 24,
+   "type": "ASSESSMENT",
+   "components": [
+    "adaptive-start-screen-view"
+   ],
+   "unit_complete": false,
+   "status": "dry_run"
+  },
+  {
+   "item": "25.0.1",
+   "title": "Webster - Why Should I Take this Module?",
+   "module": 25,
+   "type": "INTRODUCTION",
+   "components": [
+    "text-view",
+    "graphic-view"
+   ],
+   "unit_complete": false,
+   "status": "dry_run"
+  },
+  {
+   "item": "25.0.2",
+   "title": "What Will I Learn in this Module?",
+   "module": 25,
+   "type": "INTRODUCTION",
+   "components": [
+    "table-view",
+    "quicknav-view"
+   ],
+   "unit_complete": true,
+   "status": "dry_run"
+  },
+  {
+   "item": "25.1.1",
+   "title": "Video - Domain Name System",
+   "module": 25,
+   "type": "VIDEO",
+   "components": [
+    "media-view"
+   ],
+   "unit_complete": false,
+   "status": "dry_run"
+  },
+  {
+   "item": "25.1.2",
+   "title": "Domain Name System",
+   "module": 25,
+   "type": "INTERACTIVE",
+   "components": [
+    "tabs-view"
+   ],
+   "unit_complete": false,
+   "status": "dry_run"
+  },
+  {
+   "item": "25.1.7",
+   "title": "Check Your Understanding - DNS Services",
+   "module": 25,
+   "type": "KNOWLEDGE_CHECK",
+   "components": [
+    "mcq-view",
+    "mcq-view",
+    "mcq-view",
+    "mcq-view"
+   ],
+   "unit_complete": false,
+   "status": "dry_run"
+  },
+  {
+   "item": "25.1.8",
+   "title": "Lab - Observe DNS Resolution",
+   "module": 25,
+   "type": "LAB",
+   "components": [
+    "pagetracer-view",
+    "quicknav-view"
+   ],
+   "unit_complete": false,
+   "status": "dry_run"
+  },
+  {
+   "item": "25.2.1",
+   "title": "Dynamic Host Configuration Protocol",
+   "module": 25,
+   "type": "LESSON",
+   "components": [
+    "dynamic-graphic-view",
+    "text-view"
+   ],
+   "unit_complete": true,
+   "status": "dry_run"
+  },
+  {
+   "item": "25.2.2",
+   "title": "Video - DHCP Operation in a Home Router",
+   "module": 25,
+   "type": "VIDEO",
+   "components": [
+    "media-view"
+   ],
+   "unit_complete": false,
+   "status": "dry_run"
+  },
+  {
+   "item": "25.2.4",
+   "title": "Check Your Understanding - DHCP Services",
+   "module": 25,
+   "type": "KNOWLEDGE_CHECK",
+   "components": [
+    "mcq-view",
+    "mcq-view",
+    "mcq-view",
+    "quicknav-view"
+   ],
+   "unit_complete": false,
+   "status": "dry_run"
+  },
+  {
+   "item": "25.3.1",
+   "title": "What Did I Learn in this Module?",
+   "module": 25,
+   "type": "SUMMARY",
+   "components": [
+    "text-view"
+   ],
+   "unit_complete": false,
+   "status": "dry_run"
+  },
+  {
+   "item": "25.3.2",
+   "title": "Webster - Reflection Questions",
+   "module": 25,
+   "type": "LESSON",
+   "components": [
+    "text-view",
+    "graphic-view",
+    "blank-view"
+   ],
+   "unit_complete": false,
+   "status": "dry_run"
+  },
+  {
+   "item": "25.3.3",
+   "title": "IP Addressing Services Quiz",
+   "module": 25,
+   "type": "ASSESSMENT",
+   "components": [
+    "adaptive-start-screen-view"
+   ],
+   "unit_complete": false,
+   "status": "dry_run"
+  },
+  {
+   "item": "26.0.1",
+   "title": "Webster - Why Should I Take this Module?",
+   "module": 26,
+   "type": "INTRODUCTION",
+   "components": [
+    "text-view",
+    "graphic-view"
+   ],
+   "unit_complete": false,
+   "status": "dry_run"
+  },
+  {
+   "item": "26.0.2",
+   "title": "What Will I Learn in this Module?",
+   "module": 26,
+   "type": "INTRODUCTION",
+   "components": [
+    "table-view",
+    "quicknav-view"
+   ],
+   "unit_complete": false,
+   "status": "dry_run"
+  },
+  {
+   "item": "26.1.1",
+   "title": "Role of the Transport Layer",
+   "module": 26,
+   "type": "LESSON",
+   "components": [
+    "dynamic-graphic-view",
+    "text-view"
+   ],
+   "unit_complete": true,
+   "status": "dry_run"
+  },
+  {
+   "item": "26.1.2",
+   "title": "Transport Layer Responsibilities",
+   "module": 26,
+   "type": "INTERACTIVE",
+   "components": [
+    "tabs-view"
+   ],
+   "unit_complete": false,
+   "status": "dry_run"
+  },
+  {
+   "item": "26.1.4",
+   "title": "Transmission Control Protocol (TCP)",
+   "module": 26,
+   "type": "INTERACTIVE",
+   "components": [
+    "adobe-animate-view"
+   ],
+   "unit_complete": false,
+   "status": "dry_run"
+  },
+  {
+   "item": "26.1.5",
+   "title": "User Datagram Protocol (UDP)",
+   "module": 26,
+   "type": "INTERACTIVE",
+   "components": [
+    "adobe-animate-view"
+   ],
+   "unit_complete": false,
+   "status": "dry_run"
+  },
+  {
+   "item": "26.1.7",
+   "title": "Check Your Understanding - Transportation of Data",
+   "module": 26,
+   "type": "KNOWLEDGE_CHECK",
+   "components": [
+    "mcq-view",
+    "mcq-view",
+    "mcq-view",
+    "mcq-view",
+    "quicknav-view"
+   ],
+   "unit_complete": false,
+   "status": "dry_run"
+  },
+  {
+   "item": "26.2.1",
+   "title": "TCP Features",
+   "module": 26,
+   "type": "LESSON",
+   "components": [
+    "text-view"
+   ],
+   "unit_complete": true,
+   "status": "dry_run"
+  },
+  {
+   "item": "26.2.5",
+   "title": "Check Your Understanding - TCP Overview",
+   "module": 26,
+   "type": "KNOWLEDGE_CHECK",
+   "components": [
+    "mcq-view",
+    "mcq-view",
+    "mcq-view",
+    "quicknav-view"
+   ],
+   "unit_complete": false,
+   "status": "dry_run"
+  },
+  {
+   "item": "26.3.1",
+   "title": "UDP Features",
+   "module": 26,
+   "type": "LESSON",
+   "components": [
+    "text-view"
+   ],
+   "unit_complete": true,
+   "status": "dry_run"
+  },
+  {
+   "item": "26.3.5",
+   "title": "Check Your Understanding - UDP Overview",
+   "module": 26,
+   "type": "KNOWLEDGE_CHECK",
+   "components": [
+    "mcq-view",
+    "mcq-view",
+    "mcq-view",
+    "mcq-view",
+    "quicknav-view"
+   ],
+   "unit_complete": false,
+   "status": "dry_run"
+  },
+  {
+   "item": "26.4.1",
+   "title": "Multiple Separate Communications",
+   "module": 26,
+   "type": "LESSON",
+   "components": [
+    "dynamic-graphic-view",
+    "text-view"
+   ],
+   "unit_complete": true,
+   "status": "dry_run"
+  },
+  {
+   "item": "26.4.5",
+   "title": "Check Your Understanding - Port Numbers",
+   "module": 26,
+   "type": "KNOWLEDGE_CHECK",
+   "components": [
+    "mcq-view",
+    "mcq-view",
+    "mcq-view",
+    "quicknav-view"
+   ],
+   "unit_complete": false,
+   "status": "dry_run"
+  },
+  {
+   "item": "26.5.1",
+   "title": "TCP Server Processes",
+   "module": 26,
+   "type": "INTERACTIVE",
+   "components": [
+    "tabs-view"
+   ],
+   "unit_complete": false,
+   "status": "dry_run"
+  },
+  {
+   "item": "26.5.2",
+   "title": "TCP Connection Establishment",
+   "module": 26,
+   "type": "INTERACTIVE",
+   "components": [
+    "tabs-view",
+    "text-view"
+   ],
+   "unit_complete": false,
+   "status": "dry_run"
+  },
+  {
+   "item": "26.5.3",
+   "title": "Session Termination",
+   "module": 26,
+   "type": "INTERACTIVE",
+   "components": [
+    "tabs-view",
+    "text-view"
+   ],
+   "unit_complete": false,
+   "status": "dry_run"
+  },
+  {
+   "item": "26.5.5",
+   "title": "Video - TCP 3-Way Handshake",
+   "module": 26,
+   "type": "VIDEO",
+   "components": [
+    "media-view"
+   ],
+   "unit_complete": false,
+   "status": "dry_run"
+  },
+  {
+   "item": "26.5.6",
+   "title": "Check Your Understanding - TCP Communication Process",
+   "module": 26,
+   "type": "KNOWLEDGE_CHECK",
+   "components": [
+    "mcq-view",
+    "mcq-view",
+    "mcq-view",
+    "quicknav-view"
+   ],
+   "unit_complete": false,
+   "status": "dry_run"
+  },
+  {
+   "item": "26.6.1",
+   "title": "TCP Reliability - Guaranteed and Ordered Delivery",
+   "module": 26,
+   "type": "LESSON",
+   "components": [
+    "dynamic-graphic-view",
+    "text-view"
+   ],
+   "unit_complete": true,
+   "status": "dry_run"
+  },
+  {
+   "item": "26.6.2",
+   "title": "Video - TCP Reliability - Sequence Numbers and Acknowledgments",
+   "module": 26,
+   "type": "VIDEO",
+   "components": [
+    "media-view"
+   ],
+   "unit_complete": false,
+   "status": "dry_run"
+  },
+  {
+   "item": "26.6.4",
+   "title": "Video - TCP Reliability - Data Loss and Retransmission",
+   "module": 26,
+   "type": "VIDEO",
+   "components": [
+    "media-view",
+    "blank-view"
+   ],
+   "unit_complete": false,
+   "status": "dry_run"
+  },
+  {
+   "item": "26.6.8",
+   "title": "Check Your Understanding - Reliability and Flow Control",
+   "module": 26,
+   "type": "KNOWLEDGE_CHECK",
+   "components": [
+    "mcq-view",
+    "mcq-view",
+    "mcq-view",
+    "quicknav-view"
+   ],
+   "unit_complete": false,
+   "status": "dry_run"
+  },
+  {
+   "item": "26.7.1",
+   "title": "UDP Low Overhead versus Reliability",
+   "module": 26,
+   "type": "LESSON",
+   "components": [
+    "dynamic-graphic-view"
+   ],
+   "unit_complete": true,
+   "status": "dry_run"
+  },
+  {
+   "item": "26.7.4",
+   "title": "UDP Client Processes",
+   "module": 26,
+   "type": "INTERACTIVE",
+   "components": [
+    "tabs-view"
+   ],
+   "unit_complete": false,
+   "status": "dry_run"
+  },
+  {
+   "item": "26.7.5",
+   "title": "Check Your Understanding - UDP Communication",
+   "module": 26,
+   "type": "KNOWLEDGE_CHECK",
+   "components": [
+    "mcq-view",
+    "mcq-view",
+    "mcq-view",
+    "quicknav-view"
+   ],
+   "unit_complete": false,
+   "status": "dry_run"
+  },
+  {
+   "item": "26.8.1",
+   "title": "Packet Tracer - TCP and UDP Communications",
+   "module": 26,
+   "type": "LAB",
+   "components": [
+    "pagetracer-view"
+   ],
+   "unit_complete": false,
+   "status": "dry_run"
+  },
+  {
+   "item": "26.8.2",
+   "title": "What Did I Learn in this Module?",
+   "module": 26,
+   "type": "INTERACTIVE",
+   "components": [
+    "accordion-view"
+   ],
+   "unit_complete": false,
+   "status": "dry_run"
+  },
+  {
+   "item": "26.8.3",
+   "title": "Webster - Reflection Questions",
+   "module": 26,
+   "type": "LESSON",
+   "components": [
+    "text-view",
+    "graphic-view",
+    "blank-view"
+   ],
+   "unit_complete": false,
+   "status": "dry_run"
+  },
+  {
+   "item": "26.8.4",
+   "title": "Transport Layer Quiz",
+   "module": 26,
+   "type": "ASSESSMENT",
+   "components": [
+    "adaptive-start-screen-view"
+   ],
+   "unit_complete": false,
+   "status": "dry_run"
+  },
+  {
+   "item": "27.0.1",
+   "title": "Webster - Why Should I Take this Module?",
+   "module": 27,
+   "type": "INTRODUCTION",
+   "components": [
+    "text-view",
+    "graphic-view"
+   ],
+   "unit_complete": false,
+   "status": "dry_run"
+  },
+  {
+   "item": "27.0.2",
+   "title": "What Will I Learn in this Module?",
+   "module": 27,
+   "type": "INTRODUCTION",
+   "components": [
+    "table-view",
+    "quicknav-view"
+   ],
+   "unit_complete": true,
+   "status": "dry_run"
+  },
+  {
+   "item": "27.1.1",
+   "title": "The Cisco IOS Command Line Interface",
+   "module": 27,
+   "status": "error",
+   "error": "Message: stale element reference: stale element not found in the current frame\n  (Session info: chrome=151.0.7922.138); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#staleelementreferenceexception\nStacktrace:\n\tuc_driver!GetHand"
+  },
+  {
+   "item": "27.1.2",
+   "title": "Primary Command Modes",
+   "module": 27,
+   "type": "LESSON",
+   "components": [
+    "text-view",
+    "table-view"
+   ],
+   "unit_complete": true,
+   "status": "dry_run"
+  },
+  {
+   "item": "27.1.3",
+   "title": "Video - IOS CLI Primary Command Modes",
+   "module": 27,
+   "type": "VIDEO",
+   "components": [
+    "media-view",
+    "blank-view"
+   ],
+   "unit_complete": false,
+   "status": "dry_run"
+  },
+  {
+   "item": "27.1.4",
+   "title": "Video - Navigate Between IOS Modes",
+   "module": 27,
+   "type": "VIDEO",
+   "components": [
+    "media-view"
+   ],
+   "unit_complete": false,
+   "status": "dry_run"
+  },
+  {
+   "item": "27.1.7",
+   "title": "Check Your Understanding - IOS Navigation",
+   "module": 27,
+   "type": "KNOWLEDGE_CHECK",
+   "components": [
+    "mcq-view",
+    "mcq-view",
+    "mcq-view",
+    "mcq-view",
+    "quicknav-view"
+   ],
+   "unit_complete": false,
+   "status": "dry_run"
+  },
+  {
+   "item": "27.2.1",
+   "title": "Basic IOS Command Structure",
+   "module": 27,
+   "type": "LESSON",
+   "components": [
+    "text-view",
+    "dynamic-graphic-view",
+    "text-view"
+   ],
+   "unit_complete": true,
+   "status": "dry_run"
+  },
+  {
+   "item": "27.2.2",
+   "title": "IOS Command Syntax",
+   "module": 27,
+   "type": "LESSON",
+   "components": [
+    "text-view",
+    "table-view",
+    "text-view",
+    "commandwindow-view",
+    "text-view",
+    "blank-view"
+   ],
+   "unit_complete": true,
+   "status": "dry_run"
+  },
+  {
+   "item": "27.2.3",
+   "title": "Video - Context-Sensitive Help and Command Syntax Check",
+   "module": 27,
+   "type": "VIDEO",
+   "components": [
+    "media-view"
+   ],
+   "unit_complete": false,
+   "status": "dry_run"
+  },
+  {
+   "item": "27.2.4",
+   "title": "Hotkeys and Shortcuts",
+   "module": 27,
+   "type": "LESSON",
+   "components": [
+    "text-view",
+    "table-view",
+    "table-view",
+    "table-view"
+   ],
+   "unit_complete": true,
+   "status": "dry_run"
+  },
+  {
+   "item": "27.2.5",
+   "title": "Video - Hot Keys and Shortcuts",
+   "module": 27,
+   "type": "VIDEO",
+   "components": [
+    "media-view"
+   ],
+   "unit_complete": false,
+   "status": "dry_run"
+  },
+  {
+   "item": "27.2.6",
+   "title": "Packet Tracer - Navigate the IOS",
+   "module": 27,
+   "type": "LAB",
+   "components": [
+    "pagetracer-view",
+    "quicknav-view"
+   ],
+   "unit_complete": false,
+   "status": "dry_run"
+  },
+  {
+   "item": "27.3.1",
+   "title": "Video - Cisco IOS Show Commands",
+   "module": 27,
+   "type": "VIDEO",
+   "components": [
+    "media-view",
+    "blank-view"
+   ],
+   "unit_complete": false,
+   "status": "dry_run"
+  },
+  {
+   "item": "27.3.2",
+   "title": "Show Commands",
+   "module": 27,
+   "type": "INTERACTIVE",
+   "components": [
+    "table-view",
+    "accordion-view"
+   ],
+   "unit_complete": false,
+   "status": "dry_run"
+  },
+  {
+   "item": "27.3.3",
+   "title": "Packet Tracer - Use Cisco IOS Show Commands",
+   "module": 27,
+   "type": "LAB",
+   "components": [
+    "pagetracer-view",
+    "quicknav-view"
+   ],
+   "unit_complete": false,
+   "status": "dry_run"
+  },
+  {
+   "item": "27.4.1",
+   "title": "What Did I Learn in this Module?",
+   "module": 27,
+   "type": "INTERACTIVE",
+   "components": [
+    "accordion-view"
+   ],
+   "unit_complete": false,
+   "status": "dry_run"
+  },
+  {
+   "item": "27.4.2",
+   "title": "Webster - Reflection Questions",
+   "module": 27,
+   "type": "LESSON",
+   "components": [
+    "text-view",
+    "graphic-view",
+    "blank-view"
+   ],
+   "unit_complete": false,
+   "status": "dry_run"
+  },
+  {
+   "item": "27.4.3",
+   "title": "The Cisco IOS Command Line Quiz",
+   "module": 27,
+   "type": "ASSESSMENT",
+   "components": [
+    "adaptive-start-screen-view"
+   ],
+   "unit_complete": false,
+   "status": "dry_run"
+  },
+  {
+   "item": "28.0.1",
+   "title": "Webster - Why Should I Take this Module?",
+   "module": 28,
+   "type": "INTRODUCTION",
+   "components": [
+    "text-view",
+    "graphic-view"
+   ],
+   "unit_complete": false,
+   "status": "dry_run"
+  },
+  {
+   "item": "28.0.2",
+   "title": "What Will I Learn in this Module?",
+   "module": 28,
+   "type": "INTRODUCTION",
+   "components": [
+    "table-view",
+    "quicknav-view"
+   ],
+   "unit_complete": false,
+   "status": "dry_run"
+  },
+  {
+   "item": "28.1.1",
+   "title": "Basic Switch Configuration Steps",
+   "module": 28,
+   "type": "INTERACTIVE",
+   "components": [
+    "accordion-view"
+   ],
+   "unit_complete": false,
+   "status": "dry_run"
+  },
+  {
+   "item": "28.1.2",
+   "title": "Switch Virtual Interface Configuration",
+   "module": 28,
+   "type": "UNKNOWN",
+   "components": [
+    "commandwindow-view"
+   ],
+   "unit_complete": false,
+   "status": "unknown"
+  },
+  {
+   "item": "28.1.3",
+   "title": "Syntax Checker - Configure a Switch Virtual Interface",
+   "module": 28,
+   "type": "UNKNOWN",
+   "components": [],
+   "unit_complete": true,
+   "status": "unknown"
+  },
+  {
+   "item": "28.1.4",
+   "title": "Packet Tracer - Implement Basic Connectivity",
+   "module": 28,
+   "type": "LAB",
+   "components": [
+    "pagetracer-view",
+    "quicknav-view"
+   ],
+   "unit_complete": false,
+   "status": "dry_run"
+  },
+  {
+   "item": "28.2.1",
+   "title": "Basic Router Configuration Steps",
+   "module": 28,
+   "type": "UNKNOWN",
+   "components": [
+    "commandwindow-view",
+    "commandwindow-view",
+    "commandwindow-view",
+    "commandwindow-view",
+    "commandwindow-view",
+    "commandwindow-view",
+    "commandwindow-view"
+   ],
+   "unit_complete": true,
+   "status": "unknown"
+  },
+  {
+   "item": "28.2.2",
+   "title": "Basic Router Configuration Example",
+   "module": 28,
+   "type": "ASSESSMENT",
+   "components": [
+    "commandwindow-view",
+    "text-view",
+    "commandwindow-view",
+    "commandwindow-view",
+    "commandwindow-view",
+    "blank-view"
+   ],
+   "unit_complete": true,
+   "status": "dry_run"
+  },
+  {
+   "item": "28.2.3",
+   "title": "Syntax Checker - Configure Initial Router Settings",
+   "module": 28,
+   "type": "UNKNOWN",
+   "components": [],
+   "unit_complete": false,
+   "status": "unknown"
+  },
+  {
+   "item": "28.2.4",
+   "title": "Packet Tracer - Configure Initial Router Settings",
+   "module": 28,
+   "type": "LAB",
+   "components": [
+    "pagetracer-view",
+    "quicknav-view"
+   ],
+   "unit_complete": false,
+   "status": "dry_run"
+  },
+  {
+   "item": "28.3.1",
+   "title": "Password Recommendations",
+   "module": 28,
+   "type": "LESSON",
+   "components": [
+    "table-view",
+    "table-view",
+    "text-view"
+   ],
+   "unit_complete": false,
+   "status": "dry_run"
+  },
+  {
+   "item": "28.3.2",
+   "title": "Secure Remote Access",
+   "module": 28,
+   "type": "LESSON",
+   "components": [
+    "commandwindow-view",
+    "commandwindow-view",
+    "commandwindow-view",
+    "text-view"
+   ],
+   "unit_complete": true,
+   "status": "dry_run"
+  },
+  {
+   "item": "28.3.3",
+   "title": "Enable SSH",
+   "module": 28,
+   "type": "UNKNOWN",
+   "components": [
+    "commandwindow-view"
+   ],
+   "unit_complete": false,
+   "status": "unknown"
+  },
+  {
+   "item": "28.3.4",
+   "title": "Syntax Checker - Configure SSH",
+   "module": 28,
+   "type": "LESSON",
+   "components": [
+    "blank-view"
+   ],
+   "unit_complete": false,
+   "status": "dry_run"
+  },
+  {
+   "item": "28.3.5",
+   "title": "Verify SSH",
+   "module": 28,
+   "type": "LESSON",
+   "components": [
+    "graphic-view",
+    "text-view",
+    "commandwindow-view"
+   ],
+   "unit_complete": false,
+   "status": "dry_run"
+  },
+  {
+   "item": "28.3.6",
+   "title": "Packet Tracer - Configure SSH",
+   "module": 28,
+   "type": "LAB",
+   "components": [
+    "pagetracer-view",
+    "quicknav-view"
+   ],
+   "unit_complete": false,
+   "status": "dry_run"
+  },
+  {
+   "item": "28.4.1",
+   "title": "Default Gateway on a Host",
+   "module": 28,
+   "type": "LESSON",
+   "components": [
+    "graphic-view",
+    "graphic-view",
+    "text-view"
+   ],
+   "unit_complete": false,
+   "status": "dry_run"
+  },
+  {
+   "item": "28.4.2",
+   "title": "Default Gateway on a Switch",
+   "module": 28,
+   "type": "LESSON",
+   "components": [
+    "dynamic-graphic-view",
+    "text-view"
+   ],
+   "unit_complete": false,
+   "status": "dry_run"
+  },
+  {
+   "item": "28.4.3",
+   "title": "Syntax Checker - Configure the Default Gateway",
+   "module": 28,
+   "type": "UNKNOWN",
+   "components": [],
+   "unit_complete": false,
+   "status": "unknown"
+  },
+  {
+   "item": "28.4.4",
+   "title": "Packet Tracer Tutored Activity - Build a Switch and Router Network",
+   "module": 28,
+   "type": "LAB",
+   "components": [
+    "packettracer-view"
+   ],
+   "unit_complete": false,
+   "status": "dry_run"
+  },
+  {
+   "item": "28.4.5",
+   "title": "Packet Tracer - Troubleshoot Default Gateway Issues",
+   "module": 28,
+   "type": "LAB",
+   "components": [
+    "pagetracer-view",
+    "quicknav-view"
+   ],
+   "unit_complete": false,
+   "status": "dry_run"
+  },
+  {
+   "item": "28.5.1",
+   "title": "What Did I Learn in this Module?",
+   "module": 28,
+   "type": "INTERACTIVE",
+   "components": [
+    "accordion-view"
+   ],
+   "unit_complete": false,
+   "status": "dry_run"
+  },
+  {
+   "item": "28.5.2",
+   "title": "Webster - Reflection Questions",
+   "module": 28,
+   "type": "LESSON",
+   "components": [
+    "text-view",
+    "graphic-view",
+    "blank-view"
+   ],
+   "unit_complete": true,
+   "status": "dry_run"
+  },
+  {
+   "item": "28.5.3",
+   "title": "Build a Small Cisco Network Quiz",
+   "module": 28,
+   "type": "ASSESSMENT",
+   "components": [
+    "adaptive-start-screen-view",
+    "quicknav-view"
+   ],
+   "unit_complete": false,
+   "status": "dry_run"
+  },
+  {
+   "item": "29.0.1",
+   "title": "Webster - Why Should I Take this Module?",
+   "module": 29,
+   "type": "INTRODUCTION",
+   "components": [
+    "text-view",
+    "graphic-view"
+   ],
+   "unit_complete": false,
+   "status": "dry_run"
+  },
+  {
+   "item": "29.0.2",
+   "title": "What Will I Learn in this Module?",
+   "module": 29,
+   "type": "INTRODUCTION",
+   "components": [
+    "table-view",
+    "quicknav-view"
+   ],
+   "unit_complete": true,
+   "status": "dry_run"
+  },
+  {
+   "item": "29.1.1",
+   "title": "ICMPv4 and ICMPv6 Messages",
+   "module": 29,
+   "type": "LESSON",
+   "components": [
+    "text-view"
+   ],
+   "unit_complete": true,
+   "status": "dry_run"
+  },
+  {
+   "item": "29.1.2",
+   "title": "Host Reachability",
+   "module": 29,
+   "type": "INTERACTIVE",
+   "components": [
+    "adobe-animate-view"
+   ],
+   "unit_complete": false,
+   "status": "dry_run"
+  },
+  {
+   "item": "29.1.5",
+   "title": "ICMPv6 Messages",
+   "module": 29,
+   "type": "INTERACTIVE",
+   "components": [
+    "tabs-view"
+   ],
+   "unit_complete": false,
+   "status": "dry_run"
+  },
+  {
+   "item": "29.1.6",
+   "title": "Check Your Understanding - ICMP Messages",
+   "module": 29,
+   "type": "KNOWLEDGE_CHECK",
+   "components": [
+    "mcq-view",
+    "mcq-view",
+    "quicknav-view"
+   ],
+   "unit_complete": false,
+   "status": "dry_run"
+  },
+  {
+   "item": "29.2.1",
+   "title": "Ping - Test Connectivity",
+   "module": 29,
+   "type": "LESSON",
+   "components": [
+    "text-view"
+   ],
+   "unit_complete": false,
+   "status": "dry_run"
+  },
+  {
+   "item": "29.2.2",
+   "title": "Ping the Loopback",
+   "module": 29,
+   "type": "LESSON",
+   "components": [
+    "dynamic-graphic-view"
+   ],
+   "unit_complete": false,
+   "status": "dry_run"
+  },
+  {
+   "item": "29.2.3",
+   "title": "Ping the Default Gateway",
+   "module": 29,
+   "type": "LESSON",
+   "components": [
+    "dynamic-graphic-view"
+   ],
+   "unit_complete": false,
+   "status": "dry_run"
+  },
+  {
+   "item": "29.2.4",
+   "title": "Ping a Remote Host",
+   "module": 29,
+   "type": "INTERACTIVE",
+   "components": [
+    "adobe-animate-view"
+   ],
+   "unit_complete": false,
+   "status": "dry_run"
+  },
+  {
+   "item": "29.2.5",
+   "title": "Traceroute - Test the Path",
+   "module": 29,
+   "type": "INTERACTIVE",
+   "components": [
+    "adobe-animate-view",
+    "text-view"
+   ],
+   "unit_complete": false,
+   "status": "dry_run"
+  },
+  {
+   "item": "29.2.6",
+   "title": "Packet Tracer - Verify IPv4 and IPv6 Addressing",
+   "module": 29,
+   "type": "LAB",
+   "components": [
+    "pagetracer-view"
+   ],
+   "unit_complete": false,
+   "status": "dry_run"
+  },
+  {
+   "item": "29.2.7",
+   "title": "Packet Tracer - Use Ping and Traceroute to Test Network Connectivity",
+   "module": 29,
+   "type": "LAB",
+   "components": [
+    "pagetracer-view",
+    "quicknav-view"
+   ],
+   "unit_complete": false,
+   "status": "dry_run"
+  },
+  {
+   "item": "29.3.1",
+   "title": "Packet Tracer - Use ICMP to Test and Correct Network Connectivity",
+   "module": 29,
+   "type": "LAB",
+   "components": [
+    "pagetracer-view"
+   ],
+   "unit_complete": false,
+   "status": "dry_run"
+  },
+  {
+   "item": "29.3.2",
+   "title": "What Did I Learn in this Module?",
+   "module": 29,
+   "type": "INTERACTIVE",
+   "components": [
+    "accordion-view"
+   ],
+   "unit_complete": false,
+   "status": "dry_run"
+  },
+  {
+   "item": "29.3.3",
+   "title": "Webster - Reflection Questions",
+   "module": 29,
+   "type": "LESSON",
+   "components": [
+    "text-view",
+    "graphic-view",
+    "blank-view"
+   ],
+   "unit_complete": false,
+   "status": "dry_run"
+  },
+  {
+   "item": "29.3.4",
+   "title": "ICMP Quiz",
+   "module": 29,
+   "type": "ASSESSMENT",
+   "components": [
+    "adaptive-start-screen-view"
+   ],
+   "unit_complete": false,
+   "status": "dry_run"
+  },
+  {
+   "item": "30.0.1",
+   "title": "Webster - Why Should I Take This Module?",
+   "module": 30,
+   "type": "INTRODUCTION",
+   "components": [
+    "text-view",
+    "graphic-view"
+   ],
+   "unit_complete": false,
+   "status": "dry_run"
+  },
+  {
+   "item": "30.0.2",
+   "title": "What Will I Learn in This Module?",
+   "module": 30,
+   "type": "INTRODUCTION",
+   "components": [
+    "table-view",
+    "quicknav-view"
+   ],
+   "unit_complete": false,
+   "status": "dry_run"
+  },
+  {
+   "item": "30.1.1",
+   "title": "The Physical Connection",
+   "module": 30,
+   "type": "LESSON",
+   "components": [
+    "graphic-view",
+    "text-view",
+    "graphic-view",
+    "graphic-view",
+    "text-view"
+   ],
+   "unit_complete": true,
+   "status": "dry_run"
+  },
+  {
+   "item": "30.1.2",
+   "title": "The Physical Layer",
+   "module": 30,
+   "type": "INTERACTIVE",
+   "components": [
+    "adobe-animate-view"
+   ],
+   "unit_complete": false,
+   "status": "dry_run"
+  },
+  {
+   "item": "30.1.3",
+   "title": "Check Your Understanding - Purpose of the Physical Layer",
+   "module": 30,
+   "type": "KNOWLEDGE_CHECK",
+   "components": [
+    "mcq-view",
+    "mcq-view",
+    "mcq-view",
+    "mcq-view",
+    "quicknav-view"
+   ],
+   "unit_complete": false,
+   "status": "dry_run"
+  },
+  {
+   "item": "30.2.1",
+   "title": "Physical Layer Standards",
+   "module": 30,
+   "type": "LESSON",
+   "components": [
+    "dynamic-graphic-view"
+   ],
+   "unit_complete": true,
+   "status": "dry_run"
+  },
+  {
+   "item": "30.2.4",
+   "title": "Signaling",
+   "module": 30,
+   "type": "INTERACTIVE",
+   "components": [
+    "tabs-view"
+   ],
+   "unit_complete": false,
+   "status": "dry_run"
+  },
+  {
+   "item": "30.2.5",
+   "title": "Video - Bandwidth",
+   "module": 30,
+   "type": "VIDEO",
+   "components": [
+    "media-view"
+   ],
+   "unit_complete": false,
+   "status": "dry_run"
+  },
+  {
+   "item": "30.2.8",
+   "title": "Check Your Understanding - Physical Layer Characteristics",
+   "module": 30,
+   "type": "KNOWLEDGE_CHECK",
+   "components": [
+    "mcq-view",
+    "mcq-view",
+    "mcq-view",
+    "mcq-view",
+    "mcq-view",
+    "quicknav-view"
+   ],
+   "unit_complete": false,
+   "status": "dry_run"
+  },
+  {
+   "item": "30.3.1",
+   "title": "Characteristics of Copper Cabling",
+   "module": 30,
+   "type": "LESSON",
+   "components": [
+    "dynamic-graphic-view",
+    "text-view"
+   ],
+   "unit_complete": true,
+   "status": "dry_run"
+  },
+  {
+   "item": "30.3.2",
+   "title": "Types of Copper Cabling",
+   "module": 30,
+   "type": "LESSON",
+   "components": [
+    "dynamic-graphic-view"
+   ],
+   "unit_complete": false,
+   "status": "dry_run"
+  },
+  {
+   "item": "30.3.6",
+   "title": "Check Your Understanding - Copper Cabling",
+   "module": 30,
+   "type": "KNOWLEDGE_CHECK",
+   "components": [
+    "mcq-view",
+    "mcq-view",
+    "mcq-view",
+    "mcq-view",
+    "quicknav-view"
+   ],
+   "unit_complete": false,
+   "status": "dry_run"
+  },
+  {
+   "item": "30.4.1",
+   "title": "Properties of UTP Cabling",
+   "module": 30,
+   "type": "LESSON",
+   "components": [
+    "graphic-view"
+   ],
+   "unit_complete": false,
+   "status": "dry_run"
+  },
+  {
+   "item": "30.4.2",
+   "title": "UTP Cabling Standards and Connectors",
+   "module": 30,
+   "type": "LESSON",
+   "components": [
+    "dynamic-graphic-view",
+    "dynamic-graphic-view",
+    "dynamic-graphic-view",
+    "dynamic-graphic-view",
+    "dynamic-graphic-view",
+    "text-view"
+   ],
+   "unit_complete": false,
+   "status": "dry_run"
+  },
+  {
+   "item": "30.4.3",
+   "title": "Straight-through and Crossover UTP Cables",
+   "module": 30,
+   "type": "LESSON",
+   "components": [
+    "dynamic-graphic-view",
+    "table-view"
+   ],
+   "unit_complete": false,
+   "status": "dry_run"
+  },
+  {
+   "item": "30.4.4",
+   "title": "Activity - Cable Pinouts",
+   "module": 30,
+   "type": "LESSON",
+   "components": [
+    "cable-pinout-view",
+    "cable-pinout-view",
+    "quicknav-view"
+   ],
+   "unit_complete": false,
+   "status": "dry_run"
+  },
+  {
+   "item": "30.5.1",
+   "title": "Properties of Fiber-Optic Cabling",
+   "module": 30,
+   "type": "LESSON",
+   "components": [
+    "graphic-view"
+   ],
+   "unit_complete": true,
+   "status": "dry_run"
+  },
+  {
+   "item": "30.5.2",
+   "title": "Types of Fiber Media",
+   "module": 30,
+   "type": "INTERACTIVE",
+   "components": [
+    "tabs-view",
+    "text-view"
+   ],
+   "unit_complete": false,
+   "status": "dry_run"
+  },
+  {
+   "item": "30.5.4",
+   "title": "Fiber-Optic Connectors",
+   "module": 30,
+   "type": "INTERACTIVE",
+   "components": [
+    "tabs-view",
+    "text-view"
+   ],
+   "unit_complete": false,
+   "status": "dry_run"
+  },
+  {
+   "item": "30.5.5",
+   "title": "Fiber Patch Cords",
+   "module": 30,
+   "type": "INTERACTIVE",
+   "components": [
+    "tabs-view",
+    "text-view"
+   ],
+   "unit_complete": false,
+   "status": "dry_run"
+  },
+  {
+   "item": "30.5.7",
+   "title": "Check Your Understanding - Fiber-Optic Cabling",
+   "module": 30,
+   "type": "KNOWLEDGE_CHECK",
+   "components": [
+    "mcq-view",
+    "mcq-view",
+    "mcq-view",
+    "mcq-view",
+    "mcq-view",
+    "mcq-view",
+    "quicknav-view"
+   ],
+   "unit_complete": false,
+   "status": "dry_run"
+  },
+  {
+   "item": "30.6.1",
+   "title": "What Did I Learn in this Module?",
+   "module": 30,
+   "type": "INTERACTIVE",
+   "components": [
+    "accordion-view"
+   ],
+   "unit_complete": false,
+   "status": "dry_run"
+  },
+  {
+   "item": "30.6.2",
+   "title": "Webster - Reflection Questions",
+   "module": 30,
+   "type": "LESSON",
+   "components": [
+    "graphic-view",
+    "text-view",
+    "blank-view"
+   ],
+   "unit_complete": false,
+   "status": "dry_run"
+  },
+  {
+   "item": "30.6.3",
+   "title": "Physical Layer Quiz",
+   "module": 30,
+   "type": "ASSESSMENT",
+   "components": [
+    "adaptive-start-screen-view"
+   ],
+   "unit_complete": false,
+   "status": "dry_run"
+  },
+  {
+   "item": "31.0.1",
+   "title": "Webster - Why Should I Take This Module?",
+   "module": 31,
+   "type": "INTRODUCTION",
+   "components": [
+    "graphic-view",
+    "text-view"
+   ],
+   "unit_complete": false,
+   "status": "dry_run"
+  },
+  {
+   "item": "31.0.2",
+   "title": "What Will I Learn in This Module?",
+   "module": 31,
+   "type": "INTRODUCTION",
+   "components": [
+    "table-view",
+    "quicknav-view"
+   ],
+   "unit_complete": true,
+   "status": "dry_run"
+  },
+  {
+   "item": "31.1.1",
+   "title": "Physical and Logical Topologies",
+   "module": 31,
+   "type": "LESSON",
+   "components": [
+    "dynamic-graphic-view",
+    "dynamic-graphic-view"
+   ],
+   "unit_complete": true,
+   "status": "dry_run"
+  },
+  {
+   "item": "31.1.2",
+   "title": "Video - The Logical Topology",
+   "module": 31,
+   "type": "VIDEO",
+   "components": [
+    "media-view"
+   ],
+   "unit_complete": false,
+   "status": "dry_run"
+  },
+  {
+   "item": "31.1.3",
+   "title": "WAN Topologies",
+   "module": 31,
+   "type": "INTERACTIVE",
+   "components": [
+    "tabs-view",
+    "text-view",
+    "blank-view"
+   ],
+   "unit_complete": false,
+   "status": "dry_run"
+  },
+  {
+   "item": "31.1.6",
+   "title": "Check Your Understanding - Topologies",
+   "module": 31,
+   "type": "KNOWLEDGE_CHECK",
+   "components": [
+    "mcq-view",
+    "mcq-view",
+    "mcq-view",
+    "mcq-view",
+    "quicknav-view"
+   ],
+   "unit_complete": false,
+   "status": "dry_run"
+  },
+  {
+   "item": "31.2.1",
+   "title": "Half and Full Duplex Communication",
+   "module": 31,
+   "type": "INTERACTIVE",
+   "components": [
+    "accordion-view",
+    "text-view"
+   ],
+   "unit_complete": false,
+   "status": "dry_run"
+  },
+  {
+   "item": "31.2.2",
+   "title": "Access Control Methods",
+   "module": 31,
+   "type": "INTERACTIVE",
+   "components": [
+    "accordion-view",
+    "text-view"
+   ],
+   "unit_complete": false,
+   "status": "dry_run"
+  },
+  {
+   "item": "31.2.3",
+   "title": "Contention-Based Access - CSMA/CD",
+   "module": 31,
+   "type": "INTERACTIVE",
+   "components": [
+    "tabs-view"
+   ],
+   "unit_complete": false,
+   "status": "dry_run"
+  },
+  {
+   "item": "31.2.5",
+   "title": "Check Your Understanding - Media Access Control Methods",
+   "module": 31,
+   "type": "KNOWLEDGE_CHECK",
+   "components": [
+    "mcq-view",
+    "mcq-view",
+    "mcq-view",
+    "quicknav-view"
+   ],
+   "unit_complete": false,
+   "status": "dry_run"
+  },
+  {
+   "item": "31.3.1",
+   "title": "What Did I Learn in this Module?",
+   "module": 31,
+   "type": "SUMMARY",
+   "components": [
+    "text-view"
+   ],
+   "unit_complete": false,
+   "status": "dry_run"
+  },
+  {
+   "item": "31.3.2",
+   "title": "Webster - Reflection Questions",
+   "module": 31,
+   "type": "LESSON",
+   "components": [
+    "graphic-view",
+    "text-view",
+    "blank-view"
+   ],
+   "unit_complete": true,
+   "status": "dry_run"
+  },
+  {
+   "item": "31.3.3",
+   "title": "Data Link Layer Quiz",
+   "module": 31,
+   "type": "ASSESSMENT",
+   "components": [
+    "adaptive-start-screen-view"
+   ],
+   "unit_complete": false,
+   "status": "dry_run"
+  },
+  {
+   "item": "32.0.1",
+   "title": "Webster - Why Should I Take This Module?",
+   "module": 32,
+   "type": "INTRODUCTION",
+   "components": [
+    "graphic-view",
+    "text-view"
+   ],
+   "unit_complete": false,
+   "status": "dry_run"
+  },
+  {
+   "item": "32.0.2",
+   "title": "What Will I Learn in This Module?",
+   "module": 32,
+   "type": "INTRODUCTION",
+   "components": [
+    "table-view",
+    "quicknav-view"
+   ],
+   "unit_complete": true,
+   "status": "dry_run"
+  },
+  {
+   "item": "32.1.1",
+   "title": "Host Forwarding Decision",
+   "module": 32,
+   "type": "LESSON",
+   "components": [
+    "dynamic-graphic-view",
+    "text-view"
+   ],
+   "unit_complete": true,
+   "status": "dry_run"
+  },
+  {
+   "item": "32.1.2",
+   "title": "Default Gateway",
+   "module": 32,
+   "type": "LESSON",
+   "components": [
+    "text-view"
+   ],
+   "unit_complete": true,
+   "status": "dry_run"
+  },
+  {
+   "item": "32.1.5",
+   "title": "Check Your Understanding - How a Host Routes",
+   "module": 32,
+   "type": "KNOWLEDGE_CHECK",
+   "components": [
+    "mcq-view",
+    "mcq-view",
+    "mcq-view",
+    "quicknav-view"
+   ],
+   "unit_complete": false,
+   "status": "dry_run"
+  },
+  {
+   "item": "32.2.1",
+   "title": "Router Packet Forwarding Decision",
+   "module": 32,
+   "type": "LESSON",
+   "components": [
+    "dynamic-graphic-view",
+    "table-view"
+   ],
+   "unit_complete": true,
+   "status": "dry_run"
+  },
+  {
+   "item": "32.2.3",
+   "title": "Static Routing",
+   "module": 32,
+   "type": "LESSON",
+   "components": [
+    "dynamic-graphic-view",
+    "dynamic-graphic-view",
+    "text-view"
+   ],
+   "unit_complete": false,
+   "status": "dry_run"
+  },
+  {
+   "item": "32.2.4",
+   "title": "Dynamic Routing",
+   "module": 32,
+   "type": "LESSON",
+   "components": [
+    "graphic-view",
+    "text-view",
+    "dynamic-graphic-view",
+    "text-view"
+   ],
+   "unit_complete": false,
+   "status": "dry_run"
+  },
+  {
+   "item": "32.2.5",
+   "title": "Video - IPv4 Router Routing Tables",
+   "module": 32,
+   "type": "VIDEO",
+   "components": [
+    "media-view"
+   ],
+   "unit_complete": false,
+   "status": "dry_run"
+  },
+  {
+   "item": "32.2.7",
+   "title": "Check Your Understanding - Introduction to Routing",
+   "module": 32,
+   "type": "KNOWLEDGE_CHECK",
+   "components": [
+    "mcq-view",
+    "mcq-view",
+    "mcq-view",
+    "mcq-view",
+    "mcq-view",
+    "quicknav-view"
+   ],
+   "unit_complete": false,
+   "status": "dry_run"
+  },
+  {
+   "item": "32.3.1",
+   "title": "What Did I Learn in This Module?",
+   "module": 32,
+   "type": "SUMMARY",
+   "components": [
+    "text-view"
+   ],
+   "unit_complete": false,
+   "status": "dry_run"
+  },
+  {
+   "item": "32.3.2",
+   "title": "Webster - Reflection Questions",
+   "module": 32,
+   "type": "LESSON",
+   "components": [
+    "graphic-view",
+    "text-view",
+    "blank-view"
+   ],
+   "unit_complete": true,
+   "status": "dry_run"
+  },
+  {
+   "item": "32.3.3",
+   "title": "Routing at the Network Layer Quiz",
+   "module": 32,
+   "type": "ASSESSMENT",
+   "components": [
+    "adaptive-start-screen-view"
+   ],
+   "unit_complete": false,
+   "status": "dry_run"
+  },
+  {
+   "item": "33.0.1",
+   "title": "Webster - Why Should I Take This Module?",
+   "module": 33,
+   "type": "INTRODUCTION",
+   "components": [
+    "text-view",
+    "graphic-view"
+   ],
+   "unit_complete": false,
+   "status": "dry_run"
+  },
+  {
+   "item": "33.0.2",
+   "title": "What Will I Learn in This Module?",
+   "module": 33,
+   "type": "INTRODUCTION",
+   "components": [
+    "table-view",
+    "quicknav-view"
+   ],
+   "unit_complete": false,
+   "status": "dry_run"
+  },
+  {
+   "item": "33.1.1",
+   "title": "Unicast, Multicast, Anycast",
+   "module": 33,
+   "type": "LESSON",
+   "components": [
+    "text-view"
+   ],
+   "unit_complete": true,
+   "status": "dry_run"
+  },
+  {
+   "item": "33.1.3",
+   "title": "Types of IPv6 Unicast Addresses",
+   "module": 33,
+   "type": "LESSON",
+   "components": [
+    "dynamic-graphic-view",
+    "text-view"
+   ],
+   "unit_complete": false,
+   "status": "dry_run"
+  },
+  {
+   "item": "33.1.4",
+   "title": "A Note About the Unique Local Address",
+   "module": 33,
+   "type": "LESSON",
+   "components": [
+    "text-view"
+   ],
+   "unit_complete": true,
+   "status": "dry_run"
+  },
+  {
+   "item": "33.1.8",
+   "title": "Check Your Understanding - IPv6 Address Types",
+   "module": 33,
+   "type": "KNOWLEDGE_CHECK",
+   "components": [
+    "mcq-view",
+    "mcq-view",
+    "mcq-view",
+    "mcq-view",
+    "mcq-view",
+    "quicknav-view"
+   ],
+   "unit_complete": false,
+   "status": "dry_run"
+  },
+  {
+   "item": "33.2.1",
+   "title": "Static GUA Configuration on a Router",
+   "module": 33,
+   "type": "LESSON",
+   "components": [
+    "graphic-view",
+    "commandwindow-view"
+   ],
+   "unit_complete": false,
+   "status": "dry_run"
+  },
+  {
+   "item": "33.2.2",
+   "title": "Static GUA Configuration on a Windows Host",
+   "module": 33,
+   "type": "LESSON",
+   "components": [
+    "dynamic-graphic-view",
+    "text-view"
+   ],
+   "unit_complete": false,
+   "status": "dry_run"
+  },
+  {
+   "item": "33.2.3",
+   "title": "Static Configuration of a Link-Local Unicast Address",
+   "module": 33,
+   "type": "LESSON",
+   "components": [
+    "graphic-view",
+    "commandwindow-view",
+    "text-view"
+   ],
+   "unit_complete": false,
+   "status": "dry_run"
+  },
+  {
+   "item": "33.2.4",
+   "title": "Syntax Checker - GUA and LLA Static Configuration",
+   "module": 33,
+   "type": "LESSON",
+   "components": [
+    "graphic-view",
+    "quicknav-view"
+   ],
+   "unit_complete": true,
+   "status": "dry_run"
+  },
+  {
+   "item": "33.3.1",
+   "title": "Video - RS and RA Messages",
+   "module": 33,
+   "type": "VIDEO",
+   "components": [
+    "media-view"
+   ],
+   "unit_complete": false,
+   "status": "dry_run"
+  },
+  {
+   "item": "33.3.2",
+   "title": "RS and RA Messages",
+   "module": 33,
+   "type": "LESSON",
+   "components": [
+    "dynamic-graphic-view",
+    "text-view"
+   ],
+   "unit_complete": false,
+   "status": "dry_run"
+  },
+  {
+   "item": "33.3.9",
+   "title": "Check Your Understanding - Dynamic Addressing for IPv6 GUAs",
+   "module": 33,
+   "type": "KNOWLEDGE_CHECK",
+   "components": [
+    "mcq-view",
+    "mcq-view",
+    "mcq-view",
+    "mcq-view",
+    "mcq-view",
+    "quicknav-view"
+   ],
+   "unit_complete": false,
+   "status": "dry_run"
+  },
+  {
+   "item": "33.4.1",
+   "title": "Dynamic LLAs",
+   "module": 33,
+   "type": "LESSON",
+   "components": [
+    "dynamic-graphic-view"
+   ],
+   "unit_complete": false,
+   "status": "dry_run"
+  },
+  {
+   "item": "33.4.2",
+   "title": "Dynamic LLAs on Windows",
+   "module": 33,
+   "type": "UNKNOWN",
+   "components": [
+    "commandwindow-view",
+    "commandwindow-view"
+   ],
+   "unit_complete": false,
+   "status": "unknown"
+  },
+  {
+   "item": "33.4.3",
+   "title": "Dynamic LLAs on Cisco Routers",
+   "module": 33,
+   "type": "LESSON",
+   "components": [
+    "commandwindow-view",
+    "blank-view"
+   ],
+   "unit_complete": false,
+   "status": "dry_run"
+  },
+  {
+   "item": "33.4.4",
+   "title": "Verify IPv6 Address Configuration",
+   "module": 33,
+   "type": "INTERACTIVE",
+   "components": [
+    "graphic-view",
+    "accordion-view"
+   ],
+   "unit_complete": true,
+   "status": "dry_run"
+  },
+  {
+   "item": "33.4.5",
+   "title": "Syntax Checker - Verify IPv6 Address Configuration",
+   "module": 33,
+   "type": "LESSON",
+   "components": [
+    "graphic-view"
+   ],
+   "unit_complete": true,
+   "status": "dry_run"
+  },
+  {
+   "item": "33.4.6",
+   "title": "Packet Tracer - Configure IPv6 Addressing",
+   "module": 33,
+   "type": "LAB",
+   "components": [
+    "pagetracer-view",
+    "quicknav-view"
+   ],
+   "unit_complete": false,
+   "status": "dry_run"
+  },
+  {
+   "item": "33.5.1",
+   "title": "Assigned IPv6 Multicast Addresses",
+   "module": 33,
+   "type": "LESSON",
+   "components": [
+    "text-view"
+   ],
+   "unit_complete": true,
+   "status": "dry_run"
+  },
+  {
+   "item": "33.5.2",
+   "title": "Well-Known IPv6 Multicast Addresses",
+   "module": 33,
+   "type": "LESSON",
+   "components": [
+    "dynamic-graphic-view",
+    "text-view"
+   ],
+   "unit_complete": false,
+   "status": "dry_run"
+  },
+  {
+   "item": "33.5.3",
+   "title": "Solicited-Node IPv6 Multicast Addresses",
+   "module": 33,
+   "type": "LESSON",
+   "components": [
+    "dynamic-graphic-view"
+   ],
+   "unit_complete": false,
+   "status": "dry_run"
+  },
+  {
+   "item": "33.5.4",
+   "title": "Lab - Identify IPv6 Addresses",
+   "module": 33,
+   "type": "LAB",
+   "components": [
+    "pagetracer-view",
+    "quicknav-view"
+   ],
+   "unit_complete": false,
+   "status": "dry_run"
+  },
+  {
+   "item": "33.6.1",
+   "title": "What Did I Learn in this Module?",
+   "module": 33,
+   "type": "INTERACTIVE",
+   "components": [
+    "accordion-view"
+   ],
+   "unit_complete": false,
+   "status": "dry_run"
+  },
+  {
+   "item": "33.6.2",
+   "title": "Webster - Reflection Questions",
+   "module": 33,
+   "type": "LESSON",
+   "components": [
+    "graphic-view",
+    "text-view",
+    "blank-view"
+   ],
+   "unit_complete": true,
+   "status": "dry_run"
+  },
+  {
+   "item": "33.6.3",
+   "title": "IPv6 Addressing Quiz",
+   "module": 33,
+   "type": "ASSESSMENT",
+   "components": [
+    "adaptive-start-screen-view"
+   ],
+   "unit_complete": false,
+   "status": "dry_run"
+  },
+  {
+   "item": "34.0.1",
+   "title": "Webster - Why Should I Take This Module?",
+   "module": 34,
+   "type": "INTRODUCTION",
+   "components": [
+    "graphic-view",
+    "text-view"
+   ],
+   "unit_complete": false,
+   "status": "dry_run"
+  },
+  {
+   "item": "34.0.2",
+   "title": "What Will I Learn in This Module?",
+   "module": 34,
+   "type": "INTRODUCTION",
+   "components": [
+    "table-view",
+    "quicknav-view"
+   ],
+   "unit_complete": true,
+   "status": "dry_run"
+  },
+  {
+   "item": "34.1.1",
+   "title": "Video - IPv6 Neighbor Discovery",
+   "module": 34,
+   "type": "UNKNOWN",
+   "components": [],
+   "unit_complete": null,
+   "status": "unknown"
+  },
+  {
+   "item": "34.1.2",
+   "title": "IPv6 Neighbor Discovery Messages",
+   "module": 34,
+   "status": "error",
+   "error": "Message: javascript error: Cannot read properties of null (reading 'getAttribute')\n  (Session info: chrome=151.0.7922.138)\nStacktrace:\n\tuc_driver!GetHandleVerifier [0x7ff69efcabb5+151b5]\n\tuc_driver!GetHandleVerifier [0x7ff69efcac10+15210]\n\tuc_driver!(No symbol) [0x7ff69eaf5d6d]\n\tuc_driver!(No symbol"
+  }
+ ],
+ "needs_user": [],
+ "failed": [
+  {
+   "item": "1.4.3",
+   "title": "Communications in a Connected World Quiz",
+   "module": 1,
+   "type": "UNKNOWN",
+   "components": [],
+   "unit_complete": null,
+   "status": "unknown"
+  },
+  {
+   "item": "17.1.5",
+   "title": "Ping Results",
+   "module": 17,
+   "type": "UNKNOWN",
+   "components": [
+    "commandwindow-view"
+   ],
+   "unit_complete": false,
+   "status": "unknown"
+  },
+  {
+   "item": "20.1.4",
+   "title": "Activity - Binary to Decimal Conversions",
+   "module": 20,
+   "type": "UNKNOWN",
+   "components": [
+    "binary-to-decimal"
+   ],
+   "unit_complete": false,
+   "status": "unknown"
+  },
+  {
+   "item": "20.1.7",
+   "title": "Activity - Decimal to Binary Conversions",
+   "module": 20,
+   "type": "UNKNOWN",
+   "components": [
+    "decimal-to-binary"
+   ],
+   "unit_complete": false,
+   "status": "unknown"
+  },
+  {
+   "item": "21.5.3",
+   "title": "Ethernet Switching Quiz",
+   "module": 21,
+   "type": "UNKNOWN",
+   "components": [],
+   "unit_complete": null,
+   "status": "unknown"
+  },
+  {
+   "item": "23.1.6",
+   "title": "Activity - ANDing to Determine the Network Address",
+   "module": 23,
+   "type": "UNKNOWN",
+   "components": [
+    "anding-activity-view"
+   ],
+   "unit_complete": false,
+   "status": "unknown"
+  },
+  {
+   "item": "24.1.1",
+   "title": "ARP Overview",
+   "module": 24,
+   "type": "UNKNOWN",
+   "components": [],
+   "unit_complete": null,
+   "status": "unknown"
+  },
+  {
+   "item": "24.1.2",
+   "title": "ARP Functions",
+   "module": 24,
+   "status": "error",
+   "error": "Message: javascript error: Cannot read properties of null (reading 'getAttribute')\n  (Session info: chrome=151.0.7922.138)\nStacktrace:\n\tuc_driver!GetHandleVerifier [0x7ff69efcabb5+151b5]\n\tuc_driver!GetHandleVerifier [0x7ff69efcac10+15210]\n\tuc_driver!(No symbol) [0x7ff69eaf5d6d]\n\tuc_driver!(No symbol"
+  },
+  {
+   "item": "24.1.7",
+   "title": "ARP Tables on Devices",
+   "module": 24,
+   "type": "UNKNOWN",
+   "components": [
+    "commandwindow-view",
+    "commandwindow-view"
+   ],
+   "unit_complete": true,
+   "status": "unknown"
+  },
+  {
+   "item": "27.1.1",
+   "title": "The Cisco IOS Command Line Interface",
+   "module": 27,
+   "status": "error",
+   "error": "Message: stale element reference: stale element not found in the current frame\n  (Session info: chrome=151.0.7922.138); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#staleelementreferenceexception\nStacktrace:\n\tuc_driver!GetHand"
+  },
+  {
+   "item": "28.1.2",
+   "title": "Switch Virtual Interface Configuration",
+   "module": 28,
+   "type": "UNKNOWN",
+   "components": [
+    "commandwindow-view"
+   ],
+   "unit_complete": false,
+   "status": "unknown"
+  },
+  {
+   "item": "28.1.3",
+   "title": "Syntax Checker - Configure a Switch Virtual Interface",
+   "module": 28,
+   "type": "UNKNOWN",
+   "components": [],
+   "unit_complete": true,
+   "status": "unknown"
+  },
+  {
+   "item": "28.2.1",
+   "title": "Basic Router Configuration Steps",
+   "module": 28,
+   "type": "UNKNOWN",
+   "components": [
+    "commandwindow-view",
+    "commandwindow-view",
+    "commandwindow-view",
+    "commandwindow-view",
+    "commandwindow-view",
+    "commandwindow-view",
+    "commandwindow-view"
+   ],
+   "unit_complete": true,
+   "status": "unknown"
+  },
+  {
+   "item": "28.2.3",
+   "title": "Syntax Checker - Configure Initial Router Settings",
+   "module": 28,
+   "type": "UNKNOWN",
+   "components": [],
+   "unit_complete": false,
+   "status": "unknown"
+  },
+  {
+   "item": "28.3.3",
+   "title": "Enable SSH",
+   "module": 28,
+   "type": "UNKNOWN",
+   "components": [
+    "commandwindow-view"
+   ],
+   "unit_complete": false,
+   "status": "unknown"
+  },
+  {
+   "item": "28.4.3",
+   "title": "Syntax Checker - Configure the Default Gateway",
+   "module": 28,
+   "type": "UNKNOWN",
+   "components": [],
+   "unit_complete": false,
+   "status": "unknown"
+  },
+  {
+   "item": "33.4.2",
+   "title": "Dynamic LLAs on Windows",
+   "module": 33,
+   "type": "UNKNOWN",
+   "components": [
+    "commandwindow-view",
+    "commandwindow-view"
+   ],
+   "unit_complete": false,
+   "status": "unknown"
+  },
+  {
+   "item": "34.1.1",
+   "title": "Video - IPv6 Neighbor Discovery",
+   "module": 34,
+   "type": "UNKNOWN",
+   "components": [],
+   "unit_complete": null,
+   "status": "unknown"
+  },
+  {
+   "item": "34.1.2",
+   "title": "IPv6 Neighbor Discovery Messages",
+   "module": 34,
+   "status": "error",
+   "error": "Message: javascript error: Cannot read properties of null (reading 'getAttribute')\n  (Session info: chrome=151.0.7922.138)\nStacktrace:\n\tuc_driver!GetHandleVerifier [0x7ff69efcabb5+151b5]\n\tuc_driver!GetHandleVerifier [0x7ff69efcac10+15210]\n\tuc_driver!(No symbol) [0x7ff69eaf5d6d]\n\tuc_driver!(No symbol"
+  }
+ ],
+ "finished_at": "2026-08-20T01:46:57"
+}

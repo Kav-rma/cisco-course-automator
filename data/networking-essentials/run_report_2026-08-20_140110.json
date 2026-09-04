@@ -1,0 +1,231 @@
+{
+ "started_at": "2026-08-20T14:01:10",
+ "items": [
+  {
+   "item": "18.0.1",
+   "title": "Webster - Why Should I Take this Module?",
+   "module": 18,
+   "type": "INTRODUCTION",
+   "components": [
+    "text-view",
+    "graphic-view"
+   ],
+   "unit_complete": true,
+   "status": "already_complete",
+   "notes": [],
+   "seconds": 6.5,
+   "outline_after": "completed"
+  },
+  {
+   "item": "18.1.1",
+   "title": "Network Architecture",
+   "module": 18,
+   "type": "LESSON",
+   "components": [
+    "text-view"
+   ],
+   "unit_complete": true,
+   "status": "already_complete",
+   "notes": [],
+   "seconds": 4.8,
+   "outline_after": "completed"
+  },
+  {
+   "item": "18.1.2",
+   "title": "Video - Fault Tolerance",
+   "module": 18,
+   "type": "VIDEO",
+   "components": [
+    "media-view"
+   ],
+   "unit_complete": false,
+   "status": "completed",
+   "notes": [],
+   "seconds": 5.0,
+   "outline_after": "completed"
+  },
+  {
+   "item": "18.1.7",
+   "title": "Check Your Understanding - Reliable Networks",
+   "module": 18,
+   "type": "KNOWLEDGE_CHECK",
+   "components": [
+    "mcq-view",
+    "mcq-view",
+    "mcq-view",
+    "mcq-view",
+    "quicknav-view"
+   ],
+   "unit_complete": false,
+   "status": "completed",
+   "notes": [],
+   "seconds": 3.2,
+   "outline_after": "completed"
+  },
+  {
+   "item": "18.2.1",
+   "title": "Physical and Logical Addresses",
+   "module": 18,
+   "type": "LESSON",
+   "components": [
+    "dynamic-graphic-view"
+   ],
+   "unit_complete": true,
+   "status": "already_complete",
+   "notes": [],
+   "seconds": 4.9,
+   "outline_after": "completed"
+  },
+  {
+   "item": "18.2.2",
+   "title": "Video - View Network Information on My Device",
+   "module": 18,
+   "type": "VIDEO",
+   "components": [
+    "media-view"
+   ],
+   "unit_complete": false,
+   "status": "completed",
+   "notes": [],
+   "seconds": 5.7,
+   "outline_after": "completed"
+  },
+  {
+   "item": "18.2.3",
+   "title": "Lab - View Wireless and Wired NIC Information",
+   "module": 18,
+   "type": "LAB",
+   "components": [
+    "pagetracer-view"
+   ],
+   "unit_complete": false,
+   "status": "completed",
+   "notes": [],
+   "seconds": 3.2,
+   "outline_after": "completed"
+  },
+  {
+   "item": "18.2.4",
+   "title": "Hierarchical Analogy",
+   "module": 18,
+   "type": "INTERACTIVE",
+   "components": [
+    "tabs-view",
+    "text-view"
+   ],
+   "unit_complete": false,
+   "status": "completed",
+   "notes": [
+    "unhandled interactive component types: ['tabs-view']",
+    "unit complete"
+   ],
+   "seconds": 19.9,
+   "outline_after": "completed"
+  },
+  {
+   "item": "18.2.5",
+   "title": "Video - Benefits of a Hierarchical Network Design",
+   "module": 18,
+   "type": "VIDEO",
+   "components": [
+    "media-view"
+   ],
+   "unit_complete": false,
+   "status": "completed",
+   "notes": [],
+   "seconds": 8.2,
+   "outline_after": "completed"
+  },
+  {
+   "item": "18.2.6",
+   "title": "Access, Distribution, and Core",
+   "module": 18,
+   "type": "INTERACTIVE",
+   "components": [
+    "tabs-view"
+   ],
+   "unit_complete": false,
+   "status": "failed",
+   "notes": [
+    "unhandled interactive component types: ['tabs-view']",
+    "unit still incomplete after processing interactives"
+   ],
+   "seconds": 24.0
+  },
+  {
+   "item": "18.2.7",
+   "title": "Check Your Understanding - Hierarchical Network Design",
+   "module": 18,
+   "type": "KNOWLEDGE_CHECK",
+   "components": [
+    "mcq-view",
+    "mcq-view",
+    "mcq-view",
+    "mcq-view",
+    "mcq-view",
+    "quicknav-view"
+   ],
+   "unit_complete": false,
+   "status": "completed",
+   "notes": [],
+   "seconds": 5.3,
+   "outline_after": "completed"
+  },
+  {
+   "item": "18.3.1",
+   "title": "What Did I Learn in this Module?",
+   "module": 18,
+   "type": "INTERACTIVE",
+   "components": [
+    "accordion-view"
+   ],
+   "unit_complete": false,
+   "status": "completed",
+   "notes": [
+    "unit complete"
+   ],
+   "seconds": 7.7,
+   "outline_after": "completed"
+  },
+  {
+   "item": "18.3.3",
+   "title": "Network Design Quiz",
+   "module": 18,
+   "type": "ASSESSMENT",
+   "components": [
+    "adaptive-start-screen-view"
+   ],
+   "unit_complete": false,
+   "status": "needs_user",
+   "notes": [
+    "graded assessment - never automated"
+   ],
+   "seconds": 33.3
+  }
+ ],
+ "needs_user": [
+  {
+   "item": "18.3.3",
+   "why": "graded assessment - never automated"
+  }
+ ],
+ "failed": [
+  {
+   "item": "18.2.6",
+   "title": "Access, Distribution, and Core",
+   "module": 18,
+   "type": "INTERACTIVE",
+   "components": [
+    "tabs-view"
+   ],
+   "unit_complete": false,
+   "status": "failed",
+   "notes": [
+    "unhandled interactive component types: ['tabs-view']",
+    "unit still incomplete after processing interactives"
+   ],
+   "seconds": 24.0
+  }
+ ],
+ "finished_at": "2026-08-20T14:03:59"
+}

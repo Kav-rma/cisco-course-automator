@@ -1,0 +1,137 @@
+{
+ "started_at": "2026-08-20T20:51:23",
+ "items": [
+  {
+   "item": "21.0.1",
+   "title": "Webster - Why Should I Take this Module?",
+   "module": 21,
+   "type": "INTRODUCTION",
+   "components": [
+    "text-view",
+    "graphic-view"
+   ],
+   "unit_complete": true,
+   "status": "already_complete",
+   "notes": [],
+   "seconds": 7.5,
+   "outline_after": "completed"
+  },
+  {
+   "item": "21.1.1",
+   "title": "The Rise of Ethernet",
+   "module": 21,
+   "type": "LESSON",
+   "components": [
+    "dynamic-graphic-view"
+   ],
+   "unit_complete": true,
+   "status": "already_complete",
+   "notes": [],
+   "seconds": 5.3,
+   "outline_after": "completed"
+  },
+  {
+   "item": "21.2.1",
+   "title": "Ethernet Encapsulation",
+   "module": 21,
+   "type": "LESSON",
+   "components": [
+    "dynamic-graphic-view"
+   ],
+   "unit_complete": true,
+   "status": "already_complete",
+   "notes": [],
+   "seconds": 3.4,
+   "outline_after": "completed"
+  },
+  {
+   "item": "21.3.1",
+   "title": "MAC Address and Hexadecimal",
+   "module": 21,
+   "type": "LESSON",
+   "components": [
+    "dynamic-graphic-view",
+    "dynamic-graphic-view",
+    "text-view"
+   ],
+   "unit_complete": true,
+   "status": "already_complete",
+   "notes": [],
+   "seconds": 3.6,
+   "outline_after": "completed"
+  },
+  {
+   "item": "21.4.1",
+   "title": "Switch Fundamentals",
+   "module": 21,
+   "type": "LESSON",
+   "components": [
+    "dynamic-graphic-view",
+    "text-view"
+   ],
+   "unit_complete": true,
+   "status": "already_complete",
+   "notes": [],
+   "seconds": 5.5,
+   "outline_after": "completed"
+  },
+  {
+   "item": "21.4.6",
+   "title": "Activity - Switch It!",
+   "module": 21,
+   "type": "ACTIVITY",
+   "components": [
+    "switch-it-view",
+    "quicknav-view"
+   ],
+   "unit_complete": false,
+   "status": "needs_user",
+   "notes": [
+    "no driver yet for: ['switch-it-view'] - please do this one yourself"
+   ],
+   "seconds": 3.2
+  },
+  {
+   "item": "21.5.1",
+   "title": "What Did I Learn in this Module?",
+   "module": 21,
+   "type": "INTERACTIVE",
+   "components": [
+    "accordion-view"
+   ],
+   "unit_complete": true,
+   "status": "already_complete",
+   "notes": [],
+   "seconds": 3.8,
+   "outline_after": "completed"
+  },
+  {
+   "item": "21.5.3",
+   "title": "Ethernet Switching Quiz",
+   "module": 21,
+   "type": "ASSESSMENT",
+   "components": [
+    "adaptive-start-screen-view",
+    "quicknav-view"
+   ],
+   "unit_complete": false,
+   "status": "needs_user",
+   "notes": [
+    "graded assessment - never automated"
+   ],
+   "seconds": 33.6
+  }
+ ],
+ "needs_user": [
+  {
+   "item": "21.4.6",
+   "why": "no driver yet for: ['switch-it-view'] - please do this one yourself"
+  },
+  {
+   "item": "21.5.3",
+   "why": "graded assessment - never automated"
+  }
+ ],
+ "failed": [],
+ "finished_at": "2026-08-20T20:52:56"
+}

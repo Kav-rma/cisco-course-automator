@@ -1,0 +1,85 @@
+{
+ "started_at": "2026-08-20T17:42:55",
+ "items": [
+  {
+   "item": "18.0.1",
+   "title": "Webster - Why Should I Take this Module?",
+   "module": 18,
+   "type": "INTRODUCTION",
+   "components": [
+    "text-view",
+    "graphic-view"
+   ],
+   "unit_complete": true,
+   "status": "already_complete",
+   "notes": [],
+   "seconds": 7.5,
+   "outline_after": "completed"
+  },
+  {
+   "item": "18.1.1",
+   "title": "Network Architecture",
+   "module": 18,
+   "type": "LESSON",
+   "components": [
+    "text-view"
+   ],
+   "unit_complete": true,
+   "status": "already_complete",
+   "notes": [],
+   "seconds": 5.4,
+   "outline_after": "completed"
+  },
+  {
+   "item": "18.2.1",
+   "title": "Physical and Logical Addresses",
+   "module": 18,
+   "type": "LESSON",
+   "components": [
+    "dynamic-graphic-view"
+   ],
+   "unit_complete": true,
+   "status": "already_complete",
+   "notes": [],
+   "seconds": 5.3,
+   "outline_after": "completed"
+  },
+  {
+   "item": "18.3.1",
+   "title": "What Did I Learn in this Module?",
+   "module": 18,
+   "type": "INTERACTIVE",
+   "components": [
+    "accordion-view"
+   ],
+   "unit_complete": true,
+   "status": "already_complete",
+   "notes": [],
+   "seconds": 3.7,
+   "outline_after": "completed"
+  },
+  {
+   "item": "18.3.3",
+   "title": "Network Design Quiz",
+   "module": 18,
+   "type": "ASSESSMENT",
+   "components": [
+    "adaptive-start-screen-view"
+   ],
+   "unit_complete": false,
+   "status": "needs_user",
+   "notes": [
+    "graded assessment - never automated"
+   ],
+   "seconds": 33.1
+  }
+ ],
+ "needs_user": [
+  {
+   "item": "18.3.3",
+   "why": "graded assessment - never automated"
+  }
+ ],
+ "failed": [],
+ "finished_at": "2026-08-20T17:44:21"
+}

@@ -1,0 +1,148 @@
+[
+ {
+  "modelid": "63abd31d566dad023639b8d8",
+  "model": {
+   "attributes": null,
+   "items": [
+    {
+     "backBody": "<p>Attackers can exploit systems within a domain through:</p><ul><li>Direct, physical access to systems and networks</li><li>Wireless networking that extends beyond an organization’s boundaries</li><li>Bluetooth or near-field communication (NFC) devices</li><li>Malicious email attachments</li><li>Less secure elements within an organization’s supply chain</li><li>An organization’s social media accounts</li><li>Removable media such as flash drives</li><li>Cloud-based applications</li></ul><p style=\"text-align:right\"><span style=\"color:#ffffff\"><i class=\"fa fa-undo\"> </i>&nbsp;</span></p>",
+     "backTitle": "",
+     "frontImage": {
+      "alt": "A lined globe with an exclamation mark in a red triangle beside it",
+      "src": "en-US/assets/ba0ed880c9ea4bd9a7e834df33cedc55.jpg"
+     },
+     "_flipDirection": "horizontal",
+     "_index": 0,
+     "_parentId": "63abd31d566dad023639b8d8"
+    }
+   ]
+  },
+  "methods": [
+   "firstUpdated",
+   "render",
+   "scrollToTop",
+   "preRender"
+  ],
+  "own": [
+   "isUpdatePending",
+   "hasUpdated",
+   "enableUpdating",
+   "renderOptions",
+   "applyDesignAttributesHandler",
+   "applyCustomCssHandler",
+   "__modelid",
+   "renderMethodRef",
+   "isLanguageChanged",
+   "renderMethodReplacement",
+   "renderedObserver",
+   "component",
+   "__model",
+   "liveRegionMessage",
+   "controller",
+   "renderRoot"
+  ],
+  "html": "<flipcard-view modelid=\"63abd31d566dad023639b8d8\" class=\"is-full flipcard_fullwidth\" sgpulse-type=\"component\"><template shadowroot=\"open\"><div class=\"flipcard-inner component__inner\"><div data-socialgoodpulse-id=\"63abd31d566dad023639b8d8\" class=\"component flipcard 63abd31d566dad023639b8d8 flipcard_fullwidth is-full   \"><div data-socialgoodpulse-id=\"63abd31d566dad023639b8d8\" class=\"flipcard flipcard_fullwidth\"><base-view type=\"component\" lowercase_component=\"flipcard\" customclass=\"\"><template shadowroot=\"open\"><div class=\"component__header-wrapper flipcard_fullwidth \"><div class=\"component__header flipcard__header\"><div class=\"component__header-inner flipcard__header-inner\"><div class=\"component__content\"><div tabindex=\"0\" class=\"component__body flipcard__body\"><div class=\"component__body-inner flipcard__body-inner\"><p>With organizations facing an ever-growing number of cyber threats, it is critical that they have robust security solutions in place. But in order to protect themselves, organizations first need to know what vulnerabilities exist within their threat domains. A <strong>threat domain</strong> is considered to be an area of control, authority, or protection that attackers can exploit to gain access to a system.</p><p>There are many ways that attackers can uncover vulnerabilities and exploit systems within a domain.</p><p><strong>Select the image to reveal some examples.</strong></p></div></div></div></div></div></div></template></base-view></div><div class=\"component__widget flipcard__widget\"><div class=\"flipcard__main\"><button class=\"flipcard__item component__item \" data-index=\"0\" aria-label=\"click to flip A lined globe with an exclamation mark in a red triangle beside it\"><div class=\"flipcard__item-face flipcard__item-front\"><img class=\"flipcard__item-frontImage\" src=\"./courses/ff9e491c-49be-4734-803e-a79e6e83dab1/470b0f8c-3433-58f8-8cae-ad9db92ba313/en-US/assets/ba0ed880c9ea4bd9a7e834df33cedc55.jpg\" aria-label=\"A lined globe with an exclamation mark in a red triangle beside it\"></img><material-icon class=\"select-triangle front-icon\" icon=\"touch_app\" aria-hidden=\"true\" customclasses=\"\" iconname=\"touch_app\"><template shadowroot=\"open\"><span part=\"material-icon\" class=\"material-icons \">touch_app</span></template></material-icon><div class=\"flip-icon\"> Click to flip </div></div><div class=\"flipcard__item-face flipcard__item-back\" aria-hidden=\"true\"><div tabindex=\"0\" class=\"flipcard__item-back-inner item-back-0\" aria-label=\"\"><div class=\"flipcard__item-back-title\" role=\"heading\" aria-level=\"5\" tabindex=\"-1\"></div><p tabindex=\"\"><p>Attackers can exploit systems within a domain through:</p><ul><li>Direct, physical access to systems and networks</li><li>Wireless networking that extends beyond an organization’s boundaries</li><li>Bluetooth or near-field communication (NFC) devices</li><li>Malicious email attachments</li><li>Less secure elements within an organization’s supply chain</li><li>An organization’s social media accounts</li><li>Removable media such as flash drives</li><li>Cloud-based applications</li></ul><p><span><i class=\"fa fa-undo\"></i></span></p></p><material-icon class=\"select-triangle\" icon=\"replay\" aria-hidden=\"true\" customclasses=\"\" iconname=\"replay\"><template shadowroot=\"open\"><span part=\"material-icon\" class=\"material-icons \">replay</span></template></material-icon></div></div></button></div></div></div></div></template></flipcard-view>",
+  "complete": false
+ },
+ {
+  "modelid": "63ac1f7a231f0402b0232a78",
+  "model": {
+   "attributes": null,
+   "items": [
+    {
+     "backBody": "<p>Examples of threats to the LAN include:</p><ul><li>Unauthorized access to wiring closets, data centers and computer rooms</li><li>Unauthorized access to systems, applications and data</li><li>Network operating system or software vulnerabilities and updates</li><li>Rogue users gaining unauthorized access to wireless networks</li><li>Exploits of data in transit</li><li>Having LAN servers with different hardware or operating systems makes managing and troubleshooting them more difficult</li><li>Unauthorized network probing and port scanning</li><li>Misconfigured firewalls</li></ul><p style=\"text-align:right\"><span style=\"color:#ffffff\"><i class=\"fa fa-undo\"> </i>&nbsp;</span></p>",
+     "backTitle": "",
+     "frontImage": {
+      "alt": "LAN written in the center of a circle surrounded by four devices linked by dotted lines: desktop with a bug on the screen, a tablet with a red triangle and exclamation mark, a smartphone with twelve colored tiles on the screen and a server",
+      "src": "en-US/assets/fc9b9710e86b44ccb8306ccc3ed71501.png"
+     },
+     "_flipDirection": "horizontal",
+     "_index": 0,
+     "_parentId": "63ac1f7a231f0402b0232a78"
+    }
+   ]
+  },
+  "methods": [
+   "firstUpdated",
+   "render",
+   "scrollToTop",
+   "preRender"
+  ],
+  "own": [
+   "isUpdatePending",
+   "hasUpdated",
+   "enableUpdating",
+   "renderOptions",
+   "applyDesignAttributesHandler",
+   "applyCustomCssHandler",
+   "__modelid",
+   "renderMethodRef",
+   "isLanguageChanged",
+   "renderMethodReplacement",
+   "renderedObserver",
+   "component",
+   "__model",
+   "liveRegionMessage",
+   "controller",
+   "renderRoot"
+  ],
+  "html": "<flipcard-view modelid=\"63ac1f7a231f0402b0232a78\" class=\"is-full flipcard_fullwidth\" sgpulse-type=\"component\"><template shadowroot=\"open\"><div class=\"flipcard-inner component__inner\"><div data-socialgoodpulse-id=\"63ac1f7a231f0402b0232a78\" class=\"component flipcard 63ac1f7a231f0402b0232a78 flipcard_fullwidth is-full   \"><div data-socialgoodpulse-id=\"63ac1f7a231f0402b0232a78\" class=\"flipcard flipcard_fullwidth\"><base-view type=\"component\" lowercase_component=\"flipcard\" customclass=\"\"><template shadowroot=\"open\"><div class=\"component__header-wrapper flipcard_fullwidth \"><div class=\"component__header flipcard__header\"><div class=\"component__header-inner flipcard__header-inner\"><div class=\"component__content\"><div tabindex=\"0\" class=\"component__body flipcard__body\"><div class=\"component__body-inner flipcard__body-inner\"><p>The local area network (LAN) is a collection of devices, typically in the same geographic area, connected by cables (wired) or airwaves (wireless).</p><p>Because users can access an organization’s systems, applications, and data from the <strong>LAN domain</strong>, it is critical that it has strong security and stringent access controls.</p><p><strong>Select the image to reveal some common threats posed to the LAN.</strong></p></div></div></div></div></div></div></template></base-view></div><div class=\"component__widget flipcard__widget\"><div class=\"flipcard__main\"><button class=\"flipcard__item component__item \" data-index=\"0\" aria-label=\"click to flip LAN written in the center of a circle surrounded by four devices linked by dotted lines: desktop with a bug on the screen, a tablet with a red triangle and exclamation mark, a smartphone\"><div class=\"flipcard__item-face flipcard__item-front\"><img class=\"flipcard__item-frontImage\" src=\"./courses/ff9e491c-49be-4734-803e-a79e6e83dab1/470b0f8c-3433-58f8-8cae-ad9db92ba313/en-US/assets/fc9b9710e86b44ccb8306ccc3ed71501.png\" aria-label=\"LAN written in the center of a circle surrounded by four devices linked by dotted lines: desktop with a bug on the screen, a tablet with a red triangle and exclamation mark, a smartphone with twelve c\"></img><material-icon class=\"select-triangle front-icon\" icon=\"touch_app\" aria-hidden=\"true\" customclasses=\"\" iconname=\"touch_app\"><template shadowroot=\"open\"><span part=\"material-icon\" class=\"material-icons \">touch_app</span></template></material-icon><div class=\"flip-icon\"> Click to flip </div></div><div class=\"flipcard__item-face flipcard__item-back\" aria-hidden=\"true\"><div tabindex=\"0\" class=\"flipcard__item-back-inner item-back-0\" aria-label=\"\"><div class=\"flipcard__item-back-title\" role=\"heading\" aria-level=\"5\" tabindex=\"-1\"></div><p tabindex=\"\"><p>Examples of threats to the LAN include:</p><ul><li>Unauthorized access to wiring closets, data centers and computer rooms</li><li>Unauthorized access to systems, applications and data</li><li>Network operating system or software vulnerabilities and updates</li><li>Rogue users gaining unauthorized access to wireless networks</li><li>Exploits of data in transit</li><li>Having LAN servers with different hardware or operating systems makes managing and troubleshooting them more difficult</li><li>Unauthorized network probing and port scanning</li><li>Misconfigured firewalls</li></ul><p><span><i class=\"fa fa-undo\"></i></span></p></p><material-icon class=\"select-triangle\" icon=\"replay\" aria-hidden=\"true\" customclasses=\"\" iconname=\"replay\"><template shadowroot=\"open\"><span part=\"material-icon\" class=\"material-icons \">replay</span></template></material-icon></div></div></button></div></div></div></div></template></flipcard-view>",
+  "complete": false
+ },
+ {
+  "modelid": "63ac3f20185ad308b0ee2d11",
+  "model": {
+   "attributes": null,
+   "items": [
+    {
+     "backBody": "<p>Backdoor programs, such as Netbus and Back Orifice, are used by cybercriminals to gain unauthorized access to systems by bypassing the normal authentication procedures.</p><p>Cybercriminals typically have authorized users unknowingly run a remote administrative tool program (RAT) on their computer that installs a backdoor. The backdoor&nbsp;gives the criminal administrative control over a target computer. Backdoors grant cybercriminals continued access to a system, even if the organization has fixed the original vulnerability used to attack the system.</p><p style=\"text-align:right\"><span style=\"color:#ffffff\"><i class=\"fa fa-undo\"> </i>&nbsp;</span></p>",
+     "backTitle": "",
+     "frontImage": {
+      "alt": "A door on the back of a laptop",
+      "src": "en-US/assets/fbd5e43ff96a42658fedb8a3bb7f0841.png"
+     },
+     "_flipDirection": "horizontal",
+     "_index": 0,
+     "_parentId": "63ac3f20185ad308b0ee2d11"
+    },
+    {
+     "backBody": "<p>This malware is designed to modify the operating system to create a backdoor that attackers can then use to access the computer remotely.</p><p>Most rootkits take advantage of software vulnerabilities to gain access to resources that normally shouldn’t be accessible (privilege escalation) and modify system files.&nbsp;</p><p>Rootkits can also modify system forensics and monitoring tools, making them very hard to detect. In most cases, a computer infected by a rootkit has to be wiped and any required software reinstalled.</p><p style=\"text-align:right\"><span style=\"color:#ffffff\"><i class=\"fa fa-undo\"> </i>&nbsp;</span></p>",
+     "backTitle": "",
+     "frontImage": {
+      "alt": "A laptop with a bug on the back",
+      "src": "en-US/assets/4e8fac4764d047609f5844e01fce460d.png"
+     },
+     "_flipDirection": "horizontal",
+     "_index": 1,
+     "_parentId": "63ac3f20185ad308b0ee2d11"
+    }
+   ]
+  },
+  "methods": [
+   "firstUpdated",
+   "render",
+   "scrollToTop",
+   "preRender"
+  ],
+  "own": [
+   "isUpdatePending",
+   "hasUpdated",
+   "enableUpdating",
+   "renderOptions",
+   "applyDesignAttributesHandler",
+   "applyCustomCssHandler",
+   "__modelid",
+   "renderMethodRef",
+   "isLanguageChanged",
+   "renderMethodReplacement",
+   "renderedObserver",
+   "component",
+   "__model",
+   "liveRegionMessage",
+   "controller",
+   "renderRoot"
+  ],
+  "html": "<flipcard-view modelid=\"63ac3f20185ad308b0ee2d11\" class=\"is-full\" sgpulse-type=\"component\"><template shadowroot=\"open\"><div class=\"flipcard-inner component__inner\"><div data-socialgoodpulse-id=\"63ac3f20185ad308b0ee2d11\" class=\"component flipcard 63ac3f20185ad308b0ee2d11  is-full   \"><div data-socialgoodpulse-id=\"63ac3f20185ad308b0ee2d11\" class=\"flipcard \"><base-view type=\"component\" lowercase_component=\"flipcard\" customclass=\"\"><template shadowroot=\"open\"><div class=\"component__header-wrapper  \"><div class=\"component__header flipcard__header\"><div class=\"component__header-inner flipcard__header-inner\"><div class=\"component__content\"><div tabindex=\"0\" class=\"component__body flipcard__body\"><div class=\"component__body-inner flipcard__body-inner\"><p>Cybercriminals also use many different types of malicious software to carry out their attacks.</p><p><strong>Select the images to find out more about backdoors and rootkits.</strong></p></div></div></div></div></div></div></template></base-view></div><div class=\"component__widget flipcard__widget\"><div class=\"flipcard__main\"><button class=\"flipcard__item component__item \" data-index=\"0\" aria-label=\"click to flip A door on the back of a laptop\"><div class=\"flipcard__item-face flipcard__item-front\"><img class=\"flipcard__item-frontImage\" src=\"./courses/ff9e491c-49be-4734-803e-a79e6e83dab1/470b0f8c-3433-58f8-8cae-ad9db92ba313/en-US/assets/fbd5e43ff96a42658fedb8a3bb7f0841.png\" aria-label=\"A door on the back of a laptop\"></img><material-icon class=\"select-triangle front-icon\" icon=\"touch_app\" aria-hidden=\"true\" customclasses=\"\" iconname=\"touch_app\"><template shadowroot=\"open\"><span part=\"material-icon\" class=\"material-icons \">touch_app</span></template></material-icon><div class=\"flip-icon\"> Click to flip </div></div><div class=\"flipcard__item-face flipcard__item-back\" aria-hidden=\"true\"><div tabindex=\"0\" class=\"flipcard__item-back-inner item-back-0\" aria-label=\"\"><div class=\"flipcard__item-back-title\" role=\"heading\" aria-level=\"5\" tabindex=\"-1\"></div><p tabindex=\"\"><p>Backdoor programs, such as Netbus and Back Orifice, are used by cybercriminals to gain unauthorized access to systems by bypassing the normal authentication procedures.</p><p>Cybercriminals typically have authorized users unknowingly run a remote administrative tool program (RAT) on their computer that installs a backdoor. The backdoor gives the criminal administrative control over a target computer. Backdoors grant cybercriminals continued access to a system, even if the organization has fixed the original vulnerability used to attack the system.</p><p><span><i class=\"fa fa-undo\"></i></span></p></p><material-icon class=\"select-triangle\" icon=\"replay\" aria-hidden=\"true\" customclasses=\"\" iconname=\"replay\"><template shadowroot=\"open\"><span part=\"material-icon\" class=\"material-icons \">replay</span></template></material-icon></div></div></button></div><div class=\"flipcard__main\"><button class=\"flipcard__item component__item \" data-index=\"1\" aria-label=\"click to flip A laptop with a bug on the back\"><div class=\"flipcard__item-face flipcard__item-front\"><img class=\"flipcard__item-frontImage\" src=\"./courses/ff9e491c-49be-4734-803e-a79e6e83dab1/470b0f8c-3433-58f8-8cae-ad9db92ba313/en-US/assets/4e8fac4764d047609f5844e01fce460d.png\" aria-label=\"A laptop with a bug on the back\"></img><material-icon class=\"select-triangle front-icon\" icon=\"touch_app\" aria-hidden=\"true\" customclasses=\"\" iconname=\"touch_app\"><template shadowroot=\"open\"><span part=\"material-icon\" class=\"material-icons \">touch_app</span></template></material-icon><div class=\"flip-icon\"> Click to flip </div></div><div class=\"flipcard__item-face flipcard__item-back\" aria-hidden=\"true\"><div tabindex=\"0\" class=\"flipcard__item-back-inner item-back-1\" aria-label=\"\"><div class=\"flipcard__item-back-title\" role=\"heading\" aria-level=\"5\" tabindex=\"-1\"></div><p tabindex=\"\"><p>This malware is designed to modify the operating system to create a backdoor that attackers can then use to access the computer remotely.</p><p>Most rootkits take advantage of software vulnerabilities to gain access to resources that normally shouldn’t be accessible (privilege escalation) and modify system files. </p><p>Rootkits can also modify system forensics and monitoring tools, making them very hard to detect. In most cases, a computer infected by a rootkit has to be wiped and any required software reinstalled.</p><p><span><i class=\"fa fa-undo\"></i></span></p></p><material-icon class=\"select-triangle\" icon=\"replay\" aria-hidden=\"true\" customclasses=\"\" iconname=\"replay\"><template shadowroot=\"open\"><span part=\"material-icon\" class=\"material-icons \">replay</span></template></material-icon></div></div></button></div></div></div></div></template></flipcard-view>",
+  "complete": false
+ }
+]
