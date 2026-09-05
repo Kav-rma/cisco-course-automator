@@ -1,0 +1,81 @@
+{
+ "23.2.3": {
+  "active_item_title": "23.2.3 IPv4 Address Structure Quiz",
+  "anchors_rendered": 3,
+  "anchor_classes_sample": [
+   "blockContainer--9r605 active--39fPI btnLink--eKEsj smallFont--BK0C3 firstLevel--se7do",
+   "blockContainer--9r605 btnLink--eKEsj smallFont--BK0C3 firstLevel--se7do"
+  ],
+  "anchors_with_marker": [
+   {
+    "cls": "blockContainer--9r605 active--39fPI btnLink--eKEsj smallFont--BK0C3 firstLevel--se7do",
+    "cur": null,
+    "sel": null,
+    "title": "23.2.3 IPv4 Address Structure Quiz"
+   }
+  ],
+  "headings": [
+   "23.0.1 Webster - Why Should I Take this Module?",
+   "23.0.2 What Will I Learn in this Module?"
+  ],
+  "frame_href": "https://www.netacad.com/authoring-resources/index.html?xAPILaunchKey=8a12c937-8a7c-41f9-83e0-f9b6df5399b6&xAPILaunchService=https://www.netacad.com/adl/content/&lang=en-US&moduleNumber=23#/courses/ff9e491c-49be-4734-803e-a79e6e83dab1/a85367aa-bc60-52c2-b829-de98e4b7dd76/id/82a1ab75e0d9401d9ae4da7d34fe4d6f",
+  "secure": {
+   "start_visible": false,
+   "counter": null,
+   "active_q": null
+  }
+ },
+ "5.4.3": {
+  "active_item_title": "5.4.3 Communications Principles Quiz",
+  "anchors_rendered": 3,
+  "anchor_classes_sample": [
+   "blockContainer--9r605 active--39fPI btnLink--eKEsj smallFont--BK0C3 firstLevel--se7do",
+   "blockContainer--9r605 btnLink--eKEsj smallFont--BK0C3 firstLevel--se7do"
+  ],
+  "anchors_with_marker": [
+   {
+    "cls": "blockContainer--9r605 active--39fPI btnLink--eKEsj smallFont--BK0C3 firstLevel--se7do",
+    "cur": null,
+    "sel": null,
+    "title": "5.4.3 Communications Principles Quiz"
+   }
+  ],
+  "headings": [
+   "5.0.1 Webster - Why Should I Take this Module?",
+   "5.0.2 What Will I Learn in this Module?"
+  ],
+  "frame_href": "https://www.netacad.com/authoring-resources/index.html?xAPILaunchKey=09739af6-54fe-4903-9f92-b263d4aa3e18&xAPILaunchService=https://www.netacad.com/adl/content/&lang=en-US&moduleNumber=5#/courses/ff9e491c-49be-4734-803e-a79e6e83dab1/f8a4f5e0-e74d-5b96-aa5e-d2dad5d3ed03/id/1930113cdeb14a5997aa0c046a53f9a5",
+  "secure": {
+   "start_visible": false,
+   "counter": null,
+   "active_q": null
+  }
+ },
+ "26.8.2": {
+  "active_item_title": "26.8.2 What Did I Learn in this Module?",
+  "anchors_rendered": 4,
+  "anchor_classes_sample": [
+   "blockContainer--9r605 active--39fPI btnLink--eKEsj smallFont--BK0C3 firstLevel--se7do",
+   "blockContainer--9r605 btnLink--eKEsj smallFont--BK0C3 firstLevel--se7do"
+  ],
+  "anchors_with_marker": [
+   {
+    "cls": "blockContainer--9r605 active--39fPI btnLink--eKEsj smallFont--BK0C3 firstLevel--se7do",
+    "cur": null,
+    "sel": null,
+    "title": "26.8.2 What Did I Learn in this Module?"
+   }
+  ],
+  "headings": [
+   "26.8.1 Packet Tracer - TCP and UDP Communications",
+   "26.8.2 What Did I Learn in this Module?",
+   "26.8.3 Webster - Reflection Questions"
+  ],
+  "frame_href": "https://www.netacad.com/authoring-resources/index.html?xAPILaunchKey=208f7ff3-27d3-4880-9a24-7de662643e2e&xAPILaunchService=https://www.netacad.com/adl/content/&lang=en-US&moduleNumber=26#/courses/ff9e491c-49be-4734-803e-a79e6e83dab1/e79484c2-5428-53ac-84fd-d9d148ee3a0f/id/2b3c4e20-c6eb-4f4b-81ea-6c8ff46493bd",
+  "secure": {
+   "start_visible": false,
+   "counter": null,
+   "active_q": null
+  }
+ }
+}

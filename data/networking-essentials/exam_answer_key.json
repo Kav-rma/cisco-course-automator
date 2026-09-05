@@ -18,59 +18,59 @@
     },
     {
      "n": 2,
-     "question": "What allows digital devices to interconnect and transmit data?",
-     "question_norm": "what allows digital devices to interconnect and transmit data",
-     "type": "mcq",
-     "raw_answer": "B",
-     "answer_texts": [
-      "a network"
-     ],
-     "status": "resolved"
-    },
-    {
-     "n": 3,
      "question": "Which is a characteristic of the Internet?",
      "question_norm": "which is a characteristic of the internet",
-     "type": "mcq",
-     "raw_answer": "A",
+     "type": "single",
      "answer_texts": [
       "It is not centrally governed."
      ],
-     "status": "resolved"
+     "status": "recorded",
+     "recorded_at": "2026-09-06T02:00:42"
     },
     {
-     "n": 4,
+     "n": 3,
      "question": "How many unique values are possible using a single binary digit?",
      "question_norm": "how many unique values are possible using a single binary digit",
-     "type": "mcq",
-     "raw_answer": "B",
+     "type": "single",
      "answer_texts": [
       "2"
      ],
-     "status": "resolved"
+     "status": "recorded",
+     "recorded_at": "2026-09-06T02:00:51"
+    },
+    {
+     "n": 4,
+     "question": "What allows digital devices to interconnect and transmit data?",
+     "question_norm": "what allows digital devices to interconnect and transmit data",
+     "type": "single",
+     "answer_texts": [
+      "a network"
+     ],
+     "status": "recorded",
+     "recorded_at": "2026-09-06T02:00:58"
     },
     {
      "n": 5,
-     "question": "What is the order of bandwidth measurement from smallest to largest?",
-     "question_norm": "what is the order of bandwidth measurement from smallest to largest",
-     "type": "mcq",
-     "raw_answer": "A",
+     "question": "Which items are collectively referred to as network media?",
+     "question_norm": "which items are collectively referred to as network media",
+     "type": "single",
      "answer_texts": [
-      "Kbps, Mbps, Gbps, Tbps"
+      "wires and radio waves"
      ],
-     "status": "resolved"
+     "status": "recorded",
+     "recorded_at": "2026-09-06T02:01:27"
     },
     {
      "n": 6,
-     "question": "What are two types of wired high-speed Internet connections? (Choose two.)",
-     "question_norm": "what are two types of wired high speed internet connections choose two",
-     "type": "mcq",
-     "raw_answer": "A,D",
+     "question": "Which two devices are considered end devices? (Choose two.)",
+     "question_norm": "which two devices are considered end devices choose two",
+     "type": "multiple",
      "answer_texts": [
-      "cable",
-      "DSL"
+      "laptop",
+      "printer"
      ],
-     "status": "resolved"
+     "status": "recorded",
+     "recorded_at": "2026-09-06T02:04:30"
     },
     {
      "n": 8,
@@ -2579,5 +2579,6 @@
     }
    ]
   }
- ]
+ ],
+ "saved_at": "2026-09-06T02:04:42"
 }

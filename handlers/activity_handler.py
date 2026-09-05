@@ -255,52 +255,40 @@ def _cdp_mouse(ctx, etype, x, y, buttons=1):
 
 
 def drive_cable_pinout(ctx: HandlerContext, mid: str) -> dict:
-    """The 2px-wide wire elements ignore synthetic JS events and ActionChains; drive the drag with trusted
-    CDP Input events at absolute viewport coordinates (iframe offset + in-frame rect)."""
+    """Cable pinout: verified 2026-09-05 to be click-source-then-click-target (NOT drag). Click .option[N]
+    (it becomes selected), then .target[N] (the wire is placed and the selection clears). data-option N maps
+    to data-target N (the correct pin for that wire). After all 8, Check enables -> click it -> complete."""
     t = ctx.cfg["timeouts"]
     st = ctx.sb.execute_script(JS_PINOUT_STATE, mid)
     if not st:
         return {"ok": False, "error": "no state"}
     if st["complete"]:
         return {"ok": True, "note": "already complete"}
-    js_rects = cf.JS_BY_ID + """
-const el = byId(arguments[0]); if (!el) return null;
-const opt = deepQ('.option[data-option="' + arguments[1] + '"]', el)[0];
-const tgt = deepQ('.target[data-target="' + arguments[1] + '"]', el)[0];
-if (!opt || !tgt) return null;
-opt.scrollIntoView({block: 'center', behavior: 'instant'});
-const ro = opt.getBoundingClientRect(), rt = tgt.getBoundingClientRect();
-return {ox: ro.x + ro.width / 2, oy: ro.y + ro.height / 2, tx: rt.x + rt.width / 2, ty: rt.y + rt.height / 2,
-        ow: ro.width, vw: window.innerWidth, vh: window.innerHeight};
-"""
     import time as _t
-    dragged = 0
+    click_btn(ctx.sb, mid, "#reset")   # clear any partial state from a prior attempt (no-op if disabled)
+    _t.sleep(0.3)
+    js_click = cf.JS_BY_ID + """
+const el = byId(arguments[0]); if (!el) return 'no-el';
+const e = deepQ(arguments[1], el)[0]; if (!e) return 'no-el:' + arguments[1];
+e.scrollIntoView({block: 'center', behavior: 'instant'}); e.click(); return 'ok';
+"""
+    placed = 0
     for o in st["options"]:
-        r = ctx.sb.execute_script(js_rects, mid, o["n"])
+        n = o["n"]
+        r1 = ctx.sb.execute_script(js_click, mid, f'.option[data-option="{n}"]')
         _t.sleep(0.2)
-        r = ctx.sb.execute_script(js_rects, mid, o["n"])  # re-read after the scroll settled
-        if not r or not (0 <= r["ox"] <= r["vw"] and 0 <= r["oy"] <= r["vh"]):
-            ctx.log.warning("  wire %s out of view (%s); skipping", o["n"], r and (round(r['ox']), round(r['oy'])))
-            continue
-        fx, fy = _frame_offset(ctx)
-        ox, oy, tx, ty = fx + r["ox"], fy + r["oy"], fx + r["tx"], fy + r["ty"]
-        _cdp_mouse(ctx, "mouseMoved", ox, oy, 0)
-        _cdp_mouse(ctx, "mousePressed", ox, oy, 1)
-        _t.sleep(0.15)
-        steps = 8
-        for i in range(1, steps + 1):
-            _cdp_mouse(ctx, "mouseMoved", ox + (tx - ox) * i / steps, oy + (ty - oy) * i / steps, 1)
-            _t.sleep(0.05)
-        _cdp_mouse(ctx, "mouseReleased", tx, ty, 0)
-        _t.sleep(0.25)
-        dragged += 1
+        r2 = ctx.sb.execute_script(js_click, mid, f'.target[data-target="{n}"]')
+        _t.sleep(0.2)
+        if r1 == "ok" and r2 == "ok":
+            placed += 1
     st2 = ctx.sb.execute_script(JS_PINOUT_STATE, mid)
-    ctx.log.info("  cable-pinout after %d CDP drags: check_disabled=%s", dragged, st2["check_disabled"])
+    ctx.log.info("  cable-pinout placed %d/%d wires (click-click); check_disabled=%s", placed,
+                 len(st["options"]), st2["check_disabled"])
     if st2["check_disabled"] is False:
         click_btn(ctx.sb, mid, "#check")
-        _t.sleep(0.8)
+        _t.sleep(0.9)
     done = cf.wait_complete(ctx.sb, mid, t["completion"])
-    return {"ok": bool(done), "drags": dragged, "check_disabled_after": st2["check_disabled"], "complete": done}
+    return {"ok": bool(done), "placed": placed, "check_disabled_after": st2["check_disabled"], "complete": done}
 
 
 # yesno-view (39.1.6): Start, then one image card at a time; model _items[i] = {_graphic.alt, _shouldBeSelected}.

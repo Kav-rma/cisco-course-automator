@@ -33,11 +33,35 @@ def goto_item(sb, cfg: dict, node: dict, sec: dict, it: dict) -> None:
     ol.click_item(sb, node["uuid"], sec["index"], it["index"])
     cf.enter(sb)
     cf.wait_page_ready(sb, t["page_load"])
-    ok = wait_until(sb, lambda s: any(h.startswith(it["id"] + " ") for h in cf.item_headings(cf.read_page_model(s))),
-                    t["page_load"], what=f"heading for {it['id']}")
-    if not ok:
-        # Not fatal by itself (anonymous units such as quiz launchers have no heading); the detector decides.
-        log.debug("heading for %s not found on page", it["id"])
+    if it.get("inferred_type") == "assessment":
+        return   # graded quiz launchers have no item heading: waiting for one just burns page_load seconds
+    heading_ok = lambda s: any(h.startswith(it["id"] + " ") for h in cf.item_headings(cf.read_page_model(s)))  # noqa: E731
+    if wait_until(sb, heading_ok, t["page_load"], what=f"heading for {it['id']}"):
+        return
+    # The outline click can be swallowed while the tree animates, leaving the PREVIOUS page in the frame; a handler
+    # would then "complete" the wrong page. Re-click once and re-check before giving up.
+    log.warning("heading for %s not found after click - re-clicking the outline item", it["id"])
+    cf.leave(sb)
+    ol.click_item(sb, node["uuid"], sec["index"], it["index"])
+    cf.enter(sb)
+    cf.wait_page_ready(sb, t["page_load"])
+    if not wait_until(sb, heading_ok, t["page_load"] / 2, what=f"heading for {it['id']} (retry)"):
+        # Still not fatal (some anonymous units have no heading); the detector decides, but this is now visible.
+        log.warning("heading for %s still not found on page - proceeding on the current frame content", it["id"])
+
+
+def live_item_status_expanded(sb, cfg: dict, node: dict, sec: dict, it: dict) -> str | None:
+    """Like live_item_status, but first expands the node/section so the item row is actually rendered
+    (used after a fresh course load, when nothing is expanded yet)."""
+    t = cfg["timeouts"]
+    cf.leave(sb)
+    try:
+        ol.ensure_node_expanded(sb, node["uuid"], t["element"])
+        ol.ensure_section_expanded(sb, node["uuid"], sec["index"], t["element"])
+        ol.wait_items_rendered(sb, node["uuid"], sec["index"], t["element"])
+        return ol.read_items(sb, node["uuid"], sec["index"])[it["index"]]["status"]
+    except Exception:
+        return None
 
 
 def live_item_status(sb, node: dict, sec: dict, it: dict) -> str | None:

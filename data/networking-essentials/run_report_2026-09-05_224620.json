@@ -1,0 +1,31 @@
+{
+ "started_at": "2026-09-05T22:46:20",
+ "items": [
+  {
+   "item": "30.4.4",
+   "title": "Activity - Cable Pinouts",
+   "module": 30,
+   "type": "ACTIVITY",
+   "components": [
+    "cable-pinout-view",
+    "cable-pinout-view",
+    "quicknav-view"
+   ],
+   "unit_complete": false,
+   "status": "needs_user",
+   "notes": [
+    "cable-pinout-view: did not complete",
+    "cable-pinout-view: did not complete"
+   ],
+   "seconds": 206.6
+  }
+ ],
+ "needs_user": [
+  {
+   "item": "30.4.4",
+   "why": "cable-pinout-view: did not complete; cable-pinout-view: did not complete"
+  }
+ ],
+ "failed": [],
+ "finished_at": "2026-09-05T22:52:50"
+}
