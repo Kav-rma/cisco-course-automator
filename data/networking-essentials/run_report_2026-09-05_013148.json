@@ -1,0 +1,8782 @@
+{
+ "started_at": "2026-09-05T01:31:48",
+ "items": [
+  {
+   "item": "18.0.1",
+   "title": "Webster - Why Should I Take this Module?",
+   "module": 18,
+   "type": "INTRODUCTION",
+   "components": [
+    "text-view",
+    "graphic-view"
+   ],
+   "unit_complete": true,
+   "status": "already_complete",
+   "notes": [],
+   "seconds": 8.3,
+   "outline_after": "completed"
+  },
+  {
+   "item": "18.1.1",
+   "title": "Network Architecture",
+   "module": 18,
+   "type": "LESSON",
+   "components": [
+    "text-view"
+   ],
+   "unit_complete": true,
+   "status": "already_complete",
+   "notes": [],
+   "seconds": 5.0,
+   "outline_after": "completed"
+  },
+  {
+   "item": "18.2.1",
+   "title": "Physical and Logical Addresses",
+   "module": 18,
+   "type": "LESSON",
+   "components": [
+    "dynamic-graphic-view"
+   ],
+   "unit_complete": true,
+   "status": "already_complete",
+   "notes": [],
+   "seconds": 5.8,
+   "outline_after": "completed"
+  },
+  {
+   "item": "18.3.1",
+   "title": "What Did I Learn in this Module?",
+   "module": 18,
+   "type": "INTERACTIVE",
+   "components": [
+    "accordion-view"
+   ],
+   "unit_complete": true,
+   "status": "already_complete",
+   "notes": [],
+   "seconds": 3.9,
+   "outline_after": "completed"
+  },
+  {
+   "item": "18.3.3",
+   "title": "Network Design Quiz",
+   "module": 18,
+   "type": "ASSESSMENT",
+   "components": [
+    "adaptive-start-screen-view"
+   ],
+   "unit_complete": false,
+   "status": "needs_user",
+   "notes": [
+    "graded assessment - never automated"
+   ],
+   "seconds": 33.5
+  },
+  {
+   "item": "19.0.1",
+   "title": "Webster - Why Should I Take this Module?",
+   "module": 19,
+   "type": "INTRODUCTION",
+   "components": [
+    "text-view",
+    "graphic-view"
+   ],
+   "unit_complete": true,
+   "status": "already_complete",
+   "notes": [],
+   "seconds": 7.5,
+   "outline_after": "completed"
+  },
+  {
+   "item": "19.1.1",
+   "title": "Video - Cloud and Virtualization",
+   "module": 19,
+   "type": "VIDEO",
+   "components": [
+    "media-view"
+   ],
+   "unit_complete": true,
+   "status": "already_complete",
+   "notes": [],
+   "seconds": 5.3,
+   "outline_after": "completed"
+  },
+  {
+   "item": "19.2.1",
+   "title": "Advantages of Virtualization",
+   "module": 19,
+   "type": "LESSON",
+   "components": [
+    "text-view"
+   ],
+   "unit_complete": true,
+   "status": "already_complete",
+   "notes": [],
+   "seconds": 4.1,
+   "outline_after": "completed"
+  },
+  {
+   "item": "19.3.1",
+   "title": "What Did I Learn in this Module?",
+   "module": 19,
+   "type": "INTERACTIVE",
+   "components": [
+    "accordion-view"
+   ],
+   "unit_complete": true,
+   "status": "already_complete",
+   "notes": [],
+   "seconds": 4.0,
+   "outline_after": "completed"
+  },
+  {
+   "item": "19.3.3",
+   "title": "Cloud and Virtualization Quiz",
+   "module": 19,
+   "type": "ASSESSMENT",
+   "components": [
+    "adaptive-start-screen-view",
+    "quicknav-view"
+   ],
+   "unit_complete": false,
+   "status": "needs_user",
+   "notes": [
+    "graded assessment - never automated"
+   ],
+   "seconds": 33.5
+  },
+  {
+   "item": "20.0.1",
+   "title": "Webster - Why Should I Take this Module?",
+   "module": 20,
+   "type": "INTRODUCTION",
+   "components": [
+    "text-view",
+    "graphic-view"
+   ],
+   "unit_complete": true,
+   "status": "already_complete",
+   "notes": [],
+   "seconds": 7.7,
+   "outline_after": "completed"
+  },
+  {
+   "item": "20.1.1",
+   "title": "Binary and IPv4 Addresses",
+   "module": 20,
+   "type": "LESSON",
+   "components": [
+    "dynamic-graphic-view",
+    "dynamic-graphic-view",
+    "text-view"
+   ],
+   "unit_complete": true,
+   "status": "already_complete",
+   "notes": [],
+   "seconds": 6.3,
+   "outline_after": "completed"
+  },
+  {
+   "item": "20.2.1",
+   "title": "Hexadecimal and IPv6 Addresses",
+   "module": 20,
+   "type": "LESSON",
+   "components": [
+    "dynamic-graphic-view",
+    "dynamic-graphic-view",
+    "graphic-view"
+   ],
+   "unit_complete": true,
+   "status": "already_complete",
+   "notes": [],
+   "seconds": 5.4,
+   "outline_after": "completed"
+  },
+  {
+   "item": "20.3.1",
+   "title": "What Did I Learn in this Module?",
+   "module": 20,
+   "type": "INTERACTIVE",
+   "components": [
+    "accordion-view"
+   ],
+   "unit_complete": true,
+   "status": "already_complete",
+   "notes": [],
+   "seconds": 4.0,
+   "outline_after": "completed"
+  },
+  {
+   "item": "20.3.3",
+   "title": "Number Systems Quiz",
+   "module": 20,
+   "type": "ASSESSMENT",
+   "components": [
+    "adaptive-start-screen-view"
+   ],
+   "unit_complete": false,
+   "status": "needs_user",
+   "notes": [
+    "graded assessment - never automated"
+   ],
+   "seconds": 33.5
+  },
+  {
+   "item": "21.0.1",
+   "title": "Webster - Why Should I Take this Module?",
+   "module": 21,
+   "type": "INTRODUCTION",
+   "components": [
+    "text-view",
+    "graphic-view"
+   ],
+   "unit_complete": true,
+   "status": "already_complete",
+   "notes": [],
+   "seconds": 8.9,
+   "outline_after": "completed"
+  },
+  {
+   "item": "21.1.1",
+   "title": "The Rise of Ethernet",
+   "module": 21,
+   "type": "LESSON",
+   "components": [
+    "dynamic-graphic-view"
+   ],
+   "unit_complete": true,
+   "status": "already_complete",
+   "notes": [],
+   "seconds": 5.5,
+   "outline_after": "completed"
+  },
+  {
+   "item": "21.2.1",
+   "title": "Ethernet Encapsulation",
+   "module": 21,
+   "type": "LESSON",
+   "components": [
+    "dynamic-graphic-view"
+   ],
+   "unit_complete": true,
+   "status": "already_complete",
+   "notes": [],
+   "seconds": 4.0,
+   "outline_after": "completed"
+  },
+  {
+   "item": "21.3.1",
+   "title": "MAC Address and Hexadecimal",
+   "module": 21,
+   "type": "LESSON",
+   "components": [
+    "dynamic-graphic-view",
+    "dynamic-graphic-view",
+    "text-view"
+   ],
+   "unit_complete": true,
+   "status": "already_complete",
+   "notes": [],
+   "seconds": 3.9,
+   "outline_after": "completed"
+  },
+  {
+   "item": "21.4.1",
+   "title": "Switch Fundamentals",
+   "module": 21,
+   "type": "LESSON",
+   "components": [
+    "dynamic-graphic-view",
+    "text-view"
+   ],
+   "unit_complete": true,
+   "status": "already_complete",
+   "notes": [],
+   "seconds": 5.7,
+   "outline_after": "completed"
+  },
+  {
+   "item": "21.4.6",
+   "title": "Activity - Switch It!",
+   "module": 21,
+   "type": "ACTIVITY",
+   "components": [
+    "switch-it-view",
+    "quicknav-view"
+   ],
+   "unit_complete": false,
+   "status": "needs_user",
+   "notes": [
+    "no driver yet for: ['switch-it-view'] - please do this one yourself"
+   ],
+   "seconds": 3.3
+  },
+  {
+   "item": "21.5.1",
+   "title": "What Did I Learn in this Module?",
+   "module": 21,
+   "type": "INTERACTIVE",
+   "components": [
+    "accordion-view"
+   ],
+   "unit_complete": true,
+   "status": "already_complete",
+   "notes": [],
+   "seconds": 4.1,
+   "outline_after": "completed"
+  },
+  {
+   "item": "21.5.3",
+   "title": "Ethernet Switching Quiz",
+   "module": 21,
+   "type": "ASSESSMENT",
+   "components": [
+    "adaptive-start-screen-view",
+    "quicknav-view"
+   ],
+   "unit_complete": false,
+   "status": "needs_user",
+   "notes": [
+    "graded assessment - never automated"
+   ],
+   "seconds": 34.6
+  },
+  {
+   "item": "22.0.1",
+   "title": "Webster - Why Should I Take this Module?",
+   "module": 22,
+   "type": "INTRODUCTION",
+   "components": [
+    "text-view",
+    "graphic-view"
+   ],
+   "unit_complete": true,
+   "status": "already_complete",
+   "notes": [],
+   "seconds": 6.7,
+   "outline_after": "completed"
+  },
+  {
+   "item": "22.1.1",
+   "title": "Video - Data Encapsulation",
+   "module": 22,
+   "type": "VIDEO",
+   "components": [
+    "media-view"
+   ],
+   "unit_complete": true,
+   "status": "already_complete",
+   "notes": [],
+   "seconds": 5.7,
+   "outline_after": "completed"
+  },
+  {
+   "item": "22.2.1",
+   "title": "IPv4 Packet Header",
+   "module": 22,
+   "type": "LESSON",
+   "components": [
+    "text-view"
+   ],
+   "unit_complete": true,
+   "status": "already_complete",
+   "notes": [],
+   "seconds": 5.5,
+   "outline_after": "completed"
+  },
+  {
+   "item": "22.3.1",
+   "title": "Limitations of IPv4",
+   "module": 22,
+   "type": "LESSON",
+   "components": [
+    "text-view"
+   ],
+   "unit_complete": true,
+   "status": "already_complete",
+   "notes": [],
+   "seconds": 4.8,
+   "outline_after": "completed"
+  },
+  {
+   "item": "22.4.1",
+   "title": "What Did I Learn in this Module?",
+   "module": 22,
+   "type": "INTERACTIVE",
+   "components": [
+    "accordion-view"
+   ],
+   "unit_complete": true,
+   "status": "already_complete",
+   "notes": [],
+   "seconds": 3.8,
+   "outline_after": "completed"
+  },
+  {
+   "item": "22.4.3",
+   "title": "Network Layer Quiz",
+   "module": 22,
+   "type": "ASSESSMENT",
+   "components": [
+    "adaptive-start-screen-view",
+    "quicknav-view"
+   ],
+   "unit_complete": false,
+   "status": "needs_user",
+   "notes": [
+    "graded assessment - never automated"
+   ],
+   "seconds": 33.8
+  },
+  {
+   "item": "23.0.1",
+   "title": "Webster - Why Should I Take this Module?",
+   "module": 23,
+   "type": "INTRODUCTION",
+   "components": [
+    "text-view",
+    "graphic-view"
+   ],
+   "unit_complete": true,
+   "status": "already_complete",
+   "notes": [],
+   "seconds": 7.5,
+   "outline_after": "completed"
+  },
+  {
+   "item": "23.1.1",
+   "title": "Network and Host Portions",
+   "module": 23,
+   "type": "LESSON",
+   "components": [
+    "dynamic-graphic-view",
+    "text-view"
+   ],
+   "unit_complete": true,
+   "status": "already_complete",
+   "notes": [],
+   "seconds": 5.3,
+   "outline_after": "completed"
+  },
+  {
+   "item": "23.2.1",
+   "title": "What Did I Learn in this Module?",
+   "module": 23,
+   "type": "SUMMARY",
+   "components": [
+    "text-view"
+   ],
+   "unit_complete": true,
+   "status": "already_complete",
+   "notes": [],
+   "seconds": 4.3,
+   "outline_after": "completed"
+  },
+  {
+   "item": "23.2.3",
+   "title": "IPv4 Address Structure Quiz",
+   "module": 23,
+   "type": "ASSESSMENT",
+   "components": [
+    "adaptive-start-screen-view"
+   ],
+   "unit_complete": false,
+   "status": "needs_user",
+   "notes": [
+    "graded assessment - never automated"
+   ],
+   "seconds": 33.7
+  },
+  {
+   "item": "24.0.1",
+   "title": "Webster - Why Should I Take this Module?",
+   "module": 24,
+   "type": "INTRODUCTION",
+   "components": [
+    "graphic-view",
+    "text-view"
+   ],
+   "unit_complete": false,
+   "status": "completed",
+   "notes": [
+    "completed after scrolling into view"
+   ],
+   "seconds": 7.7,
+   "outline_after": "completed"
+  },
+  {
+   "item": "24.0.2",
+   "title": "What Will I Learn in this Module?",
+   "module": 24,
+   "type": "INTRODUCTION",
+   "components": [
+    "table-view",
+    "quicknav-view"
+   ],
+   "unit_complete": true,
+   "status": "already_complete",
+   "notes": [],
+   "seconds": 3.9,
+   "outline_after": "completed"
+  },
+  {
+   "item": "24.1.1",
+   "title": "ARP Overview",
+   "module": 24,
+   "type": "LESSON",
+   "components": [
+    "dynamic-graphic-view",
+    "text-view"
+   ],
+   "unit_complete": false,
+   "status": "completed",
+   "notes": [
+    "completed after scrolling into view"
+   ],
+   "seconds": 10.1,
+   "outline_after": "completed"
+  },
+  {
+   "item": "24.1.2",
+   "title": "ARP Functions",
+   "module": 24,
+   "type": "INTERACTIVE",
+   "components": [
+    "adobe-animate-view"
+   ],
+   "unit_complete": false,
+   "status": "completed",
+   "notes": [
+    "unit complete"
+   ],
+   "seconds": 5.2,
+   "outline_after": "completed"
+  },
+  {
+   "item": "24.1.3",
+   "title": "Video - ARP Operation - ARP Request",
+   "module": 24,
+   "type": "VIDEO",
+   "components": [
+    "media-view"
+   ],
+   "unit_complete": false,
+   "status": "completed",
+   "notes": [],
+   "seconds": 7.1,
+   "outline_after": "completed"
+  },
+  {
+   "item": "24.1.4",
+   "title": "Video - ARP Operation - ARP Reply",
+   "module": 24,
+   "type": "VIDEO",
+   "components": [
+    "media-view"
+   ],
+   "unit_complete": false,
+   "status": "completed",
+   "notes": [],
+   "seconds": 10.2,
+   "outline_after": "completed"
+  },
+  {
+   "item": "24.1.5",
+   "title": "Video - ARP Role in Remote Communications",
+   "module": 24,
+   "type": "VIDEO",
+   "components": [
+    "media-view"
+   ],
+   "unit_complete": false,
+   "status": "completed",
+   "notes": [],
+   "seconds": 7.4,
+   "outline_after": "completed"
+  },
+  {
+   "item": "24.1.6",
+   "title": "Removing Entries from an ARP Table",
+   "module": 24,
+   "type": "LESSON",
+   "components": [
+    "dynamic-graphic-view",
+    "text-view",
+    "blank-view"
+   ],
+   "unit_complete": false,
+   "status": "completed",
+   "notes": [
+    "completed after scrolling into view"
+   ],
+   "seconds": 6.7,
+   "outline_after": "completed"
+  },
+  {
+   "item": "24.1.8",
+   "title": "ARP Issues - ARP Broadcasts and ARP Spoofing",
+   "module": 24,
+   "type": "LESSON",
+   "components": [
+    "dynamic-graphic-view",
+    "dynamic-graphic-view"
+   ],
+   "unit_complete": false,
+   "status": "completed",
+   "notes": [
+    "completed after scrolling into view"
+   ],
+   "seconds": 6.3,
+   "outline_after": "completed"
+  },
+  {
+   "item": "24.1.9",
+   "title": "Packet Tracer - Examine the ARP Table",
+   "module": 24,
+   "type": "LAB",
+   "components": [
+    "pagetracer-view"
+   ],
+   "unit_complete": false,
+   "status": "completed",
+   "notes": [],
+   "seconds": 5.5,
+   "outline_after": "completed"
+  },
+  {
+   "item": "24.1.10",
+   "title": "Lab - View ARP Traffic in Wireshark",
+   "module": 24,
+   "type": "LAB",
+   "components": [
+    "pagetracer-view"
+   ],
+   "unit_complete": false,
+   "status": "completed",
+   "notes": [],
+   "seconds": 5.5,
+   "outline_after": "completed"
+  },
+  {
+   "item": "24.1.11",
+   "title": "Check Your Understanding - ARP",
+   "module": 24,
+   "type": "KNOWLEDGE_CHECK",
+   "components": [
+    "mcq-view",
+    "mcq-view",
+    "mcq-view",
+    "mcq-view",
+    "mcq-view",
+    "quicknav-view"
+   ],
+   "unit_complete": false,
+   "status": "completed",
+   "notes": [],
+   "seconds": 6.3,
+   "outline_after": "completed"
+  },
+  {
+   "item": "24.2.1",
+   "title": "What Did I Learn in this Module?",
+   "module": 24,
+   "type": "SUMMARY",
+   "components": [
+    "text-view"
+   ],
+   "unit_complete": false,
+   "status": "completed",
+   "notes": [
+    "unit complete"
+   ],
+   "seconds": 5.7,
+   "outline_after": "completed"
+  },
+  {
+   "item": "24.2.2",
+   "title": "Webster - Reflection Questions",
+   "module": 24,
+   "type": "LESSON",
+   "components": [
+    "text-view",
+    "graphic-view",
+    "blank-view"
+   ],
+   "unit_complete": true,
+   "status": "already_complete",
+   "notes": [],
+   "seconds": 3.9,
+   "outline_after": "completed"
+  },
+  {
+   "item": "24.2.3",
+   "title": "Address Resolution Quiz",
+   "module": 24,
+   "type": "ASSESSMENT",
+   "components": [
+    "adaptive-start-screen-view"
+   ],
+   "unit_complete": false,
+   "status": "needs_user",
+   "notes": [
+    "graded assessment - never automated"
+   ],
+   "seconds": 34.2
+  },
+  {
+   "item": "25.0.1",
+   "title": "Webster - Why Should I Take this Module?",
+   "module": 25,
+   "type": "INTRODUCTION",
+   "components": [
+    "text-view",
+    "graphic-view"
+   ],
+   "unit_complete": false,
+   "status": "completed",
+   "notes": [
+    "completed after scrolling into view"
+   ],
+   "seconds": 6.7,
+   "outline_after": "completed"
+  },
+  {
+   "item": "25.0.2",
+   "title": "What Will I Learn in this Module?",
+   "module": 25,
+   "type": "INTRODUCTION",
+   "components": [
+    "table-view",
+    "quicknav-view"
+   ],
+   "unit_complete": true,
+   "status": "already_complete",
+   "notes": [],
+   "seconds": 4.0,
+   "outline_after": "completed"
+  },
+  {
+   "item": "25.1.1",
+   "title": "Video - Domain Name System",
+   "module": 25,
+   "type": "VIDEO",
+   "components": [
+    "media-view"
+   ],
+   "unit_complete": false,
+   "status": "completed",
+   "notes": [],
+   "seconds": 8.5,
+   "outline_after": "completed"
+  },
+  {
+   "item": "25.1.2",
+   "title": "Domain Name System",
+   "module": 25,
+   "type": "INTERACTIVE",
+   "components": [
+    "tabs-view"
+   ],
+   "unit_complete": false,
+   "status": "completed",
+   "notes": [
+    "unit complete"
+   ],
+   "seconds": 8.1,
+   "outline_after": "completed"
+  },
+  {
+   "item": "25.1.3",
+   "title": "DNS Message Format",
+   "module": 25,
+   "type": "LESSON",
+   "components": [
+    "table-view"
+   ],
+   "unit_complete": false,
+   "status": "completed",
+   "notes": [
+    "completed after scrolling into view"
+   ],
+   "seconds": 4.3,
+   "outline_after": "completed"
+  },
+  {
+   "item": "25.1.4",
+   "title": "DNS Hierarchy",
+   "module": 25,
+   "type": "LESSON",
+   "components": [
+    "dynamic-graphic-view"
+   ],
+   "unit_complete": false,
+   "status": "completed",
+   "notes": [
+    "completed after scrolling into view"
+   ],
+   "seconds": 5.2,
+   "outline_after": "completed"
+  },
+  {
+   "item": "25.1.5",
+   "title": "The nslookup Command",
+   "module": 25,
+   "type": "LESSON",
+   "components": [
+    "commandwindow-view"
+   ],
+   "unit_complete": false,
+   "status": "completed",
+   "notes": [
+    "completed after scrolling into view"
+   ],
+   "seconds": 4.9,
+   "outline_after": "completed"
+  },
+  {
+   "item": "25.1.6",
+   "title": "Syntax Checker - The nslookup Command",
+   "module": 25,
+   "type": "UNKNOWN",
+   "components": [],
+   "unit_complete": true,
+   "status": "unknown"
+  },
+  {
+   "item": "25.1.7",
+   "title": "Check Your Understanding - DNS Services",
+   "module": 25,
+   "type": "KNOWLEDGE_CHECK",
+   "components": [
+    "mcq-view",
+    "mcq-view",
+    "mcq-view",
+    "mcq-view"
+   ],
+   "unit_complete": false,
+   "status": "completed",
+   "notes": [],
+   "seconds": 6.0,
+   "outline_after": "completed"
+  },
+  {
+   "item": "25.1.8",
+   "title": "Lab - Observe DNS Resolution",
+   "module": 25,
+   "type": "LAB",
+   "components": [
+    "pagetracer-view",
+    "quicknav-view"
+   ],
+   "unit_complete": false,
+   "status": "completed",
+   "notes": [],
+   "seconds": 7.2,
+   "outline_after": "completed"
+  },
+  {
+   "item": "25.2.1",
+   "title": "Dynamic Host Configuration Protocol",
+   "module": 25,
+   "type": "LESSON",
+   "components": [
+    "dynamic-graphic-view",
+    "text-view"
+   ],
+   "unit_complete": false,
+   "status": "completed",
+   "notes": [
+    "completed after scrolling into view"
+   ],
+   "seconds": 7.2,
+   "outline_after": "completed"
+  },
+  {
+   "item": "25.2.2",
+   "title": "Video - DHCP Operation in a Home Router",
+   "module": 25,
+   "type": "VIDEO",
+   "components": [
+    "media-view"
+   ],
+   "unit_complete": false,
+   "status": "completed",
+   "notes": [],
+   "seconds": 8.1,
+   "outline_after": "completed"
+  },
+  {
+   "item": "25.2.3",
+   "title": "DHCP Messages",
+   "module": 25,
+   "type": "LESSON",
+   "components": [
+    "dynamic-graphic-view",
+    "text-view",
+    "blank-view"
+   ],
+   "unit_complete": false,
+   "status": "completed",
+   "notes": [
+    "completed after scrolling into view"
+   ],
+   "seconds": 6.3,
+   "outline_after": "completed"
+  },
+  {
+   "item": "25.2.4",
+   "title": "Check Your Understanding - DHCP Services",
+   "module": 25,
+   "type": "KNOWLEDGE_CHECK",
+   "components": [
+    "mcq-view",
+    "mcq-view",
+    "mcq-view",
+    "quicknav-view"
+   ],
+   "unit_complete": false,
+   "status": "completed",
+   "notes": [],
+   "seconds": 5.1,
+   "outline_after": "completed"
+  },
+  {
+   "item": "25.3.1",
+   "title": "What Did I Learn in this Module?",
+   "module": 25,
+   "type": "SUMMARY",
+   "components": [
+    "text-view"
+   ],
+   "unit_complete": false,
+   "status": "completed",
+   "notes": [
+    "unit complete"
+   ],
+   "seconds": 5.9,
+   "outline_after": "completed"
+  },
+  {
+   "item": "25.3.2",
+   "title": "Webster - Reflection Questions",
+   "module": 25,
+   "type": "LESSON",
+   "components": [
+    "text-view",
+    "graphic-view",
+    "blank-view"
+   ],
+   "unit_complete": true,
+   "status": "already_complete",
+   "notes": [],
+   "seconds": 4.0,
+   "outline_after": "completed"
+  },
+  {
+   "item": "25.3.3",
+   "title": "IP Addressing Services Quiz",
+   "module": 25,
+   "type": "ASSESSMENT",
+   "components": [
+    "adaptive-start-screen-view"
+   ],
+   "unit_complete": false,
+   "status": "needs_user",
+   "notes": [
+    "graded assessment - never automated"
+   ],
+   "seconds": 33.9
+  },
+  {
+   "item": "26.0.1",
+   "title": "Webster - Why Should I Take this Module?",
+   "module": 26,
+   "type": "INTRODUCTION",
+   "components": [
+    "text-view",
+    "graphic-view"
+   ],
+   "unit_complete": false,
+   "status": "completed",
+   "notes": [
+    "completed after scrolling into view"
+   ],
+   "seconds": 6.8,
+   "outline_after": "in progress"
+  },
+  {
+   "item": "26.0.2",
+   "title": "What Will I Learn in this Module?",
+   "module": 26,
+   "type": "INTRODUCTION",
+   "components": [
+    "table-view",
+    "quicknav-view"
+   ],
+   "unit_complete": false,
+   "status": "completed",
+   "notes": [
+    "completed after scrolling into view"
+   ],
+   "seconds": 4.6,
+   "outline_after": "completed"
+  },
+  {
+   "item": "26.1.1",
+   "title": "Role of the Transport Layer",
+   "module": 26,
+   "type": "LESSON",
+   "components": [
+    "dynamic-graphic-view",
+    "text-view"
+   ],
+   "unit_complete": false,
+   "status": "completed",
+   "notes": [
+    "completed after scrolling into view"
+   ],
+   "seconds": 6.9,
+   "outline_after": "completed"
+  },
+  {
+   "item": "26.1.2",
+   "title": "Transport Layer Responsibilities",
+   "module": 26,
+   "type": "INTERACTIVE",
+   "components": [
+    "tabs-view"
+   ],
+   "unit_complete": false,
+   "status": "completed",
+   "notes": [
+    "unit complete"
+   ],
+   "seconds": 8.1,
+   "outline_after": "completed"
+  },
+  {
+   "item": "26.1.3",
+   "title": "Transport Layer Protocols",
+   "module": 26,
+   "type": "LESSON",
+   "components": [
+    "dynamic-graphic-view"
+   ],
+   "unit_complete": false,
+   "status": "completed",
+   "notes": [
+    "completed after scrolling into view"
+   ],
+   "seconds": 4.7,
+   "outline_after": "completed"
+  },
+  {
+   "item": "26.1.4",
+   "title": "Transmission Control Protocol (TCP)",
+   "module": 26,
+   "type": "INTERACTIVE",
+   "components": [
+    "adobe-animate-view"
+   ],
+   "unit_complete": false,
+   "status": "completed",
+   "notes": [
+    "unit complete"
+   ],
+   "seconds": 5.6,
+   "outline_after": "completed"
+  },
+  {
+   "item": "26.1.5",
+   "title": "User Datagram Protocol (UDP)",
+   "module": 26,
+   "type": "INTERACTIVE",
+   "components": [
+    "adobe-animate-view"
+   ],
+   "unit_complete": false,
+   "status": "completed",
+   "notes": [
+    "unit complete"
+   ],
+   "seconds": 5.0,
+   "outline_after": "completed"
+  },
+  {
+   "item": "26.1.6",
+   "title": "The Right Transport Layer Protocol for the Right Application",
+   "module": 26,
+   "type": "LESSON",
+   "components": [
+    "dynamic-graphic-view",
+    "blank-view"
+   ],
+   "unit_complete": false,
+   "status": "completed",
+   "notes": [
+    "completed after scrolling into view"
+   ],
+   "seconds": 5.8,
+   "outline_after": "completed"
+  },
+  {
+   "item": "26.1.7",
+   "title": "Check Your Understanding - Transportation of Data",
+   "module": 26,
+   "type": "KNOWLEDGE_CHECK",
+   "components": [
+    "mcq-view",
+    "mcq-view",
+    "mcq-view",
+    "mcq-view",
+    "quicknav-view"
+   ],
+   "unit_complete": false,
+   "status": "completed",
+   "notes": [],
+   "seconds": 6.2,
+   "outline_after": "completed"
+  },
+  {
+   "item": "26.2.1",
+   "title": "TCP Features",
+   "module": 26,
+   "type": "LESSON",
+   "components": [
+    "text-view"
+   ],
+   "unit_complete": true,
+   "status": "already_complete",
+   "notes": [],
+   "seconds": 4.9,
+   "outline_after": "completed"
+  },
+  {
+   "item": "26.2.2",
+   "title": "TCP Header",
+   "module": 26,
+   "type": "LESSON",
+   "components": [
+    "dynamic-graphic-view",
+    "blank-view"
+   ],
+   "unit_complete": false,
+   "status": "completed",
+   "notes": [
+    "completed after scrolling into view"
+   ],
+   "seconds": 4.4,
+   "outline_after": "completed"
+  },
+  {
+   "item": "26.2.3",
+   "title": "TCP Header Fields",
+   "module": 26,
+   "type": "LESSON",
+   "components": [
+    "table-view"
+   ],
+   "unit_complete": false,
+   "status": "completed",
+   "notes": [
+    "completed after scrolling into view"
+   ],
+   "seconds": 3.9,
+   "outline_after": "completed"
+  },
+  {
+   "item": "26.2.4",
+   "title": "Applications that use TCP",
+   "module": 26,
+   "type": "LESSON",
+   "components": [
+    "dynamic-graphic-view"
+   ],
+   "unit_complete": false,
+   "status": "completed",
+   "notes": [
+    "completed after scrolling into view"
+   ],
+   "seconds": 4.4,
+   "outline_after": "completed"
+  },
+  {
+   "item": "26.2.5",
+   "title": "Check Your Understanding - TCP Overview",
+   "module": 26,
+   "type": "KNOWLEDGE_CHECK",
+   "components": [
+    "mcq-view",
+    "mcq-view",
+    "mcq-view",
+    "quicknav-view"
+   ],
+   "unit_complete": false,
+   "status": "completed",
+   "notes": [],
+   "seconds": 5.6,
+   "outline_after": "completed"
+  },
+  {
+   "item": "26.3.1",
+   "title": "UDP Features",
+   "module": 26,
+   "type": "LESSON",
+   "components": [
+    "text-view"
+   ],
+   "unit_complete": true,
+   "status": "already_complete",
+   "notes": [],
+   "seconds": 4.5,
+   "outline_after": "completed"
+  },
+  {
+   "item": "26.3.2",
+   "title": "UDP Header",
+   "module": 26,
+   "type": "LESSON",
+   "components": [
+    "dynamic-graphic-view"
+   ],
+   "unit_complete": false,
+   "status": "completed",
+   "notes": [
+    "completed after scrolling into view"
+   ],
+   "seconds": 4.2,
+   "outline_after": "completed"
+  },
+  {
+   "item": "26.3.3",
+   "title": "UDP Header Fields",
+   "module": 26,
+   "type": "LESSON",
+   "components": [
+    "table-view"
+   ],
+   "unit_complete": true,
+   "status": "already_complete",
+   "notes": [],
+   "seconds": 3.3,
+   "outline_after": "completed"
+  },
+  {
+   "item": "26.3.4",
+   "title": "Applications that use UDP",
+   "module": 26,
+   "type": "LESSON",
+   "components": [
+    "dynamic-graphic-view",
+    "text-view",
+    "blank-view"
+   ],
+   "unit_complete": false,
+   "status": "completed",
+   "notes": [
+    "completed after scrolling into view"
+   ],
+   "seconds": 5.8,
+   "outline_after": "completed"
+  },
+  {
+   "item": "26.3.5",
+   "title": "Check Your Understanding - UDP Overview",
+   "module": 26,
+   "type": "KNOWLEDGE_CHECK",
+   "components": [
+    "mcq-view",
+    "mcq-view",
+    "mcq-view",
+    "mcq-view",
+    "quicknav-view"
+   ],
+   "unit_complete": false,
+   "status": "completed",
+   "notes": [],
+   "seconds": 6.2,
+   "outline_after": "completed"
+  },
+  {
+   "item": "26.4.1",
+   "title": "Multiple Separate Communications",
+   "module": 26,
+   "type": "LESSON",
+   "components": [
+    "dynamic-graphic-view",
+    "text-view"
+   ],
+   "unit_complete": true,
+   "status": "already_complete",
+   "notes": [],
+   "seconds": 4.7,
+   "outline_after": "completed"
+  },
+  {
+   "item": "26.4.2",
+   "title": "Socket Pairs",
+   "module": 26,
+   "type": "LESSON",
+   "components": [
+    "dynamic-graphic-view",
+    "text-view"
+   ],
+   "unit_complete": false,
+   "status": "completed",
+   "notes": [
+    "completed after scrolling into view"
+   ],
+   "seconds": 4.9,
+   "outline_after": "completed"
+  },
+  {
+   "item": "26.4.3",
+   "title": "Port Number Groups",
+   "module": 26,
+   "type": "LESSON",
+   "components": [
+    "table-view",
+    "table-view",
+    "text-view"
+   ],
+   "unit_complete": false,
+   "status": "completed",
+   "notes": [
+    "completed after scrolling into view"
+   ],
+   "seconds": 6.9,
+   "outline_after": "completed"
+  },
+  {
+   "item": "26.4.4",
+   "title": "The netstat Command",
+   "module": 26,
+   "type": "LESSON",
+   "components": [
+    "commandwindow-view",
+    "text-view"
+   ],
+   "unit_complete": true,
+   "status": "already_complete",
+   "notes": [],
+   "seconds": 4.2,
+   "outline_after": "completed"
+  },
+  {
+   "item": "26.4.5",
+   "title": "Check Your Understanding - Port Numbers",
+   "module": 26,
+   "type": "KNOWLEDGE_CHECK",
+   "components": [
+    "mcq-view",
+    "mcq-view",
+    "mcq-view",
+    "quicknav-view"
+   ],
+   "unit_complete": false,
+   "status": "completed",
+   "notes": [],
+   "seconds": 7.0,
+   "outline_after": "completed"
+  },
+  {
+   "item": "26.5.1",
+   "title": "TCP Server Processes",
+   "module": 26,
+   "type": "INTERACTIVE",
+   "components": [
+    "tabs-view"
+   ],
+   "unit_complete": false,
+   "status": "completed",
+   "notes": [
+    "unit complete"
+   ],
+   "seconds": 11.4,
+   "outline_after": "completed"
+  },
+  {
+   "item": "26.5.2",
+   "title": "TCP Connection Establishment",
+   "module": 26,
+   "type": "INTERACTIVE",
+   "components": [
+    "tabs-view",
+    "text-view"
+   ],
+   "unit_complete": false,
+   "status": "completed",
+   "notes": [
+    "unit complete"
+   ],
+   "seconds": 7.8,
+   "outline_after": "completed"
+  },
+  {
+   "item": "26.5.3",
+   "title": "Session Termination",
+   "module": 26,
+   "type": "INTERACTIVE",
+   "components": [
+    "tabs-view",
+    "text-view"
+   ],
+   "unit_complete": false,
+   "status": "completed",
+   "notes": [
+    "unit complete"
+   ],
+   "seconds": 8.5,
+   "outline_after": "completed"
+  },
+  {
+   "item": "26.5.4",
+   "title": "TCP Three-way Handshake Analysis",
+   "module": 26,
+   "type": "LESSON",
+   "components": [
+    "dynamic-graphic-view",
+    "text-view"
+   ],
+   "unit_complete": false,
+   "status": "completed",
+   "notes": [
+    "completed after scrolling into view"
+   ],
+   "seconds": 5.9,
+   "outline_after": "completed"
+  },
+  {
+   "item": "26.5.5",
+   "title": "Video - TCP 3-Way Handshake",
+   "module": 26,
+   "type": "VIDEO",
+   "components": [
+    "media-view"
+   ],
+   "unit_complete": false,
+   "status": "completed",
+   "notes": [],
+   "seconds": 7.8,
+   "outline_after": "completed"
+  },
+  {
+   "item": "26.5.6",
+   "title": "Check Your Understanding - TCP Communication Process",
+   "module": 26,
+   "type": "KNOWLEDGE_CHECK",
+   "components": [
+    "mcq-view",
+    "mcq-view",
+    "mcq-view",
+    "quicknav-view"
+   ],
+   "unit_complete": false,
+   "status": "completed",
+   "notes": [],
+   "seconds": 5.4,
+   "outline_after": "completed"
+  },
+  {
+   "item": "26.6.1",
+   "title": "TCP Reliability - Guaranteed and Ordered Delivery",
+   "module": 26,
+   "type": "LESSON",
+   "components": [
+    "dynamic-graphic-view",
+    "text-view"
+   ],
+   "unit_complete": false,
+   "status": "completed",
+   "notes": [
+    "completed after scrolling into view"
+   ],
+   "seconds": 7.4,
+   "outline_after": "completed"
+  },
+  {
+   "item": "26.6.2",
+   "title": "Video - TCP Reliability - Sequence Numbers and Acknowledgments",
+   "module": 26,
+   "type": "VIDEO",
+   "components": [
+    "media-view"
+   ],
+   "unit_complete": false,
+   "status": "completed",
+   "notes": [],
+   "seconds": 8.1,
+   "outline_after": "completed"
+  },
+  {
+   "item": "26.6.3",
+   "title": "TCP Reliability - Data Loss and Retransmission",
+   "module": 26,
+   "type": "LESSON",
+   "components": [
+    "dynamic-graphic-view",
+    "dynamic-graphic-view",
+    "text-view"
+   ],
+   "unit_complete": false,
+   "status": "completed",
+   "notes": [
+    "completed after scrolling into view"
+   ],
+   "seconds": 6.5,
+   "outline_after": "completed"
+  },
+  {
+   "item": "26.6.4",
+   "title": "Video - TCP Reliability - Data Loss and Retransmission",
+   "module": 26,
+   "type": "VIDEO",
+   "components": [
+    "media-view",
+    "blank-view"
+   ],
+   "unit_complete": false,
+   "status": "completed",
+   "notes": [],
+   "seconds": 8.4,
+   "outline_after": "completed"
+  },
+  {
+   "item": "26.6.5",
+   "title": "TCP Flow Control - Window Size and Acknowledgments",
+   "module": 26,
+   "type": "LESSON",
+   "components": [
+    "dynamic-graphic-view",
+    "text-view"
+   ],
+   "unit_complete": false,
+   "status": "completed",
+   "notes": [
+    "completed after scrolling into view"
+   ],
+   "seconds": 5.6,
+   "outline_after": "completed"
+  },
+  {
+   "item": "26.6.6",
+   "title": "TCP Flow Control - Maximum Segment Size (MSS)",
+   "module": 26,
+   "type": "LESSON",
+   "components": [
+    "dynamic-graphic-view",
+    "dynamic-graphic-view"
+   ],
+   "unit_complete": false,
+   "status": "completed",
+   "notes": [
+    "completed after scrolling into view"
+   ],
+   "seconds": 5.6,
+   "outline_after": "completed"
+  },
+  {
+   "item": "26.6.7",
+   "title": "TCP Flow Control - Congestion Avoidance",
+   "module": 26,
+   "type": "LESSON",
+   "components": [
+    "dynamic-graphic-view",
+    "text-view"
+   ],
+   "unit_complete": false,
+   "status": "completed",
+   "notes": [
+    "completed after scrolling into view"
+   ],
+   "seconds": 5.9,
+   "outline_after": "completed"
+  },
+  {
+   "item": "26.6.8",
+   "title": "Check Your Understanding - Reliability and Flow Control",
+   "module": 26,
+   "type": "KNOWLEDGE_CHECK",
+   "components": [
+    "mcq-view",
+    "mcq-view",
+    "mcq-view",
+    "quicknav-view"
+   ],
+   "unit_complete": false,
+   "status": "completed",
+   "notes": [],
+   "seconds": 5.7,
+   "outline_after": "completed"
+  },
+  {
+   "item": "26.7.1",
+   "title": "UDP Low Overhead versus Reliability",
+   "module": 26,
+   "type": "LESSON",
+   "components": [
+    "dynamic-graphic-view"
+   ],
+   "unit_complete": false,
+   "status": "failed",
+   "notes": [
+    "unit still incomplete after viewing; pending components: ['dynamic-graphic-view']"
+   ],
+   "seconds": 136.2
+  },
+  {
+   "item": "26.7.2",
+   "title": "UDP Datagram Reassembly",
+   "module": 26,
+   "type": "LESSON",
+   "components": [
+    "dynamic-graphic-view"
+   ],
+   "unit_complete": false,
+   "status": "completed",
+   "notes": [
+    "completed after scrolling into view"
+   ],
+   "seconds": 4.9,
+   "outline_after": "completed"
+  },
+  {
+   "item": "26.7.3",
+   "title": "UDP Server Processes and Requests",
+   "module": 26,
+   "type": "LESSON",
+   "components": [
+    "dynamic-graphic-view",
+    "blank-view"
+   ],
+   "unit_complete": false,
+   "status": "completed",
+   "notes": [
+    "completed after scrolling into view"
+   ],
+   "seconds": 4.6,
+   "outline_after": "completed"
+  },
+  {
+   "item": "26.7.4",
+   "title": "UDP Client Processes",
+   "module": 26,
+   "type": "INTERACTIVE",
+   "components": [
+    "tabs-view"
+   ],
+   "unit_complete": false,
+   "status": "completed",
+   "notes": [
+    "unit complete"
+   ],
+   "seconds": 8.7,
+   "outline_after": "completed"
+  },
+  {
+   "item": "26.7.5",
+   "title": "Check Your Understanding - UDP Communication",
+   "module": 26,
+   "type": "KNOWLEDGE_CHECK",
+   "components": [
+    "mcq-view",
+    "mcq-view",
+    "mcq-view",
+    "quicknav-view"
+   ],
+   "unit_complete": false,
+   "status": "completed",
+   "notes": [],
+   "seconds": 8.3,
+   "outline_after": "completed"
+  },
+  {
+   "item": "26.8.1",
+   "title": "Packet Tracer - TCP and UDP Communications",
+   "module": 26,
+   "type": "LAB",
+   "components": [
+    "pagetracer-view"
+   ],
+   "unit_complete": false,
+   "status": "completed",
+   "notes": [],
+   "seconds": 8.5,
+   "outline_after": "completed"
+  },
+  {
+   "item": "26.8.2",
+   "title": "What Did I Learn in this Module?",
+   "module": 26,
+   "type": "INTERACTIVE",
+   "components": [
+    "accordion-view"
+   ],
+   "unit_complete": false,
+   "status": "completed",
+   "notes": [
+    "unit complete"
+   ],
+   "seconds": 8.9,
+   "outline_after": "completed"
+  },
+  {
+   "item": "26.8.3",
+   "title": "Webster - Reflection Questions",
+   "module": 26,
+   "type": "LESSON",
+   "components": [
+    "text-view",
+    "graphic-view",
+    "blank-view"
+   ],
+   "unit_complete": true,
+   "status": "already_complete",
+   "notes": [],
+   "seconds": 4.7,
+   "outline_after": "completed"
+  },
+  {
+   "item": "26.8.4",
+   "title": "Transport Layer Quiz",
+   "module": 26,
+   "type": "ASSESSMENT",
+   "components": [
+    "adaptive-start-screen-view"
+   ],
+   "unit_complete": true,
+   "status": "needs_user",
+   "notes": [
+    "graded assessment - never automated"
+   ],
+   "seconds": 35.8
+  },
+  {
+   "item": "27.0.1",
+   "title": "Webster - Why Should I Take this Module?",
+   "module": 27,
+   "type": "INTRODUCTION",
+   "components": [
+    "text-view",
+    "graphic-view"
+   ],
+   "unit_complete": false,
+   "status": "completed",
+   "notes": [
+    "completed after scrolling into view"
+   ],
+   "seconds": 9.0,
+   "outline_after": "in progress"
+  },
+  {
+   "item": "27.0.2",
+   "title": "What Will I Learn in this Module?",
+   "module": 27,
+   "type": "INTRODUCTION",
+   "components": [
+    "table-view",
+    "quicknav-view"
+   ],
+   "unit_complete": true,
+   "status": "already_complete",
+   "notes": [],
+   "seconds": 3.4,
+   "outline_after": "completed"
+  },
+  {
+   "item": "27.1.1",
+   "title": "The Cisco IOS Command Line Interface",
+   "module": 27,
+   "type": "LESSON",
+   "components": [
+    "text-view",
+    "commandwindow-view",
+    "text-view"
+   ],
+   "unit_complete": true,
+   "status": "already_complete",
+   "notes": [],
+   "seconds": 7.3,
+   "outline_after": "completed"
+  },
+  {
+   "item": "27.1.2",
+   "title": "Primary Command Modes",
+   "module": 27,
+   "type": "LESSON",
+   "components": [
+    "text-view",
+    "table-view"
+   ],
+   "unit_complete": true,
+   "status": "already_complete",
+   "notes": [],
+   "seconds": 4.0,
+   "outline_after": "completed"
+  },
+  {
+   "item": "27.1.3",
+   "title": "Video - IOS CLI Primary Command Modes",
+   "module": 27,
+   "type": "VIDEO",
+   "components": [
+    "media-view",
+    "blank-view"
+   ],
+   "unit_complete": false,
+   "status": "completed",
+   "notes": [],
+   "seconds": 7.8,
+   "outline_after": "completed"
+  },
+  {
+   "item": "27.1.4",
+   "title": "Video - Navigate Between IOS Modes",
+   "module": 27,
+   "type": "VIDEO",
+   "components": [
+    "media-view"
+   ],
+   "unit_complete": false,
+   "status": "completed",
+   "notes": [],
+   "seconds": 6.5,
+   "outline_after": "completed"
+  },
+  {
+   "item": "27.1.5",
+   "title": "A Note About Syntax Checker Activities",
+   "module": 27,
+   "type": "LESSON",
+   "components": [
+    "text-view"
+   ],
+   "unit_complete": true,
+   "status": "already_complete",
+   "notes": [],
+   "seconds": 4.1,
+   "outline_after": "in progress"
+  },
+  {
+   "item": "27.1.6",
+   "title": "Syntax Checker - Navigate Between IOS Modes",
+   "module": 27,
+   "type": "LESSON",
+   "components": [
+    "text-view"
+   ],
+   "unit_complete": true,
+   "status": "already_complete",
+   "notes": [],
+   "seconds": 3.8,
+   "outline_after": "completed"
+  },
+  {
+   "item": "27.1.7",
+   "title": "Check Your Understanding - IOS Navigation",
+   "module": 27,
+   "type": "KNOWLEDGE_CHECK",
+   "components": [
+    "mcq-view",
+    "mcq-view",
+    "mcq-view",
+    "mcq-view",
+    "quicknav-view"
+   ],
+   "unit_complete": false,
+   "status": "completed",
+   "notes": [],
+   "seconds": 6.6,
+   "outline_after": "completed"
+  },
+  {
+   "item": "27.2.1",
+   "title": "Basic IOS Command Structure",
+   "module": 27,
+   "type": "LESSON",
+   "components": [
+    "text-view",
+    "dynamic-graphic-view",
+    "text-view"
+   ],
+   "unit_complete": true,
+   "status": "already_complete",
+   "notes": [],
+   "seconds": 7.7,
+   "outline_after": "completed"
+  },
+  {
+   "item": "27.2.2",
+   "title": "IOS Command Syntax",
+   "module": 27,
+   "type": "LESSON",
+   "components": [
+    "text-view",
+    "table-view",
+    "text-view",
+    "commandwindow-view",
+    "text-view",
+    "blank-view"
+   ],
+   "unit_complete": true,
+   "status": "already_complete",
+   "notes": [],
+   "seconds": 3.8,
+   "outline_after": "completed"
+  },
+  {
+   "item": "27.2.3",
+   "title": "Video - Context-Sensitive Help and Command Syntax Check",
+   "module": 27,
+   "type": "VIDEO",
+   "components": [
+    "media-view"
+   ],
+   "unit_complete": false,
+   "status": "completed",
+   "notes": [],
+   "seconds": 6.4,
+   "outline_after": "completed"
+  },
+  {
+   "item": "27.2.4",
+   "title": "Hotkeys and Shortcuts",
+   "module": 27,
+   "type": "LESSON",
+   "components": [
+    "text-view",
+    "table-view",
+    "table-view",
+    "table-view"
+   ],
+   "unit_complete": true,
+   "status": "already_complete",
+   "notes": [],
+   "seconds": 4.1,
+   "outline_after": "in progress"
+  },
+  {
+   "item": "27.2.5",
+   "title": "Video - Hot Keys and Shortcuts",
+   "module": 27,
+   "type": "VIDEO",
+   "components": [
+    "media-view"
+   ],
+   "unit_complete": false,
+   "status": "completed",
+   "notes": [],
+   "seconds": 6.7,
+   "outline_after": "completed"
+  },
+  {
+   "item": "27.2.6",
+   "title": "Packet Tracer - Navigate the IOS",
+   "module": 27,
+   "type": "LAB",
+   "components": [
+    "pagetracer-view",
+    "quicknav-view"
+   ],
+   "unit_complete": false,
+   "status": "completed",
+   "notes": [],
+   "seconds": 5.6,
+   "outline_after": "completed"
+  },
+  {
+   "item": "27.3.1",
+   "title": "Video - Cisco IOS Show Commands",
+   "module": 27,
+   "type": "VIDEO",
+   "components": [
+    "media-view",
+    "blank-view"
+   ],
+   "unit_complete": false,
+   "status": "completed",
+   "notes": [],
+   "seconds": 10.2,
+   "outline_after": "completed"
+  },
+  {
+   "item": "27.3.2",
+   "title": "Show Commands",
+   "module": 27,
+   "type": "INTERACTIVE",
+   "components": [
+    "table-view",
+    "accordion-view"
+   ],
+   "unit_complete": false,
+   "status": "completed",
+   "notes": [
+    "unit complete"
+   ],
+   "seconds": 8.8,
+   "outline_after": "completed"
+  },
+  {
+   "item": "27.3.3",
+   "title": "Packet Tracer - Use Cisco IOS Show Commands",
+   "module": 27,
+   "type": "LAB",
+   "components": [
+    "pagetracer-view",
+    "quicknav-view"
+   ],
+   "unit_complete": false,
+   "status": "completed",
+   "notes": [],
+   "seconds": 5.5,
+   "outline_after": "completed"
+  },
+  {
+   "item": "27.4.1",
+   "title": "What Did I Learn in this Module?",
+   "module": 27,
+   "type": "INTERACTIVE",
+   "components": [
+    "accordion-view"
+   ],
+   "unit_complete": false,
+   "status": "completed",
+   "notes": [
+    "unit complete"
+   ],
+   "seconds": 6.3,
+   "outline_after": "completed"
+  },
+  {
+   "item": "27.4.2",
+   "title": "Webster - Reflection Questions",
+   "module": 27,
+   "type": "LESSON",
+   "components": [
+    "text-view",
+    "graphic-view",
+    "blank-view"
+   ],
+   "unit_complete": true,
+   "status": "already_complete",
+   "notes": [],
+   "seconds": 3.6,
+   "outline_after": "completed"
+  },
+  {
+   "item": "27.4.3",
+   "title": "The Cisco IOS Command Line Quiz",
+   "module": 27,
+   "type": "ASSESSMENT",
+   "components": [
+    "adaptive-start-screen-view"
+   ],
+   "unit_complete": false,
+   "status": "needs_user",
+   "notes": [
+    "graded assessment - never automated"
+   ],
+   "seconds": 33.9
+  },
+  {
+   "item": "28.0.1",
+   "title": "Webster - Why Should I Take this Module?",
+   "module": 28,
+   "type": "INTRODUCTION",
+   "components": [
+    "text-view",
+    "graphic-view"
+   ],
+   "unit_complete": false,
+   "status": "completed",
+   "notes": [
+    "completed after scrolling into view"
+   ],
+   "seconds": 10.1,
+   "outline_after": "completed"
+  },
+  {
+   "item": "28.0.2",
+   "title": "What Will I Learn in this Module?",
+   "module": 28,
+   "type": "INTRODUCTION",
+   "components": [
+    "table-view",
+    "quicknav-view"
+   ],
+   "unit_complete": true,
+   "status": "already_complete",
+   "notes": [],
+   "seconds": 5.0,
+   "outline_after": "completed"
+  },
+  {
+   "item": "28.1.1",
+   "title": "Basic Switch Configuration Steps",
+   "module": 28,
+   "type": "INTERACTIVE",
+   "components": [
+    "accordion-view"
+   ],
+   "unit_complete": false,
+   "status": "completed",
+   "notes": [
+    "unit complete"
+   ],
+   "seconds": 6.2,
+   "outline_after": "completed"
+  },
+  {
+   "item": "28.1.2",
+   "title": "Switch Virtual Interface Configuration",
+   "module": 28,
+   "type": "LESSON",
+   "components": [
+    "commandwindow-view"
+   ],
+   "unit_complete": true,
+   "status": "already_complete",
+   "notes": [],
+   "seconds": 3.3,
+   "outline_after": "completed"
+  },
+  {
+   "item": "28.1.3",
+   "title": "Syntax Checker - Configure a Switch Virtual Interface",
+   "module": 28,
+   "type": "UNKNOWN",
+   "components": [],
+   "unit_complete": true,
+   "status": "unknown"
+  },
+  {
+   "item": "28.1.4",
+   "title": "Packet Tracer - Implement Basic Connectivity",
+   "module": 28,
+   "type": "LAB",
+   "components": [
+    "pagetracer-view",
+    "quicknav-view"
+   ],
+   "unit_complete": false,
+   "status": "completed",
+   "notes": [],
+   "seconds": 5.2,
+   "outline_after": "completed"
+  },
+  {
+   "item": "28.2.1",
+   "title": "Basic Router Configuration Steps",
+   "module": 28,
+   "type": "LESSON",
+   "components": [
+    "commandwindow-view",
+    "commandwindow-view",
+    "commandwindow-view",
+    "commandwindow-view",
+    "commandwindow-view",
+    "commandwindow-view",
+    "commandwindow-view"
+   ],
+   "unit_complete": true,
+   "status": "already_complete",
+   "notes": [],
+   "seconds": 3.9,
+   "outline_after": "completed"
+  },
+  {
+   "item": "28.2.2",
+   "title": "Basic Router Configuration Example",
+   "module": 28,
+   "type": "LESSON",
+   "components": [
+    "commandwindow-view",
+    "text-view",
+    "commandwindow-view",
+    "commandwindow-view",
+    "commandwindow-view",
+    "blank-view"
+   ],
+   "unit_complete": true,
+   "status": "already_complete",
+   "notes": [],
+   "seconds": 3.4,
+   "outline_after": "completed"
+  },
+  {
+   "item": "28.2.3",
+   "title": "Syntax Checker - Configure Initial Router Settings",
+   "module": 28,
+   "type": "UNKNOWN",
+   "components": [],
+   "unit_complete": false,
+   "status": "unknown"
+  },
+  {
+   "item": "28.2.4",
+   "title": "Packet Tracer - Configure Initial Router Settings",
+   "module": 28,
+   "type": "LAB",
+   "components": [
+    "pagetracer-view",
+    "quicknav-view"
+   ],
+   "unit_complete": false,
+   "status": "completed",
+   "notes": [],
+   "seconds": 5.8,
+   "outline_after": "completed"
+  },
+  {
+   "item": "28.3.1",
+   "title": "Password Recommendations",
+   "module": 28,
+   "type": "LESSON",
+   "components": [
+    "table-view",
+    "table-view",
+    "text-view"
+   ],
+   "unit_complete": false,
+   "status": "completed",
+   "notes": [
+    "completed after scrolling into view"
+   ],
+   "seconds": 6.3,
+   "outline_after": "completed"
+  },
+  {
+   "item": "28.3.3",
+   "title": "Enable SSH",
+   "module": 28,
+   "type": "LESSON",
+   "components": [
+    "commandwindow-view"
+   ],
+   "unit_complete": false,
+   "status": "completed",
+   "notes": [
+    "completed after scrolling into view"
+   ],
+   "seconds": 4.7,
+   "outline_after": "completed"
+  },
+  {
+   "item": "28.3.4",
+   "title": "Syntax Checker - Configure SSH",
+   "module": 28,
+   "type": "LESSON",
+   "components": [
+    "blank-view"
+   ],
+   "unit_complete": true,
+   "status": "already_complete",
+   "notes": [],
+   "seconds": 3.7,
+   "outline_after": "completed"
+  },
+  {
+   "item": "28.3.5",
+   "title": "Verify SSH",
+   "module": 28,
+   "type": "LESSON",
+   "components": [
+    "graphic-view",
+    "text-view",
+    "commandwindow-view"
+   ],
+   "unit_complete": false,
+   "status": "completed",
+   "notes": [
+    "completed after scrolling into view"
+   ],
+   "seconds": 5.7,
+   "outline_after": "completed"
+  },
+  {
+   "item": "28.3.6",
+   "title": "Packet Tracer - Configure SSH",
+   "module": 28,
+   "type": "LAB",
+   "components": [
+    "pagetracer-view",
+    "quicknav-view"
+   ],
+   "unit_complete": false,
+   "status": "completed",
+   "notes": [],
+   "seconds": 5.7,
+   "outline_after": "completed"
+  },
+  {
+   "item": "28.4.1",
+   "title": "Default Gateway on a Host",
+   "module": 28,
+   "type": "LESSON",
+   "components": [
+    "graphic-view",
+    "graphic-view",
+    "text-view"
+   ],
+   "unit_complete": false,
+   "status": "completed",
+   "notes": [
+    "completed after scrolling into view"
+   ],
+   "seconds": 7.0,
+   "outline_after": "completed"
+  },
+  {
+   "item": "28.4.2",
+   "title": "Default Gateway on a Switch",
+   "module": 28,
+   "type": "LESSON",
+   "components": [
+    "dynamic-graphic-view",
+    "text-view"
+   ],
+   "unit_complete": false,
+   "status": "completed",
+   "notes": [
+    "completed after scrolling into view"
+   ],
+   "seconds": 5.6,
+   "outline_after": "completed"
+  },
+  {
+   "item": "28.4.3",
+   "title": "Syntax Checker - Configure the Default Gateway",
+   "module": 28,
+   "type": "UNKNOWN",
+   "components": [],
+   "unit_complete": true,
+   "status": "unknown"
+  },
+  {
+   "item": "28.4.4",
+   "title": "Packet Tracer Tutored Activity - Build a Switch and Router Network",
+   "module": 28,
+   "type": "LAB",
+   "components": [
+    "packettracer-view"
+   ],
+   "unit_complete": false,
+   "status": "completed",
+   "notes": [],
+   "seconds": 5.9,
+   "outline_after": "completed"
+  },
+  {
+   "item": "28.4.5",
+   "title": "Packet Tracer - Troubleshoot Default Gateway Issues",
+   "module": 28,
+   "type": "LAB",
+   "components": [
+    "pagetracer-view",
+    "quicknav-view"
+   ],
+   "unit_complete": false,
+   "status": "completed",
+   "notes": [],
+   "seconds": 5.8,
+   "outline_after": "completed"
+  },
+  {
+   "item": "28.5.1",
+   "title": "What Did I Learn in this Module?",
+   "module": 28,
+   "type": "INTERACTIVE",
+   "components": [
+    "accordion-view"
+   ],
+   "unit_complete": false,
+   "status": "completed",
+   "notes": [
+    "unit complete"
+   ],
+   "seconds": 9.5,
+   "outline_after": "completed"
+  },
+  {
+   "item": "28.5.2",
+   "title": "Webster - Reflection Questions",
+   "module": 28,
+   "type": "LESSON",
+   "components": [
+    "text-view",
+    "graphic-view",
+    "blank-view"
+   ],
+   "unit_complete": true,
+   "status": "already_complete",
+   "notes": [],
+   "seconds": 3.4,
+   "outline_after": "completed"
+  },
+  {
+   "item": "28.5.3",
+   "title": "Build a Small Cisco Network Quiz",
+   "module": 28,
+   "type": "ASSESSMENT",
+   "components": [
+    "adaptive-start-screen-view",
+    "quicknav-view"
+   ],
+   "unit_complete": false,
+   "status": "needs_user",
+   "notes": [
+    "graded assessment - never automated"
+   ],
+   "seconds": 37.0
+  },
+  {
+   "item": "29.0.1",
+   "title": "Webster - Why Should I Take this Module?",
+   "module": 29,
+   "type": "INTRODUCTION",
+   "components": [
+    "text-view",
+    "graphic-view"
+   ],
+   "unit_complete": false,
+   "status": "completed",
+   "notes": [
+    "completed after scrolling into view"
+   ],
+   "seconds": 7.7,
+   "outline_after": "completed"
+  },
+  {
+   "item": "29.0.2",
+   "title": "What Will I Learn in this Module?",
+   "module": 29,
+   "type": "INTRODUCTION",
+   "components": [
+    "table-view",
+    "quicknav-view"
+   ],
+   "unit_complete": true,
+   "status": "already_complete",
+   "notes": [],
+   "seconds": 4.5,
+   "outline_after": "completed"
+  },
+  {
+   "item": "29.1.1",
+   "title": "ICMPv4 and ICMPv6 Messages",
+   "module": 29,
+   "type": "LESSON",
+   "components": [
+    "text-view"
+   ],
+   "unit_complete": true,
+   "status": "already_complete",
+   "notes": [],
+   "seconds": 5.3,
+   "outline_after": "completed"
+  },
+  {
+   "item": "29.1.2",
+   "title": "Host Reachability",
+   "module": 29,
+   "type": "INTERACTIVE",
+   "components": [
+    "adobe-animate-view"
+   ],
+   "unit_complete": false,
+   "status": "completed",
+   "notes": [
+    "unit complete"
+   ],
+   "seconds": 5.6,
+   "outline_after": "completed"
+  },
+  {
+   "item": "29.1.3",
+   "title": "Destination or Service Unreachable",
+   "module": 29,
+   "type": "LESSON",
+   "components": [
+    "text-view"
+   ],
+   "unit_complete": true,
+   "status": "already_complete",
+   "notes": [],
+   "seconds": 3.4,
+   "outline_after": "completed"
+  },
+  {
+   "item": "29.1.4",
+   "title": "Time Exceeded",
+   "module": 29,
+   "type": "LESSON",
+   "components": [
+    "text-view"
+   ],
+   "unit_complete": true,
+   "status": "already_complete",
+   "notes": [],
+   "seconds": 3.8,
+   "outline_after": "completed"
+  },
+  {
+   "item": "29.1.5",
+   "title": "ICMPv6 Messages",
+   "module": 29,
+   "type": "INTERACTIVE",
+   "components": [
+    "tabs-view"
+   ],
+   "unit_complete": false,
+   "status": "completed",
+   "notes": [
+    "unit complete"
+   ],
+   "seconds": 6.9,
+   "outline_after": "completed"
+  },
+  {
+   "item": "29.1.6",
+   "title": "Check Your Understanding - ICMP Messages",
+   "module": 29,
+   "type": "KNOWLEDGE_CHECK",
+   "components": [
+    "mcq-view",
+    "mcq-view",
+    "quicknav-view"
+   ],
+   "unit_complete": false,
+   "status": "completed",
+   "notes": [],
+   "seconds": 5.0,
+   "outline_after": "completed"
+  },
+  {
+   "item": "29.2.1",
+   "title": "Ping - Test Connectivity",
+   "module": 29,
+   "type": "LESSON",
+   "components": [
+    "text-view"
+   ],
+   "unit_complete": true,
+   "status": "already_complete",
+   "notes": [],
+   "seconds": 6.1,
+   "outline_after": "completed"
+  },
+  {
+   "item": "29.2.2",
+   "title": "Ping the Loopback",
+   "module": 29,
+   "type": "LESSON",
+   "components": [
+    "dynamic-graphic-view"
+   ],
+   "unit_complete": false,
+   "status": "completed",
+   "notes": [
+    "completed after scrolling into view"
+   ],
+   "seconds": 4.3,
+   "outline_after": "completed"
+  },
+  {
+   "item": "29.2.3",
+   "title": "Ping the Default Gateway",
+   "module": 29,
+   "type": "LESSON",
+   "components": [
+    "dynamic-graphic-view"
+   ],
+   "unit_complete": false,
+   "status": "completed",
+   "notes": [
+    "completed after scrolling into view"
+   ],
+   "seconds": 5.1,
+   "outline_after": "completed"
+  },
+  {
+   "item": "29.2.4",
+   "title": "Ping a Remote Host",
+   "module": 29,
+   "type": "INTERACTIVE",
+   "components": [
+    "adobe-animate-view"
+   ],
+   "unit_complete": false,
+   "status": "completed",
+   "notes": [
+    "unit complete"
+   ],
+   "seconds": 4.9,
+   "outline_after": "completed"
+  },
+  {
+   "item": "29.2.5",
+   "title": "Traceroute - Test the Path",
+   "module": 29,
+   "type": "INTERACTIVE",
+   "components": [
+    "adobe-animate-view",
+    "text-view"
+   ],
+   "unit_complete": false,
+   "status": "completed",
+   "notes": [
+    "unit complete"
+   ],
+   "seconds": 6.1,
+   "outline_after": "completed"
+  },
+  {
+   "item": "29.2.6",
+   "title": "Packet Tracer - Verify IPv4 and IPv6 Addressing",
+   "module": 29,
+   "type": "LAB",
+   "components": [
+    "pagetracer-view"
+   ],
+   "unit_complete": false,
+   "status": "completed",
+   "notes": [],
+   "seconds": 5.6,
+   "outline_after": "completed"
+  },
+  {
+   "item": "29.2.7",
+   "title": "Packet Tracer - Use Ping and Traceroute to Test Network Connectivity",
+   "module": 29,
+   "type": "LAB",
+   "components": [
+    "pagetracer-view",
+    "quicknav-view"
+   ],
+   "unit_complete": false,
+   "status": "completed",
+   "notes": [],
+   "seconds": 5.2,
+   "outline_after": "completed"
+  },
+  {
+   "item": "29.3.1",
+   "title": "Packet Tracer - Use ICMP to Test and Correct Network Connectivity",
+   "module": 29,
+   "type": "LAB",
+   "components": [
+    "pagetracer-view"
+   ],
+   "unit_complete": false,
+   "status": "completed",
+   "notes": [],
+   "seconds": 6.4,
+   "outline_after": "completed"
+  },
+  {
+   "item": "29.3.2",
+   "title": "What Did I Learn in this Module?",
+   "module": 29,
+   "type": "INTERACTIVE",
+   "components": [
+    "accordion-view"
+   ],
+   "unit_complete": false,
+   "status": "completed",
+   "notes": [
+    "unit complete"
+   ],
+   "seconds": 5.7,
+   "outline_after": "completed"
+  },
+  {
+   "item": "29.3.3",
+   "title": "Webster - Reflection Questions",
+   "module": 29,
+   "type": "LESSON",
+   "components": [
+    "text-view",
+    "graphic-view",
+    "blank-view"
+   ],
+   "unit_complete": true,
+   "status": "already_complete",
+   "notes": [],
+   "seconds": 3.4,
+   "outline_after": "completed"
+  },
+  {
+   "item": "29.3.4",
+   "title": "ICMP Quiz",
+   "module": 29,
+   "type": "ASSESSMENT",
+   "components": [
+    "adaptive-start-screen-view"
+   ],
+   "unit_complete": false,
+   "status": "needs_user",
+   "notes": [
+    "graded assessment - never automated"
+   ],
+   "seconds": 34.4
+  },
+  {
+   "item": "30.0.1",
+   "title": "Webster - Why Should I Take This Module?",
+   "module": 30,
+   "type": "INTRODUCTION",
+   "components": [
+    "text-view",
+    "graphic-view"
+   ],
+   "unit_complete": false,
+   "status": "completed",
+   "notes": [
+    "completed after scrolling into view"
+   ],
+   "seconds": 7.2,
+   "outline_after": "completed"
+  },
+  {
+   "item": "30.0.2",
+   "title": "What Will I Learn in This Module?",
+   "module": 30,
+   "type": "INTRODUCTION",
+   "components": [
+    "table-view",
+    "quicknav-view"
+   ],
+   "unit_complete": true,
+   "status": "already_complete",
+   "notes": [],
+   "seconds": 5.4,
+   "outline_after": "completed"
+  },
+  {
+   "item": "30.1.1",
+   "title": "The Physical Connection",
+   "module": 30,
+   "type": "LESSON",
+   "components": [
+    "graphic-view",
+    "text-view",
+    "graphic-view",
+    "graphic-view",
+    "text-view"
+   ],
+   "unit_complete": false,
+   "status": "completed",
+   "notes": [
+    "completed after scrolling into view"
+   ],
+   "seconds": 9.3,
+   "outline_after": "completed"
+  },
+  {
+   "item": "30.1.2",
+   "title": "The Physical Layer",
+   "module": 30,
+   "type": "INTERACTIVE",
+   "components": [
+    "adobe-animate-view"
+   ],
+   "unit_complete": false,
+   "status": "completed",
+   "notes": [
+    "unit complete"
+   ],
+   "seconds": 5.8,
+   "outline_after": "completed"
+  },
+  {
+   "item": "30.1.3",
+   "title": "Check Your Understanding - Purpose of the Physical Layer",
+   "module": 30,
+   "type": "KNOWLEDGE_CHECK",
+   "components": [
+    "mcq-view",
+    "mcq-view",
+    "mcq-view",
+    "mcq-view",
+    "quicknav-view"
+   ],
+   "unit_complete": false,
+   "status": "completed",
+   "notes": [],
+   "seconds": 5.5,
+   "outline_after": "completed"
+  },
+  {
+   "item": "30.2.1",
+   "title": "Physical Layer Standards",
+   "module": 30,
+   "type": "LESSON",
+   "components": [
+    "dynamic-graphic-view"
+   ],
+   "unit_complete": false,
+   "status": "completed",
+   "notes": [
+    "completed after scrolling into view"
+   ],
+   "seconds": 5.8,
+   "outline_after": "completed"
+  },
+  {
+   "item": "30.2.2",
+   "title": "Physical Components",
+   "module": 30,
+   "type": "LESSON",
+   "components": [
+    "text-view"
+   ],
+   "unit_complete": true,
+   "status": "already_complete",
+   "notes": [],
+   "seconds": 6.7,
+   "outline_after": "completed"
+  },
+  {
+   "item": "30.2.3",
+   "title": "Encoding",
+   "module": 30,
+   "type": "LESSON",
+   "components": [
+    "dynamic-graphic-view"
+   ],
+   "unit_complete": false,
+   "status": "completed",
+   "notes": [
+    "completed after scrolling into view"
+   ],
+   "seconds": 4.5,
+   "outline_after": "completed"
+  },
+  {
+   "item": "30.2.4",
+   "title": "Signaling",
+   "module": 30,
+   "type": "INTERACTIVE",
+   "components": [
+    "tabs-view"
+   ],
+   "unit_complete": false,
+   "status": "completed",
+   "notes": [
+    "unit complete"
+   ],
+   "seconds": 7.0,
+   "outline_after": "completed"
+  },
+  {
+   "item": "30.2.5",
+   "title": "Video - Bandwidth",
+   "module": 30,
+   "type": "VIDEO",
+   "components": [
+    "media-view"
+   ],
+   "unit_complete": false,
+   "status": "completed",
+   "notes": [],
+   "seconds": 7.0,
+   "outline_after": "completed"
+  },
+  {
+   "item": "30.2.6",
+   "title": "Bandwidth",
+   "module": 30,
+   "type": "LESSON",
+   "components": [
+    "table-view"
+   ],
+   "unit_complete": false,
+   "status": "completed",
+   "notes": [
+    "completed after scrolling into view"
+   ],
+   "seconds": 4.5,
+   "outline_after": "completed"
+  },
+  {
+   "item": "30.2.7",
+   "title": "Bandwidth Terminology",
+   "module": 30,
+   "type": "LESSON",
+   "components": [
+    "dynamic-graphic-view",
+    "blank-view"
+   ],
+   "unit_complete": false,
+   "status": "completed",
+   "notes": [
+    "completed after scrolling into view"
+   ],
+   "seconds": 6.0,
+   "outline_after": "completed"
+  },
+  {
+   "item": "30.2.8",
+   "title": "Check Your Understanding - Physical Layer Characteristics",
+   "module": 30,
+   "type": "KNOWLEDGE_CHECK",
+   "components": [
+    "mcq-view",
+    "mcq-view",
+    "mcq-view",
+    "mcq-view",
+    "mcq-view",
+    "quicknav-view"
+   ],
+   "unit_complete": false,
+   "status": "completed",
+   "notes": [],
+   "seconds": 6.1,
+   "outline_after": "completed"
+  },
+  {
+   "item": "30.3.1",
+   "title": "Characteristics of Copper Cabling",
+   "module": 30,
+   "type": "LESSON",
+   "components": [
+    "dynamic-graphic-view",
+    "text-view"
+   ],
+   "unit_complete": false,
+   "status": "completed",
+   "notes": [
+    "completed after scrolling into view"
+   ],
+   "seconds": 6.4,
+   "outline_after": "completed"
+  },
+  {
+   "item": "30.3.2",
+   "title": "Types of Copper Cabling",
+   "module": 30,
+   "type": "LESSON",
+   "components": [
+    "dynamic-graphic-view"
+   ],
+   "unit_complete": false,
+   "status": "completed",
+   "notes": [
+    "completed after scrolling into view"
+   ],
+   "seconds": 4.8,
+   "outline_after": "completed"
+  },
+  {
+   "item": "30.3.3",
+   "title": "Unshielded twisted-pair (UTP)",
+   "module": 30,
+   "type": "LESSON",
+   "components": [
+    "dynamic-graphic-view"
+   ],
+   "unit_complete": false,
+   "status": "completed",
+   "notes": [
+    "completed after scrolling into view"
+   ],
+   "seconds": 4.6,
+   "outline_after": "completed"
+  },
+  {
+   "item": "30.3.4",
+   "title": "Shielded Twisted-Pair (STP)",
+   "module": 30,
+   "type": "LESSON",
+   "components": [
+    "dynamic-graphic-view"
+   ],
+   "unit_complete": false,
+   "status": "completed",
+   "notes": [
+    "completed after scrolling into view"
+   ],
+   "seconds": 4.4,
+   "outline_after": "completed"
+  },
+  {
+   "item": "30.3.5",
+   "title": "Coaxial cable",
+   "module": 30,
+   "type": "LESSON",
+   "components": [
+    "dynamic-graphic-view",
+    "blank-view"
+   ],
+   "unit_complete": false,
+   "status": "completed",
+   "notes": [
+    "completed after scrolling into view"
+   ],
+   "seconds": 5.8,
+   "outline_after": "completed"
+  },
+  {
+   "item": "30.3.6",
+   "title": "Check Your Understanding - Copper Cabling",
+   "module": 30,
+   "type": "KNOWLEDGE_CHECK",
+   "components": [
+    "mcq-view",
+    "mcq-view",
+    "mcq-view",
+    "mcq-view",
+    "quicknav-view"
+   ],
+   "unit_complete": false,
+   "status": "completed",
+   "notes": [],
+   "seconds": 6.1,
+   "outline_after": "completed"
+  },
+  {
+   "item": "30.4.1",
+   "title": "Properties of UTP Cabling",
+   "module": 30,
+   "type": "LESSON",
+   "components": [
+    "graphic-view"
+   ],
+   "unit_complete": false,
+   "status": "completed",
+   "notes": [
+    "completed after scrolling into view"
+   ],
+   "seconds": 5.6,
+   "outline_after": "completed"
+  },
+  {
+   "item": "30.4.2",
+   "title": "UTP Cabling Standards and Connectors",
+   "module": 30,
+   "type": "LESSON",
+   "components": [
+    "dynamic-graphic-view",
+    "dynamic-graphic-view",
+    "dynamic-graphic-view",
+    "dynamic-graphic-view",
+    "dynamic-graphic-view",
+    "text-view"
+   ],
+   "unit_complete": false,
+   "status": "completed",
+   "notes": [
+    "completed after scrolling into view"
+   ],
+   "seconds": 8.1,
+   "outline_after": "completed"
+  },
+  {
+   "item": "30.4.3",
+   "title": "Straight-through and Crossover UTP Cables",
+   "module": 30,
+   "type": "LESSON",
+   "components": [
+    "dynamic-graphic-view",
+    "table-view"
+   ],
+   "unit_complete": false,
+   "status": "completed",
+   "notes": [
+    "completed after scrolling into view"
+   ],
+   "seconds": 5.1,
+   "outline_after": "completed"
+  },
+  {
+   "item": "30.4.4",
+   "title": "Activity - Cable Pinouts",
+   "module": 30,
+   "type": "ACTIVITY",
+   "components": [
+    "cable-pinout-view",
+    "cable-pinout-view",
+    "quicknav-view"
+   ],
+   "unit_complete": false,
+   "status": "needs_user",
+   "notes": [
+    "cable-pinout-view: did not complete",
+    "cable-pinout-view: did not complete"
+   ],
+   "seconds": 72.5
+  },
+  {
+   "item": "30.5.1",
+   "title": "Properties of Fiber-Optic Cabling",
+   "module": 30,
+   "type": "LESSON",
+   "components": [
+    "graphic-view"
+   ],
+   "unit_complete": false,
+   "status": "completed",
+   "notes": [
+    "completed after scrolling into view"
+   ],
+   "seconds": 4.9,
+   "outline_after": "completed"
+  },
+  {
+   "item": "30.5.2",
+   "title": "Types of Fiber Media",
+   "module": 30,
+   "type": "INTERACTIVE",
+   "components": [
+    "tabs-view",
+    "text-view"
+   ],
+   "unit_complete": false,
+   "status": "completed",
+   "notes": [
+    "unit complete"
+   ],
+   "seconds": 6.8,
+   "outline_after": "completed"
+  },
+  {
+   "item": "30.5.4",
+   "title": "Fiber-Optic Connectors",
+   "module": 30,
+   "type": "INTERACTIVE",
+   "components": [
+    "tabs-view",
+    "text-view"
+   ],
+   "unit_complete": false,
+   "status": "completed",
+   "notes": [
+    "unit complete"
+   ],
+   "seconds": 8.0,
+   "outline_after": "completed"
+  },
+  {
+   "item": "30.5.5",
+   "title": "Fiber Patch Cords",
+   "module": 30,
+   "type": "INTERACTIVE",
+   "components": [
+    "tabs-view",
+    "text-view"
+   ],
+   "unit_complete": false,
+   "status": "completed",
+   "notes": [
+    "unit complete"
+   ],
+   "seconds": 8.3,
+   "outline_after": "completed"
+  },
+  {
+   "item": "30.5.6",
+   "title": "Fiber versus Copper",
+   "module": 30,
+   "type": "LESSON",
+   "components": [
+    "table-view",
+    "blank-view"
+   ],
+   "unit_complete": false,
+   "status": "completed",
+   "notes": [
+    "completed after scrolling into view"
+   ],
+   "seconds": 5.5,
+   "outline_after": "completed"
+  },
+  {
+   "item": "30.5.7",
+   "title": "Check Your Understanding - Fiber-Optic Cabling",
+   "module": 30,
+   "type": "KNOWLEDGE_CHECK",
+   "components": [
+    "mcq-view",
+    "mcq-view",
+    "mcq-view",
+    "mcq-view",
+    "mcq-view",
+    "mcq-view",
+    "quicknav-view"
+   ],
+   "unit_complete": false,
+   "status": "completed",
+   "notes": [],
+   "seconds": 7.3,
+   "outline_after": "completed"
+  },
+  {
+   "item": "30.6.1",
+   "title": "What Did I Learn in this Module?",
+   "module": 30,
+   "type": "INTERACTIVE",
+   "components": [
+    "accordion-view"
+   ],
+   "unit_complete": false,
+   "status": "completed",
+   "notes": [
+    "unit complete"
+   ],
+   "seconds": 8.9,
+   "outline_after": "completed"
+  },
+  {
+   "item": "30.6.2",
+   "title": "Webster - Reflection Questions",
+   "module": 30,
+   "type": "LESSON",
+   "components": [
+    "graphic-view",
+    "text-view",
+    "blank-view"
+   ],
+   "unit_complete": true,
+   "status": "already_complete",
+   "notes": [],
+   "seconds": 3.5,
+   "outline_after": "completed"
+  },
+  {
+   "item": "30.6.3",
+   "title": "Physical Layer Quiz",
+   "module": 30,
+   "type": "ASSESSMENT",
+   "components": [
+    "adaptive-start-screen-view"
+   ],
+   "unit_complete": false,
+   "status": "needs_user",
+   "notes": [
+    "graded assessment - never automated"
+   ],
+   "seconds": 34.0
+  },
+  {
+   "item": "31.0.1",
+   "title": "Webster - Why Should I Take This Module?",
+   "module": 31,
+   "type": "INTRODUCTION",
+   "components": [
+    "graphic-view",
+    "text-view"
+   ],
+   "unit_complete": false,
+   "status": "completed",
+   "notes": [
+    "completed after scrolling into view"
+   ],
+   "seconds": 7.2,
+   "outline_after": "completed"
+  },
+  {
+   "item": "31.0.2",
+   "title": "What Will I Learn in This Module?",
+   "module": 31,
+   "type": "INTRODUCTION",
+   "components": [
+    "table-view",
+    "quicknav-view"
+   ],
+   "unit_complete": true,
+   "status": "already_complete",
+   "notes": [],
+   "seconds": 4.6,
+   "outline_after": "completed"
+  },
+  {
+   "item": "31.1.1",
+   "title": "Physical and Logical Topologies",
+   "module": 31,
+   "type": "LESSON",
+   "components": [
+    "dynamic-graphic-view",
+    "dynamic-graphic-view"
+   ],
+   "unit_complete": false,
+   "status": "completed",
+   "notes": [
+    "completed after scrolling into view"
+   ],
+   "seconds": 9.1,
+   "outline_after": "completed"
+  },
+  {
+   "item": "31.1.2",
+   "title": "Video - The Logical Topology",
+   "module": 31,
+   "type": "VIDEO",
+   "components": [
+    "media-view"
+   ],
+   "unit_complete": false,
+   "status": "completed",
+   "notes": [],
+   "seconds": 7.0,
+   "outline_after": "completed"
+  },
+  {
+   "item": "31.1.3",
+   "title": "WAN Topologies",
+   "module": 31,
+   "type": "INTERACTIVE",
+   "components": [
+    "tabs-view",
+    "text-view",
+    "blank-view"
+   ],
+   "unit_complete": false,
+   "status": "completed",
+   "notes": [
+    "unit complete"
+   ],
+   "seconds": 8.3,
+   "outline_after": "completed"
+  },
+  {
+   "item": "31.1.4",
+   "title": "Point-to-Point WAN Topology",
+   "module": 31,
+   "type": "LESSON",
+   "components": [
+    "dynamic-graphic-view",
+    "text-view",
+    "dynamic-graphic-view"
+   ],
+   "unit_complete": true,
+   "status": "already_complete",
+   "notes": [],
+   "seconds": 4.3,
+   "outline_after": "completed"
+  },
+  {
+   "item": "31.1.5",
+   "title": "LAN Topologies",
+   "module": 31,
+   "type": "LESSON",
+   "components": [
+    "dynamic-graphic-view"
+   ],
+   "unit_complete": false,
+   "status": "completed",
+   "notes": [
+    "completed after scrolling into view"
+   ],
+   "seconds": 4.5,
+   "outline_after": "completed"
+  },
+  {
+   "item": "31.1.6",
+   "title": "Check Your Understanding - Topologies",
+   "module": 31,
+   "type": "KNOWLEDGE_CHECK",
+   "components": [
+    "mcq-view",
+    "mcq-view",
+    "mcq-view",
+    "mcq-view",
+    "quicknav-view"
+   ],
+   "unit_complete": false,
+   "status": "completed",
+   "notes": [],
+   "seconds": 6.6,
+   "outline_after": "completed"
+  },
+  {
+   "item": "31.2.1",
+   "title": "Half and Full Duplex Communication",
+   "module": 31,
+   "type": "INTERACTIVE",
+   "components": [
+    "accordion-view",
+    "text-view"
+   ],
+   "unit_complete": false,
+   "status": "completed",
+   "notes": [
+    "unit complete"
+   ],
+   "seconds": 7.6,
+   "outline_after": "completed"
+  },
+  {
+   "item": "31.2.2",
+   "title": "Access Control Methods",
+   "module": 31,
+   "type": "INTERACTIVE",
+   "components": [
+    "accordion-view",
+    "text-view"
+   ],
+   "unit_complete": false,
+   "status": "completed",
+   "notes": [
+    "unit complete"
+   ],
+   "seconds": 5.6,
+   "outline_after": "completed"
+  },
+  {
+   "item": "31.2.3",
+   "title": "Contention-Based Access - CSMA/CD",
+   "module": 31,
+   "type": "INTERACTIVE",
+   "components": [
+    "tabs-view"
+   ],
+   "unit_complete": false,
+   "status": "completed",
+   "notes": [
+    "unit complete"
+   ],
+   "seconds": 6.7,
+   "outline_after": "completed"
+  },
+  {
+   "item": "31.2.4",
+   "title": "Contention-Based Access - CSMA/CA",
+   "module": 31,
+   "type": "LESSON",
+   "components": [
+    "dynamic-graphic-view",
+    "text-view",
+    "blank-view"
+   ],
+   "unit_complete": false,
+   "status": "completed",
+   "notes": [
+    "completed after scrolling into view"
+   ],
+   "seconds": 6.0,
+   "outline_after": "completed"
+  },
+  {
+   "item": "31.2.5",
+   "title": "Check Your Understanding - Media Access Control Methods",
+   "module": 31,
+   "type": "KNOWLEDGE_CHECK",
+   "components": [
+    "mcq-view",
+    "mcq-view",
+    "mcq-view",
+    "quicknav-view"
+   ],
+   "unit_complete": false,
+   "status": "completed",
+   "notes": [],
+   "seconds": 5.6,
+   "outline_after": "completed"
+  },
+  {
+   "item": "31.3.1",
+   "title": "What Did I Learn in this Module?",
+   "module": 31,
+   "type": "SUMMARY",
+   "components": [
+    "text-view"
+   ],
+   "unit_complete": true,
+   "status": "already_complete",
+   "notes": [],
+   "seconds": 4.7,
+   "outline_after": "completed"
+  },
+  {
+   "item": "31.3.2",
+   "title": "Webster - Reflection Questions",
+   "module": 31,
+   "type": "LESSON",
+   "components": [
+    "graphic-view",
+    "text-view",
+    "blank-view"
+   ],
+   "unit_complete": true,
+   "status": "already_complete",
+   "notes": [],
+   "seconds": 3.8,
+   "outline_after": "in progress"
+  },
+  {
+   "item": "31.3.3",
+   "title": "Data Link Layer Quiz",
+   "module": 31,
+   "type": "ASSESSMENT",
+   "components": [
+    "adaptive-start-screen-view"
+   ],
+   "unit_complete": false,
+   "status": "needs_user",
+   "notes": [
+    "graded assessment - never automated"
+   ],
+   "seconds": 34.7
+  },
+  {
+   "item": "32.0.1",
+   "title": "Webster - Why Should I Take This Module?",
+   "module": 32,
+   "type": "INTRODUCTION",
+   "components": [
+    "graphic-view",
+    "text-view"
+   ],
+   "unit_complete": false,
+   "status": "completed",
+   "notes": [
+    "completed after scrolling into view"
+   ],
+   "seconds": 7.0,
+   "outline_after": "completed"
+  },
+  {
+   "item": "32.0.2",
+   "title": "What Will I Learn in This Module?",
+   "module": 32,
+   "type": "INTRODUCTION",
+   "components": [
+    "table-view",
+    "quicknav-view"
+   ],
+   "unit_complete": true,
+   "status": "already_complete",
+   "notes": [],
+   "seconds": 5.3,
+   "outline_after": "completed"
+  },
+  {
+   "item": "32.1.1",
+   "title": "Host Forwarding Decision",
+   "module": 32,
+   "type": "LESSON",
+   "components": [
+    "dynamic-graphic-view",
+    "text-view"
+   ],
+   "unit_complete": false,
+   "status": "completed",
+   "notes": [
+    "completed after scrolling into view"
+   ],
+   "seconds": 5.7,
+   "outline_after": "completed"
+  },
+  {
+   "item": "32.1.2",
+   "title": "Default Gateway",
+   "module": 32,
+   "type": "LESSON",
+   "components": [
+    "text-view"
+   ],
+   "unit_complete": true,
+   "status": "already_complete",
+   "notes": [],
+   "seconds": 3.6,
+   "outline_after": "completed"
+  },
+  {
+   "item": "32.1.3",
+   "title": "A Host Routes to the Default Gateway",
+   "module": 32,
+   "type": "LESSON",
+   "components": [
+    "dynamic-graphic-view",
+    "text-view",
+    "blank-view"
+   ],
+   "unit_complete": true,
+   "status": "already_complete",
+   "notes": [],
+   "seconds": 3.9,
+   "outline_after": "completed"
+  },
+  {
+   "item": "32.1.4",
+   "title": "Host Routing Tables",
+   "module": 32,
+   "type": "LESSON",
+   "components": [
+    "graphic-view",
+    "commandwindow-view",
+    "text-view"
+   ],
+   "unit_complete": true,
+   "status": "already_complete",
+   "notes": [],
+   "seconds": 3.7,
+   "outline_after": "in progress"
+  },
+  {
+   "item": "32.1.5",
+   "title": "Check Your Understanding - How a Host Routes",
+   "module": 32,
+   "type": "KNOWLEDGE_CHECK",
+   "components": [
+    "mcq-view",
+    "mcq-view",
+    "mcq-view",
+    "quicknav-view"
+   ],
+   "unit_complete": false,
+   "status": "completed",
+   "notes": [],
+   "seconds": 5.3,
+   "outline_after": "completed"
+  },
+  {
+   "item": "32.2.1",
+   "title": "Router Packet Forwarding Decision",
+   "module": 32,
+   "type": "LESSON",
+   "components": [
+    "dynamic-graphic-view",
+    "table-view"
+   ],
+   "unit_complete": false,
+   "status": "completed",
+   "notes": [
+    "completed after scrolling into view"
+   ],
+   "seconds": 7.6,
+   "outline_after": "completed"
+  },
+  {
+   "item": "32.2.2",
+   "title": "IP Router Routing Table",
+   "module": 32,
+   "type": "LESSON",
+   "components": [
+    "dynamic-graphic-view",
+    "text-view"
+   ],
+   "unit_complete": false,
+   "status": "completed",
+   "notes": [
+    "completed after scrolling into view"
+   ],
+   "seconds": 5.5,
+   "outline_after": "completed"
+  },
+  {
+   "item": "32.2.3",
+   "title": "Static Routing",
+   "module": 32,
+   "type": "LESSON",
+   "components": [
+    "dynamic-graphic-view",
+    "dynamic-graphic-view",
+    "text-view"
+   ],
+   "unit_complete": true,
+   "status": "already_complete",
+   "notes": [],
+   "seconds": 3.7,
+   "outline_after": "completed"
+  },
+  {
+   "item": "32.2.4",
+   "title": "Dynamic Routing",
+   "module": 32,
+   "type": "LESSON",
+   "components": [
+    "graphic-view",
+    "text-view",
+    "dynamic-graphic-view",
+    "text-view"
+   ],
+   "unit_complete": false,
+   "status": "completed",
+   "notes": [
+    "completed after scrolling into view"
+   ],
+   "seconds": 7.1,
+   "outline_after": "completed"
+  },
+  {
+   "item": "32.2.5",
+   "title": "Video - IPv4 Router Routing Tables",
+   "module": 32,
+   "type": "VIDEO",
+   "components": [
+    "media-view"
+   ],
+   "unit_complete": false,
+   "status": "completed",
+   "notes": [],
+   "seconds": 5.9,
+   "outline_after": "completed"
+  },
+  {
+   "item": "32.2.6",
+   "title": "Introduction to an IPv4 Routing Table",
+   "module": 32,
+   "type": "INTRODUCTION",
+   "components": [
+    "dynamic-graphic-view",
+    "commandwindow-view",
+    "text-view",
+    "blank-view"
+   ],
+   "unit_complete": true,
+   "status": "already_complete",
+   "notes": [],
+   "seconds": 4.0,
+   "outline_after": "in progress"
+  },
+  {
+   "item": "32.2.7",
+   "title": "Check Your Understanding - Introduction to Routing",
+   "module": 32,
+   "type": "KNOWLEDGE_CHECK",
+   "components": [
+    "mcq-view",
+    "mcq-view",
+    "mcq-view",
+    "mcq-view",
+    "mcq-view",
+    "quicknav-view"
+   ],
+   "unit_complete": false,
+   "status": "completed",
+   "notes": [],
+   "seconds": 6.9,
+   "outline_after": "completed"
+  },
+  {
+   "item": "32.3.1",
+   "title": "What Did I Learn in This Module?",
+   "module": 32,
+   "type": "SUMMARY",
+   "components": [
+    "text-view"
+   ],
+   "unit_complete": false,
+   "status": "completed",
+   "notes": [
+    "unit complete"
+   ],
+   "seconds": 5.5,
+   "outline_after": "completed"
+  },
+  {
+   "item": "32.3.2",
+   "title": "Webster - Reflection Questions",
+   "module": 32,
+   "type": "LESSON",
+   "components": [
+    "graphic-view",
+    "text-view",
+    "blank-view"
+   ],
+   "unit_complete": true,
+   "status": "already_complete",
+   "notes": [],
+   "seconds": 3.7,
+   "outline_after": "completed"
+  },
+  {
+   "item": "32.3.3",
+   "title": "Routing at the Network Layer Quiz",
+   "module": 32,
+   "type": "ASSESSMENT",
+   "components": [
+    "adaptive-start-screen-view"
+   ],
+   "unit_complete": false,
+   "status": "needs_user",
+   "notes": [
+    "graded assessment - never automated"
+   ],
+   "seconds": 34.3
+  },
+  {
+   "item": "33.0.1",
+   "title": "Webster - Why Should I Take This Module?",
+   "module": 33,
+   "type": "INTRODUCTION",
+   "components": [
+    "text-view",
+    "graphic-view"
+   ],
+   "unit_complete": false,
+   "status": "completed",
+   "notes": [
+    "completed after scrolling into view"
+   ],
+   "seconds": 8.0,
+   "outline_after": "completed"
+  },
+  {
+   "item": "33.0.2",
+   "title": "What Will I Learn in This Module?",
+   "module": 33,
+   "type": "INTRODUCTION",
+   "components": [
+    "table-view",
+    "quicknav-view"
+   ],
+   "unit_complete": false,
+   "status": "completed",
+   "notes": [
+    "completed after scrolling into view"
+   ],
+   "seconds": 5.9,
+   "outline_after": "completed"
+  },
+  {
+   "item": "33.1.1",
+   "title": "Unicast, Multicast, Anycast",
+   "module": 33,
+   "type": "LESSON",
+   "components": [
+    "text-view"
+   ],
+   "unit_complete": true,
+   "status": "already_complete",
+   "notes": [],
+   "seconds": 5.0,
+   "outline_after": "completed"
+  },
+  {
+   "item": "33.1.2",
+   "title": "IPv6 Prefix Length",
+   "module": 33,
+   "type": "LESSON",
+   "components": [
+    "dynamic-graphic-view",
+    "text-view"
+   ],
+   "unit_complete": false,
+   "status": "completed",
+   "notes": [
+    "completed after scrolling into view"
+   ],
+   "seconds": 5.0,
+   "outline_after": "completed"
+  },
+  {
+   "item": "33.1.3",
+   "title": "Types of IPv6 Unicast Addresses",
+   "module": 33,
+   "type": "LESSON",
+   "components": [
+    "dynamic-graphic-view",
+    "text-view"
+   ],
+   "unit_complete": false,
+   "status": "completed",
+   "notes": [
+    "completed after scrolling into view"
+   ],
+   "seconds": 5.0,
+   "outline_after": "completed"
+  },
+  {
+   "item": "33.1.4",
+   "title": "A Note About the Unique Local Address",
+   "module": 33,
+   "type": "LESSON",
+   "components": [
+    "text-view"
+   ],
+   "unit_complete": true,
+   "status": "already_complete",
+   "notes": [],
+   "seconds": 3.9,
+   "outline_after": "completed"
+  },
+  {
+   "item": "33.1.5",
+   "title": "IPv6 GUA",
+   "module": 33,
+   "type": "LESSON",
+   "components": [
+    "dynamic-graphic-view",
+    "dynamic-graphic-view",
+    "text-view"
+   ],
+   "unit_complete": false,
+   "status": "completed",
+   "notes": [
+    "completed after scrolling into view"
+   ],
+   "seconds": 6.5,
+   "outline_after": "completed"
+  },
+  {
+   "item": "33.1.6",
+   "title": "IPv6 GUA Structure",
+   "module": 33,
+   "type": "LESSON",
+   "components": [
+    "text-view"
+   ],
+   "unit_complete": false,
+   "status": "completed",
+   "notes": [
+    "completed after scrolling into view"
+   ],
+   "seconds": 4.8,
+   "outline_after": "completed"
+  },
+  {
+   "item": "33.1.7",
+   "title": "IPv6 LLA",
+   "module": 33,
+   "type": "LESSON",
+   "components": [
+    "dynamic-graphic-view",
+    "dynamic-graphic-view",
+    "blank-view"
+   ],
+   "unit_complete": false,
+   "status": "completed",
+   "notes": [
+    "completed after scrolling into view"
+   ],
+   "seconds": 6.0,
+   "outline_after": "completed"
+  },
+  {
+   "item": "33.1.8",
+   "title": "Check Your Understanding - IPv6 Address Types",
+   "module": 33,
+   "type": "KNOWLEDGE_CHECK",
+   "components": [
+    "mcq-view",
+    "mcq-view",
+    "mcq-view",
+    "mcq-view",
+    "mcq-view",
+    "quicknav-view"
+   ],
+   "unit_complete": false,
+   "status": "completed",
+   "notes": [],
+   "seconds": 6.9,
+   "outline_after": "completed"
+  },
+  {
+   "item": "33.2.1",
+   "title": "Static GUA Configuration on a Router",
+   "module": 33,
+   "type": "LESSON",
+   "components": [
+    "graphic-view",
+    "commandwindow-view"
+   ],
+   "unit_complete": false,
+   "status": "completed",
+   "notes": [
+    "completed after scrolling into view"
+   ],
+   "seconds": 5.4,
+   "outline_after": "completed"
+  },
+  {
+   "item": "33.2.2",
+   "title": "Static GUA Configuration on a Windows Host",
+   "module": 33,
+   "type": "LESSON",
+   "components": [
+    "dynamic-graphic-view",
+    "text-view"
+   ],
+   "unit_complete": false,
+   "status": "completed",
+   "notes": [
+    "completed after scrolling into view"
+   ],
+   "seconds": 4.9,
+   "outline_after": "completed"
+  },
+  {
+   "item": "33.2.3",
+   "title": "Static Configuration of a Link-Local Unicast Address",
+   "module": 33,
+   "type": "LESSON",
+   "components": [
+    "graphic-view",
+    "commandwindow-view",
+    "text-view"
+   ],
+   "unit_complete": false,
+   "status": "completed",
+   "notes": [
+    "completed after scrolling into view"
+   ],
+   "seconds": 5.5,
+   "outline_after": "completed"
+  },
+  {
+   "item": "33.2.4",
+   "title": "Syntax Checker - GUA and LLA Static Configuration",
+   "module": 33,
+   "type": "LESSON",
+   "components": [
+    "graphic-view",
+    "quicknav-view"
+   ],
+   "unit_complete": true,
+   "status": "already_complete",
+   "notes": [],
+   "seconds": 3.4,
+   "outline_after": "completed"
+  },
+  {
+   "item": "33.3.1",
+   "title": "Video - RS and RA Messages",
+   "module": 33,
+   "type": "VIDEO",
+   "components": [
+    "media-view"
+   ],
+   "unit_complete": false,
+   "status": "completed",
+   "notes": [],
+   "seconds": 9.0,
+   "outline_after": "completed"
+  },
+  {
+   "item": "33.3.2",
+   "title": "RS and RA Messages",
+   "module": 33,
+   "type": "LESSON",
+   "components": [
+    "dynamic-graphic-view",
+    "text-view"
+   ],
+   "unit_complete": false,
+   "status": "completed",
+   "notes": [
+    "completed after scrolling into view"
+   ],
+   "seconds": 5.1,
+   "outline_after": "completed"
+  },
+  {
+   "item": "33.3.3",
+   "title": "Method 1: SLAAC",
+   "module": 33,
+   "type": "LESSON",
+   "components": [
+    "dynamic-graphic-view"
+   ],
+   "unit_complete": false,
+   "status": "completed",
+   "notes": [
+    "completed after scrolling into view"
+   ],
+   "seconds": 4.5,
+   "outline_after": "completed"
+  },
+  {
+   "item": "33.3.4",
+   "title": "Method 2: SLAAC and Stateless DHCPv6",
+   "module": 33,
+   "type": "LESSON",
+   "components": [
+    "dynamic-graphic-view"
+   ],
+   "unit_complete": false,
+   "status": "completed",
+   "notes": [
+    "completed after scrolling into view"
+   ],
+   "seconds": 4.5,
+   "outline_after": "completed"
+  },
+  {
+   "item": "33.3.5",
+   "title": "Method 3: Stateful DHCPv6",
+   "module": 33,
+   "type": "LESSON",
+   "components": [
+    "dynamic-graphic-view",
+    "text-view"
+   ],
+   "unit_complete": false,
+   "status": "completed",
+   "notes": [
+    "completed after scrolling into view"
+   ],
+   "seconds": 4.8,
+   "outline_after": "completed"
+  },
+  {
+   "item": "33.3.6",
+   "title": "EUI-64 Process vs. Randomly Generated",
+   "module": 33,
+   "type": "LESSON",
+   "components": [
+    "dynamic-graphic-view"
+   ],
+   "unit_complete": false,
+   "status": "completed",
+   "notes": [
+    "completed after scrolling into view"
+   ],
+   "seconds": 4.2,
+   "outline_after": "completed"
+  },
+  {
+   "item": "33.3.7",
+   "title": "EUI-64 Process",
+   "module": 33,
+   "type": "LESSON",
+   "components": [
+    "dynamic-graphic-view",
+    "text-view",
+    "commandwindow-view"
+   ],
+   "unit_complete": false,
+   "status": "completed",
+   "notes": [
+    "completed after scrolling into view"
+   ],
+   "seconds": 5.9,
+   "outline_after": "completed"
+  },
+  {
+   "item": "33.3.8",
+   "title": "Randomly Generated Interface IDs",
+   "module": 33,
+   "type": "LESSON",
+   "components": [
+    "commandwindow-view",
+    "text-view",
+    "blank-view"
+   ],
+   "unit_complete": true,
+   "status": "already_complete",
+   "notes": [],
+   "seconds": 4.4,
+   "outline_after": "completed"
+  },
+  {
+   "item": "33.3.9",
+   "title": "Check Your Understanding - Dynamic Addressing for IPv6 GUAs",
+   "module": 33,
+   "type": "KNOWLEDGE_CHECK",
+   "components": [
+    "mcq-view",
+    "mcq-view",
+    "mcq-view",
+    "mcq-view",
+    "mcq-view",
+    "quicknav-view"
+   ],
+   "unit_complete": false,
+   "status": "completed",
+   "notes": [],
+   "seconds": 7.1,
+   "outline_after": "completed"
+  },
+  {
+   "item": "33.4.1",
+   "title": "Dynamic LLAs",
+   "module": 33,
+   "type": "LESSON",
+   "components": [
+    "dynamic-graphic-view"
+   ],
+   "unit_complete": true,
+   "status": "already_complete",
+   "notes": [],
+   "seconds": 4.7,
+   "outline_after": "completed"
+  },
+  {
+   "item": "33.4.2",
+   "title": "Dynamic LLAs on Windows",
+   "module": 33,
+   "type": "LESSON",
+   "components": [
+    "commandwindow-view",
+    "commandwindow-view"
+   ],
+   "unit_complete": true,
+   "status": "already_complete",
+   "notes": [],
+   "seconds": 3.5,
+   "outline_after": "in progress"
+  },
+  {
+   "item": "33.4.3",
+   "title": "Dynamic LLAs on Cisco Routers",
+   "module": 33,
+   "type": "LESSON",
+   "components": [
+    "commandwindow-view",
+    "blank-view"
+   ],
+   "unit_complete": false,
+   "status": "completed",
+   "notes": [
+    "completed after scrolling into view"
+   ],
+   "seconds": 5.7,
+   "outline_after": "completed"
+  },
+  {
+   "item": "33.4.5",
+   "title": "Syntax Checker - Verify IPv6 Address Configuration",
+   "module": 33,
+   "type": "LESSON",
+   "components": [
+    "graphic-view"
+   ],
+   "unit_complete": true,
+   "status": "already_complete",
+   "notes": [],
+   "seconds": 3.7,
+   "outline_after": "completed"
+  },
+  {
+   "item": "33.4.6",
+   "title": "Packet Tracer - Configure IPv6 Addressing",
+   "module": 33,
+   "type": "LAB",
+   "components": [
+    "pagetracer-view",
+    "quicknav-view"
+   ],
+   "unit_complete": false,
+   "status": "completed",
+   "notes": [],
+   "seconds": 5.4,
+   "outline_after": "completed"
+  },
+  {
+   "item": "33.5.1",
+   "title": "Assigned IPv6 Multicast Addresses",
+   "module": 33,
+   "type": "LESSON",
+   "components": [
+    "text-view"
+   ],
+   "unit_complete": true,
+   "status": "already_complete",
+   "notes": [],
+   "seconds": 4.8,
+   "outline_after": "completed"
+  },
+  {
+   "item": "33.5.2",
+   "title": "Well-Known IPv6 Multicast Addresses",
+   "module": 33,
+   "type": "LESSON",
+   "components": [
+    "dynamic-graphic-view",
+    "text-view"
+   ],
+   "unit_complete": false,
+   "status": "completed",
+   "notes": [
+    "completed after scrolling into view"
+   ],
+   "seconds": 5.4,
+   "outline_after": "completed"
+  },
+  {
+   "item": "33.5.3",
+   "title": "Solicited-Node IPv6 Multicast Addresses",
+   "module": 33,
+   "type": "LESSON",
+   "components": [
+    "dynamic-graphic-view"
+   ],
+   "unit_complete": false,
+   "status": "completed",
+   "notes": [
+    "completed after scrolling into view"
+   ],
+   "seconds": 4.1,
+   "outline_after": "completed"
+  },
+  {
+   "item": "33.5.4",
+   "title": "Lab - Identify IPv6 Addresses",
+   "module": 33,
+   "type": "LAB",
+   "components": [
+    "pagetracer-view",
+    "quicknav-view"
+   ],
+   "unit_complete": false,
+   "status": "completed",
+   "notes": [],
+   "seconds": 5.2,
+   "outline_after": "completed"
+  },
+  {
+   "item": "33.6.1",
+   "title": "What Did I Learn in this Module?",
+   "module": 33,
+   "type": "INTERACTIVE",
+   "components": [
+    "accordion-view"
+   ],
+   "unit_complete": false,
+   "status": "completed",
+   "notes": [
+    "unit complete"
+   ],
+   "seconds": 7.7,
+   "outline_after": "completed"
+  },
+  {
+   "item": "33.6.2",
+   "title": "Webster - Reflection Questions",
+   "module": 33,
+   "type": "LESSON",
+   "components": [
+    "graphic-view",
+    "text-view",
+    "blank-view"
+   ],
+   "unit_complete": true,
+   "status": "already_complete",
+   "notes": [],
+   "seconds": 3.3,
+   "outline_after": "completed"
+  },
+  {
+   "item": "33.6.3",
+   "title": "IPv6 Addressing Quiz",
+   "module": 33,
+   "type": "ASSESSMENT",
+   "components": [
+    "adaptive-start-screen-view"
+   ],
+   "unit_complete": false,
+   "status": "needs_user",
+   "notes": [
+    "graded assessment - never automated"
+   ],
+   "seconds": 34.3
+  },
+  {
+   "item": "34.0.1",
+   "title": "Webster - Why Should I Take This Module?",
+   "module": 34,
+   "type": "INTRODUCTION",
+   "components": [
+    "graphic-view",
+    "text-view"
+   ],
+   "unit_complete": false,
+   "status": "completed",
+   "notes": [
+    "completed after scrolling into view"
+   ],
+   "seconds": 9.2,
+   "outline_after": "completed"
+  },
+  {
+   "item": "34.0.2",
+   "title": "What Will I Learn in This Module?",
+   "module": 34,
+   "type": "INTRODUCTION",
+   "components": [
+    "table-view",
+    "quicknav-view"
+   ],
+   "unit_complete": true,
+   "status": "already_complete",
+   "notes": [],
+   "seconds": 3.4,
+   "outline_after": "completed"
+  },
+  {
+   "item": "34.1.1",
+   "title": "Video - IPv6 Neighbor Discovery",
+   "module": 34,
+   "type": "VIDEO",
+   "components": [
+    "media-view"
+   ],
+   "unit_complete": false,
+   "status": "completed",
+   "notes": [],
+   "seconds": 9.0,
+   "outline_after": "completed"
+  },
+  {
+   "item": "34.1.2",
+   "title": "IPv6 Neighbor Discovery Messages",
+   "module": 34,
+   "type": "LESSON",
+   "components": [
+    "dynamic-graphic-view",
+    "dynamic-graphic-view",
+    "text-view",
+    "blank-view"
+   ],
+   "unit_complete": false,
+   "status": "completed",
+   "notes": [
+    "completed after scrolling into view"
+   ],
+   "seconds": 6.0,
+   "outline_after": "completed"
+  },
+  {
+   "item": "34.1.3",
+   "title": "IPv6 Neighbor Discovery - Address Resolution",
+   "module": 34,
+   "type": "LESSON",
+   "components": [
+    "dynamic-graphic-view",
+    "text-view"
+   ],
+   "unit_complete": false,
+   "status": "completed",
+   "notes": [
+    "completed after scrolling into view"
+   ],
+   "seconds": 5.6,
+   "outline_after": "completed"
+  },
+  {
+   "item": "34.1.4",
+   "title": "Packet Tracer - IPv6 Neighbor Discovery",
+   "module": 34,
+   "type": "LAB",
+   "components": [
+    "pagetracer-view"
+   ],
+   "unit_complete": false,
+   "status": "completed",
+   "notes": [],
+   "seconds": 5.4,
+   "outline_after": "completed"
+  },
+  {
+   "item": "34.1.5",
+   "title": "Check Your Understanding - Neighbor Discovery",
+   "module": 34,
+   "type": "KNOWLEDGE_CHECK",
+   "components": [
+    "mcq-view",
+    "mcq-view",
+    "mcq-view",
+    "quicknav-view"
+   ],
+   "unit_complete": false,
+   "status": "completed",
+   "notes": [],
+   "seconds": 5.3,
+   "outline_after": "completed"
+  },
+  {
+   "item": "34.2.1",
+   "title": "What Did I Learn in this Module?",
+   "module": 34,
+   "type": "SUMMARY",
+   "components": [
+    "text-view"
+   ],
+   "unit_complete": true,
+   "status": "already_complete",
+   "notes": [],
+   "seconds": 5.0,
+   "outline_after": "completed"
+  },
+  {
+   "item": "34.2.2",
+   "title": "Webster - Reflection Questions",
+   "module": 34,
+   "type": "LESSON",
+   "components": [
+    "graphic-view",
+    "text-view",
+    "blank-view"
+   ],
+   "unit_complete": true,
+   "status": "already_complete",
+   "notes": [],
+   "seconds": 3.3,
+   "outline_after": "completed"
+  },
+  {
+   "item": "34.2.3",
+   "title": "IPv6 Neighbor Discovery Quiz",
+   "module": 34,
+   "type": "ASSESSMENT",
+   "components": [
+    "adaptive-start-screen-view"
+   ],
+   "unit_complete": false,
+   "status": "needs_user",
+   "notes": [
+    "graded assessment - never automated"
+   ],
+   "seconds": 34.0
+  },
+  {
+   "item": "35.0.1",
+   "title": "Webster - Why Should I Take this Module?",
+   "module": 35,
+   "type": "INTRODUCTION",
+   "components": [
+    "text-view",
+    "graphic-view"
+   ],
+   "unit_complete": false,
+   "status": "completed",
+   "notes": [
+    "completed after scrolling into view"
+   ],
+   "seconds": 8.1,
+   "outline_after": "completed"
+  },
+  {
+   "item": "35.0.2",
+   "title": "What Will I Learn in this Module?",
+   "module": 35,
+   "type": "INTRODUCTION",
+   "components": [
+    "table-view",
+    "quicknav-view"
+   ],
+   "unit_complete": true,
+   "status": "already_complete",
+   "notes": [],
+   "seconds": 4.0,
+   "outline_after": "completed"
+  },
+  {
+   "item": "35.1.1",
+   "title": "Connect More Devices",
+   "module": 35,
+   "type": "INTERACTIVE",
+   "components": [
+    "tabs-view",
+    "text-view"
+   ],
+   "unit_complete": false,
+   "status": "completed",
+   "notes": [
+    "unit complete"
+   ],
+   "seconds": 9.8,
+   "outline_after": "completed"
+  },
+  {
+   "item": "35.1.2",
+   "title": "Cisco LAN Switches",
+   "module": 35,
+   "type": "INTERACTIVE",
+   "components": [
+    "tabs-view"
+   ],
+   "unit_complete": false,
+   "status": "completed",
+   "notes": [
+    "unit complete"
+   ],
+   "seconds": 7.4,
+   "outline_after": "completed"
+  },
+  {
+   "item": "35.1.3",
+   "title": "Video - Components of a LAN Switch - Part 1",
+   "module": 35,
+   "type": "VIDEO",
+   "components": [
+    "media-view"
+   ],
+   "unit_complete": false,
+   "status": "completed",
+   "notes": [],
+   "seconds": 6.9,
+   "outline_after": "completed"
+  },
+  {
+   "item": "35.1.4",
+   "title": "Video - Components of a LAN Switch - Part 2",
+   "module": 35,
+   "type": "VIDEO",
+   "components": [
+    "media-view"
+   ],
+   "unit_complete": false,
+   "status": "completed",
+   "notes": [],
+   "seconds": 7.1,
+   "outline_after": "completed"
+  },
+  {
+   "item": "35.1.5",
+   "title": "LAN Switch Components",
+   "module": 35,
+   "type": "LESSON",
+   "components": [
+    "dynamic-graphic-view",
+    "blank-view"
+   ],
+   "unit_complete": false,
+   "status": "completed",
+   "notes": [
+    "completed after scrolling into view"
+   ],
+   "seconds": 5.2,
+   "outline_after": "completed"
+  },
+  {
+   "item": "35.1.6",
+   "title": "Check Your Understanding - Cisco Switches",
+   "module": 35,
+   "type": "KNOWLEDGE_CHECK",
+   "components": [
+    "mcq-view",
+    "mcq-view",
+    "mcq-view",
+    "mcq-view",
+    "mcq-view",
+    "mcq-view",
+    "mcq-view",
+    "mcq-view",
+    "mcq-view",
+    "quicknav-view"
+   ],
+   "unit_complete": false,
+   "status": "failed",
+   "notes": [
+    "submit_failed: When first connecting to a switch to configure it for the fi"
+   ],
+   "seconds": 74.8
+  },
+  {
+   "item": "35.2.1",
+   "title": "Frame Forwarding Methods on Cisco Switches",
+   "module": 35,
+   "type": "INTERACTIVE",
+   "components": [
+    "adobe-animate-view"
+   ],
+   "unit_complete": false,
+   "status": "completed",
+   "notes": [
+    "unit complete"
+   ],
+   "seconds": 7.1,
+   "outline_after": "completed"
+  },
+  {
+   "item": "35.2.2",
+   "title": "Cut-Through Switching",
+   "module": 35,
+   "type": "INTERACTIVE",
+   "components": [
+    "adobe-animate-view",
+    "text-view"
+   ],
+   "unit_complete": false,
+   "status": "completed",
+   "notes": [
+    "unit complete"
+   ],
+   "seconds": 6.7,
+   "outline_after": "completed"
+  },
+  {
+   "item": "35.2.3",
+   "title": "Memory Buffering on Switches",
+   "module": 35,
+   "type": "LESSON",
+   "components": [
+    "table-view",
+    "text-view"
+   ],
+   "unit_complete": false,
+   "status": "completed",
+   "notes": [
+    "completed after scrolling into view"
+   ],
+   "seconds": 5.8,
+   "outline_after": "completed"
+  },
+  {
+   "item": "35.2.4",
+   "title": "Duplex and Speed Settings",
+   "module": 35,
+   "type": "LESSON",
+   "components": [
+    "dynamic-graphic-view",
+    "dynamic-graphic-view",
+    "text-view"
+   ],
+   "unit_complete": false,
+   "status": "completed",
+   "notes": [
+    "completed after scrolling into view"
+   ],
+   "seconds": 7.8,
+   "outline_after": "completed"
+  },
+  {
+   "item": "35.2.5",
+   "title": "Auto-MDIX",
+   "module": 35,
+   "type": "LESSON",
+   "components": [
+    "dynamic-graphic-view",
+    "text-view"
+   ],
+   "unit_complete": false,
+   "status": "completed",
+   "notes": [
+    "completed after scrolling into view"
+   ],
+   "seconds": 7.0,
+   "outline_after": "completed"
+  },
+  {
+   "item": "35.2.6",
+   "title": "Check Your Understanding - Switch Speeds and Forwarding Methods",
+   "module": 35,
+   "type": "KNOWLEDGE_CHECK",
+   "components": [
+    "mcq-view",
+    "mcq-view",
+    "mcq-view",
+    "mcq-view",
+    "quicknav-view"
+   ],
+   "unit_complete": false,
+   "status": "completed",
+   "notes": [],
+   "seconds": 8.0,
+   "outline_after": "completed"
+  },
+  {
+   "item": "35.3.1",
+   "title": "Power Up the Switch",
+   "module": 35,
+   "type": "INTERACTIVE",
+   "components": [
+    "tabs-view"
+   ],
+   "unit_complete": false,
+   "status": "completed",
+   "notes": [
+    "unit complete"
+   ],
+   "seconds": 10.2,
+   "outline_after": "completed"
+  },
+  {
+   "item": "35.3.2",
+   "title": "Video - In-Band and Out-of-Band Device Management",
+   "module": 35,
+   "type": "VIDEO",
+   "components": [
+    "media-view"
+   ],
+   "unit_complete": false,
+   "status": "completed",
+   "notes": [],
+   "seconds": 8.3,
+   "outline_after": "completed"
+  },
+  {
+   "item": "35.3.3",
+   "title": "IOS Startup Files",
+   "module": 35,
+   "type": "LESSON",
+   "components": [
+    "dynamic-graphic-view",
+    "blank-view"
+   ],
+   "unit_complete": false,
+   "status": "completed",
+   "notes": [
+    "completed after scrolling into view"
+   ],
+   "seconds": 6.9,
+   "outline_after": "completed"
+  },
+  {
+   "item": "35.3.4",
+   "title": "Check Your Understanding - Switch Boot Process",
+   "module": 35,
+   "type": "KNOWLEDGE_CHECK",
+   "components": [
+    "mcq-view",
+    "mcq-view",
+    "mcq-view",
+    "mcq-view",
+    "mcq-view",
+    "quicknav-view"
+   ],
+   "unit_complete": false,
+   "status": "completed",
+   "notes": [],
+   "seconds": 10.2,
+   "outline_after": "completed"
+  },
+  {
+   "item": "35.4.1",
+   "title": "Video - Cisco Router Components",
+   "module": 35,
+   "type": "VIDEO",
+   "components": [
+    "media-view"
+   ],
+   "unit_complete": false,
+   "status": "completed",
+   "notes": [],
+   "seconds": 10.3,
+   "outline_after": "completed"
+  },
+  {
+   "item": "35.4.2",
+   "title": "Router Components",
+   "module": 35,
+   "type": "LESSON",
+   "components": [
+    "text-view"
+   ],
+   "unit_complete": true,
+   "status": "already_complete",
+   "notes": [],
+   "seconds": 4.6,
+   "outline_after": "in progress"
+  },
+  {
+   "item": "35.4.3",
+   "title": "Router Interface Ports",
+   "module": 35,
+   "type": "LESSON",
+   "components": [
+    "dynamic-graphic-view",
+    "blank-view"
+   ],
+   "unit_complete": false,
+   "status": "completed",
+   "notes": [
+    "completed after scrolling into view"
+   ],
+   "seconds": 7.2,
+   "outline_after": "completed"
+  },
+  {
+   "item": "35.4.4",
+   "title": "Check Your Understanding - Cisco Routers",
+   "module": 35,
+   "type": "KNOWLEDGE_CHECK",
+   "components": [
+    "mcq-view",
+    "mcq-view",
+    "mcq-view",
+    "quicknav-view"
+   ],
+   "unit_complete": false,
+   "status": "completed",
+   "notes": [],
+   "seconds": 7.8,
+   "outline_after": "completed"
+  },
+  {
+   "item": "35.5.1",
+   "title": "Power Up the Router",
+   "module": 35,
+   "type": "INTERACTIVE",
+   "components": [
+    "accordion-view"
+   ],
+   "unit_complete": false,
+   "status": "completed",
+   "notes": [
+    "unit complete"
+   ],
+   "seconds": 13.2,
+   "outline_after": "completed"
+  },
+  {
+   "item": "35.5.2",
+   "title": "Management Ports",
+   "module": 35,
+   "type": "LESSON",
+   "components": [
+    "dynamic-graphic-view",
+    "dynamic-graphic-view"
+   ],
+   "unit_complete": false,
+   "status": "completed",
+   "notes": [
+    "completed after scrolling into view"
+   ],
+   "seconds": 5.4,
+   "outline_after": "completed"
+  },
+  {
+   "item": "35.5.3",
+   "title": "Video - The Cisco Router Boot Process",
+   "module": 35,
+   "type": "VIDEO",
+   "components": [
+    "media-view"
+   ],
+   "unit_complete": false,
+   "status": "completed",
+   "notes": [],
+   "seconds": 8.2,
+   "outline_after": "completed"
+  },
+  {
+   "item": "35.5.4",
+   "title": "Check Your Understanding - Router Boot Process",
+   "module": 35,
+   "type": "KNOWLEDGE_CHECK",
+   "components": [
+    "mcq-view",
+    "mcq-view",
+    "mcq-view",
+    "mcq-view",
+    "mcq-view",
+    "mcq-view",
+    "quicknav-view"
+   ],
+   "unit_complete": false,
+   "status": "completed",
+   "notes": [],
+   "seconds": 11.5,
+   "outline_after": "completed"
+  },
+  {
+   "item": "35.6.1",
+   "title": "What Did I Learn in this Module?",
+   "module": 35,
+   "type": "INTERACTIVE",
+   "components": [
+    "accordion-view"
+   ],
+   "unit_complete": false,
+   "status": "completed",
+   "notes": [
+    "unit complete"
+   ],
+   "seconds": 9.9,
+   "outline_after": "completed"
+  },
+  {
+   "item": "35.6.2",
+   "title": "Webster - Reflection Questions",
+   "module": 35,
+   "type": "LESSON",
+   "components": [
+    "graphic-view",
+    "text-view",
+    "blank-view"
+   ],
+   "unit_complete": true,
+   "status": "already_complete",
+   "notes": [],
+   "seconds": 4.6,
+   "outline_after": "completed"
+  },
+  {
+   "item": "35.6.3",
+   "title": "Cisco Switches and Routers Quiz",
+   "module": 35,
+   "type": "ASSESSMENT",
+   "components": [
+    "adaptive-start-screen-view"
+   ],
+   "unit_complete": false,
+   "status": "needs_user",
+   "notes": [
+    "graded assessment - never automated"
+   ],
+   "seconds": 35.0
+  },
+  {
+   "item": "36.0.1",
+   "title": "Webster - Why Should I Take this Module?",
+   "module": 36,
+   "type": "INTRODUCTION",
+   "components": [
+    "text-view",
+    "graphic-view"
+   ],
+   "unit_complete": false,
+   "status": "completed",
+   "notes": [
+    "completed after scrolling into view"
+   ],
+   "seconds": 8.8,
+   "outline_after": "completed"
+  },
+  {
+   "item": "36.0.2",
+   "title": "What Will I Learn in this Module?",
+   "module": 36,
+   "type": "INTRODUCTION",
+   "components": [
+    "table-view",
+    "quicknav-view"
+   ],
+   "unit_complete": false,
+   "status": "completed",
+   "notes": [
+    "completed after scrolling into view"
+   ],
+   "seconds": 5.7,
+   "outline_after": "completed"
+  },
+  {
+   "item": "36.1.1",
+   "title": "Video - Network Troubleshooting",
+   "module": 36,
+   "type": "VIDEO",
+   "components": [
+    "media-view"
+   ],
+   "unit_complete": false,
+   "status": "completed",
+   "notes": [],
+   "seconds": 10.2,
+   "outline_after": "completed"
+  },
+  {
+   "item": "36.1.2",
+   "title": "Network Troubleshooting Overview",
+   "module": 36,
+   "type": "LESSON",
+   "components": [
+    "dynamic-graphic-view"
+   ],
+   "unit_complete": false,
+   "status": "completed",
+   "notes": [
+    "completed after scrolling into view"
+   ],
+   "seconds": 6.2,
+   "outline_after": "completed"
+  },
+  {
+   "item": "36.1.3",
+   "title": "Gather Information",
+   "module": 36,
+   "type": "LESSON",
+   "components": [
+    "text-view"
+   ],
+   "unit_complete": false,
+   "status": "completed",
+   "notes": [
+    "completed after scrolling into view"
+   ],
+   "seconds": 5.5,
+   "outline_after": "completed"
+  },
+  {
+   "item": "36.1.4",
+   "title": "Structured Troubleshooting Methods",
+   "module": 36,
+   "type": "INTERACTIVE",
+   "components": [
+    "tabs-view"
+   ],
+   "unit_complete": false,
+   "status": "completed",
+   "notes": [
+    "unit complete"
+   ],
+   "seconds": 10.3,
+   "outline_after": "completed"
+  },
+  {
+   "item": "36.1.5",
+   "title": "Guidelines for Selecting a Troubleshooting Method",
+   "module": 36,
+   "type": "LESSON",
+   "components": [
+    "dynamic-graphic-view",
+    "text-view",
+    "blank-view"
+   ],
+   "unit_complete": false,
+   "status": "completed",
+   "notes": [
+    "completed after scrolling into view"
+   ],
+   "seconds": 8.0,
+   "outline_after": "completed"
+  },
+  {
+   "item": "36.1.6",
+   "title": "Check Your Understanding - The Troubleshooting Process",
+   "module": 36,
+   "type": "KNOWLEDGE_CHECK",
+   "components": [
+    "mcq-view",
+    "mcq-view",
+    "mcq-view",
+    "mcq-view",
+    "mcq-view",
+    "mcq-view",
+    "mcq-view",
+    "quicknav-view"
+   ],
+   "unit_complete": false,
+   "status": "completed",
+   "notes": [],
+   "seconds": 7.8,
+   "outline_after": "completed"
+  },
+  {
+   "item": "36.2.1",
+   "title": "Common Layer 1 Problems",
+   "module": 36,
+   "type": "INTERACTIVE",
+   "components": [
+    "tabs-view"
+   ],
+   "unit_complete": false,
+   "status": "completed",
+   "notes": [
+    "unit complete"
+   ],
+   "seconds": 8.5,
+   "outline_after": "completed"
+  },
+  {
+   "item": "36.2.2",
+   "title": "Wireless Router LEDs",
+   "module": 36,
+   "type": "LESSON",
+   "components": [
+    "graphic-view",
+    "text-view",
+    "blank-view"
+   ],
+   "unit_complete": false,
+   "status": "completed",
+   "notes": [
+    "completed after scrolling into view"
+   ],
+   "seconds": 6.3,
+   "outline_after": "completed"
+  },
+  {
+   "item": "36.2.3",
+   "title": "Cabling Problems",
+   "module": 36,
+   "type": "LESSON",
+   "components": [
+    "graphic-view"
+   ],
+   "unit_complete": false,
+   "status": "completed",
+   "notes": [
+    "completed after scrolling into view"
+   ],
+   "seconds": 4.7,
+   "outline_after": "completed"
+  },
+  {
+   "item": "36.2.4",
+   "title": "Check Your Understanding - Physical Layer Problems",
+   "module": 36,
+   "type": "KNOWLEDGE_CHECK",
+   "components": [
+    "mcq-view",
+    "mcq-view",
+    "mcq-view",
+    "quicknav-view"
+   ],
+   "unit_complete": false,
+   "status": "completed",
+   "notes": [],
+   "seconds": 4.9,
+   "outline_after": "completed"
+  },
+  {
+   "item": "36.3.1",
+   "title": "Causes of Wireless Issues",
+   "module": 36,
+   "type": "LESSON",
+   "components": [
+    "graphic-view",
+    "blank-view"
+   ],
+   "unit_complete": true,
+   "status": "already_complete",
+   "notes": [],
+   "seconds": 5.1,
+   "outline_after": "completed"
+  },
+  {
+   "item": "36.3.2",
+   "title": "Authentication and Association Errors",
+   "module": 36,
+   "type": "LESSON",
+   "components": [
+    "dynamic-graphic-view"
+   ],
+   "unit_complete": false,
+   "status": "completed",
+   "notes": [
+    "completed after scrolling into view"
+   ],
+   "seconds": 4.5,
+   "outline_after": "completed"
+  },
+  {
+   "item": "36.3.3",
+   "title": "Packet Tracer - Troubleshoot a Wireless Connection",
+   "module": 36,
+   "type": "LAB",
+   "components": [
+    "packettracer-view",
+    "quicknav-view"
+   ],
+   "unit_complete": false,
+   "status": "completed",
+   "notes": [],
+   "seconds": 6.0,
+   "outline_after": "completed"
+  },
+  {
+   "item": "36.4.1",
+   "title": "DHCP Server Configuration Errors",
+   "module": 36,
+   "type": "LESSON",
+   "components": [
+    "graphic-view"
+   ],
+   "unit_complete": true,
+   "status": "already_complete",
+   "notes": [],
+   "seconds": 6.0,
+   "outline_after": "completed"
+  },
+  {
+   "item": "36.4.2",
+   "title": "Check Internet Configuration",
+   "module": 36,
+   "type": "LESSON",
+   "components": [
+    "commandwindow-view",
+    "dynamic-graphic-view",
+    "graphic-view",
+    "text-view"
+   ],
+   "unit_complete": true,
+   "status": "already_complete",
+   "notes": [],
+   "seconds": 3.8,
+   "outline_after": "completed"
+  },
+  {
+   "item": "36.4.3",
+   "title": "Check Firewall Settings",
+   "module": 36,
+   "type": "LESSON",
+   "components": [
+    "dynamic-graphic-view",
+    "blank-view"
+   ],
+   "unit_complete": false,
+   "status": "completed",
+   "notes": [
+    "completed after scrolling into view"
+   ],
+   "seconds": 6.0,
+   "outline_after": "completed"
+  },
+  {
+   "item": "36.4.4",
+   "title": "Check Your Understanding - Common Internet Connectivity Issues",
+   "module": 36,
+   "type": "KNOWLEDGE_CHECK",
+   "components": [
+    "mcq-view",
+    "mcq-view",
+    "mcq-view"
+   ],
+   "unit_complete": false,
+   "status": "completed",
+   "notes": [],
+   "seconds": 5.9,
+   "outline_after": "completed"
+  },
+  {
+   "item": "36.4.5",
+   "title": "Divide and Conquer with ping",
+   "module": 36,
+   "type": "LESSON",
+   "components": [
+    "dynamic-graphic-view"
+   ],
+   "unit_complete": false,
+   "status": "completed",
+   "notes": [
+    "completed after scrolling into view"
+   ],
+   "seconds": 6.7,
+   "outline_after": "completed"
+  },
+  {
+   "item": "36.4.6",
+   "title": "The tracert Command",
+   "module": 36,
+   "type": "LESSON",
+   "components": [
+    "commandwindow-view",
+    "commandwindow-view"
+   ],
+   "unit_complete": false,
+   "status": "completed",
+   "notes": [
+    "completed after scrolling into view"
+   ],
+   "seconds": 5.6,
+   "outline_after": "completed"
+  },
+  {
+   "item": "36.4.7",
+   "title": "The netstat Command",
+   "module": 36,
+   "type": "LESSON",
+   "components": [
+    "commandwindow-view",
+    "commandwindow-view"
+   ],
+   "unit_complete": false,
+   "status": "completed",
+   "notes": [
+    "completed after scrolling into view"
+   ],
+   "seconds": 5.0,
+   "outline_after": "completed"
+  },
+  {
+   "item": "36.4.8",
+   "title": "The nslookup Command",
+   "module": 36,
+   "type": "LESSON",
+   "components": [
+    "commandwindow-view"
+   ],
+   "unit_complete": false,
+   "status": "completed",
+   "notes": [
+    "completed after scrolling into view"
+   ],
+   "seconds": 4.5,
+   "outline_after": "completed"
+  },
+  {
+   "item": "36.4.9",
+   "title": "Syntax Checker - The nslookup Command",
+   "module": 36,
+   "type": "UNKNOWN",
+   "components": [],
+   "unit_complete": true,
+   "status": "unknown"
+  },
+  {
+   "item": "36.4.10",
+   "title": "Lab - Troubleshoot Using Network Utilities",
+   "module": 36,
+   "type": "LAB",
+   "components": [
+    "pagetracer-view",
+    "quicknav-view"
+   ],
+   "unit_complete": false,
+   "status": "completed",
+   "notes": [],
+   "seconds": 5.4,
+   "outline_after": "completed"
+  },
+  {
+   "item": "36.5.1",
+   "title": "Sources of Help",
+   "module": 36,
+   "type": "LESSON",
+   "components": [
+    "text-view"
+   ],
+   "unit_complete": true,
+   "status": "already_complete",
+   "notes": [],
+   "seconds": 4.9,
+   "outline_after": "completed"
+  },
+  {
+   "item": "36.5.2",
+   "title": "When to Call for Help",
+   "module": 36,
+   "type": "LESSON",
+   "components": [
+    "dynamic-graphic-view"
+   ],
+   "unit_complete": false,
+   "status": "completed",
+   "notes": [
+    "completed after scrolling into view"
+   ],
+   "seconds": 4.4,
+   "outline_after": "completed"
+  },
+  {
+   "item": "36.5.3",
+   "title": "Support Desk Interaction",
+   "module": 36,
+   "type": "LESSON",
+   "components": [
+    "dynamic-graphic-view",
+    "blank-view"
+   ],
+   "unit_complete": false,
+   "status": "completed",
+   "notes": [
+    "completed after scrolling into view"
+   ],
+   "seconds": 5.4,
+   "outline_after": "completed"
+  },
+  {
+   "item": "36.5.4",
+   "title": "Issue Resolution",
+   "module": 36,
+   "type": "LESSON",
+   "components": [
+    "graphic-view"
+   ],
+   "unit_complete": false,
+   "status": "completed",
+   "notes": [
+    "completed after scrolling into view"
+   ],
+   "seconds": 4.4,
+   "outline_after": "completed"
+  },
+  {
+   "item": "36.5.5",
+   "title": "Support Desk Tickets and Work Orders",
+   "module": 36,
+   "type": "LESSON",
+   "components": [
+    "graphic-view"
+   ],
+   "unit_complete": false,
+   "status": "completed",
+   "notes": [
+    "completed after scrolling into view"
+   ],
+   "seconds": 4.4,
+   "outline_after": "completed"
+  },
+  {
+   "item": "36.5.6",
+   "title": "Check Your Understanding - Customer Support",
+   "module": 36,
+   "type": "KNOWLEDGE_CHECK",
+   "components": [
+    "mcq-view",
+    "mcq-view",
+    "quicknav-view"
+   ],
+   "unit_complete": false,
+   "status": "completed",
+   "notes": [],
+   "seconds": 4.7,
+   "outline_after": "completed"
+  },
+  {
+   "item": "36.6.1",
+   "title": "What Did I Learn in this Module?",
+   "module": 36,
+   "type": "INTERACTIVE",
+   "components": [
+    "accordion-view"
+   ],
+   "unit_complete": false,
+   "status": "completed",
+   "notes": [
+    "unit complete"
+   ],
+   "seconds": 8.3,
+   "outline_after": "completed"
+  },
+  {
+   "item": "36.6.2",
+   "title": "Webster - Reflection Questions",
+   "module": 36,
+   "type": "LESSON",
+   "components": [
+    "text-view",
+    "graphic-view",
+    "blank-view"
+   ],
+   "unit_complete": true,
+   "status": "already_complete",
+   "notes": [],
+   "seconds": 3.6,
+   "outline_after": "completed"
+  },
+  {
+   "item": "36.6.3",
+   "title": "Troubleshoot Common Network Problems Quiz",
+   "module": 36,
+   "type": "ASSESSMENT",
+   "components": [
+    "adaptive-start-screen-view"
+   ],
+   "unit_complete": false,
+   "status": "needs_user",
+   "notes": [
+    "graded assessment - never automated"
+   ],
+   "seconds": 34.1
+  },
+  {
+   "item": "37.0.1",
+   "title": "Why Should I Take this Module?",
+   "module": 37,
+   "type": "INTRODUCTION",
+   "components": [
+    "graphic-view",
+    "text-view"
+   ],
+   "unit_complete": false,
+   "status": "completed",
+   "notes": [
+    "completed after scrolling into view"
+   ],
+   "seconds": 7.7,
+   "outline_after": "completed"
+  },
+  {
+   "item": "37.0.2",
+   "title": "What Will I Learn in this Module?",
+   "module": 37,
+   "type": "INTRODUCTION",
+   "components": [
+    "table-view"
+   ],
+   "unit_complete": false,
+   "status": "completed",
+   "notes": [
+    "completed after scrolling into view"
+   ],
+   "seconds": 5.2,
+   "outline_after": "completed"
+  },
+  {
+   "item": "37.0.3",
+   "title": "Download Cisco Packet Tracer",
+   "module": 37,
+   "type": "LESSON",
+   "components": [
+    "graphic-view",
+    "text-view",
+    "quicknav-view"
+   ],
+   "unit_complete": true,
+   "status": "already_complete",
+   "notes": [],
+   "seconds": 3.4,
+   "outline_after": "completed"
+  },
+  {
+   "item": "37.1.1",
+   "title": "Troubleshooting Process Review",
+   "module": 37,
+   "type": "LESSON",
+   "components": [
+    "text-view"
+   ],
+   "unit_complete": false,
+   "status": "failed",
+   "notes": [
+    "unit still incomplete after viewing; pending components: ['text-view']"
+   ],
+   "seconds": 119.6
+  },
+  {
+   "item": "37.1.2",
+   "title": "Seven-Step Troubleshooting Process",
+   "module": 37,
+   "type": "INTERACTIVE",
+   "components": [
+    "text-view",
+    "dynamic-graphic-view",
+    "accordion-view"
+   ],
+   "unit_complete": false,
+   "status": "completed",
+   "notes": [
+    "unit complete"
+   ],
+   "seconds": 8.5,
+   "outline_after": "completed"
+  },
+  {
+   "item": "37.1.3",
+   "title": "Troubleshooting with Layered Models",
+   "module": 37,
+   "type": "LESSON",
+   "components": [
+    "text-view",
+    "dynamic-graphic-view",
+    "text-view"
+   ],
+   "unit_complete": true,
+   "status": "already_complete",
+   "notes": [],
+   "seconds": 3.7,
+   "outline_after": "completed"
+  },
+  {
+   "item": "37.1.4",
+   "title": "Structured Troubleshooting Methods",
+   "module": 37,
+   "type": "LESSON",
+   "components": [
+    "text-view"
+   ],
+   "unit_complete": true,
+   "status": "already_complete",
+   "notes": [],
+   "seconds": 3.5,
+   "outline_after": "completed"
+  },
+  {
+   "item": "37.1.5",
+   "title": "Guidelines for Selecting a Troubleshooting Method",
+   "module": 37,
+   "type": "LESSON",
+   "components": [
+    "text-view",
+    "dynamic-graphic-view",
+    "text-view"
+   ],
+   "unit_complete": true,
+   "status": "already_complete",
+   "notes": [],
+   "seconds": 4.0,
+   "outline_after": "completed"
+  },
+  {
+   "item": "37.1.6",
+   "title": "Document Findings, Actions, and Outcomes",
+   "module": 37,
+   "type": "LESSON",
+   "components": [
+    "text-view"
+   ],
+   "unit_complete": true,
+   "status": "already_complete",
+   "notes": [],
+   "seconds": 3.4,
+   "outline_after": "completed"
+  },
+  {
+   "item": "37.1.7",
+   "title": "Check Your Understanding - Troubleshooting Process",
+   "module": 37,
+   "type": "KNOWLEDGE_CHECK",
+   "components": [
+    "mcq-view",
+    "mcq-view",
+    "mcq-view",
+    "mcq-view",
+    "quicknav-view"
+   ],
+   "unit_complete": false,
+   "status": "completed",
+   "notes": [],
+   "seconds": 5.8,
+   "outline_after": "completed"
+  },
+  {
+   "item": "37.2.1",
+   "title": "Documentation Overview",
+   "module": 37,
+   "type": "LESSON",
+   "components": [
+    "text-view"
+   ],
+   "unit_complete": true,
+   "status": "already_complete",
+   "notes": [],
+   "seconds": 5.2,
+   "outline_after": "completed"
+  },
+  {
+   "item": "37.2.2",
+   "title": "Network Topologies and Descriptions",
+   "module": 37,
+   "type": "INTERACTIVE",
+   "components": [
+    "narrative-view"
+   ],
+   "unit_complete": false,
+   "status": "completed",
+   "notes": [
+    "unit complete"
+   ],
+   "seconds": 10.8,
+   "outline_after": "completed"
+  },
+  {
+   "item": "37.2.3",
+   "title": "Check Your Understanding - Types of Networks",
+   "module": 37,
+   "type": "KNOWLEDGE_CHECK",
+   "components": [
+    "object-matching-view"
+   ],
+   "unit_complete": false,
+   "status": "completed",
+   "notes": [],
+   "seconds": 9.6,
+   "outline_after": "completed"
+  },
+  {
+   "item": "37.2.4",
+   "title": "Enterprise Network Topologies",
+   "module": 37,
+   "type": "LESSON",
+   "components": [
+    "text-view",
+    "dynamic-graphic-view",
+    "text-view",
+    "dynamic-graphic-view",
+    "text-view",
+    "dynamic-graphic-view",
+    "text-view"
+   ],
+   "unit_complete": false,
+   "status": "completed",
+   "notes": [
+    "completed after scrolling into view"
+   ],
+   "seconds": 8.1,
+   "outline_after": "completed"
+  },
+  {
+   "item": "37.2.5",
+   "title": "Network Cloud Services and Applications",
+   "module": 37,
+   "type": "INTERACTIVE",
+   "components": [
+    "tabs-view"
+   ],
+   "unit_complete": false,
+   "status": "completed",
+   "notes": [
+    "unit complete"
+   ],
+   "seconds": 6.7,
+   "outline_after": "completed"
+  },
+  {
+   "item": "37.2.6",
+   "title": "Wireless Standards",
+   "module": 37,
+   "type": "LESSON",
+   "components": [
+    "table-view"
+   ],
+   "unit_complete": false,
+   "status": "completed",
+   "notes": [
+    "completed after scrolling into view"
+   ],
+   "seconds": 4.9,
+   "outline_after": "completed"
+  },
+  {
+   "item": "37.2.7",
+   "title": "Packet Tracer - Connect a Network Based on a Network Diagram",
+   "module": 37,
+   "type": "LAB",
+   "components": [
+    "pagetracer-view"
+   ],
+   "unit_complete": false,
+   "status": "completed",
+   "notes": [],
+   "seconds": 5.7,
+   "outline_after": "completed"
+  },
+  {
+   "item": "37.2.8",
+   "title": "Network Device Documentation",
+   "module": 37,
+   "type": "INTERACTIVE",
+   "components": [
+    "tabs-view"
+   ],
+   "unit_complete": false,
+   "status": "completed",
+   "notes": [
+    "unit complete"
+   ],
+   "seconds": 7.1,
+   "outline_after": "completed"
+  },
+  {
+   "item": "37.2.9",
+   "title": "Establish a Network Baseline",
+   "module": 37,
+   "type": "LESSON",
+   "components": [
+    "text-view"
+   ],
+   "unit_complete": false,
+   "status": "completed",
+   "notes": [
+    "completed after scrolling into view"
+   ],
+   "seconds": 4.3,
+   "outline_after": "completed"
+  },
+  {
+   "item": "37.2.10",
+   "title": "Cisco Discovery Protocol (CDP) Overview",
+   "module": 37,
+   "type": "LESSON",
+   "components": [
+    "text-view",
+    "dynamic-graphic-view",
+    "text-view"
+   ],
+   "unit_complete": true,
+   "status": "already_complete",
+   "notes": [],
+   "seconds": 3.6,
+   "outline_after": "completed"
+  },
+  {
+   "item": "37.2.11",
+   "title": "Discover Devices Using CDP",
+   "module": 37,
+   "type": "LESSON",
+   "components": [
+    "text-view",
+    "graphic-view",
+    "commandwindow-view",
+    "text-view",
+    "graphic-view",
+    "commandwindow-view",
+    "commandwindow-view",
+    "text-view",
+    "graphic-view",
+    "commandwindow-view",
+    "text-view"
+   ],
+   "unit_complete": true,
+   "status": "already_complete",
+   "notes": [],
+   "seconds": 3.6,
+   "outline_after": "completed"
+  },
+  {
+   "item": "37.2.12",
+   "title": "Packet Tracer - Use CDP to Map a Network",
+   "module": 37,
+   "type": "LAB",
+   "components": [
+    "pagetracer-view"
+   ],
+   "unit_complete": false,
+   "status": "completed",
+   "notes": [],
+   "seconds": 5.5,
+   "outline_after": "completed"
+  },
+  {
+   "item": "37.2.13",
+   "title": "Packet Tracer - Troubleshooting Challenge - Document the Network",
+   "module": 37,
+   "type": "LAB",
+   "components": [
+    "pagetracer-view",
+    "quicknav-view"
+   ],
+   "unit_complete": false,
+   "status": "completed",
+   "notes": [],
+   "seconds": 5.3,
+   "outline_after": "completed"
+  },
+  {
+   "item": "37.3.1",
+   "title": "The Security Policy",
+   "module": 37,
+   "type": "LESSON",
+   "components": [
+    "text-view",
+    "dynamic-graphic-view",
+    "text-view",
+    "dynamic-graphic-view",
+    "blank-view"
+   ],
+   "unit_complete": true,
+   "status": "already_complete",
+   "notes": [],
+   "seconds": 4.9,
+   "outline_after": "completed"
+  },
+  {
+   "item": "37.3.2",
+   "title": "Help Desks",
+   "module": 37,
+   "type": "LESSON",
+   "components": [
+    "text-view",
+    "dynamic-graphic-view",
+    "blank-view"
+   ],
+   "unit_complete": false,
+   "status": "completed",
+   "notes": [
+    "completed after scrolling into view"
+   ],
+   "seconds": 9.1,
+   "outline_after": "completed"
+  },
+  {
+   "item": "37.3.4",
+   "title": "Question End Users",
+   "module": 37,
+   "type": "LESSON",
+   "components": [
+    "text-view",
+    "table-view",
+    "text-view",
+    "table-view",
+    "text-view",
+    "blank-view"
+   ],
+   "unit_complete": true,
+   "status": "already_complete",
+   "notes": [],
+   "seconds": 4.4,
+   "outline_after": "completed"
+  },
+  {
+   "item": "37.3.5",
+   "title": "Check Your Understanding - Closed-Ended and Open-Ended Questions",
+   "module": 37,
+   "type": "KNOWLEDGE_CHECK",
+   "components": [
+    "matching-view",
+    "matching-view"
+   ],
+   "unit_complete": false,
+   "status": "completed",
+   "notes": [],
+   "seconds": 8.6,
+   "outline_after": "completed"
+  },
+  {
+   "item": "37.3.6",
+   "title": "Active Listening",
+   "module": 37,
+   "type": "LESSON",
+   "components": [
+    "text-view",
+    "blank-view"
+   ],
+   "unit_complete": false,
+   "status": "completed",
+   "notes": [
+    "completed after scrolling into view"
+   ],
+   "seconds": 5.1,
+   "outline_after": "completed"
+  },
+  {
+   "item": "37.3.8",
+   "title": "Gather Information for Host-Related Tickets",
+   "module": 37,
+   "type": "INTERACTIVE",
+   "components": [
+    "text-view",
+    "tabs-view",
+    "blank-view"
+   ],
+   "unit_complete": false,
+   "status": "completed",
+   "notes": [
+    "unit complete"
+   ],
+   "seconds": 8.5,
+   "outline_after": "completed"
+  },
+  {
+   "item": "37.3.10",
+   "title": "Analyze the Information",
+   "module": 37,
+   "type": "LESSON",
+   "components": [
+    "text-view",
+    "blank-view"
+   ],
+   "unit_complete": true,
+   "status": "already_complete",
+   "notes": [],
+   "seconds": 4.1,
+   "outline_after": "completed"
+  },
+  {
+   "item": "37.3.11",
+   "title": "Check Your Understanding - Help Desks",
+   "module": 37,
+   "type": "KNOWLEDGE_CHECK",
+   "components": [
+    "mcq-view",
+    "mcq-view",
+    "mcq-view",
+    "mcq-view",
+    "quicknav-view"
+   ],
+   "unit_complete": false,
+   "status": "completed",
+   "notes": [],
+   "seconds": 6.2,
+   "outline_after": "completed"
+  },
+  {
+   "item": "37.4.1",
+   "title": "Windows Network Setup",
+   "module": 37,
+   "type": "LESSON",
+   "components": [
+    "text-view",
+    "graphic-view",
+    "commandwindow-view",
+    "commandwindow-view"
+   ],
+   "unit_complete": true,
+   "status": "already_complete",
+   "notes": [],
+   "seconds": 4.3,
+   "outline_after": "completed"
+  },
+  {
+   "item": "37.4.2",
+   "title": "Verify Connectivity in Windows",
+   "module": 37,
+   "type": "LESSON",
+   "components": [
+    "text-view",
+    "commandwindow-view",
+    "text-view"
+   ],
+   "unit_complete": true,
+   "status": "already_complete",
+   "notes": [],
+   "seconds": 3.7,
+   "outline_after": "completed"
+  },
+  {
+   "item": "37.4.3",
+   "title": "Linux Network Setup",
+   "module": 37,
+   "type": "LESSON",
+   "components": [
+    "text-view",
+    "graphic-view",
+    "commandwindow-view",
+    "text-view"
+   ],
+   "unit_complete": true,
+   "status": "already_complete",
+   "notes": [],
+   "seconds": 4.0,
+   "outline_after": "completed"
+  },
+  {
+   "item": "37.4.4",
+   "title": "Verify Connectivity in Linux",
+   "module": 37,
+   "type": "LESSON",
+   "components": [
+    "text-view",
+    "commandwindow-view"
+   ],
+   "unit_complete": true,
+   "status": "already_complete",
+   "notes": [],
+   "seconds": 3.8,
+   "outline_after": "in progress"
+  },
+  {
+   "item": "37.4.5",
+   "title": "MacOS Network Setup",
+   "module": 37,
+   "type": "LESSON",
+   "components": [
+    "graphic-view",
+    "commandwindow-view",
+    "commandwindow-view"
+   ],
+   "unit_complete": false,
+   "status": "completed",
+   "notes": [
+    "completed after scrolling into view"
+   ],
+   "seconds": 5.6,
+   "outline_after": "completed"
+  },
+  {
+   "item": "37.4.6",
+   "title": "Verify Connectivity in MacOS",
+   "module": 37,
+   "type": "LESSON",
+   "components": [
+    "text-view",
+    "graphic-view",
+    "text-view",
+    "graphic-view"
+   ],
+   "unit_complete": true,
+   "status": "already_complete",
+   "notes": [],
+   "seconds": 3.7,
+   "outline_after": "completed"
+  },
+  {
+   "item": "37.4.7",
+   "title": "Setup and Verify Networking in iOS",
+   "module": 37,
+   "type": "LESSON",
+   "components": [
+    "graphic-view",
+    "text-view"
+   ],
+   "unit_complete": false,
+   "status": "completed",
+   "notes": [
+    "completed after scrolling into view"
+   ],
+   "seconds": 4.7,
+   "outline_after": "completed"
+  },
+  {
+   "item": "37.4.8",
+   "title": "Setup and Verify Networking in Android",
+   "module": 37,
+   "type": "LESSON",
+   "components": [
+    "text-view",
+    "text-view",
+    "graphic-view",
+    "graphic-view",
+    "text-view"
+   ],
+   "unit_complete": false,
+   "status": "completed",
+   "notes": [
+    "completed after scrolling into view"
+   ],
+   "seconds": 8.8,
+   "outline_after": "completed"
+  },
+  {
+   "item": "37.4.9",
+   "title": "Lab - Verify Address With a Subnet Calculator",
+   "module": 37,
+   "type": "LAB",
+   "components": [
+    "pagetracer-view"
+   ],
+   "unit_complete": false,
+   "status": "completed",
+   "notes": [],
+   "seconds": 6.1,
+   "outline_after": "completed"
+  },
+  {
+   "item": "37.4.10",
+   "title": "Check Your Understanding - Troubleshoot Endpoint Connectivity",
+   "module": 37,
+   "type": "KNOWLEDGE_CHECK",
+   "components": [
+    "mcq-view",
+    "mcq-view",
+    "quicknav-view"
+   ],
+   "unit_complete": false,
+   "status": "completed",
+   "notes": [],
+   "seconds": 5.7,
+   "outline_after": "completed"
+  },
+  {
+   "item": "37.5.1",
+   "title": "Network Devices as Sources of Network Information",
+   "module": 37,
+   "type": "LESSON",
+   "components": [
+    "table-view",
+    "text-view"
+   ],
+   "unit_complete": false,
+   "status": "completed",
+   "notes": [
+    "completed after scrolling into view"
+   ],
+   "seconds": 6.2,
+   "outline_after": "completed"
+  },
+  {
+   "item": "37.5.2",
+   "title": "Packet Capture and Protocol Analysis",
+   "module": 37,
+   "type": "LESSON",
+   "components": [
+    "text-view",
+    "graphic-view",
+    "text-view"
+   ],
+   "unit_complete": true,
+   "status": "already_complete",
+   "notes": [],
+   "seconds": 3.8,
+   "outline_after": "completed"
+  },
+  {
+   "item": "37.5.3",
+   "title": "Lab - Install Wireshark",
+   "module": 37,
+   "type": "LAB",
+   "components": [
+    "pagetracer-view"
+   ],
+   "unit_complete": false,
+   "status": "completed",
+   "notes": [],
+   "seconds": 5.4,
+   "outline_after": "completed"
+  },
+  {
+   "item": "37.5.4",
+   "title": "Lab - Use Network Tools to Learn About a Network",
+   "module": 37,
+   "type": "LAB",
+   "components": [
+    "pagetracer-view"
+   ],
+   "unit_complete": false,
+   "status": "completed",
+   "notes": [],
+   "seconds": 5.1,
+   "outline_after": "completed"
+  },
+  {
+   "item": "37.5.5",
+   "title": "Measuring Network Throughput",
+   "module": 37,
+   "type": "LESSON",
+   "components": [
+    "text-view",
+    "commandwindow-view",
+    "text-view"
+   ],
+   "unit_complete": false,
+   "status": "completed",
+   "notes": [
+    "completed after scrolling into view"
+   ],
+   "seconds": 5.4,
+   "outline_after": "completed"
+  },
+  {
+   "item": "37.5.6",
+   "title": "Packet Tracer - Troubleshooting Challenge - Use Documentation to Solve Issues",
+   "module": 37,
+   "type": "LAB",
+   "components": [
+    "pagetracer-view",
+    "quicknav-view"
+   ],
+   "unit_complete": false,
+   "status": "completed",
+   "notes": [],
+   "seconds": 5.6,
+   "outline_after": "completed"
+  },
+  {
+   "item": "37.6.1",
+   "title": "Supporting Remote Users",
+   "module": 37,
+   "type": "INTERACTIVE",
+   "components": [
+    "text-view",
+    "narrative-view"
+   ],
+   "unit_complete": false,
+   "status": "completed",
+   "notes": [
+    "unit complete"
+   ],
+   "seconds": 11.0,
+   "outline_after": "completed"
+  },
+  {
+   "item": "37.6.2",
+   "title": "Remote Access with Telnet, SSH, and RDP",
+   "module": 37,
+   "type": "LESSON",
+   "components": [
+    "text-view",
+    "dynamic-graphic-view",
+    "text-view",
+    "dynamic-graphic-view",
+    "text-view"
+   ],
+   "unit_complete": true,
+   "status": "already_complete",
+   "notes": [],
+   "seconds": 3.8,
+   "outline_after": "completed"
+  },
+  {
+   "item": "37.6.3",
+   "title": "Video Demonstration - Remote Desktop and Remote Assistance",
+   "module": 37,
+   "type": "VIDEO",
+   "components": [
+    "media-view"
+   ],
+   "unit_complete": false,
+   "status": "completed",
+   "notes": [],
+   "seconds": 8.1,
+   "outline_after": "completed"
+  },
+  {
+   "item": "37.6.4",
+   "title": "Understanding VPNs",
+   "module": 37,
+   "type": "INTERACTIVE",
+   "components": [
+    "text-view",
+    "narrative-view",
+    "text-view",
+    "graphic-view",
+    "text-view",
+    "graphic-view",
+    "text-view"
+   ],
+   "unit_complete": false,
+   "status": "completed",
+   "notes": [
+    "unit complete"
+   ],
+   "seconds": 9.1,
+   "outline_after": "completed"
+  },
+  {
+   "item": "37.6.5",
+   "title": "Network Management Systems",
+   "module": 37,
+   "type": "LESSON",
+   "components": [
+    "text-view",
+    "table-view",
+    "text-view",
+    "graphic-view"
+   ],
+   "unit_complete": true,
+   "status": "already_complete",
+   "notes": [],
+   "seconds": 3.9,
+   "outline_after": "completed"
+  },
+  {
+   "item": "37.6.6",
+   "title": "Video - What is Network Management?",
+   "module": 37,
+   "type": "VIDEO",
+   "components": [
+    "media-view"
+   ],
+   "unit_complete": false,
+   "status": "completed",
+   "notes": [],
+   "seconds": 7.5,
+   "outline_after": "completed"
+  },
+  {
+   "item": "37.6.7",
+   "title": "Scripts, Automation, and Programmability",
+   "module": 37,
+   "type": "LESSON",
+   "components": [
+    "graphic-view",
+    "text-view",
+    "text-view"
+   ],
+   "unit_complete": true,
+   "status": "already_complete",
+   "notes": [],
+   "seconds": 3.9,
+   "outline_after": "in progress"
+  },
+  {
+   "item": "37.6.8",
+   "title": "Check Your Understanding - Troubleshoot Connectivity Remotely",
+   "module": 37,
+   "type": "KNOWLEDGE_CHECK",
+   "components": [
+    "mcq-view",
+    "mcq-view",
+    "mcq-view",
+    "quicknav-view"
+   ],
+   "unit_complete": false,
+   "status": "completed",
+   "notes": [],
+   "seconds": 6.1,
+   "outline_after": "completed"
+  },
+  {
+   "item": "37.7.1",
+   "title": "What Did I Learn in this Module?",
+   "module": 37,
+   "type": "INTERACTIVE",
+   "components": [
+    "accordion-view"
+   ],
+   "unit_complete": false,
+   "status": "completed",
+   "notes": [
+    "unit complete"
+   ],
+   "seconds": 10.3,
+   "outline_after": "completed"
+  },
+  {
+   "item": "37.7.2",
+   "title": "Webster - Reflection Questions",
+   "module": 37,
+   "type": "LESSON",
+   "components": [
+    "text-view",
+    "graphic-view"
+   ],
+   "unit_complete": true,
+   "status": "already_complete",
+   "notes": [],
+   "seconds": 4.1,
+   "outline_after": "completed"
+  },
+  {
+   "item": "37.7.3",
+   "title": "Network Support Quiz",
+   "module": 37,
+   "type": "ASSESSMENT",
+   "components": [
+    "adaptive-start-screen-view",
+    "quicknav-view"
+   ],
+   "unit_complete": false,
+   "status": "needs_user",
+   "notes": [
+    "graded assessment - never automated"
+   ],
+   "seconds": 34.1
+  },
+  {
+   "item": "38.0.1",
+   "title": "Why Should I Take this Module?",
+   "module": 38,
+   "type": "INTRODUCTION",
+   "components": [
+    "graphic-view",
+    "text-view"
+   ],
+   "unit_complete": false,
+   "status": "completed",
+   "notes": [
+    "completed after scrolling into view"
+   ],
+   "seconds": 7.4,
+   "outline_after": "completed"
+  },
+  {
+   "item": "38.0.2",
+   "title": "What Will I Learn in this Module?",
+   "module": 38,
+   "type": "INTRODUCTION",
+   "components": [
+    "table-view",
+    "quicknav-view"
+   ],
+   "unit_complete": true,
+   "status": "already_complete",
+   "notes": [],
+   "seconds": 4.0,
+   "outline_after": "completed"
+  },
+  {
+   "item": "38.1.1",
+   "title": "Threat Domains",
+   "module": 38,
+   "type": "INTERACTIVE",
+   "components": [
+    "flipcard-view"
+   ],
+   "unit_complete": false,
+   "status": "completed",
+   "notes": [
+    "unit complete"
+   ],
+   "seconds": 6.4,
+   "outline_after": "completed"
+  },
+  {
+   "item": "38.1.2",
+   "title": "Types of Cyber Threats",
+   "module": 38,
+   "type": "INTERACTIVE",
+   "components": [
+    "accordion-view"
+   ],
+   "unit_complete": false,
+   "status": "completed",
+   "notes": [
+    "unit complete"
+   ],
+   "seconds": 9.2,
+   "outline_after": "completed"
+  },
+  {
+   "item": "38.1.3",
+   "title": "Internal vs External Threats",
+   "module": 38,
+   "type": "LESSON",
+   "components": [
+    "text-view",
+    "dynamic-graphic-view"
+   ],
+   "unit_complete": true,
+   "status": "already_complete",
+   "notes": [],
+   "seconds": 3.9,
+   "outline_after": "completed"
+  },
+  {
+   "item": "38.1.4",
+   "title": "Practice Item - Threat Origination",
+   "module": 38,
+   "type": "KNOWLEDGE_CHECK",
+   "components": [
+    "matching-view",
+    "blank-view"
+   ],
+   "unit_complete": false,
+   "status": "completed",
+   "notes": [],
+   "seconds": 5.3,
+   "outline_after": "completed"
+  },
+  {
+   "item": "38.1.5",
+   "title": "User Threats and Vulnerabilities",
+   "module": 38,
+   "type": "INTERACTIVE",
+   "components": [
+    "accordion-view",
+    "text-view"
+   ],
+   "unit_complete": false,
+   "status": "completed",
+   "notes": [
+    "unit complete"
+   ],
+   "seconds": 9.2,
+   "outline_after": "completed"
+  },
+  {
+   "item": "38.1.6",
+   "title": "Threats to Devices",
+   "module": 38,
+   "type": "LESSON",
+   "components": [
+    "graphic-view",
+    "text-view",
+    "text-view",
+    "graphic-view"
+   ],
+   "unit_complete": false,
+   "status": "completed",
+   "notes": [
+    "completed after scrolling into view"
+   ],
+   "seconds": 4.8,
+   "outline_after": "completed"
+  },
+  {
+   "item": "38.1.7",
+   "title": "Threats to the Local Area Network",
+   "module": 38,
+   "type": "INTERACTIVE",
+   "components": [
+    "flipcard-view",
+    "blank-view"
+   ],
+   "unit_complete": false,
+   "status": "completed",
+   "notes": [
+    "unit complete"
+   ],
+   "seconds": 6.3,
+   "outline_after": "completed"
+  },
+  {
+   "item": "38.1.9",
+   "title": "Threats to the Public Cloud",
+   "module": 38,
+   "type": "INTERACTIVE",
+   "components": [
+    "narrative-view"
+   ],
+   "unit_complete": false,
+   "status": "completed",
+   "notes": [
+    "unit complete"
+   ],
+   "seconds": 6.7,
+   "outline_after": "completed"
+  },
+  {
+   "item": "38.1.10",
+   "title": "Threats to Applications",
+   "module": 38,
+   "type": "LESSON",
+   "components": [
+    "text-view"
+   ],
+   "unit_complete": true,
+   "status": "already_complete",
+   "notes": [],
+   "seconds": 3.8,
+   "outline_after": "completed"
+  },
+  {
+   "item": "38.1.11",
+   "title": "Practice Item - Threats and Vulnerabilities",
+   "module": 38,
+   "type": "KNOWLEDGE_CHECK",
+   "components": [
+    "object-matching-view"
+   ],
+   "unit_complete": false,
+   "status": "completed",
+   "notes": [],
+   "seconds": 8.3,
+   "outline_after": "completed"
+  },
+  {
+   "item": "38.1.12",
+   "title": "Threat Complexity",
+   "module": 38,
+   "type": "LESSON",
+   "components": [
+    "graphic-view",
+    "text-view",
+    "text-view",
+    "graphic-view"
+   ],
+   "unit_complete": false,
+   "status": "completed",
+   "notes": [
+    "completed after scrolling into view"
+   ],
+   "seconds": 5.8,
+   "outline_after": "completed"
+  },
+  {
+   "item": "38.1.13",
+   "title": "Backdoors and Rootkits",
+   "module": 38,
+   "type": "INTERACTIVE",
+   "components": [
+    "flipcard-view"
+   ],
+   "unit_complete": false,
+   "status": "completed",
+   "notes": [
+    "unit complete"
+   ],
+   "seconds": 6.0,
+   "outline_after": "completed"
+  },
+  {
+   "item": "38.1.14",
+   "title": "Threat Intelligence and Research Sources",
+   "module": 38,
+   "type": "INTERACTIVE",
+   "components": [
+    "narrative-view"
+   ],
+   "unit_complete": false,
+   "status": "completed",
+   "notes": [
+    "unit complete"
+   ],
+   "seconds": 6.6,
+   "outline_after": "completed"
+  },
+  {
+   "item": "38.1.15",
+   "title": "Check Your Understanding - Common Threats",
+   "module": 38,
+   "type": "KNOWLEDGE_CHECK",
+   "components": [
+    "object-matching-view",
+    "quicknav-view"
+   ],
+   "unit_complete": false,
+   "status": "completed",
+   "notes": [],
+   "seconds": 6.6,
+   "outline_after": "completed"
+  },
+  {
+   "item": "38.2.1",
+   "title": "Social Engineering",
+   "module": 38,
+   "type": "INTERACTIVE",
+   "components": [
+    "narrative-view"
+   ],
+   "unit_complete": false,
+   "status": "completed",
+   "notes": [
+    "unit complete"
+   ],
+   "seconds": 11.1,
+   "outline_after": "completed"
+  },
+  {
+   "item": "38.2.2",
+   "title": "Social Engineering Tactics",
+   "module": 38,
+   "type": "INTERACTIVE",
+   "components": [
+    "accordion-view"
+   ],
+   "unit_complete": false,
+   "status": "completed",
+   "notes": [
+    "unit complete"
+   ],
+   "seconds": 8.4,
+   "outline_after": "completed"
+  },
+  {
+   "item": "38.2.3",
+   "title": "Practice Item - Social Engineering Scenario",
+   "module": 38,
+   "type": "KNOWLEDGE_CHECK",
+   "components": [
+    "mcq-view"
+   ],
+   "unit_complete": false,
+   "status": "completed",
+   "notes": [],
+   "seconds": 5.8,
+   "outline_after": "completed"
+  },
+  {
+   "item": "38.2.4",
+   "title": "Shoulder Surfing and Dumpster Diving",
+   "module": 38,
+   "type": "LESSON",
+   "components": [
+    "text-view",
+    "graphic-view",
+    "graphic-view",
+    "text-view"
+   ],
+   "unit_complete": false,
+   "status": "completed",
+   "notes": [
+    "completed after scrolling into view"
+   ],
+   "seconds": 5.9,
+   "outline_after": "completed"
+  },
+  {
+   "item": "38.2.5",
+   "title": "Impersonation and Hoaxes",
+   "module": 38,
+   "type": "INTERACTIVE",
+   "components": [
+    "flipcard-view"
+   ],
+   "unit_complete": false,
+   "status": "completed",
+   "notes": [
+    "unit complete"
+   ],
+   "seconds": 5.9,
+   "outline_after": "completed"
+  },
+  {
+   "item": "38.2.6",
+   "title": "Piggybacking and Tailgating",
+   "module": 38,
+   "type": "LESSON",
+   "components": [
+    "text-view"
+   ],
+   "unit_complete": true,
+   "status": "already_complete",
+   "notes": [],
+   "seconds": 3.7,
+   "outline_after": "completed"
+  },
+  {
+   "item": "38.2.7",
+   "title": "Other Methods of Deception",
+   "module": 38,
+   "type": "INTERACTIVE",
+   "components": [
+    "accordion-view",
+    "blank-view"
+   ],
+   "unit_complete": false,
+   "status": "completed",
+   "notes": [
+    "unit complete"
+   ],
+   "seconds": 8.1,
+   "outline_after": "completed"
+  },
+  {
+   "item": "38.2.8",
+   "title": "Check Your Understanding - Social Engineering Attacks",
+   "module": 38,
+   "type": "KNOWLEDGE_CHECK",
+   "components": [
+    "object-matching-view"
+   ],
+   "unit_complete": false,
+   "status": "completed",
+   "notes": [],
+   "seconds": 6.1,
+   "outline_after": "completed"
+  },
+  {
+   "item": "38.2.9",
+   "title": "Defending Against Deception",
+   "module": 38,
+   "type": "LESSON",
+   "components": [
+    "graphic-view",
+    "text-view"
+   ],
+   "unit_complete": false,
+   "status": "completed",
+   "notes": [
+    "completed after scrolling into view"
+   ],
+   "seconds": 4.7,
+   "outline_after": "completed"
+  },
+  {
+   "item": "38.2.10",
+   "title": "Video - Explore Social Engineering Techniques",
+   "module": 38,
+   "type": "VIDEO",
+   "components": [
+    "media-view"
+   ],
+   "unit_complete": false,
+   "status": "completed",
+   "notes": [],
+   "seconds": 7.2,
+   "outline_after": "completed"
+  },
+  {
+   "item": "38.2.11",
+   "title": "Lab - Explore Social Engineering Techniques",
+   "module": 38,
+   "type": "LAB",
+   "components": [
+    "pagetracer-view",
+    "quicknav-view"
+   ],
+   "unit_complete": false,
+   "status": "completed",
+   "notes": [],
+   "seconds": 5.3,
+   "outline_after": "completed"
+  },
+  {
+   "item": "38.3.1",
+   "title": "Malware",
+   "module": 38,
+   "type": "INTERACTIVE",
+   "components": [
+    "hotgraphic-view"
+   ],
+   "unit_complete": false,
+   "status": "completed",
+   "notes": [
+    "unit complete"
+   ],
+   "seconds": 9.0,
+   "outline_after": "completed"
+  },
+  {
+   "item": "38.3.2",
+   "title": "Logic Bombs",
+   "module": 38,
+   "type": "LESSON",
+   "components": [
+    "text-view",
+    "graphic-view"
+   ],
+   "unit_complete": true,
+   "status": "already_complete",
+   "notes": [],
+   "seconds": 3.4,
+   "outline_after": "completed"
+  },
+  {
+   "item": "38.3.3",
+   "title": "Ransomware",
+   "module": 38,
+   "type": "LESSON",
+   "components": [
+    "graphic-view",
+    "text-view"
+   ],
+   "unit_complete": true,
+   "status": "already_complete",
+   "notes": [],
+   "seconds": 3.6,
+   "outline_after": "completed"
+  },
+  {
+   "item": "38.3.4",
+   "title": "Denial of Service Attacks",
+   "module": 38,
+   "type": "INTERACTIVE",
+   "components": [
+    "flipcard-view"
+   ],
+   "unit_complete": false,
+   "status": "completed",
+   "notes": [
+    "unit complete"
+   ],
+   "seconds": 5.9,
+   "outline_after": "completed"
+  },
+  {
+   "item": "38.3.5",
+   "title": "Domain Name System",
+   "module": 38,
+   "type": "INTERACTIVE",
+   "components": [
+    "accordion-view",
+    "blank-view"
+   ],
+   "unit_complete": false,
+   "status": "completed",
+   "notes": [
+    "unit complete"
+   ],
+   "seconds": 7.6,
+   "outline_after": "completed"
+  },
+  {
+   "item": "38.3.6",
+   "title": "Layer 2 Attacks",
+   "module": 38,
+   "type": "LESSON",
+   "components": [
+    "text-view",
+    "text-view",
+    "graphic-view",
+    "graphic-view",
+    "text-view"
+   ],
+   "unit_complete": false,
+   "status": "completed",
+   "notes": [
+    "completed after scrolling into view"
+   ],
+   "seconds": 6.3,
+   "outline_after": "completed"
+  },
+  {
+   "item": "38.3.7",
+   "title": "Practice Item - Attack Type",
+   "module": 38,
+   "type": "KNOWLEDGE_CHECK",
+   "components": [
+    "mcq-view"
+   ],
+   "unit_complete": false,
+   "status": "completed",
+   "notes": [],
+   "seconds": 4.7,
+   "outline_after": "completed"
+  },
+  {
+   "item": "38.3.8",
+   "title": "Man-in-the-Middle and Man-in-the-Mobile Attacks",
+   "module": 38,
+   "type": "INTERACTIVE",
+   "components": [
+    "flipcard-view"
+   ],
+   "unit_complete": false,
+   "status": "completed",
+   "notes": [
+    "unit complete"
+   ],
+   "seconds": 6.0,
+   "outline_after": "completed"
+  },
+  {
+   "item": "38.3.9",
+   "title": "Zero-Day Attacks",
+   "module": 38,
+   "type": "LESSON",
+   "components": [
+    "text-view",
+    "graphic-view"
+   ],
+   "unit_complete": true,
+   "status": "already_complete",
+   "notes": [],
+   "seconds": 3.9,
+   "outline_after": "in progress"
+  },
+  {
+   "item": "38.3.10",
+   "title": "Keyboard Logging",
+   "module": 38,
+   "type": "LESSON",
+   "components": [
+    "graphic-view",
+    "text-view"
+   ],
+   "unit_complete": true,
+   "status": "already_complete",
+   "notes": [],
+   "seconds": 3.9,
+   "outline_after": "completed"
+  },
+  {
+   "item": "38.3.11",
+   "title": "Confirm Your Details",
+   "module": 38,
+   "type": "KNOWLEDGE_CHECK",
+   "components": [
+    "mcq-view"
+   ],
+   "unit_complete": false,
+   "status": "completed",
+   "notes": [],
+   "seconds": 5.4,
+   "outline_after": "completed"
+  },
+  {
+   "item": "38.3.12",
+   "title": "Defending Against Attacks",
+   "module": 38,
+   "type": "LESSON",
+   "components": [
+    "graphic-view",
+    "text-view"
+   ],
+   "unit_complete": false,
+   "status": "completed",
+   "notes": [
+    "completed after scrolling into view"
+   ],
+   "seconds": 5.1,
+   "outline_after": "completed"
+  },
+  {
+   "item": "38.3.13",
+   "title": "Check Your Understanding - Cyber Attacks",
+   "module": 38,
+   "type": "KNOWLEDGE_CHECK",
+   "components": [
+    "object-matching-view",
+    "mcq-view",
+    "quicknav-view"
+   ],
+   "unit_complete": false,
+   "status": "completed",
+   "notes": [],
+   "seconds": 8.7,
+   "outline_after": "completed"
+  },
+  {
+   "item": "38.4.1",
+   "title": "Grayware and SMiShing",
+   "module": 38,
+   "type": "LESSON",
+   "components": [
+    "text-view",
+    "graphic-view"
+   ],
+   "unit_complete": true,
+   "status": "already_complete",
+   "notes": [],
+   "seconds": 4.3,
+   "outline_after": "completed"
+  },
+  {
+   "item": "38.4.2",
+   "title": "Rogue Access Points",
+   "module": 38,
+   "type": "INTERACTIVE",
+   "components": [
+    "narrative-view"
+   ],
+   "unit_complete": false,
+   "status": "completed",
+   "notes": [
+    "unit complete"
+   ],
+   "seconds": 6.4,
+   "outline_after": "completed"
+  },
+  {
+   "item": "38.4.3",
+   "title": "Radio Frequency Jamming",
+   "module": 38,
+   "type": "LESSON",
+   "components": [
+    "text-view",
+    "graphic-view"
+   ],
+   "unit_complete": true,
+   "status": "already_complete",
+   "notes": [],
+   "seconds": 3.5,
+   "outline_after": "completed"
+  },
+  {
+   "item": "38.4.4",
+   "title": "Bluejacking and Bluesnarfing",
+   "module": 38,
+   "type": "INTERACTIVE",
+   "components": [
+    "flipcard-view"
+   ],
+   "unit_complete": false,
+   "status": "completed",
+   "notes": [
+    "unit complete"
+   ],
+   "seconds": 6.2,
+   "outline_after": "completed"
+  },
+  {
+   "item": "38.4.5",
+   "title": "Attacks Against Wi-Fi Protocols",
+   "module": 38,
+   "type": "LESSON",
+   "components": [
+    "text-view",
+    "graphic-view",
+    "blank-view"
+   ],
+   "unit_complete": true,
+   "status": "already_complete",
+   "notes": [],
+   "seconds": 3.9,
+   "outline_after": "completed"
+  },
+  {
+   "item": "38.4.6",
+   "title": "Wi-Fi and Mobile Defense",
+   "module": 38,
+   "type": "LESSON",
+   "components": [
+    "graphic-view",
+    "text-view"
+   ],
+   "unit_complete": true,
+   "status": "already_complete",
+   "notes": [],
+   "seconds": 3.6,
+   "outline_after": "completed"
+  },
+  {
+   "item": "38.4.7",
+   "title": "Check Your Understanding - Wireless and Mobile Device Attacks",
+   "module": 38,
+   "type": "KNOWLEDGE_CHECK",
+   "components": [
+    "mcq-view",
+    "quicknav-view"
+   ],
+   "unit_complete": false,
+   "status": "completed",
+   "notes": [],
+   "seconds": 4.0,
+   "outline_after": "completed"
+  },
+  {
+   "item": "38.5.1",
+   "title": "Cross-Site Scripting",
+   "module": 38,
+   "type": "LESSON",
+   "components": [
+    "text-view",
+    "dynamic-graphic-view"
+   ],
+   "unit_complete": true,
+   "status": "already_complete",
+   "notes": [],
+   "seconds": 4.8,
+   "outline_after": "completed"
+  },
+  {
+   "item": "38.5.2",
+   "title": "Code Injection",
+   "module": 38,
+   "type": "INTERACTIVE",
+   "components": [
+    "accordion-view"
+   ],
+   "unit_complete": false,
+   "status": "completed",
+   "notes": [
+    "unit complete"
+   ],
+   "seconds": 6.7,
+   "outline_after": "completed"
+  },
+  {
+   "item": "38.5.3",
+   "title": "Buffer Overflow",
+   "module": 38,
+   "type": "LESSON",
+   "components": [
+    "text-view",
+    "graphic-view"
+   ],
+   "unit_complete": true,
+   "status": "already_complete",
+   "notes": [],
+   "seconds": 3.7,
+   "outline_after": "completed"
+  },
+  {
+   "item": "38.5.4",
+   "title": "Remote Code Executions",
+   "module": 38,
+   "type": "INTERACTIVE",
+   "components": [
+    "flipcard-view"
+   ],
+   "unit_complete": false,
+   "status": "completed",
+   "notes": [
+    "unit complete"
+   ],
+   "seconds": 4.8,
+   "outline_after": "completed"
+  },
+  {
+   "item": "38.5.5",
+   "title": "Other Application Attacks",
+   "module": 38,
+   "type": "INTERACTIVE",
+   "components": [
+    "accordion-view"
+   ],
+   "unit_complete": false,
+   "status": "completed",
+   "notes": [
+    "unit complete"
+   ],
+   "seconds": 8.9,
+   "outline_after": "completed"
+  },
+  {
+   "item": "38.5.6",
+   "title": "Practice Item - Code and Memory Attacks",
+   "module": 38,
+   "type": "KNOWLEDGE_CHECK",
+   "components": [
+    "mcq-view",
+    "blank-view"
+   ],
+   "unit_complete": false,
+   "status": "completed",
+   "notes": [],
+   "seconds": 5.0,
+   "outline_after": "completed"
+  },
+  {
+   "item": "38.5.7",
+   "title": "Defending Against Application Attacks",
+   "module": 38,
+   "type": "LESSON",
+   "components": [
+    "text-view",
+    "graphic-view"
+   ],
+   "unit_complete": false,
+   "status": "completed",
+   "notes": [
+    "completed after scrolling into view"
+   ],
+   "seconds": 5.0,
+   "outline_after": "completed"
+  },
+  {
+   "item": "38.5.8",
+   "title": "Spam",
+   "module": 38,
+   "type": "LESSON",
+   "components": [
+    "text-view"
+   ],
+   "unit_complete": true,
+   "status": "already_complete",
+   "notes": [],
+   "seconds": 3.4,
+   "outline_after": "completed"
+  },
+  {
+   "item": "38.5.9",
+   "title": "Phishing",
+   "module": 38,
+   "type": "INTERACTIVE",
+   "components": [
+    "flipcard-view"
+   ],
+   "unit_complete": false,
+   "status": "completed",
+   "notes": [
+    "unit complete"
+   ],
+   "seconds": 6.0,
+   "outline_after": "completed"
+  },
+  {
+   "item": "38.5.10",
+   "title": "Vishing, Pharming and Whaling",
+   "module": 38,
+   "type": "INTERACTIVE",
+   "components": [
+    "accordion-view"
+   ],
+   "unit_complete": false,
+   "status": "completed",
+   "notes": [
+    "unit complete"
+   ],
+   "seconds": 6.4,
+   "outline_after": "completed"
+  },
+  {
+   "item": "38.5.11",
+   "title": "Practice Item - Phishing Attacks",
+   "module": 38,
+   "type": "KNOWLEDGE_CHECK",
+   "components": [
+    "object-matching-view",
+    "blank-view"
+   ],
+   "unit_complete": false,
+   "status": "completed",
+   "notes": [],
+   "seconds": 6.1,
+   "outline_after": "completed"
+  },
+  {
+   "item": "38.5.12",
+   "title": "Defending Against Email and Browser Attacks",
+   "module": 38,
+   "type": "INTERACTIVE",
+   "components": [
+    "text-view",
+    "accordion-view"
+   ],
+   "unit_complete": false,
+   "status": "completed",
+   "notes": [
+    "unit complete"
+   ],
+   "seconds": 7.0,
+   "outline_after": "completed"
+  },
+  {
+   "item": "38.5.13",
+   "title": "Check Your Understanding - Application Attacks",
+   "module": 38,
+   "type": "KNOWLEDGE_CHECK",
+   "components": [
+    "mcq-view",
+    "mcq-view",
+    "mcq-view",
+    "mcq-view",
+    "mcq-view",
+    "mcq-view",
+    "quicknav-view"
+   ],
+   "unit_complete": false,
+   "status": "completed",
+   "notes": [],
+   "seconds": 7.0,
+   "outline_after": "completed"
+  },
+  {
+   "item": "38.6.1",
+   "title": "What Did I Learn in this Module?",
+   "module": 38,
+   "type": "INTERACTIVE",
+   "components": [
+    "accordion-view"
+   ],
+   "unit_complete": false,
+   "status": "completed",
+   "notes": [
+    "unit complete"
+   ],
+   "seconds": 9.7,
+   "outline_after": "completed"
+  },
+  {
+   "item": "38.6.2",
+   "title": "Webster - Reflection Questions",
+   "module": 38,
+   "type": "LESSON",
+   "components": [
+    "text-view",
+    "graphic-view"
+   ],
+   "unit_complete": true,
+   "status": "already_complete",
+   "notes": [],
+   "seconds": 3.4,
+   "outline_after": "completed"
+  },
+  {
+   "item": "38.6.3",
+   "title": "Cybersecurity Threats, Vulnerabilities, and Attacks Quiz",
+   "module": 38,
+   "type": "ASSESSMENT",
+   "components": [
+    "adaptive-start-screen-view",
+    "quicknav-view"
+   ],
+   "unit_complete": false,
+   "status": "needs_user",
+   "notes": [
+    "graded assessment - never automated"
+   ],
+   "seconds": 34.4
+  },
+  {
+   "item": "39.0.1",
+   "title": "Why Should I Take this Module?",
+   "module": 39,
+   "type": "INTRODUCTION",
+   "components": [
+    "graphic-view",
+    "text-view"
+   ],
+   "unit_complete": false,
+   "status": "completed",
+   "notes": [
+    "completed after scrolling into view"
+   ],
+   "seconds": 7.5,
+   "outline_after": "completed"
+  },
+  {
+   "item": "39.0.2",
+   "title": "What Will I Learn in this Module?",
+   "module": 39,
+   "type": "INTRODUCTION",
+   "components": [
+    "table-view",
+    "quicknav-view"
+   ],
+   "unit_complete": true,
+   "status": "already_complete",
+   "notes": [],
+   "seconds": 3.9,
+   "outline_after": "completed"
+  },
+  {
+   "item": "39.1.1",
+   "title": "The Cybersecurity Cube",
+   "module": 39,
+   "type": "LESSON",
+   "components": [
+    "text-view",
+    "graphic-view",
+    "text-view",
+    "graphic-view",
+    "text-view",
+    "graphic-view",
+    "text-view"
+   ],
+   "unit_complete": true,
+   "status": "already_complete",
+   "notes": [],
+   "seconds": 4.2,
+   "outline_after": "completed"
+  },
+  {
+   "item": "39.1.2",
+   "title": "Confidentiality, Integrity, and Availability",
+   "module": 39,
+   "type": "LESSON",
+   "components": [
+    "text-view",
+    "dynamic-graphic-view"
+   ],
+   "unit_complete": true,
+   "status": "already_complete",
+   "notes": [],
+   "seconds": 3.7,
+   "outline_after": "completed"
+  },
+  {
+   "item": "39.1.3",
+   "title": "CIA Triad - The Principle of Confidentiality",
+   "module": 39,
+   "type": "LESSON",
+   "components": [
+    "text-view",
+    "graphic-view",
+    "graphic-view",
+    "text-view"
+   ],
+   "unit_complete": true,
+   "status": "already_complete",
+   "notes": [],
+   "seconds": 3.7,
+   "outline_after": "in progress"
+  },
+  {
+   "item": "39.1.4",
+   "title": "Practice Item - Protecting Data Privacy",
+   "module": 39,
+   "type": "KNOWLEDGE_CHECK",
+   "components": [
+    "object-matching-view"
+   ],
+   "unit_complete": false,
+   "status": "completed",
+   "notes": [],
+   "seconds": 6.2,
+   "outline_after": "completed"
+  },
+  {
+   "item": "39.1.5",
+   "title": "Data Integrity",
+   "module": 39,
+   "type": "INTERACTIVE",
+   "components": [
+    "flipcard-view"
+   ],
+   "unit_complete": false,
+   "status": "completed",
+   "notes": [
+    "unit complete"
+   ],
+   "seconds": 7.6,
+   "outline_after": "completed"
+  },
+  {
+   "item": "39.1.6",
+   "title": "Availability",
+   "module": 39,
+   "type": "ACTIVITY",
+   "components": [
+    "yesno-view"
+   ],
+   "unit_complete": false,
+   "status": "completed",
+   "notes": [],
+   "seconds": 6.5,
+   "outline_after": "completed"
+  },
+  {
+   "item": "39.1.7",
+   "title": "Ensuring Availability",
+   "module": 39,
+   "type": "INTERACTIVE",
+   "components": [
+    "accordion-view"
+   ],
+   "unit_complete": false,
+   "status": "completed",
+   "notes": [
+    "unit complete"
+   ],
+   "seconds": 8.4,
+   "outline_after": "completed"
+  },
+  {
+   "item": "39.1.8",
+   "title": "Check Your Understanding - Security Foundations",
+   "module": 39,
+   "type": "KNOWLEDGE_CHECK",
+   "components": [
+    "object-matching-view",
+    "quicknav-view"
+   ],
+   "unit_complete": false,
+   "status": "completed",
+   "notes": [],
+   "seconds": 6.9,
+   "outline_after": "completed"
+  },
+  {
+   "item": "39.2.1",
+   "title": "Physical Access Controls",
+   "module": 39,
+   "type": "LESSON",
+   "components": [
+    "text-view",
+    "graphic-view"
+   ],
+   "unit_complete": false,
+   "status": "completed",
+   "notes": [
+    "completed after scrolling into view"
+   ],
+   "seconds": 7.5,
+   "outline_after": "completed"
+  },
+  {
+   "item": "39.2.2",
+   "title": "Logical Access Controls",
+   "module": 39,
+   "type": "LESSON",
+   "components": [
+    "text-view"
+   ],
+   "unit_complete": true,
+   "status": "already_complete",
+   "notes": [],
+   "seconds": 3.7,
+   "outline_after": "completed"
+  },
+  {
+   "item": "39.2.3",
+   "title": "Administrative Access Controls",
+   "module": 39,
+   "type": "LESSON",
+   "components": [
+    "text-view",
+    "dynamic-graphic-view",
+    "text-view"
+   ],
+   "unit_complete": true,
+   "status": "already_complete",
+   "notes": [],
+   "seconds": 3.9,
+   "outline_after": "completed"
+  },
+  {
+   "item": "39.2.4",
+   "title": "Authentication, Authorization, and Accounting (AAA)",
+   "module": 39,
+   "type": "INTERACTIVE",
+   "components": [
+    "accordion-view"
+   ],
+   "unit_complete": false,
+   "status": "completed",
+   "notes": [
+    "unit complete"
+   ],
+   "seconds": 6.2,
+   "outline_after": "completed"
+  },
+  {
+   "item": "39.2.5",
+   "title": "What Is Identification?",
+   "module": 39,
+   "type": "LESSON",
+   "components": [
+    "text-view"
+   ],
+   "unit_complete": true,
+   "status": "already_complete",
+   "notes": [],
+   "seconds": 3.6,
+   "outline_after": "completed"
+  },
+  {
+   "item": "39.2.6",
+   "title": "Federated Identity Management",
+   "module": 39,
+   "type": "LESSON",
+   "components": [
+    "text-view",
+    "graphic-view"
+   ],
+   "unit_complete": false,
+   "status": "completed",
+   "notes": [
+    "completed after scrolling into view"
+   ],
+   "seconds": 4.3,
+   "outline_after": "completed"
+  },
+  {
+   "item": "39.2.7",
+   "title": "Authentication Methods",
+   "module": 39,
+   "type": "INTERACTIVE",
+   "components": [
+    "accordion-view"
+   ],
+   "unit_complete": false,
+   "status": "completed",
+   "notes": [
+    "unit complete"
+   ],
+   "seconds": 6.1,
+   "outline_after": "completed"
+  },
+  {
+   "item": "39.2.8",
+   "title": "Passwords",
+   "module": 39,
+   "type": "LESSON",
+   "components": [
+    "table-view",
+    "text-view"
+   ],
+   "unit_complete": false,
+   "status": "completed",
+   "notes": [
+    "completed after scrolling into view"
+   ],
+   "seconds": 5.0,
+   "outline_after": "completed"
+  },
+  {
+   "item": "39.2.9",
+   "title": "Multi-Factor Authentication",
+   "module": 39,
+   "type": "LESSON",
+   "components": [
+    "text-view"
+   ],
+   "unit_complete": true,
+   "status": "already_complete",
+   "notes": [],
+   "seconds": 3.9,
+   "outline_after": "completed"
+  },
+  {
+   "item": "39.2.10",
+   "title": "Authorization",
+   "module": 39,
+   "type": "INTERACTIVE",
+   "components": [
+    "hotgraphic-view"
+   ],
+   "unit_complete": false,
+   "status": "completed",
+   "notes": [
+    "unit complete"
+   ],
+   "seconds": 6.7,
+   "outline_after": "completed"
+  },
+  {
+   "item": "39.2.11",
+   "title": "Accounting",
+   "module": 39,
+   "type": "INTERACTIVE",
+   "components": [
+    "narrative-view"
+   ],
+   "unit_complete": false,
+   "status": "completed",
+   "notes": [
+    "unit complete"
+   ],
+   "seconds": 6.1,
+   "outline_after": "completed"
+  },
+  {
+   "item": "39.2.12",
+   "title": "Check Your Understanding - Access Control",
+   "module": 39,
+   "type": "KNOWLEDGE_CHECK",
+   "components": [
+    "mcq-view"
+   ],
+   "unit_complete": false,
+   "status": "completed",
+   "notes": [],
+   "seconds": 3.9,
+   "outline_after": "completed"
+  },
+  {
+   "item": "39.2.13",
+   "title": "Video - Configure Access Control",
+   "module": 39,
+   "type": "VIDEO",
+   "components": [
+    "media-view"
+   ],
+   "unit_complete": false,
+   "status": "completed",
+   "notes": [],
+   "seconds": 8.2,
+   "outline_after": "completed"
+  },
+  {
+   "item": "39.2.14",
+   "title": "Packet Tracer - Configure Access Control",
+   "module": 39,
+   "type": "LAB",
+   "components": [
+    "pagetracer-view",
+    "quicknav-view"
+   ],
+   "unit_complete": false,
+   "status": "completed",
+   "notes": [],
+   "seconds": 5.5,
+   "outline_after": "completed"
+  },
+  {
+   "item": "39.3.1",
+   "title": "Operating System Security",
+   "module": 39,
+   "type": "INTERACTIVE",
+   "components": [
+    "narrative-view"
+   ],
+   "unit_complete": false,
+   "status": "completed",
+   "notes": [
+    "unit complete"
+   ],
+   "seconds": 7.7,
+   "outline_after": "completed"
+  },
+  {
+   "item": "39.3.2",
+   "title": "What Do You Know About Antimalware?",
+   "module": 39,
+   "type": "KNOWLEDGE_CHECK",
+   "components": [
+    "object-matching-view"
+   ],
+   "unit_complete": false,
+   "status": "completed",
+   "notes": [],
+   "seconds": 7.3,
+   "outline_after": "completed"
+  },
+  {
+   "item": "39.3.3",
+   "title": "Types of Antimalware",
+   "module": 39,
+   "type": "INTERACTIVE",
+   "components": [
+    "accordion-view"
+   ],
+   "unit_complete": false,
+   "status": "completed",
+   "notes": [
+    "unit complete"
+   ],
+   "seconds": 6.7,
+   "outline_after": "completed"
+  },
+  {
+   "item": "39.3.4",
+   "title": "Patch Management",
+   "module": 39,
+   "type": "INTERACTIVE",
+   "components": [
+    "narrative-view"
+   ],
+   "unit_complete": false,
+   "status": "completed",
+   "notes": [
+    "unit complete"
+   ],
+   "seconds": 6.7,
+   "outline_after": "completed"
+  },
+  {
+   "item": "39.3.5",
+   "title": "Endpoint Security",
+   "module": 39,
+   "type": "INTERACTIVE",
+   "components": [
+    "flipcard-view"
+   ],
+   "unit_complete": false,
+   "status": "completed",
+   "notes": [
+    "unit complete"
+   ],
+   "seconds": 10.0,
+   "outline_after": "completed"
+  },
+  {
+   "item": "39.3.6",
+   "title": "Host Encryption",
+   "module": 39,
+   "type": "LESSON",
+   "components": [
+    "text-view",
+    "graphic-view"
+   ],
+   "unit_complete": true,
+   "status": "already_complete",
+   "notes": [],
+   "seconds": 3.4,
+   "outline_after": "completed"
+  },
+  {
+   "item": "39.3.7",
+   "title": "Boot Integrity",
+   "module": 39,
+   "type": "INTERACTIVE",
+   "components": [
+    "narrative-view"
+   ],
+   "unit_complete": false,
+   "status": "completed",
+   "notes": [
+    "unit complete"
+   ],
+   "seconds": 6.7,
+   "outline_after": "completed"
+  },
+  {
+   "item": "39.3.8",
+   "title": "Apple System Security Features",
+   "module": 39,
+   "type": "INTERACTIVE",
+   "components": [
+    "accordion-view"
+   ],
+   "unit_complete": false,
+   "status": "completed",
+   "notes": [
+    "unit complete"
+   ],
+   "seconds": 8.9,
+   "outline_after": "completed"
+  },
+  {
+   "item": "39.3.9",
+   "title": "Physical Protection of Devices",
+   "module": 39,
+   "type": "INTERACTIVE",
+   "components": [
+    "narrative-view"
+   ],
+   "unit_complete": false,
+   "status": "completed",
+   "notes": [
+    "unit complete"
+   ],
+   "seconds": 6.4,
+   "outline_after": "completed"
+  },
+  {
+   "item": "39.3.10",
+   "title": "Check Your Understanding - Defending Systems and Devices",
+   "module": 39,
+   "type": "KNOWLEDGE_CHECK",
+   "components": [
+    "mcq-view",
+    "mcq-view",
+    "mcq-view",
+    "mcq-view",
+    "mcq-view",
+    "mcq-view",
+    "quicknav-view"
+   ],
+   "unit_complete": false,
+   "status": "completed",
+   "notes": [],
+   "seconds": 6.2,
+   "outline_after": "completed"
+  },
+  {
+   "item": "39.4.1",
+   "title": "Endpoint Threats",
+   "module": 39,
+   "type": "LESSON",
+   "components": [
+    "text-view",
+    "dynamic-graphic-view"
+   ],
+   "unit_complete": true,
+   "status": "already_complete",
+   "notes": [],
+   "seconds": 4.2,
+   "outline_after": "completed"
+  },
+  {
+   "item": "39.4.2",
+   "title": "Endpoint Security",
+   "module": 39,
+   "type": "LESSON",
+   "components": [
+    "dynamic-graphic-view",
+    "text-view"
+   ],
+   "unit_complete": false,
+   "status": "completed",
+   "notes": [
+    "completed after scrolling into view"
+   ],
+   "seconds": 5.1,
+   "outline_after": "completed"
+  },
+  {
+   "item": "39.4.3",
+   "title": "Host-Based Malware Protection",
+   "module": 39,
+   "type": "INTERACTIVE",
+   "components": [
+    "accordion-view"
+   ],
+   "unit_complete": false,
+   "status": "completed",
+   "notes": [
+    "unit complete"
+   ],
+   "seconds": 5.8,
+   "outline_after": "completed"
+  },
+  {
+   "item": "39.4.4",
+   "title": "Network-Based Malware Protection",
+   "module": 39,
+   "type": "LESSON",
+   "components": [
+    "dynamic-graphic-view",
+    "text-view"
+   ],
+   "unit_complete": true,
+   "status": "already_complete",
+   "notes": [],
+   "seconds": 3.5,
+   "outline_after": "completed"
+  },
+  {
+   "item": "39.4.5",
+   "title": "Check Your Understanding - Antimalware Protection",
+   "module": 39,
+   "type": "KNOWLEDGE_CHECK",
+   "components": [
+    "mcq-view",
+    "mcq-view",
+    "mcq-view",
+    "mcq-view",
+    "mcq-view",
+    "quicknav-view"
+   ],
+   "unit_complete": false,
+   "status": "completed",
+   "notes": [],
+   "seconds": 6.0,
+   "outline_after": "completed"
+  },
+  {
+   "item": "39.5.1",
+   "title": "Firewalls",
+   "module": 39,
+   "type": "INTERACTIVE",
+   "components": [
+    "adobe-animate-view",
+    "tabs-view"
+   ],
+   "unit_complete": false,
+   "status": "completed",
+   "notes": [
+    "unit complete"
+   ],
+   "seconds": 9.4,
+   "outline_after": "completed"
+  },
+  {
+   "item": "39.5.2",
+   "title": "Types of Firewalls",
+   "module": 39,
+   "type": "INTERACTIVE",
+   "components": [
+    "tabs-view",
+    "text-view"
+   ],
+   "unit_complete": false,
+   "status": "completed",
+   "notes": [
+    "unit complete"
+   ],
+   "seconds": 8.7,
+   "outline_after": "completed"
+  },
+  {
+   "item": "39.5.3",
+   "title": "Check Your Understanding - Identify the Type of Firewall",
+   "module": 39,
+   "type": "KNOWLEDGE_CHECK",
+   "components": [
+    "mcq-view",
+    "mcq-view",
+    "mcq-view",
+    "mcq-view",
+    "mcq-view"
+   ],
+   "unit_complete": false,
+   "status": "completed",
+   "notes": [],
+   "seconds": 6.4,
+   "outline_after": "completed"
+  },
+  {
+   "item": "39.5.4",
+   "title": "Packet Filtering Firewall Benefits and Limitations",
+   "module": 39,
+   "type": "LESSON",
+   "components": [
+    "dynamic-graphic-view",
+    "text-view"
+   ],
+   "unit_complete": false,
+   "status": "completed",
+   "notes": [
+    "completed after scrolling into view"
+   ],
+   "seconds": 4.8,
+   "outline_after": "completed"
+  },
+  {
+   "item": "39.5.5",
+   "title": "Stateful Firewall Benefits and Limitations",
+   "module": 39,
+   "type": "LESSON",
+   "components": [
+    "table-view"
+   ],
+   "unit_complete": false,
+   "status": "completed",
+   "notes": [
+    "completed after scrolling into view"
+   ],
+   "seconds": 4.8,
+   "outline_after": "completed"
+  },
+  {
+   "item": "39.5.6",
+   "title": "Host-Based Firewalls",
+   "module": 39,
+   "type": "INTERACTIVE",
+   "components": [
+    "accordion-view"
+   ],
+   "unit_complete": false,
+   "status": "completed",
+   "notes": [
+    "unit complete"
+   ],
+   "seconds": 6.9,
+   "outline_after": "completed"
+  },
+  {
+   "item": "39.5.7",
+   "title": "Antimalware Programs",
+   "module": 39,
+   "type": "INTERACTIVE",
+   "components": [
+    "accordion-view"
+   ],
+   "unit_complete": false,
+   "status": "completed",
+   "notes": [
+    "unit complete"
+   ],
+   "seconds": 7.2,
+   "outline_after": "completed"
+  },
+  {
+   "item": "39.5.8",
+   "title": "Windows Defender Firewall",
+   "module": 39,
+   "type": "LESSON",
+   "components": [
+    "text-view",
+    "graphic-view",
+    "text-view",
+    "graphic-view",
+    "text-view",
+    "graphic-view",
+    "text-view",
+    "graphic-view"
+   ],
+   "unit_complete": true,
+   "status": "already_complete",
+   "notes": [],
+   "seconds": 3.5,
+   "outline_after": "completed"
+  },
+  {
+   "item": "39.5.9",
+   "title": "Check Your Understanding - Firewall and Host-Based Intrusion Prevention",
+   "module": 39,
+   "type": "KNOWLEDGE_CHECK",
+   "components": [
+    "mcq-view",
+    "mcq-view",
+    "mcq-view",
+    "mcq-view",
+    "mcq-view",
+    "object-matching-view",
+    "quicknav-view"
+   ],
+   "unit_complete": false,
+   "status": "completed",
+   "notes": [],
+   "seconds": 10.7,
+   "outline_after": "completed"
+  },
+  {
+   "item": "39.6.1",
+   "title": "Video - WLAN Threats",
+   "module": 39,
+   "type": "VIDEO",
+   "components": [
+    "media-view"
+   ],
+   "unit_complete": false,
+   "status": "completed",
+   "notes": [],
+   "seconds": 9.6,
+   "outline_after": "completed"
+  },
+  {
+   "item": "39.6.2",
+   "title": "Wireless Security Overview",
+   "module": 39,
+   "type": "LESSON",
+   "components": [
+    "text-view"
+   ],
+   "unit_complete": true,
+   "status": "already_complete",
+   "notes": [],
+   "seconds": 3.8,
+   "outline_after": "completed"
+  },
+  {
+   "item": "39.6.3",
+   "title": "DoS Attacks",
+   "module": 39,
+   "type": "LESSON",
+   "components": [
+    "dynamic-graphic-view",
+    "text-view"
+   ],
+   "unit_complete": false,
+   "status": "completed",
+   "notes": [
+    "completed after scrolling into view"
+   ],
+   "seconds": 6.1,
+   "outline_after": "completed"
+  },
+  {
+   "item": "39.6.4",
+   "title": "Rogue Access Points",
+   "module": 39,
+   "type": "LESSON",
+   "components": [
+    "graphic-view"
+   ],
+   "unit_complete": false,
+   "status": "completed",
+   "notes": [
+    "completed after scrolling into view"
+   ],
+   "seconds": 5.2,
+   "outline_after": "completed"
+  },
+  {
+   "item": "39.6.5",
+   "title": "Man-in-the-Middle Attack",
+   "module": 39,
+   "type": "LESSON",
+   "components": [
+    "dynamic-graphic-view",
+    "dynamic-graphic-view",
+    "text-view",
+    "blank-view"
+   ],
+   "unit_complete": false,
+   "status": "completed",
+   "notes": [
+    "completed after scrolling into view"
+   ],
+   "seconds": 6.9,
+   "outline_after": "completed"
+  },
+  {
+   "item": "39.6.6",
+   "title": "Check Your Understanding - WLAN Threats",
+   "module": 39,
+   "type": "KNOWLEDGE_CHECK",
+   "components": [
+    "mcq-view",
+    "mcq-view",
+    "mcq-view"
+   ],
+   "unit_complete": false,
+   "status": "completed",
+   "notes": [],
+   "seconds": 7.8,
+   "outline_after": "completed"
+  },
+  {
+   "item": "39.6.7",
+   "title": "Video - Secure WLANs",
+   "module": 39,
+   "type": "VIDEO",
+   "components": [
+    "media-view"
+   ],
+   "unit_complete": false,
+   "status": "completed",
+   "notes": [],
+   "seconds": 9.1,
+   "outline_after": "completed"
+  },
+  {
+   "item": "39.6.8",
+   "title": "SSID Cloaking and MAC Address Filtering",
+   "module": 39,
+   "type": "LESSON",
+   "components": [
+    "graphic-view",
+    "graphic-view"
+   ],
+   "unit_complete": false,
+   "status": "completed",
+   "notes": [
+    "completed after scrolling into view"
+   ],
+   "seconds": 5.8,
+   "outline_after": "completed"
+  },
+  {
+   "item": "39.6.9",
+   "title": "802.11 Original Authentication Methods",
+   "module": 39,
+   "type": "LESSON",
+   "components": [
+    "dynamic-graphic-view"
+   ],
+   "unit_complete": false,
+   "status": "completed",
+   "notes": [
+    "completed after scrolling into view"
+   ],
+   "seconds": 4.7,
+   "outline_after": "completed"
+  },
+  {
+   "item": "39.6.10",
+   "title": "Shared Key Authentication Methods",
+   "module": 39,
+   "type": "LESSON",
+   "components": [
+    "table-view"
+   ],
+   "unit_complete": false,
+   "status": "completed",
+   "notes": [
+    "completed after scrolling into view"
+   ],
+   "seconds": 4.6,
+   "outline_after": "completed"
+  },
+  {
+   "item": "39.6.11",
+   "title": "Authenticating a Home User",
+   "module": 39,
+   "type": "LESSON",
+   "components": [
+    "graphic-view"
+   ],
+   "unit_complete": false,
+   "status": "completed",
+   "notes": [
+    "completed after scrolling into view"
+   ],
+   "seconds": 4.4,
+   "outline_after": "completed"
+  },
+  {
+   "item": "39.6.12",
+   "title": "Encryption Methods",
+   "module": 39,
+   "type": "LESSON",
+   "components": [
+    "graphic-view"
+   ],
+   "unit_complete": false,
+   "status": "completed",
+   "notes": [
+    "completed after scrolling into view"
+   ],
+   "seconds": 4.5,
+   "outline_after": "completed"
+  },
+  {
+   "item": "39.6.13",
+   "title": "Authentication in the Enterprise",
+   "module": 39,
+   "type": "LESSON",
+   "components": [
+    "graphic-view",
+    "text-view"
+   ],
+   "unit_complete": false,
+   "status": "completed",
+   "notes": [
+    "completed after scrolling into view"
+   ],
+   "seconds": 5.5,
+   "outline_after": "completed"
+  },
+  {
+   "item": "39.6.14",
+   "title": "WPA3",
+   "module": 39,
+   "type": "INTERACTIVE",
+   "components": [
+    "accordion-view",
+    "blank-view"
+   ],
+   "unit_complete": false,
+   "status": "completed",
+   "notes": [
+    "unit complete"
+   ],
+   "seconds": 8.3,
+   "outline_after": "completed"
+  },
+  {
+   "item": "39.6.15",
+   "title": "Check Your Understanding - Secure WLANs",
+   "module": 39,
+   "type": "KNOWLEDGE_CHECK",
+   "components": [
+    "mcq-view",
+    "mcq-view",
+    "mcq-view",
+    "mcq-view",
+    "mcq-view"
+   ],
+   "unit_complete": false,
+   "status": "completed",
+   "notes": [],
+   "seconds": 6.9,
+   "outline_after": "completed"
+  },
+  {
+   "item": "39.6.16",
+   "title": "Packet Tracer - Configure Basic Wireless Security",
+   "module": 39,
+   "type": "LAB",
+   "components": [
+    "pagetracer-view",
+    "quicknav-view"
+   ],
+   "unit_complete": false,
+   "status": "completed",
+   "notes": [],
+   "seconds": 6.0,
+   "outline_after": "completed"
+  },
+  {
+   "item": "39.7.1",
+   "title": "What Did I Learn in this Module?",
+   "module": 39,
+   "type": "INTERACTIVE",
+   "components": [
+    "accordion-view"
+   ],
+   "unit_complete": false,
+   "status": "completed",
+   "notes": [
+    "unit complete"
+   ],
+   "seconds": 13.1,
+   "outline_after": "completed"
+  },
+  {
+   "item": "39.7.2",
+   "title": "Webster - Reflection Questions",
+   "module": 39,
+   "type": "LESSON",
+   "components": [
+    "text-view",
+    "graphic-view",
+    "blank-view"
+   ],
+   "unit_complete": true,
+   "status": "already_complete",
+   "notes": [],
+   "seconds": 3.9,
+   "outline_after": "completed"
+  },
+  {
+   "item": "39.7.3",
+   "title": "Network Security Quiz",
+   "module": 39,
+   "type": "ASSESSMENT",
+   "components": [
+    "adaptive-start-screen-view"
+   ],
+   "unit_complete": false,
+   "status": "needs_user",
+   "notes": [
+    "graded assessment - never automated"
+   ],
+   "seconds": 34.5
+  }
+ ],
+ "needs_user": [
+  {
+   "item": "18.3.3",
+   "why": "graded assessment - never automated"
+  },
+  {
+   "item": "19.3.3",
+   "why": "graded assessment - never automated"
+  },
+  {
+   "item": "20.3.3",
+   "why": "graded assessment - never automated"
+  },
+  {
+   "item": "21.4.6",
+   "why": "no driver yet for: ['switch-it-view'] - please do this one yourself"
+  },
+  {
+   "item": "21.5.3",
+   "why": "graded assessment - never automated"
+  },
+  {
+   "item": "22.4.3",
+   "why": "graded assessment - never automated"
+  },
+  {
+   "item": "23.2.3",
+   "why": "graded assessment - never automated"
+  },
+  {
+   "item": "24.2.3",
+   "why": "graded assessment - never automated"
+  },
+  {
+   "item": "25.3.3",
+   "why": "graded assessment - never automated"
+  },
+  {
+   "item": "26.8.4",
+   "why": "graded assessment - never automated"
+  },
+  {
+   "item": "27.4.3",
+   "why": "graded assessment - never automated"
+  },
+  {
+   "item": "28.5.3",
+   "why": "graded assessment - never automated"
+  },
+  {
+   "item": "29.3.4",
+   "why": "graded assessment - never automated"
+  },
+  {
+   "item": "30.4.4",
+   "why": "cable-pinout-view: did not complete; cable-pinout-view: did not complete"
+  },
+  {
+   "item": "30.6.3",
+   "why": "graded assessment - never automated"
+  },
+  {
+   "item": "31.3.3",
+   "why": "graded assessment - never automated"
+  },
+  {
+   "item": "32.3.3",
+   "why": "graded assessment - never automated"
+  },
+  {
+   "item": "33.6.3",
+   "why": "graded assessment - never automated"
+  },
+  {
+   "item": "34.2.3",
+   "why": "graded assessment - never automated"
+  },
+  {
+   "item": "35.6.3",
+   "why": "graded assessment - never automated"
+  },
+  {
+   "item": "36.6.3",
+   "why": "graded assessment - never automated"
+  },
+  {
+   "item": "37.7.3",
+   "why": "graded assessment - never automated"
+  },
+  {
+   "item": "38.6.3",
+   "why": "graded assessment - never automated"
+  },
+  {
+   "item": "39.7.3",
+   "why": "graded assessment - never automated"
+  }
+ ],
+ "failed": [
+  {
+   "item": "25.1.6",
+   "title": "Syntax Checker - The nslookup Command",
+   "module": 25,
+   "type": "UNKNOWN",
+   "components": [],
+   "unit_complete": true,
+   "status": "unknown"
+  },
+  {
+   "item": "26.7.1",
+   "title": "UDP Low Overhead versus Reliability",
+   "module": 26,
+   "type": "LESSON",
+   "components": [
+    "dynamic-graphic-view"
+   ],
+   "unit_complete": false,
+   "status": "failed",
+   "notes": [
+    "unit still incomplete after viewing; pending components: ['dynamic-graphic-view']"
+   ],
+   "seconds": 136.2
+  },
+  {
+   "item": "28.1.3",
+   "title": "Syntax Checker - Configure a Switch Virtual Interface",
+   "module": 28,
+   "type": "UNKNOWN",
+   "components": [],
+   "unit_complete": true,
+   "status": "unknown"
+  },
+  {
+   "item": "28.2.3",
+   "title": "Syntax Checker - Configure Initial Router Settings",
+   "module": 28,
+   "type": "UNKNOWN",
+   "components": [],
+   "unit_complete": false,
+   "status": "unknown"
+  },
+  {
+   "item": "28.4.3",
+   "title": "Syntax Checker - Configure the Default Gateway",
+   "module": 28,
+   "type": "UNKNOWN",
+   "components": [],
+   "unit_complete": true,
+   "status": "unknown"
+  },
+  {
+   "item": "35.1.6",
+   "title": "Check Your Understanding - Cisco Switches",
+   "module": 35,
+   "type": "KNOWLEDGE_CHECK",
+   "components": [
+    "mcq-view",
+    "mcq-view",
+    "mcq-view",
+    "mcq-view",
+    "mcq-view",
+    "mcq-view",
+    "mcq-view",
+    "mcq-view",
+    "mcq-view",
+    "quicknav-view"
+   ],
+   "unit_complete": false,
+   "status": "failed",
+   "notes": [
+    "submit_failed: When first connecting to a switch to configure it for the fi"
+   ],
+   "seconds": 74.8
+  },
+  {
+   "item": "36.4.9",
+   "title": "Syntax Checker - The nslookup Command",
+   "module": 36,
+   "type": "UNKNOWN",
+   "components": [],
+   "unit_complete": true,
+   "status": "unknown"
+  },
+  {
+   "item": "37.1.1",
+   "title": "Troubleshooting Process Review",
+   "module": 37,
+   "type": "LESSON",
+   "components": [
+    "text-view"
+   ],
+   "unit_complete": false,
+   "status": "failed",
+   "notes": [
+    "unit still incomplete after viewing; pending components: ['text-view']"
+   ],
+   "seconds": 119.6
+  }
+ ],
+ "finished_at": "2026-09-05T02:49:25"
+}

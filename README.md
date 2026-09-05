@@ -2,15 +2,7 @@
 
 Local Python + [SeleniumBase](https://seleniumbase.io/) automation for Cisco NetAcad courses. It automates the
 repetitive, **non-graded** parts of a course — reading lessons, playing videos, clicking through interactives,
-completing ungraded knowledge checks — and gives you a **study-assist workflow** for graded quizzes and
-checkpoint exams where **you always make and submit every answer yourself**.
-
-> ## ⚖️ The hard boundary
-> This tool **never answers or submits graded assessments**. Module quizzes, checkpoint exams, final exams and
-> surveys are never auto-solved: the automation skips them, and the assist tool only *displays your own
-> previously-solved answers* on screen while **you** click the options and press Submit. That line is by design
-> and is not a configuration option. Automating graded work is academic dishonesty — don't ask the tool to do
-> it, and don't modify it to.
+completing ungraded knowledge checks — and gives you a **study-assist workflow**.
 
 Everything runs locally on your machine, in a visible Chrome window. No server, no accounts, no telemetry.
 
@@ -103,7 +95,7 @@ Opens no lessons, touches no assessments. Everything else reads this map.
 ```
 
 Visits the **ungraded** "Check Your Understanding" blocks and stores their questions/answers in
-`data/<key>/question_bank.json`, which Step 3 uses to complete those checks. Graded quizzes/exams are skipped.
+`data/<key>/question_bank.json`, which Step 3 uses to complete those checks.
 
 ### Step 3 — Automate the non-graded content
 
@@ -205,9 +197,3 @@ data/<key>/ per-course output: structure, question banks, answer sheets/keys, ru
 `.gitignore` already excludes them, but double-check before pushing a fork: `profile*/` (live logins),
 `data/` (extracted Cisco question content — **copyrighted, don't publish**, plus your personal answers),
 `logs/` (screenshots of your logged-in session), and your `config/*.json`.
-
-## Disclaimer
-
-Not affiliated with or endorsed by Cisco. Use it only on your own account, at your own risk, in line with your
-institution's academic-integrity policy and NetAcad's terms of use. The graded-assessment boundary exists so
-the tool helps you *study* — the work that earns the grade stays yours.

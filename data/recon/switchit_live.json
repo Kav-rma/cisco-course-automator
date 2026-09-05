@@ -1,0 +1,478 @@
+{
+ "before": {
+  "frameHead": [
+   "Preamble",
+   "Destination MAC",
+   "Source MAC",
+   "Type / Length",
+   "Frame",
+   "End of Frame"
+  ],
+  "frameRow": [
+   "",
+   "0C",
+   "0B",
+   "",
+   "",
+   ""
+  ],
+  "macHead": [
+   {
+    "t": "Fa1",
+    "span": 1
+   },
+   {
+    "t": "Fa2",
+    "span": 1
+   },
+   {
+    "t": "Fa3",
+    "span": 1
+   },
+   {
+    "t": "Fa4",
+    "span": 1
+   },
+   {
+    "t": "Fa5",
+    "span": 1
+   },
+   {
+    "t": "Fa6",
+    "span": 1
+   },
+   {
+    "t": "Fa7",
+    "span": 1
+   },
+   {
+    "t": "Fa8",
+    "span": 1
+   },
+   {
+    "t": "Fa9",
+    "span": 2
+   },
+   {
+    "t": "Fa10",
+    "span": 1
+   },
+   {
+    "t": "Fa11",
+    "span": 1
+   },
+   {
+    "t": "Fa12",
+    "span": 1
+   }
+  ],
+  "macCells": [
+   {
+    "v": "0A",
+    "hidden": true,
+    "cls": " hide "
+   },
+   {
+    "v": null
+   },
+   {
+    "v": "0B",
+    "hidden": false,
+    "cls": "  "
+   },
+   {
+    "v": null
+   },
+   {
+    "v": "0C",
+    "hidden": false,
+    "cls": "  "
+   },
+   {
+    "v": null
+   },
+   {
+    "v": "0D",
+    "hidden": false,
+    "cls": "  "
+   },
+   {
+    "v": null
+   },
+   {
+    "v": "0E",
+    "hidden": false,
+    "cls": "  "
+   },
+   {
+    "v": "0F",
+    "hidden": false,
+    "cls": "  "
+   },
+   {
+    "v": null
+   },
+   {
+    "v": null
+   },
+   {
+    "v": null
+   }
+  ],
+  "questions": [
+   {
+    "heading": "Question 1 - Where will the switch forward the frame?",
+    "options": [
+     {
+      "label": "Fa1",
+      "id": "question-1-answer-0",
+      "name": "question-Fa1",
+      "checked": false
+     },
+     {
+      "label": "Fa2",
+      "id": "question-1-answer-1",
+      "name": "question-Fa2",
+      "checked": false
+     },
+     {
+      "label": "Fa3",
+      "id": "question-1-answer-2",
+      "name": "question-Fa3",
+      "checked": false
+     },
+     {
+      "label": "Fa4",
+      "id": "question-1-answer-3",
+      "name": "question-Fa4",
+      "checked": false
+     },
+     {
+      "label": "Fa5",
+      "id": "question-1-answer-4",
+      "name": "question-Fa5",
+      "checked": false
+     },
+     {
+      "label": "Fa6",
+      "id": "question-1-answer-5",
+      "name": "question-Fa6",
+      "checked": false
+     },
+     {
+      "label": "Fa7",
+      "id": "question-1-answer-6",
+      "name": "question-Fa7",
+      "checked": false
+     },
+     {
+      "label": "Fa8",
+      "id": "question-1-answer-7",
+      "name": "question-Fa8",
+      "checked": false
+     },
+     {
+      "label": "Fa9",
+      "id": "question-1-answer-8",
+      "name": "question-Fa9",
+      "checked": false
+     },
+     {
+      "label": "Fa10",
+      "id": "question-1-answer-9",
+      "name": "question-Fa10",
+      "checked": false
+     },
+     {
+      "label": "Fa11",
+      "id": "question-1-answer-10",
+      "name": "question-Fa11",
+      "checked": false
+     },
+     {
+      "label": "Fa12",
+      "id": "question-1-answer-11",
+      "name": "question-Fa12",
+      "checked": false
+     }
+    ]
+   },
+   {
+    "heading": "Question 2 - When the switch forwards the frame, which statement(s) are true?",
+    "options": [
+     {
+      "label": "Switch adds the source MAC address which is currently not in the MAC address table.",
+      "id": "question-2-answer-0",
+      "name": "question-Switch adds the source MAC address which is currently not in the MAC address table.",
+      "checked": false
+     },
+     {
+      "label": "Frame is a broadcast frame and will be forwarded to all ports.",
+      "id": "question-2-answer-1",
+      "name": "question-Frame is a broadcast frame and will be forwarded to all ports.",
+      "checked": false
+     },
+     {
+      "label": "Frame is a unicast frame and will be sent to specific port only.",
+      "id": "question-2-answer-2",
+      "name": "question-Frame is a unicast frame and will be sent to specific port only.",
+      "checked": false
+     },
+     {
+      "label": "Frame is a unicast frame and will be flooded to all ports.",
+      "id": "question-2-answer-3",
+      "name": "question-Frame is a unicast frame and will be flooded to all ports.",
+      "checked": false
+     },
+     {
+      "label": "Frame is a unicast frame but it will be dropped at the switch.",
+      "id": "question-2-answer-4",
+      "name": "question-Frame is a unicast frame but it will be dropped at the switch.",
+      "checked": false
+     }
+    ]
+   }
+  ],
+  "buttons": [],
+  "feedback": [],
+  "complete": false
+ },
+ "after_showme": {
+  "frameHead": [
+   "Preamble",
+   "Destination MAC",
+   "Source MAC",
+   "Type / Length",
+   "Frame",
+   "End of Frame"
+  ],
+  "frameRow": [
+   "",
+   "0C",
+   "0B",
+   "",
+   "",
+   ""
+  ],
+  "macHead": [
+   {
+    "t": "Fa1",
+    "span": 1
+   },
+   {
+    "t": "Fa2",
+    "span": 1
+   },
+   {
+    "t": "Fa3",
+    "span": 1
+   },
+   {
+    "t": "Fa4",
+    "span": 1
+   },
+   {
+    "t": "Fa5",
+    "span": 1
+   },
+   {
+    "t": "Fa6",
+    "span": 1
+   },
+   {
+    "t": "Fa7",
+    "span": 1
+   },
+   {
+    "t": "Fa8",
+    "span": 1
+   },
+   {
+    "t": "Fa9",
+    "span": 2
+   },
+   {
+    "t": "Fa10",
+    "span": 1
+   },
+   {
+    "t": "Fa11",
+    "span": 1
+   },
+   {
+    "t": "Fa12",
+    "span": 1
+   }
+  ],
+  "macCells": [
+   {
+    "v": "0A",
+    "hidden": true,
+    "cls": " hide "
+   },
+   {
+    "v": null
+   },
+   {
+    "v": "0B",
+    "hidden": false,
+    "cls": "  "
+   },
+   {
+    "v": null
+   },
+   {
+    "v": "0C",
+    "hidden": false,
+    "cls": "  "
+   },
+   {
+    "v": null
+   },
+   {
+    "v": "0D",
+    "hidden": false,
+    "cls": "  "
+   },
+   {
+    "v": null
+   },
+   {
+    "v": "0E",
+    "hidden": false,
+    "cls": "  "
+   },
+   {
+    "v": "0F",
+    "hidden": false,
+    "cls": "  "
+   },
+   {
+    "v": null
+   },
+   {
+    "v": null
+   },
+   {
+    "v": null
+   }
+  ],
+  "questions": [
+   {
+    "heading": "Question 1 - Where will the switch forward the frame?",
+    "options": [
+     {
+      "label": "Fa1",
+      "id": "question-1-answer-0",
+      "name": "question-Fa1",
+      "checked": false
+     },
+     {
+      "label": "Fa2",
+      "id": "question-1-answer-1",
+      "name": "question-Fa2",
+      "checked": false
+     },
+     {
+      "label": "Fa3",
+      "id": "question-1-answer-2",
+      "name": "question-Fa3",
+      "checked": false
+     },
+     {
+      "label": "Fa4",
+      "id": "question-1-answer-3",
+      "name": "question-Fa4",
+      "checked": false
+     },
+     {
+      "label": "Fa5",
+      "id": "question-1-answer-4",
+      "name": "question-Fa5",
+      "checked": false
+     },
+     {
+      "label": "Fa6",
+      "id": "question-1-answer-5",
+      "name": "question-Fa6",
+      "checked": false
+     },
+     {
+      "label": "Fa7",
+      "id": "question-1-answer-6",
+      "name": "question-Fa7",
+      "checked": false
+     },
+     {
+      "label": "Fa8",
+      "id": "question-1-answer-7",
+      "name": "question-Fa8",
+      "checked": false
+     },
+     {
+      "label": "Fa9",
+      "id": "question-1-answer-8",
+      "name": "question-Fa9",
+      "checked": false
+     },
+     {
+      "label": "Fa10",
+      "id": "question-1-answer-9",
+      "name": "question-Fa10",
+      "checked": false
+     },
+     {
+      "label": "Fa11",
+      "id": "question-1-answer-10",
+      "name": "question-Fa11",
+      "checked": false
+     },
+     {
+      "label": "Fa12",
+      "id": "question-1-answer-11",
+      "name": "question-Fa12",
+      "checked": false
+     }
+    ]
+   },
+   {
+    "heading": "Question 2 - When the switch forwards the frame, which statement(s) are true?",
+    "options": [
+     {
+      "label": "Switch adds the source MAC address which is currently not in the MAC address table.",
+      "id": "question-2-answer-0",
+      "name": "question-Switch adds the source MAC address which is currently not in the MAC address table.",
+      "checked": false
+     },
+     {
+      "label": "Frame is a broadcast frame and will be forwarded to all ports.",
+      "id": "question-2-answer-1",
+      "name": "question-Frame is a broadcast frame and will be forwarded to all ports.",
+      "checked": false
+     },
+     {
+      "label": "Frame is a unicast frame and will be sent to specific port only.",
+      "id": "question-2-answer-2",
+      "name": "question-Frame is a unicast frame and will be sent to specific port only.",
+      "checked": false
+     },
+     {
+      "label": "Frame is a unicast frame and will be flooded to all ports.",
+      "id": "question-2-answer-3",
+      "name": "question-Frame is a unicast frame and will be flooded to all ports.",
+      "checked": false
+     },
+     {
+      "label": "Frame is a unicast frame but it will be dropped at the switch.",
+      "id": "question-2-answer-4",
+      "name": "question-Frame is a unicast frame but it will be dropped at the switch.",
+      "checked": false
+     }
+    ]
+   }
+  ],
+  "buttons": [],
+  "feedback": [],
+  "complete": false
+ }
+}

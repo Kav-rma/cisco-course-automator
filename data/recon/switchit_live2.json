@@ -1,0 +1,130 @@
+{
+ "before": {
+  "buttons": [
+   {
+    "text": "Check",
+    "cls": "",
+    "disabled": true,
+    "rect": {
+     "x": 188,
+     "y": 2849,
+     "w": 111
+    }
+   },
+   {
+    "text": "New problem",
+    "cls": "",
+    "disabled": false,
+    "rect": {
+     "x": 323,
+     "y": 2849,
+     "w": 160
+    }
+   },
+   {
+    "text": "Show me",
+    "cls": "",
+    "disabled": false,
+    "rect": {
+     "x": 506,
+     "y": 2849,
+     "w": 132
+    }
+   },
+   {
+    "text": "Help",
+    "cls": "",
+    "disabled": false,
+    "rect": {
+     "x": 663,
+     "y": 2849,
+     "w": 99
+    }
+   }
+  ],
+  "ptr": {
+   "geo": {
+    "x": 723,
+    "y": 2373,
+    "w": 33,
+    "h": 28
+   },
+   "style": "top:85px;left:245px;width:35px;height:30px;",
+   "src": "_assets/media/2e03f380-1c25-11ea-a010-eb2108469056/2e03f384-1c25-11ea-81a0-ffc2c49b96bc.svg"
+  },
+  "main": {
+   "geo": {
+    "x": 491,
+    "y": 2292,
+    "w": 417,
+    "h": 246
+   }
+  },
+  "feedback": [],
+  "complete": false
+ },
+ "after": {
+  "buttons": [
+   {
+    "text": "Check",
+    "cls": "",
+    "disabled": false,
+    "rect": {
+     "x": 192,
+     "y": 437,
+     "w": 111
+    }
+   },
+   {
+    "text": "New problem",
+    "cls": "",
+    "disabled": false,
+    "rect": {
+     "x": 327,
+     "y": 437,
+     "w": 160
+    }
+   },
+   {
+    "text": "Show me",
+    "cls": "",
+    "disabled": false,
+    "rect": {
+     "x": 510,
+     "y": 437,
+     "w": 132
+    }
+   },
+   {
+    "text": "Help",
+    "cls": "",
+    "disabled": false,
+    "rect": {
+     "x": 667,
+     "y": 437,
+     "w": 99
+    }
+   }
+  ],
+  "ptr": {
+   "geo": {
+    "x": 728,
+    "y": -40,
+    "w": 34,
+    "h": 29
+   },
+   "style": "top:85px;left:245px;width:35px;height:30px;",
+   "src": "_assets/media/2e03f380-1c25-11ea-a010-eb2108469056/2e03f384-1c25-11ea-81a0-ffc2c49b96bc.svg"
+  },
+  "main": {
+   "geo": {
+    "x": 491,
+    "y": -122,
+    "w": 425,
+    "h": 251
+   }
+  },
+  "feedback": [],
+  "complete": false
+ }
+}

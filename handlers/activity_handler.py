@@ -6,6 +6,7 @@ so they can be added once seen. All drivers verify completion via the component'
 from __future__ import annotations
 
 import json
+import re
 import time
 
 from core import content_frame as cf
@@ -351,6 +352,119 @@ def drive_yesno(ctx: HandlerContext, mid: str) -> dict:
     return {"ok": bool(done), "answers": answers, "complete": done}
 
 
+# ---- switch-it (21.4.6): "Switch It!" frame-forwarding activity -------------------------------------------
+# Verified 2026-09-05 over 8 sampled rounds. The MAC table's columns are fixed ports (Fa1..Fa12, Fa9 spans two
+# cells); a MAC whose span carries class "hide" is NOT currently in the table. Standard switch behaviour:
+#   dest == FF (broadcast)      -> every device port except the ingress port
+#   dest in the MAC table       -> just that port ("sent to specific port only")
+#   dest not in the MAC table   -> flood: every device port except ingress ("flooded to all ports")
+#   source not in the table     -> the switch also learns it ("adds the source MAC address ...")
+# The ingress port is the port that owns the source MAC in the table layout.
+JS_SWITCHIT_STATE = cf.JS_BY_ID + r"""
+const el = byId(arguments[0]); if (!el) return null;
+const all=[]; (function walk(n){ if(!n) return; all.push(n);
+  if(n.shadowRoot) Array.from(n.shadowRoot.children).forEach(walk);
+  Array.from(n.children||[]).forEach(walk); })(el);
+const txt=(e)=> e ? (e.textContent||'').replace(/\s+/g,' ').trim() : null;
+const tables = all.filter(e=>e.tagName==='TABLE');
+const frame = tables[0] ? Array.from(tables[0].querySelectorAll('tbody td')).map(txt) : [];
+const macT = all.find(e=>/problem-details-mac-table/.test(String(e.className)));
+if (!macT) return null;
+// expand the header row by colSpan so column index -> port name
+const ports=[]; Array.from(macT.querySelectorAll('th')).forEach(h=>{
+  for (let i=0;i<(h.colSpan||1);i++) ports.push(txt(h)); });
+const cells = Array.from(macT.querySelectorAll('tbody td')).map((td,i)=>{
+  const sp=td.querySelector('span');
+  return {port: ports[i]||null, mac: sp?txt(sp):null, in_table: sp?!/hide/.test(sp.className):false};});
+const qs = all.filter(e=>/(^| )question(-\d+)?( |$)/.test(String(e.className)) && e.querySelector('.option'));
+const questions = qs.map(q=>({heading: txt(q.querySelector('h5')),
+  options: Array.from(q.querySelectorAll('.option')).map(o=>{const i=o.querySelector('input');
+     return {label:o.getAttribute('aria-label'), checked: i?i.checked:false};})}));
+return JSON.stringify({frame, cells, questions, complete: completion(stateDiv(el))});
+"""
+JS_SWITCHIT_SET = cf.JS_BY_ID + r"""
+const el = byId(arguments[0]); const want = arguments[1];
+const all=[]; (function walk(n){ if(!n) return; all.push(n);
+  if(n.shadowRoot) Array.from(n.shadowRoot.children).forEach(walk);
+  Array.from(n.children||[]).forEach(walk); })(el);
+const opts = all.filter(o=>/(^| )option( |$)/.test(String(o.className)) && o.querySelector('input'));
+let changed=[];
+for (const o of opts) {
+  const lab = o.getAttribute('aria-label'); const i = o.querySelector('input');
+  const should = want.indexOf(lab) !== -1;
+  if (!!i.checked !== should) { i.click(); changed.push((should?'+':'-')+lab); }
+}
+return JSON.stringify(changed);
+"""
+JS_SWITCHIT_BTN = cf.JS_BY_ID + r"""
+const el = byId(arguments[0]); const want=String(arguments[1]).toLowerCase();
+const all=[]; (function walk(n){ if(!n) return; all.push(n);
+  if(n.shadowRoot) Array.from(n.shadowRoot.children).forEach(walk);
+  Array.from(n.children||[]).forEach(walk); })(el);
+const b = all.find(x=>x.tagName==='BUTTON' && (x.textContent||'').trim().toLowerCase()===want);
+if(!b || b.disabled) return 'not-found';
+b.scrollIntoView({block:'center', behavior:'instant'}); b.click(); return 'ok';
+"""
+
+_SI_BROADCAST = "Frame is a broadcast frame and will be forwarded to all ports."
+_SI_SPECIFIC = "Frame is a unicast frame and will be sent to specific port only."
+_SI_FLOOD = "Frame is a unicast frame and will be flooded to all ports."
+_SI_LEARN = "Switch adds the source MAC address which is currently not in the MAC address table."
+
+
+def _switchit_solve(st: dict) -> dict:
+    """Work out the ports and statements for the current frame. Returns {} if the state is unreadable."""
+    frame = [c for c in (st.get("frame") or [])]
+    cells = [c for c in (st.get("cells") or []) if c.get("mac")]
+    if len(frame) < 3 or not cells:
+        return {}
+    dest, src = (frame[1] or "").strip().upper(), (frame[2] or "").strip().upper()
+    port_of = {c["mac"].strip().upper(): c["port"] for c in cells if c.get("port")}
+    in_table = {c["mac"].strip().upper(): c["in_table"] for c in cells}
+    device_ports = sorted({c["port"] for c in cells if c.get("port")},
+                          key=lambda p: int(re.sub(r"\D", "", p) or 0))
+    ingress = port_of.get(src)
+    if dest.startswith("FF"):
+        ports, stmt = [p for p in device_ports if p != ingress], _SI_BROADCAST
+    elif in_table.get(dest):
+        ports, stmt = [port_of[dest]], _SI_SPECIFIC
+    else:
+        ports, stmt = [p for p in device_ports if p != ingress], _SI_FLOOD
+    statements = [stmt]
+    if not in_table.get(src, False):
+        statements.append(_SI_LEARN)
+    return {"dest": dest, "src": src, "ingress": ingress, "ports": ports, "statements": statements}
+
+
+def drive_switch_it(ctx: HandlerContext, mid: str) -> dict:
+    """Solve the Switch It! rounds: read the frame + MAC table, tick the ports/statements, Check, New problem."""
+    rounds = []
+    for rnd in range(20):
+        raw = ctx.sb.execute_script(JS_SWITCHIT_STATE, mid)
+        if not raw:
+            return {"ok": False, "error": "switch-it state unreadable", "rounds": rounds}
+        st = json.loads(raw)
+        if st.get("complete"):
+            break
+        sol = _switchit_solve(st)
+        if not sol:
+            return {"ok": False, "error": "could not read the frame / MAC table", "rounds": rounds}
+        changed = ctx.sb.execute_script(JS_SWITCHIT_SET, mid, sol["ports"] + sol["statements"])
+        chk = ctx.sb.execute_script(JS_SWITCHIT_BTN, mid, "Check")
+        time.sleep(0.9)
+        ctx.log.info("  round %d: %s->%s via %s | %s | check=%s", rnd + 1, sol["src"], sol["dest"],
+                     ",".join(sol["ports"]), sol["statements"][0][:38], chk)
+        rounds.append({"dest": sol["dest"], "src": sol["src"], "ports": sol["ports"], "check": chk,
+                       "changed": json.loads(changed) if changed else []})
+        if cf.wait_complete(ctx.sb, mid, 3):
+            break
+        if ctx.sb.execute_script(JS_SWITCHIT_BTN, mid, "New problem") != "ok":
+            break
+        time.sleep(1.0)
+    done = cf.wait_complete(ctx.sb, mid, ctx.cfg["timeouts"]["completion"])
+    return {"ok": bool(done), "rounds": len(rounds), "complete": done}
+
+
 ACTIVITY_DRIVERS = {
     "yesno-view": drive_yesno,
     "ipv6addressrepresentation-view": drive_ipv6_representation,
@@ -358,6 +472,7 @@ ACTIVITY_DRIVERS = {
     "decimal-to-binary": drive_decimal_to_binary,
     "anding-activity-view": drive_anding,
     "cable-pinout-view": drive_cable_pinout,
+    "switch-it-view": drive_switch_it,
 }
 
 

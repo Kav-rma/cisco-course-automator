@@ -19,6 +19,7 @@ from __future__ import annotations
 import argparse
 import json
 import os
+import re
 import sys
 import time
 from pathlib import Path
@@ -26,6 +27,7 @@ from pathlib import Path
 sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
 
 from core import content_frame as cf  # noqa: E402
+from core import outline as ol  # noqa: E402
 from core import question_extractor as qx  # noqa: E402
 from core.browser import launch, open_course  # noqa: E402
 from core.config import load_config, path as cfg_path  # noqa: E402
@@ -44,6 +46,19 @@ if (!document.getElementById('assist-ball')) {
   document.body.appendChild(b);
 }
 return window.__assistClick || 0;
+"""
+
+# Which outline node is currently open? Checkpoint exams are graded leaf sections with no item id, so we
+# identify them by the uuid of the node whose row is marked active/selected/current.
+JS_ACTIVE_NODE = r"""
+const q = (s) => Array.from(document.querySelectorAll(s));
+const act = (e) => /active|selected|current/i.test(e.className || '') || !!e.getAttribute('aria-current');
+let sc = q('[class*="subModuleContainer--"]').find(act);
+let host = sc ? sc.closest('[class*="nodeContainer--"]') : null;
+if (!host) { const nb = q('button[id^="node-button-"]').find(act); host = nb ? nb.closest('[class*="nodeContainer--"]') : null; }
+if (!host) return null;
+const b = host.querySelector('button[id^="node-button-"]');
+return b ? b.id.replace('node-button-', '') : null;
 """
 
 # Show the answers panel just under the button (has its own close button; no Python needed to dismiss).
@@ -89,11 +104,13 @@ def answers_html(title_line, kq):
 
 
 def current_texts(sb):
-    """Read the question text(s) currently visible in the quiz (mcq / matching / object-matching)."""
+    """Read the question text(s) visible now, plus the quiz's total question count from the counter."""
     cf.enter(sb)
-    texts = []
+    texts, total = [], None
     try:
         st = qx.secure_state(sb)
+        m = re.search(r"(\d+)\s+of\s+(\d+)", st.get("counter") or "")
+        total = int(m.group(2)) if m else None
         ids = st.get("mcq_ids") or []
         aid = st.get("active_id") or (ids[0] if ids else None)
         if aid:
@@ -108,7 +125,7 @@ def current_texts(sb):
                 texts.append(o["question"])
     except Exception:
         pass
-    return texts
+    return texts, total
 
 
 def main() -> int:
@@ -130,7 +147,7 @@ def main() -> int:
 
     # index: normalized question text -> item id ; and item id -> (title, {n: rec})
     # loads the module-quiz key, plus the checkpoint-exam key when it exists
-    norm_to_item, quizzes = {}, {}
+    norm_to_items, quizzes = {}, {}
     for fname in ("quiz_answer_key.json", "exam_answer_key.json"):
         f = cfg_path(cfg, "data") / fname
         if not f.exists():
@@ -139,15 +156,50 @@ def main() -> int:
         for q in key["quizzes"]:
             quizzes[q["item"]] = {"title": q["title"], "answers": {qq["n"]: qq for qq in q["questions"]}}
             for qq in q["questions"]:
-                norm_to_item[normalize(qq["question"])] = q["item"]
-    log.info("Loaded answers for %d quizzes/exams", len(quizzes))
+                norm_to_items.setdefault(normalize(qq["question"]), []).append(q["item"])
+    uuid_to_item = {}
+    ef = cfg_path(cfg, "data") / "exam_questions.json"
+    if ef.exists():
+        for e in json.loads(ef.read_text(encoding="utf-8")).get("exams", []):
+            if e.get("uuid"):
+                uuid_to_item[e["uuid"]] = e["item"]
+    log.info("Loaded answers for %d quizzes/exams (%d exams identifiable by node)", len(quizzes), len(uuid_to_item))
 
     def which_quiz(sb):
-        for tx in current_texts(sb):
-            item = norm_to_item.get(normalize(tx))
-            if item:
-                return item
-        return None
+        """Identify the open quiz/exam. The outline's active item is authoritative; question text is the
+        fallback (16+ question texts are shared between quizzes, so text alone can pick the wrong one)."""
+        texts, total = current_texts(sb)
+        cf.leave(sb)
+        try:
+            item_id, _ = ol.split_id_title(ol.active_item_title(sb))
+        except Exception:
+            item_id = None
+        if item_id and item_id in quizzes:
+            return [item_id]
+        try:                                   # checkpoint exams: identify by the open node's uuid
+            node_item = uuid_to_item.get(sb.execute_script(JS_ACTIVE_NODE))
+        except Exception:
+            node_item = None
+        if node_item and node_item in quizzes:
+            return [node_item]
+        cands = []
+        for tx in texts:
+            for it in norm_to_items.get(normalize(tx), []):
+                if it not in cands:
+                    cands.append(it)
+        if not cands:
+            return []
+        if len(cands) > 1:
+            if item_id and item_id in cands:   # outline id known: trust it
+                return [item_id]
+            if total:                          # else prefer the quiz whose length matches the counter
+                sized = [it for it in cands if len(quizzes[it]["answers"]) == total]
+                if len(sized) == 1:
+                    return sized
+                if sized:
+                    cands = sized
+            log.info("  ambiguous question (appears in %s) - showing all of them", ", ".join(cands))
+        return cands
 
     with launch(cfg) as sb:
         open_course(sb, cfg)
@@ -162,12 +214,20 @@ def main() -> int:
                     continue
                 if clicks > seen_clicks:
                     seen_clicks = clicks
-                    item = which_quiz(sb)
-                    if item:
-                        info = quizzes[item]
-                        log.info("Fetch: quiz %s (%s)", item, info["title"])
-                        label = info["title"] if item.startswith("exam-") else f"Quiz {item} — {info['title']}"
-                        run_js(sb, JS_PANEL, answers_html(label, info["answers"]))
+                    items = which_quiz(sb)
+                    if items:
+                        blocks = []
+                        for item in items:
+                            info = quizzes[item]
+                            label = info["title"] if item.startswith("exam-") else f"Quiz {item} — {info['title']}"
+                            if len(items) > 1:
+                                label = f"[{item}] {label}"
+                            blocks.append(answers_html(label, info["answers"]))
+                        log.info("Fetch: %s", ", ".join(f"{i} ({quizzes[i]['title']})" for i in items))
+                        note = ("<div style='background:#7a3b00;padding:8px;border-radius:6px;margin-bottom:10px'>"
+                                "This question appears in more than one assessment. Both answer sets are shown — "
+                                "use the one whose title matches the assessment you opened.</div>") if len(items) > 1 else ""
+                        run_js(sb, JS_PANEL, note + "<hr style='border-color:#284a7a;margin:14px 0'>".join(blocks))
                     else:
                         log.info("Fetch: no known quiz question detected on screen")
                         run_js(sb, JS_PANEL,
