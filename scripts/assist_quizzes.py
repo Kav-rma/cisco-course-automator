@@ -222,6 +222,8 @@ def main() -> int:
                             label = info["title"] if item.startswith("exam-") else f"Quiz {item} — {info['title']}"
                             if len(items) > 1:
                                 label = f"[{item}] {label}"
+                            n_ans = sum(1 for r in info["answers"].values() if r.get("answer_texts") or r.get("raw_answer"))
+                            label = f"{label}  <span style='opacity:.6;font-weight:400'>({n_ans}/{len(info['answers'])} answers)</span>"
                             blocks.append(answers_html(label, info["answers"]))
                         log.info("Fetch: %s", ", ".join(f"{i} ({quizzes[i]['title']})" for i in items))
                         note = ("<div style='background:#7a3b00;padding:8px;border-radius:6px;margin-bottom:10px'>"

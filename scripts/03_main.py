@@ -46,6 +46,73 @@ def plan(structure: dict, modules: set[int] | None, start: str | None):
                 yield node, sec, it
 
 
+def reconcile(sb, cfg, log, structure, report, run_cfg) -> None:
+    """The outline marks an item 'completed' from the player's local state the moment the unit completes; the
+    server only learns about it via an async progress statement, which a fast navigation can lose. So: reload the
+    course (fresh server state), re-check every item this run completed, retry the ones that reverted once, and
+    list anything still missing under needs_user. Cause-agnostic by design."""
+    if not run_cfg.get("reconcile", True):
+        return
+    done = [e for e in report["items"] if e.get("status") == "completed"]
+    if not done:
+        return
+    dwell = float(run_cfg.get("post_complete_dwell_sec", 2.0))
+    log.info("Reconciling %d completion(s) against a fresh course load...", len(done))
+    time.sleep(max(dwell, 3.0))
+    open_course(sb, cfg)
+    live = nav.live_node_progress(sb)
+
+    def status_of(e):
+        loc = nav.locate(structure, e["item"])
+        if not loc:
+            return None, None
+        node, sec, it = loc
+        if live.get(node["uuid"], {}).get("percentage") == 100:
+            return "completed", loc            # whole module done on the server -> no need to expand
+        return nav.live_item_status_expanded(sb, cfg, node, sec, it), loc
+
+    reverted = []
+    for e in done:
+        st, loc = status_of(e)
+        e["server_status"] = st
+        if loc and st != "completed":
+            reverted.append((e, loc, st))
+    report["reverted"] = [{"item": e["item"], "server_status": st} for e, _, st in reverted]
+    if not reverted:
+        log.info("All %d completion(s) verified on the server.", len(done))
+        return
+    log.warning("%d completion(s) did NOT persist: %s -> retrying once",
+                len(reverted), [e["item"] for e, _, _ in reverted])
+    for e, (node, sec, it), _ in reverted:
+        try:
+            nav.goto_item(sb, cfg, node, sec, it)
+            det = detect(cf.read_page_model(sb), it, sec)
+            res = dispatch(HandlerContext(sb, cfg, it, sec, det, log))
+            time.sleep(dwell)
+            after = nav.wait_item_status(sb, node, sec, it, "completed", cfg["timeouts"]["element"])
+            e["retry"] = {"status": res.status, "outline_after": after}
+            log.info("  retry %s -> %s / outline %s", e["item"], res.status, after)
+        except Exception as ex:  # noqa: BLE001
+            e["retry"] = {"error": str(ex)[:200]}
+            log.warning("  retry %s failed: %s", e["item"], str(ex).splitlines()[0][:160])
+    time.sleep(max(dwell, 3.0))
+    open_course(sb, cfg)
+    live = nav.live_node_progress(sb)
+    still = []
+    for e, (node, sec, it), _ in reverted:
+        st = "completed" if live.get(node["uuid"], {}).get("percentage") == 100 else             nav.live_item_status_expanded(sb, cfg, node, sec, it)
+        e["server_status_after_retry"] = st
+        if st != "completed":
+            still.append(e["item"])
+    report["still_reverted"] = still
+    if still:
+        log.error("Still not persisted after retry - please do these by hand: %s", still)
+        for iid in still:
+            report["needs_user"].append({"item": iid, "why": "completion did not persist on the server (retried once)"})
+    else:
+        log.info("All reverted completions persisted after the retry.")
+
+
 def main() -> int:
     ap = argparse.ArgumentParser()
     ap.add_argument("--start", default=None, help="item id to start from (default: first incomplete item)")
@@ -126,6 +193,10 @@ def main() -> int:
                                 entry["outline_after"] = after
                                 log.info("  %s in %.1fs -> outline %s", res.status, time.time() - t0, after)
                                 consecutive_failures = 0
+                                if res.status == "completed":
+                                    # the outline flips optimistically; give the player a moment to actually send
+                                    # the progress statement before the next navigation can interrupt it
+                                    time.sleep(float(run_cfg.get("post_complete_dwell_sec", 2.0)))
                             elif res.status == "needs_user":
                                 log.warning("  NEEDS YOU: %s", "; ".join(res.notes))
                                 report["needs_user"].append({"item": it["id"], "why": "; ".join(res.notes)})
@@ -173,6 +244,7 @@ def main() -> int:
                 if consecutive_failures >= int(run_cfg.get("max_consecutive_failures", 3)):
                     log.error("Stopping safely after %d consecutive failures", consecutive_failures)
                     break
+            reconcile(sb, cfg, log, structure, report, run_cfg)
         except Exception as e:
             log.exception("main failed: %s", e)
             save_diagnostics(sb, cfg, "main_error")
