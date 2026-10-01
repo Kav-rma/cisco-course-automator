@@ -136,6 +136,8 @@ def answer_object_matching(ctx: HandlerContext, q: dict) -> dict:
             rec.update(status="needs_user", detail=f"no option for category {cid}"); return rec
         r1, r2 = qx.object_matching_pair(ctx.sb, q["modelid"], cid)
         pairs.append(f"{cid}:{r1}/{r2}")
+        import time as _t
+        _t.sleep(0.4)   # let each pair register before the next (fast clicks were being dropped -> "in progress")
     rec["pairs"] = pairs
     ctx.log.info("  Object matching: %d pairs clicked", len(pairs))
     r = qx.submit_view(ctx.sb, q["modelid"], t, qx.extract_object_matching)

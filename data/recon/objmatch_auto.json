@@ -1,0 +1,189 @@
+{
+ "tags_present": [
+  "mcq-view",
+  "mcq-view",
+  "mcq-view",
+  "mcq-view",
+  "mcq-view",
+  "mcq-view",
+  "mcq-view",
+  "mcq-view",
+  "mcq-view",
+  "mcq-view",
+  "mcq-view",
+  "mcq-view",
+  "mcq-view",
+  "mcq-view",
+  "mcq-view",
+  "object-matching-view",
+  "mcq-view",
+  "mcq-view",
+  "object-matching-view",
+  "mcq-view",
+  "mcq-view",
+  "mcq-view",
+  "mcq-view",
+  "mcq-view",
+  "mcq-view",
+  "mcq-view",
+  "mcq-view",
+  "mcq-view",
+  "mcq-view",
+  "mcq-view",
+  "mcq-view",
+  "mcq-view",
+  "mcq-view"
+ ],
+ "object_matching": [
+  {
+   "question": "Refer to the exhibit. A switch receives a Layer 2 frame that contains a source MAC address of 000b.a023.c501 and a destination MAC address of 0050.0fae.75aa. Pl",
+   "model_items": [
+    {
+     "answer": "The switch adds the source MAC address to the MAC address table.",
+     "question": "Occurs first",
+     "questionBGColor": "#F9D8D6",
+     "_index": 0,
+     "_parentId": "4cb5f424dd654018bb9a31bc6e048526"
+    },
+    {
+     "answer": "Because the destination is not known, the switch forwards the frame out all ports except the port through which the frame arrived.",
+     "question": "Occurs second",
+     "questionBGColor": "#D7FAD9",
+     "_index": 1,
+     "_parentId": "4cb5f424dd654018bb9a31bc6e048526"
+    }
+   ],
+   "model_attr_keys": [],
+   "userAnswer": null,
+   "categories": [
+    {
+     "data_id": "1",
+     "itemindex": "1",
+     "cls": "base objectMatching-category-item is-disabled",
+     "text": "Occurs second A",
+     "attrs": "data-id=1 class=base objectMatching-category-item is-disabled data-currentquestionindex=1 data-itemindex=1 style=height: 98.4px;"
+    },
+    {
+     "data_id": "0",
+     "itemindex": "0",
+     "cls": "base objectMatching-category-item is-disabled",
+     "text": "Occurs first B",
+     "attrs": "data-id=0 class=base objectMatching-category-item is-disabled data-currentquestionindex=2 data-itemindex=0 style=height: 98.4px;"
+    }
+   ],
+   "options": [
+    {
+     "data_id": "0",
+     "itemindex": "0",
+     "cls": "base objectMatching-option-item is-disabled",
+     "text": "done B The switch adds the source MAC address to the MAC address table.",
+     "attrs": "data-id=0 class=base objectMatching-option-item is-disabled data-currentoptionindex=1 data-itemindex=0 style=height: 98.4px;"
+    },
+    {
+     "data_id": "1",
+     "itemindex": "1",
+     "cls": "base objectMatching-option-item is-disabled",
+     "text": "done A Because the destination is not known, the switch forwards the frame out all ports except the port through which the frame arrived.",
+     "attrs": "data-id=1 class=base objectMatching-option-item is-disabled data-currentoptionindex=2 data-itemindex=1 style=height: 98.4px;"
+    }
+   ]
+  },
+  {
+   "question": "Match the IEEE 802.1Q standard VLAN tag field with the description.",
+   "model_items": [
+    {
+     "answer": "A value that supports level or service implementation",
+     "question": "User Priority",
+     "questionBGColor": "#D7FAD9",
+     "_index": 0,
+     "_parentId": "b1a267a7555543ffbc458c09ccc63c1d"
+    },
+    {
+     "answer": "A value for the tag protocol ID value",
+     "question": "Type",
+     "questionBGColor": "#D7F7FA",
+     "_index": 1,
+     "_parentId": "b1a267a7555543ffbc458c09ccc63c1d"
+    },
+    {
+     "answer": "An identifier that enables Token Ring frames to be carried across Ethernet links",
+     "question": "Canonical Format Identifier",
+     "questionBGColor": "#B0EAF7",
+     "_index": 2,
+     "_parentId": "b1a267a7555543ffbc458c09ccc63c1d"
+    },
+    {
+     "answer": "A VLAN number",
+     "question": "VLAN ID",
+     "questionBGColor": "#D7DAFA",
+     "_index": 3,
+     "_parentId": "b1a267a7555543ffbc458c09ccc63c1d"
+    }
+   ],
+   "model_attr_keys": [],
+   "userAnswer": null,
+   "categories": [
+    {
+     "data_id": "0",
+     "itemindex": "0",
+     "cls": "base objectMatching-category-item is-disabled",
+     "text": "User Priority A",
+     "attrs": "data-id=0 class=base objectMatching-category-item is-disabled data-currentquestionindex=1 data-itemindex=0 style=height: 80px;"
+    },
+    {
+     "data_id": "1",
+     "itemindex": "1",
+     "cls": "base objectMatching-category-item is-disabled",
+     "text": "Type B",
+     "attrs": "data-id=1 class=base objectMatching-category-item is-disabled data-currentquestionindex=2 data-itemindex=1 style=height: 80px;"
+    },
+    {
+     "data_id": "2",
+     "itemindex": "2",
+     "cls": "base objectMatching-category-item is-disabled",
+     "text": "Canonical Format Identifier C",
+     "attrs": "data-id=2 class=base objectMatching-category-item is-disabled data-currentquestionindex=3 data-itemindex=2 style=height: 80px;"
+    },
+    {
+     "data_id": "3",
+     "itemindex": "3",
+     "cls": "base objectMatching-category-item is-disabled",
+     "text": "VLAN ID D",
+     "attrs": "data-id=3 class=base objectMatching-category-item is-disabled data-currentquestionindex=4 data-itemindex=3 style=height: 80px;"
+    }
+   ],
+   "options": [
+    {
+     "data_id": "0",
+     "itemindex": "0",
+     "cls": "base objectMatching-option-item is-disabled",
+     "text": "done A A value that supports level or service implementation",
+     "attrs": "data-id=0 class=base objectMatching-option-item is-disabled data-currentoptionindex=1 data-itemindex=0 style=height: 80px;"
+    },
+    {
+     "data_id": "1",
+     "itemindex": "1",
+     "cls": "base objectMatching-option-item is-disabled",
+     "text": "done B A value for the tag protocol ID value",
+     "attrs": "data-id=1 class=base objectMatching-option-item is-disabled data-currentoptionindex=2 data-itemindex=1 style=height: 80px;"
+    },
+    {
+     "data_id": "2",
+     "itemindex": "2",
+     "cls": "base objectMatching-option-item is-disabled",
+     "text": "done C An identifier that enables Token Ring frames to be carried across Ethernet links",
+     "attrs": "data-id=2 class=base objectMatching-option-item is-disabled data-currentoptionindex=3 data-itemindex=2 style=height: 80px;"
+    },
+    {
+     "data_id": "3",
+     "itemindex": "3",
+     "cls": "base objectMatching-option-item is-disabled",
+     "text": "done D A VLAN number",
+     "attrs": "data-id=3 class=base objectMatching-option-item is-disabled data-currentoptionindex=4 data-itemindex=3 style=height: 80px;"
+    }
+   ]
+  }
+ ],
+ "matching_count": 0,
+ "page_text_snip": "arrow_back_ios Q1 Q2 Q3 Q4 Q5 Q6 Q7 Q8 Q9 Q10 Q11 Q12 Q13 Q14 Q15 Q16 Q17 Q18 Q19 Q20 Q21 Q22 Q23 Q24 Q25 Q26 Q27 Q28 Q29 Q30 Q31 Q32 Q33 Result Page arrow_forward_ios"
+}

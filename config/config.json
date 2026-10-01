@@ -43,6 +43,7 @@
     "on_needs_user": "skip",
     "max_consecutive_failures": 5,
     "post_complete_dwell_sec": 2.0,
-    "reconcile": true
+    "reconcile": true,
+    "reconcile_retry_dwell_sec": 12.0
   }
 }

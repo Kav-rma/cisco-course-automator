@@ -1,0 +1,44 @@
+{
+ "started_at": "2026-10-01T00:57:16",
+ "items": [
+  {
+   "item": "37.7.1",
+   "title": "What Did I Learn in this Module?",
+   "module": 37,
+   "type": "INTERACTIVE",
+   "components": [
+    "accordion-view"
+   ],
+   "unit_complete": false,
+   "status": "completed",
+   "notes": [
+    "unit complete"
+   ],
+   "seconds": 268.9,
+   "outline_after": "completed",
+   "server_status": "start",
+   "retry": {
+    "status": "completed",
+    "outline_after": "completed"
+   },
+   "server_status_after_retry": "start"
+  }
+ ],
+ "needs_user": [
+  {
+   "item": "37.7.1",
+   "why": "completion did not persist on the server (retried once)"
+  }
+ ],
+ "failed": [],
+ "finished_at": "2026-10-01T01:07:41",
+ "reverted": [
+  {
+   "item": "37.7.1",
+   "server_status": "start"
+  }
+ ],
+ "still_reverted": [
+  "37.7.1"
+ ]
+}

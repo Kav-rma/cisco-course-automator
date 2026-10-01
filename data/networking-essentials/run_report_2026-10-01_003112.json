@@ -1,0 +1,44 @@
+{
+ "started_at": "2026-10-01T00:31:12",
+ "items": [
+  {
+   "item": "36.4.4",
+   "title": "Check Your Understanding - Common Internet Connectivity Issues",
+   "module": 36,
+   "type": "KNOWLEDGE_CHECK",
+   "components": [
+    "mcq-view",
+    "mcq-view",
+    "mcq-view"
+   ],
+   "unit_complete": false,
+   "status": "completed",
+   "notes": [],
+   "seconds": 9.9,
+   "outline_after": "in progress",
+   "server_status": "start",
+   "retry": {
+    "status": "completed",
+    "outline_after": "completed"
+   },
+   "server_status_after_retry": "start"
+  }
+ ],
+ "needs_user": [
+  {
+   "item": "36.4.4",
+   "why": "completion did not persist on the server (retried once)"
+  }
+ ],
+ "failed": [],
+ "finished_at": "2026-10-01T00:34:01",
+ "reverted": [
+  {
+   "item": "36.4.4",
+   "server_status": "start"
+  }
+ ],
+ "still_reverted": [
+  "36.4.4"
+ ]
+}

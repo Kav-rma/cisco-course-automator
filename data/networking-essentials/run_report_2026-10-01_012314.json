@@ -1,0 +1,101 @@
+{
+ "started_at": "2026-10-01T01:23:14",
+ "items": [
+  {
+   "item": "37.2.3",
+   "title": "Check Your Understanding - Types of Networks",
+   "module": 37,
+   "type": "KNOWLEDGE_CHECK",
+   "components": [
+    "object-matching-view"
+   ],
+   "unit_complete": true,
+   "status": "already_complete",
+   "notes": [],
+   "seconds": 10.9,
+   "outline_after": "completed"
+  },
+  {
+   "item": "37.3.1",
+   "title": "The Security Policy",
+   "module": 37,
+   "type": "LESSON",
+   "components": [
+    "text-view",
+    "dynamic-graphic-view",
+    "text-view",
+    "dynamic-graphic-view",
+    "blank-view"
+   ],
+   "unit_complete": true,
+   "status": "already_complete",
+   "notes": [],
+   "seconds": 4.1,
+   "outline_after": "completed"
+  },
+  {
+   "item": "37.4.1",
+   "title": "Windows Network Setup",
+   "module": 37,
+   "type": "LESSON",
+   "components": [
+    "text-view",
+    "graphic-view",
+    "commandwindow-view",
+    "commandwindow-view"
+   ],
+   "unit_complete": true,
+   "status": "already_complete",
+   "notes": [],
+   "seconds": 3.2,
+   "outline_after": "completed"
+  },
+  {
+   "item": "37.5.1",
+   "title": "Network Devices as Sources of Network Information",
+   "module": 37,
+   "type": "LESSON",
+   "components": [
+    "table-view",
+    "text-view"
+   ],
+   "unit_complete": true,
+   "status": "already_complete",
+   "notes": [],
+   "seconds": 3.2,
+   "outline_after": "completed"
+  },
+  {
+   "item": "37.6.1",
+   "title": "Supporting Remote Users",
+   "module": 37,
+   "type": "INTERACTIVE",
+   "components": [
+    "text-view",
+    "narrative-view"
+   ],
+   "unit_complete": true,
+   "status": "already_complete",
+   "notes": [],
+   "seconds": 3.6,
+   "outline_after": "completed"
+  },
+  {
+   "item": "37.7.1",
+   "title": "What Did I Learn in this Module?",
+   "module": 37,
+   "type": "INTERACTIVE",
+   "components": [
+    "accordion-view"
+   ],
+   "unit_complete": true,
+   "status": "already_complete",
+   "notes": [],
+   "seconds": 7.5,
+   "outline_after": "completed"
+  }
+ ],
+ "needs_user": [],
+ "failed": [],
+ "finished_at": "2026-10-01T01:24:11"
+}

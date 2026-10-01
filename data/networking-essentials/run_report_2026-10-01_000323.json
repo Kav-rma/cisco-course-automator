@@ -1,0 +1,36 @@
+{
+ "started_at": "2026-10-01T00:03:23",
+ "items": [
+  {
+   "item": "21.4.6",
+   "title": "Activity - Switch It!",
+   "module": 21,
+   "type": "ACTIVITY",
+   "components": [
+    "switch-it-view",
+    "quicknav-view"
+   ],
+   "unit_complete": false,
+   "status": "completed",
+   "notes": [],
+   "seconds": 12.8,
+   "outline_after": "completed",
+   "server_status": "start",
+   "retry": {
+    "status": "already_complete",
+    "outline_after": "completed"
+   },
+   "server_status_after_retry": "completed"
+  }
+ ],
+ "needs_user": [],
+ "failed": [],
+ "finished_at": "2026-10-01T00:05:50",
+ "reverted": [
+  {
+   "item": "21.4.6",
+   "server_status": "start"
+  }
+ ],
+ "still_reverted": []
+}
