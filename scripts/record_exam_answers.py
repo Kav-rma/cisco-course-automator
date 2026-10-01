@@ -38,6 +38,36 @@ from core.logger import get_logger  # noqa: E402
 from core.matcher import normalize  # noqa: E402
 from extract_quizzes import JS_GOTO_Q  # noqa: E402  (read-only strip navigation, never answers)
 
+# Read object-matching (drag-connect) questions. Each category button ends with its label letter
+# ("Occurs first B"); each option button is prefixed with the category letter YOU connected it to
+# ("done B The switch adds..."). We pair by matching letters -> YOUR pairing. Reads only what you connected.
+JS_OBJMATCH_READ = cf.JS_DEEP + r"""
+const vis = (e) => !!(e.offsetWidth || e.offsetHeight || e.getClientRects().length);
+const oms = deepQ('object-matching-view').filter(vis);
+return JSON.stringify(oms.map(m => ({
+  question: dtext(deepQ('.component__body-inner', m)[0] || m),
+  cats: deepQ('button.objectMatching-category-item', m).map(b => dtext(b)),
+  opts: deepQ('button.objectMatching-option-item', m).map(b => dtext(b)),
+})));
+"""
+
+
+def _parse_objmatch(om):
+    """Turn the letter-badged category/option texts into ordered {prompt -> your answer} pairs."""
+    cat_order, cat_label = [], {}       # label -> prompt, preserving category order
+    for t in om.get("cats", []):
+        m = re.match(r"^(.*?)\s+([A-Z])$", (t or "").strip())
+        if m:
+            cat_order.append(m.group(2))
+            cat_label[m.group(2)] = m.group(1).strip()
+    opt_by_letter = {}
+    for t in om.get("opts", []):
+        s = re.sub(r"^\s*done\s+", "", (t or "").strip(), flags=re.I)   # drop the "done" completion icon text
+        m = re.match(r"^([A-Z])\s+(.*)$", s)                            # leading letter = the category you linked it to
+        if m:
+            opt_by_letter[m.group(1)] = m.group(2).strip()
+    return [{"prompt": cat_label[L], "answer": opt_by_letter[L]} for L in cat_order if L in opt_by_letter]
+
 # The control panel: two buttons + a status line, all in the TOP document. Buttons only set window flags;
 # Python reads them and does the (read-only) work.
 JS_PANEL = r"""
@@ -98,9 +128,128 @@ def status(sb, html):
         pass
 
 
+# Read EVERY question component in DOM order (Q1..Qn) in one pass. Used on a COMPLETED exam, where all
+# questions are rendered at once, so per-question strip-walking can't tell them apart (it kept re-reading the
+# first object-matching view). DOM order == the exam's question order.
+JS_READ_ALL = cf.JS_DEEP + r"""
+const bodyText = (m) => { const b = deepQ('.mcq__body-inner, .matching__body-inner, .component__body-inner', m)[0]; return b ? dtext(b) : ''; };
+const out = [];
+for (const m of deepQ('mcq-view, matching-view, object-matching-view')) {
+  const tag = m.tagName.toLowerCase();
+  if (tag === 'mcq-view') {
+    const opts = deepQ('.mcq__item', m).map(o => {
+      const t = deepQ('.mcq__item-text-inner', o)[0];
+      let text = t ? dtext(t) : '';
+      for (const sr of (t ? deepQ('.screenReader-position-text', t) : [])) text = text.replace(clean(sr.textContent), '').trim();
+      return {text, checked: o.getAttribute('aria-checked') === 'true', multiple: o.getAttribute('role') === 'checkbox'};
+    });
+    out.push({type: 'mcq', question: bodyText(m), options: opts});
+  } else if (tag === 'matching-view') {
+    const dds = deepQ('matching-dropdown-view', m).map(d => ({
+      title: dtext(deepQ('.matching__item-title .matching__item-title_inner', d)[0] || deepQ('.matching__item-title', d)[0]),
+      selected: dtext(deepQ('.js-dropdown-inner', d)[0]),
+      options: deepQ('li.js-dropdown-list-item', d).map(li => {
+        const inner = deepQ('.js-dropdown-list-item-inner', li)[0] || li; let text = dtext(inner);
+        for (const sr of deepQ('.sr-only', inner)) text = text.replace(dtext(sr), ''); return {text: text.trim(), selected: li.getAttribute('aria-selected') === 'true'};
+      }),
+    }));
+    out.push({type: 'matching', question: bodyText(m), dropdowns: dds});
+  } else {
+    out.push({type: 'object-matching', question: bodyText(m),
+              cats: deepQ('button.objectMatching-category-item', m).map(b => dtext(b)),
+              opts: deepQ('button.objectMatching-option-item', m).map(b => dtext(b))});
+  }
+}
+return JSON.stringify(out);
+"""
+
+
+def _rec_from_component(comp, n):
+    """Build a stored record from one component read of JS_READ_ALL (reads only YOUR selections)."""
+    typ, q = comp.get("type"), comp.get("question") or ""
+    base = {"n": n, "question": q or f"question-{n}", "question_norm": normalize(q or f"question-{n}")}
+    if typ == "mcq":
+        chosen = [o["text"] for o in comp.get("options", []) if o.get("checked")]
+        mult = any(o.get("multiple") for o in comp.get("options", []))
+        return {**base, "type": "multiple" if mult else "single",
+                "answer_texts": chosen, "status": "recorded" if chosen else "unanswered"}
+    if typ == "matching":
+        pairs = []
+        for d in comp.get("dropdowns", []):
+            prompt = (d.get("title") or "").strip()
+            choice = _dropdown_choice(d)
+            if prompt and choice:
+                pairs.append({"prompt": prompt, "answer": choice})
+        raw = "; ".join(f"{p['prompt']} → {p['answer']}" for p in pairs)
+        return {**base, "type": "matching", "answer_texts": [], "pairs": pairs, "raw_answer": raw,
+                "status": "recorded" if pairs else "unanswered"}
+    # object-matching
+    pairs = _parse_objmatch(comp)
+    raw = "; ".join(f"{p['prompt']} → {p['answer']}" for p in pairs)
+    return {**base, "type": "object-matching", "answer_texts": [], "pairs": pairs, "raw_answer": raw,
+            "status": "recorded" if pairs else "unanswered"}
+
+
+def record_all_visible(sb, store, item, title, log):
+    """One-pass capture of a COMPLETED exam: every question in DOM order (Q1..Qn), each distinct."""
+    cf.enter(sb)
+    comps = json.loads(sb.execute_script(JS_READ_ALL))
+    added = 0
+    for i, comp in enumerate(comps, 1):
+        if store.record(item, title, _rec_from_component(comp, i)):
+            added += 1
+    if comps:
+        store.save()
+    log.info("  one-pass read: %d questions on the completed exam, %d recorded/updated", len(comps), added)
+    return len(comps), added
+
+
+# Read the question CURRENTLY ON SCREEN (largest area in the viewport), with YOUR selections. This is the
+# reliable way to read one question at a time: inactive questions are off-screen (area ~0), so an exam with
+# several matching questions no longer collapses onto the first one. Full mcq screen-reader text cleanup.
+JS_READ_DISPLAYED = cf.JS_DEEP + r"""
+const vh=window.innerHeight||9999, vw=window.innerWidth||9999;
+const area=(e)=>{const r=e.getBoundingClientRect();const w=Math.max(0,Math.min(r.right,vw)-Math.max(r.left,0));const h=Math.max(0,Math.min(r.bottom,vh)-Math.max(r.top,0));return w*h;};
+let best=null,bestA=0,bestTag=null;
+for (const tag of ['mcq-view','matching-view','object-matching-view']){
+  for (const m of deepQ(tag)){
+    const b=deepQ('.mcq__body-inner,.matching__body-inner,.component__body-inner',m)[0]; if(!b) continue;
+    const a=area(b); if(a>bestA){bestA=a;best=m;bestTag=tag;}
+  }
+}
+if(!best||bestA<=0) return null;
+const m=best,tag=bestTag,body=deepQ('.mcq__body-inner,.matching__body-inner,.component__body-inner',m)[0];
+const question=body?dtext(body):'';
+if(tag==='mcq-view'){
+  const opts=deepQ('.mcq__item',m).map(o=>{const t=deepQ('.mcq__item-text-inner',o)[0];let text=t?dtext(t):'';for(const sr of (t?deepQ('.screenReader-position-text',t):[]))text=text.replace(clean(sr.textContent),'').trim();return {text,checked:o.getAttribute('aria-checked')==='true',multiple:o.getAttribute('role')==='checkbox'};});
+  return JSON.stringify({type:'mcq',question,options:opts});
+}
+if(tag==='matching-view'){
+  const dds=deepQ('matching-dropdown-view',m).map(d=>({title:dtext(deepQ('.matching__item-title .matching__item-title_inner',d)[0]||deepQ('.matching__item-title',d)[0]),selected:dtext(deepQ('.js-dropdown-inner',d)[0]),options:deepQ('li.js-dropdown-list-item',d).map(li=>{const inner=deepQ('.js-dropdown-list-item-inner',li)[0]||li;let text=dtext(inner);for(const sr of deepQ('.sr-only',inner))text=text.replace(dtext(sr),'');return{text:text.trim(),selected:li.getAttribute('aria-selected')==='true'};})}));
+  return JSON.stringify({type:'matching',question,dropdowns:dds});
+}
+return JSON.stringify({type:'object-matching',question,cats:deepQ('button.objectMatching-category-item',m).map(b=>dtext(b)),opts:deepQ('button.objectMatching-option-item',m).map(b=>dtext(b))});
+"""
+JS_STRIP_MAX = cf.JS_DEEP + r"""
+let mx=0; for(const b of deepQ('button.block-button')){const m=dtext(b).match(/(\d+)/); if(m)mx=Math.max(mx,Number(m[1]));} return mx;
+"""
+
+
+def _dropdown_choice(d):
+    """The option YOU picked in a matching dropdown: prefer the aria-selected <li>, else the button's shown text."""
+    for o in d.get("options", []):
+        if o.get("selected"):
+            return (o.get("text") or "").strip()
+    s = (d.get("selected") or "").strip()
+    # ignore the unselected placeholder ("Select...", "Choose...", "--", or an empty button)
+    if not s or re.search(r"^\s*(select|choose|--|pick)\b", s, re.I) or s.lower() in ("", "select", "choose"):
+        return ""
+    return s
+
+
 def read_active(sb):
-    """Read the active question and the option text(s) YOU have checked. Returns a record or None.
-    Only reads `checked` (your selection); the model's correct answer is intentionally not used."""
+    """Read the question currently on screen and YOUR answer, via the viewport reader (reliable with several
+    matching questions). n comes from the active strip button. Reads only your selections."""
     cf.enter(sb)
     st = qx.secure_state(sb)
     total = None
@@ -108,17 +257,13 @@ def read_active(sb):
     if m:
         total = int(m.group(2))
     n = st.get("active_q")
-    ids = st.get("mcq_ids") or []
-    aid = st.get("active_id") or (ids[0] if ids else None)
     rec = None
-    if aid:
-        qs = qx.extract(sb, [aid])
-        q = next((x for x in qs if x.get("options")), None)
-        if q:
-            chosen = [o["text"] for o in sorted(q["options"], key=lambda o: o["index"]) if o.get("checked")]
-            rec = {"n": n, "question": q["question"], "question_norm": normalize(q["question"]),
-                   "type": q.get("type", "single"),
-                   "answer_texts": chosen, "status": "recorded" if chosen else "unanswered"}
+    try:
+        raw = sb.execute_script(JS_READ_DISPLAYED)
+        if raw and n is not None:
+            rec = _rec_from_component(json.loads(raw), n)
+    except Exception:
+        rec = None
     return rec, n, total
 
 
@@ -143,14 +288,18 @@ class Store:
                    if r.get("answer_texts") or r.get("raw_answer"))
 
     def record(self, item, title, rec) -> bool:
-        """Store one answer. Returns True if it added/changed something."""
-        if not rec or not rec.get("answer_texts") or rec.get("n") is None:
+        """Store one answer (MCQ answer_texts OR matching raw_answer). Returns True if it added/changed something."""
+        if not rec or rec.get("n") is None:
             return False
+        if not (rec.get("answer_texts") or rec.get("raw_answer")):
+            return False   # unanswered / not-yet-captured (incl. object-matching flagged needs_manual)
         slot = self.by_item.setdefault(item, {"title": title, "qs": {}})
         slot["title"] = title
         prev = slot["qs"].get(rec["n"])
         rec = {**rec, "recorded_at": datetime.now().isoformat(timespec="seconds")}
-        if prev and prev.get("answer_texts") == rec["answer_texts"] and prev.get("question") == rec["question"]:
+        if (prev and prev.get("answer_texts") == rec.get("answer_texts")
+                and prev.get("raw_answer") == rec.get("raw_answer")
+                and prev.get("question") == rec["question"]):
             return False
         slot["qs"][rec["n"]] = rec
         return True
@@ -168,19 +317,27 @@ class Store:
 
 
 def final_sweep(sb, store, item, title, total, log):
-    """At Save time (you're done selecting): read through the strip once and capture any answer not caught live.
-    Read-only - clicks the question-number strip to view each question, never selects or submits."""
+    """Save-time capture: click each question in the strip (Q1..Qn) and read the one on screen with the viewport
+    reader. Works for a live attempt and a completed exam alike, and reads each matching question distinctly.
+    Read-only navigation - never selects or submits. Empty reads are skipped so good answers are never wiped."""
+    cf.enter(sb)
+    try:
+        mx = int(sb.execute_script(JS_STRIP_MAX) or 0)
+    except Exception:
+        mx = 0
+    mx = max(mx, total or 0, 40)
     added = 0
-    for n in range(1, (total or 40) + 1):
+    for n in range(1, mx + 1):
         cf.enter(sb)
         if sb.execute_script(JS_GOTO_Q, n) == "no-strip":
             continue
-        time.sleep(0.35)
-        rec, _, _ = read_active(sb)
-        if rec and store.record(item, title, rec):
+        time.sleep(0.45)
+        raw = sb.execute_script(JS_READ_DISPLAYED)
+        if not raw:
+            continue
+        if store.record(item, title, _rec_from_component(json.loads(raw), n)):
             added += 1
-    if added:
-        store.save()
+    store.save()
     return added
 
 
@@ -252,10 +409,9 @@ def main() -> int:
                         if recording:
                             it = recording
                             recording = None
-                            status(sb, f"💾 Saving {it} — reading through the questions once…")
-                            total = total_of.get(it)
+                            status(sb, f"💾 Saving {it} — reading through every question once…")
                             try:
-                                added = final_sweep(sb, store, it, title_of.get(it, it), total, log)
+                                added = final_sweep(sb, store, it, title_of.get(it, it), total_of.get(it), log)
                             except Exception as e:  # noqa: BLE001
                                 added = 0
                                 log.warning("final sweep error: %s", str(e).splitlines()[0][:160])
@@ -274,11 +430,15 @@ def main() -> int:
                             total_of[recording] = total
                         if rec and store.record(recording, title_of.get(recording, recording), rec):
                             store.save()
-                            log.info("  %s Q%s = %s", recording, rec["n"], "; ".join(rec["answer_texts"])[:70])
+                            shown = "; ".join(rec["answer_texts"]) if rec.get("answer_texts") else (rec.get("raw_answer") or "")
+                            log.info("  %s Q%s [%s] = %s", recording, rec["n"], rec.get("type"), shown[:80])
                         cnt = store.count(recording)
                         tt = total_of.get(recording)
+                        warn = ""
+                        if rec and rec.get("type") in ("matching", "object-matching") and rec.get("status") == "recorded":
+                            warn = f"<br><span style='opacity:.7'>matched: {len(rec.get('pairs') or [])} pair(s)</span>"
                         status(sb, f"🔴 Recording <b>{recording}</b> · Q{n or '?'}"
-                                   f"{'/' + str(tt) if tt else ''} · <b>{cnt}</b> recorded<br>"
+                                   f"{'/' + str(tt) if tt else ''} · <b>{cnt}</b> recorded{warn}<br>"
                                    f"<span style='opacity:.7'>Solve normally, then ■ Save &amp; finish.</span>")
                     except Exception as e:  # noqa: BLE001
                         log.debug("poll error: %s", str(e).splitlines()[0][:120])

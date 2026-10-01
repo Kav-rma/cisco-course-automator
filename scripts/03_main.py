@@ -57,6 +57,9 @@ def reconcile(sb, cfg, log, structure, report, run_cfg) -> None:
     if not done:
         return
     dwell = float(run_cfg.get("post_complete_dwell_sec", 2.0))
+    # A reverted item usually didn't get enough time to flush its progress (multi-question KCs especially need
+    # ~10s). Give the retry a long settle so it persists, without slowing the normal per-item dwell.
+    retry_dwell = float(run_cfg.get("reconcile_retry_dwell_sec", 12.0))
     log.info("Reconciling %d completion(s) against a fresh course load...", len(done))
     time.sleep(max(dwell, 3.0))
     open_course(sb, cfg)
@@ -88,7 +91,7 @@ def reconcile(sb, cfg, log, structure, report, run_cfg) -> None:
             nav.goto_item(sb, cfg, node, sec, it)
             det = detect(cf.read_page_model(sb), it, sec)
             res = dispatch(HandlerContext(sb, cfg, it, sec, det, log))
-            time.sleep(dwell)
+            time.sleep(retry_dwell)   # long flush so the completion actually persists this time
             after = nav.wait_item_status(sb, node, sec, it, "completed", cfg["timeouts"]["element"])
             e["retry"] = {"status": res.status, "outline_after": after}
             log.info("  retry %s -> %s / outline %s", e["item"], res.status, after)
