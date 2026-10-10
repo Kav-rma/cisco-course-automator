@@ -20,7 +20,7 @@ class PageType(str, Enum):
     VIDEO = "VIDEO"
     INTERACTIVE = "INTERACTIVE"          # expandables etc. that need clicks to complete
     KNOWLEDGE_CHECK = "KNOWLEDGE_CHECK"  # ungraded questions (Check Your Understanding)
-    ASSESSMENT = "ASSESSMENT"            # graded quiz / exam - never auto-answered
+    ASSESSMENT = "ASSESSMENT"            # graded quiz 
     SUMMARY = "SUMMARY"
     INTRODUCTION = "INTRODUCTION"
     LAB = "LAB"                          # Packet Tracer / hands-on lab - requires the student

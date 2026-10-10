@@ -1,0 +1,36 @@
+{
+ "started_at": "2026-10-11T00:52:47",
+ "items": [
+  {
+   "item": "7.2.2",
+   "title": "Video - MAC Address Tables",
+   "module": 7,
+   "type": "VIDEO",
+   "components": [
+    "media-view",
+    "blank-view"
+   ],
+   "unit_complete": false,
+   "status": "completed",
+   "notes": [],
+   "seconds": 26.7,
+   "outline_after": "completed",
+   "server_status": "start",
+   "retry": {
+    "status": "already_complete",
+    "outline_after": "completed"
+   },
+   "server_status_after_retry": "completed"
+  }
+ ],
+ "needs_user": [],
+ "failed": [],
+ "finished_at": "2026-10-11T00:55:31",
+ "reverted": [
+  {
+   "item": "7.2.2",
+   "server_status": "start"
+  }
+ ],
+ "still_reverted": []
+}

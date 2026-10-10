@@ -1,0 +1,35 @@
+{
+ "started_at": "2026-10-11T01:17:19",
+ "items": [
+  {
+   "item": "8.2.1",
+   "title": "Video - The IPv4 Address Structure",
+   "module": 8,
+   "type": "VIDEO",
+   "components": [
+    "media-view"
+   ],
+   "unit_complete": false,
+   "status": "completed",
+   "notes": [],
+   "seconds": 37.8,
+   "outline_after": "completed",
+   "server_status": "start",
+   "retry": {
+    "status": "already_complete",
+    "outline_after": "completed"
+   },
+   "server_status_after_retry": "completed"
+  }
+ ],
+ "needs_user": [],
+ "failed": [],
+ "finished_at": "2026-10-11T01:20:32",
+ "reverted": [
+  {
+   "item": "8.2.1",
+   "server_status": "start"
+  }
+ ],
+ "still_reverted": []
+}

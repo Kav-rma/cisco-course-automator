@@ -1,0 +1,520 @@
+{
+ "started_at": "2026-10-11T00:35:55",
+ "items": [
+  {
+   "item": "3.0.1",
+   "title": "Webster - Why Should I Take this Module?",
+   "module": 3,
+   "type": "INTRODUCTION",
+   "components": [
+    "text-view",
+    "graphic-view"
+   ],
+   "unit_complete": true,
+   "status": "already_complete",
+   "notes": [],
+   "seconds": 15.0,
+   "outline_after": "completed"
+  },
+  {
+   "item": "3.1.1",
+   "title": "Video - Types of Wireless Networks",
+   "module": 3,
+   "type": "VIDEO",
+   "components": [
+    "media-view"
+   ],
+   "unit_complete": true,
+   "status": "already_complete",
+   "notes": [],
+   "seconds": 4.7,
+   "outline_after": "completed"
+  },
+  {
+   "item": "3.2.1",
+   "title": "Mobile Devices and Wi-Fi",
+   "module": 3,
+   "type": "LESSON",
+   "components": [
+    "text-view",
+    "graphic-view"
+   ],
+   "unit_complete": true,
+   "status": "already_complete",
+   "notes": [],
+   "seconds": 4.0,
+   "outline_after": "completed"
+  },
+  {
+   "item": "3.3.1",
+   "title": "What Did I Learn in this Module?",
+   "module": 3,
+   "type": "INTERACTIVE",
+   "components": [
+    "accordion-view"
+   ],
+   "unit_complete": false,
+   "status": "completed",
+   "notes": [
+    "unit complete"
+   ],
+   "seconds": 6.3,
+   "outline_after": "completed"
+  },
+  {
+   "item": "3.3.3",
+   "title": "Wireless and Mobile Networks Quiz",
+   "module": 3,
+   "type": "ASSESSMENT",
+   "components": [
+    "adaptive-start-screen-view",
+    "mcq-view",
+    "mcq-view",
+    "mcq-view",
+    "mcq-view",
+    "mcq-view",
+    "mcq-view",
+    "mcq-view",
+    "mcq-view",
+    "mcq-view",
+    "mcq-view",
+    "mcq-view"
+   ],
+   "unit_complete": false,
+   "status": "needs_user",
+   "notes": [
+    "graded assessment - never automated"
+   ],
+   "seconds": 3.0
+  },
+  {
+   "item": "5.0.1",
+   "title": "Webster - Why Should I Take this Module?",
+   "module": 5,
+   "type": "INTRODUCTION",
+   "components": [
+    "text-view",
+    "graphic-view"
+   ],
+   "unit_complete": true,
+   "status": "already_complete",
+   "notes": [],
+   "seconds": 7.9,
+   "outline_after": "start"
+  },
+  {
+   "item": "5.0.2",
+   "title": "What Will I Learn in this Module?",
+   "module": 5,
+   "type": "INTRODUCTION",
+   "components": [
+    "table-view",
+    "quicknav-view"
+   ],
+   "unit_complete": true,
+   "status": "already_complete",
+   "notes": [],
+   "seconds": 3.1,
+   "outline_after": "in progress"
+  },
+  {
+   "item": "5.1.1",
+   "title": "Communication Protocols",
+   "module": 5,
+   "type": "INTERACTIVE",
+   "components": [
+    "accordion-view",
+    "text-view"
+   ],
+   "unit_complete": true,
+   "status": "already_complete",
+   "notes": [],
+   "seconds": 4.0,
+   "outline_after": "completed"
+  },
+  {
+   "item": "5.2.1",
+   "title": "Video - Devices in a Bubble",
+   "module": 5,
+   "type": "VIDEO",
+   "components": [
+    "media-view"
+   ],
+   "unit_complete": true,
+   "status": "already_complete",
+   "notes": [],
+   "seconds": 3.5,
+   "outline_after": "completed"
+  },
+  {
+   "item": "5.3.1",
+   "title": "Video - Network Protocols",
+   "module": 5,
+   "type": "VIDEO",
+   "components": [
+    "media-view"
+   ],
+   "unit_complete": true,
+   "status": "already_complete",
+   "notes": [],
+   "seconds": 3.7,
+   "outline_after": "completed"
+  },
+  {
+   "item": "5.4.1",
+   "title": "What Did I Learn in this Module?",
+   "module": 5,
+   "type": "INTERACTIVE",
+   "components": [
+    "accordion-view"
+   ],
+   "unit_complete": false,
+   "status": "completed",
+   "notes": [
+    "unit complete"
+   ],
+   "seconds": 6.8,
+   "outline_after": "completed"
+  },
+  {
+   "item": "5.4.2",
+   "title": "Webster - Reflection Questions",
+   "module": 5,
+   "type": "LESSON",
+   "components": [
+    "text-view",
+    "graphic-view",
+    "blank-view"
+   ],
+   "unit_complete": true,
+   "status": "already_complete",
+   "notes": [],
+   "seconds": 3.7,
+   "outline_after": "completed"
+  },
+  {
+   "item": "5.4.3",
+   "title": "Communications Principles Quiz",
+   "module": 5,
+   "type": "ASSESSMENT",
+   "components": [
+    "adaptive-start-screen-view"
+   ],
+   "unit_complete": false,
+   "status": "needs_user",
+   "notes": [
+    "graded assessment - never automated"
+   ],
+   "seconds": 3.3
+  },
+  {
+   "item": "7.0.1",
+   "title": "Webster - Why Should I Take this Module?",
+   "module": 7,
+   "type": "INTRODUCTION",
+   "components": [
+    "text-view",
+    "graphic-view"
+   ],
+   "unit_complete": true,
+   "status": "already_complete",
+   "notes": [],
+   "seconds": 7.5,
+   "outline_after": "start"
+  },
+  {
+   "item": "7.0.2",
+   "title": "What Will I Learn in this Module?",
+   "module": 7,
+   "type": "INTRODUCTION",
+   "components": [
+    "table-view",
+    "quicknav-view"
+   ],
+   "unit_complete": true,
+   "status": "already_complete",
+   "notes": [],
+   "seconds": 3.3,
+   "outline_after": "completed"
+  },
+  {
+   "item": "7.1.1",
+   "title": "Video - The Fields of the Ethernet Frame",
+   "module": 7,
+   "type": "VIDEO",
+   "components": [
+    "media-view"
+   ],
+   "unit_complete": true,
+   "status": "already_complete",
+   "notes": [],
+   "seconds": 4.3,
+   "outline_after": "completed"
+  },
+  {
+   "item": "7.2.1",
+   "title": "Video - Ethernet Switches",
+   "module": 7,
+   "type": "VIDEO",
+   "components": [
+    "media-view"
+   ],
+   "unit_complete": true,
+   "status": "already_complete",
+   "notes": [],
+   "seconds": 3.9,
+   "outline_after": "completed"
+  },
+  {
+   "item": "7.2.2",
+   "title": "Video - MAC Address Tables",
+   "module": 7,
+   "type": "VIDEO",
+   "components": [
+    "media-view",
+    "blank-view"
+   ],
+   "unit_complete": false,
+   "status": "failed",
+   "notes": [
+    "media e2b1534c-dd0a-4032-be0f-e29fa20e8aa8: no <video> element in media component"
+   ],
+   "seconds": 40.7
+  },
+  {
+   "item": "7.3.1",
+   "title": "What Did I Learn in this Module?",
+   "module": 7,
+   "type": "INTERACTIVE",
+   "components": [
+    "accordion-view"
+   ],
+   "unit_complete": true,
+   "status": "already_complete",
+   "notes": [],
+   "seconds": 4.0,
+   "outline_after": "completed"
+  },
+  {
+   "item": "8.0.1",
+   "title": "Webster - Why Should I Take this Module?",
+   "module": 8,
+   "type": "INTRODUCTION",
+   "components": [
+    "text-view",
+    "graphic-view"
+   ],
+   "unit_complete": true,
+   "status": "already_complete",
+   "notes": [],
+   "seconds": 5.9,
+   "outline_after": "start"
+  },
+  {
+   "item": "8.0.2",
+   "title": "What Will I Learn in this Module?",
+   "module": 8,
+   "type": "INTRODUCTION",
+   "components": [
+    "table-view",
+    "quicknav-view"
+   ],
+   "unit_complete": true,
+   "status": "already_complete",
+   "notes": [],
+   "seconds": 3.3,
+   "outline_after": "completed"
+  },
+  {
+   "item": "8.1.1",
+   "title": "The IPv4 Address",
+   "module": 8,
+   "type": "INTERACTIVE",
+   "components": [
+    "adobe-animate-view"
+   ],
+   "unit_complete": false,
+   "status": "completed",
+   "notes": [
+    "unit complete"
+   ],
+   "seconds": 5.0,
+   "outline_after": "completed"
+  },
+  {
+   "item": "8.1.2",
+   "title": "Octets and Dotted-Decimal Notation",
+   "module": 8,
+   "type": "LESSON",
+   "components": [
+    "text-view"
+   ],
+   "unit_complete": true,
+   "status": "already_complete",
+   "notes": [],
+   "seconds": 3.3,
+   "outline_after": "completed"
+  },
+  {
+   "item": "8.1.3",
+   "title": "Packet Tracer - Connect to a Web Server",
+   "module": 8,
+   "type": "LAB",
+   "components": [
+    "pagetracer-view",
+    "quicknav-view"
+   ],
+   "unit_complete": false,
+   "status": "completed",
+   "notes": [],
+   "seconds": 5.6,
+   "outline_after": "completed"
+  },
+  {
+   "item": "8.2.1",
+   "title": "Video - The IPv4 Address Structure",
+   "module": 8,
+   "type": "VIDEO",
+   "components": [
+    "media-view"
+   ],
+   "unit_complete": false,
+   "status": "failed",
+   "notes": [
+    "media 36a65e2be1e148738065889a319dd4b2: no <video> element in media component"
+   ],
+   "seconds": 49.1
+  },
+  {
+   "item": "8.2.2",
+   "title": "Networks and Hosts",
+   "module": 8,
+   "type": "LESSON",
+   "components": [
+    "dynamic-graphic-view",
+    "blank-view"
+   ],
+   "unit_complete": false,
+   "status": "completed",
+   "notes": [
+    "completed after scrolling into view"
+   ],
+   "seconds": 5.1,
+   "outline_after": "completed"
+  },
+  {
+   "item": "8.2.3",
+   "title": "Check Your Understanding - IPv4 Address Structure",
+   "module": 8,
+   "type": "KNOWLEDGE_CHECK",
+   "components": [
+    "mcq-view",
+    "mcq-view",
+    "mcq-view",
+    "mcq-view",
+    "mcq-view",
+    "quicknav-view"
+   ],
+   "unit_complete": false,
+   "status": "completed",
+   "notes": [],
+   "seconds": 7.6,
+   "outline_after": "completed"
+  },
+  {
+   "item": "8.3.1",
+   "title": "What Did I Learn in this Module?",
+   "module": 8,
+   "type": "INTERACTIVE",
+   "components": [
+    "accordion-view"
+   ],
+   "unit_complete": false,
+   "status": "completed",
+   "notes": [
+    "unit complete"
+   ],
+   "seconds": 6.8,
+   "outline_after": "completed"
+  },
+  {
+   "item": "8.3.2",
+   "title": "Webster - Reflection Questions",
+   "module": 8,
+   "type": "LESSON",
+   "components": [
+    "text-view",
+    "graphic-view",
+    "blank-view"
+   ],
+   "unit_complete": true,
+   "status": "already_complete",
+   "notes": [],
+   "seconds": 3.5,
+   "outline_after": "completed"
+  },
+  {
+   "item": "8.3.3",
+   "title": "The Internet Protocol Quiz",
+   "module": 8,
+   "type": "ASSESSMENT",
+   "components": [
+    "adaptive-start-screen-view"
+   ],
+   "unit_complete": false,
+   "status": "needs_user",
+   "notes": [
+    "graded assessment - never automated"
+   ],
+   "seconds": 4.2
+  }
+ ],
+ "needs_user": [
+  {
+   "item": "3.3.3",
+   "why": "graded assessment - never automated"
+  },
+  {
+   "item": "5.4.3",
+   "why": "graded assessment - never automated"
+  },
+  {
+   "item": "8.3.3",
+   "why": "graded assessment - never automated"
+  }
+ ],
+ "failed": [
+  {
+   "item": "7.2.2",
+   "title": "Video - MAC Address Tables",
+   "module": 7,
+   "type": "VIDEO",
+   "components": [
+    "media-view",
+    "blank-view"
+   ],
+   "unit_complete": false,
+   "status": "failed",
+   "notes": [
+    "media e2b1534c-dd0a-4032-be0f-e29fa20e8aa8: no <video> element in media component"
+   ],
+   "seconds": 40.7
+  },
+  {
+   "item": "8.2.1",
+   "title": "Video - The IPv4 Address Structure",
+   "module": 8,
+   "type": "VIDEO",
+   "components": [
+    "media-view"
+   ],
+   "unit_complete": false,
+   "status": "failed",
+   "notes": [
+    "media 36a65e2be1e148738065889a319dd4b2: no <video> element in media component"
+   ],
+   "seconds": 49.1
+  }
+ ],
+ "finished_at": "2026-10-11T00:43:07"
+}

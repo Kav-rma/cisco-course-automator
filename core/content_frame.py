@@ -224,6 +224,84 @@ def video_cmd(sb, modelid: str, cmd: str, val=None) -> str:
     return sb.execute_script(JS_VIDEO_CMD, modelid, cmd, val)
 
 
+# Mark a component complete through its own Adapt model (setCompletionStatus is exactly what Adapt calls when a
+# media component's video ends). Used for YouTube-embedded videos whose <video> is in a cross-origin iframe we
+# can't drive. Returns the component's completion state afterwards.
+JS_COMPLETE_COMPONENT = JS_BY_ID + r"""
+const el = byId(arguments[0]); if (!el || !el.model) return 'no-model';
+const m = el.model;
+try {
+  if (typeof m.setCompletionStatus === 'function') m.setCompletionStatus();
+  else { if (m.set) { m.set('_isComplete', true); m.set('_isInteractionComplete', true); } }
+} catch (e) { return 'error: ' + e.message; }
+return completion(stateDiv(el)) === true ? 'complete' : 'called';
+"""
+
+
+def complete_component(sb, modelid: str) -> str:
+    return sb.execute_script(JS_COMPLETE_COMPONENT, modelid)
+
+
+# Click a media component's poster/play overlay. Many videos are poster-gated: the <video> element is only
+# created after the poster is clicked, so this must happen before play/seek can work.
+JS_CLICK_POSTER = JS_BY_ID + r"""
+const el = byId(arguments[0]); if (!el) return 'no-el';
+const sel = '.media-poster, .mediaplayer__play, [class*="poster"], [class*="play-button"], .mejs__overlay-button, [class*="play"]';
+const b = deepQ(sel, el).filter(e => !!(e.offsetWidth || e.offsetHeight || e.getClientRects().length))[0];
+if (b) { b.scrollIntoView({block: 'center', behavior: 'instant'}); b.click(); return 'ok:' + String(b.className || '').slice(0, 40); }
+return 'no-poster';
+"""
+
+
+def click_poster(sb, modelid: str) -> str:
+    return sb.execute_script(JS_CLICK_POSTER, modelid)
+
+
+# Center coordinates of the poster/play overlay (for a trusted CDP click - a JS .click() is ignored by the player).
+JS_POSTER_RECT = JS_BY_ID + r"""
+const el = byId(arguments[0]); if (!el) return null;
+const sel = '.media-poster, .mediaplayer__play, [class*="poster"], [class*="play-button"], .mejs__overlay-button, [class*="play"]';
+const b = deepQ(sel, el).filter(e => !!(e.offsetWidth || e.offsetHeight || e.getClientRects().length))[0];
+if (!b) return null;
+b.scrollIntoView({block: 'center', behavior: 'instant'});
+const r = b.getBoundingClientRect();
+return {x: r.x + r.width / 2, y: r.y + r.height / 2, cls: String(b.className || '').slice(0, 40)};
+"""
+
+
+def poster_rect(sb, modelid: str):
+    return sb.execute_script(JS_POSTER_RECT, modelid)
+
+
+# Drive a YouTube-embedded video via the IFrame API (postMessage to the cross-origin iframe), so Adapt's own
+# player sees it play/end and records completion. We can't read the <video> (cross-origin), but we can command it.
+JS_YT_STATE = JS_BY_ID + r"""
+const el = byId(arguments[0]); if (!el) return null;
+const f = deepQ('iframe', el).find(x => /youtube(-nocookie)?\.com/.test(x.src || ''));
+if (!f) return null;
+return {src: (f.src || '').slice(0, 140), jsapi: /enablejsapi=1/.test(f.src || '')};
+"""
+JS_YT_CMD = JS_BY_ID + r"""
+const el = byId(arguments[0]); if (!el) return 'no-el';
+const f = deepQ('iframe', el).find(x => /youtube(-nocookie)?\.com/.test(x.src || ''));
+if (!f || !f.contentWindow) return 'no-iframe';
+const send = (func, args) => f.contentWindow.postMessage(JSON.stringify({event: 'command', func: func, args: args || []}), '*');
+const cmd = arguments[1];
+if (cmd === 'play') { send('playVideo'); return 'ok'; }
+if (cmd === 'mute') { send('mute'); return 'ok'; }
+if (cmd === 'jump-end') { send('mute'); send('playVideo'); send('seekTo', [99999, true]); send('playVideo'); return 'ok'; }
+return 'unknown';
+"""
+
+
+def youtube_state(sb, modelid: str):
+    return sb.execute_script(JS_YT_STATE, modelid)
+
+
+def youtube_cmd(sb, modelid: str, cmd: str) -> str:
+    return sb.execute_script(JS_YT_CMD, modelid, cmd)
+
+
 # ---- Python API ----
 
 def enter(sb) -> None:
