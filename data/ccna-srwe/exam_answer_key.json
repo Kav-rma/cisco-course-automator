@@ -388,6 +388,170 @@
      ],
      "status": "recorded",
      "recorded_at": "2026-09-29T17:09:49"
+    },
+    {
+     "n": 34,
+     "question": "Which command displays information about the auto-MDIX setting for a specific interface?​",
+     "question_norm": "which command displays information about the auto mdix setting for a specific interface",
+     "type": "single",
+     "answer_texts": [
+      "show controllers"
+     ],
+     "status": "recorded",
+     "recorded_at": "2026-10-11T03:40:35"
+    },
+    {
+     "n": 35,
+     "question": "What does a switch use to locate and load the IOS image?",
+     "question_norm": "what does a switch use to locate and load the ios image",
+     "type": "single",
+     "answer_texts": [
+      "BOOT environment variable"
+     ],
+     "status": "recorded",
+     "recorded_at": "2026-10-11T03:40:35"
+    },
+    {
+     "n": 36,
+     "question": "Which command is used to set the BOOT environment variable that defines where to find the IOS image file on a switch?",
+     "question_norm": "which command is used to set the boot environment variable that defines where to find the ios image file on a switch",
+     "type": "single",
+     "answer_texts": [
+      "boot system"
+     ],
+     "status": "recorded",
+     "recorded_at": "2026-10-11T03:40:36"
+    },
+    {
+     "n": 37,
+     "question": "Which characteristic describes cut-through switching?",
+     "question_norm": "which characteristic describes cut through switching",
+     "type": "single",
+     "answer_texts": [
+      "Frames are forwarded without any error checking."
+     ],
+     "status": "recorded",
+     "recorded_at": "2026-10-11T03:40:36"
+    },
+    {
+     "n": 38,
+     "question": "What information is added to the switch table from incoming frames?",
+     "question_norm": "what information is added to the switch table from incoming frames",
+     "type": "single",
+     "answer_texts": [
+      "source MAC address and incoming port number"
+     ],
+     "status": "recorded",
+     "recorded_at": "2026-10-11T03:40:37"
+    },
+    {
+     "n": 39,
+     "question": "Which switch characteristic helps keep traffic local and alleviates network congestion?",
+     "question_norm": "which switch characteristic helps keep traffic local and alleviates network congestion",
+     "type": "single",
+     "answer_texts": [
+      "high port density"
+     ],
+     "status": "recorded",
+     "recorded_at": "2026-10-11T03:40:38"
+    },
+    {
+     "n": 40,
+     "question": "Which four steps are needed to configure a voice VLAN on a switch port? (Choose four.)",
+     "question_norm": "which four steps are needed to configure a voice vlan on a switch port choose four",
+     "type": "multiple",
+     "answer_texts": [
+      "Activate spanning-tree PortFast on the interface.",
+      "Configure the switch port interface with subinterfaces.",
+      "Assign a data VLAN to the switch port.",
+      "Configure the switch port in access mode."
+     ],
+     "status": "recorded",
+     "recorded_at": "2026-10-11T03:40:40"
+    },
+    {
+     "n": 41,
+     "question": "Match the IEEE 802.1Q standard VLAN tag field with the description.",
+     "question_norm": "match the ieee 802 1q standard vlan tag field with the description",
+     "type": "object-matching",
+     "answer_texts": [],
+     "pairs": [
+      {
+       "prompt": "Canonical Format Identifier",
+       "answer": "An identifier that enables Token Ring frames to be carried across Ethernet links"
+      },
+      {
+       "prompt": "VLAN ID",
+       "answer": "A VLAN number"
+      },
+      {
+       "prompt": "User Priority",
+       "answer": "A value that supports level or service implementation"
+      },
+      {
+       "prompt": "Type",
+       "answer": "A value for the tag protocol ID value"
+      }
+     ],
+     "raw_answer": "Canonical Format Identifier → An identifier that enables Token Ring frames to be carried across Ethernet links; VLAN ID → A VLAN number; User Priority → A value that supports level or service implementation; Type → A value for the tag protocol ID value",
+     "status": "recorded",
+     "recorded_at": "2026-10-11T03:40:41"
+    },
+    {
+     "n": 42,
+     "question": "Refer to the exhibit. All workstations are configured correctly in VLAN 20. Workstations that are connected to switch SW1 are not able to send traffic to workstations on SW2. What could be done to remedy the problem?",
+     "question_norm": "refer to the exhibit all workstations are configured correctly in vlan 20 workstations that are connected to switch sw1 are not able to send traffic to workstations on sw2 what could be done to remedy the problem",
+     "type": "single",
+     "answer_texts": [
+      "Allow VLAN 20 on the trunk link."
+     ],
+     "status": "recorded",
+     "recorded_at": "2026-10-11T03:40:41"
+    },
+    {
+     "n": 43,
+     "question": "Which command displays the encapsulation type, the voice VLAN ID, and the access mode VLAN for the Fa0/1 interface?",
+     "question_norm": "which command displays the encapsulation type the voice vlan id and the access mode vlan for the fa0 1 interface",
+     "type": "single",
+     "answer_texts": [
+      "Port Fa0/11 will be returned to VLAN 1."
+     ],
+     "status": "recorded",
+     "recorded_at": "2026-10-11T03:40:43"
+    },
+    {
+     "n": 44,
+     "question": "Refer to the exhibit. A network administrator is verifying the configuration of inter-VLAN routing. Users complain that PCs on different VLANs cannot communicate. Based on the output, what are two configuration errors on switch interface Gi1/1? (Choose two.)",
+     "question_norm": "refer to the exhibit a network administrator is verifying the configuration of inter vlan routing users complain that pcs on different vlans cannot communicate based on the output what are two configuration errors on switch interface gi1 1 choose two",
+     "type": "multiple",
+     "answer_texts": [
+      "Voice VLAN is not assigned to Gi1/1.",
+      "Gi1/1 is configured as trunk mode."
+     ],
+     "status": "recorded",
+     "recorded_at": "2026-10-11T03:40:45"
+    },
+    {
+     "n": 45,
+     "question": "Refer to the exhibit. A network administrator is verifying the configuration of inter-VLAN routing. Users complain that PC2 cannot communicate with PC1. Based on the output, what is the possible cause of the problem?",
+     "question_norm": "refer to the exhibit a network administrator is verifying the configuration of inter vlan routing users complain that pc2 cannot communicate with pc1 based on the output what is the possible cause of the problem",
+     "type": "single",
+     "answer_texts": [
+      "The encapsulation dot1Q 5 command contains the wrong VLAN."
+     ],
+     "status": "recorded",
+     "recorded_at": "2026-10-11T03:40:46"
+    },
+    {
+     "n": 46,
+     "question": "A technician is configuring a new Cisco 2960 switch. What is the effect of issuing the BranchSw(config-if)# shutdown command?",
+     "question_norm": "a technician is configuring a new cisco 2960 switch what is the effect of issuing the branchsw config if shutdown command",
+     "type": "single",
+     "answer_texts": [
+      "It disables a virtual or physical switch interface."
+     ],
+     "status": "recorded",
+     "recorded_at": "2026-10-11T03:40:47"
     }
    ]
   },
@@ -767,6 +931,127 @@
      ],
      "status": "recorded",
      "recorded_at": "2026-09-30T17:16:00"
+    },
+    {
+     "n": 33,
+     "question": "What is the purpose of the Spanning Tree Protocol (STP)?",
+     "question_norm": "what is the purpose of the spanning tree protocol stp",
+     "type": "single",
+     "answer_texts": [
+      "prevents Layer 2 loops"
+     ],
+     "status": "recorded",
+     "recorded_at": "2026-10-11T03:41:17"
+    },
+    {
+     "n": 34,
+     "question": "Match the spanning-tree feature with the protocol type.",
+     "question_norm": "match the spanning tree feature with the protocol type",
+     "type": "object-matching",
+     "answer_texts": [],
+     "pairs": [
+      {
+       "prompt": "MSTP",
+       "answer": "IEEE standard that reduces the number of STP instances"
+      },
+      {
+       "prompt": "PVST",
+       "answer": "Cisco implementation of IEEE 802.1D"
+      }
+     ],
+     "raw_answer": "MSTP → IEEE standard that reduces the number of STP instances; PVST → Cisco implementation of IEEE 802.1D",
+     "status": "recorded",
+     "recorded_at": "2026-10-11T03:41:20"
+    },
+    {
+     "n": 35,
+     "question": "In which two port states does a switch learn MAC addresses and process BPDUs in a PVST network? (Choose two.)",
+     "question_norm": "in which two port states does a switch learn mac addresses and process bpdus in a pvst network choose two",
+     "type": "multiple",
+     "answer_texts": [
+      "forwarding",
+      "learning"
+     ],
+     "status": "recorded",
+     "recorded_at": "2026-10-11T03:41:21"
+    },
+    {
+     "n": 36,
+     "question": "A set of switches is being connected in a LAN topology. Which STP bridge priority value will make it least likely for the switch to be selected as the root?",
+     "question_norm": "a set of switches is being connected in a lan topology which stp bridge priority value will make it least likely for the switch to be selected as the root",
+     "type": "single",
+     "answer_texts": [
+      "61440"
+     ],
+     "status": "recorded",
+     "recorded_at": "2026-10-11T03:41:22"
+    },
+    {
+     "n": 37,
+     "question": "Refer to the exhibit. The administrator tried to create an EtherChannel between S1 and the other two switches via the commands that are shown, but was unsuccessful. What is the problem?",
+     "question_norm": "refer to the exhibit the administrator tried to create an etherchannel between s1 and the other two switches via the commands that are shown but was unsuccessful what is the problem",
+     "type": "single",
+     "answer_texts": [
+      "Traffic cannot be sent to two different switches through the same EtherChannel link."
+     ],
+     "status": "recorded",
+     "recorded_at": "2026-10-11T03:41:26"
+    },
+    {
+     "n": 38,
+     "question": "What is a requirement to configure a trunking EtherChannel between two switches?",
+     "question_norm": "what is a requirement to configure a trunking etherchannel between two switches",
+     "type": "single",
+     "answer_texts": [
+      "The allowed range of VLANs must be the same on both switches."
+     ],
+     "status": "recorded",
+     "recorded_at": "2026-10-11T03:41:26"
+    },
+    {
+     "n": 39,
+     "question": "Which two channel group modes would place an interface in a negotiating state using PAgP? (Choose two.)",
+     "question_norm": "which two channel group modes would place an interface in a negotiating state using pagp choose two",
+     "type": "multiple",
+     "answer_texts": [
+      "desirable",
+      "auto"
+     ],
+     "status": "recorded",
+     "recorded_at": "2026-10-11T03:41:28"
+    },
+    {
+     "n": 40,
+     "question": "Which statement describes a characteristic of EtherChannel?",
+     "question_norm": "which statement describes a characteristic of etherchannel",
+     "type": "single",
+     "answer_texts": [
+      "It is made by combining multiple physical links that are seen as one link between two switches."
+     ],
+     "status": "recorded",
+     "recorded_at": "2026-10-11T03:41:29"
+    },
+    {
+     "n": 41,
+     "question": "Refer to the exhibit. A network administrator is configuring an EtherChannel link between two switches, SW1 and SW2. Which statement describes the effect after the commands are issued on SW1 and SW2?",
+     "question_norm": "refer to the exhibit a network administrator is configuring an etherchannel link between two switches sw1 and sw2 which statement describes the effect after the commands are issued on sw1 and sw2",
+     "type": "single",
+     "answer_texts": [
+      "The EtherChannel fails to establish."
+     ],
+     "status": "recorded",
+     "recorded_at": "2026-10-11T03:41:30"
+    },
+    {
+     "n": 42,
+     "question": "A switch is configured to run STP. What term describes the reference point for all path calculations?",
+     "question_norm": "a switch is configured to run stp what term describes the reference point for all path calculations",
+     "type": "single",
+     "answer_texts": [
+      "root bridge"
+     ],
+     "status": "recorded",
+     "recorded_at": "2026-10-11T03:41:32"
     }
    ]
   },
@@ -1189,6 +1474,166 @@
      ],
      "status": "recorded",
      "recorded_at": "2026-09-30T17:43:48"
+    },
+    {
+     "n": 34,
+     "question": "Which statement is true about DHCP operation?​",
+     "question_norm": "which statement is true about dhcp operation",
+     "type": "single",
+     "answer_texts": [
+      "When a device that is configured to use DHCP boots, the client broadcasts a DHCPDISCOVER message to identify any available DHCP servers on the network.​"
+     ],
+     "status": "recorded",
+     "recorded_at": "2026-10-11T03:41:52"
+    },
+    {
+     "n": 35,
+     "question": "Refer to the exhibit. PC1 is configured to obtain a dynamic IP address from the DHCP server. PC1 has been shut down for two weeks. When PC1 boots and tries to request an available IP address, which destination IP address will PC1 place in the IP header?",
+     "question_norm": "refer to the exhibit pc1 is configured to obtain a dynamic ip address from the dhcp server pc1 has been shut down for two weeks when pc1 boots and tries to request an available ip address which destination ip address will pc1 place in the ip header",
+     "type": "single",
+     "answer_texts": [
+      "255.255.255.255"
+     ],
+     "status": "recorded",
+     "recorded_at": "2026-10-11T03:41:52"
+    },
+    {
+     "n": 36,
+     "question": "Match each DHCP message type with its description.",
+     "question_norm": "match each dhcp message type with its description",
+     "type": "object-matching",
+     "answer_texts": [],
+     "pairs": [
+      {
+       "prompt": "DHCPREQUEST",
+       "answer": "The client accepting the IP address provided by the DHCP server"
+      },
+      {
+       "prompt": "DHCPDISCOVER",
+       "answer": "A client initiating a message to find a DHCP server"
+      },
+      {
+       "prompt": "DHCPOFFER",
+       "answer": "A DHCP server responding to the initial request by a client"
+      },
+      {
+       "prompt": "DHCPACK",
+       "answer": "The DHCP server confirming that the address lease has been accepted"
+      }
+     ],
+     "raw_answer": "DHCPREQUEST → The client accepting the IP address provided by the DHCP server; DHCPDISCOVER → A client initiating a message to find a DHCP server; DHCPOFFER → A DHCP server responding to the initial request by a client; DHCPACK → The DHCP server confirming that the address lease has been accepted",
+     "status": "recorded",
+     "recorded_at": "2026-10-11T03:41:56"
+    },
+    {
+     "n": 37,
+     "question": "Refer to the exhibit. A network administrator is configuring a router for DHCPv6 operation. Which conclusion can be drawn based on the commands?",
+     "question_norm": "refer to the exhibit a network administrator is configuring a router for dhcpv6 operation which conclusion can be drawn based on the commands",
+     "type": "single",
+     "answer_texts": [
+      "The router is configured for stateless DHCPv6 operation."
+     ],
+     "status": "recorded",
+     "recorded_at": "2026-10-11T03:42:00"
+    },
+    {
+     "n": 38,
+     "question": "Match the descriptions to the corresponding DHCPv6 server type.",
+     "question_norm": "match the descriptions to the corresponding dhcpv6 server type",
+     "type": "matching",
+     "answer_texts": [],
+     "pairs": [
+      {
+       "prompt": "enabled in RA messages with the ipv6 nd other-config-flag command",
+       "answer": "Stateless DHCPv6"
+      },
+      {
+       "prompt": "clients send only DHCPv6 INFORMATION-REQUEST messages to the server",
+       "answer": "Stateless DHCPv6"
+      },
+      {
+       "prompt": "enabled on the client with the ipv6 address autoconfig command",
+       "answer": "Stateless DHCPv6"
+      },
+      {
+       "prompt": "the M flag is set to 1 in RA messages",
+       "answer": "Stateful DHCPv6"
+      },
+      {
+       "prompt": "uses the address command to create a pool of addresses for clients",
+       "answer": "Stateless DHCPv6"
+      },
+      {
+       "prompt": "enabled on the client with the ipv6 address dhcp command",
+       "answer": "Stateless DHCPv6"
+      }
+     ],
+     "raw_answer": "enabled in RA messages with the ipv6 nd other-config-flag command → Stateless DHCPv6; clients send only DHCPv6 INFORMATION-REQUEST messages to the server → Stateless DHCPv6; enabled on the client with the ipv6 address autoconfig command → Stateless DHCPv6; the M flag is set to 1 in RA messages → Stateful DHCPv6; uses the address command to create a pool of addresses for clients → Stateless DHCPv6; enabled on the client with the ipv6 address dhcp command → Stateless DHCPv6",
+     "status": "recorded",
+     "recorded_at": "2026-10-11T03:42:02"
+    },
+    {
+     "n": 39,
+     "question": "Match the FHRP protocols to the appropriate description.",
+     "question_norm": "match the fhrp protocols to the appropriate description",
+     "type": "object-matching",
+     "answer_texts": [],
+     "pairs": [
+      {
+       "prompt": "HSRP",
+       "answer": "A Cisco proprietary FHRP that provides redundancy through use of an active device and standby device"
+      },
+      {
+       "prompt": "VRRP",
+       "answer": "An open standard FHRP that provides redundancy through use of a virtual routers master and one or more backups"
+      },
+      {
+       "prompt": "GLBP",
+       "answer": "A Cisco proprietary FHRP that provides load sharing in addition to redundancy"
+      }
+     ],
+     "raw_answer": "HSRP → A Cisco proprietary FHRP that provides redundancy through use of an active device and standby device; VRRP → An open standard FHRP that provides redundancy through use of a virtual routers master and one or more backups; GLBP → A Cisco proprietary FHRP that provides load sharing in addition to redundancy",
+     "status": "recorded",
+     "recorded_at": "2026-10-11T03:42:03"
+    },
+    {
+     "n": 40,
+     "question": "Match the step number to the sequence of stages that occur during the HSRP failover process.",
+     "question_norm": "match the step number to the sequence of stages that occur during the hsrp failover process",
+     "type": "object-matching",
+     "answer_texts": [],
+     "pairs": [
+      {
+       "prompt": "Step 4",
+       "answer": "The new forwarding router assumes both the IP and MAC addresses of the virtual router."
+      },
+      {
+       "prompt": "Step 1",
+       "answer": "The forwarding router fails."
+      },
+      {
+       "prompt": "Step 2",
+       "answer": "The standby router stops seeing hello messages from the forwarding router."
+      },
+      {
+       "prompt": "Step 3",
+       "answer": "The standby router assumes the role of the forwarding router."
+      }
+     ],
+     "raw_answer": "Step 4 → The new forwarding router assumes both the IP and MAC addresses of the virtual router.; Step 1 → The forwarding router fails.; Step 2 → The standby router stops seeing hello messages from the forwarding router.; Step 3 → The standby router assumes the role of the forwarding router.",
+     "status": "recorded",
+     "recorded_at": "2026-10-11T03:42:03"
+    },
+    {
+     "n": 41,
+     "question": "Which FHRP implementation is a nonproprietary IPv4-only election protocol with limited scalability?",
+     "question_norm": "which fhrp implementation is a nonproprietary ipv4 only election protocol with limited scalability",
+     "type": "single",
+     "answer_texts": [
+      "VRRPv2"
+     ],
+     "status": "recorded",
+     "recorded_at": "2026-10-11T03:42:06"
     }
    ]
   },
@@ -1578,6 +2023,152 @@
      ],
      "status": "recorded",
      "recorded_at": "2026-09-30T18:44:47"
+    },
+    {
+     "n": 34,
+     "question": "What is a wireless security mode that requires a RADIUS server to authenticate wireless users?",
+     "question_norm": "what is a wireless security mode that requires a radius server to authenticate wireless users",
+     "type": "single",
+     "answer_texts": [
+      "Enterprise"
+     ],
+     "status": "recorded",
+     "recorded_at": "2026-10-11T03:42:33"
+    },
+    {
+     "n": 35,
+     "question": "What device is considered a supplicant during the 802.1X authentication process?",
+     "question_norm": "what device is considered a supplicant during the 802 1x authentication process",
+     "type": "single",
+     "answer_texts": [
+      "The client that is requesting authentication"
+     ],
+     "status": "recorded",
+     "recorded_at": "2026-10-11T03:42:34"
+    },
+    {
+     "n": 36,
+     "question": "Which two commands can be used to enable BPDU guard on a switch? (Choose two.)",
+     "question_norm": "which two commands can be used to enable bpdu guard on a switch choose two",
+     "type": "multiple",
+     "answer_texts": [
+      "S1(config)# spanning-tree bpduguard default",
+      "S1(config-if)# spanning-tree bpduguard enable"
+     ],
+     "status": "recorded",
+     "recorded_at": "2026-10-11T03:42:35"
+    },
+    {
+     "n": 37,
+     "question": "What is an advantage of SSID cloaking?​",
+     "question_norm": "what is an advantage of ssid cloaking",
+     "type": "single",
+     "answer_texts": [
+      "Clients will have to manually identify the SSID to connect to the network.​"
+     ],
+     "status": "recorded",
+     "recorded_at": "2026-10-11T03:42:37"
+    },
+    {
+     "n": 38,
+     "question": "A company has recently implemented an 802.11n wireless network. Some users are complaining that the wireless network is too slow. Which solution is the best method to enhance the performance of the wireless network?",
+     "question_norm": "a company has recently implemented an 802 11n wireless network some users are complaining that the wireless network is too slow which solution is the best method to enhance the performance of the wireless network",
+     "type": "single",
+     "answer_texts": [
+      "Split the traffic between the 2.4 GHz and 5 GHz frequency bands."
+     ],
+     "status": "recorded",
+     "recorded_at": "2026-10-11T03:42:38"
+    },
+    {
+     "n": 39,
+     "question": "Which three parameters would need to be changed if best practices are being implemented for a home wireless AP? (Choose three.)",
+     "question_norm": "which three parameters would need to be changed if best practices are being implemented for a home wireless ap choose three",
+     "type": "multiple",
+     "answer_texts": [
+      "SSID",
+      "AP password",
+      "Wireless network password"
+     ],
+     "status": "recorded",
+     "recorded_at": "2026-10-11T03:42:39"
+    },
+    {
+     "n": 40,
+     "question": "A network administrator enters the following commands on the switch SW1. SW1(config)# interface range fa0/5 – 10 SW1(config-if)# ip dhcp snooping limit rate 6 What is the effect after these commands are entered?",
+     "question_norm": "a network administrator enters the following commands on the switch sw1 sw1 config interface range fa0 5 10 sw1 config if ip dhcp snooping limit rate 6 what is the effect after these commands are entered",
+     "type": "single",
+     "answer_texts": [
+      "If any of the FastEthernet ports 5 through 10 receive more than 6 DHCP messages per second, the port will be shut down."
+     ],
+     "status": "recorded",
+     "recorded_at": "2026-10-11T03:42:41"
+    },
+    {
+     "n": 41,
+     "question": "A network administrator deploys a wireless router in a small law firm. Employee laptops join the WLAN and receive IP addresses in the 10.0.10.0/24 network. Which service is used on the wireless router to allow the employee laptops to access the internet?",
+     "question_norm": "a network administrator deploys a wireless router in a small law firm employee laptops join the wlan and receive ip addresses in the 10 0 10 0 24 network which service is used on the wireless router to allow the employee laptops to access the internet",
+     "type": "single",
+     "answer_texts": [
+      "NAT"
+     ],
+     "status": "recorded",
+     "recorded_at": "2026-10-11T03:42:43"
+    },
+    {
+     "n": 42,
+     "question": "Which access control component, implementation, or protocol audits what users actions are performed on the network?",
+     "question_norm": "which access control component implementation or protocol audits what users actions are performed on the network",
+     "type": "single",
+     "answer_texts": [
+      "Accounting"
+     ],
+     "status": "recorded",
+     "recorded_at": "2026-10-11T03:42:44"
+    },
+    {
+     "n": 43,
+     "question": "Which protocol should be used to mitigate the vulnerability of using Telnet to remotely manage network devices?",
+     "question_norm": "which protocol should be used to mitigate the vulnerability of using telnet to remotely manage network devices",
+     "type": "single",
+     "answer_texts": [
+      "SSH"
+     ],
+     "status": "recorded",
+     "recorded_at": "2026-10-11T03:42:46"
+    },
+    {
+     "n": 44,
+     "question": "On a Cisco 3504 WLC dashboard, which option provides access to the full menu of features?",
+     "question_norm": "on a cisco 3504 wlc dashboard which option provides access to the full menu of features",
+     "type": "single",
+     "answer_texts": [
+      "Advanced"
+     ],
+     "status": "recorded",
+     "recorded_at": "2026-10-11T03:42:47"
+    },
+    {
+     "n": 45,
+     "question": "Refer to the exhibit. Port security has been configured on the Fa 0/12 interface of switch S1. What action will occur when PC1 is attached to switch S1 with the applied configuration?",
+     "question_norm": "refer to the exhibit port security has been configured on the fa 0 12 interface of switch s1 what action will occur when pc1 is attached to switch s1 with the applied configuration",
+     "type": "single",
+     "answer_texts": [
+      "Frames from PC1 will cause the interface to shut down immediately, and a log entry will be made."
+     ],
+     "status": "recorded",
+     "recorded_at": "2026-10-11T03:42:47"
+    },
+    {
+     "n": 46,
+     "question": "A technician is configuring the channel on a wireless router to either 1, 6, or 11. What is the purpose of adjusting the channel?",
+     "question_norm": "a technician is configuring the channel on a wireless router to either 1 6 or 11 what is the purpose of adjusting the channel",
+     "type": "single",
+     "answer_texts": [
+      "To avoid interference from nearby wireless devices"
+     ],
+     "status": "recorded",
+     "recorded_at": "2026-10-11T03:42:48"
     }
    ]
   },
@@ -1969,6 +2560,115 @@
      ],
      "status": "recorded",
      "recorded_at": "2026-09-30T19:05:00"
+    },
+    {
+     "n": 34,
+     "question": "Refer to the exhibit. What does R1 use as the MAC address of the destination when constructing the frame that will go from R1 to Server B?",
+     "question_norm": "refer to the exhibit what does r1 use as the mac address of the destination when constructing the frame that will go from r1 to server b",
+     "type": "single",
+     "answer_texts": [
+      "If the destination MAC address that corresponds to the IPv4 address is not in the ARP cache, R1 sends an ARP request."
+     ],
+     "status": "recorded",
+     "recorded_at": "2026-10-11T03:43:07"
+    },
+    {
+     "n": 35,
+     "question": "A network administrator configures the interface fa0/0 on the router R1 with the command ip address 172.16.1.254 255.255.255.0 . However, when the administrator issues the command show ip route , the routing table does not show the directly connected network. What is the possible cause of the problem?",
+     "question_norm": "a network administrator configures the interface fa0 0 on the router r1 with the command ip address 172 16 1 254 255 255 255 0 however when the administrator issues the command show ip route the routing table does not show the directly connected network what is the possible cause of the problem",
+     "type": "single",
+     "answer_texts": [
+      "The interface fa0/0 has not been activated."
+     ],
+     "status": "recorded",
+     "recorded_at": "2026-10-11T03:43:08"
+    },
+    {
+     "n": 36,
+     "question": "Refer to the exhibit. What is the administrative distance value of the route for router R1 to reach the destination IPv6 address of 2001:DB8:CAFE:4::A?",
+     "question_norm": "refer to the exhibit what is the administrative distance value of the route for router r1 to reach the destination ipv6 address of 2001 db8 cafe 4 a",
+     "type": "single",
+     "answer_texts": [
+      "120"
+     ],
+     "status": "recorded",
+     "recorded_at": "2026-10-11T03:43:08"
+    },
+    {
+     "n": 37,
+     "question": "Match the characteristic to the corresponding type of routing.",
+     "question_norm": "match the characteristic to the corresponding type of routing",
+     "type": "matching",
+     "answer_texts": [],
+     "pairs": [
+      {
+       "prompt": "typically used on stub networks",
+       "answer": "static routing"
+      },
+      {
+       "prompt": "less routing overhead",
+       "answer": "dynamic routing"
+      },
+      {
+       "prompt": "new networks are added automatically to the routing table",
+       "answer": "dynamic routing"
+      },
+      {
+       "prompt": "best choice for large networks",
+       "answer": "dynamic routing"
+      },
+      {
+       "prompt": "not suitable for topologies where more than one router is required",
+       "answer": "static routing"
+      }
+     ],
+     "raw_answer": "typically used on stub networks → static routing; less routing overhead → dynamic routing; new networks are added automatically to the routing table → dynamic routing; best choice for large networks → dynamic routing; not suitable for topologies where more than one router is required → static routing",
+     "status": "recorded",
+     "recorded_at": "2026-10-11T03:43:10"
+    },
+    {
+     "n": 38,
+     "question": "Refer to the exhibit. The network engineer for the company that is shown wants to use the primary ISP connection for all external connectivity. The backup ISP connection is used only if the primary ISP connection fails. Which set of commands would accomplish this goal?",
+     "question_norm": "refer to the exhibit the network engineer for the company that is shown wants to use the primary isp connection for all external connectivity the backup isp connection is used only if the primary isp connection fails which set of commands would accomplish this goal",
+     "type": "single",
+     "answer_texts": [
+      "ip route 0.0.0.0 0.0.0.0 s0/0/0 ip route 0.0.0.0 0.0.0.0 s0/1/0 10"
+     ],
+     "status": "recorded",
+     "recorded_at": "2026-10-11T03:43:11"
+    },
+    {
+     "n": 39,
+     "question": "What network prefix and prefix-length combination is used to create a default static route that will match any IPv6 destination?",
+     "question_norm": "what network prefix and prefix length combination is used to create a default static route that will match any ipv6 destination",
+     "type": "single",
+     "answer_texts": [
+      "::/0"
+     ],
+     "status": "recorded",
+     "recorded_at": "2026-10-11T03:43:15"
+    },
+    {
+     "n": 40,
+     "question": "Refer to the graphic. Which command would be used on router A to configure a static route to direct traffic from LAN A that is destined for LAN C?",
+     "question_norm": "refer to the graphic which command would be used on router a to configure a static route to direct traffic from lan a that is destined for lan c",
+     "type": "single",
+     "answer_texts": [
+      "A(config)# ip route 192.168.4.0 255.255.255.0 192.168.3.2"
+     ],
+     "status": "recorded",
+     "recorded_at": "2026-10-11T03:43:16"
+    },
+    {
+     "n": 41,
+     "question": "Gateway of last resort is not set. 192.168.139.0/26 is variously subnetted, 7 subnets, 3 masks O 192.168.139.0/26 [110/10] via 192.168.70.1, 00:00:24, Serial0/0/0 O 192.168.139.64/26 [110/20] via 192.168.70.6, 00:00:56, Serial 0/0/1 O 192.168.139.128/26 [110/10] via 192.168.70.1, 00:00:24, Serial 0/0/0 C 192.168.139.192/27 is directly connected, GigabitEthernet0/0 L 192.168.139.193/27 is directly connected, GigabitEthernet0/0 C 192.168.139.224/27 is directly connected, GigabitEthernet0/1 L 192.168.139.225/27 is directly connected, GigabitEthernet0/1 192.168.70.0/24 is variably subnetted, 4 subnets, 2 masks C 192.168.70.0/30 is directly connected, Serial0/0/0 L 192.168.70.2/32 is directly connected, Serial0/0/0 C 192.168.70.4/30 is directly connected, Serial0/0/1 L 192.168.70.5/32 is directly connected, Serial0/0/1 S 192.168.71.0/26 [1/0] via 192.168.70.1, 00:00:24, Serial0/0/0 R1# Refer to the exhibit. Which interface will be the exit interface to forward a data packet that has the destination IP address 192.168.71.52?",
+     "question_norm": "gateway of last resort is not set 192 168 139 0 26 is variously subnetted 7 subnets 3 masks o 192 168 139 0 26 110 10 via 192 168 70 1 00 00 24 serial0 0 0 o 192 168 139 64 26 110 20 via 192 168 70 6 00 00 56 serial 0 0 1 o 192 168 139 128 26 110 10 via 192 168 70 1 00 00 24 serial 0 0 0 c 192 168 139 192 27 is directly connected gigabitethernet0 0 l 192 168 139 193 27 is directly connected gigabitethernet0 0 c 192 168 139 224 27 is directly connected gigabitethernet0 1 l 192 168 139 225 27 is directly connected gigabitethernet0 1 192 168 70 0 24 is variably subnetted 4 subnets 2 masks c 192 168 70 0 30 is directly connected serial0 0 0 l 192 168 70 2 32 is directly connected serial0 0 0 c 192 168 70 4 30 is directly connected serial0 0 1 l 192 168 70 5 32 is directly connected serial0 0 1 s 192 168 71 0 26 1 0 via 192 168 70 1 00 00 24 serial0 0 0 r1 refer to the exhibit which interface will be the exit interface to forward a data packet that has the destination ip address 192 168 71 52",
+     "type": "single",
+     "answer_texts": [
+      "Serial0/0/0."
+     ],
+     "status": "recorded",
+     "recorded_at": "2026-10-11T03:43:21"
     }
    ]
   }

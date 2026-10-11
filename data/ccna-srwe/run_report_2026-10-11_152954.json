@@ -1,0 +1,3603 @@
+{
+ "started_at": "2026-10-11T15:29:54",
+ "items": [
+  {
+   "item": "3.0.1",
+   "title": "Why should I take this module?",
+   "module": 3,
+   "type": "INTRODUCTION",
+   "components": [
+    "text-view",
+    "blank-view"
+   ],
+   "unit_complete": true,
+   "status": "already_complete",
+   "notes": [],
+   "seconds": 6.2,
+   "outline_after": "start"
+  },
+  {
+   "item": "3.0.2",
+   "title": "What will I learn to do in this module?",
+   "module": 3,
+   "type": "INTRODUCTION",
+   "components": [
+    "text-view",
+    "table-view",
+    "quicknav-view"
+   ],
+   "unit_complete": true,
+   "status": "already_complete",
+   "notes": [],
+   "seconds": 3.1,
+   "outline_after": "completed"
+  },
+  {
+   "item": "3.1.1",
+   "title": "VLAN Definitions",
+   "module": 3,
+   "type": "LESSON",
+   "components": [
+    "text-view",
+    "dynamic-graphic-view",
+    "text-view",
+    "blank-view"
+   ],
+   "unit_complete": true,
+   "status": "already_complete",
+   "notes": [],
+   "seconds": 4.1,
+   "outline_after": "completed"
+  },
+  {
+   "item": "3.1.5",
+   "title": "Check Your Understanding - Overview of VLANs",
+   "module": 3,
+   "type": "UNKNOWN",
+   "components": [],
+   "unit_complete": null,
+   "status": "unknown"
+  },
+  {
+   "item": "3.2.9",
+   "title": "Check Your Understanding - VLANs in a Multi-Switch Environment",
+   "module": 3,
+   "type": "KNOWLEDGE_CHECK",
+   "components": [
+    "adaptive-start-screen-view",
+    "quicknav-view"
+   ],
+   "unit_complete": false,
+   "status": "completed",
+   "notes": [],
+   "seconds": 61.1,
+   "outline_after": "completed",
+   "server_status": "start",
+   "retry": {
+    "status": "already_complete",
+    "outline_after": "completed"
+   }
+  },
+  {
+   "item": "3.3.1",
+   "title": "VLAN Ranges on Catalyst Switches",
+   "module": 3,
+   "type": "LESSON",
+   "components": [
+    "text-view",
+    "commandwindow-view",
+    "text-view",
+    "blank-view"
+   ],
+   "unit_complete": true,
+   "status": "already_complete",
+   "notes": [],
+   "seconds": 5.2,
+   "outline_after": "completed"
+  },
+  {
+   "item": "3.4.1",
+   "title": "Trunk Configuration Commands",
+   "module": 3,
+   "type": "LESSON",
+   "components": [
+    "text-view",
+    "table-view",
+    "blank-view"
+   ],
+   "unit_complete": true,
+   "status": "already_complete",
+   "notes": [],
+   "seconds": 4.7,
+   "outline_after": "completed"
+  },
+  {
+   "item": "3.5.1",
+   "title": "Introduction to DTP",
+   "module": 3,
+   "type": "INTRODUCTION",
+   "components": [
+    "text-view",
+    "commandwindow-view",
+    "text-view",
+    "commandwindow-view",
+    "text-view",
+    "blank-view"
+   ],
+   "unit_complete": true,
+   "status": "already_complete",
+   "notes": [],
+   "seconds": 5.0,
+   "outline_after": "completed"
+  },
+  {
+   "item": "3.5.6",
+   "title": "Check Your Understanding - Dynamic Trunking Protocol",
+   "module": 3,
+   "type": "KNOWLEDGE_CHECK",
+   "components": [
+    "adaptive-start-screen-view",
+    "quicknav-view"
+   ],
+   "unit_complete": false,
+   "status": "completed",
+   "notes": [],
+   "seconds": 64.3,
+   "outline_after": "completed",
+   "server_status": "start",
+   "retry": {
+    "error": "Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception\nStacktrace:\nSymbols not av"
+   }
+  },
+  {
+   "item": "3.6.1",
+   "title": "Packet Tracer - Implement VLANs and Trunking",
+   "module": 3,
+   "type": "LAB",
+   "components": [
+    "text-view",
+    "packettracer-view",
+    "blank-view"
+   ],
+   "unit_complete": true,
+   "status": "already_complete",
+   "notes": [],
+   "seconds": 4.2,
+   "outline_after": "completed"
+  },
+  {
+   "item": "3.6.4",
+   "title": "Module Quiz - VLANs",
+   "module": 3,
+   "type": "ASSESSMENT",
+   "components": [
+    "adaptive-start-screen-view",
+    "quicknav-view"
+   ],
+   "unit_complete": false,
+   "status": "needs_user",
+   "notes": [
+    "graded assessment - never automated"
+   ],
+   "seconds": 3.3
+  },
+  {
+   "item": "4.0.1",
+   "title": "Why should I take this module?",
+   "module": 4,
+   "type": "INTRODUCTION",
+   "components": [
+    "text-view",
+    "blank-view"
+   ],
+   "unit_complete": true,
+   "status": "already_complete",
+   "notes": [],
+   "seconds": 8.3,
+   "outline_after": "start"
+  },
+  {
+   "item": "4.0.2",
+   "title": "What will I learn to do in this module?",
+   "module": 4,
+   "type": "INTRODUCTION",
+   "components": [
+    "text-view",
+    "table-view",
+    "quicknav-view"
+   ],
+   "unit_complete": true,
+   "status": "already_complete",
+   "notes": [],
+   "seconds": 3.2,
+   "outline_after": "completed"
+  },
+  {
+   "item": "4.1.1",
+   "title": "What is Inter-VLAN Routing?",
+   "module": 4,
+   "type": "LESSON",
+   "components": [
+    "text-view",
+    "blank-view"
+   ],
+   "unit_complete": true,
+   "status": "already_complete",
+   "notes": [],
+   "seconds": 4.2,
+   "outline_after": "completed"
+  },
+  {
+   "item": "4.2.1",
+   "title": "Router-on-a-Stick Scenario",
+   "module": 4,
+   "type": "LESSON",
+   "components": [
+    "text-view",
+    "dynamic-graphic-view",
+    "text-view",
+    "text-view",
+    "table-view",
+    "text-view",
+    "blank-view"
+   ],
+   "unit_complete": true,
+   "status": "already_complete",
+   "notes": [],
+   "seconds": 4.6,
+   "outline_after": "completed"
+  },
+  {
+   "item": "4.3.1",
+   "title": "Layer 3 Switch Inter-VLAN Routing",
+   "module": 4,
+   "type": "LESSON",
+   "components": [
+    "text-view",
+    "blank-view"
+   ],
+   "unit_complete": true,
+   "status": "already_complete",
+   "notes": [],
+   "seconds": 4.3,
+   "outline_after": "completed"
+  },
+  {
+   "item": "4.4.1",
+   "title": "Common Inter-VLAN Issues",
+   "module": 4,
+   "type": "LESSON",
+   "components": [
+    "text-view",
+    "table-view",
+    "blank-view"
+   ],
+   "unit_complete": true,
+   "status": "already_complete",
+   "notes": [],
+   "seconds": 6.1,
+   "outline_after": "completed"
+  },
+  {
+   "item": "4.4.7",
+   "title": "Check Your Understanding - Troubleshoot Inter-VLAN Routing",
+   "module": 4,
+   "type": "KNOWLEDGE_CHECK",
+   "components": [
+    "adaptive-start-screen-view",
+    "blank-view"
+   ],
+   "unit_complete": false,
+   "status": "completed",
+   "notes": [],
+   "seconds": 67.0,
+   "outline_after": "completed",
+   "server_status": "completed"
+  },
+  {
+   "item": "4.5.1",
+   "title": "Packet Tracer - Inter-VLAN Routing Challenge",
+   "module": 4,
+   "type": "LAB",
+   "components": [
+    "text-view",
+    "packettracer-view",
+    "blank-view"
+   ],
+   "unit_complete": true,
+   "status": "already_complete",
+   "notes": [],
+   "seconds": 7.0,
+   "outline_after": "completed"
+  },
+  {
+   "item": "4.5.4",
+   "title": "Module Quiz - Inter-VLAN Routing",
+   "module": 4,
+   "type": "ASSESSMENT",
+   "components": [
+    "adaptive-start-screen-view",
+    "quicknav-view"
+   ],
+   "unit_complete": false,
+   "status": "needs_user",
+   "notes": [
+    "graded assessment - never automated"
+   ],
+   "seconds": 3.7
+  },
+  {
+   "item": "5.0.1",
+   "title": "Why should I take this module?",
+   "module": 5,
+   "type": "INTRODUCTION",
+   "components": [
+    "text-view",
+    "blank-view"
+   ],
+   "unit_complete": true,
+   "status": "already_complete",
+   "notes": [],
+   "seconds": 7.8,
+   "outline_after": "start"
+  },
+  {
+   "item": "5.0.2",
+   "title": "What will I learn to do in this module?",
+   "module": 5,
+   "type": "INTRODUCTION",
+   "components": [
+    "text-view",
+    "table-view",
+    "quicknav-view"
+   ],
+   "unit_complete": true,
+   "status": "already_complete",
+   "notes": [],
+   "seconds": 3.3,
+   "outline_after": "completed"
+  },
+  {
+   "item": "5.1.1",
+   "title": "Redundancy in Layer 2 Switched Networks",
+   "module": 5,
+   "type": "LESSON",
+   "components": [
+    "text-view",
+    "blank-view"
+   ],
+   "unit_complete": true,
+   "status": "already_complete",
+   "notes": [],
+   "seconds": 6.6,
+   "outline_after": "completed"
+  },
+  {
+   "item": "5.1.10",
+   "title": "Check Your Understanding - Purpose of STP",
+   "module": 5,
+   "type": "KNOWLEDGE_CHECK",
+   "components": [
+    "adaptive-start-screen-view",
+    "quicknav-view"
+   ],
+   "unit_complete": false,
+   "status": "completed",
+   "notes": [],
+   "seconds": 62.9,
+   "outline_after": "completed",
+   "server_status": "completed"
+  },
+  {
+   "item": "5.2.1",
+   "title": "Steps to a Loop-Free Topology",
+   "module": 5,
+   "type": "LESSON",
+   "components": [
+    "text-view",
+    "dynamic-graphic-view",
+    "text-view",
+    "blank-view"
+   ],
+   "unit_complete": true,
+   "status": "already_complete",
+   "notes": [],
+   "seconds": 5.6,
+   "outline_after": "completed"
+  },
+  {
+   "item": "5.2.12",
+   "title": "Check Your Understanding - STP Operations",
+   "module": 5,
+   "type": "KNOWLEDGE_CHECK",
+   "components": [
+    "adaptive-start-screen-view",
+    "quicknav-view"
+   ],
+   "unit_complete": false,
+   "status": "completed",
+   "notes": [],
+   "seconds": 68.8,
+   "outline_after": "completed",
+   "server_status": "completed"
+  },
+  {
+   "item": "5.3.1",
+   "title": "Different Versions of STP",
+   "module": 5,
+   "type": "LESSON",
+   "components": [
+    "text-view",
+    "table-view",
+    "text-view",
+    "blank-view"
+   ],
+   "unit_complete": true,
+   "status": "already_complete",
+   "notes": [],
+   "seconds": 5.0,
+   "outline_after": "completed"
+  },
+  {
+   "item": "5.3.6",
+   "title": "Check Your Understanding - Evolution of STP",
+   "module": 5,
+   "type": "KNOWLEDGE_CHECK",
+   "components": [
+    "adaptive-start-screen-view",
+    "quicknav-view"
+   ],
+   "unit_complete": false,
+   "status": "completed",
+   "notes": [],
+   "seconds": 62.3,
+   "outline_after": "completed",
+   "server_status": "completed"
+  },
+  {
+   "item": "5.4.1",
+   "title": "What did I learn in this module?",
+   "module": 5,
+   "type": "SUMMARY",
+   "components": [
+    "text-view",
+    "blank-view"
+   ],
+   "unit_complete": false,
+   "status": "completed",
+   "notes": [
+    "unit complete"
+   ],
+   "seconds": 6.9,
+   "outline_after": "completed",
+   "server_status": "completed"
+  },
+  {
+   "item": "5.4.2",
+   "title": "Module Quiz - STP",
+   "module": 5,
+   "type": "ASSESSMENT",
+   "components": [
+    "adaptive-start-screen-view",
+    "quicknav-view"
+   ],
+   "unit_complete": false,
+   "status": "needs_user",
+   "notes": [
+    "graded assessment - never automated"
+   ],
+   "seconds": 3.1
+  },
+  {
+   "item": "6.0.1",
+   "title": "Why should I take this module?",
+   "module": 6,
+   "type": "INTRODUCTION",
+   "components": [
+    "text-view",
+    "blank-view"
+   ],
+   "unit_complete": true,
+   "status": "already_complete",
+   "notes": [],
+   "seconds": 7.4,
+   "outline_after": "start"
+  },
+  {
+   "item": "6.0.2",
+   "title": "What will I learn to do in this module?",
+   "module": 6,
+   "type": "INTRODUCTION",
+   "components": [
+    "text-view",
+    "table-view",
+    "quicknav-view"
+   ],
+   "unit_complete": true,
+   "status": "already_complete",
+   "notes": [],
+   "seconds": 3.4,
+   "outline_after": "completed"
+  },
+  {
+   "item": "6.1.1",
+   "title": "Link Aggregation",
+   "module": 6,
+   "type": "LESSON",
+   "components": [
+    "text-view",
+    "dynamic-graphic-view",
+    "blank-view"
+   ],
+   "unit_complete": true,
+   "status": "already_complete",
+   "notes": [],
+   "seconds": 5.0,
+   "outline_after": "completed"
+  },
+  {
+   "item": "6.1.10",
+   "title": "Check Your Understanding - EtherChannel Operation",
+   "module": 6,
+   "type": "KNOWLEDGE_CHECK",
+   "components": [
+    "adaptive-start-screen-view",
+    "quicknav-view"
+   ],
+   "unit_complete": false,
+   "status": "completed",
+   "notes": [],
+   "seconds": 66.1,
+   "outline_after": "completed",
+   "server_status": "completed"
+  },
+  {
+   "item": "6.2.1",
+   "title": "Configuration Guidelines",
+   "module": 6,
+   "type": "LESSON",
+   "components": [
+    "text-view",
+    "dynamic-graphic-view",
+    "text-view",
+    "dynamic-graphic-view",
+    "text-view",
+    "blank-view"
+   ],
+   "unit_complete": true,
+   "status": "already_complete",
+   "notes": [],
+   "seconds": 4.4,
+   "outline_after": "completed"
+  },
+  {
+   "item": "6.3.1",
+   "title": "Verify EtherChannel",
+   "module": 6,
+   "type": "INTERACTIVE",
+   "components": [
+    "text-view",
+    "graphic-view",
+    "text-view",
+    "tabs-view",
+    "blank-view"
+   ],
+   "unit_complete": true,
+   "status": "already_complete",
+   "notes": [],
+   "seconds": 4.5,
+   "outline_after": "completed"
+  },
+  {
+   "item": "6.4.1",
+   "title": "Packet Tracer - Implement EtherChannel",
+   "module": 6,
+   "type": "LAB",
+   "components": [
+    "text-view",
+    "packettracer-view",
+    "blank-view"
+   ],
+   "unit_complete": false,
+   "status": "completed",
+   "notes": [],
+   "seconds": 6.5,
+   "outline_after": "completed",
+   "server_status": "completed"
+  },
+  {
+   "item": "6.4.2",
+   "title": "Lab - Implement EtherChannel",
+   "module": 6,
+   "type": "LAB",
+   "components": [
+    "text-view",
+    "packettracer-view",
+    "blank-view"
+   ],
+   "unit_complete": false,
+   "status": "completed",
+   "notes": [],
+   "seconds": 5.2,
+   "outline_after": "completed",
+   "server_status": "completed"
+  },
+  {
+   "item": "6.4.3",
+   "title": "What did I learn in this module?",
+   "module": 6,
+   "type": "SUMMARY",
+   "components": [
+    "text-view",
+    "blank-view"
+   ],
+   "unit_complete": false,
+   "status": "completed",
+   "notes": [
+    "unit complete"
+   ],
+   "seconds": 5.3,
+   "outline_after": "completed",
+   "server_status": "completed"
+  },
+  {
+   "item": "6.4.4",
+   "title": "Module Quiz - Etherchannel",
+   "module": 6,
+   "type": "ASSESSMENT",
+   "components": [
+    "adaptive-start-screen-view",
+    "quicknav-view"
+   ],
+   "unit_complete": false,
+   "status": "needs_user",
+   "notes": [
+    "graded assessment - never automated"
+   ],
+   "seconds": 2.7
+  },
+  {
+   "item": "7.0.1",
+   "title": "Why should I take this module?",
+   "module": 7,
+   "type": "INTRODUCTION",
+   "components": [
+    "text-view",
+    "blank-view"
+   ],
+   "unit_complete": true,
+   "status": "already_complete",
+   "notes": [],
+   "seconds": 6.9,
+   "outline_after": "start"
+  },
+  {
+   "item": "7.0.2",
+   "title": "What will I learn to do in this module?",
+   "module": 7,
+   "type": "INTRODUCTION",
+   "components": [
+    "text-view",
+    "table-view",
+    "quicknav-view"
+   ],
+   "unit_complete": true,
+   "status": "already_complete",
+   "notes": [],
+   "seconds": 3.2,
+   "outline_after": "completed"
+  },
+  {
+   "item": "7.1.1",
+   "title": "DHCPv4 Server and Client",
+   "module": 7,
+   "type": "LESSON",
+   "components": [
+    "text-view",
+    "dynamic-graphic-view",
+    "blank-view"
+   ],
+   "unit_complete": true,
+   "status": "already_complete",
+   "notes": [],
+   "seconds": 4.3,
+   "outline_after": "completed"
+  },
+  {
+   "item": "7.1.5",
+   "title": "Check Your Understanding - DHCPv4 Concepts",
+   "module": 7,
+   "type": "KNOWLEDGE_CHECK",
+   "components": [
+    "adaptive-start-screen-view",
+    "quicknav-view"
+   ],
+   "unit_complete": false,
+   "status": "completed",
+   "notes": [],
+   "seconds": 61.7,
+   "outline_after": "completed",
+   "server_status": "completed"
+  },
+  {
+   "item": "7.2.1",
+   "title": "Cisco IOS DHCPv4 Server",
+   "module": 7,
+   "type": "LESSON",
+   "components": [
+    "text-view",
+    "dynamic-graphic-view",
+    "blank-view"
+   ],
+   "unit_complete": true,
+   "status": "already_complete",
+   "notes": [],
+   "seconds": 4.8,
+   "outline_after": "completed"
+  },
+  {
+   "item": "7.3.1",
+   "title": "Cisco Router as a DHCPv4 Client",
+   "module": 7,
+   "type": "LESSON",
+   "components": [
+    "text-view",
+    "dynamic-graphic-view",
+    "blank-view"
+   ],
+   "unit_complete": true,
+   "status": "already_complete",
+   "notes": [],
+   "seconds": 4.0,
+   "outline_after": "completed"
+  },
+  {
+   "item": "7.4.1",
+   "title": "Packet Tracer - Implement DHCPv4",
+   "module": 7,
+   "type": "LAB",
+   "components": [
+    "text-view",
+    "packettracer-view",
+    "blank-view"
+   ],
+   "unit_complete": false,
+   "status": "completed",
+   "notes": [],
+   "seconds": 6.3,
+   "outline_after": "completed",
+   "server_status": "completed"
+  },
+  {
+   "item": "7.4.2",
+   "title": "Lab - Implement DHCPv4",
+   "module": 7,
+   "type": "LAB",
+   "components": [
+    "text-view",
+    "packettracer-view",
+    "blank-view"
+   ],
+   "unit_complete": false,
+   "status": "completed",
+   "notes": [],
+   "seconds": 5.0,
+   "outline_after": "completed",
+   "server_status": "completed"
+  },
+  {
+   "item": "7.4.4",
+   "title": "Module Quiz - DHCPv4",
+   "module": 7,
+   "type": "ASSESSMENT",
+   "components": [
+    "adaptive-start-screen-view",
+    "quicknav-view"
+   ],
+   "unit_complete": false,
+   "status": "needs_user",
+   "notes": [
+    "graded assessment - never automated"
+   ],
+   "seconds": 2.7
+  },
+  {
+   "item": "8.0.1",
+   "title": "Welcome",
+   "module": 8,
+   "type": "LESSON",
+   "components": [
+    "text-view",
+    "blank-view"
+   ],
+   "unit_complete": true,
+   "status": "already_complete",
+   "notes": [],
+   "seconds": 6.4,
+   "outline_after": "start"
+  },
+  {
+   "item": "8.0.2",
+   "title": "What will I learn to do in this module?",
+   "module": 8,
+   "type": "INTRODUCTION",
+   "components": [
+    "text-view",
+    "table-view",
+    "quicknav-view"
+   ],
+   "unit_complete": true,
+   "status": "already_complete",
+   "notes": [],
+   "seconds": 3.4,
+   "outline_after": "completed"
+  },
+  {
+   "item": "8.1.1",
+   "title": "IPv6 Host Configuration",
+   "module": 8,
+   "type": "LESSON",
+   "components": [
+    "text-view",
+    "dynamic-graphic-view",
+    "text-view",
+    "dynamic-graphic-view",
+    "blank-view"
+   ],
+   "unit_complete": true,
+   "status": "already_complete",
+   "notes": [],
+   "seconds": 5.5,
+   "outline_after": "completed"
+  },
+  {
+   "item": "8.1.5",
+   "title": "Check Your Understanding - IPv6 GUA Assignment",
+   "module": 8,
+   "type": "KNOWLEDGE_CHECK",
+   "components": [
+    "adaptive-start-screen-view",
+    "quicknav-view"
+   ],
+   "unit_complete": false,
+   "status": "completed",
+   "notes": [],
+   "seconds": 68.8,
+   "outline_after": "completed",
+   "server_status": "completed"
+  },
+  {
+   "item": "8.2.1",
+   "title": "SLAAC Overview",
+   "module": 8,
+   "type": "LESSON",
+   "components": [
+    "text-view",
+    "blank-view"
+   ],
+   "unit_complete": true,
+   "status": "already_complete",
+   "notes": [],
+   "seconds": 4.8,
+   "outline_after": "completed"
+  },
+  {
+   "item": "8.2.7",
+   "title": "Check Your Understanding - SLAAC",
+   "module": 8,
+   "type": "KNOWLEDGE_CHECK",
+   "components": [
+    "adaptive-start-screen-view",
+    "quicknav-view"
+   ],
+   "unit_complete": false,
+   "status": "completed",
+   "notes": [],
+   "seconds": 62.6,
+   "outline_after": "completed",
+   "server_status": "completed"
+  },
+  {
+   "item": "8.3.1",
+   "title": "DHCPv6 Operation Steps",
+   "module": 8,
+   "type": "INTERACTIVE",
+   "components": [
+    "text-view",
+    "text-view",
+    "text-view",
+    "tabs-view",
+    "blank-view"
+   ],
+   "unit_complete": true,
+   "status": "already_complete",
+   "notes": [],
+   "seconds": 4.1,
+   "outline_after": "completed"
+  },
+  {
+   "item": "8.3.6",
+   "title": "Check Your Understanding - DHCPv6",
+   "module": 8,
+   "type": "KNOWLEDGE_CHECK",
+   "components": [
+    "adaptive-start-screen-view",
+    "quicknav-view"
+   ],
+   "unit_complete": false,
+   "status": "completed",
+   "notes": [],
+   "seconds": 63.4,
+   "outline_after": "completed",
+   "server_status": "completed"
+  },
+  {
+   "item": "8.4.1",
+   "title": "DHCPv6 Router Roles",
+   "module": 8,
+   "type": "LESSON",
+   "components": [
+    "text-view",
+    "blank-view"
+   ],
+   "unit_complete": true,
+   "status": "already_complete",
+   "notes": [],
+   "seconds": 7.2,
+   "outline_after": "completed"
+  },
+  {
+   "item": "8.4.9",
+   "title": "Check Your Understanding - Configure DHCPv6 Server",
+   "module": 8,
+   "type": "KNOWLEDGE_CHECK",
+   "components": [
+    "adaptive-start-screen-view",
+    "quicknav-view"
+   ],
+   "unit_complete": false,
+   "status": "completed",
+   "notes": [],
+   "seconds": 68.2,
+   "outline_after": "completed",
+   "server_status": "completed"
+  },
+  {
+   "item": "8.5.1",
+   "title": "Lab - Configure DHCPv6",
+   "module": 8,
+   "type": "LAB",
+   "components": [
+    "text-view",
+    "packettracer-view",
+    "blank-view"
+   ],
+   "unit_complete": false,
+   "status": "completed",
+   "notes": [],
+   "seconds": 6.8,
+   "outline_after": "completed",
+   "server_status": "completed"
+  },
+  {
+   "item": "8.5.2",
+   "title": "What did I learn in this module?",
+   "module": 8,
+   "type": "SUMMARY",
+   "components": [
+    "text-view",
+    "blank-view"
+   ],
+   "unit_complete": false,
+   "status": "completed",
+   "notes": [
+    "unit complete"
+   ],
+   "seconds": 5.3,
+   "outline_after": "completed",
+   "server_status": "completed"
+  },
+  {
+   "item": "8.5.3",
+   "title": "Module Quiz - SLAAC and DHCPv6",
+   "module": 8,
+   "type": "ASSESSMENT",
+   "components": [
+    "adaptive-start-screen-view",
+    "quicknav-view"
+   ],
+   "unit_complete": false,
+   "status": "needs_user",
+   "notes": [
+    "graded assessment - never automated"
+   ],
+   "seconds": 3.1
+  },
+  {
+   "item": "9.0.1",
+   "title": "Why should I take this module?",
+   "module": 9,
+   "type": "INTRODUCTION",
+   "components": [
+    "text-view",
+    "blank-view"
+   ],
+   "unit_complete": false,
+   "status": "completed",
+   "notes": [
+    "completed after scrolling into view"
+   ],
+   "seconds": 8.0,
+   "outline_after": "start",
+   "server_status": "start",
+   "retry": {
+    "error": "Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception\nStacktrace:\nSymbols not av"
+   }
+  },
+  {
+   "item": "9.0.2",
+   "title": "What will I learn to do in this module?",
+   "module": 9,
+   "type": "INTRODUCTION",
+   "components": [
+    "text-view",
+    "table-view",
+    "quicknav-view"
+   ],
+   "unit_complete": true,
+   "status": "already_complete",
+   "notes": [],
+   "seconds": 3.4,
+   "outline_after": "completed"
+  },
+  {
+   "item": "9.1.1",
+   "title": "Default Gateway Limitations",
+   "module": 9,
+   "type": "LESSON",
+   "components": [
+    "text-view",
+    "dynamic-graphic-view",
+    "text-view",
+    "blank-view"
+   ],
+   "unit_complete": true,
+   "status": "already_complete",
+   "notes": [],
+   "seconds": 3.0,
+   "outline_after": "completed"
+  },
+  {
+   "item": "9.1.5",
+   "title": "Check Your Understanding - First Hop Redundancy Protocols",
+   "module": 9,
+   "type": "KNOWLEDGE_CHECK",
+   "components": [
+    "adaptive-start-screen-view",
+    "quicknav-view"
+   ],
+   "unit_complete": false,
+   "status": "completed",
+   "notes": [],
+   "seconds": 63.6,
+   "outline_after": "in progress",
+   "server_status": "completed"
+  },
+  {
+   "item": "9.2.1",
+   "title": "HSRP Overview",
+   "module": 9,
+   "type": "LESSON",
+   "components": [
+    "text-view",
+    "blank-view"
+   ],
+   "unit_complete": true,
+   "status": "already_complete",
+   "notes": [],
+   "seconds": 3.8,
+   "outline_after": "completed"
+  },
+  {
+   "item": "9.2.4",
+   "title": "Check Your Understanding - HSRP",
+   "module": 9,
+   "type": "KNOWLEDGE_CHECK",
+   "components": [
+    "adaptive-start-screen-view",
+    "quicknav-view"
+   ],
+   "unit_complete": false,
+   "status": "completed",
+   "notes": [],
+   "seconds": 62.0,
+   "outline_after": "completed",
+   "server_status": "completed"
+  },
+  {
+   "item": "9.3.1",
+   "title": "What did I learn in this module?",
+   "module": 9,
+   "type": "SUMMARY",
+   "components": [
+    "text-view",
+    "blank-view"
+   ],
+   "unit_complete": false,
+   "status": "completed",
+   "notes": [
+    "unit complete"
+   ],
+   "seconds": 6.1,
+   "outline_after": "completed",
+   "server_status": "completed"
+  },
+  {
+   "item": "9.3.2",
+   "title": "Module Quiz - FHRP Concepts",
+   "module": 9,
+   "type": "ASSESSMENT",
+   "components": [
+    "adaptive-start-screen-view",
+    "blank-view"
+   ],
+   "unit_complete": false,
+   "status": "needs_user",
+   "notes": [
+    "graded assessment - never automated"
+   ],
+   "seconds": 3.0
+  },
+  {
+   "item": "9.3.3",
+   "title": "Packet Tracer - HSRP Configuration Guide",
+   "module": 9,
+   "type": "LAB",
+   "components": [
+    "text-view",
+    "packettracer-view",
+    "blank-view"
+   ],
+   "unit_complete": false,
+   "status": "completed",
+   "notes": [],
+   "seconds": 5.5,
+   "outline_after": "completed",
+   "server_status": "completed"
+  },
+  {
+   "item": "9.3.4",
+   "title": "Packet Tracer - Data Center Exploration",
+   "module": 9,
+   "type": "LAB",
+   "components": [
+    "text-view",
+    "packettracer-view",
+    "quicknav-view"
+   ],
+   "unit_complete": false,
+   "status": "completed",
+   "notes": [],
+   "seconds": 5.0,
+   "outline_after": "completed",
+   "server_status": "completed"
+  },
+  {
+   "item": "12.0.1",
+   "title": "Why should I take this module?",
+   "module": 12,
+   "type": "INTRODUCTION",
+   "components": [
+    "text-view",
+    "blank-view"
+   ],
+   "unit_complete": true,
+   "status": "already_complete",
+   "notes": [],
+   "seconds": 9.2,
+   "outline_after": "completed"
+  },
+  {
+   "item": "12.1.1",
+   "title": "Benefits of Wireless",
+   "module": 12,
+   "type": "LESSON",
+   "components": [
+    "text-view",
+    "graphic-view",
+    "blank-view"
+   ],
+   "unit_complete": true,
+   "status": "already_complete",
+   "notes": [],
+   "seconds": 5.3,
+   "outline_after": "completed"
+  },
+  {
+   "item": "12.2.1",
+   "title": "Video - WLAN Components",
+   "module": 12,
+   "type": "VIDEO",
+   "components": [
+    "text-view",
+    "media-view",
+    "blank-view"
+   ],
+   "unit_complete": true,
+   "status": "already_complete",
+   "notes": [],
+   "seconds": 5.5,
+   "outline_after": "completed"
+  },
+  {
+   "item": "12.3.1",
+   "title": "Video - WLAN Operation",
+   "module": 12,
+   "type": "VIDEO",
+   "components": [
+    "text-view",
+    "media-view",
+    "blank-view"
+   ],
+   "unit_complete": true,
+   "status": "already_complete",
+   "notes": [],
+   "seconds": 5.7,
+   "outline_after": "completed"
+  },
+  {
+   "item": "12.4.1",
+   "title": "Video - CAPWAP",
+   "module": 12,
+   "type": "VIDEO",
+   "components": [
+    "text-view",
+    "media-view",
+    "blank-view"
+   ],
+   "unit_complete": true,
+   "status": "already_complete",
+   "notes": [],
+   "seconds": 5.0,
+   "outline_after": "completed"
+  },
+  {
+   "item": "12.4.6",
+   "title": "Check Your Understanding - CAPWAP Operation",
+   "module": 12,
+   "type": "KNOWLEDGE_CHECK",
+   "components": [
+    "adaptive-start-screen-view",
+    "quicknav-view"
+   ],
+   "unit_complete": false,
+   "status": "completed",
+   "notes": [],
+   "seconds": 64.3,
+   "outline_after": "completed",
+   "server_status": "completed"
+  },
+  {
+   "item": "12.5.1",
+   "title": "Frequency Channel Saturation",
+   "module": 12,
+   "type": "INTERACTIVE",
+   "components": [
+    "text-view",
+    "text-view",
+    "tabs-view",
+    "blank-view"
+   ],
+   "unit_complete": true,
+   "status": "already_complete",
+   "notes": [],
+   "seconds": 5.1,
+   "outline_after": "completed"
+  },
+  {
+   "item": "12.5.4",
+   "title": "Check Your Understanding - Channel Management",
+   "module": 12,
+   "type": "KNOWLEDGE_CHECK",
+   "components": [
+    "adaptive-start-screen-view",
+    "quicknav-view"
+   ],
+   "unit_complete": false,
+   "status": "completed",
+   "notes": [],
+   "seconds": 63.0,
+   "outline_after": "completed",
+   "server_status": "completed"
+  },
+  {
+   "item": "12.6.1",
+   "title": "Video - WLAN Threats",
+   "module": 12,
+   "type": "VIDEO",
+   "components": [
+    "text-view",
+    "media-view",
+    "blank-view"
+   ],
+   "unit_complete": true,
+   "status": "already_complete",
+   "notes": [],
+   "seconds": 5.3,
+   "outline_after": "completed"
+  },
+  {
+   "item": "12.6.6",
+   "title": "Check Your Understanding - WLAN Threats",
+   "module": 12,
+   "type": "KNOWLEDGE_CHECK",
+   "components": [
+    "adaptive-start-screen-view",
+    "quicknav-view"
+   ],
+   "unit_complete": false,
+   "status": "completed",
+   "notes": [],
+   "seconds": 62.1,
+   "outline_after": "completed",
+   "server_status": "completed"
+  },
+  {
+   "item": "12.7.1",
+   "title": "Video - Secure WLANs",
+   "module": 12,
+   "type": "VIDEO",
+   "components": [
+    "text-view",
+    "media-view",
+    "blank-view"
+   ],
+   "unit_complete": true,
+   "status": "already_complete",
+   "notes": [],
+   "seconds": 5.3,
+   "outline_after": "completed"
+  },
+  {
+   "item": "12.7.9",
+   "title": "Check Your Understanding - Secure WLANs",
+   "module": 12,
+   "type": "KNOWLEDGE_CHECK",
+   "components": [
+    "adaptive-start-screen-view",
+    "quicknav-view"
+   ],
+   "unit_complete": false,
+   "status": "completed",
+   "notes": [],
+   "seconds": 67.9,
+   "outline_after": "completed",
+   "server_status": "completed"
+  },
+  {
+   "item": "12.8.1",
+   "title": "What did I learn in this module?",
+   "module": 12,
+   "type": "SUMMARY",
+   "components": [
+    "text-view",
+    "blank-view"
+   ],
+   "unit_complete": true,
+   "status": "already_complete",
+   "notes": [],
+   "seconds": 5.8,
+   "outline_after": "completed"
+  },
+  {
+   "item": "12.8.2",
+   "title": "Module Quiz - WLAN Concepts",
+   "module": 12,
+   "type": "ASSESSMENT",
+   "components": [
+    "adaptive-start-screen-view",
+    "quicknav-view"
+   ],
+   "unit_complete": false,
+   "status": "needs_user",
+   "notes": [
+    "graded assessment - never automated"
+   ],
+   "seconds": 3.3
+  },
+  {
+   "item": "14.0.1",
+   "title": "Why should I take this module?",
+   "module": 14,
+   "type": "INTRODUCTION",
+   "components": [
+    "text-view",
+    "blank-view"
+   ],
+   "unit_complete": true,
+   "status": "already_complete",
+   "notes": [],
+   "seconds": 7.6,
+   "outline_after": "start"
+  },
+  {
+   "item": "14.0.2",
+   "title": "What will I learn to do in this module?",
+   "module": 14,
+   "type": "INTRODUCTION",
+   "components": [
+    "text-view",
+    "table-view",
+    "quicknav-view"
+   ],
+   "unit_complete": true,
+   "status": "already_complete",
+   "notes": [],
+   "seconds": 4.3,
+   "outline_after": "completed"
+  },
+  {
+   "item": "14.1.1",
+   "title": "Two Functions of Router",
+   "module": 14,
+   "type": "LESSON",
+   "components": [
+    "text-view",
+    "blank-view"
+   ],
+   "unit_complete": true,
+   "status": "already_complete",
+   "notes": [],
+   "seconds": 7.1,
+   "outline_after": "completed"
+  },
+  {
+   "item": "14.1.2",
+   "title": "Router Functions Example",
+   "module": 14,
+   "type": "INTERACTIVE",
+   "components": [
+    "text-view",
+    "adobe-animate-view",
+    "blank-view"
+   ],
+   "unit_complete": false,
+   "status": "completed",
+   "notes": [
+    "unit complete"
+   ],
+   "seconds": 7.3,
+   "outline_after": "completed",
+   "server_status": "completed"
+  },
+  {
+   "item": "14.1.3",
+   "title": "Best Path Equals Longest Match",
+   "module": 14,
+   "type": "LESSON",
+   "components": [
+    "text-view",
+    "blank-view"
+   ],
+   "unit_complete": true,
+   "status": "already_complete",
+   "notes": [],
+   "seconds": 4.0,
+   "outline_after": "completed"
+  },
+  {
+   "item": "14.1.4",
+   "title": "IPv4 Address Longest Match Example",
+   "module": 14,
+   "type": "LESSON",
+   "components": [
+    "text-view",
+    "table-view",
+    "table-view",
+    "blank-view"
+   ],
+   "unit_complete": false,
+   "status": "completed",
+   "notes": [
+    "completed after scrolling into view"
+   ],
+   "seconds": 6.4,
+   "outline_after": "completed",
+   "server_status": "completed"
+  },
+  {
+   "item": "14.1.5",
+   "title": "IPv6 Address Longest Match Example",
+   "module": 14,
+   "type": "LESSON",
+   "components": [
+    "text-view",
+    "table-view",
+    "blank-view"
+   ],
+   "unit_complete": false,
+   "status": "completed",
+   "notes": [
+    "completed after scrolling into view"
+   ],
+   "seconds": 5.0,
+   "outline_after": "completed",
+   "server_status": "completed"
+  },
+  {
+   "item": "14.1.6",
+   "title": "Build the Routing Table",
+   "module": 14,
+   "type": "INTERACTIVE",
+   "components": [
+    "text-view",
+    "dynamic-graphic-view",
+    "text-view",
+    "tabs-view",
+    "blank-view"
+   ],
+   "unit_complete": false,
+   "status": "completed",
+   "notes": [
+    "unit complete"
+   ],
+   "seconds": 8.3,
+   "outline_after": "completed",
+   "server_status": "completed"
+  },
+  {
+   "item": "14.1.7",
+   "title": "Check Your Understanding - Path Determination",
+   "module": 14,
+   "type": "KNOWLEDGE_CHECK",
+   "components": [
+    "adaptive-start-screen-view",
+    "quicknav-view"
+   ],
+   "unit_complete": false,
+   "status": "completed",
+   "notes": [],
+   "seconds": 63.0,
+   "outline_after": "completed",
+   "server_status": "completed"
+  },
+  {
+   "item": "14.2.1",
+   "title": "Packet Forwarding Decision Process",
+   "module": 14,
+   "type": "INTERACTIVE",
+   "components": [
+    "text-view",
+    "dynamic-graphic-view",
+    "text-view",
+    "tabs-view",
+    "blank-view"
+   ],
+   "unit_complete": false,
+   "status": "completed",
+   "notes": [
+    "unit complete"
+   ],
+   "seconds": 9.1,
+   "outline_after": "completed",
+   "server_status": "completed"
+  },
+  {
+   "item": "14.2.2",
+   "title": "End-to-End Packet Forwarding",
+   "module": 14,
+   "type": "INTERACTIVE",
+   "components": [
+    "text-view",
+    "text-view",
+    "tabs-view",
+    "blank-view"
+   ],
+   "unit_complete": false,
+   "status": "completed",
+   "notes": [
+    "unit complete"
+   ],
+   "seconds": 8.9,
+   "outline_after": "completed",
+   "server_status": "completed"
+  },
+  {
+   "item": "14.2.3",
+   "title": "Packet Forwarding Mechanisms",
+   "module": 14,
+   "type": "INTERACTIVE",
+   "components": [
+    "text-view",
+    "text-view",
+    "tabs-view",
+    "text-view",
+    "blank-view"
+   ],
+   "unit_complete": false,
+   "status": "completed",
+   "notes": [
+    "unit complete"
+   ],
+   "seconds": 8.3,
+   "outline_after": "completed",
+   "server_status": "completed"
+  },
+  {
+   "item": "14.2.4",
+   "title": "Check Your Understanding - Packet Forwarding",
+   "module": 14,
+   "type": "KNOWLEDGE_CHECK",
+   "components": [
+    "adaptive-start-screen-view",
+    "quicknav-view"
+   ],
+   "unit_complete": false,
+   "status": "completed",
+   "notes": [],
+   "seconds": 62.3,
+   "outline_after": "completed",
+   "server_status": "completed"
+  },
+  {
+   "item": "14.3.1",
+   "title": "Topology",
+   "module": 14,
+   "type": "LESSON",
+   "components": [
+    "text-view",
+    "dynamic-graphic-view",
+    "blank-view"
+   ],
+   "unit_complete": false,
+   "status": "completed",
+   "notes": [
+    "completed after scrolling into view"
+   ],
+   "seconds": 6.4,
+   "outline_after": "completed",
+   "server_status": "completed"
+  },
+  {
+   "item": "14.3.2",
+   "title": "Configuration Commands",
+   "module": 14,
+   "type": "LESSON",
+   "components": [
+    "text-view",
+    "commandwindow-view",
+    "blank-view"
+   ],
+   "unit_complete": false,
+   "status": "completed",
+   "notes": [
+    "completed after scrolling into view"
+   ],
+   "seconds": 5.0,
+   "outline_after": "completed",
+   "server_status": "completed"
+  },
+  {
+   "item": "14.3.3",
+   "title": "Verification Commands",
+   "module": 14,
+   "type": "INTERACTIVE",
+   "components": [
+    "text-view",
+    "dynamic-graphic-view",
+    "text-view",
+    "tabs-view",
+    "blank-view"
+   ],
+   "unit_complete": false,
+   "status": "completed",
+   "notes": [
+    "unit complete"
+   ],
+   "seconds": 11.3,
+   "outline_after": "completed",
+   "server_status": "completed"
+  },
+  {
+   "item": "14.3.4",
+   "title": "Filter Command Output",
+   "module": 14,
+   "type": "LESSON",
+   "components": [
+    "text-view",
+    "dynamic-graphic-view",
+    "text-view",
+    "commandwindow-view",
+    "blank-view"
+   ],
+   "unit_complete": false,
+   "status": "completed",
+   "notes": [
+    "completed after scrolling into view"
+   ],
+   "seconds": 6.2,
+   "outline_after": "completed",
+   "server_status": "completed"
+  },
+  {
+   "item": "14.3.5",
+   "title": "Packet Tracer - Basic Router Configuration Review",
+   "module": 14,
+   "type": "LAB",
+   "components": [
+    "text-view",
+    "packettracer-view",
+    "quicknav-view"
+   ],
+   "unit_complete": false,
+   "status": "completed",
+   "notes": [],
+   "seconds": 5.3,
+   "outline_after": "completed",
+   "server_status": "completed"
+  },
+  {
+   "item": "14.4.1",
+   "title": "Route Sources",
+   "module": 14,
+   "type": "INTERACTIVE",
+   "components": [
+    "text-view",
+    "dynamic-graphic-view",
+    "text-view",
+    "tabs-view",
+    "text-view",
+    "blank-view"
+   ],
+   "unit_complete": false,
+   "status": "failed",
+   "notes": [
+    "unit still incomplete after processing interactives"
+   ],
+   "seconds": 90.0
+  },
+  {
+   "item": "14.4.2",
+   "title": "Routing Table Principles",
+   "module": 14,
+   "type": "LESSON",
+   "components": [
+    "text-view",
+    "table-view",
+    "blank-view"
+   ],
+   "unit_complete": true,
+   "status": "already_complete",
+   "notes": [],
+   "seconds": 6.2,
+   "outline_after": "completed"
+  },
+  {
+   "item": "14.4.3",
+   "title": "Routing Table Entries",
+   "module": 14,
+   "type": "LESSON",
+   "components": [
+    "text-view",
+    "dynamic-graphic-view",
+    "blank-view"
+   ],
+   "unit_complete": false,
+   "status": "completed",
+   "notes": [
+    "completed after scrolling into view"
+   ],
+   "seconds": 4.4,
+   "outline_after": "completed",
+   "server_status": "completed"
+  },
+  {
+   "item": "14.4.4",
+   "title": "Directly Connected Networks",
+   "module": 14,
+   "type": "LESSON",
+   "components": [
+    "text-view",
+    "commandwindow-view",
+    "blank-view"
+   ],
+   "unit_complete": false,
+   "status": "completed",
+   "notes": [
+    "completed after scrolling into view"
+   ],
+   "seconds": 5.1,
+   "outline_after": "completed",
+   "server_status": "completed"
+  },
+  {
+   "item": "14.4.5",
+   "title": "Static Routes",
+   "module": 14,
+   "type": "LESSON",
+   "components": [
+    "text-view",
+    "dynamic-graphic-view",
+    "text-view",
+    "blank-view"
+   ],
+   "unit_complete": false,
+   "status": "completed",
+   "notes": [
+    "completed after scrolling into view"
+   ],
+   "seconds": 6.3,
+   "outline_after": "completed",
+   "server_status": "completed"
+  },
+  {
+   "item": "14.4.7",
+   "title": "Dynamic Routing Protocols",
+   "module": 14,
+   "type": "LESSON",
+   "components": [
+    "text-view",
+    "dynamic-graphic-view",
+    "blank-view"
+   ],
+   "unit_complete": false,
+   "status": "completed",
+   "notes": [
+    "completed after scrolling into view"
+   ],
+   "seconds": 4.3,
+   "outline_after": "completed",
+   "server_status": "completed"
+  },
+  {
+   "item": "14.4.8",
+   "title": "Dynamic Routes in the IP Routing Table",
+   "module": 14,
+   "type": "LESSON",
+   "components": [
+    "text-view",
+    "commandwindow-view",
+    "blank-view"
+   ],
+   "unit_complete": false,
+   "status": "completed",
+   "notes": [
+    "completed after scrolling into view"
+   ],
+   "seconds": 5.4,
+   "outline_after": "completed",
+   "server_status": "completed"
+  },
+  {
+   "item": "14.4.9",
+   "title": "Default Route",
+   "module": 14,
+   "type": "LESSON",
+   "components": [
+    "text-view",
+    "dynamic-graphic-view",
+    "text-view",
+    "commandwindow-view",
+    "blank-view"
+   ],
+   "unit_complete": false,
+   "status": "completed",
+   "notes": [
+    "completed after scrolling into view"
+   ],
+   "seconds": 6.2,
+   "outline_after": "completed",
+   "server_status": "completed"
+  },
+  {
+   "item": "14.4.10",
+   "title": "Structure of an IPv4 Routing Table",
+   "module": 14,
+   "type": "LESSON",
+   "components": [
+    "text-view",
+    "commandwindow-view",
+    "text-view",
+    "commandwindow-view",
+    "blank-view"
+   ],
+   "unit_complete": false,
+   "status": "completed",
+   "notes": [
+    "completed after scrolling into view"
+   ],
+   "seconds": 6.8,
+   "outline_after": "completed",
+   "server_status": "completed"
+  },
+  {
+   "item": "14.4.11",
+   "title": "Structure of an IPv6 Routing Table",
+   "module": 14,
+   "type": "LESSON",
+   "components": [
+    "text-view",
+    "commandwindow-view",
+    "blank-view"
+   ],
+   "unit_complete": false,
+   "status": "completed",
+   "notes": [
+    "completed after scrolling into view"
+   ],
+   "seconds": 5.1,
+   "outline_after": "completed",
+   "server_status": "completed"
+  },
+  {
+   "item": "14.4.12",
+   "title": "Administrative Distance",
+   "module": 14,
+   "type": "LESSON",
+   "components": [
+    "text-view",
+    "table-view",
+    "blank-view"
+   ],
+   "unit_complete": false,
+   "status": "completed",
+   "notes": [
+    "completed after scrolling into view"
+   ],
+   "seconds": 6.5,
+   "outline_after": "completed",
+   "server_status": "completed"
+  },
+  {
+   "item": "14.4.13",
+   "title": "Check Your Understanding - IP Routing Table",
+   "module": 14,
+   "type": "KNOWLEDGE_CHECK",
+   "components": [
+    "adaptive-start-screen-view",
+    "quicknav-view"
+   ],
+   "unit_complete": false,
+   "status": "completed",
+   "notes": [],
+   "seconds": 72.6,
+   "outline_after": "completed",
+   "server_status": "completed"
+  },
+  {
+   "item": "14.5.1",
+   "title": "Static or Dynamic?",
+   "module": 14,
+   "type": "LESSON",
+   "components": [
+    "text-view",
+    "table-view",
+    "blank-view"
+   ],
+   "unit_complete": false,
+   "status": "completed",
+   "notes": [
+    "completed after scrolling into view"
+   ],
+   "seconds": 8.2,
+   "outline_after": "completed",
+   "server_status": "completed"
+  },
+  {
+   "item": "14.5.2",
+   "title": "Dynamic Routing Evolution",
+   "module": 14,
+   "type": "LESSON",
+   "components": [
+    "text-view",
+    "graphic-view",
+    "text-view",
+    "table-view",
+    "blank-view"
+   ],
+   "unit_complete": false,
+   "status": "completed",
+   "notes": [
+    "completed after scrolling into view"
+   ],
+   "seconds": 5.5,
+   "outline_after": "completed",
+   "server_status": "completed"
+  },
+  {
+   "item": "14.5.3",
+   "title": "Dynamic Routing Protocol Concepts",
+   "module": 14,
+   "type": "INTERACTIVE",
+   "components": [
+    "text-view",
+    "adobe-animate-view",
+    "text-view",
+    "blank-view"
+   ],
+   "unit_complete": false,
+   "status": "completed",
+   "notes": [
+    "unit complete"
+   ],
+   "seconds": 5.6,
+   "outline_after": "completed",
+   "server_status": "completed"
+  },
+  {
+   "item": "14.5.4",
+   "title": "Best Path",
+   "module": 14,
+   "type": "INTERACTIVE",
+   "components": [
+    "text-view",
+    "table-view",
+    "text-view",
+    "adobe-animate-view",
+    "blank-view"
+   ],
+   "unit_complete": false,
+   "status": "completed",
+   "notes": [
+    "unit complete"
+   ],
+   "seconds": 5.9,
+   "outline_after": "completed",
+   "server_status": "completed"
+  },
+  {
+   "item": "14.5.5",
+   "title": "Load Balancing",
+   "module": 14,
+   "type": "INTERACTIVE",
+   "components": [
+    "text-view",
+    "adobe-animate-view",
+    "blank-view"
+   ],
+   "unit_complete": false,
+   "status": "completed",
+   "notes": [
+    "unit complete"
+   ],
+   "seconds": 5.1,
+   "outline_after": "completed",
+   "server_status": "completed"
+  },
+  {
+   "item": "14.5.6",
+   "title": "Check Your Understanding - Dynamic and Static Routing",
+   "module": 14,
+   "type": "KNOWLEDGE_CHECK",
+   "components": [
+    "adaptive-start-screen-view",
+    "quicknav-view"
+   ],
+   "unit_complete": false,
+   "status": "completed",
+   "notes": [],
+   "seconds": 63.0,
+   "outline_after": "completed",
+   "server_status": "completed"
+  },
+  {
+   "item": "14.6.1",
+   "title": "What did I learn in this module?",
+   "module": 14,
+   "type": "SUMMARY",
+   "components": [
+    "text-view",
+    "blank-view"
+   ],
+   "unit_complete": false,
+   "status": "completed",
+   "notes": [
+    "unit complete"
+   ],
+   "seconds": 7.3,
+   "outline_after": "completed",
+   "server_status": "completed"
+  },
+  {
+   "item": "14.6.2",
+   "title": "Module Quiz - Routing Concepts",
+   "module": 14,
+   "type": "ASSESSMENT",
+   "components": [
+    "adaptive-start-screen-view",
+    "quicknav-view"
+   ],
+   "unit_complete": false,
+   "status": "needs_user",
+   "notes": [
+    "graded assessment - never automated"
+   ],
+   "seconds": 3.0
+  },
+  {
+   "item": "15.0.1",
+   "title": "Why should I take this module?",
+   "module": 15,
+   "type": "INTRODUCTION",
+   "components": [
+    "text-view",
+    "blank-view"
+   ],
+   "unit_complete": true,
+   "status": "already_complete",
+   "notes": [],
+   "seconds": 7.1,
+   "outline_after": "start"
+  },
+  {
+   "item": "15.0.2",
+   "title": "What will I learn to do in this module?",
+   "module": 15,
+   "type": "INTRODUCTION",
+   "components": [
+    "text-view",
+    "table-view",
+    "quicknav-view"
+   ],
+   "unit_complete": true,
+   "status": "already_complete",
+   "notes": [],
+   "seconds": 3.2,
+   "outline_after": "completed"
+  },
+  {
+   "item": "15.1.1",
+   "title": "Types of Static Routes",
+   "module": 15,
+   "type": "LESSON",
+   "components": [
+    "text-view",
+    "blank-view"
+   ],
+   "unit_complete": true,
+   "status": "already_complete",
+   "notes": [],
+   "seconds": 4.5,
+   "outline_after": "completed"
+  },
+  {
+   "item": "15.1.2",
+   "title": "Next-Hop Options",
+   "module": 15,
+   "type": "LESSON",
+   "components": [
+    "text-view",
+    "blank-view"
+   ],
+   "unit_complete": true,
+   "status": "already_complete",
+   "notes": [],
+   "seconds": 4.1,
+   "outline_after": "completed"
+  },
+  {
+   "item": "15.1.3",
+   "title": "IPv4 Static Route Command",
+   "module": 15,
+   "type": "LESSON",
+   "components": [
+    "text-view",
+    "commandwindow-view",
+    "text-view",
+    "table-view",
+    "blank-view"
+   ],
+   "unit_complete": false,
+   "status": "completed",
+   "notes": [
+    "completed after scrolling into view"
+   ],
+   "seconds": 5.1,
+   "outline_after": "completed",
+   "server_status": "completed"
+  },
+  {
+   "item": "15.1.4",
+   "title": "IPv6 Static Route Command",
+   "module": 15,
+   "type": "LESSON",
+   "components": [
+    "text-view",
+    "commandwindow-view",
+    "text-view",
+    "table-view",
+    "text-view",
+    "blank-view"
+   ],
+   "unit_complete": false,
+   "status": "completed",
+   "notes": [
+    "completed after scrolling into view"
+   ],
+   "seconds": 5.3,
+   "outline_after": "completed",
+   "server_status": "completed"
+  },
+  {
+   "item": "15.1.5",
+   "title": "Dual-Stack Topology",
+   "module": 15,
+   "type": "LESSON",
+   "components": [
+    "text-view",
+    "graphic-view",
+    "blank-view"
+   ],
+   "unit_complete": false,
+   "status": "completed",
+   "notes": [
+    "completed after scrolling into view"
+   ],
+   "seconds": 4.7,
+   "outline_after": "completed",
+   "server_status": "completed"
+  },
+  {
+   "item": "15.1.6",
+   "title": "IPv4 Starting Routing Tables",
+   "module": 15,
+   "type": "INTERACTIVE",
+   "components": [
+    "text-view",
+    "tabs-view",
+    "blank-view"
+   ],
+   "unit_complete": false,
+   "status": "completed",
+   "notes": [
+    "unit complete"
+   ],
+   "seconds": 7.8,
+   "outline_after": "completed",
+   "server_status": "completed"
+  },
+  {
+   "item": "15.1.7",
+   "title": "IPv6 Starting Routing Tables",
+   "module": 15,
+   "type": "INTERACTIVE",
+   "components": [
+    "text-view",
+    "tabs-view",
+    "blank-view"
+   ],
+   "unit_complete": false,
+   "status": "completed",
+   "notes": [
+    "unit complete"
+   ],
+   "seconds": 7.9,
+   "outline_after": "completed",
+   "server_status": "completed"
+  },
+  {
+   "item": "15.1.8",
+   "title": "Check Your Understanding - Static Routes",
+   "module": 15,
+   "type": "KNOWLEDGE_CHECK",
+   "components": [
+    "adaptive-start-screen-view",
+    "quicknav-view"
+   ],
+   "unit_complete": false,
+   "status": "completed",
+   "notes": [],
+   "seconds": 61.5,
+   "outline_after": "completed",
+   "server_status": "completed"
+  },
+  {
+   "item": "15.2.1",
+   "title": "IPv4 Next-Hop Static Route",
+   "module": 15,
+   "type": "LESSON",
+   "components": [
+    "text-view",
+    "graphic-view",
+    "text-view",
+    "commandwindow-view",
+    "text-view",
+    "commandwindow-view",
+    "blank-view"
+   ],
+   "unit_complete": false,
+   "status": "completed",
+   "notes": [
+    "completed after scrolling into view"
+   ],
+   "seconds": 8.3,
+   "outline_after": "completed",
+   "server_status": "completed"
+  },
+  {
+   "item": "15.2.2",
+   "title": "IPv6 Next-Hop Static Route",
+   "module": 15,
+   "type": "LESSON",
+   "components": [
+    "text-view",
+    "commandwindow-view",
+    "text-view",
+    "commandwindow-view",
+    "blank-view"
+   ],
+   "unit_complete": false,
+   "status": "completed",
+   "notes": [
+    "completed after scrolling into view"
+   ],
+   "seconds": 4.6,
+   "outline_after": "completed",
+   "server_status": "completed"
+  },
+  {
+   "item": "15.2.3",
+   "title": "IPv4 Directly Connected Static Route",
+   "module": 15,
+   "type": "LESSON",
+   "components": [
+    "text-view",
+    "graphic-view",
+    "text-view",
+    "commandwindow-view",
+    "text-view",
+    "commandwindow-view",
+    "blank-view"
+   ],
+   "unit_complete": false,
+   "status": "completed",
+   "notes": [
+    "completed after scrolling into view"
+   ],
+   "seconds": 6.4,
+   "outline_after": "completed",
+   "server_status": "completed"
+  },
+  {
+   "item": "15.2.4",
+   "title": "IPv6 Directly Connected Static Route",
+   "module": 15,
+   "type": "LESSON",
+   "components": [
+    "text-view",
+    "commandwindow-view",
+    "text-view",
+    "commandwindow-view",
+    "blank-view"
+   ],
+   "unit_complete": false,
+   "status": "completed",
+   "notes": [
+    "completed after scrolling into view"
+   ],
+   "seconds": 4.7,
+   "outline_after": "completed",
+   "server_status": "completed"
+  },
+  {
+   "item": "15.2.5",
+   "title": "IPv4 Fully Specified Static Route",
+   "module": 15,
+   "type": "LESSON",
+   "components": [
+    "text-view",
+    "graphic-view",
+    "text-view",
+    "commandwindow-view",
+    "text-view",
+    "commandwindow-view",
+    "blank-view"
+   ],
+   "unit_complete": false,
+   "status": "completed",
+   "notes": [
+    "completed after scrolling into view"
+   ],
+   "seconds": 6.9,
+   "outline_after": "completed",
+   "server_status": "completed"
+  },
+  {
+   "item": "15.2.6",
+   "title": "IPv6 Fully Specified Static Route",
+   "module": 15,
+   "type": "LESSON",
+   "components": [
+    "text-view",
+    "dynamic-graphic-view",
+    "commandwindow-view",
+    "text-view",
+    "commandwindow-view",
+    "blank-view"
+   ],
+   "unit_complete": false,
+   "status": "completed",
+   "notes": [
+    "completed after scrolling into view"
+   ],
+   "seconds": 6.4,
+   "outline_after": "completed",
+   "server_status": "completed"
+  },
+  {
+   "item": "15.2.7",
+   "title": "Verify a Static Route",
+   "module": 15,
+   "type": "INTERACTIVE",
+   "components": [
+    "text-view",
+    "graphic-view",
+    "text-view",
+    "tabs-view",
+    "blank-view"
+   ],
+   "unit_complete": false,
+   "status": "completed",
+   "notes": [
+    "unit complete"
+   ],
+   "seconds": 9.5,
+   "outline_after": "completed",
+   "server_status": "completed"
+  },
+  {
+   "item": "15.2.8",
+   "title": "Syntax Checker - Configure Static Routes",
+   "module": 15,
+   "type": "LESSON",
+   "components": [
+    "text-view",
+    "graphic-view",
+    "quicknav-view"
+   ],
+   "unit_complete": false,
+   "status": "completed",
+   "notes": [
+    "completed after scrolling into view"
+   ],
+   "seconds": 4.4,
+   "outline_after": "completed",
+   "server_status": "completed"
+  },
+  {
+   "item": "15.3.1",
+   "title": "Default Static Route",
+   "module": 15,
+   "type": "LESSON",
+   "components": [
+    "text-view",
+    "dynamic-graphic-view",
+    "text-view",
+    "commandwindow-view",
+    "text-view",
+    "commandwindow-view",
+    "blank-view"
+   ],
+   "unit_complete": false,
+   "status": "completed",
+   "notes": [
+    "completed after scrolling into view"
+   ],
+   "seconds": 8.5,
+   "outline_after": "completed",
+   "server_status": "completed"
+  },
+  {
+   "item": "15.3.2",
+   "title": "Configure a Default Static Route",
+   "module": 15,
+   "type": "LESSON",
+   "components": [
+    "text-view",
+    "graphic-view",
+    "text-view",
+    "commandwindow-view",
+    "text-view",
+    "commandwindow-view",
+    "blank-view"
+   ],
+   "unit_complete": false,
+   "status": "completed",
+   "notes": [
+    "completed after scrolling into view"
+   ],
+   "seconds": 6.5,
+   "outline_after": "completed",
+   "server_status": "completed"
+  },
+  {
+   "item": "15.3.3",
+   "title": "Verify a Default Static Route",
+   "module": 15,
+   "type": "LESSON",
+   "components": [
+    "graphic-view",
+    "text-view",
+    "commandwindow-view",
+    "text-view",
+    "commandwindow-view",
+    "text-view",
+    "blank-view"
+   ],
+   "unit_complete": false,
+   "status": "completed",
+   "notes": [
+    "completed after scrolling into view"
+   ],
+   "seconds": 7.0,
+   "outline_after": "completed",
+   "server_status": "completed"
+  },
+  {
+   "item": "15.3.4",
+   "title": "Syntax Checker - Configure Default Static Routes",
+   "module": 15,
+   "type": "LESSON",
+   "components": [
+    "text-view",
+    "graphic-view",
+    "quicknav-view"
+   ],
+   "unit_complete": false,
+   "status": "completed",
+   "notes": [
+    "completed after scrolling into view"
+   ],
+   "seconds": 4.3,
+   "outline_after": "completed",
+   "server_status": "completed"
+  },
+  {
+   "item": "15.4.1",
+   "title": "Floating Static Routes",
+   "module": 15,
+   "type": "LESSON",
+   "components": [
+    "text-view",
+    "dynamic-graphic-view",
+    "text-view",
+    "blank-view"
+   ],
+   "unit_complete": false,
+   "status": "completed",
+   "notes": [
+    "completed after scrolling into view"
+   ],
+   "seconds": 7.3,
+   "outline_after": "completed",
+   "server_status": "completed"
+  },
+  {
+   "item": "15.4.2",
+   "title": "Configure IPv4 and IPv6 Floating Static Routes",
+   "module": 15,
+   "type": "LESSON",
+   "components": [
+    "text-view",
+    "graphic-view",
+    "commandwindow-view",
+    "text-view",
+    "commandwindow-view",
+    "text-view",
+    "commandwindow-view",
+    "blank-view"
+   ],
+   "unit_complete": false,
+   "status": "completed",
+   "notes": [
+    "completed after scrolling into view"
+   ],
+   "seconds": 7.4,
+   "outline_after": "completed",
+   "server_status": "completed"
+  },
+  {
+   "item": "15.4.3",
+   "title": "Test the Floating Static Route",
+   "module": 15,
+   "type": "LESSON",
+   "components": [
+    "text-view",
+    "graphic-view",
+    "text-view",
+    "commandwindow-view",
+    "text-view",
+    "commandwindow-view",
+    "text-view",
+    "commandwindow-view",
+    "blank-view"
+   ],
+   "unit_complete": false,
+   "status": "completed",
+   "notes": [
+    "completed after scrolling into view"
+   ],
+   "seconds": 9.1,
+   "outline_after": "completed",
+   "server_status": "completed"
+  },
+  {
+   "item": "15.4.4",
+   "title": "Syntax Checker - Configure Floating Static Route",
+   "module": 15,
+   "type": "LESSON",
+   "components": [
+    "text-view",
+    "graphic-view",
+    "quicknav-view"
+   ],
+   "unit_complete": false,
+   "status": "completed",
+   "notes": [
+    "completed after scrolling into view"
+   ],
+   "seconds": 4.4,
+   "outline_after": "completed",
+   "server_status": "completed"
+  },
+  {
+   "item": "15.5.1",
+   "title": "Host Routes",
+   "module": 15,
+   "type": "LESSON",
+   "components": [
+    "text-view",
+    "blank-view"
+   ],
+   "unit_complete": true,
+   "status": "already_complete",
+   "notes": [],
+   "seconds": 5.4,
+   "outline_after": "completed"
+  },
+  {
+   "item": "15.5.2",
+   "title": "Automatically Installed Host Routes",
+   "module": 15,
+   "type": "LESSON",
+   "components": [
+    "text-view",
+    "dynamic-graphic-view",
+    "text-view",
+    "commandwindow-view",
+    "blank-view"
+   ],
+   "unit_complete": false,
+   "status": "completed",
+   "notes": [
+    "completed after scrolling into view"
+   ],
+   "seconds": 6.7,
+   "outline_after": "completed",
+   "server_status": "completed"
+  },
+  {
+   "item": "15.5.3",
+   "title": "Static Host Routes",
+   "module": 15,
+   "type": "LESSON",
+   "components": [
+    "text-view",
+    "dynamic-graphic-view",
+    "blank-view"
+   ],
+   "unit_complete": false,
+   "status": "completed",
+   "notes": [
+    "completed after scrolling into view"
+   ],
+   "seconds": 4.9,
+   "outline_after": "completed",
+   "server_status": "completed"
+  },
+  {
+   "item": "15.5.5",
+   "title": "Verify Static Host Routes",
+   "module": 15,
+   "type": "LESSON",
+   "components": [
+    "text-view",
+    "commandwindow-view",
+    "blank-view"
+   ],
+   "unit_complete": false,
+   "status": "completed",
+   "notes": [
+    "completed after scrolling into view"
+   ],
+   "seconds": 4.7,
+   "outline_after": "completed",
+   "server_status": "completed"
+  },
+  {
+   "item": "15.5.6",
+   "title": "Configure IPv6 Static Host Route with Link-Local Next-Hop",
+   "module": 15,
+   "type": "LESSON",
+   "components": [
+    "text-view",
+    "commandwindow-view",
+    "blank-view"
+   ],
+   "unit_complete": false,
+   "status": "completed",
+   "notes": [
+    "completed after scrolling into view"
+   ],
+   "seconds": 4.6,
+   "outline_after": "completed",
+   "server_status": "completed"
+  },
+  {
+   "item": "15.5.7",
+   "title": "Syntax Checker - Configure Static Host Routes",
+   "module": 15,
+   "type": "LESSON",
+   "components": [
+    "text-view",
+    "dynamic-graphic-view",
+    "quicknav-view"
+   ],
+   "unit_complete": false,
+   "status": "completed",
+   "notes": [
+    "completed after scrolling into view"
+   ],
+   "seconds": 4.3,
+   "outline_after": "completed",
+   "server_status": "completed"
+  },
+  {
+   "item": "15.6.1",
+   "title": "Packet Tracer - Configure IPv4 and IPv6 Static and Default Routes",
+   "module": 15,
+   "type": "LAB",
+   "components": [
+    "text-view",
+    "packettracer-view",
+    "blank-view"
+   ],
+   "unit_complete": false,
+   "status": "completed",
+   "notes": [],
+   "seconds": 7.6,
+   "outline_after": "completed",
+   "server_status": "completed"
+  },
+  {
+   "item": "15.6.2",
+   "title": "Lab - Configure IPv4 and IPv6 Static and Default Routes",
+   "module": 15,
+   "type": "LAB",
+   "components": [
+    "text-view",
+    "packettracer-view",
+    "blank-view"
+   ],
+   "unit_complete": false,
+   "status": "completed",
+   "notes": [],
+   "seconds": 5.2,
+   "outline_after": "completed",
+   "server_status": "completed"
+  },
+  {
+   "item": "15.6.3",
+   "title": "What did I learn in this module?",
+   "module": 15,
+   "type": "SUMMARY",
+   "components": [
+    "text-view",
+    "blank-view"
+   ],
+   "unit_complete": false,
+   "status": "completed",
+   "notes": [
+    "unit complete"
+   ],
+   "seconds": 5.5,
+   "outline_after": "completed",
+   "server_status": "completed"
+  },
+  {
+   "item": "15.6.4",
+   "title": "Module Quiz - IP Static Routing",
+   "module": 15,
+   "type": "ASSESSMENT",
+   "components": [
+    "adaptive-start-screen-view",
+    "quicknav-view"
+   ],
+   "unit_complete": false,
+   "status": "needs_user",
+   "notes": [
+    "graded assessment - never automated"
+   ],
+   "seconds": 3.1
+  },
+  {
+   "item": "16.0.1",
+   "title": "Why should I take this module?",
+   "module": 16,
+   "type": "INTRODUCTION",
+   "components": [
+    "text-view",
+    "blank-view"
+   ],
+   "unit_complete": false,
+   "status": "completed",
+   "notes": [
+    "completed after scrolling into view"
+   ],
+   "seconds": 6.8,
+   "outline_after": "completed",
+   "server_status": "start",
+   "retry": {
+    "error": "Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception\nStacktrace:\nSymbols not av"
+   }
+  },
+  {
+   "item": "16.0.2",
+   "title": "What will I learn to do in this module?",
+   "module": 16,
+   "type": "INTRODUCTION",
+   "components": [
+    "text-view",
+    "table-view",
+    "quicknav-view"
+   ],
+   "unit_complete": true,
+   "status": "already_complete",
+   "notes": [],
+   "seconds": 3.3,
+   "outline_after": "completed"
+  },
+  {
+   "item": "16.1.1",
+   "title": "Static Routes and Packet Forwarding",
+   "module": 16,
+   "type": "INTERACTIVE",
+   "components": [
+    "text-view",
+    "adobe-animate-view",
+    "text-view",
+    "blank-view"
+   ],
+   "unit_complete": false,
+   "status": "completed",
+   "notes": [
+    "unit complete"
+   ],
+   "seconds": 6.6,
+   "outline_after": "completed",
+   "server_status": "completed"
+  },
+  {
+   "item": "16.1.2",
+   "title": "Check Your Understanding - Packet Processing with Static Routes",
+   "module": 16,
+   "type": "KNOWLEDGE_CHECK",
+   "components": [
+    "adaptive-start-screen-view",
+    "quicknav-view"
+   ],
+   "unit_complete": false,
+   "status": "completed",
+   "notes": [],
+   "seconds": 60.9,
+   "outline_after": "completed",
+   "server_status": "completed"
+  },
+  {
+   "item": "16.2.1",
+   "title": "Network Changes",
+   "module": 16,
+   "type": "LESSON",
+   "components": [
+    "text-view",
+    "blank-view"
+   ],
+   "unit_complete": true,
+   "status": "already_complete",
+   "notes": [],
+   "seconds": 4.8,
+   "outline_after": "completed"
+  },
+  {
+   "item": "16.2.2",
+   "title": "Common Troubleshooting Commands",
+   "module": 16,
+   "type": "INTERACTIVE",
+   "components": [
+    "text-view",
+    "graphic-view",
+    "text-view",
+    "tabs-view",
+    "blank-view"
+   ],
+   "unit_complete": false,
+   "status": "completed",
+   "notes": [
+    "unit complete"
+   ],
+   "seconds": 9.0,
+   "outline_after": "completed",
+   "server_status": "completed"
+  },
+  {
+   "item": "16.2.3",
+   "title": "Solve a Connectivity Problem",
+   "module": 16,
+   "type": "INTERACTIVE",
+   "components": [
+    "text-view",
+    "graphic-view",
+    "text-view",
+    "tabs-view",
+    "blank-view"
+   ],
+   "unit_complete": false,
+   "status": "completed",
+   "notes": [
+    "unit complete"
+   ],
+   "seconds": 9.9,
+   "outline_after": "completed",
+   "server_status": "completed"
+  },
+  {
+   "item": "16.2.4",
+   "title": "Syntax Checker - Troubleshoot IPv4 Static and Default Routes",
+   "module": 16,
+   "type": "LESSON",
+   "components": [
+    "text-view",
+    "graphic-view",
+    "quicknav-view"
+   ],
+   "unit_complete": false,
+   "status": "completed",
+   "notes": [
+    "completed after scrolling into view"
+   ],
+   "seconds": 4.4,
+   "outline_after": "completed",
+   "server_status": "completed"
+  },
+  {
+   "item": "16.3.1",
+   "title": "Packet Tracer - Troubleshoot Static and Default Routes",
+   "module": 16,
+   "type": "LAB",
+   "components": [
+    "text-view",
+    "packettracer-view",
+    "blank-view"
+   ],
+   "unit_complete": false,
+   "status": "completed",
+   "notes": [],
+   "seconds": 6.3,
+   "outline_after": "completed",
+   "server_status": "completed"
+  },
+  {
+   "item": "16.3.2",
+   "title": "Lab - Troubleshoot IPv4 and IPv6 Static and Default Routes",
+   "module": 16,
+   "type": "LAB",
+   "components": [
+    "text-view",
+    "packettracer-view",
+    "text-view",
+    "packettracer-view",
+    "blank-view"
+   ],
+   "unit_complete": false,
+   "status": "completed",
+   "notes": [],
+   "seconds": 7.1,
+   "outline_after": "completed",
+   "server_status": "completed"
+  },
+  {
+   "item": "16.3.3",
+   "title": "What did I learn in this module?",
+   "module": 16,
+   "type": "SUMMARY",
+   "components": [
+    "text-view",
+    "blank-view"
+   ],
+   "unit_complete": false,
+   "status": "completed",
+   "notes": [
+    "unit complete"
+   ],
+   "seconds": 5.3,
+   "outline_after": "completed",
+   "server_status": "completed"
+  },
+  {
+   "item": "16.3.4",
+   "title": "Module Quiz - Troubleshoot Static and Default Routes",
+   "module": 16,
+   "type": "ASSESSMENT",
+   "components": [
+    "adaptive-start-screen-view",
+    "quicknav-view"
+   ],
+   "unit_complete": false,
+   "status": "needs_user",
+   "notes": [
+    "graded assessment - never automated"
+   ],
+   "seconds": 3.1
+  },
+  {
+   "item": "17.0.1",
+   "title": "Why Should I Take This Module?",
+   "module": 17,
+   "type": "INTRODUCTION",
+   "components": [
+    "text-view",
+    "blank-view"
+   ],
+   "unit_complete": false,
+   "status": "completed",
+   "notes": [
+    "completed after scrolling into view"
+   ],
+   "seconds": 8.5,
+   "outline_after": "completed",
+   "server_status": "start",
+   "retry": {
+    "error": "Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception\nStacktrace:\nSymbols not av"
+   }
+  },
+  {
+   "item": "17.0.2",
+   "title": "What Will I Learn in This Module?",
+   "module": 17,
+   "type": "INTRODUCTION",
+   "components": [
+    "table-view",
+    "quicknav-view"
+   ],
+   "unit_complete": true,
+   "status": "already_complete",
+   "notes": [],
+   "seconds": 3.6,
+   "outline_after": "completed"
+  },
+  {
+   "item": "17.1.1",
+   "title": "STP versus RSTP",
+   "module": 17,
+   "type": "LESSON",
+   "components": [
+    "table-view",
+    "blank-view"
+   ],
+   "unit_complete": false,
+   "status": "completed",
+   "notes": [
+    "completed after scrolling into view"
+   ],
+   "seconds": 6.6,
+   "outline_after": "completed",
+   "server_status": "completed"
+  },
+  {
+   "item": "17.1.2",
+   "title": "RSTP Port States",
+   "module": 17,
+   "type": "LESSON",
+   "components": [
+    "text-view",
+    "dynamic-graphic-view",
+    "table-view",
+    "text-view",
+    "blank-view"
+   ],
+   "unit_complete": false,
+   "status": "completed",
+   "notes": [
+    "completed after scrolling into view"
+   ],
+   "seconds": 6.4,
+   "outline_after": "completed",
+   "server_status": "completed"
+  },
+  {
+   "item": "17.1.3",
+   "title": "RSTP Port Roles",
+   "module": 17,
+   "type": "LESSON",
+   "components": [
+    "table-view",
+    "text-view",
+    "dynamic-graphic-view",
+    "blank-view"
+   ],
+   "unit_complete": false,
+   "status": "completed",
+   "notes": [
+    "completed after scrolling into view"
+   ],
+   "seconds": 6.8,
+   "outline_after": "completed",
+   "server_status": "completed"
+  },
+  {
+   "item": "17.1.4",
+   "title": "RSTP Link Types and Edge Ports",
+   "module": 17,
+   "type": "LESSON",
+   "components": [
+    "text-view",
+    "dynamic-graphic-view",
+    "commandwindow-view",
+    "text-view",
+    "blank-view"
+   ],
+   "unit_complete": false,
+   "status": "completed",
+   "notes": [
+    "completed after scrolling into view"
+   ],
+   "seconds": 6.6,
+   "outline_after": "completed",
+   "server_status": "completed"
+  },
+  {
+   "item": "17.1.5",
+   "title": "Practice - Step 1: Elect the Root Bridge",
+   "module": 17,
+   "type": "KNOWLEDGE_CHECK",
+   "components": [
+    "text-view",
+    "dynamic-graphic-view",
+    "mcq-view",
+    "blank-view"
+   ],
+   "unit_complete": false,
+   "status": "completed",
+   "notes": [],
+   "seconds": 4.1,
+   "outline_after": "completed",
+   "server_status": "completed"
+  },
+  {
+   "item": "17.1.6",
+   "title": "Practice - Step 2: Select Root Ports",
+   "module": 17,
+   "type": "KNOWLEDGE_CHECK",
+   "components": [
+    "text-view",
+    "dynamic-graphic-view",
+    "mcq-view",
+    "blank-view"
+   ],
+   "unit_complete": false,
+   "status": "completed",
+   "notes": [],
+   "seconds": 4.4,
+   "outline_after": "completed",
+   "server_status": "completed"
+  },
+  {
+   "item": "17.1.7",
+   "title": "Practice - Step 3: Select the Designated Ports",
+   "module": 17,
+   "type": "KNOWLEDGE_CHECK",
+   "components": [
+    "text-view",
+    "dynamic-graphic-view",
+    "mcq-view",
+    "blank-view"
+   ],
+   "unit_complete": false,
+   "status": "completed",
+   "notes": [],
+   "seconds": 4.6,
+   "outline_after": "completed",
+   "server_status": "completed"
+  },
+  {
+   "item": "17.1.8",
+   "title": "Practice - Step 4: Select the Alternate Ports",
+   "module": 17,
+   "type": "KNOWLEDGE_CHECK",
+   "components": [
+    "text-view",
+    "dynamic-graphic-view",
+    "mcq-view",
+    "blank-view"
+   ],
+   "unit_complete": false,
+   "status": "completed",
+   "notes": [],
+   "seconds": 4.5,
+   "outline_after": "completed",
+   "server_status": "completed"
+  },
+  {
+   "item": "17.1.9",
+   "title": "Step 5: Select Backup Ports",
+   "module": 17,
+   "type": "LESSON",
+   "components": [
+    "text-view",
+    "dynamic-graphic-view",
+    "text-view",
+    "dynamic-graphic-view",
+    "quicknav-view"
+   ],
+   "unit_complete": false,
+   "status": "completed",
+   "notes": [
+    "completed after scrolling into view"
+   ],
+   "seconds": 6.2,
+   "outline_after": "completed",
+   "server_status": "completed"
+  },
+  {
+   "item": "17.2.1",
+   "title": "Potential STP Problems",
+   "module": 17,
+   "type": "INTERACTIVE",
+   "components": [
+    "accordion-view",
+    "blank-view"
+   ],
+   "unit_complete": false,
+   "status": "completed",
+   "notes": [
+    "unit complete"
+   ],
+   "seconds": 10.1,
+   "outline_after": "completed",
+   "server_status": "completed"
+  },
+  {
+   "item": "17.2.2",
+   "title": "STP Enhancement Mechanisms",
+   "module": 17,
+   "type": "LESSON",
+   "components": [
+    "table-view",
+    "blank-view"
+   ],
+   "unit_complete": false,
+   "status": "completed",
+   "notes": [
+    "completed after scrolling into view"
+   ],
+   "seconds": 5.2,
+   "outline_after": "completed",
+   "server_status": "completed"
+  },
+  {
+   "item": "17.2.3",
+   "title": "BPDU Guard",
+   "module": 17,
+   "type": "LESSON",
+   "components": [
+    "text-view",
+    "blank-view"
+   ],
+   "unit_complete": false,
+   "status": "completed",
+   "notes": [
+    "completed after scrolling into view"
+   ],
+   "seconds": 4.6,
+   "outline_after": "completed",
+   "server_status": "completed"
+  },
+  {
+   "item": "17.2.4",
+   "title": "Example: Configure BPDU Guard",
+   "module": 17,
+   "type": "LESSON",
+   "components": [
+    "text-view",
+    "dynamic-graphic-view",
+    "commandwindow-view",
+    "text-view",
+    "commandwindow-view",
+    "text-view",
+    "commandwindow-view",
+    "blank-view"
+   ],
+   "unit_complete": false,
+   "status": "completed",
+   "notes": [
+    "completed after scrolling into view"
+   ],
+   "seconds": 8.6,
+   "outline_after": "completed",
+   "server_status": "completed"
+  },
+  {
+   "item": "17.2.5",
+   "title": "BPDU Filter",
+   "module": 17,
+   "type": "LESSON",
+   "components": [
+    "text-view",
+    "blank-view"
+   ],
+   "unit_complete": false,
+   "status": "completed",
+   "notes": [
+    "completed after scrolling into view"
+   ],
+   "seconds": 5.2,
+   "outline_after": "completed",
+   "server_status": "completed"
+  },
+  {
+   "item": "17.2.6",
+   "title": "Example: Configure BPDU Filter",
+   "module": 17,
+   "type": "LESSON",
+   "components": [
+    "text-view",
+    "commandwindow-view",
+    "dynamic-graphic-view",
+    "text-view",
+    "commandwindow-view",
+    "blank-view"
+   ],
+   "unit_complete": false,
+   "status": "completed",
+   "notes": [
+    "completed after scrolling into view"
+   ],
+   "seconds": 6.8,
+   "outline_after": "completed",
+   "server_status": "completed"
+  },
+  {
+   "item": "17.2.7",
+   "title": "Root Guard",
+   "module": 17,
+   "type": "LESSON",
+   "components": [
+    "text-view",
+    "blank-view"
+   ],
+   "unit_complete": true,
+   "status": "already_complete",
+   "notes": [],
+   "seconds": 78.0,
+   "outline_after": "completed"
+  },
+  {
+   "item": "17.2.8",
+   "title": "Example: Configure Root Guard",
+   "module": 17,
+   "type": "LESSON",
+   "components": [
+    "text-view",
+    "dynamic-graphic-view",
+    "commandwindow-view",
+    "text-view",
+    "commandwindow-view",
+    "text-view",
+    "commandwindow-view",
+    "text-view",
+    "commandwindow-view",
+    "blank-view"
+   ],
+   "unit_complete": false,
+   "status": "completed",
+   "notes": [
+    "completed after scrolling into view"
+   ],
+   "seconds": 8.7,
+   "outline_after": "completed",
+   "server_status": "completed"
+  },
+  {
+   "item": "17.2.9",
+   "title": "Loop Guard",
+   "module": 17,
+   "type": "LESSON",
+   "components": [
+    "text-view",
+    "blank-view"
+   ],
+   "unit_complete": false,
+   "status": "completed",
+   "notes": [
+    "completed after scrolling into view"
+   ],
+   "seconds": 5.1,
+   "outline_after": "completed",
+   "server_status": "completed"
+  },
+  {
+   "item": "17.2.10",
+   "title": "Example: Configure Loop Guard",
+   "module": 17,
+   "type": "LESSON",
+   "components": [
+    "text-view",
+    "commandwindow-view",
+    "dynamic-graphic-view",
+    "blank-view"
+   ],
+   "unit_complete": false,
+   "status": "completed",
+   "notes": [
+    "completed after scrolling into view"
+   ],
+   "seconds": 5.8,
+   "outline_after": "completed",
+   "server_status": "completed"
+  },
+  {
+   "item": "17.2.11",
+   "title": "Lab - Implement Advanced STP Modifications and Mechanisms (Optional)",
+   "module": 17,
+   "type": "LAB",
+   "components": [
+    "pagetracer-view",
+    "quicknav-view"
+   ],
+   "unit_complete": false,
+   "status": "completed",
+   "notes": [],
+   "seconds": 5.3,
+   "outline_after": "completed",
+   "server_status": "completed"
+  },
+  {
+   "item": "17.3.1",
+   "title": "What Did I Learn in This Module?",
+   "module": 17,
+   "type": "INTERACTIVE",
+   "components": [
+    "accordion-view",
+    "blank-view"
+   ],
+   "unit_complete": false,
+   "status": "completed",
+   "notes": [
+    "unit complete"
+   ],
+   "seconds": 7.3,
+   "outline_after": "completed",
+   "server_status": "completed"
+  },
+  {
+   "item": "17.3.2",
+   "title": "Module Quiz",
+   "module": 17,
+   "type": "ASSESSMENT",
+   "components": [
+    "adaptive-start-screen-view",
+    "quicknav-view"
+   ],
+   "unit_complete": false,
+   "status": "needs_user",
+   "notes": [
+    "graded assessment - never automated"
+   ],
+   "seconds": 3.1
+  }
+ ],
+ "needs_user": [
+  {
+   "item": "3.6.4",
+   "why": "graded assessment - never automated"
+  },
+  {
+   "item": "4.5.4",
+   "why": "graded assessment - never automated"
+  },
+  {
+   "item": "5.4.2",
+   "why": "graded assessment - never automated"
+  },
+  {
+   "item": "6.4.4",
+   "why": "graded assessment - never automated"
+  },
+  {
+   "item": "7.4.4",
+   "why": "graded assessment - never automated"
+  },
+  {
+   "item": "8.5.3",
+   "why": "graded assessment - never automated"
+  },
+  {
+   "item": "9.3.2",
+   "why": "graded assessment - never automated"
+  },
+  {
+   "item": "12.8.2",
+   "why": "graded assessment - never automated"
+  },
+  {
+   "item": "14.6.2",
+   "why": "graded assessment - never automated"
+  },
+  {
+   "item": "15.6.4",
+   "why": "graded assessment - never automated"
+  },
+  {
+   "item": "16.3.4",
+   "why": "graded assessment - never automated"
+  },
+  {
+   "item": "17.3.2",
+   "why": "graded assessment - never automated"
+  }
+ ],
+ "failed": [
+  {
+   "item": "3.1.5",
+   "title": "Check Your Understanding - Overview of VLANs",
+   "module": 3,
+   "type": "UNKNOWN",
+   "components": [],
+   "unit_complete": null,
+   "status": "unknown"
+  },
+  {
+   "item": "14.4.1",
+   "title": "Route Sources",
+   "module": 14,
+   "type": "INTERACTIVE",
+   "components": [
+    "text-view",
+    "dynamic-graphic-view",
+    "text-view",
+    "tabs-view",
+    "text-view",
+    "blank-view"
+   ],
+   "unit_complete": false,
+   "status": "failed",
+   "notes": [
+    "unit still incomplete after processing interactives"
+   ],
+   "seconds": 90.0
+  }
+ ],
+ "finished_at": "2026-10-11T16:28:04",
+ "reverted": [
+  {
+   "item": "3.2.9",
+   "server_status": "start"
+  },
+  {
+   "item": "3.5.6",
+   "server_status": "start"
+  },
+  {
+   "item": "9.0.1",
+   "server_status": "start"
+  },
+  {
+   "item": "16.0.1",
+   "server_status": "start"
+  },
+  {
+   "item": "17.0.1",
+   "server_status": "start"
+  }
+ ]
+}
