@@ -171,12 +171,131 @@ def current_texts(sb):
     return texts, total
 
 
+# ---------------------------------------------------------------------------------------------------------
+# On-screen HIGHLIGHT (display only). Marks the option(s) that match YOUR saved answer with a green outline, and
+# tags matching rows with "-> answer". It only changes styling / adds a non-clickable label: it never clicks,
+# selects, or submits anything - you still do that yourself.
+# ---------------------------------------------------------------------------------------------------------
+JS_MARK_MCQ = cf.JS_BY_ID + r"""
+// Mark the option(s) whose index is in arguments[1]: a green "ANSWER" tag in front of the option + a green
+// outline around it. Styling/label only (pointer-events:none) - nothing is clicked or selected.
+const m = byId(arguments[0]); if (!m) return 0;
+const want = (arguments[1] || []).map(Number); let n = 0;
+const paint = (e, on) => { if (!e) return;
+  e.style.outline = on ? '3px solid #2e9e1f' : ''; e.style.outlineOffset = on ? '-3px' : '';
+  e.style.boxShadow = on ? 'inset 10px 0 0 #2e9e1f' : ''; };
+for (const o of deepQ('.mcq__item', m)) {
+  const on = want.includes(Number(o.getAttribute('data-socialgoodpulse-index')));
+  const lab = deepQ('label.mcq__item-label', o)[0] || o;
+  let badge = deepQ('[data-assist-badge]', o)[0];
+  if (on) {
+    paint(o, true); paint(lab, true);
+    if (!badge) {
+      badge = document.createElement('span'); badge.setAttribute('data-assist-badge', '1');
+      badge.textContent = '✔ ANSWER';
+      badge.style.cssText = 'display:inline-block;flex:0 0 auto;align-self:center;margin:0 10px 0 14px;padding:3px 9px;'
+        + 'background:#2e9e1f;color:#fff;font:700 12px/1.3 system-ui,Arial;border-radius:12px;white-space:nowrap;'
+        + 'pointer-events:none;letter-spacing:.3px';
+      lab.insertBefore(badge, lab.firstChild);     // in FRONT of the option, outside its text element
+    }
+    n++;
+  } else {
+    if (badge) badge.remove();
+    if (o.style.outline || lab.style.outline) { paint(o, false); paint(lab, false); }
+  }
+}
+return n;
+"""
+_TAG_CSS = ("display:block;margin-top:4px;font:700 12px/1.35 system-ui,Arial;color:#0b5d1e;background:#d9f7c9;"
+            "border-left:4px solid #66c430;padding:2px 6px;border-radius:3px;pointer-events:none;text-align:left")
+JS_MARK_ROWS = cf.JS_BY_ID + r"""
+// arguments: modelid, [[key, answerText], ...], rowSelectorPrefix, titleSelector, css
+const m = byId(arguments[0]); if (!m) return 0;
+const css = arguments[4]; let n = 0;
+for (const [key, ans] of (arguments[1] || [])) {
+  if (!ans) continue;
+  const row = deepQ(arguments[2] + '"' + key + '"]', m)[0]; if (!row) continue;
+  const host = (arguments[3] ? deepQ(arguments[3], row)[0] : null) || row;
+  let tag = deepQ('[data-assist-mark]', row)[0];
+  if (!tag) { tag = document.createElement('span'); tag.setAttribute('data-assist-mark', '1'); tag.style.cssText = css; host.appendChild(tag); }
+  const txt = '→ ' + ans;
+  if (tag.textContent !== txt) tag.textContent = txt;
+  n++;
+}
+return n;
+"""
+JS_ONSCREEN_MATCH_ID = cf.JS_DEEP + r"""
+const vh = window.innerHeight || 9999, vw = window.innerWidth || 9999;
+const onscreen = (e) => { const r = e.getBoundingClientRect();
+  return Math.max(0, Math.min(r.right, vw) - Math.max(r.left, 0)) * Math.max(0, Math.min(r.bottom, vh) - Math.max(r.top, 0)); };
+let best = null, bestArea = 0;
+for (const tag of ['matching-view', 'object-matching-view']) {
+  for (const m of deepQ(tag)) {
+    const b = deepQ('.matching__body-inner, .component__body-inner', m)[0]; if (!b) continue;
+    const a = onscreen(b); if (a > bestArea) { bestArea = a; best = m; }
+  }
+}
+return best ? {tag: best.tagName.toLowerCase(), modelid: best.getAttribute('modelid')} : null;
+"""
+
+
+def _prompt_key(text):
+    """Normalized prompt, ignoring a tag we appended earlier ("... -> answer") and a trailing category letter."""
+    t = (text or "").split("→")[0].strip()
+    return normalize(t), normalize(re.sub(r"\s+[A-Z]$", "", t))
+
+
+def build_highlight(sb, rec):
+    """Work out what to mark for the question on screen. Returns (script, args) to run, or None.
+    Reads the page only; the returned script only styles/labels elements."""
+    cf.enter(sb)
+    aid = qx.secure_state(sb).get("active_id")
+    if aid and rec.get("answer_texts"):
+        q = next((x for x in qx.extract(sb, [aid]) if x.get("options")), None)
+        if not q:
+            return None
+        want = {normalize(t) for t in rec["answer_texts"]}
+        idx = [o["index"] for o in q["options"] if normalize(o["text"]) in want]
+        return (JS_MARK_MCQ, [aid, idx]) if idx else None
+    if not aid and rec.get("pairs"):
+        info = sb.execute_script(JS_ONSCREEN_MATCH_ID)
+        if not info or not info.get("modelid"):
+            return None
+        pairs = {normalize(p["prompt"]): p["answer"] for p in rec["pairs"]}
+
+        def answer_for(text):
+            k1, k2 = _prompt_key(text)
+            return pairs.get(k1) or pairs.get(k2)
+
+        mid = info["modelid"]
+        if info["tag"] == "matching-view":
+            mq = next(iter(qx.extract_matching(sb, [mid])), None)
+            rows = [[str(d["index"]), answer_for(d.get("title"))] for d in (mq or {}).get("dropdowns", [])]
+            return (JS_MARK_ROWS, [mid, rows, 'matching-dropdown-view[index=', '.matching__item-title', _TAG_CSS])
+        oq = next(iter(qx.extract_object_matching(sb, [mid])), None)
+        rows = [[str(c["id"]), answer_for(c.get("text"))] for c in (oq or {}).get("categories", [])]
+        return (JS_MARK_ROWS, [mid, rows, 'button.objectMatching-category-item[data-id=', '', _TAG_CSS])
+    return None
+
+
+def apply_highlight(sb, call):
+    """Run a cached highlight call (idempotent - safe to repeat every poll so marks survive a re-render)."""
+    if not call:
+        return 0
+    try:
+        cf.enter(sb)
+        return sb.execute_script(call[0], *call[1]) or 0
+    except Exception:
+        return 0
+
+
 def main() -> int:
     ap = argparse.ArgumentParser()
     ap.add_argument("--course", default=None, help="course key from config/courses.json (default: ask)")
     ap.add_argument("--profile", default=None, help="account profile name -> Chrome profile dir profile_<name>")
     ap.add_argument("--fresh-login", action="store_true", help="clear cookies in the profile first (sign in again)")
     ap.add_argument("--keep-session", action="store_true", help="remember the login between runs")
+    ap.add_argument("--no-highlight", action="store_true", help="panel only; do not mark the answer on the page")
     args = ap.parse_args()
     if args.keep_session:
         os.environ["NETACAD_SESSION_MODE"] = "persistent"
@@ -257,10 +376,12 @@ def main() -> int:
         open_course(sb, cfg)
         log.info("Ready. A green 'Fetch answers' button is pinned top-left. Open a quiz/exam, get a question on")
         log.info("screen, then click it once — the panel then FOLLOWS you, showing each question's answer as you go.")
+        log.info("It also outlines your saved answer on the page (display only; --no-highlight turns it off).")
         log.info("This tool does NOT press Start / select / submit / skip. Ctrl+C here to stop.")
         seen_clicks = run_js(sb, JS_BALL) or 0
         following = False
         last_key = None
+        hl_call = None          # cached (script, args) for the question on screen
         try:
             while True:
                 clicks = run_js(sb, JS_BALL)
@@ -282,6 +403,7 @@ def main() -> int:
                         key = (m["item"], m["cur_norm"], bool(m["rec"]))
                         if key != last_key:
                             last_key = key
+                            hl_call = None
                             title = (info["title"] if m["item"].startswith("exam-")
                                      else f"Quiz {m['item']} — {info['title']}")
                             run_js(sb, JS_PANEL, render_panel(title, info, m))
@@ -290,6 +412,13 @@ def main() -> int:
                                          (format_answer(m["rec"]).replace("<br>", " / "))[:80])
                             elif m["cur_text"]:
                                 log.info("%s: question on screen not in saved answers", m["item"])
+                        if m["rec"] and not args.no_highlight:
+                            if hl_call is None:           # options can render a beat after the question text
+                                try:
+                                    hl_call = build_highlight(sb, m["rec"])
+                                except Exception as e:  # noqa: BLE001
+                                    log.debug("highlight build error: %s", str(e).splitlines()[0][:120])
+                            apply_highlight(sb, hl_call)
                     elif last_key is None:    # armed but nothing identified yet
                         run_js(sb, JS_PANEL,
                                "<div style='font-weight:700;margin-bottom:6px'>Following…</div>"
