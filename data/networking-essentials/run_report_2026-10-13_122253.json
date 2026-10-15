@@ -1,0 +1,406 @@
+{
+ "started_at": "2026-10-13T12:22:53",
+ "items": [
+  {
+   "item": "1.0.1",
+   "title": "Webster - Why Should I Take this Module?",
+   "module": 1,
+   "type": "INTRODUCTION",
+   "components": [
+    "text-view",
+    "graphic-view"
+   ],
+   "unit_complete": false,
+   "status": "completed",
+   "notes": [
+    "completed after scrolling into view"
+   ],
+   "seconds": 8.0,
+   "outline_after": "in progress"
+  },
+  {
+   "item": "1.0.2",
+   "title": "What Will I Learn in this Module?",
+   "module": 1,
+   "type": "INTRODUCTION",
+   "components": [
+    "table-view",
+    "quicknav-view"
+   ],
+   "unit_complete": true,
+   "status": "already_complete",
+   "notes": [],
+   "seconds": 4.1,
+   "outline_after": "completed"
+  },
+  {
+   "item": "1.1.1",
+   "title": "Video - Welcome to the World of Networking",
+   "module": 1,
+   "type": "VIDEO",
+   "components": [
+    "media-view"
+   ],
+   "unit_complete": false,
+   "status": "completed",
+   "notes": [],
+   "seconds": 28.8,
+   "outline_after": "completed"
+  },
+  {
+   "item": "1.1.2",
+   "title": "Everything is Online",
+   "module": 1,
+   "type": "LESSON",
+   "components": [
+    "graphic-view"
+   ],
+   "unit_complete": false,
+   "status": "completed",
+   "notes": [
+    "completed after scrolling into view"
+   ],
+   "seconds": 5.2,
+   "outline_after": "completed"
+  },
+  {
+   "item": "1.1.3",
+   "title": "Who Owns “The Internet”?",
+   "module": 1,
+   "type": "LESSON",
+   "components": [
+    "dynamic-graphic-view"
+   ],
+   "unit_complete": false,
+   "status": "completed",
+   "notes": [
+    "completed after scrolling into view"
+   ],
+   "seconds": 4.5,
+   "outline_after": "completed"
+  },
+  {
+   "item": "1.1.4",
+   "title": "Local Networks",
+   "module": 1,
+   "type": "INTERACTIVE",
+   "components": [
+    "tabs-view"
+   ],
+   "unit_complete": false,
+   "status": "completed",
+   "notes": [
+    "unit complete"
+   ],
+   "seconds": 7.1,
+   "outline_after": "completed"
+  },
+  {
+   "item": "1.1.5",
+   "title": "Mobile Devices",
+   "module": 1,
+   "type": "INTERACTIVE",
+   "components": [
+    "tabs-view"
+   ],
+   "unit_complete": false,
+   "status": "completed",
+   "notes": [
+    "unit complete"
+   ],
+   "seconds": 6.9,
+   "outline_after": "completed"
+  },
+  {
+   "item": "1.1.6",
+   "title": "Connected Home Devices",
+   "module": 1,
+   "type": "INTERACTIVE",
+   "components": [
+    "tabs-view"
+   ],
+   "unit_complete": false,
+   "status": "completed",
+   "notes": [
+    "unit complete"
+   ],
+   "seconds": 7.0,
+   "outline_after": "completed"
+  },
+  {
+   "item": "1.1.7",
+   "title": "Other Connected Devices",
+   "module": 1,
+   "type": "INTERACTIVE",
+   "components": [
+    "tabs-view",
+    "blank-view"
+   ],
+   "unit_complete": false,
+   "status": "completed",
+   "notes": [
+    "unit complete"
+   ],
+   "seconds": 7.9,
+   "outline_after": "completed"
+  },
+  {
+   "item": "1.1.8",
+   "title": "Check Your Understanding - Network Types",
+   "module": 1,
+   "type": "KNOWLEDGE_CHECK",
+   "components": [
+    "mcq-view",
+    "mcq-view",
+    "quicknav-view"
+   ],
+   "unit_complete": false,
+   "status": "completed",
+   "notes": [],
+   "seconds": 4.9,
+   "outline_after": "completed"
+  },
+  {
+   "item": "1.2.1",
+   "title": "Video - Types of Personal Data",
+   "module": 1,
+   "type": "VIDEO",
+   "components": [
+    "media-view"
+   ],
+   "unit_complete": false,
+   "status": "completed",
+   "notes": [],
+   "seconds": 25.7,
+   "outline_after": "completed"
+  },
+  {
+   "item": "1.2.2",
+   "title": "The Bit",
+   "module": 1,
+   "type": "LESSON",
+   "components": [
+    "text-view",
+    "ascii-translator-view"
+   ],
+   "unit_complete": false,
+   "status": "completed",
+   "notes": [
+    "completed after scrolling into view"
+   ],
+   "seconds": 4.8,
+   "outline_after": "completed"
+  },
+  {
+   "item": "1.2.3",
+   "title": "Common Methods of Data Transmission",
+   "module": 1,
+   "type": "INTERACTIVE",
+   "components": [
+    "adobe-animate-view",
+    "blank-view"
+   ],
+   "unit_complete": false,
+   "status": "completed",
+   "notes": [
+    "unit complete"
+   ],
+   "seconds": 6.1,
+   "outline_after": "completed"
+  },
+  {
+   "item": "1.2.4",
+   "title": "Check Your Understanding - Data Transmission",
+   "module": 1,
+   "type": "KNOWLEDGE_CHECK",
+   "components": [
+    "mcq-view",
+    "mcq-view",
+    "mcq-view",
+    "quicknav-view"
+   ],
+   "unit_complete": false,
+   "status": "completed",
+   "notes": [],
+   "seconds": 5.7,
+   "outline_after": "completed"
+  },
+  {
+   "item": "1.3.1",
+   "title": "Bandwidth",
+   "module": 1,
+   "type": "LESSON",
+   "components": [
+    "table-view"
+   ],
+   "unit_complete": false,
+   "status": "completed",
+   "notes": [
+    "completed after scrolling into view"
+   ],
+   "seconds": 5.6,
+   "outline_after": "completed"
+  },
+  {
+   "item": "1.3.2",
+   "title": "Throughput",
+   "module": 1,
+   "type": "LESSON",
+   "components": [
+    "text-view"
+   ],
+   "unit_complete": false,
+   "status": "completed",
+   "notes": [
+    "completed after scrolling into view"
+   ],
+   "seconds": 4.0,
+   "outline_after": "completed"
+  },
+  {
+   "item": "1.3.3",
+   "title": "Video - Throughput",
+   "module": 1,
+   "type": "VIDEO",
+   "components": [
+    "media-view",
+    "blank-view"
+   ],
+   "unit_complete": false,
+   "status": "completed",
+   "notes": [],
+   "seconds": 23.3,
+   "outline_after": "completed"
+  },
+  {
+   "item": "1.3.4",
+   "title": "Check Your Understanding - Bandwidth and Throughput",
+   "module": 1,
+   "type": "KNOWLEDGE_CHECK",
+   "components": [
+    "mcq-view",
+    "mcq-view",
+    "mcq-view",
+    "quicknav-view"
+   ],
+   "unit_complete": false,
+   "status": "completed",
+   "notes": [],
+   "seconds": 5.5,
+   "outline_after": "completed"
+  },
+  {
+   "item": "1.4.1",
+   "title": "What Did I Learn in this Module?",
+   "module": 1,
+   "type": "INTERACTIVE",
+   "components": [
+    "accordion-view"
+   ],
+   "unit_complete": false,
+   "status": "completed",
+   "notes": [
+    "unit complete"
+   ],
+   "seconds": 7.2,
+   "outline_after": "completed"
+  },
+  {
+   "item": "1.4.2",
+   "title": "Webster - Reflection Questions",
+   "module": 1,
+   "type": "LESSON",
+   "components": [
+    "text-view",
+    "graphic-view",
+    "blank-view"
+   ],
+   "unit_complete": true,
+   "status": "already_complete",
+   "notes": [],
+   "seconds": 3.7,
+   "outline_after": "completed"
+  },
+  {
+   "item": "1.4.3",
+   "title": "Communications in a Connected World Quiz",
+   "module": 1,
+   "type": "ASSESSMENT",
+   "components": [
+    "adaptive-start-screen-view",
+    "quicknav-view"
+   ],
+   "unit_complete": false,
+   "status": "needs_user",
+   "notes": [
+    "graded assessment - never automated"
+   ],
+   "seconds": 4.3
+  },
+  {
+   "item": "2.0.1",
+   "title": "Webster - Why Should I Take this Module?",
+   "module": 2,
+   "type": "INTRODUCTION",
+   "components": [
+    "graphic-view",
+    "text-view"
+   ],
+   "unit_complete": false,
+   "status": "completed",
+   "notes": [
+    "completed after scrolling into view"
+   ],
+   "seconds": 8.0,
+   "outline_after": "completed"
+  },
+  {
+   "item": "2.0.2",
+   "title": "What Will I Learn in this Module?",
+   "module": 2,
+   "type": "INTRODUCTION",
+   "components": [
+    "table-view",
+    "quicknav-view"
+   ],
+   "unit_complete": true,
+   "status": "already_complete",
+   "notes": [],
+   "seconds": 3.9,
+   "outline_after": "completed"
+  },
+  {
+   "item": "2.1.1",
+   "title": "Video - Clients and Servers",
+   "module": 2,
+   "type": "VIDEO",
+   "components": [
+    "media-view"
+   ],
+   "unit_complete": false,
+   "status": "error",
+   "error": "Message: Active window was already closed!\n"
+  }
+ ],
+ "needs_user": [
+  {
+   "item": "1.4.3",
+   "why": "graded assessment - never automated"
+  }
+ ],
+ "failed": [
+  {
+   "item": "2.1.1",
+   "title": "Video - Clients and Servers",
+   "module": 2,
+   "type": "VIDEO",
+   "components": [
+    "media-view"
+   ],
+   "unit_complete": false,
+   "status": "error",
+   "error": "Message: Active window was already closed!\n"
+  }
+ ],
+ "finished_at": "2026-10-13T14:03:41"
+}

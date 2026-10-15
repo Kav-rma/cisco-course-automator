@@ -1,0 +1,23 @@
+{
+ "started_at": "2026-10-14T00:18:49",
+ "items": [
+  {
+   "item": "1.0.1",
+   "title": "Why should I take this module?",
+   "module": 1,
+   "status": "error",
+   "error": "Message: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"iframe[title=\"Course content\"]\"}\n  (Session info: chrome=155.0.8059.40); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexcept"
+  }
+ ],
+ "needs_user": [],
+ "failed": [
+  {
+   "item": "1.0.1",
+   "title": "Why should I take this module?",
+   "module": 1,
+   "status": "error",
+   "error": "Message: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"iframe[title=\"Course content\"]\"}\n  (Session info: chrome=155.0.8059.40); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexcept"
+  }
+ ],
+ "finished_at": "2026-10-14T00:27:45"
+}

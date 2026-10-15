@@ -1,0 +1,38 @@
+{
+ "started_at": "2026-10-12T15:52:55",
+ "items": [
+  {
+   "item": "1.0.1",
+   "title": "Why should I take this module?",
+   "module": 1,
+   "type": "INTRODUCTION",
+   "components": [
+    "text-view",
+    "blank-view"
+   ],
+   "unit_complete": true,
+   "status": "already_complete",
+   "notes": [],
+   "seconds": 3.6,
+   "outline_after": "completed"
+  },
+  {
+   "item": "1.1.1",
+   "title": "Switch Boot Sequence",
+   "module": 1,
+   "status": "error",
+   "error": "Message: Active window was already closed!\n"
+  }
+ ],
+ "needs_user": [],
+ "failed": [
+  {
+   "item": "1.1.1",
+   "title": "Switch Boot Sequence",
+   "module": 1,
+   "status": "error",
+   "error": "Message: Active window was already closed!\n"
+  }
+ ],
+ "finished_at": "2026-10-12T15:54:22"
+}
