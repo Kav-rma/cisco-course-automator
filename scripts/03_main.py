@@ -26,6 +26,7 @@ from core import navigator as nav  # noqa: E402
 from core.browser import launch, open_course, save_diagnostics  # noqa: E402
 from core.config import load_config, path as cfg_path  # noqa: E402
 from core.logger import get_logger  # noqa: E402
+from core.notify import browser_toast  # noqa: E402
 from core.page_detector import PageType, detect  # noqa: E402
 from handlers import HandlerContext, dispatch  # noqa: E402
 
@@ -126,6 +127,7 @@ def main() -> int:
     ap.add_argument("--fresh-login", action="store_true", help="(persistent mode) clear all cookies in the profile first, so Google/NetAcad ask you to sign in again")
     ap.add_argument("--keep-session", action="store_true", help="remember the login between runs in the project profile (default: fresh login every run, nothing saved)")
     ap.add_argument("--course", default=None, help="course key from config/courses.json (default: ask)")
+    ap.add_argument("--no-notify", action="store_true", help="no in-browser pop-ups (module finished / run finished)")
     args = ap.parse_args()
     import os as _os
     if args.keep_session:
@@ -147,12 +149,43 @@ def main() -> int:
         report["finished_at"] = datetime.now().isoformat(timespec="seconds")
         report_path.write_text(json.dumps(report, indent=1, ensure_ascii=False), encoding="utf-8")
 
+    # ---- in-browser pop-ups: one per finished module, one at the end of the run ----
+    notify_on = bool(run_cfg.get("notify", True)) and not args.no_notify
+    mod_stats: dict[str, dict] = {}   # node uuid -> {"name", "completed", "needs", "failed"}
+    cur_mod = None
+
+    def tally(node, entry):
+        st = mod_stats.setdefault(node["uuid"], {"name": node.get("title") or "Module", "completed": 0, "needs": 0, "failed": 0})
+        s = entry.get("status")
+        if s in ("completed", "already_complete", "dry_run"):
+            st["completed"] += 1
+        elif s == "needs_user":
+            st["needs"] += 1
+        else:
+            st["failed"] += 1
+
+    def module_done(uuid):
+        st = mod_stats.get(uuid) if uuid else None
+        if not st or not notify_on:
+            return
+        parts = [f"{st['completed']} completed"]
+        if st["needs"]:
+            parts.append(f"{st['needs']} need you")
+        if st["failed"]:
+            parts.append(f"{st['failed']} failed")
+        kind = "error" if st["failed"] else ("warn" if st["needs"] else "ok")
+        browser_toast(sb, f"{st['name']} - finished", " · ".join(parts), kind)
+        log.info("Module finished: %s (%s)", st["name"], ", ".join(parts))
+
     processed = consecutive_failures = 0
     with launch(cfg) as sb:
         try:
             open_course(sb, cfg)
             live = nav.live_node_progress(sb)
             for node, sec, it in plan(structure, modules, args.start):
+                if node["uuid"] != cur_mod:      # crossed into the next module -> the previous one is finished
+                    module_done(cur_mod)
+                    cur_mod = node["uuid"]
                 if args.max_items is not None and processed >= args.max_items:
                     log.info("Reached --max-items=%d", args.max_items)
                     break
@@ -238,6 +271,7 @@ def main() -> int:
                         entry["error"] = str(e)[:300]
                         report["failed"].append(entry)
                         consecutive_failures += 1
+                tally(node, entry)
                 if stop_run:
                     report["items"].append(entry)
                     break
@@ -247,16 +281,33 @@ def main() -> int:
                 if consecutive_failures >= int(run_cfg.get("max_consecutive_failures", 3)):
                     log.error("Stopping safely after %d consecutive failures", consecutive_failures)
                     break
+            module_done(cur_mod)                 # the last module of the run
+            cur_mod = None
             reconcile(sb, cfg, log, structure, report, run_cfg)
         except Exception as e:
             log.exception("main failed: %s", e)
             save_diagnostics(sb, cfg, "main_error")
+            report["crashed"] = str(e).splitlines()[0][:200] if str(e) else type(e).__name__
         finally:
             save_report()
+            if notify_on:   # shown before the browser closes, during the grace period below
+                n_done = sum(1 for x in report["items"] if x.get("status") in ("completed", "already_complete"))
+                if report.get("crashed"):
+                    browser_toast(sb, "Run stopped", f"Stopped with an error after {n_done} completed. See the log.",
+                                  "error", seconds=10)
+                else:
+                    parts = [f"{n_done} completed"]
+                    if report["needs_user"]:
+                        parts.append(f"{len(report['needs_user'])} need you")
+                    if report["failed"]:
+                        parts.append(f"{len(report['failed'])} failed")
+                    kind = "error" if report["failed"] else ("warn" if report["needs_user"] else "ok")
+                    browser_toast(sb, "Run finished", " · ".join(parts), kind, seconds=10)
             # Grace period before the browser closes: the player syncs progress (xAPI) asynchronously,
             # and one video completion was observed to be lost when the session ended immediately after it.
+            # (It also leaves the "Run finished" pop-up on screen long enough to read.)
             try:
-                time.sleep(8)
+                time.sleep(10 if notify_on else 8)
             except Exception:
                 pass
     done = sum(1 for x in report["items"] if x.get("status") in ("completed", "already_complete"))
